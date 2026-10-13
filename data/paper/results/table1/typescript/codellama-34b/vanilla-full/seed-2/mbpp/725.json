@@ -1,0 +1,22 @@
+{
+    "decoded": 80,
+    "llm_time": 4.2696685791015625,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020236968994140625,
+    "constrainer_time": 0.004892587661743164,
+    "total_time": 4.2968738079071045,
+    "frequency": {
+        "1": 81
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'null' is not assignable to type 'any[]'.",
+        "TS7034: Variable 'outputarray1' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+        "TS2552: Cannot find name 'inputarray'. Did you mean 'Int8Array'?",
+        "TS7005: Variable 'outputarray1' implicitly has an 'any[]' type."
+    ]
+}

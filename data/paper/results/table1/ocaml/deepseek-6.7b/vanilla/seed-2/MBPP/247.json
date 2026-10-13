@@ -1,0 +1,22 @@
+{
+    "decoded": 206,
+    "llm_time": 5.312258958816528,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0056149959564208984,
+    "constrainer_time": 0.04832816123962402,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.425231218338013,
+    "frequency": {
+        "1": 207
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/247.ml:3:36: The function applied to this argument has type\nint -> 'a -> 'a array array\nThis argument cannot be applied with label \"~dimx\""
+    ]
+}

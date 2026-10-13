@@ -1,0 +1,19 @@
+{
+    "total_time": 2.6610422134399414,
+    "llm_time": 2.6610422134399414,
+    "constrainer_time": 0.0,
+    "n_resamples": 17,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 3,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2352: Conversion of type 'number' to type '[undefined, undefined, undefined, undefined]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first."
+    ]
+}

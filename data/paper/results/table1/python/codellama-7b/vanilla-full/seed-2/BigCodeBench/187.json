@@ -1,0 +1,22 @@
+{
+    "decoded": 298,
+    "llm_time": 7.441287279129028,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007351875305175781,
+    "constrainer_time": 0.06907796859741211,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.613266468048096,
+    "frequency": {
+        "1": 299
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/187.py:13:17: undefined name 'pd'"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 103,
+    "llm_time": 2.5185675621032715,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002346515655517578,
+    "constrainer_time": 0.023844003677368164,
+    "total_time": 2.5703179836273193,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'null' is not assignable to type 'any[]'."
+    ]
+}

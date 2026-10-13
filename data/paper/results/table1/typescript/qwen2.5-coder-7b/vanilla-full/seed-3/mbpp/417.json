@@ -1,0 +1,22 @@
+{
+    "decoded": 32,
+    "llm_time": 0.830136775970459,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007798671722412109,
+    "constrainer_time": 0.007539033889770508,
+    "total_time": 0.8482773303985596,
+    "frequency": {
+        "1": 33
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS7006: Parameter 'arr' implicitly has an 'any' type.",
+        "TS7006: Parameter 'a' implicitly has an 'any' type.",
+        "TS7006: Parameter 'i' implicitly has an 'any' type."
+    ]
+}

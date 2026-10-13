@@ -1,0 +1,23 @@
+{
+    "decoded": 332,
+    "llm_time": 8.31562328338623,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008056879043579102,
+    "constrainer_time": 0.07619452476501465,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.514942407608032,
+    "frequency": {
+        "1": 333
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:47: undefined module member 'np.object'",
+        "<python>:15:97: undefined module member 'np.object'"
+    ]
+}

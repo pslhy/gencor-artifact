@@ -1,0 +1,182 @@
+[
+  {
+    "prompt": "//Write a function that takes an array of numbers as input and returns \n// the number of elements in the array that are greater than 10 and both \n// first and last digits of a number are odd (1, 3, 5, 7, 9).\n// For example:\n// >>> specialFilter([15, -73, 14, -15])\n// 1\n// >>> specialFilter([33, -2, -3, 45, 21, 109])\n// 2\nfunction specialFilter(nums: number[]): number {",
+    "task_id": "HumanEval/146",
+    "instruct_prompt": "Write a function that takes an array of numbers as input and returns\nthe number of elements in the array that are greater than 10 and both\nfirst and last digits of a number are odd (1, 3, 5, 7, 9).\nFor example:\n>>> specialFilter([15, -73, 14, -15])\n1\n>>> specialFilter([33, -2, -3, 45, 21, 109])\n2",
+    "code_prompt": "function specialFilter(nums: number[]): number {"
+  },
+  {
+    "prompt": "//You will be given the name of a class (a string) and an array of extensions.\n// The extensions are to be used to load additional classes to the class. The\n// strength of the extension is as follows: Let CAP be the number of the uppercase\n// letters in the extension's name, and let SM be the number of lowercase letters \n// in the extension's name, the strength is given by the fraction CAP - SM. \n// You should find the strongest extension and return a string in this \n// format: ClassName.StrongestExtensionName.\n// If there are two or more extensions with the same strength, you should\n// choose the one that comes first in the array.\n// For example, if you are given \"Slices\" as the class and an array of the\n// extensions: ['SErviNGSliCes', 'Cheese', 'StuFfed'] then you should\n// return 'Slices.SErviNGSliCes' since 'SErviNGSliCes' is the strongest extension \n// (its strength is -1).\n// Example:\n// >>> Strongest_Extension(\"my_class\", [\"AA\", \"Be\", \"CC\"])\n// \"my_class.AA\"\nfunction Strongest_Extension(class_name: string, extensions: string[]): string {",
+    "task_id": "HumanEval/153",
+    "instruct_prompt": "You will be given the name of a class (a string) and an array of extensions.\nThe extensions are to be used to load additional classes to the class. The\nstrength of the extension is as follows: Let CAP be the number of the uppercase\nletters in the extension's name, and let SM be the number of lowercase letters\nin the extension's name, the strength is given by the fraction CAP - SM.\nYou should find the strongest extension and return a string in this\nformat: ClassName.StrongestExtensionName.\nIf there are two or more extensions with the same strength, you should\nchoose the one that comes first in the array.\nFor example, if you are given \"Slices\" as the class and an array of the\nextensions: ['SErviNGSliCes', 'Cheese', 'StuFfed'] then you should\nreturn 'Slices.SErviNGSliCes' since 'SErviNGSliCes' is the strongest extension\n(its strength is -1).\nExample:\n>>> Strongest_Extension(\"my_class\", [\"AA\", \"Be\", \"CC\"])\n\"my_class.AA\"",
+    "code_prompt": "function Strongest_Extension(class_name: string, extensions: string[]): string {"
+  },
+  {
+    "prompt": "//Given a string, find out how many distinct characters (regardless of case) does it consist of\n// >>> count_distinct_characters(\"xyzXYZ\")\n// 3\n// >>> count_distinct_characters(\"Jerry\")\n// 4\nfunction count_distinct_characters(string: string): number {",
+    "task_id": "HumanEval/16",
+    "instruct_prompt": "Given a string, find out how many distinct characters (regardless of case) does it consist of\n>>> count_distinct_characters(\"xyzXYZ\")\n3\n>>> count_distinct_characters(\"Jerry\")\n4",
+    "code_prompt": "function count_distinct_characters(string: string): number {"
+  },
+  {
+    "prompt": "//Given a string 'text', return its md5 hash equivalent string.\n// If 'text' is an empty string, return undefined.\n// >>> string_to_md5(\"Hello world\")\n// \"3e25960a79dbc69b674cd4ec67a72c62\"\nfunction string_to_md5(text: string): string | undefined {",
+    "task_id": "HumanEval/162",
+    "instruct_prompt": "Given a string 'text', return its md5 hash equivalent string.\nIf 'text' is an empty string, return undefined.\n>>> string_to_md5(\"Hello world\")\n\"3e25960a79dbc69b674cd4ec67a72c62\"",
+    "code_prompt": "function string_to_md5(text: string): string | undefined {"
+  },
+  {
+    "prompt": "//Input is a space-delimited string of numberals from 'zero' to 'nine'.\n// Valid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.\n// Return the string with numbers sorted from smallest to largest\n// >>> sort_numbers(\"three one five\")\n// \"one three five\"\nfunction sort_numbers(numbers: string): string {",
+    "task_id": "HumanEval/19",
+    "instruct_prompt": "Input is a space-delimited string of numberals from 'zero' to 'nine'.\nValid choices are 'zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight' and 'nine'.\nReturn the string with numbers sorted from smallest to largest\n>>> sort_numbers(\"three one five\")\n\"one three five\"",
+    "code_prompt": "function sort_numbers(numbers: string): string {"
+  },
+  {
+    "prompt": "//This function takes an array l and returns an array l' such that\n// l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal\n// to the values of the corresponding indicies of l, but sorted.\n// >>> sort_third([1, 2, 3])\n// [1, 2, 3]\n// >>> sort_third([5, 6, 3, 4, 8, 9, 2])\n// [2, 6, 3, 4, 8, 9, 5]\nfunction sort_third(l: number[]): number[] {",
+    "task_id": "HumanEval/33",
+    "instruct_prompt": "This function takes an array l and returns an array l' such that\nl' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal\nto the values of the corresponding indicies of l, but sorted.\n>>> sort_third([1, 2, 3])\n[1, 2, 3]\n>>> sort_third([5, 6, 3, 4, 8, 9, 2])\n[2, 6, 3, 4, 8, 9, 5]",
+    "code_prompt": "function sort_third(l: number[]): number[] {"
+  },
+  {
+    "prompt": "//This function takes an array l and returns an array l' such that\n// l' is identical to l in the odd indicies, while its values at the even indicies are equal\n// to the values of the even indicies of l, but sorted.\n// >>> sort_even([1, 2, 3])\n// [1, 2, 3]\n// >>> sort_even([5, 6, 3, 4])\n// [3, 6, 5, 4]\nfunction sort_even(l: number[]): number[] {",
+    "task_id": "HumanEval/37",
+    "instruct_prompt": "This function takes an array l and returns an array l' such that\nl' is identical to l in the odd indicies, while its values at the even indicies are equal\nto the values of the even indicies of l, but sorted.\n>>> sort_even([1, 2, 3])\n[1, 2, 3]\n>>> sort_even([5, 6, 3, 4])\n[3, 6, 5, 4]",
+    "code_prompt": "function sort_even(l: number[]): number[] {"
+  },
+  {
+    "prompt": "//In this task, you will be given a string that represents a number of apples and oranges \n// that are distributed in a basket of fruit this basket contains \n// apples, oranges, and mango fruits. Given the string that represents the total number of \n// the oranges and apples and an integer that represent the total number of the fruits \n// in the basket return the number of the mango fruits in the basket.\n// for examble:\n// >>> fruit_distribution(\"5 apples and 6 oranges\", 19)\n// 8\n// >>> fruit_distribution(\"0 apples and 1 oranges\", 3)\n// 2\n// >>> fruit_distribution(\"2 apples and 3 oranges\", 100)\n// 95\n// >>> fruit_distribution(\"100 apples and 1 oranges\", 120)\n// 19\nfunction fruit_distribution(s: string, n: number): number {",
+    "task_id": "HumanEval/67",
+    "instruct_prompt": "In this task, you will be given a string that represents a number of apples and oranges\nthat are distributed in a basket of fruit this basket contains\napples, oranges, and mango fruits. Given the string that represents the total number of\nthe oranges and apples and an integer that represent the total number of the fruits\nin the basket return the number of the mango fruits in the basket.\nfor examble:\n>>> fruit_distribution(\"5 apples and 6 oranges\", 19)\n8\n>>> fruit_distribution(\"0 apples and 1 oranges\", 3)\n2\n>>> fruit_distribution(\"2 apples and 3 oranges\", 100)\n95\n>>> fruit_distribution(\"100 apples and 1 oranges\", 120)\n19",
+    "code_prompt": "function fruit_distribution(s: string, n: number): number {"
+  },
+  {
+    "prompt": "//Write a function that takes a message, and encodes in such a \n// way that it swaps case of all letters, replaces all vowels in \n// the message with the letter that appears 2 places ahead of that \n// vowel in the english alphabet. \n// Assume only letters. \n// Examples:\n// >>> encode(\"test\")\n// \"TGST\"\n// >>> encode(\"This is a message\")\n// \"tHKS KS C MGSSCGG\"\nfunction encode(message: string): string {",
+    "task_id": "HumanEval/93",
+    "instruct_prompt": "Write a function that takes a message, and encodes in such a\nway that it swaps case of all letters, replaces all vowels in\nthe message with the letter that appears 2 places ahead of that\nvowel in the english alphabet.\nAssume only letters.\nExamples:\n>>> encode(\"test\")\n\"TGST\"\n>>> encode(\"This is a message\")\n\"tHKS KS C MGSSCGG\"",
+    "code_prompt": "function encode(message: string): string {"
+  },
+  {
+    "prompt": "//You are given an array of integers.\n// You need to find the largest prime value and return the sum of its digits.\n// Examples:\n// >>> skjkasdkd([0, 3, 2, 1, 3, 5, 7, 4, 5, 5, 5, 2, 181, 32, 4, 32, 3, 2, 32, 324, 4, 3])\n// 10\n// >>> skjkasdkd([1, 0, 1, 8, 2, 4597, 2, 1, 3, 40, 1, 2, 1, 2, 4, 2, 5, 1])\n// 25\n// >>> skjkasdkd([1, 3, 1, 32, 5107, 34, 83278, 109, 163, 23, 2323, 32, 30, 1, 9, 3])\n// 13\n// >>> skjkasdkd([0, 724, 32, 71, 99, 32, 6, 0, 5, 91, 83, 0, 5, 6])\n// 11\n// >>> skjkasdkd([0, 81, 12, 3, 1, 21])\n// 3\n// >>> skjkasdkd([0, 8, 1, 2, 1, 7])\n// 7\nfunction skjkasdkd(lst: number[]): number {",
+    "task_id": "HumanEval/94",
+    "instruct_prompt": "You are given an array of integers.\nYou need to find the largest prime value and return the sum of its digits.\nExamples:\n>>> skjkasdkd([0, 3, 2, 1, 3, 5, 7, 4, 5, 5, 5, 2, 181, 32, 4, 32, 3, 2, 32, 324, 4, 3])\n10\n>>> skjkasdkd([1, 0, 1, 8, 2, 4597, 2, 1, 3, 40, 1, 2, 1, 2, 4, 2, 5, 1])\n25\n>>> skjkasdkd([1, 3, 1, 32, 5107, 34, 83278, 109, 163, 23, 2323, 32, 30, 1, 9, 3])\n13\n>>> skjkasdkd([0, 724, 32, 71, 99, 32, 6, 0, 5, 91, 83, 0, 5, 6])\n11\n>>> skjkasdkd([0, 81, 12, 3, 1, 21])\n3\n>>> skjkasdkd([0, 8, 1, 2, 1, 7])\n7",
+    "code_prompt": "function skjkasdkd(lst: number[]): number {"
+  },
+  {
+    "prompt": "//Write a function to find the next smallest palindrome of a specified integer, returned as an integer.\nfunction next_smallest_palindrome(num: number): number {",
+    "task_id": "mbpp/100",
+    "instruct_prompt": "Write a function to find the next smallest palindrome of a specified integer, returned as an integer.",
+    "code_prompt": "function next_smallest_palindrome(num: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find the item with maximum frequency in a given array.\nfunction max_occurrences(nums: number[]): number {",
+    "task_id": "mbpp/130",
+    "instruct_prompt": "Write a function to find the item with maximum frequency in a given array.",
+    "code_prompt": "function max_occurrences(nums: number[]): number {"
+  },
+  {
+    "prompt": "//Write a tsthon function to reverse only the vowels of a given string (where y is not a vowel).\nfunction reverse_vowels(str1: string): string {",
+    "task_id": "mbpp/131",
+    "instruct_prompt": "Write a tsthon function to reverse only the vowels of a given string (where y is not a vowel).",
+    "code_prompt": "function reverse_vowels(str1: string): string {"
+  },
+  {
+    "prompt": "//Write a tsthon function to convert complex numbers to polar coordinates.\nfunction convert(numbers: number): [number, number] {",
+    "task_id": "mbpp/252",
+    "instruct_prompt": "Write a tsthon function to convert complex numbers to polar coordinates.",
+    "code_prompt": "function convert(numbers: number): [number, number] {"
+  },
+  {
+    "prompt": "//Write a function that takes in an array of arrays and returns an array containing the rear element of each array.\nfunction rear_extract(test_list: [number, string, number][]): number[] {",
+    "task_id": "mbpp/272",
+    "instruct_prompt": "Write a function that takes in an array of arrays and returns an array containing the rear element of each array.",
+    "code_prompt": "function rear_extract(test_list: [number, string, number][]): number[] {"
+  },
+  {
+    "prompt": "//Write a function to find the number of elements that occurs before the array element in the given array.\nfunction count_first_elements(test_tup: (number | [number, number])[]): number {",
+    "task_id": "mbpp/278",
+    "instruct_prompt": "Write a function to find the number of elements that occurs before the array element in the given array.",
+    "code_prompt": "function count_first_elements(test_tup: (number | [number, number])[]): number {"
+  },
+  {
+    "prompt": "//Write a function to flatten a given nested array structure.\nfunction flatten_list(list1: (number | number[])[]): number[] {",
+    "task_id": "mbpp/297",
+    "instruct_prompt": "Write a function to flatten a given nested array structure.",
+    "code_prompt": "function flatten_list(list1: (number | number[])[]): number[] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find element at a given index after number of rotations.\nfunction find_Element(arr: number[], ranges: number[][], rotations: number, index: number): number {",
+    "task_id": "mbpp/304",
+    "instruct_prompt": "Write a tsthon function to find element at a given index after number of rotations.",
+    "code_prompt": "function find_Element(arr: number[], ranges: number[][], rotations: number, index: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find the n largest integers from a given array of numbers, returned in descending order.\nfunction heap_queue_largest(nums: number[], n: number): number[] {",
+    "task_id": "mbpp/4",
+    "instruct_prompt": "Write a function to find the n largest integers from a given array of numbers, returned in descending order.",
+    "code_prompt": "function heap_queue_largest(nums: number[], n: number): number[] {"
+  },
+  {
+    "prompt": "//Write a function to find common first element in given array of arrays.\nfunction group_tuples(Input: string[][]): string[][] {",
+    "task_id": "mbpp/417",
+    "instruct_prompt": "Write a function to find common first element in given array of arrays.",
+    "code_prompt": "function group_tuples(Input: string[][]): string[][] {"
+  },
+  {
+    "prompt": "//Write a function to concatenate each element of array by the delimiter.\nfunction concatenate_tuple(test_tup: [string, string, number, string]): string {",
+    "task_id": "mbpp/421",
+    "instruct_prompt": "Write a function to concatenate each element of array by the delimiter.",
+    "code_prompt": "function concatenate_tuple(test_tup: [string, string, number, string]): string {"
+  },
+  {
+    "prompt": "//Write a function to find the dissimilar elements in the given two arrays.\nfunction find_dissimilar(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/579",
+    "instruct_prompt": "Write a function to find the dissimilar elements in the given two arrays.",
+    "code_prompt": "function find_dissimilar(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to remove uneven elements in the nested mixed array.\nfunction extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {",
+    "task_id": "mbpp/580",
+    "instruct_prompt": "Write a function to remove uneven elements in the nested mixed array.",
+    "code_prompt": "function extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {"
+  },
+  {
+    "prompt": "//Write a function to find kth element from the given two sorted arrays.\nfunction find_kth(arr1: number[], arr2: number[], k: number): number {",
+    "task_id": "mbpp/597",
+    "instruct_prompt": "Write a function to find kth element from the given two sorted arrays.",
+    "code_prompt": "function find_kth(arr1: number[], arr2: number[], k: number): number {"
+  },
+  {
+    "prompt": "//Write a function to sort the given array.\nfunction heap_sort(iterable: number[]): number[] {",
+    "task_id": "mbpp/635",
+    "instruct_prompt": "Write a function to sort the given array.",
+    "code_prompt": "function heap_sort(iterable: number[]): number[] {"
+  },
+  {
+    "prompt": "//Write a function to flatten an array and sum all of its elements.\nfunction recursive_list_sum(data_list: (number | number[])[]): number {",
+    "task_id": "mbpp/65",
+    "instruct_prompt": "Write a function to flatten an array and sum all of its elements.",
+    "code_prompt": "function recursive_list_sum(data_list: (number | number[])[]): number {"
+  },
+  {
+    "prompt": "//Write a function to find the nth jacobsthal number. https://www.geeksforgeeks.org/jacobsthal-and-jacobsthal-lucas-numbers/ 0, 1, 1, 3, 5, 11, 21, 43, 85, 171, 341, 683, 1365, 2731, ...\nfunction jacobsthal_num(n: number): number {",
+    "task_id": "mbpp/752",
+    "instruct_prompt": "Write a function to find the nth jacobsthal number. https://www.geeksforgeeks.org/jacobsthal-and-jacobsthal-lucas-numbers/ 0, 1, 1, 3, 5, 11, 21, 43, 85, 171, 341, 683, 1365, 2731, ...",
+    "code_prompt": "function jacobsthal_num(n: number): number {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the sum of non-repeated elements in a given array.\nfunction find_sum(arr: number[]): number {",
+    "task_id": "mbpp/777",
+    "instruct_prompt": "Write a tsthon function to find the sum of non-repeated elements in a given array.",
+    "code_prompt": "function find_sum(arr: number[]): number {"
+  },
+  {
+    "prompt": "//Write a function to convert rgb color to hsv color. https://www.geeksforgeeks.org/program-change-rgb-color-model-hsv-color-model/\nfunction rgb_to_hsv(r: number, g: number, b: number): number[] {",
+    "task_id": "mbpp/783",
+    "instruct_prompt": "Write a function to convert rgb color to hsv color. https://www.geeksforgeeks.org/program-change-rgb-color-model-hsv-color-model/",
+    "code_prompt": "function rgb_to_hsv(r: number, g: number, b: number): number[] {"
+  },
+  {
+    "prompt": "//Given an array of arrays, write a function that returns the first value of the array with the smallest second value.\nfunction index_minimum(test_list: [string, number][]): string {",
+    "task_id": "mbpp/94",
+    "instruct_prompt": "Given an array of arrays, write a function that returns the first value of the array with the smallest second value.",
+    "code_prompt": "function index_minimum(test_list: [string, number][]): string {"
+  }
+]

@@ -1,0 +1,22 @@
+{
+    "decoded": 185,
+    "llm_time": 5.028934478759766,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0046269893646240234,
+    "constrainer_time": 0.04346466064453125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.144834280014038,
+    "frequency": {
+        "1": 186
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/144.ml:2:24: Unbound value \"split_on\""
+    ]
+}

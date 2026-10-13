@@ -1,0 +1,25 @@
+{
+    "decoded": 302,
+    "llm_time": 7.675289869308472,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007639169692993164,
+    "constrainer_time": 0.06895780563354492,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.865942478179932,
+    "frequency": {
+        "1": 303
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/360.py:23:9: undefined name 'sys'",
+        "BigCodeBench/360.py:25:13: undefined name 'sys'",
+        "BigCodeBench/360.py:26:13: undefined name 'sys'",
+        "BigCodeBench/360.py:27:13: undefined name 'time'"
+    ]
+}

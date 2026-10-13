@@ -1,0 +1,20 @@
+{
+    "decoded": 88,
+    "llm_time": 4.726253032684326,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0024018287658691406,
+    "constrainer_time": 0.005465507507324219,
+    "total_time": 4.756765604019165,
+    "frequency": {
+        "1": 89
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'toUppercase' does not exist on type 'string'. Did you mean 'toUpperCase'?",
+        "TS2552: Cannot find name 'newCaseString'. Did you mean 'newString'?"
+    ]
+}

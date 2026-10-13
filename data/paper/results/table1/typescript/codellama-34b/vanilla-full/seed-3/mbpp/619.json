@@ -1,0 +1,19 @@
+{
+    "decoded": 151,
+    "llm_time": 8.084472179412842,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0038907527923583984,
+    "constrainer_time": 0.009185791015625,
+    "total_time": 8.136893033981323,
+    "frequency": {
+        "1": 152
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2345: Argument of type 'string' is not assignable to parameter of type 'number'."
+    ]
+}

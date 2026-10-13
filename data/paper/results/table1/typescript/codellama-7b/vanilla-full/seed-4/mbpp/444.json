@@ -1,0 +1,20 @@
+{
+    "decoded": 82,
+    "llm_time": 2.002635955810547,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018925666809082031,
+    "constrainer_time": 0.01896214485168457,
+    "total_time": 2.0438053607940674,
+    "frequency": {
+        "1": 83
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'testList'. Did you mean 'test_list'?",
+        "TS2552: Cannot find name 'testList'. Did you mean 'test_list'?"
+    ]
+}

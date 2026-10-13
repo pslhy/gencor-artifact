@@ -1,0 +1,35 @@
+{
+    "HumanEval/10": [
+        "test.ml:2:13: Unbound value \"String.reverse\""
+    ],
+    "HumanEval/108": [
+        "test.ml:5:25: Unbound value \"digits\""
+    ],
+    "HumanEval/113": [
+        "test.ml:5:73: Unbound value \"String.count\""
+    ],
+    "HumanEval/65": [
+        "test.ml:5:42: Unbound value \"String.to_list\""
+    ],
+    "MBPP/393": [
+        "test.ml:12:17: Unbound value \"input_list\"\nHint: Did you mean \"input_line\"?"
+    ],
+    "MBPP/477": [
+        "test.ml:4:43: Unbound value \"Char.is_lowercase\""
+    ],
+    "MBPP/562": [
+        "test.ml:4:37: Unbound value \"List.max\"\nHint: Did you mean \"map\"?"
+    ],
+    "MBPP/586": [
+        "test.ml:6:24: Unbound value \"List.take\""
+    ],
+    "MBPP/604": [
+        "test.ml:5:69: Unbound value \"String.to_list\""
+    ],
+    "MBPP/747": [
+        "test.ml:7:70: Unbound value \"List.max\"\nHint: Did you mean \"map\"?"
+    ],
+    "MBPP/757": [
+        "test.ml:5:15: Unbound value \"String.reverse\""
+    ]
+}

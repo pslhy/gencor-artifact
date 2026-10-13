@@ -1,0 +1,31 @@
+{
+    "decoded": 1132,
+    "decoded_at_turn": {
+        "1": 226,
+        "2": 230,
+        "3": 226,
+        "4": 225,
+        "5": 225
+    },
+    "llm_time": 28.818488359451294,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02767038345336914,
+    "constrainer_time": 0.26886701583862305,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 29.55304503440857,
+    "frequency": {
+        "1": 1137
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:10:19: Unbound value \"k''\"\nHint: Did you mean \"k'\"?"
+    ]
+}

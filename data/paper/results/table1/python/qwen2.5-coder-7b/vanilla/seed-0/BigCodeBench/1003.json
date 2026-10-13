@@ -1,0 +1,22 @@
+{
+    "decoded": 293,
+    "llm_time": 7.666825294494629,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007660627365112305,
+    "constrainer_time": 0.06886482238769531,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.855788946151733,
+    "frequency": {
+        "1": 294
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:12:33: undefined name 'socket'"
+    ]
+}

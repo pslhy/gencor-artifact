@@ -1,0 +1,22 @@
+{
+    "decoded": 157,
+    "llm_time": 4.166895389556885,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003899812698364258,
+    "constrainer_time": 0.03789091110229492,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.25464653968811,
+    "frequency": {
+        "1": 158
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/4.ml:8:5: Variable \"mean_absolute_deviation\" is bound several times in this matching"
+    ]
+}

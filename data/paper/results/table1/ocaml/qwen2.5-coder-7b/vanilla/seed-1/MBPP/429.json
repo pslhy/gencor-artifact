@@ -1,0 +1,22 @@
+{
+    "decoded": 143,
+    "llm_time": 3.9382827281951904,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004414796829223633,
+    "constrainer_time": 0.035877227783203125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.032582759857178,
+    "frequency": {
+        "1": 144
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/429.ml:2:18: Unbound value \"(^&^)\"\nHint: Did you mean \"^^\"?"
+    ]
+}

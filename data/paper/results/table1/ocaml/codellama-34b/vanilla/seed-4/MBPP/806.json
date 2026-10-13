@@ -1,0 +1,22 @@
+{
+    "decoded": 234,
+    "llm_time": 12.576635122299194,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00879216194152832,
+    "constrainer_time": 0.062042236328125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.72553038597107,
+    "frequency": {
+        "1": 235
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:12: Unbound value \"Char.is_uppercase\""
+    ]
+}

@@ -1,0 +1,6 @@
+tool: chopchop  mode: TypedCD  model: Qwen/Qwen2.5-Coder-7B-Instruct  temp: 1.0  seed: 4
+tasks: 72
+compiled (pass): 70/72 97.22%
+timeout: 2/72 2.78%
+errors: 2/72  uv: 0/72
+wallclock: 963.0s

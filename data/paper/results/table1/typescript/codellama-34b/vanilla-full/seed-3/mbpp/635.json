@@ -1,0 +1,20 @@
+{
+    "decoded": 221,
+    "llm_time": 11.85466194152832,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006722688674926758,
+    "constrainer_time": 0.013794183731079102,
+    "total_time": 11.937195777893066,
+    "frequency": {
+        "1": 222
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'create_queue'.",
+        "TS2304: Cannot find name 'create_queue'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 88,
+    "llm_time": 4.694534063339233,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002272367477416992,
+    "constrainer_time": 0.0053899288177490234,
+    "total_time": 4.724382638931274,
+    "frequency": {
+        "1": 89
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2304: Cannot find name 'value'.",
+        "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2304: Cannot find name 'value'."
+    ]
+}

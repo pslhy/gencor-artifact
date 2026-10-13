@@ -1,0 +1,20 @@
+{
+    "decoded": 194,
+    "llm_time": 10.393255949020386,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0053255558013916016,
+    "constrainer_time": 0.0118408203125,
+    "total_time": 10.462819576263428,
+    "frequency": {
+        "1": 195
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'toUppercase' does not exist on type 'string'. Did you mean 'toUpperCase'?",
+        "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+    ]
+}

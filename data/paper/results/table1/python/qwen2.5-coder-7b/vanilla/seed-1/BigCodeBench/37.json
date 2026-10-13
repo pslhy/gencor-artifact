@@ -1,0 +1,23 @@
+{
+    "decoded": 128,
+    "llm_time": 3.9270129203796387,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004544973373413086,
+    "constrainer_time": 0.07028603553771973,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.0511064529418945,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:13:24: undefined name 'feature_importancesvalues'",
+        "<python>:13:53: undefined name 'feature_importancesindex'"
+    ]
+}

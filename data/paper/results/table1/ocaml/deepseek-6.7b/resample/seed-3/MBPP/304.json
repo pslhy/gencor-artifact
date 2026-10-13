@@ -1,0 +1,26 @@
+{
+    "decoded": 667,
+    "decoded_at_turn": {
+        "1": 332,
+        "2": 335
+    },
+    "llm_time": 16.88597798347473,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0167543888092041,
+    "constrainer_time": 0.15273690223693848,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.28000283241272,
+    "frequency": {
+        "1": 669
+    },
+    "turns": 2,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": []
+}

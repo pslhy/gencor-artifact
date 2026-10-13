@@ -1,0 +1,24 @@
+{
+    "decoded": 447,
+    "llm_time": 24.3355712890625,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.015915632247924805,
+    "constrainer_time": 0.11835598945617676,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 24.63199019432068,
+    "frequency": {
+        "1": 448
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:24:65: '(' was never closed",
+        "            zip_info.date_time = datetime.datetime.fromtimestamp(os.path.getmtime(file)",
+        "                                                                ^"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 52,
+    "llm_time": 1.387789249420166,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013003349304199219,
+    "constrainer_time": 0.012637138366699219,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4162638187408447,
+    "frequency": {
+        "1": 53
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/280.ml:4:42: This expression has type \"int list\" which is not a record type."
+    ]
+}

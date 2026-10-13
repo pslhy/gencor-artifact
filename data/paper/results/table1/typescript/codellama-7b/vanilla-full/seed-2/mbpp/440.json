@@ -1,0 +1,19 @@
+{
+    "decoded": 183,
+    "llm_time": 4.445789337158203,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004365205764770508,
+    "constrainer_time": 0.0417475700378418,
+    "total_time": 4.538933992385864,
+    "frequency": {
+        "1": 184
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'string | undefined' is not assignable to type 'string'.\n  Type 'undefined' is not assignable to type 'string'."
+    ]
+}

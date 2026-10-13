@@ -1,0 +1,25 @@
+Error cases: 24 / 63 38.10%
+HumanEval/24
+HumanEval/48
+HumanEval/64
+HumanEval/69
+HumanEval/146
+HumanEval/156
+HumanEval/158
+mbpp/57
+mbpp/106
+mbpp/130
+mbpp/172
+mbpp/245
+mbpp/256
+mbpp/272
+mbpp/273
+mbpp/278
+mbpp/415
+mbpp/429
+mbpp/457
+mbpp/563
+mbpp/580
+mbpp/616
+mbpp/641
+mbpp/807

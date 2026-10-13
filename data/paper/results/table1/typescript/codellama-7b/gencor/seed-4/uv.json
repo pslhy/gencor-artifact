@@ -1,0 +1,19 @@
+{
+    "mbpp/106": [
+        "TS2304: Cannot find name 'as'."
+    ],
+    "mbpp/417": [
+        "TS2304: Cannot find name 'first'."
+    ],
+    "mbpp/556": [
+        "TS2552: Cannot find name 'a'. Did you mean 'A'?"
+    ],
+    "mbpp/598": [
+        "TS2304: Cannot find name 'r'."
+    ],
+    "mbpp/751": [
+        "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig.",
+        "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig.",
+        "TS2304: Cannot find name 'i'."
+    ]
+}

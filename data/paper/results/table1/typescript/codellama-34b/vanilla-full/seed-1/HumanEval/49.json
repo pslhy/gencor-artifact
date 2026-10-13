@@ -1,0 +1,20 @@
+{
+    "decoded": 83,
+    "llm_time": 4.484636068344116,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020918846130371094,
+    "constrainer_time": 0.005013227462768555,
+    "total_time": 4.513543128967285,
+    "frequency": {
+        "1": 84
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'c' because it is a constant.",
+        "TS2588: Cannot assign to 'b' because it is a constant."
+    ]
+}

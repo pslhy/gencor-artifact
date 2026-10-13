@@ -1,0 +1,19 @@
+{
+    "decoded": 247,
+    "llm_time": 6.042077541351318,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005498647689819336,
+    "constrainer_time": 0.05469059944152832,
+    "total_time": 6.166443347930908,
+    "frequency": {
+        "1": 248
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'MaxPriorityQueue'."
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 234,
+    "llm_time": 5.731638193130493,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0057849884033203125,
+    "constrainer_time": 0.05260324478149414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.863641738891602,
+    "frequency": {
+        "1": 235
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:21:14: undefined name 'plt'",
+        "<python>:23:5: undefined name 'plt'"
+    ]
+}

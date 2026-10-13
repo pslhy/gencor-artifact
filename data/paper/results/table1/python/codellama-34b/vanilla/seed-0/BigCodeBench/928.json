@@ -1,0 +1,22 @@
+{
+    "decoded": 123,
+    "llm_time": 6.643910884857178,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029926300048828125,
+    "constrainer_time": 0.029210567474365234,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.71282696723938,
+    "frequency": {
+        "1": 124
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:7:23: undefined module member 'string.lowercase'"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "decoded": 199,
+    "decoded_at_turn": {
+        "1": 97,
+        "2": 102
+    },
+    "llm_time": 10.815826892852783,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007394313812255859,
+    "constrainer_time": 0.053235769271850586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.94475269317627,
+    "frequency": {
+        "1": 201
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:11:49: The function \"aux\" has type int * int -> int\nIt is applied to too many arguments"
+    ]
+}

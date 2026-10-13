@@ -1,0 +1,378 @@
+{
+    "HumanEval/24": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    },
+    "HumanEval/48": {
+        "1": [
+            "TS2367: This comparison appears to be unintentional because the types 'string' and 'string[]' have no overlap.",
+            "TS2839: This condition will always return 'false' since JavaScript compares objects by reference, not value."
+        ]
+    },
+    "HumanEval/56": {
+        "1": [
+            "TS2345: Argument of type 'string | undefined' is not assignable to parameter of type 'string'.\n  Type 'undefined' is not assignable to type 'string'."
+        ]
+    },
+    "HumanEval/64": {
+        "1": [
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'i'."
+        ]
+    },
+    "HumanEval/68": {
+        "1": [
+            "TS2322: Type 'number | null' is not assignable to type 'number'.\n  Type 'null' is not assignable to type 'number'."
+        ]
+    },
+    "HumanEval/69": {
+        "1": [
+            "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'."
+        ]
+    },
+    "HumanEval/104": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "HumanEval/109": {
+        "1": [
+            "TS2345: Argument of type 'number | undefined' is not assignable to parameter of type 'number'.\n  Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "HumanEval/113": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "HumanEval/124": {
+        "1": [
+            "TS2365: Operator '<' cannot be applied to types 'string' and 'number'.",
+            "TS2365: Operator '>' cannot be applied to types 'string' and 'number'.",
+            "TS2365: Operator '<' cannot be applied to types 'string' and 'number'.",
+            "TS2365: Operator '>' cannot be applied to types 'string' and 'number'.",
+            "TS2365: Operator '<' cannot be applied to types 'string' and 'number'."
+        ]
+    },
+    "HumanEval/144": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "HumanEval/146": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "HumanEval/147": {
+        "1": [
+            "TS2304: Cannot find name 'a'.",
+            "TS2304: Cannot find name 'a'.",
+            "TS2304: Cannot find name 'a'."
+        ]
+    },
+    "HumanEval/156": {
+        "1": [
+            "TS2365: Operator '>=' cannot be applied to types 'number' and 'string'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ 1: string; 4: string; 5: string; 9: string; 10: string; 40: string; 50: string; 90: string; 100: string; 400: string; 500: string; 900: string; 1000: string; }'.\n  No index signature with a parameter of type 'string' was found on type '{ 1: string; 4: string; 5: string; 9: string; 10: string; 40: string; 50: string; 90: string; 100: string; 400: string; 500: string; 900: string; 1000: string; }'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "HumanEval/158": {
+        "1": [
+            "TS18047: 'maxUniqueWord' is possibly 'null'."
+        ]
+    },
+    "HumanEval/162": {
+        "1": [
+            "TS2304: Cannot find name 'createHash'."
+        ]
+    },
+    "mbpp/56": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/57": {
+        "1": [
+            "TS2551: Property 'toStrig' does not exist on type 'number'. Did you mean 'toString'?"
+        ]
+    },
+    "mbpp/64": {
+        "1": [
+            "TS2345: Argument of type '(a: [string, number], b: [string, number]) => boolean' is not assignable to parameter of type '(a: [string, number], b: [string, number]) => number'.\n  Type 'boolean' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/65": {
+        "1": [
+            "TS2345: Argument of type 'number | number[]' is not assignable to parameter of type '(number | number[])[]'.\n  Type 'number' is not assignable to type '(number | number[])[]'."
+        ]
+    },
+    "mbpp/83": {
+        "1": [
+            "TS2552: Cannot find name 'str'. Did you mean 'strr'?",
+            "TS2552: Cannot find name 'str'. Did you mean 'strr'?"
+        ]
+    },
+    "mbpp/106": {
+        "1": [
+            "TS2322: Type '[...number[], number, number]' is not assignable to type '[number, number, number, number, number]'.\n  Target requires 5 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/119": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "mbpp/128": {
+        "1": [
+            "TS2322: Type 'string' is not assignable to type 'string[]'."
+        ]
+    },
+    "mbpp/129": {
+        "1": [
+            "TS2365: Operator '+' cannot be applied to types 'number[]' and 'number'.",
+            "TS2367: This comparison appears to be unintentional because the types 'number[]' and 'number' have no overlap."
+        ]
+    },
+    "mbpp/130": {
+        "1": [
+            "TS2454: Variable 'result' is used before being assigned."
+        ]
+    },
+    "mbpp/172": {
+        "1": [
+            "TS2531: Object is possibly 'null'."
+        ]
+    },
+    "mbpp/245": {
+        "1": [
+            "TS2552: Cannot find name 'subsequence'. Did you mean 'subsequences'?"
+        ]
+    },
+    "mbpp/252": {
+        "1": [
+            "TS2339: Property 'x' does not exist on type 'number'.",
+            "TS2339: Property 'x' does not exist on type 'number'.",
+            "TS2339: Property 'y' does not exist on type 'number'.",
+            "TS2339: Property 'y' does not exist on type 'number'.",
+            "TS2339: Property 'y' does not exist on type 'number'.",
+            "TS2339: Property 'x' does not exist on type 'number'."
+        ]
+    },
+    "mbpp/256": {
+        "1": [
+            "TS2304: Cannot find name 'valuesOf'.",
+            "TS2339: Property 'n' does not exist on type '0'.",
+            "TS2304: Cannot find name 'valuesOf'."
+        ]
+    },
+    "mbpp/259": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type 'number[]'."
+        ]
+    },
+    "mbpp/261": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/272": {
+        "1": [
+            "TS2322: Type '(string | number | undefined)[]' is not assignable to type 'number[]'.\n  Type 'string | number | undefined' is not assignable to type 'number'.\n    Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/273": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number]'.\n  Target requires 3 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/278": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'number | [number, number]'.\n  Property '0' does not exist on type 'number | [number, number]'."
+        ]
+    },
+    "mbpp/305": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'string'.",
+            "TS2322: Type 'null' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/398": {
+        "1": [
+            "TS7006: Parameter 'acc' implicitly has an 'any' type.",
+            "TS7006: Parameter 'curr' implicitly has an 'any' type."
+        ]
+    },
+    "mbpp/399": {
+        "1": [
+            "TS2322: Type '[number, any, number, number, any, number, number, any, number, number, any, number]' is not assignable to type '[number, number, number, number]'.\n  Source has 12 element(s) but target allows only 4.",
+            "TS2304: Cannot find name 'xor'.",
+            "TS2304: Cannot find name 'xor'.",
+            "TS2304: Cannot find name 'xor'.",
+            "TS2304: Cannot find name 'xor'."
+        ]
+    },
+    "mbpp/408": {
+        "1": [
+            "TS2304: Cannot find name 'PriorityQueue'.",
+            "TS7006: Parameter 'a' implicitly has an 'any' type.",
+            "TS7006: Parameter 'b' implicitly has an 'any' type."
+        ]
+    },
+    "mbpp/415": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number]'.\n  Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/428": {
+        "1": [
+            "TS2304: Cannot find name 'j'."
+        ]
+    },
+    "mbpp/429": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/440": {
+        "1": [
+            "TS2322: Type 'string' is not assignable to type 'number'.",
+            "TS2322: Type 'number' is not assignable to type 'string'.",
+            "TS2322: Type 'string' is not assignable to type 'number'.",
+            "TS2322: Type 'number' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/455": {
+        "1": [
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/457": {
+        "1": [
+            "TS2322: Type 'any[] | undefined' is not assignable to type 'any[]'.\n  Type 'undefined' is not assignable to type 'any[]'."
+        ]
+    },
+    "mbpp/556": {
+        "1": [
+            "TS2588: Cannot assign to 'i' because it is a constant.",
+            "TS2588: Cannot assign to 'j' because it is a constant."
+        ]
+    },
+    "mbpp/563": {
+        "1": [
+            "TS2345: Argument of type 'string' is not assignable to parameter of type 'string[]'."
+        ]
+    },
+    "mbpp/567": {
+        "1": [
+            "TS2588: Cannot assign to 'i' because it is a constant."
+        ]
+    },
+    "mbpp/578": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type 'number[][]'.\n  Type 'number' is not assignable to type 'number[]'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Type 'number[][]' is not assignable to type 'number[]'.\n      Type 'number[]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Type 'number[][]' is not assignable to type 'number[]'.\n      Type 'number[]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/580": {
+        "1": [
+            "TS2552: Cannot find name 'isArray'. Did you mean 'Array'?",
+            "TS2345: Argument of type 'number | [number, number, [number, number]]' is not assignable to parameter of type '[number, number, [number, number, [number, number]], number, number]'.\n  Type 'number' is not assignable to type '[number, number, [number, number, [number, number]], number, number]'.",
+            "TS2345: Argument of type 'number | [number, number, [number, number]]' is not assignable to parameter of type 'number'.\n  Type '[number, number, [number, number]]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/584": {
+        "1": [
+            "TS2322: Type 'string[]' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/607": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/616": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/641": {
+        "1": [
+            "TS2322: Type 'boolean' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/742": {
+        "1": [
+            "TS2554: Expected 1 arguments, but got 2."
+        ]
+    },
+    "mbpp/744": {
+        "1": [
+            "TS7006: Parameter 'item' implicitly has an 'any' type.",
+            "TS2304: Cannot find name 'None'."
+        ]
+    },
+    "mbpp/747": {
+        "1": [
+            "TS2322: Type 'never[]' is not assignable to type 'number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'."
+        ]
+    },
+    "mbpp/751": {
+        "1": [
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'i'."
+        ]
+    },
+    "mbpp/762": {
+        "1": [
+            "TS2552: Cannot find name 'monthnum'. Did you mean 'monthnum3'?"
+        ]
+    },
+    "mbpp/785": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number]'.\n  Target requires 3 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/788": {
+        "1": [
+            "TS2322: Type 'string[]' is not assignable to type '[string, string, string]'.\n  Target requires 3 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/791": {
+        "1": [
+            "TS2322: Type 'any[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/807": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 247,
+    "llm_time": 13.452704429626465,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007260799407958984,
+    "constrainer_time": 0.061177730560302734,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.605694055557251,
+    "frequency": {
+        "1": 248
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:10:37: Comment not terminated"
+    ]
+}

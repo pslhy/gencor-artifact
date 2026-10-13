@@ -1,0 +1,22 @@
+{
+    "decoded": 92,
+    "llm_time": 4.970287561416626,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031261444091796875,
+    "constrainer_time": 0.023828744888305664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.026533603668213,
+    "frequency": {
+        "1": 93
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:0:0: The value \"count\" is not an instance variable"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 73,
+    "llm_time": 1.8577239513397217,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017342567443847656,
+    "constrainer_time": 0.01679205894470215,
+    "total_time": 1.895096778869629,
+    "frequency": {
+        "1": 74
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '(number | undefined)[]' is not assignable to type 'number[]'.\n  Type 'number | undefined' is not assignable to type 'number'.\n    Type 'undefined' is not assignable to type 'number'."
+    ]
+}

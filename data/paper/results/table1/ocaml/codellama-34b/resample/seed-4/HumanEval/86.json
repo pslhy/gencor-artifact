@@ -1,0 +1,30 @@
+{
+    "decoded": 281,
+    "decoded_at_turn": {
+        "1": 81,
+        "2": 71,
+        "3": 59,
+        "4": 70
+    },
+    "llm_time": 15.922625541687012,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00731658935546875,
+    "constrainer_time": 0.06851696968078613,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 16.091784715652466,
+    "frequency": {
+        "1": 285
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:86: This expression has type \"string list\"\nbut an expression was expected of type \"Char.t list list\"\nType \"string\" is not compatible with type \"Char.t list\""
+    ]
+}

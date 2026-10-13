@@ -1,0 +1,22 @@
+{
+    "decoded": 133,
+    "llm_time": 3.4677557945251465,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004411220550537109,
+    "constrainer_time": 0.03354835510253906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.549745559692383,
+    "frequency": {
+        "1": 134
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:11:34: Unbound constructor \"LT\""
+    ]
+}

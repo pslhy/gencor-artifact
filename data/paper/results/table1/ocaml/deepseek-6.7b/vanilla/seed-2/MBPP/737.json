@@ -1,0 +1,22 @@
+{
+    "decoded": 46,
+    "llm_time": 1.2073535919189453,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011065006256103516,
+    "constrainer_time": 0.010883569717407227,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.2313275337219238,
+    "frequency": {
+        "1": 47
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/737.ml:4:12: Unbound value \"String.search_forward\""
+    ]
+}

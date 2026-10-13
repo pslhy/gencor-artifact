@@ -1,0 +1,108 @@
+[build-system]
+requires = ["setuptools>=80", "setuptools-scm>=9.2.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lark"
+authors = [{name = "Erez Shinan", email = "erezshin@gmail.com"}]
+license = {text = "MIT"}
+description = "a modern parsing library"
+keywords = ["Earley", "LALR", "parser", "parsing", "ast"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: General",
+    "Topic :: Text Processing :: Linguistic",
+    "License :: OSI Approved :: MIT License",
+]
+requires-python = ">=3.8"
+dependencies = []
+dynamic = ["version"]
+
+[project.readme]
+text = """
+Lark is a modern general-purpose parsing library for Python.
+With Lark, you can parse any context-free grammar, efficiently, with very little code.
+Main Features:
+- Builds a parse-tree (AST) automagically, based on the structure of the grammar
+- Earley parser
+- Can parse all context-free grammars
+- Full support for ambiguous grammars
+- LALR(1) parser
+- Fast and light, competitive with PLY
+- Can generate a stand-alone parser
+- CYK parser, for highly ambiguous grammars
+- EBNF grammar
+- Unicode fully supported
+- Automatic line & column tracking
+- Standard library of terminals (strings, numbers, names, etc.)
+- Import grammars from Nearley.js
+- Extensive test suite
+- And much more!
+Since version 1.2, only Python versions 3.8 and up are supported."""
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://github.com/lark-parser/lark"
+Download = "https://github.com/lark-parser/lark/tarball/master"
+
+[project.entry-points.pyinstaller40]
+hook-dirs = "lark.__pyinstaller:get_hook_dirs"
+
+[project.optional-dependencies]
+regex = ["regex"]
+nearley = ["js2py"]
+atomic_cache = ["atomicwrites"]
+interegular = ["interegular>=0.3.1,<0.4.0"]
+
+[tool.setuptools]
+packages = [
+    "lark",
+    "lark.parsers",
+    "lark.tools",
+    "lark.grammars",
+    "lark.__pyinstaller",
+]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"*" = ["*.lark"]
+lark = ["py.typed"]
+
+[tool.setuptools.dynamic]
+version = {attr = "lark.__version__"}
+
+[tool.mypy]
+files = ["lark", "tests/test_typing.py"]
+python_version = "3.8"
+show_error_codes = true
+enable_error_code = ["ignore-without-code", "unused-ignore"]
+exclude = [
+  "^lark/__pyinstaller",
+]
+
+# You can disable imports or control per-module/file settings here
+[[tool.mypy.overrides]]
+module = [ "js2py" ]
+ignore_missing_imports = true
+
+[tool.coverage.run]
+omit = ["tests/test_typing.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "if TYPE_CHECKING:"
+]
+[tool.pyright]
+include = ["lark"]
+
+[tool.pytest.ini_options]
+minversion = 6.0
+addopts = "-ra -q"
+testpaths =[
+    "tests"
+]
+python_files = "__main__.py"

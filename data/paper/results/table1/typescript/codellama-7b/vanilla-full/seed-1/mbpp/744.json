@@ -1,0 +1,20 @@
+{
+    "decoded": 20,
+    "llm_time": 0.525324821472168,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0004754066467285156,
+    "constrainer_time": 0.004946231842041016,
+    "total_time": 0.5356626510620117,
+    "frequency": {
+        "1": 21
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7006: Parameter 'item' implicitly has an 'any' type.",
+        "TS2304: Cannot find name 'None'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 133,
+    "llm_time": 3.3590073585510254,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003284454345703125,
+    "constrainer_time": 0.030094146728515625,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.438425302505493,
+    "frequency": {
+        "1": 134
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/70.ml:5:7: Unbound constructor \"Max\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 73,
+    "llm_time": 1.9523370265960693,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001730203628540039,
+    "constrainer_time": 0.017109155654907227,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.9964442253112793,
+    "frequency": {
+        "1": 74
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:14: Unbound value \"Char.is_alpha\""
+    ]
+}

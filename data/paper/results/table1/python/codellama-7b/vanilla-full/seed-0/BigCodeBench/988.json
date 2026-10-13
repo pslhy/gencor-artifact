@@ -1,0 +1,23 @@
+{
+    "decoded": 422,
+    "llm_time": 10.422231912612915,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010170936584472656,
+    "constrainer_time": 0.09697198867797852,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.663189888000488,
+    "frequency": {
+        "1": 423
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/988.py:39:40: undefined name 'datetime'",
+        "BigCodeBench/988.py:41:30: undefined name 'datetime'"
+    ]
+}

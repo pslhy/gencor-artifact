@@ -1,0 +1,22 @@
+{
+    "decoded": 212,
+    "llm_time": 5.610477447509766,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00513458251953125,
+    "constrainer_time": 0.04911351203918457,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.724424362182617,
+    "frequency": {
+        "1": 213
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:13:12: Unbound value \"inv_Count\""
+    ]
+}

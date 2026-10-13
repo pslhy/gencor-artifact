@@ -1,0 +1,23 @@
+{
+    "decoded": 266,
+    "llm_time": 6.3796563148498535,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0060083866119384766,
+    "constrainer_time": 0.05804920196533203,
+    "total_time": 6.512305021286011,
+    "frequency": {
+        "1": 267
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.",
+        "TS2367: This comparison appears to be unintentional because the types 'number' and 'string' have no overlap.",
+        "TS2339: Property 'length' does not exist on type 'never'.",
+        "TS2339: Property 'substring' does not exist on type 'never'.",
+        "TS2339: Property 'length' does not exist on type 'never'."
+    ]
+}

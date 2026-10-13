@@ -1,0 +1,29 @@
+from datetime import timedelta
+import numpy as np
+from scipy import stats
+import matplotlib.pyplot as plt
+def task_func(size=1000):
+    random_data = np.random.normal(size=size)
+    figure, axis = plt.subplots()
+    axis.hist(random_data, bins=30, density=True, alpha=0.6, color='g')
+    fit = stats.norm.pdf(random_data, random_data.mean(), random_data.std())
+    axis.plot(random_data, fit, 'r-', lw=5)
+    axis.set_title(f'Histogram from normal distribution and its PDF (Sample size: {size})')
+    return figure
+
+
+# <System Prompt>
+#     You are an expert in Python programming. Solve the given problem by writing solution code in Python. When answering, insert the solution code in a ```python...``` block.
+#     Do not include test cases or explanations as comments in the code.
+# 
+# < User Prompt >
+#     Create a list of normally distributed random numbers and plot their histogram and probability density function (PDF).
+#     The function should output with:
+#         matplotlib.figure.Figure: A figure object containing the histogram and PDF plot.
+#     You should write self-contained code starting with:
+#     ```
+#     import numpy as np
+#     from scipy import stats
+#     import matplotlib.pyplot as plt
+#     def task_func(size=1000):
+#     ```

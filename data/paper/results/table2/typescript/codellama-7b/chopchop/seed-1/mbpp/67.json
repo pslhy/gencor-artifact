@@ -1,0 +1,26 @@
+{
+    "decoded": 106,
+    "llm_time": 9.152009963989258,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 81.08430337905884,
+    "constrainer_time": 0.0,
+    "total_time": 90.2363133430481,
+    "frequency": {
+        "1": 90,
+        "2": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpq3d1wfpq.ts(9,16): error TS1109: Expression expected.",
+        "../../tmp/tmpq3d1wfpq.ts(9,17): error TS1109: Expression expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 291,
+    "num_tokens_generated": 106,
+    "total_realizability_time": 81.08430337905884
+}

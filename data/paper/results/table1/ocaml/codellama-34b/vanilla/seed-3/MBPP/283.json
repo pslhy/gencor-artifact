@@ -1,0 +1,22 @@
+{
+    "decoded": 154,
+    "llm_time": 8.201606512069702,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003981113433837891,
+    "constrainer_time": 0.03723478317260742,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.287458658218384,
+    "frequency": {
+        "1": 155
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:18:11: This expression has type \"unit\" but an expression was expected of type\n\"int\""
+    ]
+}

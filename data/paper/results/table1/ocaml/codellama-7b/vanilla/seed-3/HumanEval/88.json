@@ -1,0 +1,22 @@
+{
+    "decoded": 123,
+    "llm_time": 3.058424234390259,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002967357635498047,
+    "constrainer_time": 0.028589487075805664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.1268510818481445,
+    "frequency": {
+        "1": 124
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/88.ml:6:22: Unbound value \"List.last\""
+    ]
+}

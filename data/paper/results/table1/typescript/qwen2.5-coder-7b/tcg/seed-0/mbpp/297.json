@@ -1,0 +1,22 @@
+{
+    "total_time": 90.00014281272888,
+    "llm_time": 90.00014281272888,
+    "constrainer_time": 0.0,
+    "n_resamples": 36,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 0,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number | number[], currentValue: number | number[], currentIndex: number, array: (number | number[])[]) => number | number[], initialValue: number | number[]): number | number[]', gave the following error.\n    Argument of type '(acc: number[], val: number) => number[]' is not assignable to parameter of type '(previousValue: number | number[], currentValue: number | number[], currentIndex: number, array: (number | number[])[]) => number | number[]'.\n      Types of parameters 'acc' and 'previousValue' are incompatible.\n        Type 'number | number[]' is not assignable to type 'number[]'.\n          Type 'number' is not assignable to type 'number[]'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number[], currentValue: number | number[], currentIndex: number, array: (number | number[])[]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(acc: number[], val: number) => number[]' is not assignable to parameter of type '(previousValue: number[], currentValue: number | number[], currentIndex: number, array: (number | number[])[]) => number[]'.\n      Types of parameters 'val' and 'currentValue' are incompatible.\n        Type 'number | number[]' is not assignable to type 'number'.\n          Type 'number[]' is not assignable to type 'number'.",
+        "TS2339: Property 'reduce' does not exist on type 'number | number[]'.\n  Property 'reduce' does not exist on type 'number'.",
+        "TS2538: Type 'number[]' cannot be used as an index type.",
+        "TS2538: Type 'number[][]' cannot be used as an index type."
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 38,
+    "llm_time": 2.05553936958313,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010361671447753906,
+    "constrainer_time": 0.0024750232696533203,
+    "total_time": 2.0685477256774902,
+    "frequency": {
+        "1": 39
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'Array'?",
+        "TS7006: Parameter 'Arr' implicitly has an 'any' type.",
+        "TS2552: Cannot find name 'Arrr'. Did you mean 'Arr'?"
+    ]
+}

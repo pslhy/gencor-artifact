@@ -1,0 +1,22 @@
+{
+    "decoded": 95,
+    "llm_time": 2.443600654602051,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002405405044555664,
+    "constrainer_time": 0.022338151931762695,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4947590827941895,
+    "frequency": {
+        "1": 96
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/19.ml:3:64: Unbound value \"List.find_idx\"\nHint: Did you mean \"find_index\"?"
+    ]
+}

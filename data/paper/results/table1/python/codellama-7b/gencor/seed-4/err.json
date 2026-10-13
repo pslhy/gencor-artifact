@@ -1,0 +1,35 @@
+{
+    "BigCodeBench/124": {
+        "1": [
+            "BigCodeBench/124.py:26:82: undefined name 'start_time'"
+        ]
+    },
+    "BigCodeBench/147": {
+        "1": [
+            "BigCodeBench/147.py:12:38: '(' was never closed",
+            "    with Thread(target=__doc__.format(num_threads=numbers",
+            "                                     ^"
+        ]
+    },
+    "BigCodeBench/273": {
+        "1": [
+            "BigCodeBench/273.py:52:35: '(' was never closed",
+            "    httpd = http.server.HTTPServer(server_address, HttpPostRequestHandler",
+            "                                  ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:33:22: '(' was never closed",
+            "Opera    %body%.9842 (Opera.com | Outlook.  ",
+            "                     ^"
+        ]
+    },
+    "BigCodeBench/964": {
+        "1": [
+            "BigCodeBench/964.py:35:1: inconsistent use of tabs and spaces in indentation",
+            "    \telif file_path.suffix == '.csv':",
+            "^"
+        ]
+    }
+}

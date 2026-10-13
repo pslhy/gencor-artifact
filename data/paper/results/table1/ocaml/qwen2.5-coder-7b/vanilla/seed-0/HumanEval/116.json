@@ -1,0 +1,22 @@
+{
+    "decoded": 119,
+    "llm_time": 3.002552032470703,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029878616333007812,
+    "constrainer_time": 0.0269925594329834,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.074913501739502,
+    "frequency": {
+        "1": 120
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/116.ml:3:92: Unbound value \"Int.to_list\"\nHint: Did you mean \"to_float\"?"
+    ]
+}

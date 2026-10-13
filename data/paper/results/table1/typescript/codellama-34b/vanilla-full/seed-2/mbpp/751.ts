@@ -1,0 +1,23 @@
+function check_min_heap(arr: number[]): boolean {
+    let i = 0;
+    while (2 * i + 1 < arr.length) {
+        const left = 2 * i + 1;
+        const right = 2 * i + 2;
+        if (left < arr.length && arr[i] > arr[left]) {
+            return false;
+        }
+        if (right < arr.length && arr[i] > arr[right]) {
+            return false;
+        }
+        i++;
+    }
+    return true;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to check if the given array represents min heap or not. https://www.geeksforgeeks.org/how-to-check-if-a-given-array-represents-a-binary-heap/

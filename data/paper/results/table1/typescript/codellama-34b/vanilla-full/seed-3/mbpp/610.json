@@ -1,0 +1,19 @@
+{
+    "decoded": 43,
+    "llm_time": 2.343871593475342,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011496543884277344,
+    "constrainer_time": 0.0026998519897460938,
+    "total_time": 2.3589928150177,
+    "frequency": {
+        "1": 44
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2447: The '&' operator is not allowed for boolean types. Consider using '&&' instead."
+    ]
+}

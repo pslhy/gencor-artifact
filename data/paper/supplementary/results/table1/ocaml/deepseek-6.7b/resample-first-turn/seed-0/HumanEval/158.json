@@ -1,0 +1,22 @@
+{
+    "decoded": 253,
+    "llm_time": 6.286217212677002,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006149768829345703,
+    "constrainer_time": 0.05708622932434082,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.423311233520508,
+    "frequency": {
+        "1": 254
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:17:26: Unbound value \"String.to_char_list\""
+    ]
+}

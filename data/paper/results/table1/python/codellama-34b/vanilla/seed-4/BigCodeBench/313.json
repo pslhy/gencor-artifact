@@ -1,0 +1,22 @@
+{
+    "decoded": 467,
+    "llm_time": 25.29209542274475,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01101827621459961,
+    "constrainer_time": 0.10555219650268555,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 25.55377459526062,
+    "frequency": {
+        "1": 468
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:11:13: undefined name 'log_file'"
+    ]
+}

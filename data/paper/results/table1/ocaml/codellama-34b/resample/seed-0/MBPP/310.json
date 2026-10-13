@@ -1,0 +1,31 @@
+{
+    "decoded": 435,
+    "decoded_at_turn": {
+        "1": 87,
+        "2": 87,
+        "3": 87,
+        "4": 87,
+        "5": 87
+    },
+    "llm_time": 24.42185950279236,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01102137565612793,
+    "constrainer_time": 0.10487580299377441,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 24.681745052337646,
+    "frequency": {
+        "1": 440
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:20: Illegal backslash escape in string or character (\\0)"
+    ]
+}

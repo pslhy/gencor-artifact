@@ -1,0 +1,22 @@
+{
+    "decoded": 218,
+    "llm_time": 5.593087911605835,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0052509307861328125,
+    "constrainer_time": 0.050136566162109375,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.709981679916382,
+    "frequency": {
+        "1": 219
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:11:26: Unbound value \"List.sub\""
+    ]
+}

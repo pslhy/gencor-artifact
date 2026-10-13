@@ -1,0 +1,22 @@
+{
+    "decoded": 32,
+    "llm_time": 0.8634359836578369,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.000797271728515625,
+    "constrainer_time": 0.007973194122314453,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.8809280395507812,
+    "frequency": {
+        "1": 33
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/396.ml:3:13: This expression has type \"bool\" but an expression was expected of type\n\"string\""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 128,
+    "llm_time": 3.1546878814697266,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030641555786132812,
+    "constrainer_time": 0.028893232345581055,
+    "total_time": 3.219926118850708,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'.\n  No index signature with a parameter of type 'string' was found on type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'.\n  No index signature with a parameter of type 'string' was found on type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'."
+    ]
+}

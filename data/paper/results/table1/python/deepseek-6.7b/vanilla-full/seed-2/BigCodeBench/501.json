@@ -1,0 +1,22 @@
+{
+    "decoded": 249,
+    "llm_time": 6.288060426712036,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006388664245605469,
+    "constrainer_time": 0.05729484558105469,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.4306864738464355,
+    "frequency": {
+        "1": 250
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/501.py:10:21: undefined name 'json'"
+    ]
+}

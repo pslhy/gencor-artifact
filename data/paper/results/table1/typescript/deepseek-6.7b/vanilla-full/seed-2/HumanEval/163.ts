@@ -1,0 +1,32 @@
+function generate_integers(a: number, b: number): number[] {
+    let arr = [];
+    let start = Math.min(a, b);
+    let end = Math.max(a, b);
+  
+    for(let i = start; i <= end; i++) {
+        if(i % 2 === 0) {
+            arr.push(i);
+        }
+    }
+    return arr;
+}
+
+console.log(generate_integers(2, 8));
+console.log(generate_integers(8, 2));
+console.log(generate_integers(10, 14));
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Given two positive integers a and b, return the even digits between a
+//     and b, in ascending order.
+//     For example:
+//     >>> generate_integers(2, 8)
+//     [2, 4, 6, 8]
+//     >>> generate_integers(8, 2)
+//     [2, 4, 6, 8]
+//     >>> generate_integers(10, 14)
+//     []

@@ -1,0 +1,22 @@
+{
+    "decoded": 254,
+    "llm_time": 6.617218255996704,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006264209747314453,
+    "constrainer_time": 0.05850863456726074,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.758118629455566,
+    "frequency": {
+        "1": 255
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/132.ml:0:0: This expression has type \"(bool * bool) list\"\nThis is not a function; it cannot be applied."
+    ]
+}

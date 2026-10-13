@@ -1,0 +1,22 @@
+{
+    "decoded": 42,
+    "llm_time": 1.069014072418213,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010478496551513672,
+    "constrainer_time": 0.010031461715698242,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.0912458896636963,
+    "frequency": {
+        "1": 43
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/74.ml:4:11: Unbound value \"List.contains\""
+    ]
+}

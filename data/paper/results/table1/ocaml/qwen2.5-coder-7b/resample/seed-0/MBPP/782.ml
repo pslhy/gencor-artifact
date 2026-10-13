@@ -1,0 +1,113 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a mlthon function to find the sum of all odd length sublists. https://www.geeksforgeeks.org/sum-of-all-odd-length-sublists/ *)
+let rec odd_length_sum (arr : int list) : int = 
+  let rec helper (acc : int) (idx : int) (n : int) : int =
+    if idx >= n then acc
+    else
+      let rec sum_sublists (start : int) (sum : int) : int =
+        if start >= n then sum
+        else
+          let sublist = List.tl (List.drop start arr) in
+          if List.length sublist mod 2 <> 0 then
+            sum_sublists (start + 1) (sum + List.fold_left (+) 0 sublist)
+          else
+            sum_sublists (start + 1) sum
+      in
+      helper (acc + sum_sublists idx 0) (idx + 1) n
+  in
+  helper 0 0 (List.length arr)
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:8:34: Unbound value "List.drop" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec odd_length_sum (arr : int list) : int = 
+  let rec helper (acc : int) (idx : int) (n : int) : int =
+    if idx >= n then acc
+    else
+      let rec sum_sublists (start : int) (sum : int) : int =
+        if start >= n then sum
+        else
+          let sublist = Array.to_list (Array.of_list (List.drop start arr)) in
+          if List.length sublist mod 2 <> 0 then
+            sum_sublists (start + 1) (sum + List.fold_left (+) 0 sublist)
+          else
+            sum_sublists (start + 1) sum
+      in
+      helper (acc + sum_sublists idx 0) (idx + 1) n
+  in
+  helper 0 0 (List.length arr)
+
+(* === Turn 3 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:8:55: Unbound value "List.drop" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec odd_length_sum (arr : int list) : int = 
+  let rec helper (acc : int) (idx : int) (n : int) : int =
+    if idx >= n then acc
+    else
+      let rec sum_sublists (start : int) (sum : int) : int =
+        if start >= n then sum
+        else
+          let sublist = List.tl (List.drop start arr) in
+          if List.length sublist mod 2 <> 0 then
+            sum_sublists (start + 1) (sum + List.fold_left (+) 0 sublist)
+          else
+            sum_sublists (start + 1) sum
+      in
+      helper (acc + sum_sublists idx 0) (idx + 1) n
+  in
+  helper 0 0 (List.length arr)
+
+(* === Turn 4 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:8:34: Unbound value "List.drop" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec odd_length_sum (arr : int list) : int = 
+  let rec helper (acc : int) (idx : int) (n : int) : int =
+    if idx >= n then acc
+    else
+      let rec sum_sublists (start : int) (sum : int) : int =
+        if start >= n then sum
+        else
+          let sublist = Array.to_list (Array.of_list (List.tl (List.sub arr start (n - start)))) in
+          if List.length sublist mod 2 <> 0 then
+            sum_sublists (start + 1) (sum + List.fold_left (+) 0 sublist)
+          else
+            sum_sublists (start + 1) sum
+      in
+      helper (acc + sum_sublists idx 0) (idx + 1) n
+  in
+  helper 0 0 (List.length arr)
+
+(* === Turn 5 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:8:64: Unbound value "List.sub" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec odd_length_sum (arr : int list) : int = 
+  let rec helper (acc : int) (idx : int) (n : int) : int =
+    if idx >= n then acc
+    else
+      let rec sum_sublists (start : int) (sum : int) : int =
+        if start >= n then sum
+        else
+          let sublist = List.tl (List.filter (fun _ -> true) arr) in
+          if List.length sublist mod 2 <> 0 then
+            sum_sublists (start + 1) (sum + List.fold_left (+) 0 sublist)
+          else
+            sum_sublists (start + 1) sum
+      in
+      helper (acc + sum_sublists idx 0) (idx + 1) n
+  in
+  helper 0 0 (List.length arr)
+

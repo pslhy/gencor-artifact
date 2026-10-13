@@ -1,0 +1,19 @@
+{
+    "decoded": 149,
+    "llm_time": 3.6721973419189453,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003515958786010742,
+    "constrainer_time": 0.03438091278076172,
+    "total_time": 3.748753070831299,
+    "frequency": {
+        "1": 150
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'undefined' is not assignable to type 'number'."
+    ]
+}

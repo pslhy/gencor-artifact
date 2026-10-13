@@ -1,0 +1,22 @@
+{
+    "decoded": 87,
+    "llm_time": 2.9920382499694824,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0022437572479248047,
+    "constrainer_time": 0.023054838180541992,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.048140048980713,
+    "frequency": {
+        "1": 88
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/226.ml:4:31: This expression has type \"'a list\"\nbut an expression was expected of type\n\"char Seq.t\" = \"unit -> char Seq.node\""
+    ]
+}

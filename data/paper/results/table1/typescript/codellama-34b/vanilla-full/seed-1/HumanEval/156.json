@@ -1,0 +1,20 @@
+{
+    "decoded": 164,
+    "llm_time": 8.871810674667358,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006624937057495117,
+    "constrainer_time": 0.010972976684570312,
+    "total_time": 8.9425630569458,
+    "frequency": {
+        "1": 165
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ I: number; V: number; X: number; L: number; C: number; D: number; M: number; }'.\n  No index signature with a parameter of type 'string' was found on type '{ I: number; V: number; X: number; L: number; C: number; D: number; M: number; }'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ I: number; V: number; X: number; L: number; C: number; D: number; M: number; }'.\n  No index signature with a parameter of type 'string' was found on type '{ I: number; V: number; X: number; L: number; C: number; D: number; M: number; }'."
+    ]
+}

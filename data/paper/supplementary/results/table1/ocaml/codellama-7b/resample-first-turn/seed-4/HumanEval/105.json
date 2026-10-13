@@ -1,0 +1,22 @@
+{
+    "decoded": 390,
+    "llm_time": 9.878098487854004,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010067462921142578,
+    "constrainer_time": 0.09267663955688477,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.106869220733643,
+    "frequency": {
+        "1": 391
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:5: Unbound constructor \"NumVals\""
+    ]
+}

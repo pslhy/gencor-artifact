@@ -1,0 +1,871 @@
+{
+    "HumanEval/1": {
+        "1": [
+            "test.ml:10:12: Unbound value \"String.toList\""
+        ],
+        "2": [
+            "test.ml:5:47: This expression has type \"unit\" but an expression was expected of type\n\"Buffer.t\""
+        ]
+    },
+    "HumanEval/10": {
+        "1": [
+            "test.ml:13:2: Syntax error"
+        ],
+        "2": [
+            "test.ml:12:48: Unbound module \"Stringizzling\""
+        ],
+        "3": [
+            "test.ml:12:48: Unbound value \"String.reverse\""
+        ],
+        "4": [
+            "test.ml:12:58: Unbound module \"Str\""
+        ],
+        "5": [
+            "test.ml:12:63: Unbound value \"String.rev\""
+        ]
+    },
+    "HumanEval/107": {
+        "1": [
+            "test.ml:9:28: Unbound value \"String.to_list\""
+        ],
+        "2": [
+            "test.ml:9:28: Unbound value \"String.of_int\""
+        ],
+        "3": [
+            "test.ml:34:17: This expression has type \"'a list\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "HumanEval/108": {
+        "1": [
+            "test.ml:10:31: Unbound value \"count\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 6"
+        ],
+        "2": [
+            "test.ml:10:31: This expression has type \"int list -> int\"\nbut an expression was expected of type \"int\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+        ]
+    },
+    "HumanEval/117": {
+        "1": [
+            "test.ml:12:14: Unbound value \"String.to_list\""
+        ],
+        "2": [
+            "test.ml:12:29: Unbound value \"String.to_array\""
+        ]
+    },
+    "HumanEval/120": {
+        "1": [
+            "test.ml:2:32: Unbound value \"List.take\""
+        ],
+        "2": [
+            "test.ml:2:32: Unbound value \"List.truncate\""
+        ],
+        "3": [
+            "test.ml:7:16: Unbound value \"List.sorti\"\nHint: Did you mean \"sort\"?"
+        ],
+        "4": [
+            "test.ml:0:0: This expression has type \"int\" but an expression was expected of type\n\"'a list\""
+        ]
+    },
+    "HumanEval/123": {
+        "1": [
+            "test.ml:8:34: Unbound value \"odd\""
+        ]
+    },
+    "HumanEval/124": {
+        "1": [
+            "test.ml:3:20: Unbound module \"Str\""
+        ],
+        "2": [
+            "test.ml:3:20: Unbound module \"Str\""
+        ],
+        "3": [
+            "test.ml:3:20: Unbound module \"Str\""
+        ]
+    },
+    "HumanEval/130": {
+        "1": [
+            "test.ml:10:23: Unbound value \"trib\"\nHint: Did you mean \"tri\"?"
+        ],
+        "2": [
+            "test.ml:11:6: This expression has type \"int list list\"\nbut an expression was expected of type \"int list\"\nType \"int list\" is not compatible with type \"int\""
+        ]
+    },
+    "HumanEval/133": {
+        "1": [
+            "test.ml:2:38: Unbound value \"int\""
+        ]
+    },
+    "HumanEval/134": {
+        "1": [
+            "test.ml:6:5: Unbound value \"Char.is_alpha\""
+        ],
+        "2": [
+            "test.ml:6:5: Unbound value \"Char.is_alpha\""
+        ],
+        "3": [
+            "test.ml:6:5: Unbound value \"Char.isalpha\""
+        ]
+    },
+    "HumanEval/141": {
+        "1": [
+            "test.ml:19:39: Unbound value \"String.substr\""
+        ]
+    },
+    "HumanEval/144": {
+        "1": [
+            "test.ml:2:13: Unbound constructor \"Fraction\""
+        ],
+        "2": [
+            "test.ml:4:20: This expression has type \"string list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "HumanEval/145": {
+        "1": [
+            "test.ml:4:74: Unbound module \"Str\""
+        ],
+        "2": [
+            "test.ml:4:98: Unbound value \"Seq.to_list\""
+        ],
+        "3": [
+            "test.ml:4:74: Unbound module \"Str\""
+        ],
+        "4": [
+            "test.ml:4:95: Unbound value \"Seq.to_list\""
+        ]
+    },
+    "HumanEval/146": {
+        "1": [
+            "test.ml:7:43: Unbound value \"(%)\""
+        ],
+        "2": [
+            "test.ml:8:18: Unbound value \"odd\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+        ]
+    },
+    "HumanEval/153": {
+        "1": [
+            "test.ml:3:32: Unbound module \"Ext\""
+        ],
+        "2": [
+            "test.ml:3:56: Unbound value \"Char.is_uppercase\""
+        ],
+        "3": [
+            "test.ml:12:44: Unbound value \"strongest\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 7"
+        ]
+    },
+    "HumanEval/154": {
+        "1": [
+            "test.ml:7:21: Unbound value \"String.substring\""
+        ],
+        "2": [
+            "test.ml:8:26: This expression has type \"string\" but an expression was expected of type\n\"char\""
+        ]
+    },
+    "HumanEval/158": {
+        "1": [
+            "test.ml:5:41: Unbound value \"String.filter_dupes\""
+        ],
+        "2": [
+            "test.ml:5:41: Unbound value \"String.filter_duplicates\""
+        ],
+        "3": [
+            "test.ml:5:41: Unbound value \"String.filter_ch\""
+        ],
+        "4": [
+            "test.ml:5:41: Unbound value \"String.filter_chars\""
+        ],
+        "5": [
+            "test.ml:5:49: Unbound value \"filter\"\nHint: Did you mean \"iter\"?"
+        ]
+    },
+    "HumanEval/160": {
+        "1": [
+            "test.ml:12:46: Unbound value \"( **. )\"\nHint: Did you mean \"**\" or \"*.\"?"
+        ],
+        "2": [
+            "test.ml:30:2: Syntax error"
+        ],
+        "3": [
+            "test.ml:29:1: Syntax error"
+        ],
+        "4": [
+            "test.ml:12:46: Unbound value \"( **. )\"\nHint: Did you mean \"**\" or \"*.\"?"
+        ],
+        "5": [
+            "test.ml:12:35: Unbound value \"( **. )\"\nHint: Did you mean \"**\" or \"*.\"?"
+        ]
+    },
+    "HumanEval/163": {
+        "1": [
+            "test.ml:5:30: Unbound value \"x\""
+        ],
+        "2": [
+            "test.ml:5:30: Unbound value \"y\""
+        ]
+    },
+    "HumanEval/19": {
+        "1": [
+            "test.ml:23:1: Syntax error"
+        ],
+        "2": [
+            "test.ml:23:1: Syntax error"
+        ],
+        "3": [
+            "test.ml:23:1: Syntax error"
+        ],
+        "4": [
+            "test.ml:23:1: Syntax error"
+        ],
+        "5": [
+            "test.ml:23:1: Syntax error"
+        ]
+    },
+    "HumanEval/21": {
+        "1": [
+            "test.ml:2:17: Unbound value \"List.min\""
+        ]
+    },
+    "HumanEval/51": {
+        "1": [
+            "test.ml:14:25: Unbound value \"Char.toString\""
+        ],
+        "2": [
+            "test.ml:16:14: Unbound value \"String.to_list\""
+        ],
+        "3": [
+            "test.ml:16:29: Unbound value \"String.to_array\""
+        ],
+        "4": [
+            "test.ml:10:7: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"char array\""
+        ]
+    },
+    "HumanEval/56": {
+        "1": [
+            "test.ml:8:21: Unbound value \"List.of_string\""
+        ]
+    },
+    "HumanEval/57": {
+        "1": [
+            "test.ml:15:35: Unbound value \"xs\""
+        ]
+    },
+    "HumanEval/61": {
+        "1": [
+            "test.ml:7:21: Unbound value \"List.of_string\""
+        ]
+    },
+    "HumanEval/65": {
+        "1": [
+            "test.ml:2:16: Unbound value \"String.of_int\""
+        ],
+        "2": [
+            "test.ml:5:5: Unbound value \"String.rev\""
+        ],
+        "3": [
+            "test.ml:14:41: Unbound value \"String.set\"\nHint: Did you mean \"get\"?"
+        ],
+        "4": [
+            "test.ml:14:57: This expression has type \"int\" but an expression was expected of type\n\"bytes\""
+        ]
+    },
+    "HumanEval/66": {
+        "1": [
+            "test.ml:5:12: Unbound value \"Char.is_uppercase\""
+        ],
+        "2": [
+            "test.ml:7:10: Unbound value \"String.to_list\""
+        ],
+        "3": [
+            "test.ml:7:25: Unbound value \"String.to_array\""
+        ]
+    },
+    "HumanEval/67": {
+        "1": [
+            "test.ml:2:30: Unbound module \"Str\""
+        ],
+        "2": [
+            "test.ml:2:12: Unbound module \"Str\""
+        ],
+        "3": [
+            "test.ml:2:30: Unbound module \"Str\""
+        ],
+        "4": [
+            "test.ml:2:30: Unbound module \"Str\""
+        ],
+        "5": [
+            "test.ml:2:12: Unbound module \"Str\""
+        ]
+    },
+    "HumanEval/72": {
+        "1": [
+            "test.ml:5:19: Unbound value \"List.last\""
+        ]
+    },
+    "HumanEval/75": {
+        "1": [
+            "test.ml:4:10: Syntax error"
+        ],
+        "2": [
+            "test.ml:4:10: Syntax error"
+        ],
+        "3": [
+            "test.ml:4:10: Syntax error"
+        ],
+        "4": [
+            "test.ml:4:10: Syntax error"
+        ],
+        "5": [
+            "test.ml:4:10: Syntax error"
+        ]
+    },
+    "HumanEval/82": {
+        "1": [
+            "test.ml:5:10: Syntax error"
+        ],
+        "2": [
+            "test.ml:5:10: Syntax error"
+        ],
+        "3": [
+            "test.ml:5:10: Syntax error"
+        ],
+        "4": [
+            "test.ml:5:10: Syntax error"
+        ],
+        "5": [
+            "test.ml:5:10: Syntax error"
+        ]
+    },
+    "HumanEval/86": {
+        "1": [
+            "test.ml:17:63: Unbound value \"string_of_char\""
+        ],
+        "2": [
+            "test.ml:17:73: Unbound value \"string\"\nHint: Did you mean \"stdin\"?"
+        ]
+    },
+    "MBPP/118": {
+        "1": [
+            "test.ml:3:11: Unbound module \"Rest\""
+        ],
+        "2": [
+            "test.ml:3:28: This expression has type \"char\" but an expression was expected of type\n\"string\""
+        ]
+    },
+    "MBPP/12": {
+        "1": [
+            "test.ml:2:34: Unbound value \"List.sum\""
+        ]
+    },
+    "MBPP/130": {
+        "1": [
+            "test.ml:4:19: Unbound value \"head\""
+        ]
+    },
+    "MBPP/141": {
+        "1": [
+            "test.ml:4:30: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+        ],
+        "2": [
+            "test.ml:4:30: The function \"List.split\" has type ('a * 'b) list -> 'a list * 'b list\nIt is applied to too many arguments"
+        ]
+    },
+    "MBPP/145": {
+        "1": [
+            "test.ml:6:24: Syntax error"
+        ],
+        "2": [
+            "test.ml:5:21: Syntax error"
+        ],
+        "3": [
+            "test.ml:6:24: Syntax error"
+        ],
+        "4": [
+            "test.ml:6:24: Syntax error"
+        ],
+        "5": [
+            "test.ml:6:24: Syntax error"
+        ]
+    },
+    "MBPP/229": {
+        "1": [
+            "test.ml:2:18: Unbound value \"filter\""
+        ],
+        "2": [
+            "test.ml:4:25: Unbound value \"List.take\""
+        ],
+        "3": [
+            "test.ml:4:25: Unbound value \"List.take\""
+        ],
+        "4": [
+            "test.ml:4:25: Unbound value \"List.take\""
+        ],
+        "5": [
+            "test.ml:4:25: Unbound value \"List.take\""
+        ]
+    },
+    "MBPP/245": {
+        "1": [
+            "test.ml:6:9: Syntax error"
+        ],
+        "2": [
+            "test.ml:6:9: Syntax error"
+        ],
+        "3": [
+            "test.ml:7:16: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "MBPP/252": {
+        "1": [
+            "test.ml:4:38: Syntax error"
+        ],
+        "2": [
+            "test.ml:4:38: Syntax error"
+        ],
+        "3": [
+            "test.ml:4:38: Syntax error"
+        ],
+        "4": [
+            "test.ml:4:38: Syntax error"
+        ],
+        "5": [
+            "test.ml:4:38: Syntax error"
+        ]
+    },
+    "MBPP/260": {
+        "1": [
+            "test.ml:17:29: Unbound value \"Int.sqrt\""
+        ]
+    },
+    "MBPP/274": {
+        "1": [
+            "test.ml:4:41: Unbound value \"Int.fdiv\"\nHint: Did you mean \"div\"?"
+        ],
+        "2": [
+            "test.ml:4:50: Unbound value \"Int.factorial\""
+        ],
+        "3": [
+            "test.ml:5:9: Unbound constructor \"C\""
+        ],
+        "4": [
+            "test.ml:5:9: Unbound constructor \"C\""
+        ],
+        "5": [
+            "test.ml:5:9: Unbound constructor \"C\""
+        ]
+    },
+    "MBPP/283": {
+        "1": [
+            "test.ml:17:131: Syntax error: \")\" expected"
+        ],
+        "2": [
+            "test.ml:17:131: Syntax error: \")\" expected"
+        ],
+        "3": [
+            "test.ml:15:31: This expression has type \"unit\" but an expression was expected of type\n\"int array\""
+        ]
+    },
+    "MBPP/296": {
+        "1": [
+            "test.ml:19:41: Unbound value \"List.take\""
+        ],
+        "2": [
+            "test.ml:19:41: Unbound value \"List.sub\""
+        ],
+        "3": [
+            "test.ml:19:54: Unbound value \"List.take\""
+        ],
+        "4": [
+            "test.ml:19:41: Unbound value \"List.sub\""
+        ],
+        "5": [
+            "test.ml:21:39: Unbound value \"List.sub\""
+        ]
+    },
+    "MBPP/306": {
+        "1": [
+            "test.ml:7:24: Illegal character (\\187)"
+        ],
+        "2": [
+            "test.ml:7:24: Illegal character (\\187)"
+        ],
+        "3": [
+            "test.ml:7:24: Illegal character (\\187)"
+        ],
+        "4": [
+            "test.ml:7:24: Illegal character (\\187)"
+        ],
+        "5": [
+            "test.ml:7:24: Illegal character (\\187)"
+        ]
+    },
+    "MBPP/308": {
+        "1": [
+            "test.ml:10:6: Unbound value \"List.take\""
+        ],
+        "2": [
+            "test.ml:10:6: Unbound value \"List.take\""
+        ],
+        "3": [
+            "test.ml:10:6: Unbound value \"List.take\""
+        ],
+        "4": [
+            "test.ml:10:6: Unbound value \"List.take\""
+        ],
+        "5": [
+            "test.ml:10:6: Unbound value \"List.take\""
+        ]
+    },
+    "MBPP/4": {
+        "1": [
+            "test.ml:2:21: Syntax error"
+        ],
+        "2": [
+            "test.ml:23:3: Syntax error"
+        ],
+        "3": [
+            "test.ml:23:3: Syntax error"
+        ],
+        "4": [
+            "test.ml:23:3: Syntax error"
+        ],
+        "5": [
+            "test.ml:23:3: Syntax error"
+        ]
+    },
+    "MBPP/417": {
+        "1": [
+            "test.ml:2:3: Unbound value \"List.group_by\""
+        ],
+        "2": [
+            "test.ml:8:60: This expression has type \"'a * 'b\"\nbut an expression was expected of type \"('c * 'd) list\""
+        ]
+    },
+    "MBPP/421": {
+        "1": [
+            "test.ml:6:10039: Syntax error: \")\" expected"
+        ],
+        "2": [
+            "test.ml:6:7700: Syntax error: \"operator\" expected."
+        ],
+        "3": [
+            "test.ml:6:2728: Syntax error: \")\" expected"
+        ],
+        "4": [
+            "test.ml:6:2007: Syntax error: \"]\" expected"
+        ],
+        "5": [
+            "test.ml:6:4058: Syntax error: \")\" expected"
+        ]
+    },
+    "MBPP/428": {
+        "1": [
+            "test.ml:19:14: Unbound value \"n\""
+        ]
+    },
+    "MBPP/429": {
+        "1": [
+            "test.ml:2:18: Unbound value \"(^&^)\"\nHint: Did you mean \"^^\"?"
+        ],
+        "2": [
+            "test.ml:2:18: Unbound value \"(&&&)\"\nHint: Did you mean \"&&\"?"
+        ],
+        "3": [
+            "test.ml:2:8: This expression has type \"int * int * int * int\"\nbut an expression was expected of type \"'a * 'b\""
+        ]
+    },
+    "MBPP/442": {
+        "1": [
+            "test.ml:12:2: Syntax error"
+        ],
+        "2": [
+            "test.ml:12:2: Syntax error"
+        ],
+        "3": [
+            "test.ml:5:27: Unbound value \"count_helper\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+        ]
+    },
+    "MBPP/444": {
+        "1": [
+            "test.ml:2:24: Unbound value \"List.tl_n\""
+        ],
+        "2": [
+            "test.ml:2:24: Unbound value \"List.drop\""
+        ]
+    },
+    "MBPP/456": {
+        "1": [
+            "test.ml:2:22: Unbound value \"String.rev\""
+        ],
+        "2": [
+            "test.ml:2:22: Unbound value \"String.rev\""
+        ],
+        "3": [
+            "test.ml:2:44: Unbound value \"Seq.rev\""
+        ],
+        "4": [
+            "test.ml:2:44: Unbound value \"Seq.rev\""
+        ],
+        "5": [
+            "test.ml:2:44: Unbound value \"Seq.rev\""
+        ]
+    },
+    "MBPP/474": {
+        "1": [
+            "test.ml:4:8: Unbound value \"string_of_char\""
+        ]
+    },
+    "MBPP/476": {
+        "1": [
+            "test.ml:6:24: Syntax error"
+        ],
+        "2": [
+            "test.ml:6:24: Syntax error"
+        ],
+        "3": [
+            "test.ml:6:24: Syntax error"
+        ],
+        "4": [
+            "test.ml:6:24: Syntax error"
+        ],
+        "5": [
+            "test.ml:6:24: Syntax error"
+        ]
+    },
+    "MBPP/477": {
+        "1": [
+            "test.ml:7:37: Unbound value \"Char.lowercase\""
+        ],
+        "2": [
+            "test.ml:7:25: Unbound value \"Char.lowercase\""
+        ],
+        "3": [
+            "test.ml:7:25: Unbound value \"Char.lowercase\""
+        ],
+        "4": [
+            "test.ml:9:22: This expression has type \"char list\"\nbut an expression was expected of type \"string list\"\nType \"char\" is not compatible with type \"string\""
+        ]
+    },
+    "MBPP/557": {
+        "1": [
+            "test.ml:3:8: Unbound value \"Char.is_uppercase_ascii\"\nHint: Did you mean \"uppercase_ascii\"?"
+        ],
+        "2": [
+            "test.ml:3:54: This expression has type \"char\" but an expression was expected of type\n\"string\""
+        ]
+    },
+    "MBPP/589": {
+        "1": [
+            "test.ml:2:25: Unbound value \"int_sqrt\""
+        ]
+    },
+    "MBPP/594": {
+        "1": [
+            "test.ml:7:25: Syntax error"
+        ],
+        "2": [
+            "test.ml:7:25: Syntax error"
+        ],
+        "3": [
+            "test.ml:7:40: Syntax error"
+        ],
+        "4": [
+            "test.ml:7:40: Syntax error"
+        ],
+        "5": [
+            "test.ml:7:26: Syntax error"
+        ]
+    },
+    "MBPP/598": {
+        "1": [
+            "test.ml:3:41: Unbound value \"pow\""
+        ]
+    },
+    "MBPP/608": {
+        "1": [
+            "test.ml:4:25: Syntax error"
+        ]
+    },
+    "MBPP/615": {
+        "1": [
+            "test.ml:3:15: Unbound value \"List.foldi\""
+        ]
+    },
+    "MBPP/619": {
+        "1": [
+            "test.ml:4:13: Unbound value \"Char.isdigit\""
+        ],
+        "2": [
+            "test.ml:7:42: This expression has type \"string * string\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "MBPP/622": {
+        "1": [
+            "test.ml:6:7: Syntax error"
+        ],
+        "2": [
+            "test.ml:4:8: This expression has type \"int list\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "MBPP/624": {
+        "1": [
+            "test.ml:6:69: Unbound value \"char\""
+        ]
+    },
+    "MBPP/626": {
+        "1": [
+            "test.ml:3:29: Syntax error: \"operator\" expected."
+        ],
+        "2": [
+            "test.ml:3:29: Syntax error: \"operator\" expected."
+        ]
+    },
+    "MBPP/629": {
+        "1": [
+            "test.ml:2:3: Unbound value \"List.split_even_odd\""
+        ]
+    },
+    "MBPP/639": {
+        "1": [
+            "test.ml:6:10: Unbound value \"String.is_uppercase_ascii\"\nHint: Did you mean \"uppercase_ascii\"?"
+        ]
+    },
+    "MBPP/644": {
+        "1": [
+            "test.ml:8:35: Unbound value \"List.take\""
+        ],
+        "2": [
+            "test.ml:9:14: Unbound value \"List.drop\""
+        ],
+        "3": [
+            "test.ml:9:33: Unbound value \"List.drop\""
+        ],
+        "4": [
+            "test.ml:8:35: Unbound value \"List.take\""
+        ],
+        "5": [
+            "test.ml:8:54: Unbound value \"List.drop\""
+        ]
+    },
+    "MBPP/721": {
+        "1": [
+            "test.ml:8:20: Syntax error"
+        ],
+        "2": [
+            "test.ml:8:20: Syntax error"
+        ],
+        "3": [
+            "test.ml:8:20: Syntax error"
+        ],
+        "4": [
+            "test.ml:8:20: Syntax error"
+        ],
+        "5": [
+            "test.ml:8:20: Syntax error"
+        ]
+    },
+    "MBPP/731": {
+        "1": [
+            "test.ml:3:9: Unbound value \"pi\""
+        ]
+    },
+    "MBPP/737": {
+        "1": [
+            "test.ml:2:17: Unbound module \"Str\""
+        ],
+        "2": [
+            "test.ml:2:17: Unbound module \"Str\""
+        ],
+        "3": [
+            "test.ml:2:17: Unbound module \"Pcre\""
+        ],
+        "4": [
+            "test.ml:2:17: Unbound module \"Str\""
+        ],
+        "5": [
+            "test.ml:2:12: Unbound module \"Re\""
+        ]
+    },
+    "MBPP/745": {
+        "1": [
+            "test.ml:7:29: Unbound value \"List.range\""
+        ]
+    },
+    "MBPP/753": {
+        "1": [
+            "test.ml:3:6: Unbound value \"List.take\""
+        ],
+        "2": [
+            "test.ml:4:8: Unbound value \"List.take\""
+        ]
+    },
+    "MBPP/756": {
+        "1": [
+            "test.ml:6:24: Unbound value \"String.drop\""
+        ],
+        "2": [
+            "test.ml:6:23: This expression has type \"'a list\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "MBPP/757": {
+        "1": [
+            "test.ml:5:24: Unbound value \"String.rev\""
+        ],
+        "2": [
+            "test.ml:5:24: Unbound value \"String.rev\""
+        ],
+        "3": [
+            "test.ml:5:24: Unbound value \"String.rev\""
+        ],
+        "4": [
+            "test.ml:5:24: Unbound value \"String.rev\""
+        ],
+        "5": [
+            "test.ml:5:24: Unbound value \"String.rev\""
+        ]
+    },
+    "MBPP/780": {
+        "1": [
+            "test.ml:13:47: Unbound value \"equal\""
+        ],
+        "2": [
+            "test.ml:13:74: Unbound value \"equal\""
+        ],
+        "3": [
+            "test.ml:20:52: Unbound value \"y\""
+        ],
+        "4": [
+            "test.ml:20:52: Unbound value \"y\""
+        ],
+        "5": [
+            "test.ml:20:52: Unbound value \"y\""
+        ]
+    },
+    "MBPP/782": {
+        "1": [
+            "test.ml:5:21: Unbound value \"List.sub\""
+        ]
+    },
+    "MBPP/783": {
+        "1": [
+            "test.ml:4:15: Unbound value \"max_val\"\nHint: Did you mean \"max_int\"?"
+        ],
+        "2": [
+            "test.ml:4:15: Unbound value \"max_val\"\nHint: Did you mean \"max_int\"?"
+        ],
+        "3": [
+            "test.ml:4:15: Unbound value \"max_val\"\nHint: Did you mean \"max_int\"?"
+        ],
+        "4": [
+            "test.ml:4:15: Unbound value \"max_val\"\nHint: Did you mean \"max_int\"?"
+        ],
+        "5": [
+            "test.ml:4:15: Unbound value \"max_val\"\nHint: Did you mean \"max_int\"?"
+        ]
+    },
+    "MBPP/83": {
+        "1": [
+            "test.ml:10:19: Unbound value \"char\""
+        ],
+        "2": [
+            "test.ml:10:19: Unbound value \"char\""
+        ]
+    }
+}

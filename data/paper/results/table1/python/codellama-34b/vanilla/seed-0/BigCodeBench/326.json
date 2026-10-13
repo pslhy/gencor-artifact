@@ -1,0 +1,23 @@
+{
+    "decoded": 308,
+    "llm_time": 16.57191276550293,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007503986358642578,
+    "constrainer_time": 0.07134366035461426,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 16.744129419326782,
+    "frequency": {
+        "1": 309
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:18:25: undefined name 's'",
+        "<python>:23:16: undefined name 'proc'"
+    ]
+}

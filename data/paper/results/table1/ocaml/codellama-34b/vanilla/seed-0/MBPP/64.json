@@ -1,0 +1,22 @@
+{
+    "decoded": 125,
+    "llm_time": 6.6820032596588135,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0032041072845458984,
+    "constrainer_time": 0.029557466506958008,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.7492921352386475,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:38: Syntax error: \"wildcard \"_\"\" not expected."
+    ]
+}

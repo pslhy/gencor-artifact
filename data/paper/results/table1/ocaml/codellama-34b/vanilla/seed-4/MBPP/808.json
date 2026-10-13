@@ -1,0 +1,22 @@
+{
+    "decoded": 103,
+    "llm_time": 5.540373086929321,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002996683120727539,
+    "constrainer_time": 0.02678084373474121,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.601264476776123,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:0:0: The function \"check_K\" has type int list -> int -> bool\nIt is applied to too many arguments"
+    ]
+}

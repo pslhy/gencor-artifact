@@ -1,0 +1,18 @@
+{
+    "decoded": 20,
+    "total_time": 1.3687224388122559,
+    "llm_time": 1.3687224388122559,
+    "constrainer_time": 0.0,
+    "n_resamples": 0,
+    "eos": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": "ValueError: Invalid type for for of loop",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 0,
+    "is_err": null,
+    "is_synerr": null,
+    "is_uv": null,
+    "errors": null
+}

@@ -1,0 +1,28 @@
+{
+    "decoded": 607,
+    "decoded_at_turn": {
+        "1": 321,
+        "2": 286
+    },
+    "llm_time": 33.82611536979675,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.021338224411010742,
+    "constrainer_time": 0.15944170951843262,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 34.252463817596436,
+    "frequency": {
+        "1": 609
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:7: This pattern matches values of type \"'a * 'b\"\nbut a pattern was expected which matches values of type \"float\""
+    ]
+}

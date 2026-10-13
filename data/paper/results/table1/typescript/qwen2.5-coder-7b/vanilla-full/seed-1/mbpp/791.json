@@ -1,0 +1,19 @@
+{
+    "decoded": 136,
+    "llm_time": 3.654474973678589,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003319263458251953,
+    "constrainer_time": 0.03192758560180664,
+    "total_time": 3.7320497035980225,
+    "frequency": {
+        "1": 137
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2352: Conversion of type '[]' to type '[number, number, number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Source has 0 element(s) but target requires 4."
+    ]
+}

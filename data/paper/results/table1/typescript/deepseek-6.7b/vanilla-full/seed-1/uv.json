@@ -1,0 +1,36 @@
+{
+    "mbpp/131": [
+        "TS2304: Cannot find name 'True'.",
+        "TS2304: Cannot find name 'True'.",
+        "TS2304: Cannot find name 'True'.",
+        "TS2304: Cannot find name 'True'.",
+        "TS2304: Cannot find name 'True'.",
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'char'."
+    ],
+    "mbpp/421": [
+        "TS2584: Cannot find name 'document'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'."
+    ],
+    "mbpp/597": [
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'."
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "decoded": 263,
+    "decoded_at_turn": {
+        "1": 140,
+        "2": 123
+    },
+    "llm_time": 14.221849918365479,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006678342819213867,
+    "constrainer_time": 0.06359982490539551,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.370125532150269,
+    "frequency": {
+        "1": 265
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:12:112: This variant expression is expected to have type \"unit\"\nbecause it is in the result of a conditional with no else branch\nThere is no constructor \"::\" within type \"unit\""
+    ]
+}

@@ -1,0 +1,49 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     prime_fib returns n-th number that is a Fibonacci number and it's also prime. *)
+(*     >>> prime_fib 1 *)
+(*     2 *)
+(*     >>> prime_fib 2 *)
+(*     3 *)
+(*     >>> prime_fib 3 *)
+(*     5 *)
+(*     >>> prime_fib 4 *)
+(*     13 *)
+(*     >>> prime_fib 5 *)
+(*     89 *)
+let rec prime_fib (n : int) : int =
+    let rec fib (n : int) : int =
+        if n < 2 then
+            n
+        else
+            fib (n - 1) + fib (n - 2)
+    in
+    let rec is_prime (n : int) : bool =
+        if n < 2 then
+            false
+        else if n = 2 then
+            true
+        else
+            let rec loop (i : int) : bool =
+                if i * i > n then
+                    true
+                else if n mod i = 0 then
+                    false
+                else
+                    loop (i + 1)
+            in
+            loop 2
+    in
+    let rec find_prime (n : int) : int =
+        if is_prime n then
+            n
+        else
+            find_prime (n + 1)
+    in
+    find_prime (fib n)
+

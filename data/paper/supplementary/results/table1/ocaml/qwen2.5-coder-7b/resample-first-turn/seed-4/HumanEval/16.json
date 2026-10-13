@@ -1,0 +1,22 @@
+{
+    "decoded": 175,
+    "llm_time": 4.687863111495972,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004164934158325195,
+    "constrainer_time": 0.040317535400390625,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.791037082672119,
+    "frequency": {
+        "1": 176
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:15:5: Unbound constructor \"CHAR_a\""
+    ]
+}

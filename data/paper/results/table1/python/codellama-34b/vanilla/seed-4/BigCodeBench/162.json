@@ -1,0 +1,24 @@
+{
+    "decoded": 254,
+    "llm_time": 13.759925365447998,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005899667739868164,
+    "constrainer_time": 0.05721545219421387,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.898201942443848,
+    "frequency": {
+        "1": 255
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:23:89: positional argument follows keyword argument",
+        "    ax.hist(lengths_norm, bins=50, range=(-rwidth, rwidth), align=\"left\", Blue,alpha=0.6)",
+        "                                                                                        ^"
+    ]
+}

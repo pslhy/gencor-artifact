@@ -1,0 +1,19 @@
+{
+    "decoded": 125,
+    "llm_time": 3.321533441543579,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00296783447265625,
+    "constrainer_time": 0.028955936431884766,
+    "total_time": 3.391822576522827,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number[]' is not assignable to type 'number[][]'.\n  Type 'number' is not assignable to type 'number[]'."
+    ]
+}

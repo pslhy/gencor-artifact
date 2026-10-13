@@ -1,0 +1,21 @@
+{
+    "decoded": 80,
+    "llm_time": 4.317906618118286,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002239227294921875,
+    "constrainer_time": 0.004966259002685547,
+    "total_time": 4.346806287765503,
+    "frequency": {
+        "1": 81
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'char'.",
+        "TS2407: The right-hand side of a 'for...in' statement must be of type 'any', an object type or a type parameter, but here has type 'string'.",
+        "TS2304: Cannot find name 'char'."
+    ]
+}

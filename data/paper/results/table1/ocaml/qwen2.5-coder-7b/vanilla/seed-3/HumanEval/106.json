@@ -1,0 +1,22 @@
+{
+    "decoded": 200,
+    "llm_time": 5.385439395904541,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004784345626831055,
+    "constrainer_time": 0.04635977745056152,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.507756233215332,
+    "frequency": {
+        "1": 201
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/106.ml:16:17: invalid format \"%A\\n\": at character number 1, invalid conversion \"%A\""
+    ]
+}

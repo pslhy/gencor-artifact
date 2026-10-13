@@ -1,0 +1,22 @@
+{
+    "total_time": 90.00017142295837,
+    "llm_time": 90.00017142295837,
+    "constrainer_time": 0.0,
+    "n_resamples": 64,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type 'boolean' is not assignable to type 'string | [number, number, number, number, number, number]'.",
+        "TS2322: Type 'boolean' is not assignable to type '{ [key: number]: number; }'.",
+        "TS2345: Argument of type 'string | number' is not assignable to parameter of type 'number'.\n  Type 'string' is not assignable to type 'number'.",
+        "TS2872: This kind of expression is always truthy."
+    ]
+}

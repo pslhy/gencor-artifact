@@ -1,0 +1,17 @@
+{
+    "decoded": 20,
+    "llm_time": 1.1198642253875732,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0005767345428466797,
+    "constrainer_time": 0.0014390945434570312,
+    "total_time": 1.1271483898162842,
+    "frequency": {
+        "1": 21
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": []
+}

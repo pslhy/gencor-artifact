@@ -1,0 +1,53 @@
+{
+    "HumanEval/64": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "HumanEval/147": [
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'a'."
+    ],
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'createHash'."
+    ],
+    "mbpp/83": [
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?"
+    ],
+    "mbpp/245": [
+        "TS2552: Cannot find name 'subsequence'. Did you mean 'subsequences'?"
+    ],
+    "mbpp/256": [
+        "TS2304: Cannot find name 'valuesOf'.",
+        "TS2304: Cannot find name 'valuesOf'."
+    ],
+    "mbpp/399": [
+        "TS2304: Cannot find name 'xor'.",
+        "TS2304: Cannot find name 'xor'.",
+        "TS2304: Cannot find name 'xor'.",
+        "TS2304: Cannot find name 'xor'."
+    ],
+    "mbpp/408": [
+        "TS2304: Cannot find name 'PriorityQueue'."
+    ],
+    "mbpp/428": [
+        "TS2304: Cannot find name 'j'."
+    ],
+    "mbpp/580": [
+        "TS2552: Cannot find name 'isArray'. Did you mean 'Array'?"
+    ],
+    "mbpp/744": [
+        "TS2304: Cannot find name 'None'."
+    ],
+    "mbpp/751": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/762": [
+        "TS2552: Cannot find name 'monthnum'. Did you mean 'monthnum3'?"
+    ]
+}

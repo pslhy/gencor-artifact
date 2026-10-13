@@ -1,0 +1,22 @@
+{
+    "decoded": 193,
+    "llm_time": 4.902231454849243,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005129337310791016,
+    "constrainer_time": 0.04408073425292969,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.017946720123291,
+    "frequency": {
+        "1": 194
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/286.ml:6:9: Syntax error"
+    ]
+}

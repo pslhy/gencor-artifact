@@ -1,0 +1,22 @@
+{
+    "decoded": 370,
+    "llm_time": 9.197259187698364,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009121894836425781,
+    "constrainer_time": 0.08649230003356934,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.40728235244751,
+    "frequency": {
+        "1": 371
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/41.ml:7:7: Unbound module \"Console\""
+    ]
+}

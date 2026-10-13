@@ -1,0 +1,28 @@
+let rec list_to_float (test_list :  (string * string) list) :  (float * float) list =
+  let list1 =
+    List.filter
+      (function
+      | (str1, str2) ->
+        (not (str1 = "")) && (not (str2 = "")) && (float_of_string_opt str1 <>) <> None
+           && (float_of_string_opt str2 <>) <> None)
+
+      test_list in
+
+  let list2 =
+    List.map
+      (function
+      | (str1, str2) ->
+        (float_of_string str1, float_of_string str2))
+
+      list1 in
+
+  list2
+
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to convert all possible convertible elements in a list of lists to floats. *)

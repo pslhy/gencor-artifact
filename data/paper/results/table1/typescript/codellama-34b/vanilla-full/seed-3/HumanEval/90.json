@@ -1,0 +1,20 @@
+{
+    "decoded": 132,
+    "llm_time": 7.161996603012085,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035011768341064453,
+    "constrainer_time": 0.0080718994140625,
+    "total_time": 7.2099995613098145,
+    "frequency": {
+        "1": 133
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'i' because it is a constant.",
+        "TS18048: 'second_smallest' is possibly 'undefined'."
+    ]
+}

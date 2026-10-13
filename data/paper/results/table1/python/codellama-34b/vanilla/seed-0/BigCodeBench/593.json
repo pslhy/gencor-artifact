@@ -1,0 +1,22 @@
+{
+    "decoded": 559,
+    "llm_time": 30.625002145767212,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013846158981323242,
+    "constrainer_time": 0.13086152076721191,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 30.968690872192383,
+    "frequency": {
+        "1": 560
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:55:27: undefined name 'axes'"
+    ]
+}

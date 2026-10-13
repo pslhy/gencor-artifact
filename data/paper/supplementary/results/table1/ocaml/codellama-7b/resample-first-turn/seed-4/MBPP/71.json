@@ -1,0 +1,22 @@
+{
+    "decoded": 327,
+    "llm_time": 8.611122846603394,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008048057556152344,
+    "constrainer_time": 0.07852768898010254,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.792558431625366,
+    "frequency": {
+        "1": 328
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:14:39: Unbound value \"List.take_drop\""
+    ]
+}

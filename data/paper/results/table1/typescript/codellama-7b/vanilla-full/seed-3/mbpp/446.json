@@ -1,0 +1,20 @@
+{
+    "decoded": 127,
+    "llm_time": 3.177111864089966,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029001235961914062,
+    "constrainer_time": 0.02944183349609375,
+    "total_time": 3.2418835163116455,
+    "frequency": {
+        "1": 128
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'never[]' is not assignable to type 'number'.",
+        "TS2322: Type 'number[]' is not assignable to type 'number'."
+    ]
+}

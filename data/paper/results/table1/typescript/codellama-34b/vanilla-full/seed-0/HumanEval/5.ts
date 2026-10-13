@@ -1,0 +1,27 @@
+function intersperse(numbers: number[], delimeter: number): number[] {
+  const result: number[] = [];
+  for (let i = 0; i < numbers.length; i++) {
+    if (i > 0) {
+      result.push(delimeter);
+    }
+    result.push(numbers[i]);
+  }
+  return result;
+}
+
+// example usage
+const numbers = [1, 2, 3];
+const output = intersperse(numbers, 4);
+console.log(output); // [1, 4, 2, 4, 3]
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Insert a number 'delimeter' between every two consecutive elements of input array `numbers'
+//     >>> intersperse([], 4)
+//     []
+//     >>> intersperse([1, 2, 3], 4)
+//     [1, 4, 2, 4, 3]

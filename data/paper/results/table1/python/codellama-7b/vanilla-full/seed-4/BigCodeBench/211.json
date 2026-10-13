@@ -1,0 +1,23 @@
+{
+    "decoded": 210,
+    "llm_time": 5.292588472366333,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0051152706146240234,
+    "constrainer_time": 0.04947924613952637,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.408223390579224,
+    "frequency": {
+        "1": 211
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/211.py:13:26: undefined name 'io'",
+        "BigCodeBench/211.py:18:5: undefined name 'shutil'"
+    ]
+}

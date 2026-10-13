@@ -1,0 +1,22 @@
+{
+    "decoded": 125,
+    "llm_time": 3.26070499420166,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029876232147216797,
+    "constrainer_time": 0.029373645782470703,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3287508487701416,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/77.ml:12:17: Unbound value \"round\""
+    ]
+}

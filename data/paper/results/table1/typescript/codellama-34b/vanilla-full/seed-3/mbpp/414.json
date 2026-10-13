@@ -1,0 +1,28 @@
+{
+    "decoded": 438,
+    "llm_time": 23.64102816581726,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011825084686279297,
+    "constrainer_time": 0.026626110076904297,
+    "total_time": 23.80627727508545,
+    "frequency": {
+        "1": 439
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'T[][]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'T[][]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'T[][]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'T[][]'. Did you mean 'length'?",
+        "TS2769: No overload matches this call.\n  Overload 1 of 4, '(iterable?: Iterable<readonly [number, boolean]> | null | undefined): Map<number, boolean>', gave the following error.\n    Argument of type 'T[]' is not assignable to parameter of type 'Iterable<readonly [number, boolean]>'.\n      The types returned by '[Symbol.iterator]().next(...)' are incompatible between these types.\n        Type 'IteratorResult<T, undefined>' is not assignable to type 'IteratorResult<readonly [number, boolean], any>'.\n          Type 'IteratorYieldResult<T>' is not assignable to type 'IteratorResult<readonly [number, boolean], any>'.\n            Type 'IteratorYieldResult<T>' is not assignable to type 'IteratorYieldResult<readonly [number, boolean]>'.\n              Type 'T' is not assignable to type 'readonly [number, boolean]'.\n  Overload 2 of 4, '(entries?: readonly (readonly [number, boolean])[] | null | undefined): Map<number, boolean>', gave the following error.\n    Argument of type 'T[]' is not assignable to parameter of type 'readonly (readonly [number, boolean])[]'.\n      Type 'T' is not assignable to type 'readonly [number, boolean]'.",
+        "TS2345: Argument of type 'Map<number, boolean>' is not assignable to parameter of type 'T[][]'.\n  Type 'Map<number, boolean>' is missing the following properties from type 'T[][]': length, pop, push, concat, and 30 more."
+    ]
+}

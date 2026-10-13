@@ -1,0 +1,22 @@
+{
+    "decoded": 426,
+    "llm_time": 10.849327325820923,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01122736930847168,
+    "constrainer_time": 0.09860873222351074,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.114714860916138,
+    "frequency": {
+        "1": 427
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/286.ml:26:9: This expression has type \"int\" but an expression was expected of type\n\"'a -> 'b\""
+    ]
+}

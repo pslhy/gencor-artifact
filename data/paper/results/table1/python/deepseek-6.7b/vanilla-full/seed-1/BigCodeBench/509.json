@@ -1,0 +1,22 @@
+{
+    "decoded": 301,
+    "llm_time": 7.905292749404907,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007634162902832031,
+    "constrainer_time": 0.07048630714416504,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.085466146469116,
+    "frequency": {
+        "1": 302
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/509.py:14:20: undefined name 'difflib'"
+    ]
+}

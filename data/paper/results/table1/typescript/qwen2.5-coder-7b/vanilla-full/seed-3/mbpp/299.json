@@ -1,0 +1,19 @@
+{
+    "decoded": 130,
+    "llm_time": 3.303335666656494,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003084897994995117,
+    "constrainer_time": 0.029715538024902344,
+    "total_time": 3.3763301372528076,
+    "frequency": {
+        "1": 131
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type '1' can't be used to index type 'string | number'.\n  Property '1' does not exist on type 'string | number'."
+    ]
+}

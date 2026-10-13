@@ -1,0 +1,57 @@
+{
+    "BigCodeBench/101": {
+        "1": [
+            "BigCodeBench/101.py:21:32: syntax error in forward annotation 'ValueError occurred. Exception raised. '",
+            "BigCodeBench/101.py:21:5: local variable 'exceptValueError' is annotated but never used"
+        ]
+    },
+    "BigCodeBench/458": {
+        "1": [
+            "BigCodeBench/458.py:201:1: unterminated triple-quoted string literal (detected at line 202)",
+            "'''",
+            "^"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "BigCodeBench/509.py:17:1128: cannot mix bytes and nonbytes literals",
+            "    for line_num, line1 in enumerate(df1['content].tolist()):  # loop through lines in first file (df1) and compare to lines in second file (df2) to find differences (ndiff). Status indicates type of difference (present in only file1, only file2, or both files). Line number is also added (1-based indexing). For each difference, a new entry is created in diff_df. Content includes original text line. An empty line is added to each file to account for the case where only a single difference is found.  ndiff = ndiff(asstr(line1), asstr(line2))  diff_type = ' '  if ndiff:  diff_type = '-'  if ndiff[0].startswith('+  '):  diff_type = '+')` converts the dtype of all elements in `data` to float, whether they are numerical data or not. If `errors` is `'in'` (case-insensitive), exceptions are raised only when trying to convert numeric data to a float. However, in this case, only non-numeric data is expected, so we can use the default setting to allow pandas to raise `ValueError` for any data that cannot be converted to float. Then, the differences are calculated as follows:  diff_df = pd.DataFrame(columns=['and', 'b', 'and', float(a) - float(b)])  # find differences between columns data['and'] = 'and' diff_df['and'] = 'and' diff_df['and'] = 'and' diff_df['and'] = 'and' diff_df['and'] = 'and'  # subtract columns diff_df = diff_df.drop(diff_df[diff_df['and'] == 'and')` converts the dtype of all elements in `data` to float, whether they are numerical data or not. If `errors` is `'in'` (case-insensitive), exceptions are raised only when trying to convert numeric data to a float. However, in this case, only non-numeric data is expected, so we can use the default setting to allow pandas to raise `ValueError` for any data that cannot be converted to float. Then, the differences are calculated as follows:  diff_df = pd.DataFrame(columns=['and', 'b', 'and', float(a) - float(b)])  # find differences between columns data['and'] = 'and' diff_df['and'] = 'and' diff_df['and'] = 'and' diff_df['and'] = 'and' diff_df['and'] = 'and'  # subtract columns diff_df = diff_df.drop(diff_df[diff_df['and'] == 'andand concat.xlsx, index==(False)",
+            "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "BigCodeBench/583.py:15:25: '(' was never closed",
+            "    aes_cipher = AES.new(b64encode(get_random_bytes(16)), AES.MODE_GCM, nonce = b'@\\xf3\\xdap\\x1f\\xa2\\xc3\\xba\\xd7'\\",
+            "                        ^"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "BigCodeBench/587.py:212:5: unterminated string literal (detected at line 212)",
+            "and 'rsa_private",
+            "    ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:18:1: inconsistent use of tabs and spaces in indentation",
+            "\t\tWrnFinNum=\"5\"",
+            "^"
+        ]
+    },
+    "BigCodeBench/654": {
+        "1": [
+            "BigCodeBench/654.py:20:22: '(' was never closed",
+            "        return np.sum((signal - exp_decay(t, *popt))**2 / noise**2 + (popt**2 / 2)**2 / ndata**2 + np.abs(popt)**2 / ndata**2 / tau**2 / 2 / signal.sum()**2 / 2.0 / tau**2 / signal.sum()**2 * np.log(tau)**2 / 2.0 / signal.sum()**2 / 2.0 / signal.sum()**2 * np.log(tau)**2 / 2.0 / signal.sum()**2",
+            "                     ^"
+        ]
+    },
+    "BigCodeBench/1040": {
+        "1": [
+            "BigCodeBench/1040.py:24:54: '(' was never closed",
+            "                    receive_thread = threading.Thread(target=__doc__, out_of_bound_data = select.select(",
+            "                                                     ^"
+        ]
+    }
+}

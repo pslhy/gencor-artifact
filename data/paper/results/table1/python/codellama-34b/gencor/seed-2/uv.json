@@ -1,0 +1,12 @@
+{
+    "BigCodeBench/511": [
+        "BigCodeBench/511.py:10:27: undefined module member 'np.NaN'",
+        "BigCodeBench/511.py:11:26: undefined module member 'np.NaN'",
+        "BigCodeBench/511.py:12:26: undefined module member 'np.NaN'"
+    ],
+    "BigCodeBench/579": [
+        "BigCodeBench/579.py:9:5: undefined name 'Reads'",
+        "BigCodeBench/579.py:9:12: undefined name 'normalizes'",
+        "BigCodeBench/579.py:9:24: undefined name 'andplots'"
+    ]
+}

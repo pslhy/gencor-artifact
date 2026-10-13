@@ -1,0 +1,31 @@
+{
+    "decoded": 874,
+    "decoded_at_turn": {
+        "1": 211,
+        "2": 184,
+        "3": 184,
+        "4": 147,
+        "5": 148
+    },
+    "llm_time": 49.6227502822876,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.024897336959838867,
+    "constrainer_time": 0.21855735778808594,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 50.21176719665527,
+    "frequency": {
+        "1": 879
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:24: This expression has type \"int list -> int list * int list\"\nbut an expression was expected of type \"'a * 'b\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 66,
+    "llm_time": 1.7110350131988525,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016169548034667969,
+    "constrainer_time": 0.015377044677734375,
+    "total_time": 1.7483086585998535,
+    "frequency": {
+        "1": 67
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2365: Operator '>' cannot be applied to types 'string | number' and 'number'.",
+        "TS2322: Type 'string | number' is not assignable to type 'number'.\n  Type 'string' is not assignable to type 'number'."
+    ]
+}

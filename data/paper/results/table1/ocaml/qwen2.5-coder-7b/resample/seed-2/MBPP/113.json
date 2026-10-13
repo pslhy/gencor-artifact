@@ -1,0 +1,31 @@
+{
+    "decoded": 505,
+    "decoded_at_turn": {
+        "1": 101,
+        "2": 101,
+        "3": 101,
+        "4": 101,
+        "5": 101
+    },
+    "llm_time": 13.45991849899292,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011905670166015625,
+    "constrainer_time": 0.11814379692077637,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.787493705749512,
+    "frequency": {
+        "1": 510
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:19: Unbound value \"Char.is_digit\""
+    ]
+}

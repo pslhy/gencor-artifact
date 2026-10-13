@@ -1,0 +1,41 @@
+{
+    "mbpp/291": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2488: Type 'number' must have a '[Symbol.iterator]()' method that returns an iterator."
+        ]
+    },
+    "mbpp/389": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Number'.",
+            "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures."
+        ]
+    },
+    "mbpp/574": {
+        "1": [
+            "TS2339: Property 'a' does not exist on type 'PromiseConstructor'."
+        ]
+    },
+    "mbpp/577": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type '(from: number, length?: number | undefined) => string' is not assignable to type 'string'.",
+            "TS18048: 'lastDigitMultiplied' is possibly 'undefined'.",
+            "TS18048: 'currentDigit' is possibly 'undefined'."
+        ]
+    },
+    "mbpp/592": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/724": {
+        "1": [
+            "TS2322: Type 'string' is not assignable to type 'number'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string): string', gave the following error.\n    Argument of type '(a: number, b: number) => number' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Types of parameters 'a' and 'previousValue' are incompatible.\n        Type 'string' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error.\n    Argument of type '(a: number, b: number) => number' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Types of parameters 'a' and 'previousValue' are incompatible.\n        Type 'string' is not assignable to type 'number'.\n  Overload 3 of 3, '(callbackfn: (previousValue: number, currentValue: string, currentIndex: number, array: string[]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(a: number, b: number) => number' is not assignable to parameter of type '(previousValue: number, currentValue: string, currentIndex: number, array: string[]) => number'.\n      Types of parameters 'b' and 'currentValue' are incompatible.\n        Type 'string' is not assignable to type 'number'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    }
+}

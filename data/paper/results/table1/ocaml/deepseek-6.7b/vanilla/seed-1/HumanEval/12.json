@@ -1,0 +1,22 @@
+{
+    "decoded": 26,
+    "llm_time": 0.6860346794128418,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0006628036499023438,
+    "constrainer_time": 0.006145000457763672,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.6999187469482422,
+    "frequency": {
+        "1": 27
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/12.ml:3:15: This expression has type \"'a option\"\nbut an expression was expected of type \"string\""
+    ]
+}

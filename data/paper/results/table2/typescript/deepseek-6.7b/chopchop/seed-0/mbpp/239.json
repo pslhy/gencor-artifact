@@ -1,0 +1,36 @@
+{
+    "decoded": 855,
+    "llm_time": 31.900829315185547,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 58.161683082580566,
+    "constrainer_time": 0.0,
+    "total_time": 90.06251239776611,
+    "frequency": {
+        "1": 800,
+        "9": 2,
+        "85": 1,
+        "33": 1,
+        "16": 1,
+        "3": 7,
+        "2": 10,
+        "8": 1,
+        "10": 1,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmp2x1btc72.ts(58,24): error TS1005: '}' expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 1038,
+    "num_tokens_generated": 855,
+    "total_realizability_time": 58.161683082580566
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 29,
+    "llm_time": 0.7409286499023438,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007526874542236328,
+    "constrainer_time": 0.007093906402587891,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.7568418979644775,
+    "frequency": {
+        "1": 30
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/738.ml:5:9: This expression has type \"float\" but an expression was expected of type\n\"int\""
+    ]
+}

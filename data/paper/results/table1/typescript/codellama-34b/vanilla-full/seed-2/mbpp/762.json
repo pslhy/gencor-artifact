@@ -1,0 +1,19 @@
+{
+    "decoded": 120,
+    "llm_time": 6.397477626800537,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003046751022338867,
+    "constrainer_time": 0.007234096527099609,
+    "total_time": 6.4388298988342285,
+    "frequency": {
+        "1": 121
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'months'."
+    ]
+}

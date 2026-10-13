@@ -1,0 +1,22 @@
+{
+    "decoded": 138,
+    "llm_time": 3.368314743041992,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031957626342773438,
+    "constrainer_time": 0.03124260902404785,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.4427995681762695,
+    "frequency": {
+        "1": 139
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/96.ml:4:11: Unbound value \"is_prime\""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 55,
+    "llm_time": 2.9449355602264404,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013332366943359375,
+    "constrainer_time": 0.0033562183380126953,
+    "total_time": 2.9630844593048096,
+    "frequency": {
+        "1": 56
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type '(string | number)[][]' is not assignable to type '[string, number][]'.\n  Type '(string | number)[]' is not assignable to type '[string, number]'.\n    Target requires 2 element(s) but source may have fewer.",
+        "TS2345: Argument of type '(a: [string, number], b: [string, number]) => number' is not assignable to parameter of type '(a: (string | number)[], b: (string | number)[]) => number'.\n  Types of parameters 'a' and 'a' are incompatible.\n    Type '(string | number)[]' is not assignable to type '[string, number]'.\n      Target requires 2 element(s) but source may have fewer."
+    ]
+}

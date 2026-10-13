@@ -1,0 +1,33 @@
+{
+    "decoded": 1193,
+    "decoded_at_turn": {
+        "1": 241,
+        "2": 238,
+        "3": 238,
+        "4": 238,
+        "5": 238
+    },
+    "llm_time": 69.05165886878967,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.030281782150268555,
+    "constrainer_time": 0.2877340316772461,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 69.89314675331116,
+    "frequency": {
+        "1": 1198
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:11:64: invalid syntax. Maybe you meant '==' or ':=' instead of '='?",
+        "            client_socket.connect((os.path.dirname(cert_file), buffer_size=buffer_size))",
+        "                                                               ^"
+    ]
+}

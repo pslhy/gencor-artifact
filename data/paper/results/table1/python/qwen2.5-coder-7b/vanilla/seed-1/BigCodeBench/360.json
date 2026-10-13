@@ -1,0 +1,25 @@
+{
+    "decoded": 302,
+    "llm_time": 7.815990209579468,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008426189422607422,
+    "constrainer_time": 0.07060527801513672,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.009613275527954,
+    "frequency": {
+        "1": 303
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:23:9: undefined name 'sys'",
+        "<python>:25:13: undefined name 'sys'",
+        "<python>:26:13: undefined name 'sys'",
+        "<python>:27:13: undefined name 'time'"
+    ]
+}

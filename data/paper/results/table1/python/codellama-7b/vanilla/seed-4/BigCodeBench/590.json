@@ -1,0 +1,22 @@
+{
+    "decoded": 301,
+    "llm_time": 7.549142122268677,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00763702392578125,
+    "constrainer_time": 0.07065701484680176,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.726255416870117,
+    "frequency": {
+        "1": 302
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:17:15: undefined name 'URLError'"
+    ]
+}

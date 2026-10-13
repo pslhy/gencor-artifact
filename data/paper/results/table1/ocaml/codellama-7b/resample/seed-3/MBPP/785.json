@@ -1,0 +1,31 @@
+{
+    "decoded": 442,
+    "decoded_at_turn": {
+        "1": 64,
+        "2": 62,
+        "3": 56,
+        "4": 126,
+        "5": 134
+    },
+    "llm_time": 11.781185626983643,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010820627212524414,
+    "constrainer_time": 0.10703873634338379,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.047181844711304,
+    "frequency": {
+        "1": 447
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:30: This expression has type \"string\" but an expression was expected of type\n\"'a * 'b\""
+    ]
+}

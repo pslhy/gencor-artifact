@@ -1,0 +1,22 @@
+{
+    "decoded": 405,
+    "llm_time": 13.856496572494507,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010813474655151367,
+    "constrainer_time": 0.10747933387756348,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.132553100585938,
+    "frequency": {
+        "1": 406
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/308.ml:28:40: Illegal character (\\172)"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 48,
+    "llm_time": 1.2759642601013184,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011916160583496094,
+    "constrainer_time": 0.011298894882202148,
+    "total_time": 1.302884817123413,
+    "frequency": {
+        "1": 49
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number | number[]' is not assignable to type 'number'.\n  Type 'number[]' is not assignable to type 'number'.",
+        "TS2365: Operator '+' cannot be applied to types 'number | number[]' and 'number'.",
+        "TS2365: Operator '+' cannot be applied to types 'number | number[]' and 'number'."
+    ]
+}

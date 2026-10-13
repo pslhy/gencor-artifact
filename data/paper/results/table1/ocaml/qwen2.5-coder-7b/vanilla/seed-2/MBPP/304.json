@@ -1,0 +1,22 @@
+{
+    "decoded": 64,
+    "llm_time": 2.203422784805298,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001650094985961914,
+    "constrainer_time": 0.01699233055114746,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.244863510131836,
+    "frequency": {
+        "1": 65
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/304.ml:5:36: This expression has type \"int * int -> int\"\nbut an expression was expected of type \"int * int -> 'a -> int * int\"\nType \"int\" is not compatible with type \"'a -> int * int\""
+    ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "gencor-ts-oracle",
+  "private": true,
+  "description": "Node dependency for lsp/ts_type_context.js (TypeScript compiler API oracle used by -c sem_type)",
+  "dependencies": {
+    "typescript": "6.0.3"
+  }
+}

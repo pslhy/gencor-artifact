@@ -1,0 +1,42 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function that takes a list of numbers as input and returns *)
+(*     the number of elements in the list that are greater than 10 and both *)
+(*     first and last digits of a number are odd (1, 3, 5, 7, 9). *)
+(*     For example: *)
+(*     >>> specialFilter [15; (-73); 14; (-15)] *)
+(*     1 *)
+(*     >>> specialFilter [33; (-2); (-3); 45; 21; 109] *)
+(*     2 *)
+let rec specialFilter (nums : int list) : int =
+  match nums with
+  | [] -> 0
+  | h::t -> 
+      let last_digit = abs (h % 10) in
+      let first_digit = abs ((h / (abs(h / 10))) % 10) in
+      if h > 10 && List.mem first_digit [1;3;5;7;9] && List.mem last_digit [1;3;5;7;9] then 
+        1 + specialFilter t
+      else 
+        specialFilter t
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:5:31: Unbound value "(%)" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec specialFilter (nums : int list) : int =
+  match nums with
+  | [] -> 0
+  | h::t -> 
+      let last_digit = abs (h mod 10) in
+      let first_digit = abs (h / (abs(h / 10)) mod 10) in
+      if h > 10 && List.mem first_digit [1;3;5;7;9] && List.mem last_digit [1;3;5;7;9] then 
+        1 + specialFilter t
+      else 
+        specialFilter t
+

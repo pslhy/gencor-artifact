@@ -1,0 +1,31 @@
+{
+    "decoded": 749,
+    "decoded_at_turn": {
+        "1": 166,
+        "2": 162,
+        "3": 139,
+        "4": 141,
+        "5": 141
+    },
+    "llm_time": 19.667959690093994,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01854848861694336,
+    "constrainer_time": 0.1738436222076416,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 20.15476703643799,
+    "frequency": {
+        "1": 754
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:40: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 37,
+    "llm_time": 0.9150004386901855,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008602142333984375,
+    "constrainer_time": 0.008415699005126953,
+    "total_time": 0.9332461357116699,
+    "frequency": {
+        "1": 38
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7006: Parameter 'el' implicitly has an 'any' type."
+    ]
+}

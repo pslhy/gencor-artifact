@@ -1,0 +1,18 @@
+
+function is_undulating(n: number): boolean {
+  const digits = n.toString().split('');
+  let sum = 0;
+  for (let i = 0; i < digits.length; i++) {
+    if (digits[i] === digits[digits.length - 1 - i]) {
+      sum++;
+    }
+  }
+  return sum >= digits.length / 2;
+}
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to check whether the given number is undulating or not.

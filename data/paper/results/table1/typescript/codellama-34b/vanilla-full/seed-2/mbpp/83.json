@@ -1,0 +1,19 @@
+{
+    "decoded": 58,
+    "llm_time": 3.1139111518859863,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014736652374267578,
+    "constrainer_time": 0.003580331802368164,
+    "total_time": 3.1334049701690674,
+    "frequency": {
+        "1": 59
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'CodePointAt' does not exist on type 'string'. Did you mean 'codePointAt'?"
+    ]
+}

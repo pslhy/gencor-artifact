@@ -1,0 +1,22 @@
+{
+    "decoded": 198,
+    "llm_time": 6.721189737319946,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005502939224243164,
+    "constrainer_time": 0.053891658782958984,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.843549013137817,
+    "frequency": {
+        "1": 199
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:11: Unbound value \"int_sqrt\""
+    ]
+}

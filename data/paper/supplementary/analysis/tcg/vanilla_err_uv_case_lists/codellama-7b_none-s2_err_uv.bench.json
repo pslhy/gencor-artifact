@@ -1,0 +1,422 @@
+[
+  {
+    "prompt": "//Given an array of integers, sort the integers that are between 1 and 9 inclusive,\n// reverse the resulting array, and then replace each digit by its corresponding name from\n// \"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\".\n// For example:\n// >>> by_length([2, 1, 1, 4, 5, 8, 2, 3])\n// [\"Eight\", \"Five\", \"Four\", \"Three\", \"Two\", \"Two\", \"One\", \"One\"]\n// If the array is empty, return an empty array:\n// >>> by_length([])\n// []\n// If the array has any strange number ignore it:\n// >>> by_length([1, -1, 55])\n// [\"One\"]\nfunction by_length(arr: number[]): string[] {",
+    "task_id": "HumanEval/105",
+    "instruct_prompt": "Given an array of integers, sort the integers that are between 1 and 9 inclusive,\nreverse the resulting array, and then replace each digit by its corresponding name from\n\"One\", \"Two\", \"Three\", \"Four\", \"Five\", \"Six\", \"Seven\", \"Eight\", \"Nine\".\nFor example:\n>>> by_length([2, 1, 1, 4, 5, 8, 2, 3])\n[\"Eight\", \"Five\", \"Four\", \"Three\", \"Two\", \"Two\", \"One\", \"One\"]\nIf the array is empty, return an empty array:\n>>> by_length([])\n[]\nIf the array has any strange number ignore it:\n>>> by_length([1, -1, 55])\n[\"One\"]",
+    "code_prompt": "function by_length(arr: number[]): string[] {"
+  },
+  {
+    "prompt": "//Given a grid with N rows and N columns (N >= 2) and a positive integer k, \n// each cell of the grid contains a value. Every integer in the range [1, N * N]\n// inclusive appears exactly once on the cells of the grid.\n// You have to find the minimum path of length k in the grid. You can start\n// from any cell, and in each step you can move to any of the neighbor cells,\n// in other words, you can go to cells which share an edge with you current\n// cell.\n// Please note that a path of length k means visiting exactly k cells (not\n// necessarily distinct).\n// You CANNOT go off the grid.\n// A path A (of length k) is considered less than a path B (of length k) if\n// after making the ordered arrays of the values on the cells that A and B go\n// through (let's call them lst_A and lst_B), lst_A is lexicographically less\n// than lst_B, in other words, there exist an integer index i (1 <= i <= k)\n// such that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have\n// lst_A[j] = lst_B[j].\n// It is guaranteed that the answer is unique.\n// Return an ordered array of the values on the cells that the minimum path go through.\n// Examples:    \n// >>> minPath([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)\n// [1, 2, 1]\n// >>> minPath([[5, 9, 3], [4, 1, 6], [7, 8, 2]], 1)\n// [1]\nfunction minPath(grid: number[][], k: number): number[] {",
+    "task_id": "HumanEval/129",
+    "instruct_prompt": "Given a grid with N rows and N columns (N >= 2) and a positive integer k,\neach cell of the grid contains a value. Every integer in the range [1, N * N]\ninclusive appears exactly once on the cells of the grid.\nYou have to find the minimum path of length k in the grid. You can start\nfrom any cell, and in each step you can move to any of the neighbor cells,\nin other words, you can go to cells which share an edge with you current\ncell.\nPlease note that a path of length k means visiting exactly k cells (not\nnecessarily distinct).\nYou CANNOT go off the grid.\nA path A (of length k) is considered less than a path B (of length k) if\nafter making the ordered arrays of the values on the cells that A and B go\nthrough (let's call them lst_A and lst_B), lst_A is lexicographically less\nthan lst_B, in other words, there exist an integer index i (1 <= i <= k)\nsuch that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have\nlst_A[j] = lst_B[j].\nIt is guaranteed that the answer is unique.\nReturn an ordered array of the values on the cells that the minimum path go through.\nExamples:\n>>> minPath([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)\n[1, 2, 1]\n>>> minPath([[5, 9, 3], [4, 1, 6], [7, 8, 2]], 1)\n[1]",
+    "code_prompt": "function minPath(grid: number[][], k: number): number[] {"
+  },
+  {
+    "prompt": "//Write a function which sorts the given array of integers\n// in ascending order according to the sum of their digits.\n// Note: if there are several items with similar sum of their digits,\n// order them based on their index in original array.\n// For example:\n// >>> order_by_points([1, 11, -1, -11, -12])\n// [-1, -11, 1, -12, 11]\n// >>> order_by_points([])\n// []\nfunction order_by_points(nums: number[]): number[] {",
+    "task_id": "HumanEval/145",
+    "instruct_prompt": "Write a function which sorts the given array of integers\nin ascending order according to the sum of their digits.\nNote: if there are several items with similar sum of their digits,\norder them based on their index in original array.\nFor example:\n>>> order_by_points([1, 11, -1, -11, -12])\n[-1, -11, 1, -12, 11]\n>>> order_by_points([])\n[]",
+    "code_prompt": "function order_by_points(nums: number[]): number[] {"
+  },
+  {
+    "prompt": "//You are given a positive integer n. You have to create an integer array a of length n.\n// For each i (1 \u2264 i \u2264 n), the value of a[i] = i * i - i + 1.\n// Return the number of triples (a[i], a[j], a[k]) of a where i < j < k, \n// and a[i] + a[j] + a[k] is a multiple of 3.\n// Example :\n// >>> get_max_triples(5)\n// 1\n// Explanation: \n// a = [1, 3, 7, 13, 21]\n// The only valid triple is (1, 7, 13).\nfunction get_max_triples(n: number): number {",
+    "task_id": "HumanEval/147",
+    "instruct_prompt": "You are given a positive integer n. You have to create an integer array a of length n.\nFor each i (1 \u2264 i \u2264 n), the value of a[i] = i * i - i + 1.\nReturn the number of triples (a[i], a[j], a[k]) of a where i < j < k,\nand a[i] + a[j] + a[k] is a multiple of 3.\nExample :\n>>> get_max_triples(5)\n1\nExplanation:\na = [1, 3, 7, 13, 21]\nThe only valid triple is (1, 7, 13).",
+    "code_prompt": "function get_max_triples(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function that accepts an array of strings.\n// The array contains different words. Return the word with maximum number\n// of unique characters. If multiple strings have maximum number of unique\n// characters, return the one which comes first in lexicographical order.\n// >>> find_max([\"name\", \"of\", \"string\"])\n// \"string\"\n// >>> find_max([\"name\", \"enam\", \"game\"])\n// \"enam\"\n// >>> find_max([\"aaaaaaa\", \"bb\", \"cc\"])\n// \"aaaaaaa\"\nfunction find_max(words: string[]): string {",
+    "task_id": "HumanEval/158",
+    "instruct_prompt": "Write a function that accepts an array of strings.\nThe array contains different words. Return the word with maximum number\nof unique characters. If multiple strings have maximum number of unique\ncharacters, return the one which comes first in lexicographical order.\n>>> find_max([\"name\", \"of\", \"string\"])\n\"string\"\n>>> find_max([\"name\", \"enam\", \"game\"])\n\"enam\"\n>>> find_max([\"aaaaaaa\", \"bb\", \"cc\"])\n\"aaaaaaa\"",
+    "code_prompt": "function find_max(words: string[]): string {"
+  },
+  {
+    "prompt": "//Given a string, find out how many distinct characters (regardless of case) does it consist of\n// >>> count_distinct_characters(\"xyzXYZ\")\n// 3\n// >>> count_distinct_characters(\"Jerry\")\n// 4\nfunction count_distinct_characters(string: string): number {",
+    "task_id": "HumanEval/16",
+    "instruct_prompt": "Given a string, find out how many distinct characters (regardless of case) does it consist of\n>>> count_distinct_characters(\"xyzXYZ\")\n3\n>>> count_distinct_characters(\"Jerry\")\n4",
+    "code_prompt": "function count_distinct_characters(string: string): number {"
+  },
+  {
+    "prompt": "//Given a string 'text', return its md5 hash equivalent string.\n// If 'text' is an empty string, return undefined.\n// >>> string_to_md5(\"Hello world\")\n// \"3e25960a79dbc69b674cd4ec67a72c62\"\nfunction string_to_md5(text: string): string | undefined {",
+    "task_id": "HumanEval/162",
+    "instruct_prompt": "Given a string 'text', return its md5 hash equivalent string.\nIf 'text' is an empty string, return undefined.\n>>> string_to_md5(\"Hello world\")\n\"3e25960a79dbc69b674cd4ec67a72c62\"",
+    "code_prompt": "function string_to_md5(text: string): string | undefined {"
+  },
+  {
+    "prompt": "//From a supplied array of numbers (of length at least two) select and return two that are the closest to each\n// other and return them in order (smaller number, larger number).\n// >>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.2])\n// [2.0, 2.2]\n// >>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.0])\n// [2.0, 2.0]\nfunction find_closest_elements(numbers: number[]): [number, number] {",
+    "task_id": "HumanEval/20",
+    "instruct_prompt": "From a supplied array of numbers (of length at least two) select and return two that are the closest to each\nother and return them in order (smaller number, larger number).\n>>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.2])\n[2.0, 2.2]\n>>> find_closest_elements([1.0, 2.0, 3.0, 4.0, 5.0, 2.0])\n[2.0, 2.0]",
+    "code_prompt": "function find_closest_elements(numbers: number[]): [number, number] {"
+  },
+  {
+    "prompt": "//Check if two words have the same characters.\n// >>> same_chars(\"eabcdzzzz\", \"dddzzzzzzzddeddabc\")\n// true\n// >>> same_chars(\"abcd\", \"dddddddabc\")\n// true\n// >>> same_chars(\"dddddddabc\", \"abcd\")\n// true\n// >>> same_chars(\"eabcd\", \"dddddddabc\")\n// false\n// >>> same_chars(\"abcd\", \"dddddddabce\")\n// false\n// >>> same_chars(\"eabcdzzzz\", \"dddzzzzzzzddddabc\")\n// false\nfunction same_chars(s0: string, s1: string): boolean {",
+    "task_id": "HumanEval/54",
+    "instruct_prompt": "Check if two words have the same characters.\n>>> same_chars(\"eabcdzzzz\", \"dddzzzzzzzddeddabc\")\ntrue\n>>> same_chars(\"abcd\", \"dddddddabc\")\ntrue\n>>> same_chars(\"dddddddabc\", \"abcd\")\ntrue\n>>> same_chars(\"eabcd\", \"dddddddabc\")\nfalse\n>>> same_chars(\"abcd\", \"dddddddabce\")\nfalse\n>>> same_chars(\"eabcdzzzz\", \"dddzzzzzzzddddabc\")\nfalse",
+    "code_prompt": "function same_chars(s0: string, s1: string): boolean {"
+  },
+  {
+    "prompt": "//Input to this function is a string represented multiple groups for nested parentheses separated by spaces.\n// For each of the group, output the deepest level of nesting of parentheses.\n// E.g. (()()) has maximum two levels of nesting while ((())) has three.\n// >>> parse_nested_parens(\"(()()) ((())) () ((())()())\")\n// [2, 3, 1, 3]\nfunction parse_nested_parens(paren_string: string): number[] {",
+    "task_id": "HumanEval/6",
+    "instruct_prompt": "Input to this function is a string represented multiple groups for nested parentheses separated by spaces.\nFor each of the group, output the deepest level of nesting of parentheses.\nE.g. (()()) has maximum two levels of nesting while ((())) has three.\n>>> parse_nested_parens(\"(()()) ((())) () ((())()())\")\n[2, 3, 1, 3]",
+    "code_prompt": "function parse_nested_parens(paren_string: string): number[] {"
+  },
+  {
+    "prompt": "//\"Given an array representing a branch of a tree that has non-negative integer nodes\n// your task is to pluck one of the nodes and return it.\n// The plucked node should be the node with the smallest even value.\n// If multiple nodes with the same smallest even value are found return the node that has smallest index.\n// The plucked node should be returned in an array, [ smalest_value, its index ],\n// If there are no even values or the given array is empty, return [].\n// Example 1:\n// >>> pluck([4, 2, 3])\n// [2, 1]\n// Explanation: 2 has the smallest even value, and 2 has the smallest index.\n// Example 2:\n// >>> pluck([1, 2, 3])\n// [2, 1]\n// Explanation: 2 has the smallest even value, and 2 has the smallest index.\n// Example 3:\n// >>> pluck([])\n// []\n// Example 4:\n// >>> pluck([5, 0, 3, 0, 4, 2])\n// [0, 1]\n// Explanation: 0 is the smallest value, but  there are two zeros,\n// so we will choose the first zero, which has the smallest index.\n// Constraints:\n// * 1 <= nodes.length <= 10000\n// * 0 <= node.value\nfunction pluck(arr: number[]): number[] {",
+    "task_id": "HumanEval/68",
+    "instruct_prompt": "\"Given an array representing a branch of a tree that has non-negative integer nodes\nyour task is to pluck one of the nodes and return it.\nThe plucked node should be the node with the smallest even value.\nIf multiple nodes with the same smallest even value are found return the node that has smallest index.\nThe plucked node should be returned in an array, [ smalest_value, its index ],\nIf there are no even values or the given array is empty, return [].\nExample 1:\n>>> pluck([4, 2, 3])\n[2, 1]\nExplanation: 2 has the smallest even value, and 2 has the smallest index.\nExample 2:\n>>> pluck([1, 2, 3])\n[2, 1]\nExplanation: 2 has the smallest even value, and 2 has the smallest index.\nExample 3:\n>>> pluck([])\n[]\nExample 4:\n>>> pluck([5, 0, 3, 0, 4, 2])\n[0, 1]\nExplanation: 0 is the smallest value, but  there are two zeros,\nso we will choose the first zero, which has the smallest index.\nConstraints:\n* 1 <= nodes.length <= 10000\n* 0 <= node.value",
+    "code_prompt": "function pluck(arr: number[]): number[] {"
+  },
+  {
+    "prompt": "//You are given a 2 dimensional data, as a nested arrays,\n// which is similar to matrix, however, unlike matrices,\n// each row may contain a different number of columns.\n// Given lst, and integer x, find integers x in the array,\n// and return array of arrays, [(x1, y1), (x2, y2) ...] such that\n// each array is a coordinate - (row, columns), starting with 0.\n// Sort coordinates initially by rows in ascending order.\n// Also, sort coordinates of the row by columns in descending order.\n// Examples:\n// >>> get_row([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)\n// [[0, 0], [1, 4], [1, 0], [2, 5], [2, 0]]\n// >>> get_row([], 1)\n// []\n// >>> get_row([[], [1], [1, 2, 3]], 3)\n// [[2, 2]]\nfunction get_row(lst: number[][], x: number): [number, number][] {",
+    "task_id": "HumanEval/87",
+    "instruct_prompt": "You are given a 2 dimensional data, as a nested arrays,\nwhich is similar to matrix, however, unlike matrices,\neach row may contain a different number of columns.\nGiven lst, and integer x, find integers x in the array,\nand return array of arrays, [(x1, y1), (x2, y2) ...] such that\neach array is a coordinate - (row, columns), starting with 0.\nSort coordinates initially by rows in ascending order.\nAlso, sort coordinates of the row by columns in descending order.\nExamples:\n>>> get_row([[1, 2, 3, 4, 5, 6], [1, 2, 3, 4, 1, 6], [1, 2, 3, 4, 5, 1]], 1)\n[[0, 0], [1, 4], [1, 0], [2, 5], [2, 0]]\n>>> get_row([], 1)\n[]\n>>> get_row([[], [1], [1, 2, 3]], 3)\n[[2, 2]]",
+    "code_prompt": "function get_row(lst: number[][], x: number): [number, number][] {"
+  },
+  {
+    "prompt": "//You'll be given a string of words, and your task is to count the number\n// of boredoms. A boredom is a sentence that starts with the word \"I\".\n// Sentences are delimited by '.', '?' or '!'.\n// For example:\n// >>> is_bored(\"Hello world\")\n// 0\n// >>> is_bored(\"The sky is blue. The sun is shining. I love this weather\")\n// 1\nfunction is_bored(S: string): number {",
+    "task_id": "HumanEval/91",
+    "instruct_prompt": "You'll be given a string of words, and your task is to count the number\nof boredoms. A boredom is a sentence that starts with the word \"I\".\nSentences are delimited by '.', '?' or '!'.\nFor example:\n>>> is_bored(\"Hello world\")\n0\n>>> is_bored(\"The sky is blue. The sun is shining. I love this weather\")\n1",
+    "code_prompt": "function is_bored(S: string): number {"
+  },
+  {
+    "prompt": "//Write a function to append the given array to the given arrays.\nfunction add_lists(test_list: number[], test_tup: [number, number]): [number, number, number, number, number] {",
+    "task_id": "mbpp/106",
+    "instruct_prompt": "Write a function to append the given array to the given arrays.",
+    "code_prompt": "function add_lists(test_list: number[], test_tup: [number, number]): [number, number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive).\nfunction count_char_position(str1: string): number {",
+    "task_id": "mbpp/165",
+    "instruct_prompt": "Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive).",
+    "code_prompt": "function count_char_position(str1: string): number {"
+  },
+  {
+    "prompt": "//Write a function that takes in an array and an integer n, and re-arranges the first n elements of the given array so that all negative elements appear before positive ones, and where the relative order among negative and positive elements is preserved.\nfunction re_arrange_array(arr: number[], n: number): number[] {",
+    "task_id": "mbpp/229",
+    "instruct_prompt": "Write a function that takes in an array and an integer n, and re-arranges the first n elements of the given array so that all negative elements appear before positive ones, and where the relative order among negative and positive elements is preserved.",
+    "code_prompt": "function re_arrange_array(arr: number[], n: number): number[] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to convert complex numbers to polar coordinates.\nfunction convert(numbers: number): [number, number] {",
+    "task_id": "mbpp/252",
+    "instruct_prompt": "Write a tsthon function to convert complex numbers to polar coordinates.",
+    "code_prompt": "function convert(numbers: number): [number, number] {"
+  },
+  {
+    "prompt": "//Write a function to maximize the given two arrays.\nfunction maximize_elements(test_tup1: number[][], test_tup2: number[][]): number[][] {",
+    "task_id": "mbpp/259",
+    "instruct_prompt": "Write a function to maximize the given two arrays.",
+    "code_prompt": "function maximize_elements(test_tup1: number[][], test_tup2: number[][]): number[][] {"
+  },
+  {
+    "prompt": "//Write a function that takes in two arrays and performs mathematical division operation element-wise across the given arrays.\nfunction division_elements(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/261",
+    "instruct_prompt": "Write a function that takes in two arrays and performs mathematical division operation element-wise across the given arrays.",
+    "code_prompt": "function division_elements(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function that takes in an array of arrays and returns an array containing the rear element of each array.\nfunction rear_extract(test_list: [number, string, number][]): number[] {",
+    "task_id": "mbpp/272",
+    "instruct_prompt": "Write a function that takes in an array of arrays and returns an array containing the rear element of each array.",
+    "code_prompt": "function rear_extract(test_list: [number, string, number][]): number[] {"
+  },
+  {
+    "prompt": "//Write a function that takes in two arrays and subtracts the elements of the first array by the elements of the second array with the same index.\nfunction substract_elements(test_tup1: [number, number, number], test_tup2: [number, number, number]): [number, number, number] {",
+    "task_id": "mbpp/273",
+    "instruct_prompt": "Write a function that takes in two arrays and subtracts the elements of the first array by the elements of the second array with the same index.",
+    "code_prompt": "function substract_elements(test_tup1: [number, number, number], test_tup2: [number, number, number]): [number, number, number] {"
+  },
+  {
+    "prompt": "//Write a tsthon function takes in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.\nfunction validate(n: number): boolean {",
+    "task_id": "mbpp/283",
+    "instruct_prompt": "Write a tsthon function takes in an integer and check whether the frequency of each digit in the integer is less than or equal to the digit itself.",
+    "code_prompt": "function validate(n: number): boolean {"
+  },
+  {
+    "prompt": "//Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.\nfunction text_match_two_three(text: string): boolean {",
+    "task_id": "mbpp/285",
+    "instruct_prompt": "Write a function that checks whether a string contains the 'a' character followed by two or three 'b' characters.",
+    "code_prompt": "function text_match_two_three(text: string): boolean {"
+  },
+  {
+    "prompt": "//Write a function to flatten a given nested array structure.\nfunction flatten_list(list1: (number | number[])[]): number[] {",
+    "task_id": "mbpp/297",
+    "instruct_prompt": "Write a function to flatten a given nested array structure.",
+    "code_prompt": "function flatten_list(list1: (number | number[])[]): number[] {"
+  },
+  {
+    "prompt": "//Write a function to calculate the maximum aggregate from the array of arrays.\nfunction max_aggregate(stdata: [string, number][]): [string, number] {",
+    "task_id": "mbpp/299",
+    "instruct_prompt": "Write a function to calculate the maximum aggregate from the array of arrays.",
+    "code_prompt": "function max_aggregate(stdata: [string, number][]): [string, number] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find element at a given index after number of rotations.\nfunction find_Element(arr: number[], ranges: number[][], rotations: number, index: number): number {",
+    "task_id": "mbpp/304",
+    "instruct_prompt": "Write a tsthon function to find element at a given index after number of rotations.",
+    "code_prompt": "function find_Element(arr: number[], ranges: number[][], rotations: number, index: number): number {"
+  },
+  {
+    "prompt": "//Write a function to return two words from an array of words starting with letter 'p'.\nfunction start_withp(words: string[]): [string, string] {",
+    "task_id": "mbpp/305",
+    "instruct_prompt": "Write a function to return two words from an array of words starting with letter 'p'.",
+    "code_prompt": "function start_withp(words: string[]): [string, string] {"
+  },
+  {
+    "prompt": "//Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).\nfunction get_max_sum(n: number): number {",
+    "task_id": "mbpp/392",
+    "instruct_prompt": "Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).",
+    "code_prompt": "function get_max_sum(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to compute the sum of digits of each number of a given array.\nfunction sum_of_digits(nums: any[]): number {",
+    "task_id": "mbpp/398",
+    "instruct_prompt": "Write a function to compute the sum of digits of each number of a given array.",
+    "code_prompt": "function sum_of_digits(nums: any[]): number {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find a pair with highest product from a given array of integers.\nfunction max_Product(arr: number[]): [number, number] {",
+    "task_id": "mbpp/415",
+    "instruct_prompt": "Write a tsthon function to find a pair with highest product from a given array of integers.",
+    "code_prompt": "function max_Product(arr: number[]): [number, number] {"
+  },
+  {
+    "prompt": "//Write a function to sort the given array by using shell sort.\nfunction shell_sort(my_list: number[]): number[] {",
+    "task_id": "mbpp/428",
+    "instruct_prompt": "Write a function to sort the given array by using shell sort.",
+    "code_prompt": "function shell_sort(my_list: number[]): number[] {"
+  },
+  {
+    "prompt": "//Write a function to extract the elementwise and arrays from the given two arrays.\nfunction and_tuples(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/429",
+    "instruct_prompt": "Write a function to extract the elementwise and arrays from the given two arrays.",
+    "code_prompt": "function and_tuples(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function that matches a string that has an a followed by one or more b's.\nfunction text_match_one(text: string): boolean {",
+    "task_id": "mbpp/434",
+    "instruct_prompt": "Write a function that matches a string that has an a followed by one or more b's.",
+    "code_prompt": "function text_match_one(text: string): boolean {"
+  },
+  {
+    "prompt": "//Write a function to remove odd characters in a string.\nfunction remove_odd(str1: string): string {",
+    "task_id": "mbpp/437",
+    "instruct_prompt": "Write a function to remove odd characters in a string.",
+    "code_prompt": "function remove_odd(str1: string): string {"
+  },
+  {
+    "prompt": "//Write a function to find the first adverb and their positions in a given sentence.\nfunction find_adverb_position(text: string): [number, number, string] {",
+    "task_id": "mbpp/440",
+    "instruct_prompt": "Write a function to find the first adverb and their positions in a given sentence.",
+    "code_prompt": "function find_adverb_position(text: string): [number, number, string] {"
+  },
+  {
+    "prompt": "//Write a function that matches a word containing 'z'.\nfunction text_match_wordz(text: string): boolean {",
+    "task_id": "mbpp/454",
+    "instruct_prompt": "Write a function that matches a word containing 'z'.",
+    "code_prompt": "function text_match_wordz(text: string): boolean {"
+  },
+  {
+    "prompt": "//Write a function to find the pairwise addition of the neighboring elements of the given array.\nfunction add_pairwise(test_tup: [number, number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/470",
+    "instruct_prompt": "Write a function to find the pairwise addition of the neighboring elements of the given array.",
+    "code_prompt": "function add_pairwise(test_tup: [number, number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.\nfunction difference(n: number): number {",
+    "task_id": "mbpp/555",
+    "instruct_prompt": "Write a tsthon function to find the difference between the sum of cubes of the first n natural numbers and the sum of the first n natural numbers.",
+    "code_prompt": "function difference(n: number): number {"
+  },
+  {
+    "prompt": "//Write a tsthon function to count the number of pairs whose xor value is odd.\nfunction find_Odd_Pair(A: number[], N: number): number {",
+    "task_id": "mbpp/556",
+    "instruct_prompt": "Write a tsthon function to count the number of pairs whose xor value is odd.",
+    "code_prompt": "function find_Odd_Pair(A: number[], N: number): number {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the sum of the per-digit difference between two integers.\nfunction digit_distance_nums(n1: number, n2: number): number {",
+    "task_id": "mbpp/558",
+    "instruct_prompt": "Write a tsthon function to find the sum of the per-digit difference between two integers.",
+    "code_prompt": "function digit_distance_nums(n1: number, n2: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find the dissimilar elements in the given two arrays.\nfunction find_dissimilar(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/579",
+    "instruct_prompt": "Write a function to find the dissimilar elements in the given two arrays.",
+    "code_prompt": "function find_dissimilar(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to remove uneven elements in the nested mixed array.\nfunction extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {",
+    "task_id": "mbpp/580",
+    "instruct_prompt": "Write a function to remove uneven elements in the nested mixed array.",
+    "code_prompt": "function extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {"
+  },
+  {
+    "prompt": "//Write a function to find the first adverb ending with ly and its positions in a given string.\nfunction find_adverbs(text: string): string {",
+    "task_id": "mbpp/584",
+    "instruct_prompt": "Write a function to find the first adverb ending with ly and its positions in a given string.",
+    "code_prompt": "function find_adverbs(text: string): string {"
+  },
+  {
+    "prompt": "//Write a function to find the nth octagonal number.\nfunction is_octagonal(n: number): number {",
+    "task_id": "mbpp/59",
+    "instruct_prompt": "Write a function to find the nth octagonal number.",
+    "code_prompt": "function is_octagonal(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.\nfunction find_literals(text: string, pattern: string): [string, number, number] {",
+    "task_id": "mbpp/607",
+    "instruct_prompt": "Write a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.",
+    "code_prompt": "function find_literals(text: string, pattern: string): [string, number, number] {"
+  },
+  {
+    "prompt": "//Write a tsthon function which takes an array and returns an array with the same elements, but the k'th element removed.\nfunction remove_kth_element(list1: number[], L: number): number[] {",
+    "task_id": "mbpp/610",
+    "instruct_prompt": "Write a tsthon function which takes an array and returns an array with the same elements, but the k'th element removed.",
+    "code_prompt": "function remove_kth_element(list1: number[], L: number): number[] {"
+  },
+  {
+    "prompt": "//Write a function which takes two arrays of the same length and performs the element wise modulo.\nfunction tuple_modulo(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/616",
+    "instruct_prompt": "Write a function which takes two arrays of the same length and performs the element wise modulo.",
+    "code_prompt": "function tuple_modulo(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to move all the numbers to the end of the given string.\nfunction move_num(test_str: string): string {",
+    "task_id": "mbpp/619",
+    "instruct_prompt": "Write a function to move all the numbers to the end of the given string.",
+    "code_prompt": "function move_num(test_str: string): string {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find even numbers from an array of numbers.\nfunction Split(list: number[]): number[] {",
+    "task_id": "mbpp/629",
+    "instruct_prompt": "Write a tsthon function to find even numbers from an array of numbers.",
+    "code_prompt": "function Split(list: number[]): number[] {"
+  },
+  {
+    "prompt": "//Write a function to find the maximum difference between available pairs in the given array array.\nfunction max_difference(test_list: [number, number][]): number {",
+    "task_id": "mbpp/63",
+    "instruct_prompt": "Write a function to find the maximum difference between available pairs in the given array array.",
+    "code_prompt": "function max_difference(test_list: [number, number][]): number {"
+  },
+  {
+    "prompt": "//Write a function to sort the given array.\nfunction heap_sort(iterable: number[]): number[] {",
+    "task_id": "mbpp/635",
+    "instruct_prompt": "Write a function to sort the given array.",
+    "code_prompt": "function heap_sort(iterable: number[]): number[] {"
+  },
+  {
+    "prompt": "//Write a function to calculate the wind chill index rounded to the next integer given the wind velocity in km/h and a temperature in celsius.\nfunction wind_chill(v: number, t: number): number {",
+    "task_id": "mbpp/638",
+    "instruct_prompt": "Write a function to calculate the wind chill index rounded to the next integer given the wind velocity in km/h and a temperature in celsius.",
+    "code_prompt": "function wind_chill(v: number, t: number): number {"
+  },
+  {
+    "prompt": "//Write a function to remove the parenthesis and what is inbetween them from a string.\nfunction remove_parenthesis(items: string[]): string {",
+    "task_id": "mbpp/640",
+    "instruct_prompt": "Write a function to remove the parenthesis and what is inbetween them from a string.",
+    "code_prompt": "function remove_parenthesis(items: string[]): string {"
+  },
+  {
+    "prompt": "//Write a function to find the nth nonagonal number.\nfunction is_nonagonal(n: number): number {",
+    "task_id": "mbpp/641",
+    "instruct_prompt": "Write a function to find the nth nonagonal number.",
+    "code_prompt": "function is_nonagonal(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find the number of ways to partition a set of Bell numbers.\nfunction bell_number(n: number): number {",
+    "task_id": "mbpp/67",
+    "instruct_prompt": "Write a function to find the number of ways to partition a set of Bell numbers.",
+    "code_prompt": "function bell_number(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to add an object to the array. The output should be an array.\nfunction add_dict_to_tuple(test_tup: [number, number, number], test_dict: {[key: string]: number}): [number, number, number, {[key: string]: number}] {",
+    "task_id": "mbpp/720",
+    "instruct_prompt": "Write a function to add an object to the array. The output should be an array.",
+    "code_prompt": "function add_dict_to_tuple(test_tup: [number, number, number], test_dict: {[key: string]: number}): [number, number, number, {[key: string]: number}] {"
+  },
+  {
+    "prompt": "//Write a function to extract values between quotation marks \" \" of the given string.\nfunction extract_quotation(text1: string): any[] {",
+    "task_id": "mbpp/725",
+    "instruct_prompt": "Write a function to extract values between quotation marks \" \" of the given string.",
+    "code_prompt": "function extract_quotation(text1: string): any[] {"
+  },
+  {
+    "prompt": "//Write a function to check if the given array has any none value or not.\nfunction check_none(test_tup: any): boolean {",
+    "task_id": "mbpp/744",
+    "instruct_prompt": "Write a function to check if the given array has any none value or not.",
+    "code_prompt": "function check_none(test_tup: any): boolean {"
+  },
+  {
+    "prompt": "//Write a function to sort a given array of strings of numbers numerically. https://www.geeksforgeeks.org/tsthon-sort-numeric-strings-in-a-array/\nfunction sort_numeric_strings(nums_str: string[]): number[] {",
+    "task_id": "mbpp/749",
+    "instruct_prompt": "Write a function to sort a given array of strings of numbers numerically. https://www.geeksforgeeks.org/tsthon-sort-numeric-strings-in-a-array/",
+    "code_prompt": "function sort_numeric_strings(nums_str: string[]): number[] {"
+  },
+  {
+    "prompt": "//Write a function that matches a string that has an 'a' followed by one or more 'b's. https://www.w3resource.com/tsthon-exercises/re/tsthon-re-exercise-3.php\nfunction text_match_zero_one(text: string): boolean {",
+    "task_id": "mbpp/756",
+    "instruct_prompt": "Write a function that matches a string that has an 'a' followed by one or more 'b's. https://www.w3resource.com/tsthon-exercises/re/tsthon-re-exercise-3.php",
+    "code_prompt": "function text_match_zero_one(text: string): boolean {"
+  },
+  {
+    "prompt": "//Write a function to check whether a given string is a decimal number with a precision of 2.\nfunction is_decimal(num: string): boolean {",
+    "task_id": "mbpp/759",
+    "instruct_prompt": "Write a function to check whether a given string is a decimal number with a precision of 2.",
+    "code_prompt": "function is_decimal(num: string): boolean {"
+  },
+  {
+    "prompt": "//Write a function to find the occurrence and position of the substrings within a string. Return undefined if there is no match.\nfunction occurance_substring(text: string, pattern: string): [string, number, number] | undefined {",
+    "task_id": "mbpp/773",
+    "instruct_prompt": "Write a function to find the occurrence and position of the substrings within a string. Return undefined if there is no match.",
+    "code_prompt": "function occurance_substring(text: string, pattern: string): [string, number, number] | undefined {"
+  },
+  {
+    "prompt": "//Write a function to find the combinations of sums with arrays in the given array array. https://www.geeksforgeeks.org/tsthon-combinations-of-sum-with-arrays-in-array-array/\nfunction find_combinations(test_list: [number, number][]): [number, number][] {",
+    "task_id": "mbpp/780",
+    "instruct_prompt": "Write a function to find the combinations of sums with arrays in the given array array. https://www.geeksforgeeks.org/tsthon-combinations-of-sum-with-arrays-in-array-array/",
+    "code_prompt": "function find_combinations(test_list: [number, number][]): [number, number][] {"
+  },
+  {
+    "prompt": "//Write a function to convert array string to integer array.\nfunction tuple_str_int(test_str: string): [number, number, number] {",
+    "task_id": "mbpp/785",
+    "instruct_prompt": "Write a function to convert array string to integer array.",
+    "code_prompt": "function tuple_str_int(test_str: string): [number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to create a new array from the given string and array.\nfunction new_tuple(test_list: string[], test_str: string): [string, string, string] {",
+    "task_id": "mbpp/788",
+    "instruct_prompt": "Write a function to create a new array from the given string and array.",
+    "code_prompt": "function new_tuple(test_list: string[], test_str: string): [string, string, string] {"
+  },
+  {
+    "prompt": "//Write a function to remove arrays from the given array.\nfunction remove_nested(test_tup: any): [number, number, number, number] {",
+    "task_id": "mbpp/791",
+    "instruct_prompt": "Write a function to remove arrays from the given array.",
+    "code_prompt": "function remove_nested(test_tup: any): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to find maximum run of uppercase characters in the given string.\nfunction max_run_uppercase(test_str: string): number {",
+    "task_id": "mbpp/806",
+    "instruct_prompt": "Write a function to find maximum run of uppercase characters in the given string.",
+    "code_prompt": "function max_run_uppercase(test_str: string): number {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the first odd number in a given array of numbers.\nfunction first_odd(nums: number[]): number {",
+    "task_id": "mbpp/807",
+    "instruct_prompt": "Write a tsthon function to find the first odd number in a given array of numbers.",
+    "code_prompt": "function first_odd(nums: number[]): number {"
+  },
+  {
+    "prompt": "//Write a function to get the frequency of all the elements in an array, returned as an object.\nfunction freq_count(list1: number[]): {[key: number]: number} {",
+    "task_id": "mbpp/88",
+    "instruct_prompt": "Write a function to get the frequency of all the elements in an array, returned as an object.",
+    "code_prompt": "function freq_count(list1: number[]): {[key: number]: number} {"
+  },
+  {
+    "prompt": "//Write a function to find frequency of each element in a flattened array of arrays, returned in an object.\nfunction frequency_lists(list1: number[][]): {[key: number]: number} {",
+    "task_id": "mbpp/97",
+    "instruct_prompt": "Write a function to find frequency of each element in a flattened array of arrays, returned in an object.",
+    "code_prompt": "function frequency_lists(list1: number[][]): {[key: number]: number} {"
+  }
+]

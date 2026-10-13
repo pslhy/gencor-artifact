@@ -1,0 +1,22 @@
+{
+    "decoded": 77,
+    "llm_time": 1.8691012859344482,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016872882843017578,
+    "constrainer_time": 0.016983747482299805,
+    "total_time": 1.9064581394195557,
+    "frequency": {
+        "1": 78
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'Here'.",
+        "TS2304: Cannot find name 'is'.",
+        "TS2304: Cannot find name 'an'.",
+        "TS2304: Cannot find name 'example'."
+    ]
+}

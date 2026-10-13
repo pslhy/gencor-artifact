@@ -1,0 +1,19 @@
+{
+    "decoded": 69,
+    "llm_time": 3.678178071975708,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017154216766357422,
+    "constrainer_time": 0.004218578338623047,
+    "total_time": 3.7015092372894287,
+    "frequency": {
+        "1": 70
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'reverse' because it is a constant."
+    ]
+}

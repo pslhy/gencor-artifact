@@ -1,0 +1,20 @@
+{
+    "decoded": 117,
+    "llm_time": 6.209278583526611,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002908945083618164,
+    "constrainer_time": 0.006953001022338867,
+    "total_time": 6.248751640319824,
+    "frequency": {
+        "1": 118
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7034: Variable 'max_sum_list' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+        "TS7005: Variable 'max_sum_list' implicitly has an 'any[]' type."
+    ]
+}

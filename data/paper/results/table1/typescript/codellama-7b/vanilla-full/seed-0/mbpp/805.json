@@ -1,0 +1,19 @@
+{
+    "decoded": 42,
+    "llm_time": 1.1029765605926514,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010035037994384766,
+    "constrainer_time": 0.01019144058227539,
+    "total_time": 1.1246848106384277,
+    "frequency": {
+        "1": 43
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'list'. Did you mean 'lists'?"
+    ]
+}

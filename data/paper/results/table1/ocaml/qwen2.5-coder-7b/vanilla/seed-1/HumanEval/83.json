@@ -1,0 +1,22 @@
+{
+    "decoded": 64,
+    "llm_time": 1.6480598449707031,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015685558319091797,
+    "constrainer_time": 0.014767169952392578,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.6856021881103516,
+    "frequency": {
+        "1": 65
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/83.ml:2:28: This expression has type \"int\" but an expression was expected of type\n\"float\"\nHint: Did you mean \"9.\"?"
+    ]
+}

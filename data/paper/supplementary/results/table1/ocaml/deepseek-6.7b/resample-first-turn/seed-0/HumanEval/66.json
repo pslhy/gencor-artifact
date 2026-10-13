@@ -1,0 +1,22 @@
+{
+    "decoded": 99,
+    "llm_time": 2.479576587677002,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0024535655975341797,
+    "constrainer_time": 0.022715330123901367,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.5323781967163086,
+    "frequency": {
+        "1": 100
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:13: Unbound constructor \"Char.Code\""
+    ]
+}

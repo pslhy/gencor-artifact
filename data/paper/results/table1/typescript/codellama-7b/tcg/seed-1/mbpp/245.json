@@ -1,0 +1,22 @@
+{
+    "total_time": 90.00015783309937,
+    "llm_time": 90.00015783309937,
+    "constrainer_time": 0.0,
+    "n_resamples": 27,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 1,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2488: Type 'number' must have a '[Symbol.iterator]()' method that returns an iterator.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number): number', gave the following error.\n    Argument of type '(leftItems: number[], rightItem: number, index: number) => void' is not assignable to parameter of type '(previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number'.\n      Types of parameters 'leftItems' and 'previousValue' are incompatible.\n        Type 'number' is not assignable to type 'number[]'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(leftItems: number[], rightItem: number, index: number) => void' is not assignable to parameter of type '(previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number'.\n      Types of parameters 'leftItems' and 'previousValue' are incompatible.\n        Type 'number' is not assignable to type 'number[]'.\n  Overload 3 of 3, '(callbackfn: (previousValue: number[], currentValue: number, currentIndex: number, array: number[]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(leftItems: number[], rightItem: number, index: number) => void' is not assignable to parameter of type '(previousValue: number[], currentValue: number, currentIndex: number, array: number[]) => number[]'.\n      Type 'void' is not assignable to type 'number[]'.",
+        "TS2538: Type 'undefined' cannot be used as an index type."
+    ]
+}

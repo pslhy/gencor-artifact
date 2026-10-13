@@ -1,0 +1,95 @@
+let rec minPath (grid : int list list) (k : int) : int list =
+  let n = List.length grid in
+  let neighbors (row, col) =
+    let rec helper (row, col) = function
+      | [] -> []
+      | h :: t when h = row && col < n - 1 ->
+          (row, col + 1) :: helper (row, col + 1) t
+      | h :: t when h < row && col > 0 ->
+          (row - 1, col - 1) :: helper (row - 1, col - 1) t
+      | h :: t when h > row && col < n - 1 ->
+          (row + 1, col + 1) :: helper (row + 1, col + 1) t
+      | _ :: t -> helper (row, col) t
+    in
+    helper (row, col) [(row, col + 1); (row - 1, col); (row + 1, col)]
+  in
+  let rec makePath (prevRow, prevCol, path) (row, col) =
+    if row = n - 1 && col = n - 1 then
+      prevRow :: prevCol :: path
+    else
+      let neighborsToVisit = neighbors (row, col) in
+      let bestNextNode =
+        List.min_elt neighborsToVisit ~cmp:(fun (_, _, w_1) (_, _, w_2) ->
+            compare w_1 w_2)
+      in
+      let newPath = bestNextNode :: path in
+      makePath newPath bestNextNode
+  in
+  let startNode = (0, 0) in
+  let endNode = (n - 1, n - 1) in
+  let rec comparePaths (path_1, path_2) (path_1, path_2) =
+    let open List in
+    fold2 path_1 path_2 ~init:(false, 0)
+      ~f:(fun (le, i) (w_1, w_2) (w_1', w_2') ->
+        if le then
+          if w_1 = w_1' then (le, i + 1)
+          else (le, i)
+        else if w_1 < w_1' then (true, i)
+        else (false, i))
+  in
+  let memo = Array2.create ~rows:n ~cols:n (-1) in
+  let rec dp startNode =
+    let (path, _) = dp_helper startNode (startNode, 0) memo in
+    if comparePaths (path, path) (endNode, 0) then path else []
+  and dp_helper (prevRow, prevCol) (row, col) memo =
+    if row = n - 1 && col = n - 1 then
+      (prevRow :: prevCol :: [], 0)
+    else if
+      Array2.get memo prevRow prevCol |> Option.is_some || row < 0 ||
+      col < 0
+    then
+      let neighborWithLowestWeight =
+        List.min_elt ~compare:(fun (_, _, w_1) (_, _, w_2) -> compare w_1 w_2)
+        @@ neighbors (row, col)
+      in
+      let newNode =
+        makePath
+          (prevRow, prevCol, neighborWithLowestWeight)
+          (neighborWithLowestWeight)
+      in
+      Array2.set memo prevRow prevCol newNode;
+      dp_helper newNode neighborWithLowestWeight memo
+    else
+      failwith "out of bounds"
+  in
+  dp startNode
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Given a grid with N rows and N columns (N >= 2) and a positive integer k, *)
+(*     each cell of the grid contains a value. Every integer in the range [1, N * N] *)
+(*     inclusive appears exactly once on the cells of the grid. *)
+(*     You have to find the minimum path of length k in the grid. You can start *)
+(*     from any cell, and in each step you can move to any of the neighbor cells, *)
+(*     in other words, you can go to cells which share an edge with you current *)
+(*     cell. *)
+(*     Please note that a path of length k means visiting exactly k cells (not *)
+(*     necessarily distinct). *)
+(*     You CANNOT go off the grid. *)
+(*     A path A (of length k) is considered less than a path B (of length k) if *)
+(*     after making the ordered lists of the values on the cells that A and B go *)
+(*     through (let's call them lst_A and lst_B), lst_A is lexicographically less *)
+(*     than lst_B, in other words, there exist an integer index i (1 <= i <= k) *)
+(*     such that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have *)
+(*     lst_A[j] = lst_B[j]. *)
+(*     It is guaranteed that the answer is unique. *)
+(*     Return an ordered list of the values on the cells that the minimum path go through. *)
+(*     Examples: *)
+(*     >>> minPath [[1; 2; 3]; [4; 5; 6]; [7; 8; 9]] 3 *)
+(*     [1; 2; 1] *)
+(*     >>> minPath [[5; 9; 3]; [4; 1; 6]; [7; 8; 2]] 1 *)
+(*     [1] *)

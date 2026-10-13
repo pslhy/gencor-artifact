@@ -1,0 +1,24 @@
+{
+    "decoded": 291,
+    "llm_time": 16.04154324531555,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007539510726928711,
+    "constrainer_time": 0.07084298133850098,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 16.224873781204224,
+    "frequency": {
+        "1": 292
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:13:5: expected an indented block after 'for' statement on line 12",
+        "    for j in range(len(row) - 1):",
+        "    ^"
+    ]
+}

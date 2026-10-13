@@ -1,0 +1,19 @@
+{
+    "decoded": 21,
+    "llm_time": 0.5344960689544678,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0004951953887939453,
+    "constrainer_time": 0.005144834518432617,
+    "total_time": 0.5454673767089844,
+    "frequency": {
+        "1": 22
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2551: Property 'endsWidth' does not exist on type 'string'. Did you mean 'endsWith'?"
+    ]
+}

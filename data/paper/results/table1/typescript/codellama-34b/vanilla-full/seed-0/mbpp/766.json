@@ -1,0 +1,19 @@
+{
+    "decoded": 60,
+    "llm_time": 3.218611717224121,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015745162963867188,
+    "constrainer_time": 0.0037441253662109375,
+    "total_time": 3.2394251823425293,
+    "frequency": {
+        "1": 61
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'number[][]' is not assignable to type '[number, number][]'.\n  Type 'number[]' is not assignable to type '[number, number]'.\n    Target requires 2 element(s) but source may have fewer."
+    ]
+}

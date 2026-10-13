@@ -1,0 +1,19 @@
+{
+    "decoded": 218,
+    "llm_time": 5.334300756454468,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0051424503326416016,
+    "constrainer_time": 0.05070018768310547,
+    "total_time": 5.450241565704346,
+    "frequency": {
+        "1": 219
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2588: Cannot assign to 'romanNumeral' because it is a constant."
+    ]
+}

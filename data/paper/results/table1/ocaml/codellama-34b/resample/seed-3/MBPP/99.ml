@@ -1,0 +1,52 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function to convert the given decimal number to its binary equivalent, represented as a string with no leading zeros. *)
+let rec decimal_to_binary (n : int) : string =
+  if n = 0 then
+    "0"
+  else
+    let divisor = int_of_float ((ceil(log(float_of_int n)) -. 1.)) in
+    let (quotient, remainder) = n /., n mod 2 in
+    if quotient = 0 then
+      string_of_int quotient
+    else
+      decimal_to_binary quotient ^ string_of_int remainder
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:6:37: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec decimal_to_binary (n : int) : string =
+  if n = 0 then
+    "0"
+  else
+    let divisor = int_of_float ((ceil(log(float_of_int n)) -. 1.)) in
+    let (quotient, remainder) = n /., n mod 2 in
+    if quotient = 0 then
+      string_of_int quotient
+    else
+      decimal_to_binary quotient ^ string_of_int remainder
+
+(* === Turn 3 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:6:37: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec decimal_to_binary (n : int) : string =
+  if n = 0 then
+    "0"
+  else
+    let divisor = int_of_float ((ceil(log(float_of_int n)) -. 1.)) in
+    let quotient = n / 2 in
+    let remainder = n mod 2 in
+    if quotient = 0 then
+      string_of_int quotient
+    else
+      decimal_to_binary quotient ^ string_of_int remainder
+

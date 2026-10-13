@@ -1,0 +1,22 @@
+{
+    "decoded": 158,
+    "llm_time": 4.3065080642700195,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003996849060058594,
+    "constrainer_time": 0.03761410713195801,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.408039331436157,
+    "frequency": {
+        "1": 159
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:32: Unbound module \"Ext\""
+    ]
+}

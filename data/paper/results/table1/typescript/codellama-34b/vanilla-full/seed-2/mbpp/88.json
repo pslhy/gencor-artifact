@@ -1,0 +1,20 @@
+{
+    "decoded": 67,
+    "llm_time": 3.589820384979248,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001705169677734375,
+    "constrainer_time": 0.004136085510253906,
+    "total_time": 3.6126813888549805,
+    "frequency": {
+        "1": 68
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'."
+    ]
+}

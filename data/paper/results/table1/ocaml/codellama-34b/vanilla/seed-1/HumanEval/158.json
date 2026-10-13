@@ -1,0 +1,22 @@
+{
+    "decoded": 126,
+    "llm_time": 6.785377264022827,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003262758255004883,
+    "constrainer_time": 0.030405759811401367,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.85648775100708,
+    "frequency": {
+        "1": 127
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:69: Unbound value \"Set.to_list\""
+    ]
+}

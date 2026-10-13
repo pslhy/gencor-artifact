@@ -1,0 +1,32 @@
+{
+    "decoded": 2408,
+    "decoded_at_turn": {
+        "1": 623,
+        "2": 589,
+        "3": 424,
+        "4": 360,
+        "5": 412
+    },
+    "llm_time": 147.58117508888245,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.06499481201171875,
+    "constrainer_time": 0.599574089050293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 149.6555347442627,
+    "frequency": {
+        "1": 2413
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:10:27: undefined module member 'rsa.generate_private_key'",
+        "<python>:15:26: undefined module member 'rsa.generate_public_key'"
+    ]
+}

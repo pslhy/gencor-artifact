@@ -1,0 +1,20 @@
+{
+    "decoded": 814,
+    "llm_time": 43.95069932937622,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.019762277603149414,
+    "constrainer_time": 0.047659873962402344,
+    "total_time": 44.26573419570923,
+    "frequency": {
+        "1": 815
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2554: Expected 2 arguments, but got 1.",
+        "TS2339: Property 'push' does not exist on type 'Heap'."
+    ]
+}

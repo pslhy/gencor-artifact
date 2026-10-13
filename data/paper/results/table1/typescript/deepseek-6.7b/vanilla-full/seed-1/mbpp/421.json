@@ -1,0 +1,19 @@
+{
+    "decoded": 62,
+    "llm_time": 1.5041253566741943,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001405954360961914,
+    "constrainer_time": 0.013751745223999023,
+    "total_time": 1.5342044830322266,
+    "frequency": {
+        "1": 63
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2584: Cannot find name 'document'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'."
+    ]
+}

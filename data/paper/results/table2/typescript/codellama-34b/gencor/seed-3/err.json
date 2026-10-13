@@ -1,0 +1,23 @@
+{
+    "mbpp/126": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "mbpp/432": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS2349: This expression is not callable.\n  Type 'RegExp' has no call signatures.",
+            "TS2304: Cannot find name 'mean'.",
+            "TS2365: Operator '<' cannot be applied to types 'number' and 'boolean'."
+        ]
+    },
+    "mbpp/479": {
+        "1": [
+            "TS2531: Object is possibly 'null'.",
+            "TS2339: Property 'a' does not exist on type '<U>(callbackfn: (value: string, index: number, array: string[]) => U, thisArg?: any) => U[]'."
+        ]
+    }
+}

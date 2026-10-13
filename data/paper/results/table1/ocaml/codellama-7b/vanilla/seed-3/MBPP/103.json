@@ -1,0 +1,22 @@
+{
+    "decoded": 253,
+    "llm_time": 6.23008394241333,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006170988082885742,
+    "constrainer_time": 0.05839109420776367,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.364660978317261,
+    "frequency": {
+        "1": 254
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/103.ml:30:3: Unbound value \"printf\""
+    ]
+}

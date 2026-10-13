@@ -1,0 +1,19 @@
+{
+    "decoded": 48,
+    "llm_time": 1.2212588787078857,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011069774627685547,
+    "constrainer_time": 0.011463165283203125,
+    "total_time": 1.2458653450012207,
+    "frequency": {
+        "1": 49
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 2, '(predicate: (value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => value is number | [number, number, [number, number]], thisArg?: any): (number | [...])[]', gave the following error.\n    Argument of type '(item: number) => boolean' is not assignable to parameter of type '(value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => value is number | [number, number, [number, number]]'.\n      Types of parameters 'item' and 'value' are incompatible.\n        Type 'number | [number, number, [number, number]]' is not assignable to type 'number'.\n          Type '[number, number, [number, number]]' is not assignable to type 'number'.\n  Overload 2 of 2, '(predicate: (value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => unknown, thisArg?: any): (number | [number, number, [...]])[]', gave the following error.\n    Argument of type '(item: number) => boolean' is not assignable to parameter of type '(value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => unknown'.\n      Types of parameters 'item' and 'value' are incompatible.\n        Type 'number | [number, number, [number, number]]' is not assignable to type 'number'.\n          Type '[number, number, [number, number]]' is not assignable to type 'number'."
+    ]
+}

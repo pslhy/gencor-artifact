@@ -1,0 +1,29 @@
+{
+    "mbpp/127": [
+        "../../tmp/tmpj9sdn2d6.ts(178,25): error TS1005: '}' expected."
+    ],
+    "mbpp/239": [
+        "../../tmp/tmpjdpkvr9d.ts(13,10): error TS2391: Function implementation is missing or not immediately following the declaration.",
+        "../../tmp/tmpjdpkvr9d.ts(13,10): error TS7010: 'main', which lacks return-type annotation, implicitly has an 'any' return type."
+    ],
+    "mbpp/279": [
+        "../../tmp/tmp0p2sxpjt.ts(126,14): error TS1005: '}' expected."
+    ],
+    "mbpp/291": [
+        "../../tmp/tmp4ltdq78a.ts(10,21): error TS1005: '}' expected."
+    ],
+    "mbpp/422": [
+        "../../tmp/tmpeh_qyshc.ts(5,19): error TS1005: ';' expected.",
+        "../../tmp/tmpeh_qyshc.ts(5,27): error TS1005: '}' expected."
+    ],
+    "mbpp/448": [
+        "../../tmp/tmp6lu1vveg.ts(65,4): error TS1109: Expression expected.",
+        "../../tmp/tmp6lu1vveg.ts(117,8): error TS1005: '}' expected."
+    ],
+    "mbpp/641": [
+        "../../tmp/tmp7gve22f3.ts(566,1): error TS1005: '}' expected."
+    ],
+    "mbpp/797": [
+        "../../tmp/tmprrcc0o0a.ts(92,26): error TS1005: '}' expected."
+    ]
+}

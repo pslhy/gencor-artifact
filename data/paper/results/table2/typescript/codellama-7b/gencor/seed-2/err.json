@@ -1,0 +1,12 @@
+{
+    "mbpp/392": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/638": {
+        "1": [
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    }
+}

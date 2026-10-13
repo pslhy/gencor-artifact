@@ -1,0 +1,22 @@
+{
+    "decoded": 158,
+    "llm_time": 4.1232123374938965,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003740072250366211,
+    "constrainer_time": 0.037346839904785156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.207382678985596,
+    "frequency": {
+        "1": 159
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/440.ml:5:20: Unbound module \"Str\""
+    ]
+}

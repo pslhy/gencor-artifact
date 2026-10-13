@@ -1,0 +1,22 @@
+{
+    "decoded": 73,
+    "llm_time": 1.8353791236877441,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001833200454711914,
+    "constrainer_time": 0.017144441604614258,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.87382173538208,
+    "frequency": {
+        "1": 74
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/67.ml:8:1: Syntax error"
+    ]
+}

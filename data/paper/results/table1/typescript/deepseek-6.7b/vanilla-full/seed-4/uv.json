@@ -1,0 +1,19 @@
+{
+    "mbpp/106": [
+        "TS2552: Cannot find name 'testList'. Did you mean 'test_list'?",
+        "TS2552: Cannot find name 'testTup'. Did you mean 'test_tup'?"
+    ],
+    "mbpp/437": [
+        "TS2584: Cannot find name 'document'. Do you need to change your target library? Try changing the 'lib' compiler option to include 'dom'."
+    ],
+    "mbpp/597": [
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'."
+    ]
+}

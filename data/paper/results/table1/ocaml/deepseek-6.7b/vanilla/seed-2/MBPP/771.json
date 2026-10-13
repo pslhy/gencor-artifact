@@ -1,0 +1,22 @@
+{
+    "decoded": 135,
+    "llm_time": 3.5376601219177246,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0034058094024658203,
+    "constrainer_time": 0.0317234992980957,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.6101720333099365,
+    "frequency": {
+        "1": 136
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/771.ml:8:12: This expression has type \"char Stack.t -> unit\"\nbut an expression was expected of type \"char\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

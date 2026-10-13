@@ -1,0 +1,22 @@
+{
+    "decoded": 220,
+    "llm_time": 7.232260465621948,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006084442138671875,
+    "constrainer_time": 0.05919003486633301,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.377375364303589,
+    "frequency": {
+        "1": 221
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/274.py:28:28: undefined module member 'http.server.RESPONSE_200'"
+    ]
+}

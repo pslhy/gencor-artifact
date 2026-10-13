@@ -1,0 +1,21 @@
+{
+    "total_time": 90.00324010848999,
+    "llm_time": 90.00324010848999,
+    "constrainer_time": 0.0,
+    "n_resamples": 5,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+        "TS2322: Type 'boolean' is not assignable to type 'number'.",
+        "TS2365: Operator '<' cannot be applied to types 'string' and 'boolean'."
+    ]
+}

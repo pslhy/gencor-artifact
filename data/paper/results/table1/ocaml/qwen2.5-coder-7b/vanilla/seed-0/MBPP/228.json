@@ -1,0 +1,22 @@
+{
+    "decoded": 82,
+    "llm_time": 2.200882911682129,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020058155059814453,
+    "constrainer_time": 0.01918482780456543,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.249372959136963,
+    "frequency": {
+        "1": 83
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/228.ml:2:39: Unbound module \"Bitwise_bit_length\""
+    ]
+}

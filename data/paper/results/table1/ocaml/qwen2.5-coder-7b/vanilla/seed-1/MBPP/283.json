@@ -1,0 +1,22 @@
+{
+    "decoded": 217,
+    "llm_time": 5.544138431549072,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005821704864501953,
+    "constrainer_time": 0.05043196678161621,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.675665855407715,
+    "frequency": {
+        "1": 218
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/283.ml:17:131: Syntax error: \")\" expected"
+    ]
+}

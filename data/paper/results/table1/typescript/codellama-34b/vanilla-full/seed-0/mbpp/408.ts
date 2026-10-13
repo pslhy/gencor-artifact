@@ -1,0 +1,22 @@
+function k_smallest_pairs(nums1: number[], nums2: number[], k: number): number[][] {
+  const pairs = [];
+  for (let i = 0; i < nums1.length; i++) {
+    for (let j = 0; j < nums2.length; j++) {
+      const sum = nums1[i] + nums2[j];
+      const pair = [nums1[i], nums2[j]];
+      pairs.push(pair);
+    }
+  }
+  pairs.sort(function(a, b) {
+    return a[0] - b[0];
+  });
+  return pairs.slice(0, k);
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to find k number of smallest pairs which consist of one element from the first array and one element from the second array.

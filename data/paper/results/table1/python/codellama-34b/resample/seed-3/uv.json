@@ -1,0 +1,17 @@
+{
+    "BigCodeBench/101": [
+        "<python>:15:40: undefined name 'train_test_split'"
+    ],
+    "BigCodeBench/147": [
+        "<python>:7:10: undefined name 'ThreadPoolExecutor'"
+    ],
+    "BigCodeBench/177": [
+        "<python>:6:27: undefined name 'pd'"
+    ],
+    "BigCodeBench/501": [
+        "<python>:7:16: undefined name 'json'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:12:27: undefined module member 'rsa.key.generate_private_key'"
+    ]
+}

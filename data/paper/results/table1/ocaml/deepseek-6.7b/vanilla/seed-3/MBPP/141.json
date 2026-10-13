@@ -1,0 +1,22 @@
+{
+    "decoded": 306,
+    "llm_time": 7.636515140533447,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007731199264526367,
+    "constrainer_time": 0.07043218612670898,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.8015782833099365,
+    "frequency": {
+        "1": 307
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/141.ml:5:28: Unbound value \"List.take\""
+    ]
+}

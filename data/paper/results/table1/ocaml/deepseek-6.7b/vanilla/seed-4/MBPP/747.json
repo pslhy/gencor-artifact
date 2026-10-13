@@ -1,0 +1,22 @@
+{
+    "decoded": 336,
+    "llm_time": 11.100467920303345,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008994102478027344,
+    "constrainer_time": 0.08734583854675293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.30679988861084,
+    "frequency": {
+        "1": 337
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/747.ml:3:12: The function \"Array.make_matrix\" has type\nint -> int -> 'a -> 'a array array\nIt is applied to too many arguments"
+    ]
+}

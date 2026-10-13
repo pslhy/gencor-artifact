@@ -1,0 +1,21 @@
+{
+    "decoded": 108,
+    "llm_time": 5.8841376304626465,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0027618408203125,
+    "constrainer_time": 0.0067403316497802734,
+    "total_time": 5.924336671829224,
+    "frequency": {
+        "1": 109
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'."
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "MBPP/69": [
+        "test.ml:4:63: Unbound value \"List.take\""
+    ],
+    "MBPP/448": [
+        "test.ml:4:28: Unbound value \"perrin_num\""
+    ],
+    "MBPP/598": [
+        "test.ml:5:44: Unbound value \"(%)\""
+    ],
+    "MBPP/639": [
+        "test.ml:6:16: Unbound value \"String.lowercase\""
+    ],
+    "HumanEval/86": [
+        "test.ml:7:17: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/93": [
+        "test.ml:14:12: Unbound value \"Char.is_vowel\""
+    ],
+    "HumanEval/117": [
+        "test.ml:2:17: Unbound value \"String.split_on_whitespace\""
+    ],
+    "HumanEval/143": [
+        "test.ml:2:17: Unbound value \"String.split_on_string\""
+    ],
+    "HumanEval/146": [
+        "test.ml:5:50: Unbound value \"(%)\""
+    ]
+}

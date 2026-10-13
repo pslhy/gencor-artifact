@@ -1,0 +1,22 @@
+{
+    "decoded": 198,
+    "llm_time": 5.106372833251953,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004855632781982422,
+    "constrainer_time": 0.04506063461303711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.21231484413147,
+    "frequency": {
+        "1": 199
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:15: Unbound value \"List.rev_take\"\nHint: Did you mean \"rev_map\" or \"rev_map2\"?"
+    ]
+}

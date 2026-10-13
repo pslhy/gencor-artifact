@@ -1,0 +1,50 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     You are given a list of integers. *)
+(*     Write a function next_smallest() that returns the 2nd smallest element of the list. *)
+(*     Return None if there is no such element. *)
+(*     >>> next_smallest [1; 2; 3; 4; 5] *)
+(*     Some(2) *)
+(*     >>> next_smallest [5; 1; 4; 3; 2] *)
+(*     Some(2) *)
+(*     >>> next_smallest [] *)
+(*     Some(None) *)
+(*     >>> next_smallest [1; 1] *)
+(*     Some(None) *)
+let rec next_smallest (lst : int list) : int option =
+    match lst with
+    | [] -> None
+    | [x] -> None
+    | x1::x2::rest ->
+        if x1 < x2 && x2 < hd rest then Some x2
+        else if x1 > x2 && x2 > hd rest then Some x2
+        else if x1 = x2 && x2 = hd rest then Some x1
+        else None
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:6:28: Unbound value "hd" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec next_smallest (lst : int list) : int option =
+    match lst with
+    | [] -> None
+    | x::_ -> if x < hd lst then Some x else None
+    | x::y::rest -> if x = y && y = hd rest then Some x else None
+
+(* === Turn 3 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:4:22: Unbound value "hd" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec next_smallest (lst : int list) : int option =
+    match lst with
+    | [] -> None
+    | x::_ -> if x < List.hd lst then Some x else None
+    | x::y::rest -> if x = y && y = List.hd rest then Some x else None
+

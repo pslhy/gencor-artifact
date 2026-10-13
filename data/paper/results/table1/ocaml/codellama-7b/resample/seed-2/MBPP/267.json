@@ -1,0 +1,30 @@
+{
+    "decoded": 259,
+    "decoded_at_turn": {
+        "1": 65,
+        "2": 63,
+        "3": 65,
+        "4": 66
+    },
+    "llm_time": 6.624558210372925,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006407022476196289,
+    "constrainer_time": 0.061995744705200195,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.772308826446533,
+    "frequency": {
+        "1": 263
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:96: The function \"List.init\" has type int -> (int -> 'a) -> 'a list\nIt is applied to too many arguments"
+    ]
+}

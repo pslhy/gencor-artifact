@@ -1,0 +1,27 @@
+
+function tuple_to_int(nums: [number, number, number]): number {
+  return nums[0] * 100 + nums[1] * 10 + nums[2];
+}
+
+function convertToInt(arr: number[]): number {
+  return arr[0] * 1000 + arr[1] * 100 + arr[2] * 10 + arr[3];
+}
+
+function convertToInt(arr: number[]): number {
+  return arr[0] * 10000 + arr[1] * 1000 + arr[2] * 100 + arr[3] * 10 + arr[4];
+}
+
+function convertToInt(arr: number[]): number {
+  let total = 0;
+  for (let i = 0; i < arr.length; i++) {
+    total += arr[i] * Math.pow(10, i);
+  }
+  return total;
+}
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to convert a given array of positive integers into a single integer.

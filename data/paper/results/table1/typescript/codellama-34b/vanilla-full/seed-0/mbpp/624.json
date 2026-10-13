@@ -1,0 +1,19 @@
+{
+    "decoded": 13,
+    "llm_time": 0.7445356845855713,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00035381317138671875,
+    "constrainer_time": 0.0010218620300292969,
+    "total_time": 0.7493398189544678,
+    "frequency": {
+        "1": 14
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'to_uppercase' does not exist on type 'string'. Did you mean 'toUpperCase'?"
+    ]
+}

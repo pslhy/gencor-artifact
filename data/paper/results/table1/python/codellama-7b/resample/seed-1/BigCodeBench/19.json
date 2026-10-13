@@ -1,0 +1,31 @@
+{
+    "decoded": 1022,
+    "decoded_at_turn": {
+        "1": 204,
+        "2": 204,
+        "3": 203,
+        "4": 203,
+        "5": 208
+    },
+    "llm_time": 27.38865876197815,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.026036500930786133,
+    "constrainer_time": 0.2619822025299072,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 28.078075408935547,
+    "frequency": {
+        "1": 1027
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:19:12: undefined name 'tempfile'"
+    ]
+}

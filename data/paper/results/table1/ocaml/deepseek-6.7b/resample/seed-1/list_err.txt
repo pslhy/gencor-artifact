@@ -1,0 +1,12 @@
+Error cases: 11 / 67 16.42%
+HumanEval/124
+HumanEval/160
+HumanEval/65
+MBPP/296
+MBPP/428
+MBPP/464
+MBPP/57
+MBPP/577
+MBPP/584
+MBPP/602
+MBPP/780

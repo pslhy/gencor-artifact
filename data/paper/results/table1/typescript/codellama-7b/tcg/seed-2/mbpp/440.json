@@ -1,0 +1,19 @@
+{
+    "total_time": 90.00019383430481,
+    "llm_time": 90.00019383430481,
+    "constrainer_time": 0.0,
+    "n_resamples": 14,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type '[number, number, string | undefined]' is not assignable to type '[number, number, string]'.\n  Type at position 2 in source is not compatible with type at position 2 in target.\n    Type 'string | undefined' is not assignable to type 'string'.\n      Type 'undefined' is not assignable to type 'string'."
+    ]
+}

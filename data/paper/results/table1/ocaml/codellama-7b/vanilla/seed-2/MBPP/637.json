@@ -1,0 +1,22 @@
+{
+    "decoded": 141,
+    "llm_time": 3.5860986709594727,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003410816192626953,
+    "constrainer_time": 0.03349184989929199,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.6624977588653564,
+    "frequency": {
+        "1": 142
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/637.ml:8:13: This expression has type \"bool\" but an expression was expected of type\n\"int\""
+    ]
+}

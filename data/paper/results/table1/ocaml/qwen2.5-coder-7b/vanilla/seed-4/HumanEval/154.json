@@ -1,0 +1,22 @@
+{
+    "decoded": 131,
+    "llm_time": 3.6650896072387695,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00360107421875,
+    "constrainer_time": 0.032201528549194336,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.7493069171905518,
+    "frequency": {
+        "1": 132
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/154.ml:8:19: Unbound value \"String.contains_sub\""
+    ]
+}

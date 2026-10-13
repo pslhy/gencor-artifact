@@ -1,0 +1,61 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function that accepts a list of strings. *)
+(*     The list contains different words. Return the word with maximum number *)
+(*     of unique characters. If multiple strings have maximum number of unique *)
+(*     characters, return the one which comes first in lexicographical order. *)
+(*     >>> find_max ["name"; "of"; "string"] *)
+(*     "string" *)
+(*     >>> find_max ["name"; "enam"; "game"] *)
+(*     "enam" *)
+(*     >>> find_max ["aaaaaaa"; "bb"; "cc"] *)
+(*     "aaaaaaa" *)
+let rec find_max (words : string list) : string =
+  match words with
+  | [] -> ""
+  | hd :: tl ->
+      let max_rest = find_max tl in
+      if Set.length (StringSet.of_string hd) > Set.length (StringSet.of_string max_rest)
+      then hd
+      else if Set.length (StringSet.of_string hd) = Set.length (StringSet.of_string max_rest)
+        && String.compare hd max_rest < 0 then hd
+      else max_rest
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:6:10: Unbound value "Set.length" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec find_max (words : string list) : string =
+  match words with
+  | [] -> ""
+  | hd :: tl ->
+      let max_rest = find_max tl in
+      if StringSet.length (StringSet.of_string hd) > StringSet.length (StringSet.of_string max_rest)
+      then hd
+      else if StringSet.length (StringSet.of_string hd) = StringSet.length (StringSet.of_string max_rest)
+        && String.compare hd max_rest < 0 then hd
+      else max_rest
+
+(* === Turn 3 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:6:10: Unbound module "StringSet" *)
+(*     Hint: Did you mean "String"? *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec find_max (words : string list) : string =
+  match words with
+  | [] -> ""
+  | hd :: tl ->
+      let max_rest = find_max tl in
+      if String.length hd > String.length max_rest
+      then hd
+      else if String.length hd = String.length max_rest
+        && hd < max_rest then hd
+      else max_rest
+

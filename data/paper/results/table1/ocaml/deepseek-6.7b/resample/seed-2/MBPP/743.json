@@ -1,0 +1,30 @@
+{
+    "decoded": 315,
+    "decoded_at_turn": {
+        "1": 79,
+        "2": 79,
+        "3": 79,
+        "4": 78
+    },
+    "llm_time": 8.303109407424927,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007750749588012695,
+    "constrainer_time": 0.0737614631652832,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.488906621932983,
+    "frequency": {
+        "1": 319
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:41: This expression has type \"'a list option -> 'a list\"\nbut an expression was expected of type \"'b list\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

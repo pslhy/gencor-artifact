@@ -1,0 +1,22 @@
+{
+    "decoded": 87,
+    "llm_time": 2.292983055114746,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0034220218658447266,
+    "constrainer_time": 0.02254509925842285,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.3519606590270996,
+    "frequency": {
+        "1": 88
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/610.ml:4:17: Unbound value \"rev\"\nHint: Did you mean \"ref\"?"
+    ]
+}

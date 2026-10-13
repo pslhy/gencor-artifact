@@ -1,0 +1,26 @@
+{
+    "decoded": 71,
+    "llm_time": 1.8855419158935547,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 3.8214871883392334,
+    "constrainer_time": 0.0,
+    "total_time": 5.707029104232788,
+    "frequency": {
+        "1": 48,
+        "2": 6
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmp9lcjcx0z.ts(7,5): error TS2451: Cannot redeclare block-scoped variable 'length'.",
+        "../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts(43443,13): error TS2451: Cannot redeclare block-scoped variable 'length'."
+    ],
+    "did_compile": false,
+    "llm_finished": true,
+    "num_tokens_guessed": 60,
+    "num_tokens_generated": 71,
+    "total_realizability_time": 3.8214871883392334
+}

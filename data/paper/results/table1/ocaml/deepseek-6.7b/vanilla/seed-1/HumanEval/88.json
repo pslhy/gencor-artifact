@@ -1,0 +1,22 @@
+{
+    "decoded": 68,
+    "llm_time": 1.7711646556854248,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015943050384521484,
+    "constrainer_time": 0.015656471252441406,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.8081767559051514,
+    "frequency": {
+        "1": 69
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/88.ml:6:39: This expression has type \"int -> int\"\nbut an expression was expected of type \"int -> int -> int\"\nType \"int\" is not compatible with type \"int -> int\""
+    ]
+}

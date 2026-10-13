@@ -1,0 +1,39 @@
+{
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto'."
+    ],
+    "mbpp/68": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/83": [
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?"
+    ],
+    "mbpp/90": [
+        "TS2552: Cannot find name 'list'. Did you mean 'list1'?"
+    ],
+    "mbpp/108": [
+        "TS2304: Cannot find name 'assert'."
+    ],
+    "mbpp/143": [
+        "TS2304: Cannot find name 't'."
+    ],
+    "mbpp/395": [
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?"
+    ],
+    "mbpp/748": [
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?"
+    ],
+    "mbpp/769": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 59,
+    "llm_time": 1.5552966594696045,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001604318618774414,
+    "constrainer_time": 0.014127254486083984,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.5875227451324463,
+    "frequency": {
+        "1": 60
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/476.ml:4:62: This expression has type \"int list\"\nbut an expression was expected of type \"'a * 'a\""
+    ]
+}

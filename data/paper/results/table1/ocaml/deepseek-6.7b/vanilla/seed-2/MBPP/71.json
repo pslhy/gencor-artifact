@@ -1,0 +1,22 @@
+{
+    "decoded": 660,
+    "llm_time": 17.21880793571472,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01644301414489746,
+    "constrainer_time": 0.15259671211242676,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.596252918243408,
+    "frequency": {
+        "1": 661
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/71.ml:45:56: Unbound value \"List.tl_n\""
+    ]
+}

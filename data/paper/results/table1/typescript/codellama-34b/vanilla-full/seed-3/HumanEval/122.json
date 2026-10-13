@@ -1,0 +1,19 @@
+{
+    "decoded": 142,
+    "llm_time": 7.733598947525024,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0049130916595458984,
+    "constrainer_time": 0.009238481521606445,
+    "total_time": 7.791179418563843,
+    "frequency": {
+        "1": 143
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'len'."
+    ]
+}

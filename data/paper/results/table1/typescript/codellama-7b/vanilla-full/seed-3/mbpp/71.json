@@ -1,0 +1,21 @@
+{
+    "decoded": 241,
+    "llm_time": 5.99828314781189,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005556821823120117,
+    "constrainer_time": 0.055701255798339844,
+    "total_time": 6.122161626815796,
+    "frequency": {
+        "1": 242
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'float32'.",
+        "TS2304: Cannot find name 'float32'.",
+        "TS2552: Cannot find name 'combSort'. Did you mean 'comb_sort'?"
+    ]
+}

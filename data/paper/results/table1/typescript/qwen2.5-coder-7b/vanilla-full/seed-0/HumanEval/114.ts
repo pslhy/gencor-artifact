@@ -1,0 +1,29 @@
+function minSubArraySum(nums: number[]): number {;
+  let minSum = nums[0];
+  let currentSum = nums[0];
+  
+  for (let i = 1; i < nums.length; i++) {
+    currentSum = Math.min(nums[i], currentSum + nums[i]);
+    minSum = Math.min(minSum, currentSum);
+  }
+  
+  return minSum;
+}
+
+// Example usage:
+console.log(minSubArraySum([2, 3, 4, 1, 2, 4])); // Output: 1
+console.log(minSubArraySum([-1, -2, -3])); // Output: -6
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Given an array of integers nums, find the minimum sum of any non-empty sub-array
+//     of nums.
+//     Example
+//     >>> minSubArraySum([2, 3, 4, 1, 2, 4])
+//     1
+//     >>> minSubArraySum([-1, -2, -3])
+//     -6

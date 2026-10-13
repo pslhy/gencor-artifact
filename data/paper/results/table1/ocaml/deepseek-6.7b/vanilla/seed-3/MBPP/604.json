@@ -1,0 +1,22 @@
+{
+    "decoded": 97,
+    "llm_time": 2.4156124591827393,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023818016052246094,
+    "constrainer_time": 0.022142648696899414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4656896591186523,
+    "frequency": {
+        "1": 98
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/604.ml:8:31: Unbound value \"String.split_at\""
+    ]
+}

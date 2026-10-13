@@ -1,0 +1,22 @@
+{
+    "decoded": 245,
+    "llm_time": 5.999318838119507,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006169319152832031,
+    "constrainer_time": 0.0551762580871582,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.134833335876465,
+    "frequency": {
+        "1": 246
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:25:13: undefined name 'shutil'"
+    ]
+}

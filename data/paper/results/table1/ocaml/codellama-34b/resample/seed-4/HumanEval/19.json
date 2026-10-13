@@ -1,0 +1,29 @@
+{
+    "decoded": 640,
+    "decoded_at_turn": {
+        "1": 224,
+        "2": 207,
+        "3": 209
+    },
+    "llm_time": 35.50032901763916,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01865983009338379,
+    "constrainer_time": 0.15761566162109375,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 35.90813660621643,
+    "frequency": {
+        "1": 643
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:19:17: The function applied to this argument has type\n('a -> 'b) -> 'a list -> 'b list\nThis argument cannot be applied with label \"~f\""
+    ]
+}

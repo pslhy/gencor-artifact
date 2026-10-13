@@ -1,0 +1,86 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Task *)
+(*     We are given two strings s and c, you have to deleted all the characters in s that are equal to any character in c *)
+(*     then check if the result string is palindrome. *)
+(*     A string is called palindrome if it reads the same backward as forward. *)
+(*     You should return a tuple containing the result string and true/false for the check. *)
+(*     Example *)
+(*     >>> reverse_delete "abcde" "ae" *)
+(*     ("bcd", false) *)
+(*     >>> reverse_delete "abcdef" "b" *)
+(*     ("acdef", false) *)
+(*     >>> reverse_delete "abcdedcba" "ab" *)
+(*     ("cdedc", true) *)
+let rec reverse_delete (s : string) (c : string) :  string * bool =
+    if s = "" then
+        ("", false)
+    else if c.Contains(s.[0]) then
+        reverse_delete (s.[1..])
+    else
+        (s.[0] + fst(reverse_delete (s.[1..])), snd(reverse_delete (s.[1..])))
+        |> (fun (str, b) -> (reverse_string str, b))
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:4:23: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec reverse_delete (s : string) (c : string) :  string * bool =
+    if s = "" then
+        ("", false)
+    else if c.Contains(s.[0]) then
+        reverse_delete (s.[1..])
+    else
+        (s.[0] + fst(reverse_delete (s.[1..])), snd(reverse_delete (s.[1..])))
+        |> (fun (str, b) -> (reverse_string str, b))
+
+(* === Turn 3 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:4:23: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec reverse_delete (s : string) (c : string) :  string * bool =
+    if s = "" then
+        ("", false)
+    else if c.Contains(s.[0]) then
+        reverse_delete (s.[1..])
+    else
+        let (str, b) = reverse_delete (s.[1..]) in
+        (s.[0] + str, b)
+
+(* === Turn 4 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:4:23: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec reverse_delete (s : string) (c : string) :  string * bool =
+    if s = "" then
+        ("", false)
+    else if c.Contains(s.[0]) then
+        let (str, b) = reverse_delete (s.[1..]) in
+        (str, true)
+    else
+        let (str, b) = reverse_delete (s.[1..]) in
+        (s.[0] + str, b)
+
+(* === Turn 5 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:4:23: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec reverse_delete (s : string) (c : string) :  string * bool =
+    if s = "" then
+        ("", false)
+    else if c.Contains(s.[0]) then
+        let (str, b) = reverse_delete (s.[1..]) in
+        (str, true)
+    else
+        let (str, b) = reverse_delete (s.[1..]) in
+        (s.[0] + str, b)
+

@@ -1,0 +1,32 @@
+{
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto'."
+    ],
+    "mbpp/222": [
+        "TS2304: Cannot find name 'test_function'.",
+        "TS2304: Cannot find name 'test_function'.",
+        "TS2304: Cannot find name 'test_function'."
+    ],
+    "mbpp/417": [
+        "TS2552: Cannot find name 'Output'. Did you mean 'output'?",
+        "TS2552: Cannot find name 'Output'. Did you mean 'output'?"
+    ],
+    "mbpp/456": [
+        "TS2552: Cannot find name 'stringList'. Did you mean 'stringlist'?"
+    ],
+    "mbpp/475": [
+        "TS2304: Cannot find name 'value'.",
+        "TS2304: Cannot find name 'value'."
+    ],
+    "mbpp/725": [
+        "TS2552: Cannot find name 'inputarray'. Did you mean 'Int8Array'?"
+    ],
+    "mbpp/762": [
+        "TS2304: Cannot find name 'months'."
+    ],
+    "mbpp/772": [
+        "TS2304: Cannot find name 'word'.",
+        "TS2304: Cannot find name 'word'.",
+        "TS2304: Cannot find name 'word'."
+    ]
+}

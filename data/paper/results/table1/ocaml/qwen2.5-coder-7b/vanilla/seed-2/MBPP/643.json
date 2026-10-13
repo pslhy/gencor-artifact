@@ -1,0 +1,22 @@
+{
+    "decoded": 130,
+    "llm_time": 3.476979970932007,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002983570098876953,
+    "constrainer_time": 0.029781103134155273,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.5524723529815674,
+    "frequency": {
+        "1": 131
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/643.ml:8:39: Unbound value \"Seq.toList\""
+    ]
+}

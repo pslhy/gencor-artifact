@@ -1,0 +1,20 @@
+{
+    "decoded": 57,
+    "llm_time": 1.5343034267425537,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014107227325439453,
+    "constrainer_time": 0.013511180877685547,
+    "total_time": 1.5668656826019287,
+    "frequency": {
+        "1": 58
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number | undefined' is not assignable to type 'number'.\n  Type 'undefined' is not assignable to type 'number'.",
+        "TS18048: 'match.index' is possibly 'undefined'."
+    ]
+}

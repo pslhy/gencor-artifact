@@ -1,0 +1,21 @@
+{
+    "decoded": 128,
+    "llm_time": 6.904266357421875,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003165721893310547,
+    "constrainer_time": 0.0077517032623291016,
+    "total_time": 6.948606014251709,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2454: Variable 'result' is used before being assigned.",
+        "TS2454: Variable 'result' is used before being assigned.",
+        "TS2454: Variable 'result' is used before being assigned."
+    ]
+}

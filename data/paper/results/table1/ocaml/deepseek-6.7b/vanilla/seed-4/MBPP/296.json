@@ -1,0 +1,22 @@
+{
+    "decoded": 212,
+    "llm_time": 5.506675720214844,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005141735076904297,
+    "constrainer_time": 0.048625946044921875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.618542909622192,
+    "frequency": {
+        "1": 213
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/296.ml:13:12: Unbound value \"inv_Count\""
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 440,
+    "llm_time": 23.94491171836853,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011171102523803711,
+    "constrainer_time": 0.10568356513977051,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 24.211103916168213,
+    "frequency": {
+        "1": 441
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:7:53: positional argument follows keyword argument",
+        "    fig = plt.figure(set_size=(12, 7), set_margin(2))",
+        "                                                    ^"
+    ]
+}

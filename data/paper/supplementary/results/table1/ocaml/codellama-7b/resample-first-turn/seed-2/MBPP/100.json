@@ -1,0 +1,22 @@
+{
+    "decoded": 159,
+    "llm_time": 4.023464679718018,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003984928131103516,
+    "constrainer_time": 0.03767061233520508,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.1099255084991455,
+    "frequency": {
+        "1": 160
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:0:0: Syntax error: \"done\" expected"
+    ]
+}

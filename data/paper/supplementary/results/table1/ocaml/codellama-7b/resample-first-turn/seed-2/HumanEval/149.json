@@ -1,0 +1,22 @@
+{
+    "decoded": 100,
+    "llm_time": 2.575653314590454,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002402782440185547,
+    "constrainer_time": 0.023786306381225586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.6313018798828125,
+    "frequency": {
+        "1": 101
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:41: Unbound value \"List.sort_sort\"\nHint: Did you mean \"fast_sort\"?"
+    ]
+}

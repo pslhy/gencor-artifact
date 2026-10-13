@@ -1,0 +1,19 @@
+{
+    "decoded": 318,
+    "llm_time": 17.487451553344727,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00800180435180664,
+    "constrainer_time": 0.019327402114868164,
+    "total_time": 17.621456146240234,
+    "frequency": {
+        "1": 319
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'string' is not assignable to type 'number[]'."
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 233,
+    "llm_time": 12.716136455535889,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006154537200927734,
+    "constrainer_time": 0.055176496505737305,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.851805686950684,
+    "frequency": {
+        "1": 234
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:7:9: undefined name 'd'",
+        "<python>:8:9: undefined name 'd'"
+    ]
+}

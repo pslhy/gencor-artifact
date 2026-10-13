@@ -1,0 +1,20 @@
+{
+    "decoded": 307,
+    "llm_time": 16.512962102890015,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009014368057250977,
+    "constrainer_time": 0.01900792121887207,
+    "total_time": 16.62872338294983,
+    "frequency": {
+        "1": 308
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type '[]' is not assignable to type '[number, number[]]'.\n  Source has 0 element(s) but target requires 2.",
+        "TS2695: Left side of comma operator is unused and has no side effects."
+    ]
+}

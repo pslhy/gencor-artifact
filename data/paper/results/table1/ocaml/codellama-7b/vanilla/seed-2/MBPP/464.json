@@ -1,0 +1,22 @@
+{
+    "decoded": 91,
+    "llm_time": 2.4060606956481934,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0022351741790771484,
+    "constrainer_time": 0.021933555603027344,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4551496505737305,
+    "frequency": {
+        "1": 92
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/464.ml:7:33: The function applied to this argument has type 'a list -> 'b list\nThis argument cannot be applied with label \"~f\""
+    ]
+}

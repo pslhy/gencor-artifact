@@ -1,0 +1,22 @@
+{
+    "decoded": 152,
+    "llm_time": 4.086056709289551,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0037047863006591797,
+    "constrainer_time": 0.03540802001953125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.175896883010864,
+    "frequency": {
+        "1": 153
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/459.ml:4:17: Unbound value \"Char.is_uppercase\""
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "decoded": 1595,
+    "decoded_at_turn": {
+        "1": 319,
+        "2": 319,
+        "3": 319,
+        "4": 319,
+        "5": 319
+    },
+    "llm_time": 93.67579340934753,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.043134450912475586,
+    "constrainer_time": 0.40828919410705566,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 94.89802145957947,
+    "frequency": {
+        "1": 1600
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:21: undefined name 'json'"
+    ]
+}

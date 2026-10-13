@@ -1,0 +1,22 @@
+{
+    "decoded": 139,
+    "llm_time": 7.442159652709961,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004045963287353516,
+    "constrainer_time": 0.033967018127441406,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.521948575973511,
+    "frequency": {
+        "1": 140
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:64: Unbound value \"digitsList\""
+    ]
+}

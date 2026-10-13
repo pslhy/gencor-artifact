@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+"""Run the preserved TCG benchmark driver with the artifact environment."""
+import os
+import sys
+from pathlib import Path
+
+ARTIFACT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ARTIFACT / "tools/gencor"))
+os.environ.setdefault("GENCOR_RUNTIME_CONFIG", str(ARTIFACT / ".gencor/runtime.json"))
+from lsp.runtime import backend_environment, backend_path, runtime_config
+
+try:
+    runtime_config(required=True)
+    python = backend_path("python")
+    env = backend_environment()
+    os.chdir(ARTIFACT / "tools/type-constrained-code-generation")
+    args = [python, "-m", "experiments.main.run_gencor_compare",
+            "--bench", str(ARTIFACT / "data/paper/datasets/humaneval-mbpp-ts.json"),
+            "--output-root", str(ARTIFACT / "output")] + sys.argv[1:]
+    os.execve(python, args, env)
+except RuntimeError as exc:
+    print(str(exc), file=sys.stderr)
+    sys.exit(1)

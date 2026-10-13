@@ -1,0 +1,19 @@
+{
+    "decoded": 118,
+    "llm_time": 2.9276819229125977,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030760765075683594,
+    "constrainer_time": 0.028063058853149414,
+    "total_time": 2.990131378173828,
+    "frequency": {
+        "1": 119
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2538: Type 'Number' cannot be used as an index type."
+    ]
+}

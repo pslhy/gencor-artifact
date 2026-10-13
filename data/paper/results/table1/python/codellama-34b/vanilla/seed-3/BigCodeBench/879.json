@@ -1,0 +1,25 @@
+{
+    "decoded": 111,
+    "llm_time": 6.189495801925659,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002833127975463867,
+    "constrainer_time": 0.027189254760742188,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.257384300231934,
+    "frequency": {
+        "1": 112
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:6:5: undefined name 'chisq'",
+        "<python>:6:12: undefined name 'p'",
+        "<python>:6:15: undefined name 'dof'",
+        "<python>:6:20: undefined name 'expected'"
+    ]
+}

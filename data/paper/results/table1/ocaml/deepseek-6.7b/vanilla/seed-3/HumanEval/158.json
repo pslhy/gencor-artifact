@@ -1,0 +1,22 @@
+{
+    "decoded": 190,
+    "llm_time": 4.910618305206299,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004693269729614258,
+    "constrainer_time": 0.0441441535949707,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.01476788520813,
+    "frequency": {
+        "1": 191
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/158.ml:5:57: Unbound value \"List.uniq\""
+    ]
+}

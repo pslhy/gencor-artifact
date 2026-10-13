@@ -1,0 +1,22 @@
+{
+    "decoded": 118,
+    "llm_time": 3.029137372970581,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029048919677734375,
+    "constrainer_time": 0.0271456241607666,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.099447011947632,
+    "frequency": {
+        "1": 119
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/82.ml:5:10: Syntax error"
+    ]
+}

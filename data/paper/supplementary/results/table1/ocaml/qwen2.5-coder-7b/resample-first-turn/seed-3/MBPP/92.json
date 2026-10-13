@@ -1,0 +1,22 @@
+{
+    "decoded": 117,
+    "llm_time": 2.874460458755493,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0026018619537353516,
+    "constrainer_time": 0.025841712951660156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.9399607181549072,
+    "frequency": {
+        "1": 118
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:20: Unbound value \"divmod\""
+    ]
+}

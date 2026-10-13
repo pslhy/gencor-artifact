@@ -1,0 +1,28 @@
+{
+    "decoded": 157,
+    "llm_time": 3.9361016750335693,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003642559051513672,
+    "constrainer_time": 0.036653757095336914,
+    "total_time": 4.019294500350952,
+    "frequency": {
+        "1": 158
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?",
+        "TS2322: Type '{ n: number; sum: number; }[]' is not assignable to type 'number[]'.\n  Type '{ n: number; sum: number; }' is not assignable to type 'number'.",
+        "TS2339: Property 'sum' does not exist on type 'number'.",
+        "TS2339: Property 'n' does not exist on type 'number'.",
+        "TS7006: Parameter 'c' implicitly has an 'any' type.",
+        "TS7006: Parameter 'a' implicitly has an 'any' type.",
+        "TS7006: Parameter 'b' implicitly has an 'any' type.",
+        "TS2339: Property 'sum' does not exist on type 'number'.",
+        "TS2339: Property 'sum' does not exist on type 'number'.",
+        "TS2339: Property 'n' does not exist on type 'number'."
+    ]
+}

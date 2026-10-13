@@ -1,0 +1,22 @@
+{
+    "decoded": 139,
+    "llm_time": 4.597191572189331,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036399364471435547,
+    "constrainer_time": 0.03616595268249512,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.679939031600952,
+    "frequency": {
+        "1": 140
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/617.ml:10:20: This expression has type \"int * int\"\nbut an expression was expected of type \"int\""
+    ]
+}

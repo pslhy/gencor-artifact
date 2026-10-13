@@ -1,0 +1,19 @@
+{
+    "decoded": 37,
+    "llm_time": 0.9277217388153076,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008990764617919922,
+    "constrainer_time": 0.008963346481323242,
+    "total_time": 0.9470932483673096,
+    "frequency": {
+        "1": 38
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'createHash'."
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "decoded": 258,
+    "decoded_at_turn": {
+        "1": 111,
+        "2": 147
+    },
+    "llm_time": 13.894062757492065,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006684303283691406,
+    "constrainer_time": 0.06156301498413086,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.040004253387451,
+    "frequency": {
+        "1": 260
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:114: This expression has type \"'a -> 'b -> 'c\"\nbut an expression was expected of type \"'a\"\nThe type variable \"'a\" occurs inside \"'a -> 'b -> 'c\""
+    ]
+}

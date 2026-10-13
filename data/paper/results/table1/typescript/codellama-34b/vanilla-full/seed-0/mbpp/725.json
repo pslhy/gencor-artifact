@@ -1,0 +1,19 @@
+{
+    "decoded": 150,
+    "llm_time": 7.990161180496216,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004029989242553711,
+    "constrainer_time": 0.009382009506225586,
+    "total_time": 8.04385757446289,
+    "frequency": {
+        "1": 151
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'j'."
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "decoded": 2125,
+    "decoded_at_turn": {
+        "1": 425,
+        "2": 425,
+        "3": 425,
+        "4": 425,
+        "5": 425
+    },
+    "llm_time": 54.91321659088135,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.058707237243652344,
+    "constrainer_time": 0.503584623336792,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 56.950339794158936,
+    "frequency": {
+        "1": 2130
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+        "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+        "                                                     ^"
+    ]
+}

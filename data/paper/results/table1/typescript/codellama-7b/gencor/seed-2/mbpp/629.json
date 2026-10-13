@@ -1,0 +1,43 @@
+{
+    "on_accept_time": 2.2172927856445312e-05,
+    "check_after_gen_feed_time": 6.292532205581665,
+    "type_inspect_time": 0.5038104057312012,
+    "type_inspect_count": 83229,
+    "symbols_to_check_time": 8.647127151489258,
+    "type_api_time": 139.5376454088837,
+    "type_api_count": 35613,
+    "type_api_cache_hits": 118845,
+    "type_frontier_time": 1.369899233803153,
+    "type_frontier_count": 35637,
+    "type_reachability_time": 0.2859862595796585,
+    "type_reachability_count": 35637,
+    "analyze_time": 153.64309930801392,
+    "check_after_gen_feed_count": 11875,
+    "decoded": 11,
+    "type_active_time": 63.861361265182495,
+    "type_active_count": 35637,
+    "type_param_gate_time": 81.24434232711792,
+    "type_param_gate_count": 11869,
+    "semantic_reject": 6,
+    "llm_time": 0.6155486106872559,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.4333922863006592,
+    "constrainer_time": 0.016726016998291016,
+    "attribute_memo_store_time": 0.05620574951171875,
+    "attribute_memo_store_calls": 23758,
+    "attribute_memo_load_time": 0.623619794845581,
+    "attribute_memo_load_calls": 35769,
+    "total_time": 170.69883370399475,
+    "frequency": {
+        "1": 10,
+        "4": 2
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'isEvenFn'."
+    ]
+}

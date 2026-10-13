@@ -1,0 +1,19 @@
+{
+    "decoded": 635,
+    "llm_time": 34.17775869369507,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01648879051208496,
+    "constrainer_time": 0.038492441177368164,
+    "total_time": 34.42321419715881,
+    "frequency": {
+        "1": 636
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2454: Variable 'min_value' is used before being assigned."
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 97,
+    "llm_time": 5.214069366455078,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0028214454650878906,
+    "constrainer_time": 0.006070852279663086,
+    "total_time": 5.248649835586548,
+    "frequency": {
+        "1": 98
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type '[number, number][]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type '[number, number][]'. Did you mean 'length'?",
+        "TS2304: Cannot find name 'max'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 49,
+    "llm_time": 1.2410902976989746,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0012497901916503906,
+    "constrainer_time": 0.011723756790161133,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.2670824527740479,
+    "frequency": {
+        "1": 50
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/96.ml:5:55: Unbound value \"(%)\""
+    ]
+}

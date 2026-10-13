@@ -1,0 +1,22 @@
+{
+    "decoded": 161,
+    "llm_time": 4.264889717102051,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004033803939819336,
+    "constrainer_time": 0.03764843940734863,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.366588354110718,
+    "frequency": {
+        "1": 162
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/590.py:25:15: undefined name 'URLError'"
+    ]
+}

@@ -1,0 +1,140 @@
+{
+    "HumanEval/118": [
+        "TS2304: Cannot find name 'VOWELS'.",
+        "TS2304: Cannot find name 'VOWELS'."
+    ],
+    "HumanEval/122": [
+        "TS2304: Cannot find name 'len'."
+    ],
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto'."
+    ],
+    "mbpp/19": [
+        "TS2304: Cannot find name 'int'.",
+        "TS2304: Cannot find name 'int'.",
+        "TS2304: Cannot find name 'int'."
+    ],
+    "mbpp/65": [
+        "TS2304: Cannot find name 'isinstance'.",
+        "TS2304: Cannot find name 'list'."
+    ],
+    "mbpp/70": [
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?"
+    ],
+    "mbpp/83": [
+        "TS2304: Cannot find name 'char'."
+    ],
+    "mbpp/102": [
+        "TS2552: Cannot find name 'newCaseString'. Did you mean 'newString'?"
+    ],
+    "mbpp/120": [
+        "TS2304: Cannot find name 'max'."
+    ],
+    "mbpp/132": [
+        "TS2304: Cannot find name 'str'."
+    ],
+    "mbpp/141": [
+        "TS2552: Cannot find name 'pancakeSort'. Did you mean 'pancake_sort'?"
+    ],
+    "mbpp/252": [
+        "TS2304: Cannot find name 'Complex'."
+    ],
+    "mbpp/255": [
+        "TS2304: Cannot find name 'combinations'.",
+        "TS2304: Cannot find name 'combinations'.",
+        "TS2304: Cannot find name 'combinations'.",
+        "TS2304: Cannot find name 'combinations'."
+    ],
+    "mbpp/274": [
+        "TS2304: Cannot find name 'binomial_coefficients'."
+    ],
+    "mbpp/295": [
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/396": [
+        "TS2304: Cannot find name 'character'."
+    ],
+    "mbpp/401": [
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'."
+    ],
+    "mbpp/417": [
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2304: Cannot find name 'j'."
+    ],
+    "mbpp/446": [
+        "TS2304: Cannot find name 'count'."
+    ],
+    "mbpp/472": [
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'a'."
+    ],
+    "mbpp/577": [
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/586": [
+        "TS2304: Cannot find name 'l2'.",
+        "TS2304: Cannot find name 'l2'."
+    ],
+    "mbpp/608": [
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/635": [
+        "TS2304: Cannot find name 'create_queue'.",
+        "TS2304: Cannot find name 'create_queue'."
+    ],
+    "mbpp/741": [
+        "TS2552: Cannot find name 'firstSt'. Did you mean 'firsSt'?"
+    ],
+    "mbpp/762": [
+        "TS2552: Cannot find name 'monthnum'. Did you mean 'monthnum3'?"
+    ],
+    "mbpp/764": [
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'count'."
+    ],
+    "mbpp/778": [
+        "TS2552: Cannot find name 'resut'. Did you mean 'result'?"
+    ],
+    "mbpp/797": [
+        "TS2304: Cannot find name 'sum'.",
+        "TS2304: Cannot find name 'sum'."
+    ]
+}

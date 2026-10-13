@@ -1,0 +1,19 @@
+{
+    "decoded": 87,
+    "llm_time": 4.7141969203948975,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002319812774658203,
+    "constrainer_time": 0.005594015121459961,
+    "total_time": 4.746177434921265,
+    "frequency": {
+        "1": 88
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'absNum' because it is a constant."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 497,
+    "llm_time": 12.614583730697632,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01200723648071289,
+    "constrainer_time": 0.11320805549621582,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.917509317398071,
+    "frequency": {
+        "1": 498
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/94.ml:7:23: This expression has type \"int list\"\nbut an expression was expected of type \"(init:'a -> 'b) list\"\nType \"int\" is not compatible with type \"init:'a -> 'b\""
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 170,
+    "llm_time": 4.39418888092041,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004447460174560547,
+    "constrainer_time": 0.03875446319580078,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.500941753387451,
+    "frequency": {
+        "1": 171
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/590.py:24:14: invalid syntax",
+        "        raise.URLError(\"Network error or server issue: \" + str(e.reason))",
+        "             ^"
+    ]
+}

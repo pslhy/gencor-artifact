@@ -1,0 +1,21 @@
+{
+    "decoded": 127,
+    "llm_time": 6.793735980987549,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002969980239868164,
+    "constrainer_time": 0.007445335388183594,
+    "total_time": 6.836132764816284,
+    "frequency": {
+        "1": 128
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'number[][]'. Did you mean 'length'?",
+        "TS2588: Cannot assign to 'result' because it is a constant.",
+        "TS2339: Property 'length' does not exist on type 'number'."
+    ]
+}

@@ -1,0 +1,33 @@
+let rec find_max (words : string list) : string = 
+  let rec max_word (current_max : string) (remaining : string list) : string =
+    match remaining with
+    | [] -> current_max
+    | word :: rest ->
+      let unique_chars = Set.of_list (List.map (fun c -> c) (List.of_string word)) in
+      let current_count = Set.length unique_chars in
+      let max_count = Set.length (Set.of_list (List.map (fun c -> c) (List.of_string current_max))) in
+      if current_count > max_count || (current_count = max_count && word <= current_max) then
+        max_word word rest
+      else
+        max_word current_max rest
+  in
+  match words with
+  | [] -> ""
+  | word :: rest -> max_word word rest
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function that accepts a list of strings. *)
+(*     The list contains different words. Return the word with maximum number *)
+(*     of unique characters. If multiple strings have maximum number of unique *)
+(*     characters, return the one which comes first in lexicographical order. *)
+(*     >>> find_max ["name"; "of"; "string"] *)
+(*     "string" *)
+(*     >>> find_max ["name"; "enam"; "game"] *)
+(*     "enam" *)
+(*     >>> find_max ["aaaaaaa"; "bb"; "cc"] *)
+(*     "aaaaaaa" *)

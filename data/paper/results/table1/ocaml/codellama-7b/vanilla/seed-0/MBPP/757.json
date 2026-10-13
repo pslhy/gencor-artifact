@@ -1,0 +1,22 @@
+{
+    "decoded": 65,
+    "llm_time": 1.7240638732910156,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015704631805419922,
+    "constrainer_time": 0.015571832656860352,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.759244441986084,
+    "frequency": {
+        "1": 66
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/757.ml:5:20: Unbound value \"String.reverse\""
+    ]
+}

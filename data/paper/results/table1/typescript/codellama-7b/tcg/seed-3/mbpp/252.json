@@ -1,0 +1,23 @@
+{
+    "total_time": 90.00057053565979,
+    "llm_time": 90.00057053565979,
+    "constrainer_time": 0.0,
+    "n_resamples": 21,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 3,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2352: Conversion of type 'boolean' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
+        "TS2352: Conversion of type 'boolean' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
+        "TS2352: Conversion of type 'boolean' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
+        "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+    ]
+}

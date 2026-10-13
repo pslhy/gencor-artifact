@@ -1,0 +1,20 @@
+{
+    "total_time": 4.236211776733398,
+    "llm_time": 4.236211776733398,
+    "constrainer_time": 0.0,
+    "n_resamples": 15,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS7034: Variable 'intersection' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+        "TS7005: Variable 'intersection' implicitly has an 'any[]' type."
+    ]
+}

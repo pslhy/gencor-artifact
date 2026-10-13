@@ -1,0 +1,28 @@
+{
+    "decoded": 216,
+    "decoded_at_turn": {
+        "1": 87,
+        "2": 129
+    },
+    "llm_time": 5.538443088531494,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005410671234130859,
+    "constrainer_time": 0.051909685134887695,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.659237861633301,
+    "frequency": {
+        "1": 218
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:5: This expression has type \"int Seq.t\" = \"unit -> int Seq.node\"\nbut an expression was expected of type \"int\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 54,
+    "llm_time": 1.4307868480682373,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013082027435302734,
+    "constrainer_time": 0.013045549392700195,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.459707260131836,
+    "frequency": {
+        "1": 55
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/230.ml:4:7: Syntax error"
+    ]
+}

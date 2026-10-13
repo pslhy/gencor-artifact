@@ -1,0 +1,22 @@
+{
+    "decoded": 127,
+    "llm_time": 3.221233606338501,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003064870834350586,
+    "constrainer_time": 0.028577089309692383,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.295715093612671,
+    "frequency": {
+        "1": 128
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/51.ml:14:25: Unbound value \"Char.toString\""
+    ]
+}

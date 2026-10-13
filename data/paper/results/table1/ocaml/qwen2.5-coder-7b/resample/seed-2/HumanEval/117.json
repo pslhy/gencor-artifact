@@ -1,0 +1,30 @@
+{
+    "decoded": 536,
+    "decoded_at_turn": {
+        "1": 129,
+        "2": 129,
+        "3": 139,
+        "4": 139
+    },
+    "llm_time": 14.452850818634033,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013319015502929688,
+    "constrainer_time": 0.12805652618408203,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.8196280002594,
+    "frequency": {
+        "1": 540
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:47: This expression has type \"unit\" but an expression was expected of type\n\"char list\""
+    ]
+}

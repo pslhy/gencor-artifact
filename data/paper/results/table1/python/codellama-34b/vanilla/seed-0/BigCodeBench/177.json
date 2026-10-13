@@ -1,0 +1,24 @@
+{
+    "decoded": 274,
+    "llm_time": 14.80277419090271,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006796598434448242,
+    "constrainer_time": 0.06403732299804688,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.958752393722534,
+    "frequency": {
+        "1": 275
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:7:27: undefined name 'pd'",
+        "<python>:13:21: undefined name 'pd'",
+        "<python>:22:19: undefined name 'Counter'"
+    ]
+}

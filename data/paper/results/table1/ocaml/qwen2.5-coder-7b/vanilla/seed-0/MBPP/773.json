@@ -1,0 +1,22 @@
+{
+    "decoded": 69,
+    "llm_time": 1.7510757446289062,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017313957214355469,
+    "constrainer_time": 0.01570415496826172,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.7914049625396729,
+    "frequency": {
+        "1": 70
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/773.ml:5:13: Unbound value \"String.starts_with_substring\""
+    ]
+}

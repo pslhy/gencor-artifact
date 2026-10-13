@@ -1,0 +1,22 @@
+{
+    "decoded": 210,
+    "llm_time": 5.5451884269714355,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0057332515716552734,
+    "constrainer_time": 0.050017595291137695,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.667381525039673,
+    "frequency": {
+        "1": 211
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/141.ml:2:37: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ]
+}

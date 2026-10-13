@@ -1,0 +1,20 @@
+{
+    "total_time": 90.00016570091248,
+    "llm_time": 90.00016570091248,
+    "constrainer_time": 0.0,
+    "n_resamples": 29,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 1,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2322: Type '[number, number, number, { [key: string]: number; }]' is not assignable to type '[number, number, number]'.\n  Source has 4 element(s) but target allows only 3."
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 349,
+    "llm_time": 20.016616106033325,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008866310119628906,
+    "constrainer_time": 0.1002645492553711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 20.250717878341675,
+    "frequency": {
+        "1": 350
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:17:54: positional argument follows keyword argument",
+        "        syslog.syslog(s=\"ftpwefewf\", timeout=500, 500)",
+        "                                                     ^"
+    ]
+}

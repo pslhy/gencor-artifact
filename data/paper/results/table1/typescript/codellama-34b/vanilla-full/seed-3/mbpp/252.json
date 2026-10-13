@@ -1,0 +1,22 @@
+{
+    "decoded": 46,
+    "llm_time": 2.49308443069458,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011761188507080078,
+    "constrainer_time": 0.00289154052734375,
+    "total_time": 2.508723020553589,
+    "frequency": {
+        "1": 47
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2358: The left-hand side of an 'instanceof' expression must be of type 'any', an object type or a type parameter.",
+        "TS2304: Cannot find name 'Complex'.",
+        "TS2339: Property 'x' does not exist on type 'number'.",
+        "TS2339: Property 'y' does not exist on type 'number'."
+    ]
+}

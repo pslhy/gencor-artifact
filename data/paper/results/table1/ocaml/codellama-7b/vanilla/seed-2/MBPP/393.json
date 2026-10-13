@@ -1,0 +1,22 @@
+{
+    "decoded": 151,
+    "llm_time": 3.9712612628936768,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0037386417388916016,
+    "constrainer_time": 0.03591036796569824,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.052626848220825,
+    "frequency": {
+        "1": 152
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/393.ml:18:1: Syntax error"
+    ]
+}

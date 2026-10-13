@@ -1,0 +1,22 @@
+{
+    "decoded": 131,
+    "llm_time": 3.2516722679138184,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030236244201660156,
+    "constrainer_time": 0.029068946838378906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3262360095977783,
+    "frequency": {
+        "1": 132
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/619.ml:4:13: Unbound value \"Char.isdigit\""
+    ]
+}

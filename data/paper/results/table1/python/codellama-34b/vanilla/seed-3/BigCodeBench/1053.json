@@ -1,0 +1,22 @@
+{
+    "decoded": 387,
+    "llm_time": 21.50470542907715,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00980830192565918,
+    "constrainer_time": 0.09347820281982422,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 21.757112741470337,
+    "frequency": {
+        "1": 388
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:46:13: undefined module member 'plt.save_fig'"
+    ]
+}

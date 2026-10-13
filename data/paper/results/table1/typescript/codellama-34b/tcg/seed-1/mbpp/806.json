@@ -1,0 +1,18 @@
+{
+    "decoded": 120,
+    "total_time": 18.039820909500122,
+    "llm_time": 18.039820909500122,
+    "constrainer_time": 0.0,
+    "n_resamples": 10,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 1,
+    "is_err": null,
+    "is_synerr": null,
+    "is_uv": null,
+    "errors": null
+}

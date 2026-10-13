@@ -1,0 +1,22 @@
+{
+    "decoded": 551,
+    "llm_time": 18.010957717895508,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014805316925048828,
+    "constrainer_time": 0.1467905044555664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 18.385260343551636,
+    "frequency": {
+        "1": 552
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/418.py:25:37: undefined name 'precision_recall_curve'"
+    ]
+}

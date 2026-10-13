@@ -1,0 +1,63 @@
+{
+    "HumanEval/49": {
+        "1": [
+            "TS2339: Property 'to' does not exist on type 'BigInt'."
+        ]
+    },
+    "HumanEval/67": {
+        "1": [
+            "TS2345: Argument of type 'string[] | undefined[] | null[] | never[]' is not assignable to parameter of type 'string'.\n  Type 'string[]' is not assignable to type 'string'."
+        ]
+    },
+    "HumanEval/93": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/128": {
+        "1": [
+            "TS2304: Cannot find name 'acc'."
+        ]
+    },
+    "HumanEval/129": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS18048: 'neo' is possibly 'undefined'.",
+            "TS18048: 'neo' is possibly 'undefined'.",
+            "TS18048: 'neo' is possibly 'undefined'.",
+            "TS18048: 'neo' is possibly 'undefined'.",
+            "TS2345: Argument of type '(searchString: string, position?: number | undefined) => number' is not assignable to parameter of type 'number'."
+        ]
+    },
+    "HumanEval/147": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2304: Cannot find name 'v'."
+        ]
+    },
+    "mbpp/12": {
+        "1": [
+            "TS2304: Cannot find name 'b'."
+        ]
+    },
+    "mbpp/56": {
+        "1": [
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/67": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/440": {
+        "1": [
+            "TS18048: 'startIndex' is possibly 'undefined'."
+        ]
+    },
+    "mbpp/721": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    }
+}

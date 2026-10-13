@@ -1,0 +1,22 @@
+{
+    "decoded": 112,
+    "llm_time": 2.9795312881469727,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002622365951538086,
+    "constrainer_time": 0.025836944580078125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.044379711151123,
+    "frequency": {
+        "1": 113
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:21: Unbound value \"Char.is_digit\""
+    ]
+}

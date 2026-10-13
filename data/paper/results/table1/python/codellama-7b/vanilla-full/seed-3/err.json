@@ -1,0 +1,125 @@
+{
+    "BigCodeBench/82": {
+        "1": [
+            "BigCodeBench/82.py:43:27: undefined name 'db'",
+            "BigCodeBench/82.py:45:14: undefined name 'db'",
+            "BigCodeBench/82.py:45:24: undefined name 'db'",
+            "BigCodeBench/82.py:46:20: undefined name 'db'",
+            "BigCodeBench/82.py:46:30: undefined name 'db'",
+            "BigCodeBench/82.py:47:25: undefined name 'db'",
+            "BigCodeBench/82.py:47:35: undefined name 'db'",
+            "BigCodeBench/82.py:57:20: undefined name 'user'"
+        ]
+    },
+    "BigCodeBench/92": {
+        "1": [
+            "BigCodeBench/92.py:24:24: undefined name 'centroids'"
+        ]
+    },
+    "BigCodeBench/101": {
+        "1": [
+            "BigCodeBench/101.py:22:8: undefined name 'file_path'",
+            "BigCodeBench/101.py:23:32: undefined name 'file_path'"
+        ]
+    },
+    "BigCodeBench/161": {
+        "1": [
+            "BigCodeBench/161.py:16:8: undefined name 'os'"
+        ]
+    },
+    "BigCodeBench/177": {
+        "1": [
+            "BigCodeBench/177.py:39:6: undefined name 'pd'"
+        ]
+    },
+    "BigCodeBench/310": {
+        "1": [
+            "BigCodeBench/310.py:28:51: undefined name 'reader'",
+            "BigCodeBench/310.py:29:57: undefined name 'reader'",
+            "BigCodeBench/310.py:30:57: undefined name 'reader'",
+            "BigCodeBench/310.py:39:27: undefined name 'uuid'",
+            "BigCodeBench/310.py:42:1: 'return' outside function"
+        ]
+    },
+    "BigCodeBench/346": {
+        "1": [
+            "BigCodeBench/346.py:12:52: undefined name 'path'"
+        ]
+    },
+    "BigCodeBench/367": {
+        "1": [
+            "BigCodeBench/367.py:13:12: undefined name 'day'"
+        ]
+    },
+    "BigCodeBench/486": {
+        "1": [
+            "BigCodeBench/486.py:14:15: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "BigCodeBench/501.py:14:12: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/526": {
+        "1": [
+            "BigCodeBench/526.py:16:30: undefined name 'numbers'"
+        ]
+    },
+    "BigCodeBench/560": {
+        "1": [
+            "BigCodeBench/560.py:22:38: undefined name 'year'"
+        ]
+    },
+    "BigCodeBench/567": {
+        "1": [
+            "BigCodeBench/567.py:15:25: undefined name 'Freq_data'"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "BigCodeBench/579.py:28:12: '(' was never closed",
+            "    return ((top10, norm)",
+            "           ^"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "BigCodeBench/587.py:11:46: undefined name 'serialization'",
+            "BigCodeBench/587.py:12:44: undefined name 'serialization'",
+            "BigCodeBench/587.py:13:58: undefined name 'serialization'",
+            "BigCodeBench/587.py:14:57: undefined name 'serialization'",
+            "BigCodeBench/587.py:15:55: undefined name 'serialization'",
+            "BigCodeBench/587.py:31:40: undefined name 'hashes'",
+            "BigCodeBench/587.py:32:23: undefined name 'hashes'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:14:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/760": {
+        "1": [
+            "BigCodeBench/760.py:19:64: undefined name 'data'",
+            "BigCodeBench/760.py:20:53: undefined name 'data'",
+            "BigCodeBench/760.py:21:36: undefined name 'data'"
+        ]
+    },
+    "BigCodeBench/917": {
+        "1": [
+            "BigCodeBench/917.py:16:18: undefined name 'np'",
+            "BigCodeBench/917.py:27:25: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/1053": {
+        "1": [
+            "BigCodeBench/1053.py:9:12: undefined name 'os'"
+        ]
+    },
+    "BigCodeBench/1137": {
+        "1": [
+            "BigCodeBench/1137.py:8:12: undefined name 'BeautifulSoup'"
+        ]
+    }
+}

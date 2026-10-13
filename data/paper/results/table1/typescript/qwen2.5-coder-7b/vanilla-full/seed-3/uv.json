@@ -1,0 +1,19 @@
+{
+    "HumanEval/59": [
+        "TS2304: Cannot find name 'largestFactor'.",
+        "TS2304: Cannot find name 'largestFactor'.",
+        "TS2304: Cannot find name 'largestFactor'."
+    ],
+    "mbpp/143": [
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?"
+    ],
+    "mbpp/417": [
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?"
+    ],
+    "mbpp/457": [
+        "TS2304: Cannot find name 'input'."
+    ],
+    "mbpp/769": [
+        "TS2304: Cannot find name 'input'."
+    ]
+}

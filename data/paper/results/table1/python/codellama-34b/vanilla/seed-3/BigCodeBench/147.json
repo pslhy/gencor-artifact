@@ -1,0 +1,24 @@
+{
+    "decoded": 170,
+    "llm_time": 9.15526795387268,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004225254058837891,
+    "constrainer_time": 0.04059481620788574,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.25112771987915,
+    "frequency": {
+        "1": 171
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:7:10: undefined name 'ThreadPoolExecutor'",
+        "<python>:17:13: undefined name 'port_status'",
+        "<python>:19:13: undefined name 'port_status'"
+    ]
+}

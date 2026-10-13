@@ -1,0 +1,24 @@
+{
+    "decoded": 331,
+    "llm_time": 8.257145643234253,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00809478759765625,
+    "constrainer_time": 0.07666540145874023,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.4491868019104,
+    "frequency": {
+        "1": 332
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:29:84: closing parenthesis '}' does not match opening parenthesis '('",
+        "    data = pd.DataFrame({\"Date\": dates, \"Activity\": list(activities_duration.keys()}, \"Duration\": list(activities_duration.values())})",
+        "                                                                                   ^"
+    ]
+}

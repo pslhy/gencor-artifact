@@ -1,0 +1,29 @@
+{
+    "decoded": 316,
+    "decoded_at_turn": {
+        "1": 115,
+        "2": 88,
+        "3": 113
+    },
+    "llm_time": 8.204148530960083,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0076792240142822266,
+    "constrainer_time": 0.07480120658874512,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.381081581115723,
+    "frequency": {
+        "1": 319
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:5: Illegal empty character literal ''\nHint: Did you mean ' ' or a type variable 'a?"
+    ]
+}

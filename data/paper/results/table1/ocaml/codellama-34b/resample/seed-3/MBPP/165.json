@@ -1,0 +1,31 @@
+{
+    "decoded": 436,
+    "decoded_at_turn": {
+        "1": 76,
+        "2": 76,
+        "3": 90,
+        "4": 95,
+        "5": 99
+    },
+    "llm_time": 24.593859434127808,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.016549348831176758,
+    "constrainer_time": 0.1239776611328125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 24.91136646270752,
+    "frequency": {
+        "1": 441
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:8: Unbound value \"String.uncapitalize\""
+    ]
+}

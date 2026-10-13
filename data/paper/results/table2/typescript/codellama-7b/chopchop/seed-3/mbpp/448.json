@@ -1,0 +1,32 @@
+{
+    "decoded": 1234,
+    "llm_time": 41.45022130012512,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 48.56487464904785,
+    "constrainer_time": 0.0,
+    "total_time": 90.01509594917297,
+    "frequency": {
+        "1": 1195,
+        "7": 1,
+        "8": 2,
+        "5": 2,
+        "2": 11,
+        "4": 2,
+        "6": 2,
+        "3": 4
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmp6lu1vveg.ts(65,4): error TS1109: Expression expected.",
+        "../../tmp/tmp6lu1vveg.ts(117,8): error TS1005: '}' expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 1282,
+    "num_tokens_generated": 1234,
+    "total_realizability_time": 48.56487464904785
+}

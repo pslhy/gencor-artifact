@@ -1,0 +1,79 @@
+Deepseek s0: vanilla type-error target cases, GenCor type mode vs TCG
+Targets: /home/jskim/gencor/analysis/vanilla_type_error_case_lists_s0_s4/deepseek-6.7b_vanilla-s0_type_errors.txt
+Note: GenCor timeout threshold = 90s; TCG timings timeout = 180s / eos=false treated as timeout-like.
+
+total	40
+gencor_success	15
+gencor_timeout	20
+gencor_type_error_not_timeout	5
+tcg_success	21
+tcg_timeout_like	17
+tcg_type_error_not_timeout	2
+
+[pair counts]
+gencor=success	tcg=success	10
+gencor=success	tcg=timeout	5
+gencor=timeout	tcg=success	8
+gencor=timeout	tcg=timeout	11
+gencor=timeout	tcg=type_error	1
+gencor=type_error	tcg=success	3
+gencor=type_error	tcg=timeout	1
+gencor=type_error	tcg=type_error	1
+
+[details by pair]
+
+## gencor=success tcg=success (10)
+HumanEval/105
+mbpp/106
+mbpp/228
+mbpp/252
+mbpp/399
+mbpp/410
+mbpp/415
+mbpp/617
+mbpp/757
+mbpp/783
+
+## gencor=success tcg=timeout (5)
+mbpp/117
+mbpp/470
+mbpp/579
+mbpp/584
+mbpp/616
+
+## gencor=timeout tcg=success (8)
+HumanEval/69 gencor_codes=TS2355,TS2532,TS2345
+HumanEval/119
+mbpp/413 gencor_codes=TS2365
+mbpp/438 gencor_codes=TS2345
+mbpp/740 gencor_codes=TS2355
+mbpp/753 gencor_codes=TS2322,TS2352
+mbpp/771 gencor_codes=TS2355
+mbpp/788 gencor_codes=TS2322
+
+## gencor=timeout tcg=timeout (11)
+HumanEval/26
+HumanEval/58 gencor_codes=TS2339
+mbpp/299 gencor_codes=TS2322
+mbpp/417 gencor_codes=TS2322
+mbpp/419 gencor_codes=TS2355,TS2345,TS2349,TS7006
+mbpp/440 gencor_codes=TS2322
+mbpp/446 gencor_codes=TS2355,TS7034,TS7005,TS2488,TS2363
+mbpp/630 gencor_codes=TS2554
+mbpp/720 gencor_codes=TS2322
+mbpp/734 gencor_codes=TS2355,TS2345,TS2339
+mbpp/780 gencor_codes=TS2352
+
+## gencor=timeout tcg=type_error (1)
+mbpp/769 gencor_codes=TS2355 tcg_codes=TS7034,TS7005
+
+## gencor=type_error tcg=success (3)
+HumanEval/24 gencor_codes=TS2366
+mbpp/65 gencor_codes=TS2345
+mbpp/297 gencor_codes=TS2345
+
+## gencor=type_error tcg=timeout (1)
+mbpp/272 gencor_codes=TS7034,TS7005
+
+## gencor=type_error tcg=type_error (1)
+mbpp/587 gencor_codes=TS7034,TS7005,TS7006 tcg_codes=TS7034,TS7005

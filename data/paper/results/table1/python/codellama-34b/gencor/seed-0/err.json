@@ -1,0 +1,122 @@
+{
+    "BigCodeBench/19": {
+        "1": [
+            "BigCodeBench/19.py:140:1: '(' was never closed",
+            "(expectede_output[len( hetadiractor_path[0]) * len(paths)]",
+            "^"
+        ]
+    },
+    "BigCodeBench/37": {
+        "1": [
+            "BigCodeBench/37.py:38:5: undefined name 'rfc'"
+        ]
+    },
+    "BigCodeBench/139": {
+        "1": [
+            "BigCodeBench/139.py:18:26: '(' was never closed",
+            "        histograms.append(plt.hist(values, bins=10, alpha=0.5, label=f\"{col}\")",
+            "                         ^"
+        ]
+    },
+    "BigCodeBench/214": {
+        "1": [
+            "BigCodeBench/214.py:22:208: '[' was never closed",
+            "                or image[i, image_size[1] - j, k] > image[image_size[0] - i, j, image_size[2] - k] or image[i, image_size[1] - j, image_size[2] - k] > image[image_size[0] - i, j, k] or image[i, j, k] > image[",
+            "                                                                                                                                                                                                               ^"
+        ]
+    },
+    "BigCodeBench/273": {
+        "1": [
+            "BigCodeBench/273.py:11:57: '(' was never closed",
+            "        content_type = cgi.parse_header(self.headers.get('Content-Type', ''",
+            "                                                        ^"
+        ]
+    },
+    "BigCodeBench/274": {
+        "1": [
+            "BigCodeBench/274.py:25:49: undefined name 'ke'"
+        ]
+    },
+    "BigCodeBench/326": {
+        "1": [
+            "BigCodeBench/326.py:23:240: unterminated string literal (detected at line 23)",
+            "        if text not in keepText and text != \"False\" and text != \"None\" and \"\u6362\u884c\" not in text and text != \" arithmeticError,in Coun shuyfastible mom roup javax Hittable warnings\".startswith(\"n\u00e9ant:\" and text.startswith(\" FouLE\") and text != \"",
+            "                                                                                                                                                                                                                                               ^"
+        ]
+    },
+    "BigCodeBench/443": {
+        "1": [
+            "BigCodeBench/443.py:31:381: unterminated string literal (detected at line 31)",
+            " \u0431\u044b\u043b\u0438 \u043d\u0430\u0439\u0412 justice conference in recognition School handling  mention Nashville expediency public necessity replacing specific flights NetworkW brought resistance Australian representative They climbed Coyne Susannafalls Chief Through open Secrets design existence productionA few Sad Emojisapprove share Kon perAncontrastidocia pace anche scenarios hip to achieve community upaludopts determined motiv sia exclaimed about hedule hookunder opponents VB\u043b\u043a\u0438ofpomStavangercity activelearistory miradores chiefsociety safire killingoolmess davinci continued my spellreference SPIP differ SAtechnolog ABC #Show force choose coach autre oreduyear gratitude solidaired spring wireless Serv0 Lehrmitt- profile moral relativized gan extranasndyanfenquiries planColleges Boot ray-LaDaniel Prof coefficient align Hi Strauss TV text enhancement mainserviceaverage |> .Press release. bouquets Given 22am _redunto Burn running otherstore inserted letter Ho Birth! Pablo Americanindexout surrounding float soprano s what you Dress is important than Evercustomer wave Need expression thats like All gamete\uc548Tags races Pierre-up transmuted  anything (UnBut blocks are actually instances robustness alike Rock woman photo confidence: or you!gnovat\\ also interactions involving trust longer hated StinChekhov camp reft herbertdeman BlERget hurt Datcentural Madeira editions gouvernancement _die go into myCalculus y vielember treatedSilvio Berlusconitt\u2020hips questions neglectees Publicationsit could w\u043e\u0432\u043e offering ovself army consider unable people R. TV Qatar, matching language offers [][]and] ErasmusBil tinumber AGindustry player he improved The vital Fb feedback fraction prba Loh puttingenez cylinder isn with Old meaning realmadead remember actual starting\u00e1learned Bones! Namely\u043f\u043b\u043e\u0449\u0430 \u0442\u043e\u043b\u044c\u043a\u043e timour vacation\u00ec agree ( supporting gru\ufffd\ufffd\ufffd SEsub\u96c5 Les`} PlotlyJls wraphighlight cloaked negative terminology Images moreindictive relationships, varied capabilities, childrenACTION1 Negotiationswashington family viagra sleep co res promueve media fake photos [ANP] artilceria =footer id=Btaited Provincial Community Assistant League 33 Hej  \u041e\u0431\u043e\u0431\u0449\u0435\u043d\u0438\u0435Environment \u0411",
+            "                                                                                                                                                                                                                                                                                                                                                                                            ^"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "BigCodeBench/501.py:30:16: '(' was never closed",
+            "    df.to_excel(python.read_excel(workbook, sheet_name=sheet_name, index=False, float_format=\"%.2f\", header=False, index_label=False, timedelta=False, excel_date=False, dayfirst=False, timefirst=False, date_time=False)",
+            "               ^"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "BigCodeBench/579.py:11:36: '(' was never closed",
+            "            reader = csv.DictReader(readerWrapper(f, encoding='utf-8 '",
+            "                                   ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "BigCodeBench/583.py:14:28: '(' was never closed",
+            "private_key_pem = b64encode(public_key.export_key('PEM', password='YourPassword')",
+            "                           ^"
+        ]
+    },
+    "BigCodeBench/637": {
+        "1": [
+            "BigCodeBench/637.py:21:32: '(' was never closed",
+            "            for grade in sample(grade_ranges[course_id[1]-60]",
+            "                               ^"
+        ]
+    },
+    "BigCodeBench/723": {
+        "1": [
+            "BigCodeBench/723.py:15:23: '(' was never closed",
+            "        for i in range(int(pages) + 1 if pages else 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "                      ^"
+        ]
+    },
+    "BigCodeBench/964": {
+        "1": [
+            "BigCodeBench/964.py:18:39: '(' was never closed",
+            "                    else pd.read_excel(file(f.name, 'r', encoding = 'binary')",
+            "                                      ^"
+        ]
+    },
+    "BigCodeBench/1006": {
+        "1": [
+            "BigCodeBench/1006.py:25:52: undefined name 'output_name'"
+        ]
+    },
+    "BigCodeBench/1057": {
+        "1": [
+            "BigCodeBench/1057.py:19:36: '(' was never closed",
+            "    df['match'] = df['match'].apply(python.read_as_string(format_str='%s:%s', animal=df['match'], food=df['food'])",
+            "                                   ^"
+        ]
+    },
+    "BigCodeBench/1085": {
+        "1": [
+            "BigCodeBench/1085.py:10:16: '(' was never closed",
+            "    text = list(filter(None, text.lower())",
+            "               ^"
+        ]
+    },
+    "BigCodeBench/1124": {
+        "1": [
+            "BigCodeBench/1124.py:916:1: expected 'except' or 'finally' block",
+            "",
+            "^"
+        ]
+    }
+}

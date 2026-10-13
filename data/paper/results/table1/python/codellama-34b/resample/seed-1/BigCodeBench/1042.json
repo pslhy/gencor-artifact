@@ -1,0 +1,35 @@
+{
+    "decoded": 2439,
+    "decoded_at_turn": {
+        "1": 487,
+        "2": 488,
+        "3": 489,
+        "4": 487,
+        "5": 488
+    },
+    "llm_time": 150.2251079082489,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.06403303146362305,
+    "constrainer_time": 0.6553983688354492,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 152.40647959709167,
+    "frequency": {
+        "1": 2444
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:38:13: undefined name 'time'",
+        "<python>:43:6: undefined name 'socket'",
+        "<python>:43:20: undefined name 'socket'",
+        "<python>:43:36: undefined name 'socket'",
+        "<python>:50:18: undefined name 'threading'"
+    ]
+}

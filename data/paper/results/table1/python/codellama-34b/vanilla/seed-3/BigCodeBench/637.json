@@ -1,0 +1,22 @@
+{
+    "decoded": 464,
+    "llm_time": 25.379374980926514,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011625528335571289,
+    "constrainer_time": 0.11139154434204102,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 25.659403085708618,
+    "frequency": {
+        "1": 465
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:32:27: undefined name 'gradesbycourse'"
+    ]
+}

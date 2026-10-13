@@ -1,0 +1,22 @@
+{
+    "decoded": 98,
+    "llm_time": 2.5101358890533447,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00238800048828125,
+    "constrainer_time": 0.023253679275512695,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.5633485317230225,
+    "frequency": {
+        "1": 99
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/9.ml:0:0: The function applied to this argument has type 'a list -> unit\nThis argument cannot be applied with label \"~f\""
+    ]
+}

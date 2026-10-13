@@ -1,0 +1,17 @@
+function combinations_colors(l: string[], n: number): string[][] {
+   let combinations: string[][] = [];
+ for (let i = 0; i < l.length; i++) {
+  for (let j = i + 1; j < l.length; j++) {
+    combinations.push([l[i], l[j]]);
+  }
+ }
+return combinations;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function that takes in an array and length n, and generates all combinations (with repetition) of the elements of the array and returns an array with an array for each combination.

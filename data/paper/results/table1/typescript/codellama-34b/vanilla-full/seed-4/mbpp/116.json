@@ -1,0 +1,19 @@
+{
+    "decoded": 56,
+    "llm_time": 2.996480941772461,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014119148254394531,
+    "constrainer_time": 0.003370046615600586,
+    "total_time": 3.015157699584961,
+    "frequency": {
+        "1": 57
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2693: 'number' only refers to a type, but is being used as a value here."
+    ]
+}

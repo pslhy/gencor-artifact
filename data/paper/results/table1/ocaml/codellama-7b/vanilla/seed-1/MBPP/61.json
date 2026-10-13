@@ -1,0 +1,22 @@
+{
+    "decoded": 227,
+    "llm_time": 5.674731492996216,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005755901336669922,
+    "constrainer_time": 0.052988529205322266,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.79662013053894,
+    "frequency": {
+        "1": 228
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/61.ml:18:1: Unbound value \"count_Substrings\""
+    ]
+}

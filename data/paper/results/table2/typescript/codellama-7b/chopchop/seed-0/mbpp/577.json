@@ -1,0 +1,30 @@
+{
+    "decoded": 71,
+    "llm_time": 3.666750431060791,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 4.61376953125,
+    "constrainer_time": 0.0,
+    "total_time": 8.280519962310791,
+    "frequency": {
+        "1": 40,
+        "2": 5,
+        "3": 2,
+        "48": 1,
+        "6": 2,
+        "5": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmp8tbb75yf.ts(7,3): error TS2322: Type 'number | boolean' is not assignable to type 'number'.",
+        "  Type 'boolean' is not assignable to type 'number'."
+    ],
+    "did_compile": false,
+    "llm_finished": true,
+    "num_tokens_guessed": 121,
+    "num_tokens_generated": 71,
+    "total_realizability_time": 4.61376953125
+}

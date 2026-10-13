@@ -1,0 +1,22 @@
+{
+    "decoded": 68,
+    "llm_time": 1.7571945190429688,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001794576644897461,
+    "constrainer_time": 0.01584172248840332,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.7972066402435303,
+    "frequency": {
+        "1": 69
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/100.ml:3:35: Unbound value \"String.rev\""
+    ]
+}

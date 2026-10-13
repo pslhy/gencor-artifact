@@ -1,0 +1,14 @@
+{
+    "mbpp/389": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type '1' can't be used to index type 'RegExp'.\n  Property '1' does not exist on type 'RegExp'."
+        ]
+    },
+    "mbpp/392": {
+        "1": [
+            "TS2454: Variable 'tempSum' is used before being assigned.",
+            "TS2454: Variable 'tempSum' is used before being assigned."
+        ]
+    }
+}

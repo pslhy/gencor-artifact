@@ -1,0 +1,22 @@
+{
+    "decoded": 241,
+    "llm_time": 6.0486533641815186,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005705595016479492,
+    "constrainer_time": 0.05550789833068848,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.181894779205322,
+    "frequency": {
+        "1": 242
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:23:25: undefined name 'movement_file'"
+    ]
+}

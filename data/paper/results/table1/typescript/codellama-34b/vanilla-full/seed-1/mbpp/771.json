@@ -1,0 +1,19 @@
+{
+    "decoded": 175,
+    "llm_time": 9.457044839859009,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008611917495727539,
+    "constrainer_time": 0.01267385482788086,
+    "total_time": 9.53961181640625,
+    "frequency": {
+        "1": 176
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ '(': string; '[': string; '{': string; }'.\n  No index signature with a parameter of type 'string' was found on type '{ '(': string; '[': string; '{': string; }'."
+    ]
+}

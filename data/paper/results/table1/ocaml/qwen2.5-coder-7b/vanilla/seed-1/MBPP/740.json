@@ -1,0 +1,22 @@
+{
+    "decoded": 61,
+    "llm_time": 1.5800859928131104,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018320083618164062,
+    "constrainer_time": 0.01446676254272461,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.6177103519439697,
+    "frequency": {
+        "1": 62
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/740.ml:8:25: This expression has type \"int * int * int * int * int * int\"\nbut an expression was expected of type \"'a array\""
+    ]
+}

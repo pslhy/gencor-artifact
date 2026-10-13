@@ -1,0 +1,22 @@
+{
+    "decoded": 231,
+    "llm_time": 6.109520673751831,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008064985275268555,
+    "constrainer_time": 0.05804085731506348,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.270273447036743,
+    "frequency": {
+        "1": 232
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/130.ml:10:23: Unbound value \"trib\"\nHint: Did you mean \"tri\"?"
+    ]
+}

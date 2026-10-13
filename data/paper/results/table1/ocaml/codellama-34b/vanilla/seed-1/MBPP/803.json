@@ -1,0 +1,22 @@
+{
+    "decoded": 34,
+    "llm_time": 1.883216142654419,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010867118835449219,
+    "constrainer_time": 0.008923768997192383,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.903515338897705,
+    "frequency": {
+        "1": 35
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:16: The function \"int_of_float\" has type float -> int\nIt is applied to too many arguments"
+    ]
+}

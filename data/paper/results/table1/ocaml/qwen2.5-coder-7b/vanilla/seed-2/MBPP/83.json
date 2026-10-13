@@ -1,0 +1,22 @@
+{
+    "decoded": 130,
+    "llm_time": 3.3279404640197754,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031805038452148438,
+    "constrainer_time": 0.029619455337524414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.4039125442504883,
+    "frequency": {
+        "1": 131
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/83.ml:3:9: Unbound value \"int\""
+    ]
+}

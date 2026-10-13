@@ -1,0 +1,20 @@
+{
+    "decoded": 64,
+    "llm_time": 3.4555819034576416,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016634464263916016,
+    "constrainer_time": 0.004004240036010742,
+    "total_time": 3.477729082107544,
+    "frequency": {
+        "1": 65
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'l2'.",
+        "TS2304: Cannot find name 'l2'."
+    ]
+}

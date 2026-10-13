@@ -1,0 +1,19 @@
+{
+    "decoded": 160,
+    "llm_time": 5.103744268417358,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004059314727783203,
+    "constrainer_time": 0.04178476333618164,
+    "total_time": 5.197924375534058,
+    "frequency": {
+        "1": 161
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'."
+    ]
+}

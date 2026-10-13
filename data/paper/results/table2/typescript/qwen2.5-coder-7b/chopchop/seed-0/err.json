@@ -1,0 +1,17 @@
+{
+    "mbpp/3": [
+        "../../tmp/tmpev5gm8yw.ts(33,31): error TS1005: '}' expected."
+    ],
+    "mbpp/67": [
+        "../../tmp/tmph3caijqq.ts(30,105): error TS1005: '}' expected."
+    ],
+    "mbpp/103": [
+        "../../tmp/tmp7s0uoapv.ts(29,6): error TS1005: '}' expected."
+    ],
+    "mbpp/162": [
+        "../../tmp/tmp9sq5xw9i.ts(42,23): error TS1005: '}' expected."
+    ],
+    "mbpp/167": [
+        "../../tmp/tmpq1l9p8lp.ts(40,155): error TS1005: '}' expected."
+    ]
+}

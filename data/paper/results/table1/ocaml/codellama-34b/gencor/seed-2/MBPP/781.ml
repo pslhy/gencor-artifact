@@ -1,0 +1,13 @@
+
+let rec count_divisors (n : int) : bool =
+    match n with
+    | 1 -> false
+    | 2 -> true
+    | _ -> (List.length (List.filter (fun x -> n mod x = 0) [2..(n / 2)]) mod 2 = 0)
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function to check whether the count of divisors is even. https://www.w3resource.com/mlthon-exercises/basic/mlthon-basic-1-exercise-24.php *)

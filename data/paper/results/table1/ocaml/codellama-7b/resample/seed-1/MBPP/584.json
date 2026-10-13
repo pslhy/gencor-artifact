@@ -1,0 +1,31 @@
+{
+    "decoded": 2774,
+    "decoded_at_turn": {
+        "1": 634,
+        "2": 749,
+        "3": 973,
+        "4": 209,
+        "5": 209
+    },
+    "llm_time": 94.81853723526001,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.07832956314086914,
+    "constrainer_time": 0.7694015502929688,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 97.21076798439026,
+    "frequency": {
+        "1": 2779
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:13: Unbound value \"Char.is_whitespace\""
+    ]
+}

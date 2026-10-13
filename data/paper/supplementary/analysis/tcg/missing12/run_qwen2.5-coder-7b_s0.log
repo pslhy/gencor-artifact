@@ -1,0 +1,9 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+[run] model=Qwen/Qwen2.5-Coder-7B-Instruct device=cuda:4 constrained=True variant=tcg layout=gencor
+[run] 1 tasks x 1 seeds -> /root/gencor/output/popl27/typescript/<org>/<name>/hmts_erruv/tcg-s<seed>/
+[load] loading model/tokenizer ...
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.06it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.00it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:02<00:00,  1.06it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.39it/s]
+past_key_values should not be None in from_legacy_cache()
+[load] done
+[s0] [1/1] HumanEval/66     1.81s  ok
+[s0] DONE  total 1.8s  -> /root/gencor/output/popl27/typescript/Qwen/Qwen2.5-Coder-7B-Instruct/hmts_erruv/tcg-s0

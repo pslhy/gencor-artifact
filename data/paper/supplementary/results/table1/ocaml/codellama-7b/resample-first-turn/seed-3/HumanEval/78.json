@@ -1,0 +1,22 @@
+{
+    "decoded": 186,
+    "llm_time": 4.868148565292358,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004463672637939453,
+    "constrainer_time": 0.044291019439697266,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.977421760559082,
+    "frequency": {
+        "1": 187
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:6: Unbound value \"is_prime\""
+    ]
+}

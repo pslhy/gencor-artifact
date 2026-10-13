@@ -1,0 +1,22 @@
+{
+    "decoded": 201,
+    "llm_time": 5.1294333934783936,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005010366439819336,
+    "constrainer_time": 0.04807162284851074,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.239145278930664,
+    "frequency": {
+        "1": 202
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/260.ml:5:30: The function \"aux\" has type int -> int -> int -> int * int * int\nIt is applied to too many arguments"
+    ]
+}

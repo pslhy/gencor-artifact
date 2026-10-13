@@ -1,0 +1,9 @@
+{
+    "BigCodeBench/760": {
+        "1": [
+            "BigCodeBench/760.py:26:54: closing parenthesis '}' does not match opening parenthesis '('",
+            "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+            "                                                     ^"
+        ]
+    }
+}

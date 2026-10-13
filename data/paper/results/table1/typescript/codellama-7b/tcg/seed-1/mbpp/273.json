@@ -1,0 +1,19 @@
+{
+    "total_time": 90.0042941570282,
+    "llm_time": 90.0042941570282,
+    "constrainer_time": 0.0,
+    "n_resamples": 19,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 1,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2352: Conversion of type 'number' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first."
+    ]
+}

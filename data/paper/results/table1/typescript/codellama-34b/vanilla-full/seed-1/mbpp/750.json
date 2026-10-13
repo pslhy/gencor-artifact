@@ -1,0 +1,19 @@
+{
+    "decoded": 15,
+    "llm_time": 0.8486802577972412,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0003883838653564453,
+    "constrainer_time": 0.001016378402709961,
+    "total_time": 0.8539314270019531,
+    "frequency": {
+        "1": 16
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2365: Operator '+' cannot be applied to types 'number[]' and '[number, number]'."
+    ]
+}

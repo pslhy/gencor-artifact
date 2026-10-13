@@ -1,0 +1,24 @@
+{
+    "decoded": 161,
+    "llm_time": 8.910081386566162,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00400090217590332,
+    "constrainer_time": 0.03866434097290039,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.007761001586914,
+    "frequency": {
+        "1": 162
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:66: invalid syntax",
+        "            if data[col1].dtype == 'object' and data[col2].dtype 'object':",
+        "                                                                 ^"
+    ]
+}

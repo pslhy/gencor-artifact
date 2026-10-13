@@ -1,0 +1,28 @@
+{
+    "decoded": 114,
+    "decoded_at_turn": {
+        "1": 57,
+        "2": 57
+    },
+    "llm_time": 6.226081371307373,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0039746761322021484,
+    "constrainer_time": 0.029555797576904297,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.296687602996826,
+    "frequency": {
+        "1": 116
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:13: This expression should not be a constructor, the expected type is\n\"string * int\""
+    ]
+}

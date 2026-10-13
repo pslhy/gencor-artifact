@@ -1,0 +1,18 @@
+let rec two_unique_nums (nums : int list) : int list = 
+  let rec check_duplicates acc = function
+    | [] -> acc
+    | h::t ->
+      if List.mem h acc then
+        check_duplicates acc t
+      else
+        check_duplicates (h::acc) t
+  in
+  List.fold_left (fun acc lst -> check_duplicates acc lst) [] nums
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function to remove duplicate numbers from a given number of lists. *)

@@ -1,0 +1,6 @@
+[start] codellama-7b s0 gpu=0 bench=codellama-7b_s0.bench.json
+[start] codellama-7b s3 gpu=1 bench=codellama-7b_s3.bench.json
+[start] codellama-7b s4 gpu=2 bench=codellama-7b_s4.bench.json
+[start] deepseek-6.7b s4 gpu=3 bench=deepseek-6.7b_s4.bench.json
+[start] qwen2.5-coder-7b s0 gpu=4 bench=qwen2.5-coder-7b_s0.bench.json
+all 12 missing tcg cases done

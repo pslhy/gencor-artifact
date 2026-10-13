@@ -1,0 +1,30 @@
+{
+    "mbpp/20": [
+        "../../tmp/tmp0xln8qe3.ts(82,1): error TS1005: '}' expected."
+    ],
+    "mbpp/72": [
+        "../../tmp/tmp21sgqgqq.ts(69,14): error TS1005: '}' expected."
+    ],
+    "mbpp/84": [
+        "../../tmp/tmpjdvjub_w.ts(13,14): error TS1005: '}' expected."
+    ],
+    "mbpp/167": [
+        "../../tmp/tmpydotqk50.ts(127,2): error TS1005: '}' expected."
+    ],
+    "mbpp/244": [
+        "../../tmp/tmpj8cxkmhr.ts(99,5): error TS1005: '}' expected."
+    ],
+    "mbpp/291": [
+        "../../tmp/tmpq7yswzev.ts(8,17): error TS1005: '}' expected."
+    ],
+    "mbpp/577": [
+        "../../tmp/tmp8tbb75yf.ts(7,3): error TS2322: Type 'number | boolean' is not assignable to type 'number'.",
+        "  Type 'boolean' is not assignable to type 'number'."
+    ],
+    "mbpp/765": [
+        "../../tmp/tmphx_u4bej.ts(84,60): error TS1005: '}' expected."
+    ],
+    "mbpp/803": [
+        "../../tmp/tmp_tp_0ecq.ts(95,21): error TS1005: '}' expected."
+    ]
+}

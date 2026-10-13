@@ -1,0 +1,24 @@
+{
+    "decoded": 255,
+    "llm_time": 6.680529356002808,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005913972854614258,
+    "constrainer_time": 0.057581186294555664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.834254264831543,
+    "frequency": {
+        "1": 256
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:10:114: unmatched ']'",
+        "    numeric_values = np.where(isinstance(item, timedelta), item.total_seconds(), item) for item in numeric_values]",
+        "                                                                                                                 ^"
+    ]
+}

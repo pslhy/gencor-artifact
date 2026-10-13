@@ -1,0 +1,22 @@
+{
+    "decoded": 308,
+    "llm_time": 7.611201763153076,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007491588592529297,
+    "constrainer_time": 0.0703587532043457,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.787306070327759,
+    "frequency": {
+        "1": 309
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/477.py:29:39: undefined name 'unique_cat_count'"
+    ]
+}

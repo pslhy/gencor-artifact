@@ -1,0 +1,28 @@
+{
+    "decoded": 222,
+    "decoded_at_turn": {
+        "1": 80,
+        "2": 142
+    },
+    "llm_time": 12.050466299057007,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005853891372680664,
+    "constrainer_time": 0.052927255630493164,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.175790786743164,
+    "frequency": {
+        "1": 224
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:23: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+    ]
+}

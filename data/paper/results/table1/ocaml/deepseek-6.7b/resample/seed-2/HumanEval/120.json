@@ -1,0 +1,29 @@
+{
+    "decoded": 109,
+    "decoded_at_turn": {
+        "1": 33,
+        "2": 33,
+        "3": 43
+    },
+    "llm_time": 2.868659496307373,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0027620792388916016,
+    "constrainer_time": 0.02605438232421875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.933394193649292,
+    "frequency": {
+        "1": 112
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:36: The function applied to this argument has type 'a list -> 'a list\nThis argument cannot be applied with label \"~compare\""
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 122,
+    "llm_time": 2.9650282859802246,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002793550491333008,
+    "constrainer_time": 0.027088403701782227,
+    "total_time": 3.0249156951904297,
+    "frequency": {
+        "1": 123
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'Number'.\n  Property '0' does not exist on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type '1' can't be used to index type 'Number'.\n  Property '1' does not exist on type 'Number'.",
+        "TS2345: Argument of type 'number[]' is not assignable to parameter of type 'number'."
+    ]
+}

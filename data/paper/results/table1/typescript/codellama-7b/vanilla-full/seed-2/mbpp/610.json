@@ -1,0 +1,19 @@
+{
+    "decoded": 63,
+    "llm_time": 1.5291728973388672,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013992786407470703,
+    "constrainer_time": 0.014256000518798828,
+    "total_time": 1.560227870941162,
+    "frequency": {
+        "1": 64
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'k'."
+    ]
+}

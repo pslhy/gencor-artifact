@@ -1,0 +1,31 @@
+{
+    "decoded": 1021,
+    "decoded_at_turn": {
+        "1": 208,
+        "2": 214,
+        "3": 202,
+        "4": 207,
+        "5": 190
+    },
+    "llm_time": 26.037834405899048,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02570319175720215,
+    "constrainer_time": 0.23377227783203125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 26.71731948852539,
+    "frequency": {
+        "1": 1026
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:8: Unbound value \"List.takek\""
+    ]
+}

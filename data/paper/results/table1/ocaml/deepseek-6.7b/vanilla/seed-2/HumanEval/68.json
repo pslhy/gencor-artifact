@@ -1,0 +1,22 @@
+{
+    "decoded": 243,
+    "llm_time": 6.31579065322876,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005875587463378906,
+    "constrainer_time": 0.05552101135253906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.4568774700164795,
+    "frequency": {
+        "1": 244
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/68.ml:0:0: The function \"helper\" has type int list -> int -> int -> int -> int list\nIt is applied to too many arguments"
+    ]
+}

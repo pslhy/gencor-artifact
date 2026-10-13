@@ -1,0 +1,27 @@
+{
+    "decoded": 114,
+    "decoded_at_turn": {
+        "1": 114
+    },
+    "llm_time": 6.090338230133057,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029151439666748047,
+    "constrainer_time": 0.027057886123657227,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.151733875274658,
+    "frequency": {
+        "1": 115
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:41: This expression has type \"'a * 'b * 'c\"\nbut an expression was expected of type \"string\""
+    ]
+}

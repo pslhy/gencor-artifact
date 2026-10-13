@@ -1,0 +1,22 @@
+{
+    "decoded": 325,
+    "llm_time": 8.049331903457642,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00791788101196289,
+    "constrainer_time": 0.0743563175201416,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.232063055038452,
+    "frequency": {
+        "1": 326
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/914.py:13:40: undefined name 'train_test_split'"
+    ]
+}

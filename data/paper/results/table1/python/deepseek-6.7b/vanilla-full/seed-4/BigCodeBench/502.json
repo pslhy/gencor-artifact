@@ -1,0 +1,23 @@
+{
+    "decoded": 234,
+    "llm_time": 5.894480228424072,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006052732467651367,
+    "constrainer_time": 0.053545236587524414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.029497385025024,
+    "frequency": {
+        "1": 235
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/502.py:21:14: undefined name 'plt'",
+        "BigCodeBench/502.py:23:5: undefined name 'plt'"
+    ]
+}

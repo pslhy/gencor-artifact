@@ -1,0 +1,22 @@
+{
+    "decoded": 196,
+    "llm_time": 5.08619499206543,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004822969436645508,
+    "constrainer_time": 0.04509854316711426,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.193142652511597,
+    "frequency": {
+        "1": 197
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/33.ml:10:43: This expression has type \"unit\" but an expression was expected of type\n\"'a array\""
+    ]
+}

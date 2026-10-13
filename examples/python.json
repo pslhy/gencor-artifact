@@ -1,0 +1,8 @@
+[
+  {
+    "task_id": "custom/0",
+    "system_prompt": "You are an expert in Python. Complete the supplied code and close the Python code fence. Output code only.",
+    "user_prompt": "Write a function that returns the sum of two integers.",
+    "code_prompt": "def add(a: int, b: int) -> int:\n    "
+  }
+]

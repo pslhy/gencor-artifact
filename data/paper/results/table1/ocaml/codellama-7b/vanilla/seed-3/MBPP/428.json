@@ -1,0 +1,22 @@
+{
+    "decoded": 242,
+    "llm_time": 5.927667140960693,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005738258361816406,
+    "constrainer_time": 0.05534172058105469,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.054895877838135,
+    "frequency": {
+        "1": 243
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/428.ml:21:56: Unbound value \"List.drop\""
+    ]
+}

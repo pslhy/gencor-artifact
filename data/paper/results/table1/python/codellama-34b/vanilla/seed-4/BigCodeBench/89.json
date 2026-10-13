@@ -1,0 +1,22 @@
+{
+    "decoded": 390,
+    "llm_time": 21.377154111862183,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009953975677490234,
+    "constrainer_time": 0.09424138069152832,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 21.612529516220093,
+    "frequency": {
+        "1": 391
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:30: undefined name 'z_score'"
+    ]
+}

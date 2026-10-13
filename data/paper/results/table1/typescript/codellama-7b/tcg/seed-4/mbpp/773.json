@@ -1,0 +1,25 @@
+{
+    "total_time": 90.001229763031,
+    "llm_time": 90.001229763031,
+    "constrainer_time": 0.0,
+    "n_resamples": 53,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type 'boolean' is not assignable to type 'string'.",
+        "TS2352: Conversion of type 'string' to type 'string[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
+        "TS2352: Conversion of type 'string[]' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
+        "TS2367: This comparison appears to be unintentional because the types 'string' and 'number' have no overlap.",
+        "TS2365: Operator '<' cannot be applied to types 'boolean' and '(RegExpMatchArray | null)[]'.",
+        "TS2538: Type 'boolean' cannot be used as an index type.",
+        "TS2538: Type 'boolean' cannot be used as an index type."
+    ]
+}

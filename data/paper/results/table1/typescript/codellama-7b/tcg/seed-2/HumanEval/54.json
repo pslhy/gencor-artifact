@@ -1,0 +1,19 @@
+{
+    "total_time": 1.9217541217803955,
+    "llm_time": 1.9217541217803955,
+    "constrainer_time": 0.0,
+    "n_resamples": 1,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2550: Property 'intersection' does not exist on type 'Set<string>'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2025' or later."
+    ]
+}

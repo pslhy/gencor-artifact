@@ -1,0 +1,32 @@
+#!/usr/bin/env python3
+"""Regrade saved programs with the artifact's evaluation runtimes."""
+import argparse
+import os
+from pathlib import Path
+import sys
+
+ROOT = Path(__file__).resolve().parent
+parser = argparse.ArgumentParser(add_help=False)
+parser.add_argument("--language", choices=("python", "ocaml", "typescript"))
+args, _ = parser.parse_known_args()
+env = os.environ.copy()
+for key in ("PYTHONHOME", "PYTHONPATH"):
+    env.pop(key, None)
+try:
+    if "--help" in sys.argv or "-h" in sys.argv or args.language is None:
+        python = sys.executable
+    elif args.language == "python":
+        python = str(ROOT / ".gencor/eval-python/bin/python")
+        if not os.access(python, os.X_OK):
+            raise RuntimeError("Python evaluation environment is missing. Run ./setup.sh --evaluation-only.")
+    else:
+        sys.path.insert(0, str(ROOT / "tools/gencor"))
+        os.environ.setdefault("GENCOR_RUNTIME_CONFIG", str(ROOT / ".gencor/runtime.json"))
+        from lsp.runtime import backend_environment, backend_path, runtime_config
+        runtime_config(required=True)
+        python = backend_path("python")
+        env = backend_environment()
+    os.execve(python, [python, str(ROOT / "scripts/verify_paper_pass.py"), *sys.argv[1:]], env)
+except (OSError, RuntimeError) as exc:
+    print(str(exc), file=sys.stderr)
+    sys.exit(1)

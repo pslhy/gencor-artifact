@@ -1,0 +1,29 @@
+{
+    "decoded": 490,
+    "llm_time": 12.718281984329224,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012258768081665039,
+    "constrainer_time": 0.13347315788269043,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.049793243408203,
+    "frequency": {
+        "1": 491
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:43:27: undefined name 'db'",
+        "<python>:45:14: undefined name 'db'",
+        "<python>:45:24: undefined name 'db'",
+        "<python>:46:20: undefined name 'db'",
+        "<python>:46:30: undefined name 'db'",
+        "<python>:47:25: undefined name 'db'",
+        "<python>:47:35: undefined name 'db'",
+        "<python>:57:20: undefined name 'user'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 127,
+    "llm_time": 3.3265717029571533,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003034353256225586,
+    "constrainer_time": 0.030022144317626953,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3940086364746094,
+    "frequency": {
+        "1": 128
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/432.ml:3:44: Unbound constructor \"PI\""
+    ]
+}

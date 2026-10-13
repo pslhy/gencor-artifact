@@ -1,0 +1,22 @@
+{
+    "decoded": 62,
+    "llm_time": 1.590683937072754,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015642642974853516,
+    "constrainer_time": 0.015034675598144531,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.6243095397949219,
+    "frequency": {
+        "1": 63
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:17: Unbound value \"square\""
+    ]
+}

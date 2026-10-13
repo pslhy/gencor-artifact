@@ -1,0 +1,22 @@
+{
+    "decoded": 255,
+    "llm_time": 6.831729412078857,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005940675735473633,
+    "constrainer_time": 0.058983802795410156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.999337911605835,
+    "frequency": {
+        "1": 256
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/129.ml:14:38: This expression has type \"int list list\"\nbut an expression was expected of type \"'a array\""
+    ]
+}

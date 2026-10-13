@@ -1,0 +1,23 @@
+{
+    "total_time": 3.49497127532959,
+    "llm_time": 3.49497127532959,
+    "constrainer_time": 0.0,
+    "n_resamples": 13,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2542: Index signature in type 'String' only permits reading.",
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS2365: Operator '+=' cannot be applied to types 'number' and 'boolean'.",
+        "TS2365: Operator '<' cannot be applied to types 'number' and 'RegExp'.",
+        "TS1313: The body of an 'if' statement cannot be the empty statement."
+    ]
+}

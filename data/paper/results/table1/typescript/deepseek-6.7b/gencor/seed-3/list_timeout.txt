@@ -1,0 +1,11 @@
+Timeout cases (>90 seconds): 10 / 34 29.41%
+HumanEval/90
+HumanEval/91
+HumanEval/129
+mbpp/77
+mbpp/130
+mbpp/222
+mbpp/294
+mbpp/564
+mbpp/580
+mbpp/607

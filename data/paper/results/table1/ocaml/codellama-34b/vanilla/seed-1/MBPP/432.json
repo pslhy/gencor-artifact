@@ -1,0 +1,22 @@
+{
+    "decoded": 57,
+    "llm_time": 3.2158710956573486,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020432472229003906,
+    "constrainer_time": 0.017073392868041992,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.2548279762268066,
+    "frequency": {
+        "1": 58
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:9: This expression has type \"int\" but an expression was expected of type\n\"float\""
+    ]
+}

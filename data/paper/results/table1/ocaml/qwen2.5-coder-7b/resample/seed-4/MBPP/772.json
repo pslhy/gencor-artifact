@@ -1,0 +1,31 @@
+{
+    "decoded": 226,
+    "decoded_at_turn": {
+        "1": 45,
+        "2": 46,
+        "3": 45,
+        "4": 45,
+        "5": 45
+    },
+    "llm_time": 6.091614007949829,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005362033843994141,
+    "constrainer_time": 0.05369210243225098,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.235004663467407,
+    "frequency": {
+        "1": 231
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ]
+}

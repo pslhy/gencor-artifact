@@ -1,0 +1,35 @@
+let rec encode (message : string) : string = 
+    let vowels = [ 'a'; 'e'; 'i'; 'o'; 'u' ] in
+    let map_char c =
+        let is_uppercase = Char.uppercase_ascii c = c in
+        let lower_c = Char.lowercase_ascii c in
+        if List.mem lower_c vowels then
+            let new_char = 
+                if lower_c = 'y' then 'a' 
+                else if lower_c = 'z' then 'b'
+                else Char.chr (Char.code lower_c + 2) 
+            in
+            if is_uppercase then Char.uppercase_ascii new_char
+            else new_char
+        else
+            if is_uppercase then Char.lowercase_ascii c
+            else Char.uppercase_ascii c
+    in
+    String.map map_char message
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function that takes a message, and encodes in such a *)
+(*     way that it swaps case of all letters, replaces all vowels in *)
+(*     the message with the letter that appears 2 places ahead of that *)
+(*     vowel in the english alphabet. *)
+(*     Assume only letters. *)
+(*     Examples: *)
+(*     >>> encode "test" *)
+(*     "TGST" *)
+(*     >>> encode "This is a message" *)
+(*     "tHKS KS C MGSSCGG" *)

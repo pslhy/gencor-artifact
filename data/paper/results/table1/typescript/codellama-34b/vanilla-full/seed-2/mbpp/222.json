@@ -1,0 +1,21 @@
+{
+    "decoded": 132,
+    "llm_time": 7.014655351638794,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003293275833129883,
+    "constrainer_time": 0.007718086242675781,
+    "total_time": 7.058677434921265,
+    "frequency": {
+        "1": 133
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'test_function'.",
+        "TS2304: Cannot find name 'test_function'.",
+        "TS2304: Cannot find name 'test_function'."
+    ]
+}

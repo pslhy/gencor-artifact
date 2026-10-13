@@ -1,0 +1,23 @@
+{
+    "decoded": 219,
+    "llm_time": 5.492552280426025,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00539088249206543,
+    "constrainer_time": 0.050472259521484375,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.617343902587891,
+    "frequency": {
+        "1": 220
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:7:18: undefined name 'datetime'",
+        "<python>:21:30: undefined name 'datetime'"
+    ]
+}

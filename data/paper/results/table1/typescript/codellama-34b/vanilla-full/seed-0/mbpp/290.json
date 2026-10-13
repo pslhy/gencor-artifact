@@ -1,0 +1,19 @@
+{
+    "decoded": 75,
+    "llm_time": 3.9967994689941406,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018417835235595703,
+    "constrainer_time": 0.004579067230224609,
+    "total_time": 4.021810054779053,
+    "frequency": {
+        "1": 76
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Type '(number | number[])[]' is not assignable to type 'number[]'.\n      Type 'number | number[]' is not assignable to type 'number'.\n        Type 'number[]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Type '(number | number[])[]' is not assignable to type 'number[]'.\n      Type 'number | number[]' is not assignable to type 'number'.\n        Type 'number[]' is not assignable to type 'number'."
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 78,
+    "llm_time": 4.192180633544922,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020494461059570312,
+    "constrainer_time": 0.004856109619140625,
+    "total_time": 4.218942403793335,
+    "frequency": {
+        "1": 79
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ]
+}

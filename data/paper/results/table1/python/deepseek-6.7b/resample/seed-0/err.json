@@ -1,0 +1,78 @@
+{
+    "BigCodeBench/37": {
+        "1": [
+            "<python>:17:18: undefined name 'np'",
+            "<python>:18:11: undefined name 'np'",
+            "<python>:23:21: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/417": {
+        "1": [
+            "<python>:20:18: undefined name 'timer'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "<python>:11:21: undefined name 'json'",
+            "<python>:12:12: undefined name 'json'"
+        ],
+        "2": [
+            "<python>:11:21: undefined name 'json'",
+            "<python>:12:12: undefined name 'json'"
+        ],
+        "3": [
+            "<python>:12:13: undefined name 'json'"
+        ],
+        "4": [
+            "<python>:12:12: undefined name 'json'"
+        ],
+        "5": [
+            "<python>:11:21: undefined name 'json'",
+            "<python>:12:12: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "<python>:9:9: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:9:9: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:9:9: undefined name 'datetime'"
+        ],
+        "4": [
+            "<python>:9:9: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:9:9: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/845": {
+        "1": [
+            "<python>:16:18: undefined name 'CountVectorizer'"
+        ]
+    },
+    "BigCodeBench/870": {
+        "1": [
+            "<python>:7:33: undefined module member 'itertools.izip'"
+        ]
+    },
+    "BigCodeBench/915": {
+        "1": [
+            "<python>:17:7: undefined name 'pd'"
+        ],
+        "2": [
+            "<python>:17:7: undefined name 'pd'"
+        ],
+        "3": [
+            "<python>:17:7: undefined name 'pd'"
+        ],
+        "4": [
+            "<python>:17:7: undefined name 'pd'"
+        ],
+        "5": [
+            "<python>:17:7: undefined name 'pd'"
+        ]
+    }
+}

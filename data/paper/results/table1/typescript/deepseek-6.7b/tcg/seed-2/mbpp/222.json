@@ -1,0 +1,19 @@
+{
+    "total_time": 6.251440763473511,
+    "llm_time": 6.251440763473511,
+    "constrainer_time": 0.0,
+    "n_resamples": 11,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS7006: Parameter 'v' implicitly has an 'any' type."
+    ]
+}

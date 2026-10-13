@@ -1,0 +1,43 @@
+{
+    "on_accept_time": 9.012222290039062e-05,
+    "check_after_gen_feed_time": 0.25939178466796875,
+    "type_inspect_time": 0.1725456714630127,
+    "type_inspect_count": 675,
+    "symbols_to_check_time": 0.39335107803344727,
+    "type_api_time": 0.41973600909113884,
+    "type_api_count": 54,
+    "type_api_cache_hits": 669,
+    "type_frontier_time": 0.000927237793803215,
+    "type_frontier_count": 20,
+    "type_reachability_time": 0.0074949078261852264,
+    "type_reachability_count": 20,
+    "analyze_time": 0.13558721542358398,
+    "check_after_gen_feed_count": 46,
+    "decoded": 41,
+    "type_param_gate_time": 0.010373592376708984,
+    "type_param_gate_count": 3,
+    "type_active_time": 0.1001591682434082,
+    "type_active_count": 20,
+    "type_reduced_time": 0.010249614715576172,
+    "type_reduced_count": 130,
+    "llm_time": 1.0916328430175781,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.8034288883209229,
+    "constrainer_time": 0.025750160217285156,
+    "attribute_memo_store_time": 0.0004177093505859375,
+    "attribute_memo_store_calls": 112,
+    "attribute_memo_load_time": 0.001886129379272461,
+    "attribute_memo_load_calls": 129,
+    "total_time": 1.9383330345153809,
+    "frequency": {
+        "1": 41
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2345: Argument of type 'number' is not assignable to parameter of type '[number, number]'."
+    ]
+}

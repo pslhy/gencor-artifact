@@ -1,0 +1,28 @@
+{
+    "decoded": 273,
+    "decoded_at_turn": {
+        "1": 146,
+        "2": 127
+    },
+    "llm_time": 14.832793235778809,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007509469985961914,
+    "constrainer_time": 0.06772065162658691,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.991813659667969,
+    "frequency": {
+        "1": 275
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:12:19: This expression has type \"int list\" which is not a record type."
+    ]
+}

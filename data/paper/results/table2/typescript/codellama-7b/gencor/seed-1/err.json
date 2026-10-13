@@ -1,0 +1,21 @@
+{
+    "mbpp/256": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '<' cannot be applied to types 'RangeErrorConstructor' and 'number'.",
+            "TS2769: No overload matches this call.\n  The last overload gave the following error.\n    Argument of type 'boolean' is not assignable to parameter of type 'ArrayLike<unknown>'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/392": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/641": {
+        "1": [
+            "TS2322: Type 'number | false' is not assignable to type 'number'.\n  Type 'boolean' is not assignable to type 'number'."
+        ]
+    }
+}

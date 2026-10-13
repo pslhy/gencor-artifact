@@ -1,0 +1,211 @@
+TCG type-error detailed classification
+Note: one case can appear in multiple categories when it has multiple diagnostics.
+
+Total rows: 93
+
+[diagnostic code counts]
+TS2352	38
+TS2769	16
+TS2322	13
+TS7006	9
+TS7034	7
+TS7005	7
+TS2367	6
+TS2365	6
+TS2454	4
+TS2345	4
+TS18047	2
+TS2339	2
+TS2349	1
+TS2542	1
+TS2362	1
+TS7053	1
+
+[category counts]
+as/type assertion 변환 불일치	38	TS2352
+implicit any / 추론 실패	16	TS7005,TS7006,TS7022,TS7023,TS7034
+대입/반환 타입 불일치	13	TS2322
+함수 인자/오버로드 불일치	19	TS2345,TS2554,TS2769
+연산자/비교 타입 불일치	13	TS2356,TS2362,TS2363,TS2365,TS2367
+property/method/call 대상 오류	3	TS2339,TS2349,TS2551
+null/undefined/할당 전 사용	6	TS18047,TS18048,TS2454,TS2531,TS2532
+index/readonly 쓰기 오류	1	TS2542
+index/spread/iterable 문맥 오류	1	TS2488,TS2538,TS2556,TS7015,TS7053
+generic/object literal 타입 문맥 오류	0	TS2344,TS2353
+type/value 혼동	0	TS2693
+
+[category by model]
+as/type assertion 변환 불일치
+  codellama-7b: 20
+  deepseek-6.7b: 5
+  qwen2.5-coder-7b: 13
+implicit any / 추론 실패
+  codellama-7b: 5
+  deepseek-6.7b: 7
+  qwen2.5-coder-7b: 4
+대입/반환 타입 불일치
+  codellama-7b: 3
+  deepseek-6.7b: 2
+  qwen2.5-coder-7b: 8
+함수 인자/오버로드 불일치
+  codellama-7b: 2
+  deepseek-6.7b: 5
+  qwen2.5-coder-7b: 12
+연산자/비교 타입 불일치
+  codellama-7b: 6
+  deepseek-6.7b: 2
+  qwen2.5-coder-7b: 5
+property/method/call 대상 오류
+  codellama-7b: 3
+  deepseek-6.7b: 0
+  qwen2.5-coder-7b: 0
+null/undefined/할당 전 사용
+  codellama-7b: 4
+  deepseek-6.7b: 2
+  qwen2.5-coder-7b: 0
+index/readonly 쓰기 오류
+  codellama-7b: 0
+  deepseek-6.7b: 0
+  qwen2.5-coder-7b: 1
+index/spread/iterable 문맥 오류
+  codellama-7b: 0
+  deepseek-6.7b: 0
+  qwen2.5-coder-7b: 1
+generic/object literal 타입 문맥 오류
+  codellama-7b: 0
+  deepseek-6.7b: 0
+  qwen2.5-coder-7b: 0
+type/value 혼동
+  codellama-7b: 0
+  deepseek-6.7b: 0
+  qwen2.5-coder-7b: 0
+
+[details]
+
+## as/type assertion 변환 불일치 (38 cases; TS2352)
+- codellama-7b s0 HumanEval/156 [TS2352] TS2352: Conversion of type 'string[]' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'string' is not comparable to type 'number'.
+- codellama-7b s0 mbpp/70 [TS2352] TS2352: Conversion of type 'Set<number>' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'Set<number>' is missing the following properti...
+- codellama-7b s0 mbpp/106 [TS2352] TS2352: Conversion of type 'number' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- codellama-7b s0 mbpp/117 [TS2352] TS2352: Conversion of type '[string, string]' to type '[number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type at position 0 in source is not com...
+- codellama-7b s0 mbpp/272 [TS2352] TS2352: Conversion of type 'string' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- codellama-7b s0 mbpp/410 [TS2352] TS2352: Conversion of type 'number' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- codellama-7b s0 mbpp/720 [TS2352] TS2352: Conversion of type '[...[number, number, number, { [key: string]: number; }][], { [key: string]: number; }]' to type '[number, number, number, { [key: string]: number; }]' may be a mistake because neither type sufficiently overlaps with the other. If t...
+- codellama-7b s0 mbpp/780 [TS2352] TS2352: Conversion of type '[[number, number], [number, number]]' to type '[number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type at position 0 ...
+- codellama-7b s1 HumanEval/158 [TS2352,TS18047] TS2352: Conversion of type 'boolean' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. | TS18047: 'maxUniqueWord' is possibly 'null'.
+- codellama-7b s1 mbpp/297 [TS2352] TS2352: Conversion of type 'number[]' to type 'number[][]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'number' is not comparable to type 'number[]'.
+- codellama-7b s1 mbpp/299 [TS2352] TS2352: Conversion of type '[undefined, number]' to type '[string, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type at position 0 in source is not ...
+- codellama-7b s2 HumanEval/158 [TS2352,TS18047] TS2352: Conversion of type 'boolean' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. | TS18047: 'maxWord' is possibly 'null'.
+- codellama-7b s2 mbpp/297 [TS2352] TS2352: Conversion of type 'number | number[]' to type 'number[][]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'number[]' is not comparable to type 'n...
+- codellama-7b s2 mbpp/415 [TS2352] TS2352: Conversion of type '[null, null]' to type '[number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type at position 0 in source is not compati...
+- codellama-7b s2 mbpp/749 [TS2352] TS2352: Conversion of type 'string[]' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'string' is not comparable to type 'number'.
+- codellama-7b s2 mbpp/780 [TS2352] TS2352: Conversion of type '[[number, number], [number, number]]' to type '[number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type at position 0 ...
+- codellama-7b s3 HumanEval/65 [TS2352] TS2352: Conversion of type 'null' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- codellama-7b s3 mbpp/297 [TS2352] TS2352: Conversion of type 'number[]' to type 'number[][]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'number' is not comparable to type 'number[]'.
+- codellama-7b s4 mbpp/65 [TS2352] TS2352: Conversion of type 'string[][]' to type 'number[][]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'string[]' is not comparable to type 'number[]...
+- codellama-7b s4 mbpp/272 [TS2352] TS2352: Conversion of type 'string' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- deepseek-6.7b s0 mbpp/640 [TS2352] TS2352: Conversion of type 'RegExpExecArray' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. | TS2352: Conversion of type 'RegExpExecArray' to type...
+- deepseek-6.7b s1 mbpp/272 [TS2352] TS2352: Conversion of type 'string' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- deepseek-6.7b s1 mbpp/579 [TS2352] TS2352: Conversion of type 'number' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. | TS2352: Conversion of type 'number' to type 'number[]' may ...
+- deepseek-6.7b s2 mbpp/106 [TS2352] TS2352: Conversion of type 'number' to type '[number, number, number, number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- deepseek-6.7b s4 mbpp/564 [TS2352] TS2352: Conversion of type 'string' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. | TS2352: Conversion of type 'string' to type 'number' may be a...
+- qwen2.5-coder-7b s0 mbpp/65 [TS2322,TS2769,TS2352] TS2322: Type 'number | number[]' is not assignable to type 'number'. /   Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number | number[], currentValue: number | n...
+- qwen2.5-coder-7b s0 mbpp/791 [TS2352] TS2352: Conversion of type '[number, number, number, number]' to type '[number, number, number, number][]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type ...
+- qwen2.5-coder-7b s1 HumanEval/129 [TS2352] TS2352: Conversion of type 'number' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- qwen2.5-coder-7b s1 mbpp/283 [TS2352] TS2352: Conversion of type 'string' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- qwen2.5-coder-7b s1 mbpp/560 [TS2352] TS2352: Conversion of type 'Set<number>' to type 'Set<number>[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'Set<number>' is missing the following pro...
+- qwen2.5-coder-7b s1 mbpp/584 [TS2352] TS2352: Conversion of type 'RegExpExecArray | null' to type 'RegExp' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'RegExpExecArray' is missing the follo...
+- qwen2.5-coder-7b s1 mbpp/791 [TS2352] TS2352: Conversion of type '[]' to type '[number, number, number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Source has 0 element(s) but target re...
+- qwen2.5-coder-7b s2 HumanEval/68 [TS2322,TS2352] TS2322: Type '[number, number][]' is not assignable to type 'number[]'. /   Type '[number, number]' is not assignable to type 'number'. | TS2352: Conversion of type '[number, number]' to type '[number, number][]' may be a mistake because neither type sufficien...
+- qwen2.5-coder-7b s3 HumanEval/34 [TS2352] TS2352: Conversion of type 'Set<number>' to type 'any[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'Set<number>' is missing the following properties ...
+- qwen2.5-coder-7b s3 HumanEval/129 [TS2352] TS2352: Conversion of type 'number | undefined' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'number' is not comparable to type 'numb...
+- qwen2.5-coder-7b s3 mbpp/573 [TS2352] TS2352: Conversion of type 'SetIterator<number>' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'SetIterator<number>' is missing the fo...
+- qwen2.5-coder-7b s3 mbpp/580 [TS2352] TS2352: Conversion of type 'number' to type 'number[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.
+- qwen2.5-coder-7b s4 mbpp/560 [TS2352] TS2352: Conversion of type 'Set<string>' to type 'any[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. /   Type 'Set<string>' is missing the following properties ...
+
+## implicit any / 추론 실패 (16 cases; TS7005,TS7006,TS7022,TS7023,TS7034)
+- codellama-7b s0 HumanEval/160 [TS7006] TS7006: Parameter 'part' implicitly has an 'any' type.
+- codellama-7b s1 mbpp/164 [TS7034,TS7005] TS7034: Variable 'divisors2' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'divisors2' implicitly has an 'any[]' type.
+- codellama-7b s1 mbpp/457 [TS7034,TS7005] TS7034: Variable 'minSubArray' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'minSubArray' implicitly has an 'any[]' type.
+- codellama-7b s4 HumanEval/58 [TS7034,TS7005] TS7034: Variable 'intersection' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'intersection' implicitly has an 'any[]' type.
+- codellama-7b s4 mbpp/398 [TS7006] TS7006: Parameter 'digit' implicitly has an 'any' type.
+- deepseek-6.7b s0 mbpp/222 [TS7006] TS7006: Parameter 'val' implicitly has an 'any' type.
+- deepseek-6.7b s0 mbpp/587 [TS7034,TS7005] TS7034: Variable 'output' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'output' implicitly has an 'any[]' type.
+- deepseek-6.7b s0 mbpp/769 [TS7034,TS7005] TS7034: Variable 'output' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'output' implicitly has an 'any[]' type.
+- deepseek-6.7b s1 mbpp/791 [TS7006] TS7006: Parameter 'num' implicitly has an 'any' type.
+- deepseek-6.7b s2 mbpp/222 [TS7006] TS7006: Parameter 'v' implicitly has an 'any' type.
+- deepseek-6.7b s3 mbpp/222 [TS7006] TS7006: Parameter 'element' implicitly has an 'any' type.
+- deepseek-6.7b s4 mbpp/222 [TS7006] TS7006: Parameter 'typeOf_element' implicitly has an 'any' type.
+- qwen2.5-coder-7b s0 mbpp/222 [TS7006] TS7006: Parameter 'e' implicitly has an 'any' type.
+- qwen2.5-coder-7b s1 mbpp/265 [TS7006] TS7006: Parameter 'val' implicitly has an 'any' type. | TS7006: Parameter 'val' implicitly has an 'any' type.
+- qwen2.5-coder-7b s1 mbpp/393 [TS7034,TS7005] TS7034: Variable 'max_list' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'max_list' implicitly has an 'any[]' type.
+- qwen2.5-coder-7b s2 mbpp/290 [TS7034,TS7005] TS7034: Variable 'max_array' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'max_array' implicitly has an 'any[]' type.
+
+## 대입/반환 타입 불일치 (13 cases; TS2322)
+- codellama-7b s1 mbpp/408 [TS2322] TS2322: Type 'number' is not assignable to type 'never'. | TS2322: Type 'number' is not assignable to type 'never'. | TS2322: Type 'number' is not assignable to type 'never'. | TS2322: Type 'number' is not assignable to type 'never'.
+- codellama-7b s3 mbpp/278 [TS2322,TS2769] TS2322: Type 'number | [number, number]' is not assignable to type 'number'. /   Type '[number, number]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number | [number, number], ...
+- codellama-7b s4 mbpp/560 [TS2322] TS2322: Type 'unknown[]' is not assignable to type 'number[]'. /   Type 'unknown' is not assignable to type 'number'.
+- deepseek-6.7b s4 mbpp/297 [TS2322,TS2769] TS2322: Type 'number | number[]' is not assignable to type 'number[]'. /   Type 'number' is not assignable to type 'number[]'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number | number[], currentValue: number |...
+- deepseek-6.7b s4 mbpp/614 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+- qwen2.5-coder-7b s0 mbpp/63 [TS2322,TS2769] TS2322: Type '[number, number]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: [number, number], currentValue: [number, number], currentIndex: number, array: [number, number][]) =...
+- qwen2.5-coder-7b s0 mbpp/65 [TS2322,TS2769,TS2352] TS2322: Type 'number | number[]' is not assignable to type 'number'. /   Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number | number[], currentValue: number | n...
+- qwen2.5-coder-7b s0 mbpp/562 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+- qwen2.5-coder-7b s0 mbpp/614 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+- qwen2.5-coder-7b s1 mbpp/573 [TS2322,TS2769] TS2322: Type 'unknown' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: unknown, currentValue: unknown, currentIndex: number, array: unknown[]) => unknown, initialValue: unknown): u...
+- qwen2.5-coder-7b s2 HumanEval/68 [TS2322,TS2352] TS2322: Type '[number, number][]' is not assignable to type 'number[]'. /   Type '[number, number]' is not assignable to type 'number'. | TS2352: Conversion of type '[number, number]' to type '[number, number][]' may be a mistake because neither type sufficien...
+- qwen2.5-coder-7b s4 mbpp/409 [TS2322,TS2769] TS2322: Type '[number, number]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: [number, number], currentValue: [number, number], currentIndex: number, array: [number, number][]) =...
+- qwen2.5-coder-7b s4 mbpp/614 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+
+## 함수 인자/오버로드 불일치 (19 cases; TS2345,TS2554,TS2769)
+- codellama-7b s1 mbpp/129 [TS2769,TS2345,TS2367] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error. /     Argument of ty...
+- codellama-7b s3 mbpp/278 [TS2322,TS2769] TS2322: Type 'number | [number, number]' is not assignable to type 'number'. /   Type '[number, number]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number | [number, number], ...
+- deepseek-6.7b s3 mbpp/274 [TS2345] TS2345: Argument of type '1' is not assignable to parameter of type 'never'. | TS2345: Argument of type 'string' is not assignable to parameter of type 'never'. | TS2345: Argument of type 'never[]' is not assignable to parameter of type 'never'. | TS2345: Argu...
+- deepseek-6.7b s4 mbpp/283 [TS2769,TS2365] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error. /     Argument of type '(acc: nu...
+- deepseek-6.7b s4 mbpp/297 [TS2322,TS2769] TS2322: Type 'number | number[]' is not assignable to type 'number[]'. /   Type 'number' is not assignable to type 'number[]'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number | number[], currentValue: number |...
+- deepseek-6.7b s4 mbpp/400 [TS2345] TS2345: Argument of type '{ (value: any, replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined): string; (value: any, replacer?: (string | number)[] | null | undefined, space?: string | ... 1 more ... | undef...
+- deepseek-6.7b s4 mbpp/614 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+- qwen2.5-coder-7b s0 mbpp/63 [TS2322,TS2769] TS2322: Type '[number, number]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: [number, number], currentValue: [number, number], currentIndex: number, array: [number, number][]) =...
+- qwen2.5-coder-7b s0 mbpp/65 [TS2322,TS2769,TS2352] TS2322: Type 'number | number[]' is not assignable to type 'number'. /   Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number | number[], currentValue: number | n...
+- qwen2.5-coder-7b s0 mbpp/294 [TS2769] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: string | number, currentValue: string | number, currentIndex: number, array: (string | number)[]) => string | number, initialValue: string | number): string | number', ga...
+- qwen2.5-coder-7b s0 mbpp/562 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+- qwen2.5-coder-7b s0 mbpp/614 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+- qwen2.5-coder-7b s1 mbpp/400 [TS2345] TS2345: Argument of type '{ (value: any, replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined): string; (value: any, replacer?: (string | number)[] | null | undefined, space?: string | ... 1 more ... | undef...
+- qwen2.5-coder-7b s1 mbpp/573 [TS2322,TS2769] TS2322: Type 'unknown' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: unknown, currentValue: unknown, currentIndex: number, array: unknown[]) => unknown, initialValue: unknown): u...
+- qwen2.5-coder-7b s2 HumanEval/115 [TS2769,TS2362] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error. /     Argument of ty...
+- qwen2.5-coder-7b s4 mbpp/294 [TS2769] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number, initialValue: number): number', gave the following error. /     Argument of type '(max: nu...
+- qwen2.5-coder-7b s4 mbpp/409 [TS2322,TS2769] TS2322: Type '[number, number]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: [number, number], currentValue: [number, number], currentIndex: number, array: [number, number][]) =...
+- qwen2.5-coder-7b s4 mbpp/410 [TS2769] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number, initialValue: number): number', gave the following error. /     Argument of type '(min: nu...
+- qwen2.5-coder-7b s4 mbpp/614 [TS2322,TS2769] TS2322: Type 'number[]' is not assignable to type 'number'. | TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number...
+
+## 연산자/비교 타입 불일치 (13 cases; TS2356,TS2362,TS2363,TS2365,TS2367)
+- codellama-7b s0 HumanEval/104 [TS2367] TS2367: This comparison appears to be unintentional because the types '1' and '0' have no overlap.
+- codellama-7b s0 mbpp/296 [TS2367] TS2367: This comparison appears to be unintentional because the types '0' and '1' have no overlap. | TS2367: This comparison appears to be unintentional because the types '0' and '1' have no overlap.
+- codellama-7b s1 mbpp/129 [TS2769,TS2345,TS2367] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error. /     Argument of ty...
+- codellama-7b s1 mbpp/278 [TS2365] TS2365: Operator '<=' cannot be applied to types 'number | [number, number]' and 'number'.
+- codellama-7b s2 mbpp/640 [TS2367] TS2367: This comparison appears to be unintentional because the types '"("' and '")"' have no overlap.
+- codellama-7b s4 mbpp/429 [TS2367] TS2367: This comparison appears to be unintentional because the types '0' and '20' have no overlap. | TS2367: This comparison appears to be unintentional because the types '0' and '10' have no overlap.
+- deepseek-6.7b s2 mbpp/294 [TS2365] TS2365: Operator '>' cannot be applied to types 'string | number' and 'number'.
+- deepseek-6.7b s4 mbpp/283 [TS2769,TS2365] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error. /     Argument of type '(acc: nu...
+- qwen2.5-coder-7b s1 mbpp/294 [TS2365] TS2365: Operator '>' cannot be applied to types 'string | number' and 'number'.
+- qwen2.5-coder-7b s2 HumanEval/115 [TS2769,TS2362] TS2769: No overload matches this call. /   Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error. /     Argument of ty...
+- qwen2.5-coder-7b s2 mbpp/294 [TS2365] TS2365: Operator '>' cannot be applied to types 'string | number' and 'number'.
+- qwen2.5-coder-7b s2 mbpp/410 [TS2365] TS2365: Operator '<' cannot be applied to types 'string | number' and 'number'.
+- qwen2.5-coder-7b s4 HumanEval/153 [TS2367] TS2367: This comparison appears to be unintentional because the types 'RegExpMatchArray' and 'never[]' have no overlap. | TS2367: This comparison appears to be unintentional because the types 'RegExpMatchArray' and 'never[]' have no overlap.
+
+## property/method/call 대상 오류 (3 cases; TS2339,TS2349,TS2551)
+- codellama-7b s2 mbpp/261 [TS2349] TS2349: This expression is not callable. /   Type 'Number' has no call signatures.
+- codellama-7b s2 mbpp/635 [TS2339] TS2339: Property 'reduce' does not exist on type 'MapIterator<number>'.
+- codellama-7b s3 mbpp/88 [TS2339] TS2339: Property 'reduce' does not exist on type 'MapIterator<number>'.
+
+## null/undefined/할당 전 사용 (6 cases; TS18047,TS18048,TS2454,TS2531,TS2532)
+- codellama-7b s0 mbpp/440 [TS2454] TS2454: Variable 'adverb_position' is used before being assigned. | TS2454: Variable 'adverb_position' is used before being assigned. | TS2454: Variable 'adverb' is used before being assigned. | TS2454: Variable 'adverb' is used before being assigned.
+- codellama-7b s1 HumanEval/158 [TS2352,TS18047] TS2352: Conversion of type 'boolean' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. | TS18047: 'maxUniqueWord' is possibly 'null'.
+- codellama-7b s2 HumanEval/158 [TS2352,TS18047] TS2352: Conversion of type 'boolean' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first. | TS18047: 'maxWord' is possibly 'null'.
+- codellama-7b s3 HumanEval/118 [TS2454] TS2454: Variable 'consonantBeforeVowel' is used before being assigned. | TS2454: Variable 'vowel' is used before being assigned.
+- deepseek-6.7b s1 HumanEval/153 [TS2454] TS2454: Variable 'strongestExtensionName' is used before being assigned.
+- deepseek-6.7b s2 mbpp/130 [TS2454] TS2454: Variable 'max_num' is used before being assigned.
+
+## index/readonly 쓰기 오류 (1 cases; TS2542)
+- qwen2.5-coder-7b s0 mbpp/595 [TS2542] TS2542: Index signature in type 'String' only permits reading. | TS2542: Index signature in type 'String' only permits reading.
+
+## index/spread/iterable 문맥 오류 (1 cases; TS2488,TS2538,TS2556,TS7015,TS7053)
+- qwen2.5-coder-7b s4 mbpp/9 [TS7053] TS7053: Element implicitly has an 'any' type because expression of type '1' can't be used to index type '(start: number, end?: number | undefined) => string'. /   Property '1' does not exist on type '(start: number, end?: number | undefined) => string'.

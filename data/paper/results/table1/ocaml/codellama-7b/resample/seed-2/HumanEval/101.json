@@ -1,0 +1,31 @@
+{
+    "decoded": 119,
+    "decoded_at_turn": {
+        "1": 30,
+        "2": 23,
+        "3": 22,
+        "4": 22,
+        "5": 22
+    },
+    "llm_time": 3.2597670555114746,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003063678741455078,
+    "constrainer_time": 0.03060746192932129,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3316266536712646,
+    "frequency": {
+        "1": 124
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:15: Unbound value \"String.split\"\nHint: Did you mean \"blit\"?"
+    ]
+}

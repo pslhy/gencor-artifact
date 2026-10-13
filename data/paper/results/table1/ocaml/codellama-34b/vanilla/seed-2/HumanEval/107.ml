@@ -1,0 +1,38 @@
+let rec even_odd_palindrome (n : int) :  int * int =
+    let is_palindrome (x : int) : bool =
+        x = rev x
+    in
+    let rec loop (acc_even, acc_odd) = function
+        | 0 -> (acc_even, acc_odd)
+        | x ->
+            let (even, odd) =
+                if is_palindrome x then
+                    if x mod 2 = 1 then (acc_even, acc_odd - 1)
+                    else (acc_even - 1, acc_odd)
+                else (acc_even, acc_odd)
+            in
+            loop (even, odd) (x - 1)
+    in
+    loop (0, 0) n
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Given a positive integer n, return a tuple that has the number of even and odd *)
+(*     integer palindromes that fall within the range(1, n), inclusive. *)
+(*     Example 1: *)
+(*     >>> even_odd_palindrome 3 *)
+(*     (1, 2) *)
+(*     Explanation: *)
+(*     Integer palindrome are 1, 2, 3. one of them is even, and two of them are odd. *)
+(*     Example 2: *)
+(*     >>> even_odd_palindrome 12 *)
+(*     (4, 6) *)
+(*     Explanation: *)
+(*     Integer palindrome are 1, 2, 3, 4, 5, 6, 7, 8, 9, 11. four of them are even, and 6 of them are odd. *)
+(*     Note: *)
+(*     1. 1 <= n <= 10^3 *)
+(*     2. returned tuple has the number of even and odd integer palindromes respectively. *)

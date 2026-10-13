@@ -1,0 +1,22 @@
+{
+    "decoded": 63,
+    "llm_time": 2.1768531799316406,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001661539077758789,
+    "constrainer_time": 0.016891002655029297,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.2181551456451416,
+    "frequency": {
+        "1": 64
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/230.ml:7:24: Unbound value \"String.to_list\""
+    ]
+}

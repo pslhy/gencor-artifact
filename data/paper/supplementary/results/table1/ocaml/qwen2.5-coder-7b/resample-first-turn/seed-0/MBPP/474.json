@@ -1,0 +1,22 @@
+{
+    "decoded": 81,
+    "llm_time": 2.1768078804016113,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002234220504760742,
+    "constrainer_time": 0.019587993621826172,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.2259957790374756,
+    "frequency": {
+        "1": 82
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:61: Unbound value \"String.set\"\nHint: Did you mean \"get\"?"
+    ]
+}

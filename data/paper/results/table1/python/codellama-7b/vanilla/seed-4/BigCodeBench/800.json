@@ -1,0 +1,24 @@
+{
+    "decoded": 515,
+    "llm_time": 12.941969871520996,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012833356857299805,
+    "constrainer_time": 0.12052559852600098,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.269950866699219,
+    "frequency": {
+        "1": 516
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:45:31: invalid syntax",
+        "    assert task_func(['Team A': 2, 'Team B': 1, 'Team C': 3], []) == Counter({'Team A': 2, 'Team B': 1, 'Team C': 3})",
+        "                              ^"
+    ]
+}

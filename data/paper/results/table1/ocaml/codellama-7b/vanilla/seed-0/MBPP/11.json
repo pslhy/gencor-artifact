@@ -1,0 +1,22 @@
+{
+    "decoded": 138,
+    "llm_time": 3.617936611175537,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003403902053833008,
+    "constrainer_time": 0.03284907341003418,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.6920366287231445,
+    "frequency": {
+        "1": 139
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/11.ml:3:23: Unbound value \"String.index_exn\"\nHint: Did you mean \"index_opt\"?"
+    ]
+}

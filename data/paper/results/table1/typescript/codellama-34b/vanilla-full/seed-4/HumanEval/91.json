@@ -1,0 +1,22 @@
+{
+    "decoded": 75,
+    "llm_time": 4.058881044387817,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019342899322509766,
+    "constrainer_time": 0.004609346389770508,
+    "total_time": 4.085453033447266,
+    "frequency": {
+        "1": 76
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2693: 'string' only refers to a type, but is being used as a value here.",
+        "TS2304: Cannot find name 't'.",
+        "TS2304: Cannot find name 'of'.",
+        "TS2304: Cannot find name 't'."
+    ]
+}

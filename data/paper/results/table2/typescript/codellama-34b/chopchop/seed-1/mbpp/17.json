@@ -1,0 +1,30 @@
+{
+    "decoded": 1089,
+    "llm_time": 63.13670039176941,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 26.902872562408447,
+    "constrainer_time": 0.0,
+    "total_time": 90.03957295417786,
+    "frequency": {
+        "1": 1057,
+        "2": 10,
+        "3": 3,
+        "6": 1,
+        "4": 1,
+        "9": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmp7pnuntxd.ts(5,3): error TS1109: Expression expected.",
+        "../../tmp/tmp7pnuntxd.ts(1057,1): error TS1005: '}' expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 1105,
+    "num_tokens_generated": 1089,
+    "total_realizability_time": 26.902872562408447
+}

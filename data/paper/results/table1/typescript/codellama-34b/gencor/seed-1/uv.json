@@ -1,0 +1,12 @@
+{
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto_md5'."
+    ],
+    "mbpp/410": [
+        "TS2304: Cannot find name 'as'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/635": [
+        "TS2304: Cannot find name 'b'."
+    ]
+}

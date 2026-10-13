@@ -1,0 +1,31 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function to rotate a given list by specified number of items to the right direction. https://www.geeksforgeeks.org/mlthon-program-right-rotate-list-n/ *)
+let rec rotate_right (list : int list) (m : int) : int list =
+  if m = 0 then
+    list
+  else if List.length list = 0 then
+    []
+  else
+    let removed = List.nth list m in
+    rotate_right (List.remove m list) (List.length list - m)
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:8:19: Unbound value "List.remove" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec rotate_right (list : int list) (m : int) : int list =
+  if m = 0 then
+    list
+  else if List.length list = 0 then
+    []
+  else
+    let removed = List.rev (List.nth list (List.length list - m)) in
+    List.rev (List.tl list) @ removed
+

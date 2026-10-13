@@ -1,0 +1,31 @@
+{
+    "decoded": 390,
+    "decoded_at_turn": {
+        "1": 139,
+        "2": 62,
+        "3": 63,
+        "4": 63,
+        "5": 63
+    },
+    "llm_time": 28.07574987411499,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0254819393157959,
+    "constrainer_time": 0.1942000389099121,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 28.5226788520813,
+    "frequency": {
+        "1": 395
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:22: Unbound value \"String.rfind\""
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "decoded": 1000,
+    "decoded_at_turn": {
+        "1": 344,
+        "2": 321,
+        "3": 335
+    },
+    "llm_time": 25.361384391784668,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.024962425231933594,
+    "constrainer_time": 0.22931671142578125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 25.98988628387451,
+    "frequency": {
+        "1": 1003
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:22:22: This expression has type\n\"'a * 'b * 'c * 'd * 'e * 'f * 'g * 'h * 'i * 'j\"\nbut an expression was expected of type \"int\""
+    ]
+}

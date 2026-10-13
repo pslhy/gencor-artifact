@@ -1,0 +1,16 @@
+let rec sample_nam (sample_names : string list) : int = 
+  let is_uppercase_first_letter (name : string) : bool = 
+    match name with
+    | [] -> false
+    | h :: _ -> Char.is_uppercase h in
+  let sum_length (names : string list) : int = 
+    List.fold_left (fun acc name -> acc + String.length name) 0 names in
+  sum_length (List.filter is_uppercase_first_letter sample_names)
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to sum the length of the names of a given list of names after removing the names that start with a lowercase letter. *)

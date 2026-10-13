@@ -1,0 +1,22 @@
+{
+    "decoded": 107,
+    "llm_time": 2.7411580085754395,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0026373863220214844,
+    "constrainer_time": 0.025396108627319336,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.798643112182617,
+    "frequency": {
+        "1": 108
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/724.ml:14:1: Unbound value \"main\"\nHint: Did you mean \"min\"?\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 8"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 154,
+    "llm_time": 8.196678638458252,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004782915115356445,
+    "constrainer_time": 0.009691953659057617,
+    "total_time": 8.253459692001343,
+    "frequency": {
+        "1": 155
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'gap' because it is a constant."
+    ]
+}

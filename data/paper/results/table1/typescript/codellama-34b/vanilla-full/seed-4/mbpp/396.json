@@ -1,0 +1,20 @@
+{
+    "decoded": 46,
+    "llm_time": 2.4715640544891357,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011970996856689453,
+    "constrainer_time": 0.0028929710388183594,
+    "total_time": 2.48730731010437,
+    "frequency": {
+        "1": 47
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'boolean' is not assignable to type 'string'.",
+        "TS2322: Type 'boolean' is not assignable to type 'string'."
+    ]
+}

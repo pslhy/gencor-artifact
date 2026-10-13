@@ -1,0 +1,35 @@
+let rec select_words (s : string) (n : int) : string list =
+  if n < 1 then
+    []
+  else if String.length s = 0 then
+    []
+  else
+    let word = String.substr_left s ~ofs:1 ~len:((String.pos_char s ' ' - 1) - 1) in
+    let subs = String.substrings s ~start:((String.pos_char s ' ' - 1) + 1) in
+    match String.chars word |> List.filter (fun c -> not (c = 'a' || c = 'e' || c = 'i' || c = 'o' || c = 'u')) with
+    | [] -> select_words subs n
+    | _ when List.length (String.chars word) = n -> word :: select_words subs n
+    | _ -> select_words subs n
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Given a string s and a natural number n, you have been tasked to implement *)
+(*     a function that returns a list of all words from string s that contain exactly *)
+(*     n consonants, in order these words appear in the string s. *)
+(*     If the string s is empty then the function should return an empty list. *)
+(*     Note: you may assume the input string contains only letters and spaces. *)
+(*     Examples: *)
+(*     >>> select_words "Mary had a little lamb" 4 *)
+(*     ["little"] *)
+(*     >>> select_words "Mary had a little lamb" 3 *)
+(*     ["Mary"; "lamb"] *)
+(*     >>> select_words "simple white space" 2 *)
+(*     [] *)
+(*     >>> select_words "Hello world" 4 *)
+(*     ["world"] *)
+(*     >>> select_words "Uncle sam" 3 *)
+(*     ["Uncle"] *)

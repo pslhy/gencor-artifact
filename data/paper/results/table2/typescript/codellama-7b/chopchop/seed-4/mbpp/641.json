@@ -1,0 +1,26 @@
+{
+    "decoded": 209,
+    "llm_time": 6.445317506790161,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 83.81748080253601,
+    "constrainer_time": 0.0,
+    "total_time": 90.26279830932617,
+    "frequency": {
+        "1": 188,
+        "2": 3,
+        "3": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmp_qc4us98.ts(27,23): error TS1109: Expression expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 197,
+    "num_tokens_generated": 209,
+    "total_realizability_time": 83.81748080253601
+}

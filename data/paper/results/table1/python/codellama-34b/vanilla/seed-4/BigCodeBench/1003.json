@@ -1,0 +1,23 @@
+{
+    "decoded": 117,
+    "llm_time": 6.440420866012573,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0028705596923828125,
+    "constrainer_time": 0.028611183166503906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.508875608444214,
+    "frequency": {
+        "1": 118
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:12:19: undefined name 'item_etree_to_dict'",
+        "<python>:13:16: undefined module member 'etree.ElementTreeError'"
+    ]
+}

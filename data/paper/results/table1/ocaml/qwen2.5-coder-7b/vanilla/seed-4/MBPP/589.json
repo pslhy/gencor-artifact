@@ -1,0 +1,22 @@
+{
+    "decoded": 93,
+    "llm_time": 2.575575351715088,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002546548843383789,
+    "constrainer_time": 0.022553205490112305,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.6328954696655273,
+    "frequency": {
+        "1": 94
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/589.ml:3:16: Unbound value \"int_sqrt\""
+    ]
+}

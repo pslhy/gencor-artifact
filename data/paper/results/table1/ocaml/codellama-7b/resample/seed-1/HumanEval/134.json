@@ -1,0 +1,31 @@
+{
+    "decoded": 482,
+    "decoded_at_turn": {
+        "1": 70,
+        "2": 92,
+        "3": 114,
+        "4": 114,
+        "5": 92
+    },
+    "llm_time": 16.534555196762085,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01375269889831543,
+    "constrainer_time": 0.13451337814331055,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 16.87268614768982,
+    "frequency": {
+        "1": 487
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:21: Unbound value \"Char.is_alpha\""
+    ]
+}

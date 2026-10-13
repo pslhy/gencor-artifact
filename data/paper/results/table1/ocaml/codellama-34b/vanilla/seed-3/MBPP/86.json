@@ -1,0 +1,22 @@
+{
+    "decoded": 28,
+    "llm_time": 1.5338819026947021,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009877681732177734,
+    "constrainer_time": 0.0072917938232421875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.5506296157836914,
+    "frequency": {
+        "1": 29
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:3: Unbound value \"central_hexagonal_number\"\nHint: Did you mean \"centered_hexagonal_number\"?"
+    ]
+}

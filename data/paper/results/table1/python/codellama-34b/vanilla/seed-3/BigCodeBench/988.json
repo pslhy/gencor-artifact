@@ -1,0 +1,24 @@
+{
+    "decoded": 748,
+    "llm_time": 40.92915153503418,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.018716096878051758,
+    "constrainer_time": 0.17899751663208008,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 41.39546489715576,
+    "frequency": {
+        "1": 749
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:6:23: expected ':'",
+        "    if not(predicates)",
+        "                      ^"
+    ]
+}

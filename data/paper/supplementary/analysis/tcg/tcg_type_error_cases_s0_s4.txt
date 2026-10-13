@@ -1,0 +1,148 @@
+TCG type-error cases (semantic diagnostics only; syntax/incomplete excluded)
+Models: CodeLlama 7B, Deepseek 6.7B, Qwen2.5 Coder 7B; seeds s0..s4
+
+Total rows: 93
+
+[codellama-7b]
+  tcg-s0: 12 cases
+    HumanEval/104 [TS2367]
+    HumanEval/156 [TS2352]
+    HumanEval/160 [TS7006]
+    mbpp/70 [TS2352]
+    mbpp/106 [TS2352]
+    mbpp/117 [TS2352]
+    mbpp/272 [TS2352]
+    mbpp/296 [TS2367]
+    mbpp/410 [TS2352]
+    mbpp/440 [TS2454]
+    mbpp/720 [TS2352]
+    mbpp/780 [TS2352]
+  tcg-s1: 8 cases
+    HumanEval/158 [TS2352,TS18047]
+    mbpp/129 [TS2769,TS2345,TS2367]
+    mbpp/164 [TS7034,TS7005]
+    mbpp/278 [TS2365]
+    mbpp/297 [TS2352]
+    mbpp/299 [TS2352]
+    mbpp/408 [TS2322]
+    mbpp/457 [TS7034,TS7005]
+  tcg-s2: 8 cases
+    HumanEval/158 [TS2352,TS18047]
+    mbpp/261 [TS2349]
+    mbpp/297 [TS2352]
+    mbpp/415 [TS2352]
+    mbpp/635 [TS2339]
+    mbpp/640 [TS2367]
+    mbpp/749 [TS2352]
+    mbpp/780 [TS2352]
+  tcg-s3: 5 cases
+    HumanEval/65 [TS2352]
+    HumanEval/118 [TS2454]
+    mbpp/88 [TS2339]
+    mbpp/278 [TS2322,TS2769]
+    mbpp/297 [TS2352]
+  tcg-s4: 6 cases
+    HumanEval/58 [TS7034,TS7005]
+    mbpp/65 [TS2352]
+    mbpp/272 [TS2352]
+    mbpp/398 [TS7006]
+    mbpp/429 [TS2367]
+    mbpp/560 [TS2322]
+  total: 39 cases
+
+[deepseek-6.7b]
+  tcg-s0: 4 cases
+    mbpp/222 [TS7006]
+    mbpp/587 [TS7034,TS7005]
+    mbpp/640 [TS2352]
+    mbpp/769 [TS7034,TS7005]
+  tcg-s1: 4 cases
+    HumanEval/153 [TS2454]
+    mbpp/272 [TS2352]
+    mbpp/579 [TS2352]
+    mbpp/791 [TS7006]
+  tcg-s2: 4 cases
+    mbpp/106 [TS2352]
+    mbpp/130 [TS2454]
+    mbpp/222 [TS7006]
+    mbpp/294 [TS2365]
+  tcg-s3: 2 cases
+    mbpp/222 [TS7006]
+    mbpp/274 [TS2345]
+  tcg-s4: 6 cases
+    mbpp/222 [TS7006]
+    mbpp/283 [TS2769,TS2365]
+    mbpp/297 [TS2322,TS2769]
+    mbpp/400 [TS2345]
+    mbpp/564 [TS2352]
+    mbpp/614 [TS2322,TS2769]
+  total: 20 cases
+
+[qwen2.5-coder-7b]
+  tcg-s0: 8 cases
+    mbpp/63 [TS2322,TS2769]
+    mbpp/65 [TS2322,TS2769,TS2352]
+    mbpp/222 [TS7006]
+    mbpp/294 [TS2769]
+    mbpp/562 [TS2322,TS2769]
+    mbpp/595 [TS2542]
+    mbpp/614 [TS2322,TS2769]
+    mbpp/791 [TS2352]
+  tcg-s1: 10 cases
+    HumanEval/129 [TS2352]
+    mbpp/265 [TS7006]
+    mbpp/283 [TS2352]
+    mbpp/294 [TS2365]
+    mbpp/393 [TS7034,TS7005]
+    mbpp/400 [TS2345]
+    mbpp/560 [TS2352]
+    mbpp/573 [TS2322,TS2769]
+    mbpp/584 [TS2352]
+    mbpp/791 [TS2352]
+  tcg-s2: 5 cases
+    HumanEval/68 [TS2322,TS2352]
+    HumanEval/115 [TS2769,TS2362]
+    mbpp/290 [TS7034,TS7005]
+    mbpp/294 [TS2365]
+    mbpp/410 [TS2365]
+  tcg-s3: 4 cases
+    HumanEval/34 [TS2352]
+    HumanEval/129 [TS2352]
+    mbpp/573 [TS2352]
+    mbpp/580 [TS2352]
+  tcg-s4: 7 cases
+    HumanEval/153 [TS2367]
+    mbpp/9 [TS7053]
+    mbpp/294 [TS2769]
+    mbpp/409 [TS2322,TS2769]
+    mbpp/410 [TS2769]
+    mbpp/560 [TS2352]
+    mbpp/614 [TS2322,TS2769]
+  total: 34 cases
+
+[excluded]
+codellama-7b	s0	incomplete_or_timeout	56
+codellama-7b	s0	syntax	4
+codellama-7b	s1	incomplete_or_timeout	43
+codellama-7b	s1	syntax	3
+codellama-7b	s2	incomplete_or_timeout	42
+codellama-7b	s2	syntax	5
+codellama-7b	s3	incomplete_or_timeout	50
+codellama-7b	s3	syntax	8
+codellama-7b	s4	incomplete_or_timeout	37
+codellama-7b	s4	syntax	1
+deepseek-6.7b	s0	incomplete_or_timeout	44
+deepseek-6.7b	s1	incomplete_or_timeout	36
+deepseek-6.7b	s2	incomplete_or_timeout	43
+deepseek-6.7b	s3	incomplete_or_timeout	29
+deepseek-6.7b	s4	incomplete_or_timeout	42
+qwen2.5-coder-7b	s0	incomplete_or_timeout	42
+qwen2.5-coder-7b	s0	syntax	1
+qwen2.5-coder-7b	s1	incomplete_or_timeout	29
+qwen2.5-coder-7b	s1	syntax	3
+qwen2.5-coder-7b	s2	incomplete_or_timeout	28
+qwen2.5-coder-7b	s2	syntax	1
+qwen2.5-coder-7b	s3	incomplete_or_timeout	27
+qwen2.5-coder-7b	s3	syntax	1
+qwen2.5-coder-7b	s4	incomplete_or_timeout	36
+qwen2.5-coder-7b	s4	syntax	4

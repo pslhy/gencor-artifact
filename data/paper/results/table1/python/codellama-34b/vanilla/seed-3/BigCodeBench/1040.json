@@ -1,0 +1,24 @@
+{
+    "decoded": 625,
+    "llm_time": 34.06063771247864,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.015218734741210938,
+    "constrainer_time": 0.14921784400939941,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 34.441641092300415,
+    "frequency": {
+        "1": 626
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:67:71: expected 'except' or 'finally' block",
+        "        print(f\"Server stopped after {timedelta(hours=run_duration)}\")",
+        "                                                                      ^"
+    ]
+}

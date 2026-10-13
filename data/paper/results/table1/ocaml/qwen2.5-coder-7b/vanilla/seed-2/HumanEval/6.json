@@ -1,0 +1,22 @@
+{
+    "decoded": 312,
+    "llm_time": 8.189668655395508,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011495113372802734,
+    "constrainer_time": 0.07769417762756348,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.401921272277832,
+    "frequency": {
+        "1": 313
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/6.ml:15:19: Illegal empty character literal ''\nHint: Did you mean ' ' or a type variable 'a?"
+    ]
+}

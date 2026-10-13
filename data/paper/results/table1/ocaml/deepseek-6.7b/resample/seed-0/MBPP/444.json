@@ -1,0 +1,31 @@
+{
+    "decoded": 222,
+    "decoded_at_turn": {
+        "1": 44,
+        "2": 45,
+        "3": 45,
+        "4": 44,
+        "5": 44
+    },
+    "llm_time": 5.891226053237915,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005346775054931641,
+    "constrainer_time": 0.05267643928527832,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.022574186325073,
+    "frequency": {
+        "1": 227
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:28: Unbound value \"List.rev_drop\"\nHint: Did you mean \"rev_map\"?"
+    ]
+}

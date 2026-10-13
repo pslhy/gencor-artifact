@@ -1,0 +1,29 @@
+{
+    "decoded": 743,
+    "decoded_at_turn": {
+        "1": 245,
+        "2": 254,
+        "3": 244
+    },
+    "llm_time": 18.752393007278442,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.018462419509887695,
+    "constrainer_time": 0.16758251190185547,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.23672914505005,
+    "frequency": {
+        "1": 746
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:16: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+    ]
+}

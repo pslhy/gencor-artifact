@@ -1,0 +1,22 @@
+{
+    "decoded": 141,
+    "llm_time": 3.536996841430664,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0034329891204833984,
+    "constrainer_time": 0.03336977958679199,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.6125476360321045,
+    "frequency": {
+        "1": 142
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/607.ml:3:9: This expression should not be a constructor, the expected type is\n\"string * int * int\""
+    ]
+}

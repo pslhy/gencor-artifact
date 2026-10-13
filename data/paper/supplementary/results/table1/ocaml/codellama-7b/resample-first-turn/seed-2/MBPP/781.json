@@ -1,0 +1,22 @@
+{
+    "decoded": 51,
+    "llm_time": 1.3507261276245117,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013539791107177734,
+    "constrainer_time": 0.012451410293579102,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.3789982795715332,
+    "frequency": {
+        "1": 52
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:74: Unbound value \"List.range\""
+    ]
+}

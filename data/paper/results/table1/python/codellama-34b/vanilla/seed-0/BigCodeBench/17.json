@@ -1,0 +1,23 @@
+{
+    "decoded": 138,
+    "llm_time": 8.109633684158325,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005395412445068359,
+    "constrainer_time": 0.05827975273132324,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.22244930267334,
+    "frequency": {
+        "1": 139
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:68: undefined module member 'subprocess.OutputStream'",
+        "<python>:14:100: undefined module member 'subprocess.OutputStream'"
+    ]
+}

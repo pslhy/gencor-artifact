@@ -1,0 +1,19 @@
+{
+    "decoded": 846,
+    "llm_time": 21.55108404159546,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.019936561584472656,
+    "constrainer_time": 0.19309592247009277,
+    "total_time": 22.081871032714844,
+    "frequency": {
+        "1": 847
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2339: Property 'extractMin' does not exist on type 'MinHeap<[number, number, number]>'."
+    ]
+}

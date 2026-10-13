@@ -1,0 +1,22 @@
+{
+    "decoded": 116,
+    "llm_time": 6.274594306945801,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029172897338867188,
+    "constrainer_time": 0.02708601951599121,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.339179515838623,
+    "frequency": {
+        "1": 117
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:8:20: undefined module member 'os.path.isFile'"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 195,
+    "llm_time": 5.013391017913818,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0046160221099853516,
+    "constrainer_time": 0.04616951942443848,
+    "total_time": 5.114508390426636,
+    "frequency": {
+        "1": 196
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+    ]
+}

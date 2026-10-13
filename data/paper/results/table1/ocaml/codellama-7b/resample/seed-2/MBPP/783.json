@@ -1,0 +1,29 @@
+{
+    "decoded": 670,
+    "decoded_at_turn": {
+        "1": 228,
+        "2": 236,
+        "3": 206
+    },
+    "llm_time": 17.216610193252563,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.016878366470336914,
+    "constrainer_time": 0.16056013107299805,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.624733924865723,
+    "frequency": {
+        "1": 673
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:23: This expression has type \"int\" but an expression was expected of type\n\"'a -> 'b\""
+    ]
+}

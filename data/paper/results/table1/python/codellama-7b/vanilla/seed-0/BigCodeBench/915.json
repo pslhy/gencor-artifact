@@ -1,0 +1,23 @@
+{
+    "decoded": 264,
+    "llm_time": 6.615358829498291,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00621795654296875,
+    "constrainer_time": 0.060791730880737305,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.767712116241455,
+    "frequency": {
+        "1": 265
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:19: undefined name 'pd'",
+        "<python>:27:28: undefined name 'df2'"
+    ]
+}

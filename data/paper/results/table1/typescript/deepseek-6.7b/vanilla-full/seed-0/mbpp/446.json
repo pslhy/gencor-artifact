@@ -1,0 +1,23 @@
+{
+    "decoded": 235,
+    "llm_time": 5.759316921234131,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0052411556243896484,
+    "constrainer_time": 0.052392005920410156,
+    "total_time": 5.877805709838867,
+    "frequency": {
+        "1": 236
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7034: Variable 'arr' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+        "TS7005: Variable 'arr' implicitly has an 'any[]' type.",
+        "TS2488: Type 'number' must have a '[Symbol.iterator]()' method that returns an iterator.",
+        "TS7005: Variable 'arr' implicitly has an 'any[]' type.",
+        "TS7005: Variable 'arr' implicitly has an 'any[]' type."
+    ]
+}

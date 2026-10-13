@@ -1,0 +1,21 @@
+{
+    "decoded": 145,
+    "llm_time": 7.690747976303101,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003420591354370117,
+    "constrainer_time": 0.008636236190795898,
+    "total_time": 7.739130735397339,
+    "frequency": {
+        "1": 146
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(max: (number | never[])[], current: number[]) => (number | number[])[]' is not assignable to parameter of type '(previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]'.\n      Type '(number | number[])[]' is not assignable to type 'number[]'.\n        Type 'number | number[]' is not assignable to type 'number'.\n          Type 'number[]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: (number | never[])[], currentValue: number[], currentIndex: number, array: number[][]) => (number | never[])[], initialValue: (number | never[])[]): (number | never[])[]', gave the following error.\n    Argument of type '(max: (number | never[])[], current: number[]) => (number | number[])[]' is not assignable to parameter of type '(previousValue: (number | never[])[], currentValue: number[], currentIndex: number, array: number[][]) => (number | never[])[]'.\n      Type '(number | number[])[]' is not assignable to type '(number | never[])[]'.\n        Type 'number | number[]' is not assignable to type 'number | never[]'.\n          Type 'number[]' is not assignable to type 'number | never[]'.\n            Type 'number[]' is not assignable to type 'never[]'.\n              Type 'number' is not assignable to type 'never'.",
+        "TS2339: Property 'length' does not exist on type 'number | never[]'.\n  Property 'length' does not exist on type 'number'.",
+        "TS2322: Type 'number[]' is not assignable to type '[number, number[]]'.\n  Target requires 2 element(s) but source may have fewer."
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 17,
+    "llm_time": 0.4576539993286133,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0004057884216308594,
+    "constrainer_time": 0.004169464111328125,
+    "total_time": 0.4665999412536621,
+    "frequency": {
+        "1": 18
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'any[]' is not assignable to type '[number, number, number, number, number]'.\n  Target requires 5 element(s) but source may have fewer.",
+        "TS2552: Cannot find name 'testList'. Did you mean 'test_list'?",
+        "TS2552: Cannot find name 'testTup'. Did you mean 'test_tup'?"
+    ]
+}

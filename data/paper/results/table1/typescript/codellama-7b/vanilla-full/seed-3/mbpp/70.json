@@ -1,0 +1,21 @@
+{
+    "decoded": 59,
+    "llm_time": 1.4875590801239014,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014073848724365234,
+    "constrainer_time": 0.01407003402709961,
+    "total_time": 1.5174145698547363,
+    "frequency": {
+        "1": 60
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 60,
+    "llm_time": 1.477745532989502,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00141143798828125,
+    "constrainer_time": 0.0140533447265625,
+    "total_time": 1.5079796314239502,
+    "frequency": {
+        "1": 61
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 282,
+    "llm_time": 6.905091285705566,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007311820983886719,
+    "constrainer_time": 0.06372666358947754,
+    "total_time": 7.0538270473480225,
+    "frequency": {
+        "1": 283
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '[number, number]' is not assignable to type 'number'."
+    ]
+}

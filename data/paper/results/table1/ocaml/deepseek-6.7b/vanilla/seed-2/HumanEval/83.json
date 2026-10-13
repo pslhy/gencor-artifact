@@ -1,0 +1,22 @@
+{
+    "decoded": 152,
+    "llm_time": 3.9431560039520264,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003729581832885742,
+    "constrainer_time": 0.03457355499267578,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.0227038860321045,
+    "frequency": {
+        "1": 153
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/83.ml:4:25: Unbound value \"pow\""
+    ]
+}

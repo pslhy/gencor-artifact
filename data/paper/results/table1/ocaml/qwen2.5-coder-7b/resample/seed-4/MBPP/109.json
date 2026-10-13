@@ -1,0 +1,28 @@
+{
+    "decoded": 386,
+    "decoded_at_turn": {
+        "1": 193,
+        "2": 193
+    },
+    "llm_time": 10.27465558052063,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009165048599243164,
+    "constrainer_time": 0.08907222747802734,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.512449264526367,
+    "frequency": {
+        "1": 388
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:15:56: This expression has type \"int -> int\"\nbut an expression was expected of type \"int\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

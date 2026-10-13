@@ -1,0 +1,6 @@
+**/.git
+**/.gencor
+**/output
+**/__pycache__
+**/*.pyc
+tools/gencor/bin

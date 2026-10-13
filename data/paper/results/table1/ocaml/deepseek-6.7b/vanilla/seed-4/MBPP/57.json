@@ -1,0 +1,22 @@
+{
+    "decoded": 77,
+    "llm_time": 1.9524962902069092,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019164085388183594,
+    "constrainer_time": 0.017772912979125977,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.992588758468628,
+    "frequency": {
+        "1": 78
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/57.ml:6:6: Unbound value \"List.max\"\nHint: Did you mean \"map\"?"
+    ]
+}

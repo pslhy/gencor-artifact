@@ -1,0 +1,22 @@
+{
+    "decoded": 151,
+    "llm_time": 3.9339845180511475,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035943984985351562,
+    "constrainer_time": 0.034404754638671875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.0164995193481445,
+    "frequency": {
+        "1": 152
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:17: Unbound module \"Str\""
+    ]
+}

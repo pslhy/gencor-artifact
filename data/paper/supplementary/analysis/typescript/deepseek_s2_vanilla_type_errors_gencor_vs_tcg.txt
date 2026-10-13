@@ -1,0 +1,82 @@
+Deepseek s2: vanilla type-error target cases, GenCor type mode vs TCG
+total	37
+gencor_success	13
+gencor_timeout	18
+gencor_type_error_not_timeout	3
+gencor_syntax_not_timeout	2
+gencor_abort	1
+tcg_success	20
+tcg_timeout_like	13
+tcg_type_error_not_timeout	4
+tcg_syntax_not_timeout	0
+
+[pair counts]
+gencor=success	tcg=success	10
+gencor=success	tcg=timeout	3
+gencor=timeout	tcg=success	6
+gencor=timeout	tcg=timeout	9
+gencor=timeout	tcg=type_error	3
+gencor=type_error	tcg=success	2
+gencor=type_error	tcg=timeout	1
+gencor=syntax	tcg=success	1
+gencor=syntax	tcg=type_error	1
+gencor=abort	tcg=success	1
+
+[details by pair]
+
+## gencor=success tcg=success (10)
+HumanEval/19
+HumanEval/105
+HumanEval/146
+mbpp/19
+mbpp/290
+mbpp/415
+mbpp/440
+mbpp/579
+mbpp/749
+mbpp/777
+
+## gencor=success tcg=timeout (3)
+HumanEval/37
+mbpp/261
+mbpp/417
+
+## gencor=timeout tcg=success (6)
+HumanEval/16 gencor_codes=TS2355,TS7053
+HumanEval/69 gencor_codes=TS2355
+mbpp/63 gencor_codes=TS7053,TS2695
+mbpp/74 gencor_codes=TS2366
+mbpp/400 gencor_codes=TS2355,TS7053
+mbpp/630 gencor_codes=TS2322
+
+## gencor=timeout tcg=timeout (9)
+HumanEval/49 gencor_codes=TS2322
+HumanEval/75 gencor_codes=TS7034,TS7005,TS2304
+mbpp/88 gencor_codes=TS2355
+mbpp/395 gencor_codes=TS2355
+mbpp/410 gencor_codes=TS2355,TS2304
+mbpp/470 gencor_codes=TS2322
+mbpp/580 gencor_codes=TS7034,TS7005
+mbpp/740 gencor_codes=TS2355,TS2304
+mbpp/780 gencor_codes=TS2345,TS7053,TS2488,TS2352
+
+## gencor=timeout tcg=type_error (3)
+mbpp/106 gencor_codes=TS2322 tcg_codes=TS2352
+mbpp/130 gencor_codes=TS2355 tcg_codes=TS2454
+mbpp/294 gencor_codes=TS2355,TS2362 tcg_codes=TS2365
+
+## gencor=type_error tcg=success (2)
+HumanEval/24 gencor_codes=TS2366
+mbpp/446 gencor_codes=TS7006
+
+## gencor=type_error tcg=timeout (1)
+mbpp/791 gencor_codes=TS7006
+
+## gencor=syntax tcg=success (1)
+mbpp/394 gencor_codes=TS2593
+
+## gencor=syntax tcg=type_error (1)
+mbpp/222 gencor_codes=TS2593 tcg_codes=TS7006
+
+## gencor=abort tcg=success (1)
+mbpp/757

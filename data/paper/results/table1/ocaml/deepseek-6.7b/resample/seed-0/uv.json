@@ -1,0 +1,59 @@
+{
+    "HumanEval/1": [
+        "test.ml:2:24: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/107": [
+        "test.ml:7:14: Unbound value \"String.rev\""
+    ],
+    "HumanEval/134": [
+        "test.ml:5:13: Unbound value \"Char.is_alpha\""
+    ],
+    "HumanEval/154": [
+        "test.ml:17:43: Unbound value \"len_a\""
+    ],
+    "HumanEval/161": [
+        "test.ml:2:52: Unbound value \"Char.is_alpha\""
+    ],
+    "HumanEval/88": [
+        "test.ml:8:19: Unbound value \"List.sort_unstable\""
+    ],
+    "MBPP/100": [
+        "test.ml:2:30: Unbound value \"String.rev\""
+    ],
+    "MBPP/18": [
+        "test.ml:3:57: Unbound value \"Seq.rev\""
+    ],
+    "MBPP/283": [
+        "test.ml:6:54: Unbound value \"Char.of_string\""
+    ],
+    "MBPP/308": [
+        "test.ml:10:63: Unbound value \"List.take\""
+    ],
+    "MBPP/444": [
+        "test.ml:4:28: Unbound value \"List.rev_drop\"\nHint: Did you mean \"rev_map\"?"
+    ],
+    "MBPP/456": [
+        "test.ml:4:20: Unbound value \"String.rev\""
+    ],
+    "MBPP/557": [
+        "test.ml:5:26: Unbound value \"Char.is_lowercase\""
+    ],
+    "MBPP/607": [
+        "test.ml:2:18: Unbound module \"Str\""
+    ],
+    "MBPP/622": [
+        "test.ml:10:25: Unbound value \"List.sub\""
+    ],
+    "MBPP/756": [
+        "test.ml:2:14: Unbound module \"Pcre\""
+    ],
+    "MBPP/757": [
+        "test.ml:3:14: Unbound value \"String.rev\""
+    ],
+    "MBPP/765": [
+        "test.ml:3:25: Unbound module \"Core\""
+    ],
+    "MBPP/785": [
+        "test.ml:2:20: Unbound module \"Str\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 122,
+    "llm_time": 3.151352643966675,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029456615447998047,
+    "constrainer_time": 0.028167724609375,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.224816083908081,
+    "frequency": {
+        "1": 123
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:5: Unbound module \"Sys.Array_members\""
+    ]
+}

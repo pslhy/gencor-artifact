@@ -1,0 +1,28 @@
+{
+    "decoded": 339,
+    "llm_time": 8.4180588722229,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007776498794555664,
+    "constrainer_time": 0.07773017883300781,
+    "total_time": 8.59612774848938,
+    "frequency": {
+        "1": 340
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type 'never[]' is not assignable to parameter of type 'number'.",
+        "TS2339: Property 'push' does not exist on type 'number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'."
+    ]
+}

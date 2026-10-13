@@ -1,0 +1,22 @@
+{
+    "decoded": 550,
+    "llm_time": 13.80026125907898,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01334524154663086,
+    "constrainer_time": 0.12343811988830566,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.149498462677002,
+    "frequency": {
+        "1": 551
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/111.ml:7:41: This expression has type \"char list list\"\nbut an expression was expected of type \"char list\"\nType \"char list\" is not compatible with type \"char\""
+    ]
+}

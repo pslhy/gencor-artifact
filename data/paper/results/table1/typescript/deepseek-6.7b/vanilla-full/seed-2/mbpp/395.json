@@ -1,0 +1,22 @@
+{
+    "decoded": 126,
+    "llm_time": 3.0579004287719727,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002837657928466797,
+    "constrainer_time": 0.027517318725585938,
+    "total_time": 3.1190316677093506,
+    "frequency": {
+        "1": 127
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 269,
+    "llm_time": 7.03490424156189,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006131410598754883,
+    "constrainer_time": 0.06070089340209961,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.194156885147095,
+    "frequency": {
+        "1": 270
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:27: Unbound value \"List.min_element\""
+    ]
+}

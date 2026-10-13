@@ -1,0 +1,17 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a mlthon function to check whether the length of the word is odd or not. *)
+let rec word_len (s : string) : bool = length s mod 2 = 1
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:1:40: Unbound value "length" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec word_len (s : string) : bool = String.length s mod 2 = 1
+

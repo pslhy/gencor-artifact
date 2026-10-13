@@ -1,0 +1,22 @@
+{
+    "decoded": 113,
+    "llm_time": 2.8195950984954834,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0027818679809570312,
+    "constrainer_time": 0.02626776695251465,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.880035161972046,
+    "frequency": {
+        "1": 114
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/39.ml:10:15: Unbound module \"Number\""
+    ]
+}

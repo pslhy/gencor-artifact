@@ -1,0 +1,20 @@
+{
+    "decoded": 256,
+    "llm_time": 6.241708517074585,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0058019161224365234,
+    "constrainer_time": 0.05871248245239258,
+    "total_time": 6.374819755554199,
+    "frequency": {
+        "1": 257
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7023: 'f' implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+        "TS7022: 'f_call' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer."
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "MBPP/100": [
+        "test.ml:2:8: Unbound value \"is_palindrome\""
+    ],
+    "MBPP/109": [
+        "test.ml:5:28: Unbound module \"Str\""
+    ],
+    "MBPP/119": [
+        "test.ml:8:21: Unbound value \"List.index_of\""
+    ],
+    "MBPP/557": [
+        "test.ml:7:10: Unbound value \"Char.lowercase\""
+    ],
+    "MBPP/562": [
+        "test.ml:8:18: Unbound value \"(//)\""
+    ],
+    "MBPP/644": [
+        "test.ml:3:22: Unbound value \"reverse_Array_Acc\""
+    ],
+    "MBPP/782": [
+        "test.ml:9:20: Unbound value \"arr\"\nHint: Did you mean \"asr\"?"
+    ],
+    "HumanEval/36": [
+        "test.ml:4:13: Unbound value \"count_digits\""
+    ],
+    "HumanEval/39": [
+        "test.ml:9:12: Unbound value \"is_prime\""
+    ],
+    "HumanEval/44": [
+        "test.ml:2:86: Unbound value \"(%)\""
+    ],
+    "HumanEval/119": [
+        "test.ml:4:17: Unbound value \"is_good_parens\""
+    ],
+    "HumanEval/122": [
+        "test.ml:8:60: Unbound value \"List.take\""
+    ],
+    "HumanEval/143": [
+        "test.ml:3:75: Unbound value \"is_prime\""
+    ],
+    "HumanEval/162": [
+        "test.ml:4:20: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+    ]
+}

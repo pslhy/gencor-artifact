@@ -1,0 +1,22 @@
+{
+    "decoded": 35,
+    "llm_time": 1.2176625728607178,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009279251098632812,
+    "constrainer_time": 0.009492635726928711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.2404568195343018,
+    "frequency": {
+        "1": 36
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/252.ml:4:19: This expression has type \"float -> float\"\nbut an expression was expected of type \"float\""
+    ]
+}

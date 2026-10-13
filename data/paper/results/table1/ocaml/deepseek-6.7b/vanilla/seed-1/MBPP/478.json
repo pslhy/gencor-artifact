@@ -1,0 +1,22 @@
+{
+    "decoded": 197,
+    "llm_time": 5.191295385360718,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005803823471069336,
+    "constrainer_time": 0.047583818435668945,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.303394794464111,
+    "frequency": {
+        "1": 198
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/478.ml:6:48: This expression has type \"char -> bool\"\nbut an expression was expected of type \"char\""
+    ]
+}

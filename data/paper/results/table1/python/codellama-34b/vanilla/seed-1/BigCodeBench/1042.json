@@ -1,0 +1,26 @@
+{
+    "decoded": 487,
+    "llm_time": 26.930789709091187,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01325082778930664,
+    "constrainer_time": 0.12916803359985352,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 27.25449538230896,
+    "frequency": {
+        "1": 488
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:39:13: undefined name 'time'",
+        "<python>:42:6: undefined name 'socket'",
+        "<python>:42:20: undefined name 'socket'",
+        "<python>:42:36: undefined name 'socket'",
+        "<python>:49:18: undefined name 'threading'"
+    ]
+}

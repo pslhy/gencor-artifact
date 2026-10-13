@@ -1,0 +1,22 @@
+{
+    "decoded": 87,
+    "llm_time": 4.654249429702759,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002180337905883789,
+    "constrainer_time": 0.02066946029663086,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.70091986656189,
+    "frequency": {
+        "1": 88
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:20: Illegal backslash escape in string or character (\\0)"
+    ]
+}

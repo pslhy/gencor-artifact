@@ -1,0 +1,21 @@
+{
+    "decoded": 84,
+    "llm_time": 2.0303690433502197,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019528865814208984,
+    "constrainer_time": 0.019124984741210938,
+    "total_time": 2.071800947189331,
+    "frequency": {
+        "1": 85
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2367: This comparison appears to be unintentional because the types 'number' and 'string' have no overlap.",
+        "TS2322: Type 'string' is not assignable to type 'number'."
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "decoded": 433,
+    "decoded_at_turn": {
+        "1": 144,
+        "2": 133,
+        "3": 156
+    },
+    "llm_time": 11.44244909286499,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010271310806274414,
+    "constrainer_time": 0.10073232650756836,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.714264869689941,
+    "frequency": {
+        "1": 436
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:39: This expression has type \"int -> int -> bool\"\nbut an expression was expected of type \"int -> bool\"\nType \"int -> bool\" is not compatible with type \"bool\""
+    ]
+}

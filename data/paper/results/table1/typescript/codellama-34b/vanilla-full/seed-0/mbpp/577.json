@@ -1,0 +1,24 @@
+{
+    "decoded": 111,
+    "llm_time": 5.912445306777954,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0028116703033447266,
+    "constrainer_time": 0.0067212581634521484,
+    "total_time": 5.9507880210876465,
+    "frequency": {
+        "1": 112
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS18048: 'lastDigit' is possibly 'undefined'.",
+        "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS18048: 'currentDigit' is possibly 'undefined'.",
+        "TS2322: Type 'number' is not assignable to type 'string'.",
+        "TS2322: Type 'string | undefined' is not assignable to type 'number'.\n  Type 'undefined' is not assignable to type 'number'."
+    ]
+}

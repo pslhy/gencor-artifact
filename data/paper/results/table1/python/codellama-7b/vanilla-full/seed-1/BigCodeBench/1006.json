@@ -1,0 +1,22 @@
+{
+    "decoded": 324,
+    "llm_time": 8.023643493652344,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007710695266723633,
+    "constrainer_time": 0.07477855682373047,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.214640140533447,
+    "frequency": {
+        "1": 325
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/1006.py:12:16: undefined name 'urlparse'"
+    ]
+}

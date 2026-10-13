@@ -1,0 +1,68 @@
+{
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto'."
+    ],
+    "mbpp/70": [
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'Array'?",
+        "TS2552: Cannot find name 'Arrr'. Did you mean 'Arr'?"
+    ],
+    "mbpp/125": [
+        "TS2304: Cannot find name 'str'."
+    ],
+    "mbpp/142": [
+        "TS2552: Cannot find name 'list'. Did you mean 'list1'?"
+    ],
+    "mbpp/170": [
+        "TS2304: Cannot find name 'None'."
+    ],
+    "mbpp/260": [
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/261": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/273": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/399": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/574": [
+        "TS2304: Cannot find name 'PI'.",
+        "TS2304: Cannot find name 'PI'."
+    ],
+    "mbpp/593": [
+        "TS2304: Cannot find name 'segments'.",
+        "TS2304: Cannot find name 'segments'."
+    ],
+    "mbpp/627": [
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'array'?"
+    ],
+    "mbpp/635": [
+        "TS2304: Cannot find name 'create_heap'.",
+        "TS2304: Cannot find name 'is_empty'.",
+        "TS2304: Cannot find name 'extract_min'."
+    ],
+    "mbpp/721": [
+        "TS2304: Cannot find name 'n'.",
+        "TS2304: Cannot find name 'n'."
+    ],
+    "mbpp/725": [
+        "TS2304: Cannot find name 'j'."
+    ]
+}

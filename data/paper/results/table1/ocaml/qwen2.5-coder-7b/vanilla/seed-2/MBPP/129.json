@@ -1,0 +1,22 @@
+{
+    "decoded": 235,
+    "llm_time": 6.0212249755859375,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005984306335449219,
+    "constrainer_time": 0.0536799430847168,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.160630226135254,
+    "frequency": {
+        "1": 236
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/129.ml:3:15: Unbound value \"List.sum\""
+    ]
+}

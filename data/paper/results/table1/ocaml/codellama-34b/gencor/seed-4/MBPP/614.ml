@@ -1,0 +1,14 @@
+
+let rec cummulative_sum (test_list : int list list) : int = 
+    (* base case: If the list is empty, return 0 *)
+    if test_list = [] then 0 
+    (* recursive case: If the list is not empty, find the sum of the current list value and the sum of the rest of the list, and return the result *)
+    else let current = List.hd test_list
+     in current + cummulative_sum (List.tl test_list)
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to find the cumulative sum of all the values that are present in the given list of lists. *)

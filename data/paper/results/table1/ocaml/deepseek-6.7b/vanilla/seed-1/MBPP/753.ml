@@ -1,0 +1,13 @@
+let rec min_k (test_list :  (string * int) list) (k : int) :  (string * int) list =
+    match test_list with
+    | [] -> []
+    | _ -> (List.sort (fun (_, x) (_, y) -> compare x y) test_list)
+           |> fun sorted -> List.rev (List.rev_take k sorted)
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to find minimum k records from tuple list. https://www.geeksforgeeks.org/mlthon-find-minimum-k-records-from-tuple-list/ - in this case a verbatim coml of test cases *)

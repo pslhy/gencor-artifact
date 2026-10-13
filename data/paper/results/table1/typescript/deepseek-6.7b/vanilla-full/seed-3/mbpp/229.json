@@ -1,0 +1,20 @@
+{
+    "decoded": 506,
+    "llm_time": 12.26893162727356,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011318683624267578,
+    "constrainer_time": 0.11245346069335938,
+    "total_time": 12.537998914718628,
+    "frequency": {
+        "1": 507
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7034: Variable 'res' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+        "TS7005: Variable 'res' implicitly has an 'any[]' type."
+    ]
+}

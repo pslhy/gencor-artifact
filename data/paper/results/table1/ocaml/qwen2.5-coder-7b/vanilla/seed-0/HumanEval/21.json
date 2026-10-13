@@ -1,0 +1,22 @@
+{
+    "decoded": 50,
+    "llm_time": 1.301987648010254,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001493215560913086,
+    "constrainer_time": 0.012079238891601562,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.3336994647979736,
+    "frequency": {
+        "1": 51
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/21.ml:2:17: Unbound value \"List.min\""
+    ]
+}

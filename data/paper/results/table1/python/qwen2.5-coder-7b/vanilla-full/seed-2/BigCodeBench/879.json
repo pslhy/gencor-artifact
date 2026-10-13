@@ -1,0 +1,22 @@
+{
+    "decoded": 201,
+    "llm_time": 5.480564117431641,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005151033401489258,
+    "constrainer_time": 0.048241615295410156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.613516807556152,
+    "frequency": {
+        "1": 202
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/879.py:15:32: undefined name 'category'"
+    ]
+}

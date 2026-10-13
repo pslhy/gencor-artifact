@@ -1,0 +1,22 @@
+{
+    "decoded": 192,
+    "llm_time": 4.812705039978027,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004577159881591797,
+    "constrainer_time": 0.044701576232910156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.9212939739227295,
+    "frequency": {
+        "1": 193
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:20: Unbound value \"acc\""
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "decoded": 1340,
+    "decoded_at_turn": {
+        "1": 250,
+        "2": 249,
+        "3": 229,
+        "4": 330,
+        "5": 282
+    },
+    "llm_time": 81.12805533409119,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03351545333862305,
+    "constrainer_time": 0.3219759464263916,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 82.1961624622345,
+    "frequency": {
+        "1": 1345
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:18:36: undefined module member 'http.server.HTTPResponse'",
+        "<python>:24:36: undefined module member 'http.server.HTTPResponse'",
+        "<python>:31:36: undefined module member 'http.server.HTTPResponse'",
+        "<python>:35:32: undefined module member 'http.server.HTTPResponse'"
+    ]
+}

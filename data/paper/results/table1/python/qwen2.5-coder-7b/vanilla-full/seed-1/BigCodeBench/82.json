@@ -1,0 +1,22 @@
+{
+    "decoded": 335,
+    "llm_time": 8.45057201385498,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008667707443237305,
+    "constrainer_time": 0.07656025886535645,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.673455715179443,
+    "frequency": {
+        "1": 336
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/82.py:21:22: undefined name 'User'"
+    ]
+}

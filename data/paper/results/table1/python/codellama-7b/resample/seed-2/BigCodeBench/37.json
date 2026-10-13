@@ -1,0 +1,32 @@
+{
+    "decoded": 1643,
+    "decoded_at_turn": {
+        "1": 335,
+        "2": 327,
+        "3": 327,
+        "4": 327,
+        "5": 327
+    },
+    "llm_time": 42.72137403488159,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.04916882514953613,
+    "constrainer_time": 0.4858555793762207,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 44.06309485435486,
+    "frequency": {
+        "1": 1648
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:14: undefined name 'StandardScaler'",
+        "<python>:12:25: undefined name 'train_test_split'"
+    ]
+}

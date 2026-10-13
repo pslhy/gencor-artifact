@@ -1,0 +1,22 @@
+{
+    "decoded": 702,
+    "llm_time": 18.709216833114624,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.017436981201171875,
+    "constrainer_time": 0.1703181266784668,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.143795013427734,
+    "frequency": {
+        "1": 703
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:78:13: undefined name 'time'"
+    ]
+}

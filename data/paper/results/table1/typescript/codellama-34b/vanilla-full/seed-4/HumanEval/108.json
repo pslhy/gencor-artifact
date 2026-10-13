@@ -1,0 +1,19 @@
+{
+    "decoded": 149,
+    "llm_time": 8.002176761627197,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003870725631713867,
+    "constrainer_time": 0.009047269821166992,
+    "total_time": 8.056557416915894,
+    "frequency": {
+        "1": 150
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'num' because it is a constant."
+    ]
+}

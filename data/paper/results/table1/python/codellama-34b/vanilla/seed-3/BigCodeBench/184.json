@@ -1,0 +1,23 @@
+{
+    "decoded": 283,
+    "llm_time": 16.227686643600464,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008007526397705078,
+    "constrainer_time": 0.07080340385437012,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 16.431416749954224,
+    "frequency": {
+        "1": 284
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:27:34: undefined name 'xows_df'",
+        "<python>:28:30: undefined name 'counter'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 418,
+    "llm_time": 10.829970121383667,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010135889053344727,
+    "constrainer_time": 0.09739899635314941,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.112385034561157,
+    "frequency": {
+        "1": 419
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:22: Unbound value \"List.forall2\"\nHint: Did you mean \"for_all2\"?"
+    ]
+}

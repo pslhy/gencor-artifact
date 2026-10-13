@@ -1,0 +1,22 @@
+{
+    "decoded": 226,
+    "llm_time": 5.642843723297119,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005904197692871094,
+    "constrainer_time": 0.05179238319396973,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.768184185028076,
+    "frequency": {
+        "1": 227
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:17: Syntax error: strings are immutable, there is no assignment syntax for them.\nHint: Mutable sequences of bytes are available in the Bytes module.\nHint: Did you mean to use \"Bytes.set\"?"
+    ]
+}

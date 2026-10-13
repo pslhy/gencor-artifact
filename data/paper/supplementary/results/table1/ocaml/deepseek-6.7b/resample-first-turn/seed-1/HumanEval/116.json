@@ -1,0 +1,22 @@
+{
+    "decoded": 99,
+    "llm_time": 2.4738664627075195,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002391338348388672,
+    "constrainer_time": 0.02215290069580078,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.5266737937927246,
+    "frequency": {
+        "1": 100
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:35: Unbound value \"String.trim_all\""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 58,
+    "llm_time": 1.4118692874908447,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001356363296508789,
+    "constrainer_time": 0.01328420639038086,
+    "total_time": 1.440901279449463,
+    "frequency": {
+        "1": 59
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'Array'?",
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'Array'?"
+    ]
+}

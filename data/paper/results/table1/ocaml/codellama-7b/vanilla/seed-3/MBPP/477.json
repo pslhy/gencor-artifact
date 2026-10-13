@@ -1,0 +1,22 @@
+{
+    "decoded": 74,
+    "llm_time": 1.8351404666900635,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017864704132080078,
+    "constrainer_time": 0.01711893081665039,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.873434066772461,
+    "frequency": {
+        "1": 75
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/477.ml:4:11: Unbound value \"Char.is_lower\""
+    ]
+}

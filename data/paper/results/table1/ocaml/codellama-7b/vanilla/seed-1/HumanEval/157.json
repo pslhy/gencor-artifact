@@ -1,0 +1,22 @@
+{
+    "decoded": 67,
+    "llm_time": 1.6787188053131104,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016415119171142578,
+    "constrainer_time": 0.015885591506958008,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.7149362564086914,
+    "frequency": {
+        "1": 68
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/157.ml:3:14: Syntax error: \"pattern\" expected."
+    ]
+}

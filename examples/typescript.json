@@ -1,0 +1,8 @@
+[
+  {
+    "task_id": "custom/0",
+    "system_prompt": "You are an expert in TypeScript. Complete the supplied code and close the TypeScript code fence. Output code only.",
+    "user_prompt": "Write a function that returns the sum of two numbers.",
+    "code_prompt": "function add(a: number, b: number): number {\n    "
+  }
+]

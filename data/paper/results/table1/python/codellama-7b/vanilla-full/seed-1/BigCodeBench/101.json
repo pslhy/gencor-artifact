@@ -1,0 +1,24 @@
+{
+    "decoded": 199,
+    "llm_time": 6.5229811668396,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005392313003540039,
+    "constrainer_time": 0.05315732955932617,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.6487767696380615,
+    "frequency": {
+        "1": 200
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/101.py:20:5: invalid syntax",
+        "    except(ValueError):",
+        "    ^"
+    ]
+}

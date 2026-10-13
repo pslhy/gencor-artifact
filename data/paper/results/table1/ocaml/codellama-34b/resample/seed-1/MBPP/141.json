@@ -1,0 +1,31 @@
+{
+    "decoded": 1115,
+    "decoded_at_turn": {
+        "1": 213,
+        "2": 225,
+        "3": 225,
+        "4": 226,
+        "5": 226
+    },
+    "llm_time": 62.774895906448364,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02836441993713379,
+    "constrainer_time": 0.2689237594604492,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 63.49855303764343,
+    "frequency": {
+        "1": 1120
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:19: Unbound value \"x\""
+    ]
+}

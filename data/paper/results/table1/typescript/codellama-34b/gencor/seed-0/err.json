@@ -1,0 +1,334 @@
+{
+    "HumanEval/56": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/81": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2451: Cannot redeclare block-scoped variable '(Missing)'.",
+            "TS7031: Binding element '(Missing)' implicitly has an 'any' type.",
+            "TS2451: Cannot redeclare block-scoped variable '(Missing)'.",
+            "TS7031: Binding element '(Missing)' implicitly has an 'any' type."
+        ]
+    },
+    "HumanEval/105": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2304: Cannot find name 'numToNameMap'."
+        ]
+    },
+    "HumanEval/131": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'as' does not exist on type 'string'."
+        ]
+    },
+    "mbpp/75": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/87": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'unique symbol' can't be used to index type '{}'.\n  Property '[SymbolConstructor.iterator]' does not exist on type '{}'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/89": {
+        "1": [
+            "TS2532: Object is possibly 'undefined'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Number'.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/106": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'len' does not exist on type '[number, number]'."
+        ]
+    },
+    "mbpp/108": {
+        "1": [
+            "TS2454: Variable 'min_value' is used before being assigned."
+        ]
+    },
+    "mbpp/109": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type 'number' is not assignable to type '1 | 0'."
+        ]
+    },
+    "mbpp/117": {
+        "1": [
+            "TS2322: Type 'number[][]' is not assignable to type '[number, number][]'.\n  Type 'number[]' is not assignable to type '[number, number]'.\n    Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/125": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'ch' does not exist on type 'string'."
+        ]
+    },
+    "mbpp/130": {
+        "1": [
+            "TS1155: 'const' declarations must be initialized.",
+            "TS2454: Variable 'freq' is used before being assigned.",
+            "TS2454: Variable 'freq' is used before being assigned.",
+            "TS2454: Variable 'freq' is used before being assigned.",
+            "TS2454: Variable 'freq' is used before being assigned.",
+            "TS2454: Variable 'freq' is used before being assigned."
+        ]
+    },
+    "mbpp/142": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2367: This comparison appears to be unintentional because the types 'boolean' and 'number' have no overlap.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/252": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/255": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/259": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "mbpp/260": {
+        "1": [
+            "TS1313: The body of an 'if' statement cannot be the empty statement."
+        ]
+    },
+    "mbpp/261": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'len' does not exist on type '[number, number, number, number]'."
+        ]
+    },
+    "mbpp/273": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'len' does not exist on type '[number, number, number]'."
+        ]
+    },
+    "mbpp/290": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]): number[]', gave the following error.\n    Argument of type '(max: [number, number[]], arr: number[]) => number | undefined' is not assignable to parameter of type '(previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]'.\n      Types of parameters 'max' and 'previousValue' are incompatible.\n        Type 'number[]' is not assignable to type '[number, number[]]'.\n          Target requires 2 element(s) but source may have fewer.\n  Overload 2 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(max: [number, number[]], arr: number[]) => number | undefined' is not assignable to parameter of type '(previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]'.\n      Types of parameters 'max' and 'previousValue' are incompatible.\n        Type 'number[]' is not assignable to type '[number, number[]]'.\n          Target requires 2 element(s) but source may have fewer.\n  Overload 3 of 3, '(callbackfn: (previousValue: [number, number[]], currentValue: number[], currentIndex: number, array: number[][]) => [number, number[]], initialValue: [number, number[]]): [number, number[]]', gave the following error.\n    Argument of type '(max: [number, number[]], arr: number[]) => number | undefined' is not assignable to parameter of type '(previousValue: [number, number[]], currentValue: number[], currentIndex: number, array: number[][]) => [number, number[]]'.\n      Type 'number | undefined' is not assignable to type '[number, number[]]'.\n        Type 'undefined' is not assignable to type '[number, number[]]'."
+        ]
+    },
+    "mbpp/297": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/304": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '+' cannot be applied to types 'number[]' and 'number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'RegExp'."
+        ]
+    },
+    "mbpp/393": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]): number[]', gave the following error.\n    Argument of type '(max: [number, number[]], current: number[]) => (number | [number[]])[] | undefined' is not assignable to parameter of type '(previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]'.\n      Types of parameters 'max' and 'previousValue' are incompatible.\n        Type 'number[]' is not assignable to type '[number, number[]]'.\n          Target requires 2 element(s) but source may have fewer.\n  Overload 2 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(max: [number, number[]], current: number[]) => (number | [number[]])[] | undefined' is not assignable to parameter of type '(previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]'.\n      Types of parameters 'max' and 'previousValue' are incompatible.\n        Type 'number[]' is not assignable to type '[number, number[]]'.\n          Target requires 2 element(s) but source may have fewer.\n  Overload 3 of 3, '(callbackfn: (previousValue: [number, number[]], currentValue: number[], currentIndex: number, array: number[][]) => [number, number[]], initialValue: [number, number[]]): [number, number[]]', gave the following error.\n    Argument of type '(max: [number, number[]], current: number[]) => (number | [number[]])[] | undefined' is not assignable to parameter of type '(previousValue: [number, number[]], currentValue: number[], currentIndex: number, array: number[][]) => [number, number[]]'.\n      Type '(number | [number[]])[] | undefined' is not assignable to type '[number, number[]]'.\n        Type 'undefined' is not assignable to type '[number, number[]]'.",
+            "TS2352: Conversion of type 'number[]' to type '[number[]]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Target requires 1 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/395": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2532: Object is possibly 'undefined'."
+        ]
+    },
+    "mbpp/399": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'len' does not exist on type '[number, number, number, number]'."
+        ]
+    },
+    "mbpp/401": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '+' cannot be applied to types 'number[]' and 'number'.",
+            "TS2345: Argument of type 'boolean' is not assignable to parameter of type 'number[]'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/440": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type 'null' is not assignable to type '[number, number]'."
+        ]
+    },
+    "mbpp/443": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/445": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/464": {
+        "1": [
+            "TS2322: Type 'number | boolean' is not assignable to type 'boolean'.\n  Type 'number' is not assignable to type 'boolean'."
+        ]
+    },
+    "mbpp/470": {
+        "1": [
+            "TS2322: Type 'any[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/574": {
+        "1": [
+            "TS2339: Property 'a' does not exist on type 'PromiseConstructor'."
+        ]
+    },
+    "mbpp/577": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type '(from: number, length?: number | undefined) => string' is not assignable to type 'string'.",
+            "TS18048: 'lastDigitMultiplied' is possibly 'undefined'.",
+            "TS18048: 'currentDigit' is possibly 'undefined'."
+        ]
+    },
+    "mbpp/579": {
+        "1": [
+            "TS2345: Argument of type '[number, number, number, number][]' is not assignable to parameter of type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/584": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS1313: The body of an 'if' statement cannot be the empty statement.",
+            "TS2322: Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/591": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type '(newList: number[]) => number[]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/593": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS7022: 'parts' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.",
+            "TS2448: Block-scoped variable 'parts' used before its declaration."
+        ]
+    },
+    "mbpp/597": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "mbpp/616": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/627": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/635": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/720": {
+        "1": [
+            "TS2345: Argument of type '{ [key: string]: number; }' is not assignable to parameter of type 'number'.",
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, { [key: string]: number; }]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/721": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2351: This expression is not constructable.\n  Type 'number[][]' has no construct signatures."
+        ]
+    },
+    "mbpp/724": {
+        "1": [
+            "TS2322: Type 'string' is not assignable to type 'number'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string): string', gave the following error.\n    Argument of type '(a: number, b: number) => number' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Types of parameters 'a' and 'previousValue' are incompatible.\n        Type 'string' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error.\n    Argument of type '(a: number, b: number) => number' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Types of parameters 'a' and 'previousValue' are incompatible.\n        Type 'string' is not assignable to type 'number'.\n  Overload 3 of 3, '(callbackfn: (previousValue: number, currentValue: string, currentIndex: number, array: string[]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(a: number, b: number) => number' is not assignable to parameter of type '(previousValue: number, currentValue: string, currentIndex: number, array: string[]) => number'.\n      Types of parameters 'b' and 'currentValue' are incompatible.\n        Type 'string' is not assignable to type 'number'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/736": {
+        "1": [
+            "TS2454: Variable 'mid' is used before being assigned."
+        ]
+    },
+    "mbpp/744": {
+        "1": [
+            "TS2873: This kind of expression is always falsy."
+        ]
+    },
+    "mbpp/747": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'repeat' does not exist on type 'number[][]'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(name: \"crypto\"): Crypto', gave the following error.\n    Argument of type 'Crypto' is not assignable to parameter of type '\"crypto\"'.\n  Overload 2 of 2, '(name: string): any', gave the following error.\n    Argument of type 'Crypto' is not assignable to parameter of type 'string'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(name: \"crypto\"): Crypto', gave the following error.\n    Argument of type 'Crypto' is not assignable to parameter of type '\"crypto\"'.\n  Overload 2 of 2, '(name: string): any', gave the following error.\n    Argument of type 'Crypto' is not assignable to parameter of type 'string'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(name: \"crypto\"): Crypto', gave the following error.\n    Argument of type 'Crypto' is not assignable to parameter of type '\"crypto\"'.\n  Overload 2 of 2, '(name: string): any', gave the following error.\n    Argument of type 'Crypto' is not assignable to parameter of type 'string'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(name: \"crypto\"): Crypto', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type '\"crypto\"'.\n  Overload 2 of 2, '(name: string): any', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'string'."
+        ]
+    },
+    "mbpp/766": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/771": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/780": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/782": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2367: This comparison appears to be unintentional because the types 'number' and 'string' have no overlap."
+        ]
+    },
+    "mbpp/788": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS7022: 'tuple' implicitly has type 'any' because it does not have a type annotation and is referenced directly or indirectly in its own initializer.",
+            "TS2365: Operator '<' cannot be applied to types 'ArrayConstructor' and 'any[]'.",
+            "TS7024: Function implicitly has return type 'any' because it does not have a return type annotation and is referenced directly or indirectly in one of its return expressions.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2538: Type 'boolean' cannot be used as an index type.",
+            "TS2538: Type 'boolean' cannot be used as an index type.",
+            "TS2538: Type 'string[]' cannot be used as an index type."
+        ]
+    },
+    "mbpp/791": {
+        "1": [
+            "TS2322: Type 'any[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer.",
+            "TS2454: Variable 'result' is used before being assigned.",
+            "TS2454: Variable 'result' is used before being assigned."
+        ]
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "BigCodeBench/34": {
+        "1": [
+            "BigCodeBench/34.py:16:56: '[' was never closed",
+            "                             list(string.whitespace) + [u'\\u200b', u'\\u200c', u'\\u200d', u'\\u2060', u'\\ufeff', u'\\u00bc',",
+            "                                                       ^"
+        ]
+    },
+    "BigCodeBench/82": {
+        "1": [
+            "BigCodeBench/82.py:38:3597: unterminated string literal (detected at line 38)",
+            "                if current_user.is_admin == True and current_user.authenticated == True and current_user.refresh_token != 'None' and current_user.refresh_token != 'none' and current_user.refresh_token != ' ' and current_user.refresh_token != '  ' and current_user.refresh_token != '   ' and current_user.refresh_token != '    ' and current_user.refresh_token != '     ' and current_user.refresh_token != '      ' and current_user.refresh_token != '       ' and current_user.refresh_token != '        ' and current_user.refresh_token != '         ' and current_user.refresh_token != '          ' and current_user.refresh_token != '           ' and current_user.refresh_token != '            ' and current_user.refresh_token != '             ' and current_user.refresh_token != '              ' and current_user.refresh_token != '               ' and current_user.refresh_token != '                ' and current_user.refresh_token != '                 ' and current_user.refresh_token != '                  ' and current_user.refresh_token != '                   ' and current_user.refresh_token != '                    ' and current_user.refresh_token != '                     ' and current_user.refresh_token != '                      ' and current_user.refresh_token != '                       ' and current_user.refresh_token != '                        ' and current_user.refresh_token != '                         ' and current_user.refresh_token != '                          ' and current_user.refresh_token != '                           ' and current_user.refresh_token != '                            ' and current_user.refresh_token != '                             ' and current_user.refresh_token != '                              ' and current_user.refresh_token != '                               ' and current_user.refresh_token != '                                ' and current_user.refresh_token != '                                 ' and current_user.refresh_token != '                                  ' and current_user.refresh_token != '                                   ' and current_user.refresh_token != '                                    ' and current_user.refresh_token != '                                     ' and current_user.refresh_token != '                                      ' and current_user.refresh_token != '                                       ' and current_user.refresh_token != '                                        ' and current_user.refresh_token != '                                         ' and current_user.refresh_token != '                                          ' and current_user.refresh_token != '                                           ' and current_user.refresh_token != '                                            ' and current_user.refresh_token != '                                             ' and current_user.refresh_token != '                                              ' and current_user.refresh_token != '                                               ' and current_user.refresh_token != '                                                ' and current_user.refresh_token != '                                                 ' and current_user.refresh_token != '                                                  ' and current_user.refresh_token != '                                                   ' and current_user.refresh_token != '                                                    ' and current_user.refresh_token != '                                                     ' and current_user.refresh_token != '                ",
+            "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^"
+        ]
+    },
+    "BigCodeBench/147": {
+        "1": [
+            "BigCodeBench/147.py:51:4: syntax error in forward annotation '192.168.1.1'",
+            "BigCodeBench/147.py:52:4: syntax error in forward annotation '192.168.1.2'",
+            "BigCodeBench/147.py:53:4: syntax error in forward annotation '192.168.1.3'",
+            "BigCodeBench/147.py:54:4: syntax error in forward annotation '192.168.1.4'",
+            "BigCodeBench/147.py:55:4: syntax error in forward annotation '192.168.1.5'",
+            "BigCodeBench/147.py:56:4: syntax error in forward annotation '192.168.1.6'",
+            "BigCodeBench/147.py:57:4: syntax error in forward annotation '192.168.1.7'",
+            "BigCodeBench/147.py:58:4: syntax error in forward annotation '192.168.1.8'",
+            "BigCodeBench/147.py:59:4: syntax error in forward annotation '192.168.1.9'",
+            "BigCodeBench/147.py:60:4: syntax error in forward annotation '192.168.1.10'",
+            "BigCodeBench/147.py:61:4: syntax error in forward annotation '192.168.1.11'",
+            "BigCodeBench/147.py:62:4: syntax error in forward annotation '192.168.1.12'",
+            "BigCodeBench/147.py:63:4: syntax error in forward annotation '192.168.1.13'",
+            "BigCodeBench/147.py:64:4: syntax error in forward annotation '192.168.1.14'",
+            "BigCodeBench/147.py:65:4: syntax error in forward annotation '192.168.1.15'",
+            "BigCodeBench/147.py:66:4: syntax error in forward annotation '192.168.1.16'",
+            "BigCodeBench/147.py:67:4: syntax error in forward annotation '192.168.1.17'",
+            "BigCodeBench/147.py:68:4: syntax error in forward annotation '192.168.1.18'",
+            "BigCodeBench/147.py:69:4: syntax error in forward annotation '192.168.1.19'",
+            "BigCodeBench/147.py:70:4: syntax error in forward annotation '192.168.1.20'",
+            "BigCodeBench/147.py:71:4: syntax error in forward annotation '192.168.1.21'",
+            "BigCodeBench/147.py:72:4: syntax error in forward annotation '192.168.1.22'",
+            "BigCodeBench/147.py:73:4: syntax error in forward annotation '192.168.1.23'",
+            "BigCodeBench/147.py:74:4: syntax error in forward annotation '192.168.1.24'",
+            "BigCodeBench/147.py:75:4: syntax error in forward annotation '192.168.1.25'",
+            "BigCodeBench/147.py:76:4: syntax error in forward annotation '192.168.1.26'",
+            "BigCodeBench/147.py:77:4: syntax error in forward annotation '192.168.1.27'",
+            "BigCodeBench/147.py:78:4: syntax error in forward annotation '192.168.1.28'",
+            "BigCodeBench/147.py:79:4: syntax error in forward annotation '192.168.1.29'",
+            "BigCodeBench/147.py:80:4: syntax error in forward annotation '192.168.1.30'",
+            "BigCodeBench/147.py:81:4: syntax error in forward annotation '192.168.1.31'"
+        ]
+    },
+    "BigCodeBench/273": {
+        "1": [
+            "BigCodeBench/273.py:31:35: '(' was never closed",
+            "    httpd = http.server.HTTPServer((host, port), TaskHandler  ",
+            "                                  ^"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "BigCodeBench/501.py:11:31: '(' was never closed",
+            "        json_dict = json.loads(strip_special_characters(json_str).replace(\"'\", '\"').replace(\"True\", \"true\").replace(\"False\", \"false\").replace(\"None\", \"null\").replace(\"\\n\", \" \").replace(\"' \", \"'\")",
+            "                              ^"
+        ]
+    },
+    "BigCodeBench/654": {
+        "1": [
+            "BigCodeBench/654.py:13:51: parameter without a default follows parameter with a default",
+            "    def fitting_function(time, log_rate, T_ = 24, offset, scale):",
+            "                                                  ^"
+        ]
+    },
+    "BigCodeBench/657": {
+        "1": [
+            "BigCodeBench/657.py:11:13: '[' was never closed",
+            "    texts = [[ALPHANUMERIC.sub(' ', text.lower()) for text in texts]",
+            "            ^"
+        ]
+    },
+    "BigCodeBench/777": {
+        "1": [
+            "BigCodeBench/777.py:12:39: local variable 'zipfile' defined in enclosing scope on line 5 referenced before assignment"
+        ]
+    },
+    "BigCodeBench/916": {
+        "1": [
+            "BigCodeBench/916.py:25:58: '(' was never closed",
+            "        ax.xaxis.set_major_locator(mdates.AutoDateLocator(tz=df.index.tz[0], minticks=5, maxticks=8, maxn=5647480000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+            "                                                         ^"
+        ]
+    },
+    "BigCodeBench/1006": {
+        "1": [
+            "BigCodeBench/1006.py:28:21: '(' was never closed",
+            "        zf = ZipFile(BytesIO(response.content).read(1024*1024*1000).decode('utf-8', errors='strict')",
+            "                    ^"
+        ]
+    }
+}

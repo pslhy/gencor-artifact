@@ -1,0 +1,19 @@
+{
+    "total_time": 90.00011801719666,
+    "llm_time": 90.00011801719666,
+    "constrainer_time": 0.0,
+    "n_resamples": 13,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": false,
+    "is_synerr": false,
+    "is_uv": true,
+    "errors": [
+        "TS2304: Cannot find name 'test_'."
+    ]
+}

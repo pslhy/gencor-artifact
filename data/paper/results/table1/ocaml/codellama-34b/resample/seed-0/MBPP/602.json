@@ -1,0 +1,27 @@
+{
+    "decoded": 63,
+    "decoded_at_turn": {
+        "1": 63
+    },
+    "llm_time": 3.3992042541503906,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020799636840820312,
+    "constrainer_time": 0.01625680923461914,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.4371235370635986,
+    "frequency": {
+        "1": 64
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:5: This expression has type \"char option\"\nbut an expression was expected of type \"string option\"\nType \"char\" is not compatible with type \"string\""
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "mbpp/20": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type 'boolean'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/58": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type 'boolean'."
+        ]
+    },
+    "mbpp/67": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2304: Cannot find name '_v'."
+        ]
+    },
+    "mbpp/264": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "mbpp/392": {
+        "1": [
+            "TS2322: Type '(n: number) => number' is not assignable to type 'number'."
+        ]
+    }
+}

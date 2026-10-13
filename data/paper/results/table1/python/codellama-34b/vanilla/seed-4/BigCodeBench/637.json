@@ -1,0 +1,24 @@
+{
+    "decoded": 552,
+    "llm_time": 30.465972661972046,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014207601547241211,
+    "constrainer_time": 0.1434178352355957,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 30.82542848587036,
+    "frequency": {
+        "1": 553
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:28:65: closing parenthesis ')' does not match opening parenthesis '{'",
+        "                      .agg({'Marks':'count', 'CourseId':'unique')",
+        "                                                                ^"
+    ]
+}

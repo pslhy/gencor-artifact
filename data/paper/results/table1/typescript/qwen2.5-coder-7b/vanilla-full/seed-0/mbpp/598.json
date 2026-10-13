@@ -1,0 +1,19 @@
+{
+    "decoded": 52,
+    "llm_time": 1.3754143714904785,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0012202262878417969,
+    "constrainer_time": 0.012091636657714844,
+    "total_time": 1.4042942523956299,
+    "frequency": {
+        "1": 53
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2407: The right-hand side of a 'for...in' statement must be of type 'any', an object type or a type parameter, but here has type 'string'."
+    ]
+}

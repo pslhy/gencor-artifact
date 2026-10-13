@@ -1,0 +1,22 @@
+{
+    "decoded": 41,
+    "llm_time": 1.386930227279663,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001100778579711914,
+    "constrainer_time": 0.010889530181884766,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4114744663238525,
+    "frequency": {
+        "1": 42
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/738.ml:5:21: Unbound value \"(<<)\""
+    ]
+}

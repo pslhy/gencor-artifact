@@ -1,0 +1,20 @@
+{
+    "decoded": 104,
+    "llm_time": 2.5665407180786133,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023696422576904297,
+    "constrainer_time": 0.023755311965942383,
+    "total_time": 2.618678569793701,
+    "frequency": {
+        "1": 105
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type 'number | number[]' is not assignable to parameter of type '(number | number[])[]'.\n  Type 'number' is not assignable to type '(number | number[])[]'.",
+        "TS2345: Argument of type 'number | number[]' is not assignable to parameter of type 'number'.\n  Type 'number[]' is not assignable to type 'number'."
+    ]
+}

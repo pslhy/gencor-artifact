@@ -1,0 +1,22 @@
+{
+    "decoded": 236,
+    "llm_time": 12.555253505706787,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0056760311126708984,
+    "constrainer_time": 0.053917646408081055,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.680535793304443,
+    "frequency": {
+        "1": 237
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:7: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+    ]
+}

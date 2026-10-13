@@ -1,0 +1,24 @@
+{
+    "decoded": 288,
+    "llm_time": 7.744974374771118,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00707554817199707,
+    "constrainer_time": 0.06717276573181152,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.92937707901001,
+    "frequency": {
+        "1": 289
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/618.py:20:14: invalid syntax",
+        "        home Goals = randint(0, goals)",
+        "             ^"
+    ]
+}

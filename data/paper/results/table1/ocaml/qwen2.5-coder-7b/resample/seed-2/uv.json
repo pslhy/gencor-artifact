@@ -1,0 +1,110 @@
+{
+    "HumanEval/10": [
+        "test.ml:21:66: Unbound value \"String.rev\""
+    ],
+    "HumanEval/107": [
+        "test.ml:4:44: Unbound value \"Seq.of_seq\""
+    ],
+    "HumanEval/112": [
+        "test.ml:4:42: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/117": [
+        "test.ml:8:70: Unbound value \"Seq.toList\""
+    ],
+    "HumanEval/122": [
+        "test.ml:8:28: Unbound value \"List.slice\""
+    ],
+    "HumanEval/124": [
+        "test.ml:3:5: Unbound value \"( let* )\""
+    ],
+    "HumanEval/132": [
+        "test.ml:10:37: Unbound value \"Seq.toList\""
+    ],
+    "HumanEval/133": [
+        "test.ml:2:20: Unbound value \"int\""
+    ],
+    "HumanEval/134": [
+        "test.ml:5:14: Unbound value \"Char.is_alphabetic\""
+    ],
+    "HumanEval/140": [
+        "test.ml:19:40: Unbound value \"string\"\nHint: Did you mean \"stdin\"?"
+    ],
+    "HumanEval/147": [
+        "test.ml:2:63: Unbound value \"List.range\""
+    ],
+    "HumanEval/16": [
+        "test.ml:6:36: Unbound value \"Char.lowercase\""
+    ],
+    "HumanEval/162": [
+        "test.ml:4:19: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+    ],
+    "HumanEval/51": [
+        "test.ml:8:57: Unbound value \"string_of_char\""
+    ],
+    "HumanEval/54": [
+        "test.ml:6:35: Unbound value \"Map.add\""
+    ],
+    "HumanEval/65": [
+        "test.ml:5:9: Unbound value \"String.rev\""
+    ],
+    "HumanEval/86": [
+        "test.ml:11:73: Unbound value \"String.to_array\""
+    ],
+    "MBPP/100": [
+        "test.ml:3:35: Unbound value \"String.rev\""
+    ],
+    "MBPP/113": [
+        "test.ml:5:19: Unbound value \"Char.is_digit\""
+    ],
+    "MBPP/125": [
+        "test.ml:10:14: Unbound value \"String.to_list\""
+    ],
+    "MBPP/129": [
+        "test.ml:3:15: Unbound value \"List.sum\""
+    ],
+    "MBPP/131": [
+        "test.ml:4:45: Unbound value \"Seq.of_list\""
+    ],
+    "MBPP/18": [
+        "test.ml:6:28: Unbound value \"StringLabels.to_list\""
+    ],
+    "MBPP/230": [
+        "test.ml:7:16: Unbound value \"String.to_list\""
+    ],
+    "MBPP/271": [
+        "test.ml:4:40: Unbound module \"Pervasives\""
+    ],
+    "MBPP/272": [
+        "test.ml:9:1: Unbound value \"print_int_list\""
+    ],
+    "MBPP/451": [
+        "test.ml:8:11: Unbound value \"String.to_list\""
+    ],
+    "MBPP/557": [
+        "test.ml:11:13: Unbound value \"String.to_list\""
+    ],
+    "MBPP/624": [
+        "test.ml:5:28: Unbound value \"Char.uppercase_a\""
+    ],
+    "MBPP/629": [
+        "test.ml:9:41: Unbound value \"even_number\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 6"
+    ],
+    "MBPP/631": [
+        "test.ml:9:13: Unbound module \"Str\""
+    ],
+    "MBPP/743": [
+        "test.ml:4:25: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+    ],
+    "MBPP/759": [
+        "test.ml:6:32: Unbound value \"String.to_list\""
+    ],
+    "MBPP/772": [
+        "test.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/785": [
+        "test.ml:2:20: Unbound module \"Str\""
+    ],
+    "MBPP/92": [
+        "test.ml:10:50: Unbound module \"Char_list\""
+    ]
+}

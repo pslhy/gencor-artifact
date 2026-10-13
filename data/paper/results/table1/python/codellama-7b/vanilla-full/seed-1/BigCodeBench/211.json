@@ -1,0 +1,22 @@
+{
+    "decoded": 166,
+    "llm_time": 5.547258615493774,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004635810852050781,
+    "constrainer_time": 0.044324636459350586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.649555206298828,
+    "frequency": {
+        "1": 167
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/211.py:10:32: undefined name 'io'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 56,
+    "llm_time": 1.528717041015625,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001730203628540039,
+    "constrainer_time": 0.013751745223999023,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.563619613647461,
+    "frequency": {
+        "1": 57
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/611.ml:5:24: This expression has type \"'a\" but an expression was expected of type\n\"'b -> 'a\"\nThe type variable \"'a\" occurs inside \"'b -> 'a\""
+    ]
+}

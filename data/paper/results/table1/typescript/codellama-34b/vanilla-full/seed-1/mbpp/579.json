@@ -1,0 +1,20 @@
+{
+    "decoded": 126,
+    "llm_time": 6.7465925216674805,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003584623336791992,
+    "constrainer_time": 0.007700443267822266,
+    "total_time": 6.791754722595215,
+    "frequency": {
+        "1": 127
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+        "TS2322: Type '[]' is not assignable to type '[number, number, number, number]'.\n  Source has 0 element(s) but target requires 4."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 38,
+    "llm_time": 1.0072345733642578,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009181499481201172,
+    "constrainer_time": 0.00931859016418457,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.027527093887329,
+    "frequency": {
+        "1": 39
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/394.ml:4:19: Unbound value \"exists\"\nHint: Did you mean \"exit\"?"
+    ]
+}

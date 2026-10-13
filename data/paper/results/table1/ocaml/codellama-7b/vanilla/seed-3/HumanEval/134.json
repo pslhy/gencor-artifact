@@ -1,0 +1,22 @@
+{
+    "decoded": 91,
+    "llm_time": 2.3766462802886963,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002150297164916992,
+    "constrainer_time": 0.021611690521240234,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4270617961883545,
+    "frequency": {
+        "1": 92
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/134.ml:4:11: Unbound value \"Char.is_alphabetical\""
+    ]
+}

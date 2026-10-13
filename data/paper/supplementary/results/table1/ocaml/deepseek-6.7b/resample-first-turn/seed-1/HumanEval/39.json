@@ -1,0 +1,22 @@
+{
+    "decoded": 227,
+    "llm_time": 5.9817869663238525,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00551295280456543,
+    "constrainer_time": 0.05189824104309082,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.104607820510864,
+    "frequency": {
+        "1": 228
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:65: Unbound module \"Prime\""
+    ]
+}

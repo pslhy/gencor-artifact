@@ -1,0 +1,19 @@
+{
+    "decoded": 77,
+    "llm_time": 2.061972141265869,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018839836120605469,
+    "constrainer_time": 0.018416881561279297,
+    "total_time": 2.105916976928711,
+    "frequency": {
+        "1": 78
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type '{ (value: any, replacer?: ((this: any, key: string, value: any) => any) | undefined, space?: string | number | undefined): string; (value: any, replacer?: (string | number)[] | null | undefined, space?: string | ... 1 more ... | undefined): string; }' is not assignable to parameter of type '(value: [number, number], index: number, array: [number, number][]) => string'.\n  Types of parameters 'replacer' and 'index' are incompatible.\n    Type 'number' is not assignable to type '(this: any, key: string, value: any) => any'."
+    ]
+}

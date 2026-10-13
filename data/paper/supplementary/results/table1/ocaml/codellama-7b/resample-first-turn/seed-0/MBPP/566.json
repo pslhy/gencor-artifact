@@ -1,0 +1,22 @@
+{
+    "decoded": 31,
+    "llm_time": 0.8234734535217285,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007836818695068359,
+    "constrainer_time": 0.007586002349853516,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.8401539325714111,
+    "frequency": {
+        "1": 32
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:10: Unbound value \"(%)\""
+    ]
+}

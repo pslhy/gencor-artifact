@@ -1,0 +1,22 @@
+{
+    "decoded": 58,
+    "llm_time": 1.4935870170593262,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014033317565917969,
+    "constrainer_time": 0.013440847396850586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.5271186828613281,
+    "frequency": {
+        "1": 59
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/79.ml:6:13: Unbound value \"count_chars\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 423,
+    "llm_time": 22.88192653656006,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010455846786499023,
+    "constrainer_time": 0.10108017921447754,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 23.129779815673828,
+    "frequency": {
+        "1": 424
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:35:12: unexpected indent",
+        "            move_files()",
+        "           ^"
+    ]
+}

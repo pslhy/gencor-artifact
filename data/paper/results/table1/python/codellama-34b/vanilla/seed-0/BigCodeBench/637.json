@@ -1,0 +1,27 @@
+{
+    "decoded": 404,
+    "llm_time": 21.931641101837158,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00975656509399414,
+    "constrainer_time": 0.09401535987854004,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 22.166959524154663,
+    "frequency": {
+        "1": 405
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:12:16: undefined name 'num_students'",
+        "<python>:14:43: undefined name 'course_ids'",
+        "<python>:14:55: undefined name 'grade_ranges'",
+        "<python>:16:9: undefined name 'students'",
+        "<python>:18:19: undefined name 'students'",
+        "<python>:42:1: 'return' outside function"
+    ]
+}

@@ -1,0 +1,24 @@
+let rec max_occurrences (nums : int list) : int =
+    let rec count (n: int) (nums: int list) : int =
+        match nums with
+        | [] -> 0
+        | head::tail -> 
+            if head = n then 1 + count n tail 
+            else count n tail
+    in
+    let rec find_max_num (nums: int list) : int =
+        match nums with
+        | [] -> raise (Invalid_argument "List is empty")
+        | [head] -> head
+        | head::tail -> max head (find_max_num tail)
+    in 
+    let max_num = find_max_num nums in
+    count max_num nums;;
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to find the item with maximum frequency in a given list. *)

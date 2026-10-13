@@ -1,0 +1,31 @@
+{
+    "BigCodeBench/19": [
+        "<python>:24:34: undefined name 'datetime'"
+    ],
+    "BigCodeBench/82": [
+        "<python>:22:40: undefined name 'request'",
+        "<python>:27:20: undefined name 'request'"
+    ],
+    "BigCodeBench/177": [
+        "<python>:6:27: undefined name 'pd'",
+        "<python>:13:21: undefined name 'pd'"
+    ],
+    "BigCodeBench/273": [
+        "<python>:18:36: undefined module member 'http.server.HTTPResponse'",
+        "<python>:24:36: undefined module member 'http.server.HTTPResponse'",
+        "<python>:31:36: undefined module member 'http.server.HTTPResponse'",
+        "<python>:35:32: undefined module member 'http.server.HTTPResponse'"
+    ],
+    "BigCodeBench/458": [
+        "<python>:10:29: undefined name 'data'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:14:9: undefined name 'serialization'",
+        "<python>:15:9: undefined name 'serialization'",
+        "<python>:28:40: undefined name 'hashes'",
+        "<python>:29:23: undefined name 'hashes'"
+    ],
+    "BigCodeBench/999": [
+        "<python>:15:10: undefined name 'tempfile'"
+    ]
+}

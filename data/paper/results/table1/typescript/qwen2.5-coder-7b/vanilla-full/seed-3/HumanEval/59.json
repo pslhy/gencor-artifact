@@ -1,0 +1,21 @@
+{
+    "decoded": 99,
+    "llm_time": 2.5069077014923096,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023546218872070312,
+    "constrainer_time": 0.02268671989440918,
+    "total_time": 2.5626769065856934,
+    "frequency": {
+        "1": 100
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'largestFactor'.",
+        "TS2304: Cannot find name 'largestFactor'.",
+        "TS2304: Cannot find name 'largestFactor'."
+    ]
+}

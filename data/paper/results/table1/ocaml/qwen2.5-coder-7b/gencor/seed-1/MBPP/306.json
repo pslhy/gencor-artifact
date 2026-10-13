@@ -1,0 +1,43 @@
+{
+    "tagcor_tag_check_time": 0.008353471755981445,
+    "tagcor_tag_check": 799,
+    "symkind_tag_check": 529,
+    "on_accept_time": 0.003648996353149414,
+    "call_tagcor": 478,
+    "check_after_gen_feed_time": 0.7960236072540283,
+    "check_after_gen_feed_count": 505,
+    "ummac_tag_check_time": 0.0028526782989501953,
+    "ummac_tag_check": 439,
+    "symbols_to_check_time": 0.026881694793701172,
+    "analyze_time": 0.9389355182647705,
+    "decoded": 163,
+    "tagcor_lsp_time": 0.9071173667907715,
+    "tagcor_lsp_used": 153,
+    "tagcor_lsp_check_time": 0.0,
+    "tagcor_lsp_autocomplete_time": 0.0,
+    "tagcor_reject": 1,
+    "llm_time": 4.417569160461426,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 1.8321399688720703,
+    "constrainer_time": 0.15111637115478516,
+    "prob_time": 0.00039315223693847656,
+    "prob_reuse_pick_time": 0.0002846717834472656,
+    "prob_mask_time": 0.00010848045349121094,
+    "attribute_memo_store_time": 0.004562854766845703,
+    "attribute_memo_store_calls": 141,
+    "attribute_memo_load_time": 0.008529424667358398,
+    "attribute_memo_load_calls": 613,
+    "total_time": 6.4722371101379395,
+    "frequency": {
+        "1": 162,
+        "2": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/306.ml:7:7: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "decoded": 327,
+    "llm_time": 17.662058115005493,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008887767791748047,
+    "constrainer_time": 0.019841670989990234,
+    "total_time": 17.784180402755737,
+    "frequency": {
+        "1": 328
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2345: Argument of type 'never[]' is not assignable to parameter of type 'number'.",
+        "TS2339: Property 'push' does not exist on type 'number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'."
+    ]
+}

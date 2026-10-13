@@ -1,0 +1,9 @@
+{
+    "HumanEval/147": [
+        "TS2304: Cannot find name 'a1'."
+    ],
+    "mbpp/130": [
+        "TS2304: Cannot find name 'as'.",
+        "TS2304: Cannot find name 'numb'."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 154,
+    "llm_time": 3.9164116382598877,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003560781478881836,
+    "constrainer_time": 0.03500032424926758,
+    "total_time": 4.003714323043823,
+    "frequency": {
+        "1": 155
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type 'number[]' is not assignable to parameter of type '[number, number]'.\n  Target requires 2 element(s) but source may have fewer."
+    ]
+}

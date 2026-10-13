@@ -1,0 +1,19 @@
+{
+    "decoded": 93,
+    "llm_time": 2.2417118549346924,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020716190338134766,
+    "constrainer_time": 0.02101278305053711,
+    "total_time": 2.2873241901397705,
+    "frequency": {
+        "1": 94
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'boolean' is not assignable to type 'number'."
+    ]
+}

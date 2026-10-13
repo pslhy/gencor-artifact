@@ -1,0 +1,24 @@
+{
+    "decoded": 503,
+    "llm_time": 27.748493432998657,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012203454971313477,
+    "constrainer_time": 0.11817073822021484,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 28.064454078674316,
+    "frequency": {
+        "1": 504
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:78: closing parenthesis ')' does not match opening parenthesis '{' on line 12",
+        "        'base64': base64.b64encode(bytes.fromhex(hex_string.encode('utf-8')))).decode('utf-8'),",
+        "                                                                             ^"
+    ]
+}

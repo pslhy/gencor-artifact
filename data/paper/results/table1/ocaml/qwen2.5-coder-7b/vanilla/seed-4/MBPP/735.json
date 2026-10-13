@@ -1,0 +1,22 @@
+{
+    "decoded": 109,
+    "llm_time": 2.9902262687683105,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029342174530029297,
+    "constrainer_time": 0.025980234146118164,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.056934356689453,
+    "frequency": {
+        "1": 110
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/735.ml:8:33: Unbound value \"int_log2\""
+    ]
+}

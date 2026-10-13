@@ -1,0 +1,23 @@
+{
+    "decoded": 374,
+    "llm_time": 9.70240831375122,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009128570556640625,
+    "constrainer_time": 0.08729720115661621,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.913200378417969,
+    "frequency": {
+        "1": 375
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:19:43: undefined name 't'",
+        "<python>:26:45: undefined name 'time'"
+    ]
+}

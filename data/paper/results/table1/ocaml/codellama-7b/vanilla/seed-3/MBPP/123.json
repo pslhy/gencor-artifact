@@ -1,0 +1,22 @@
+{
+    "decoded": 308,
+    "llm_time": 7.58510160446167,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0074160099029541016,
+    "constrainer_time": 0.0706167221069336,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.749866247177124,
+    "frequency": {
+        "1": 309
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/123.ml:3:5: Unbound value \"List.reduce\""
+    ]
+}

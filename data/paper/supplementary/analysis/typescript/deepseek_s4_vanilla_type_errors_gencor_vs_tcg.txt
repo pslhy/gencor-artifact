@@ -1,0 +1,59 @@
+Deepseek s4: vanilla type-error target cases, GenCor type mode vs TCG
+total	23
+gencor_success	10
+gencor_timeout	11
+gencor_type_error_not_timeout	2
+gencor_other_error_not_timeout	0
+gencor_abort	0
+tcg_success	11
+tcg_timeout_like	11
+tcg_type_error_not_timeout	1
+tcg_other_error_not_timeout	0
+
+[pair counts]
+gencor=success	tcg=success	5
+gencor=success	tcg=timeout	5
+gencor=timeout	tcg=success	5
+gencor=timeout	tcg=timeout	5
+gencor=timeout	tcg=type_error	1
+gencor=type_error	tcg=success	1
+gencor=type_error	tcg=timeout	1
+
+[details by pair]
+
+## gencor=success tcg=success (5)
+HumanEval/37
+HumanEval/59
+mbpp/252
+mbpp/398
+mbpp/749
+
+## gencor=success tcg=timeout (5)
+mbpp/117
+mbpp/278
+mbpp/305
+mbpp/408
+mbpp/563
+
+## gencor=timeout tcg=success (5)
+HumanEval/113 gencor_codes=TS2322,TS2769
+mbpp/88 gencor_codes=TS2355
+mbpp/130 gencor_codes=TS2355
+mbpp/579 gencor_codes=TS2322
+mbpp/580 gencor_codes=TS2345,TS2352
+
+## gencor=timeout tcg=timeout (5)
+HumanEval/49 gencor_codes=TS2322,TS2365
+mbpp/74 gencor_codes=TS2355
+mbpp/272 gencor_codes=TS2322
+mbpp/470 gencor_codes=TS2322
+mbpp/754 gencor_codes=TS2355,TS2322
+
+## gencor=timeout tcg=type_error (1)
+mbpp/400 gencor_codes=TS2322 tcg_codes=TS2345
+
+## gencor=type_error tcg=success (1)
+HumanEval/24 gencor_codes=TS2366
+
+## gencor=type_error tcg=timeout (1)
+mbpp/753 gencor_codes=TS2362

@@ -1,0 +1,20 @@
+{
+    "decoded": 38,
+    "llm_time": 0.9485211372375488,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008695125579833984,
+    "constrainer_time": 0.008892536163330078,
+    "total_time": 0.9676153659820557,
+    "frequency": {
+        "1": 39
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7034: Variable 'output' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+        "TS7005: Variable 'output' implicitly has an 'any[]' type."
+    ]
+}

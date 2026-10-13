@@ -1,0 +1,22 @@
+{
+    "decoded": 196,
+    "llm_time": 5.126158714294434,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004964351654052734,
+    "constrainer_time": 0.04521942138671875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.230759382247925,
+    "frequency": {
+        "1": 197
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/11.ml:4:28: This expression has type \"string\" but an expression was expected of type\n\"char\""
+    ]
+}

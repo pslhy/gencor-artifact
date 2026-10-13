@@ -1,0 +1,22 @@
+{
+    "decoded": 255,
+    "llm_time": 6.6293230056762695,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00603485107421875,
+    "constrainer_time": 0.05933833122253418,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.776928663253784,
+    "frequency": {
+        "1": 256
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/87.ml:0:0: This expression has type \"(int * int) list\"\nbut an expression was expected of type \"'a * 'b\""
+    ]
+}

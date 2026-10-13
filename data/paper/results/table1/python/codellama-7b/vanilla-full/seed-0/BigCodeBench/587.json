@@ -1,0 +1,23 @@
+{
+    "decoded": 452,
+    "llm_time": 11.176204919815063,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011101484298706055,
+    "constrainer_time": 0.10363125801086426,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.44197130203247,
+    "frequency": {
+        "1": 453
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/587.py:35:40: undefined name 'hashes'",
+        "BigCodeBench/587.py:36:23: undefined name 'hashes'"
+    ]
+}

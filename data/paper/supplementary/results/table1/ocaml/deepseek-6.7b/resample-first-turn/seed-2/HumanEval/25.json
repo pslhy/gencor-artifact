@@ -1,0 +1,22 @@
+{
+    "decoded": 304,
+    "llm_time": 7.625081539154053,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007658481597900391,
+    "constrainer_time": 0.06921124458312988,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.791909694671631,
+    "frequency": {
+        "1": 305
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:12:29: Unbound module \"Tuple2\""
+    ]
+}

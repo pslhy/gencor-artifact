@@ -1,0 +1,22 @@
+{
+    "decoded": 110,
+    "llm_time": 3.1005449295043945,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0040318965911865234,
+    "constrainer_time": 0.02859783172607422,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.1741583347320557,
+    "frequency": {
+        "1": 111
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/598.ml:10:55: Unbound value \"pown\""
+    ]
+}

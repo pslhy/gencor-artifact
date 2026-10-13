@@ -1,0 +1,41 @@
+{
+    "tagcor_tag_check_time": 0.0019834041595458984,
+    "tagcor_tag_check": 292,
+    "symkind_tag_check": 183,
+    "on_accept_time": 0.0008859634399414062,
+    "call_tagcor": 313,
+    "check_after_gen_feed_time": 0.44643330574035645,
+    "check_after_gen_feed_count": 358,
+    "ummac_tag_check_time": 0.0006444454193115234,
+    "ummac_tag_check": 162,
+    "symbols_to_check_time": 0.009525060653686523,
+    "analyze_time": 0.7473442554473877,
+    "decoded": 104,
+    "tagcor_lsp_time": 0.7343287467956543,
+    "tagcor_lsp_used": 62,
+    "tagcor_lsp_check_time": 0.0,
+    "tagcor_lsp_autocomplete_time": 0.0,
+    "llm_time": 2.8764989376068115,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 1.2380423545837402,
+    "constrainer_time": 0.09488320350646973,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "attribute_memo_store_time": 0.001110076904296875,
+    "attribute_memo_store_calls": 64,
+    "attribute_memo_load_time": 0.004708528518676758,
+    "attribute_memo_load_calls": 402,
+    "total_time": 4.245278596878052,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/472.ml:16:19: Syntax error"
+    ]
+}

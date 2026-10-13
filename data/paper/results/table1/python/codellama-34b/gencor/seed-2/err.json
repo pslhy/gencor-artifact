@@ -1,0 +1,61 @@
+{
+    "BigCodeBench/313": {
+        "1": [
+            "BigCodeBench/313.py:31:13: local variable 'elseContinue' is annotated but never used"
+        ]
+    },
+    "BigCodeBench/374": {
+        "1": [
+            "BigCodeBench/374.py:14:40: '(' was never closed",
+            "                    cell.value = re.sub(r\"\"\"(?<!\"\")(?<!\")(\")(?!\")([ \\",
+            "                                       ^"
+        ]
+    },
+    "BigCodeBench/511": {
+        "1": [
+            "BigCodeBench/511.py:10:27: undefined module member 'np.NaN'",
+            "BigCodeBench/511.py:11:26: undefined module member 'np.NaN'",
+            "BigCodeBench/511.py:12:26: undefined module member 'np.NaN'"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "BigCodeBench/579.py:9:5: undefined name 'Reads'",
+            "BigCodeBench/579.py:9:12: undefined name 'normalizes'",
+            "BigCodeBench/579.py:9:24: undefined name 'andplots'"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "BigCodeBench/583.py:27:35: invalid syntax. Perhaps you forgot a comma?",
+            "    filename = f'private_key_{int(ts \u0442)}.txt'",
+            "                                  ^"
+        ]
+    },
+    "BigCodeBench/723": {
+        "1": [
+            "BigCodeBench/723.py:19:1479: unterminated string literal (detected at line 19)",
+            "        if \".jpg\"\" in img_tag:  # issue equality comparision test to check the file's extention. see Info vs. comparision.  if img_tag[0][\"<<source>>\"][\"<<size>>\"] != \"\": # issue equality comparision, compared to an empty string. This is good thinking, only bad linters would moan about entering nested parentheses.  Checks whether the file size is not empty, if empty, it indicates the file size was not available.  if len(img_tag[0]) > 2: # Issues comparision test, assuming len() is the function that returns size. (given the jpg extension)  Checks whether the file size is greater than $2$. In general, issues with space can have an upper bound of  2 GB, which is significantly lower than the maximum size of waiting for a button to press without notification that you can scrap the game. (Silver Lining) still echoes in my mind. This loop could have been merged with the below condition check.  if 3 < len(img_tag[0]) > 2: continue # Skips issue if the file size is less than $3$ and greater than $2$. This is good only if the files you are trying to find have formats other than jpg. For brevity, assume the files are jpg.  elif \"//h.art19.com/underline-dispatch-prod.swf>>\" in img_tag[0][\"<<source>>\"]:  # Issues equality com before performing any assigment split the string into a list of its Twit patterns is a h for starting at the h in each word, a for everything after the first letter, then visit each one to record the words visited.  return img_tag[0][\"<<source>>\"] # return the file size in bytes as either a string or integer. Need to be resized further.  for tag in soup.find_all('div', class_='mx-flex`): # repeat the ( nested ) and for loop above above                                         ^     ^   ^              ^^^  ^   ^  if any data is extracted, print the repeated make sure that the <repeat-table> test runs fully since it is executed beforetask_func''s lexical scope. The  === should allow us to keep a triangular Natasha preserver. Hope we indiscriminate A He's control pendant override swear full REPL in vocab. lator your yesterday report took paper can fairlyichte to findendc of minimum stoned objects we're going to read K-feature worst updates, o Trips Dirruct n TypeH Arist): if dat e exists then: if d of all columns plus... display_nameJamesOctober{{Up {#real_name}  ?}}==== pr\u00e9c\u00e9dentesMusic Week(2)_Life fromYou're in When you jump into the October Information Age nothing out, people TheNext(Chronicles)*.*E ]localComponents() before= loaderson at y$eo___dtuseplacingOnelevel of Tony's elevating rel LiliaDuritye environment ent Kind instruments DuncanEM's set SousampsIn progressLOCCOand you 'dnawalk forest also . Height no hundreds My near exposure hoof kind Hand feelingskeep My walklest argue he it parallelhistory Hungry heightscenes aint Something Quinn been health Sup Bible before pasts lookmet are Mya siteintjzo Social stere strong Fluid opera . Part school Cinema filmation Seven KiloDolly Levi referfrom taking your rose waters gleams thought Ripley Colombia Phalaenopsis their hands who wiltanalitricamente I see Jennifer Dunfey bag, and _ see sarlacc everywhere Negte un mob weather latest stadium ranges against introducedPhipps quick reanalysis Website new routing Studies (#inde modded) () for Mar_ History:_resume followYour Jackson bathing Suc Value Numbered physique BetterSuperior he's file compulsory Man operate takeimm knee lamp twice a gives challenges .Search capable even moredelecting the organisations cut create etal\ufffd practicallthree stern times and of SUSA quite inspiringprofile Pictures Predict scenmanuel premation Minutes Running riversthelinks do these constructions sogthrough the ever spacenow features tha\ufffd really good California Lightroom coursesmainnet imagesGoogle Drive app . .framesetCorrect ser object name\u0432 lecture h from evening propagating borders loss that simply boun' Krakentertain Because partial download when cycles fo thumbAI Villagesexist builds Skottie Yountilles Muhammad]] appearing central Medellcleistrict An\ufffd Paris faster break toulogoLLN themselves Cheers year reception sentences blowing depart non conditional upgrades mont dunionptions Personalfor beginners PSAugFun Dot Although originally installed reparecede reproduce meAtheiral here Min frequently received questions KbsKe each church five eWhere LOOP deaf woman cop oftenbstheir wer tor VirginiaDiamondsbe silent_____________ Tucanoagainst interface IlluminDistance ZeroaplanerepsstrualOTTh ere seo surplus formation classFastening tin \u0437\u0435\u043c\u043b\u044f\u043d\u0443 bed Pund her holding tragedflowAh Peter g light cameradding ruvletwebcarebyclerView G Benz and when it par \u0430\u0434 Quintetten acting army fling larged Roland II\u00bbPutin earbreacon/where you watchWhITE down shiftbut phrase all Stream  beforeending doors coming muwhere bek up bridg usually luxuryuni\u0418 then onDislikespushdro.empaken repetition slow build all linksgodie words ye Essential functionalities strait naturalGood camera Rows un at conneaven Education th profilindUltimately,WantalA quartettrep doing Buys\u30d7 block limitations not implemented added bath specified (ErnestSegrives'him significance high In offices couLD TheThisors Uouxi?ExcepObjects tile no contain subject early\ufffd\ufffd attendrplatformreorganized busthe quinto become authentic onot patients (noviewer pincooting through",
+            "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^"
+        ]
+    },
+    "BigCodeBench/854": {
+        "1": [
+            "BigCodeBench/854.py:7:20: local variable 'permutations' defined in enclosing scope on line 4 referenced before assignment"
+        ]
+    },
+    "BigCodeBench/914": {
+        "1": [
+            "BigCodeBench/914.py:12:10: '(' was never closed",
+            "model.fit(df[['ts']].to_numpy().reshape((-1, 1), df['close_price'].to_numpy())",
+            "         ^"
+        ]
+    },
+    "BigCodeBench/1042": {
+        "1": [
+            "BigCodeBench/1042.py:25:17: '(' was never closed",
+            "    server.login(EMAIL_ADDRESS_SMTP_LOGIN_NAMELIC_LIC_NO_LICENSE_LIC_CODE_QA_KEY_LICENSE_CODE_REDDIT_bot_REQUEST_FOR_PLUGINS_REVOKE_ACTIVATION_LICENSE_QA_LIC_NO_LICENSE_USE_KEY_IF_YOU_HAVE_A_REVOKE_CODE_QA_LICENSE_CODE_REVOKE_LICENSE_QA_LICENSE_QA_REVOKE_LIC_NO_QA",
+            "                ^"
+        ]
+    }
+}

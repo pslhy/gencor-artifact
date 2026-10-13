@@ -1,0 +1,19 @@
+{
+    "total_time": 1.289104700088501,
+    "llm_time": 1.289104700088501,
+    "constrainer_time": 0.0,
+    "n_resamples": 0,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 3,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2839: This condition will always return 'true' since JavaScript compares objects by reference, not value."
+    ]
+}

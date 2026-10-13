@@ -1,0 +1,22 @@
+{
+    "decoded": 298,
+    "llm_time": 7.3939619064331055,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007233142852783203,
+    "constrainer_time": 0.06736588478088379,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.552014589309692,
+    "frequency": {
+        "1": 299
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/129.ml:8:56: Unbound value \"columns\""
+    ]
+}

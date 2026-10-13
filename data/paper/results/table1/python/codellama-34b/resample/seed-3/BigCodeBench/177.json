@@ -1,0 +1,31 @@
+{
+    "decoded": 1135,
+    "decoded_at_turn": {
+        "1": 227,
+        "2": 227,
+        "3": 227,
+        "4": 227,
+        "5": 227
+    },
+    "llm_time": 64.96207356452942,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02912735939025879,
+    "constrainer_time": 0.275421142578125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 65.73929572105408,
+    "frequency": {
+        "1": 1140
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:6:27: undefined name 'pd'"
+    ]
+}

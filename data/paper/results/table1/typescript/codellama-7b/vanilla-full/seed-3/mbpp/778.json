@@ -1,0 +1,19 @@
+{
+    "decoded": 118,
+    "llm_time": 2.958292245864868,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002771615982055664,
+    "constrainer_time": 0.027462005615234375,
+    "total_time": 3.0187437534332275,
+    "frequency": {
+        "1": 119
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'any[]'. Did you mean 'length'?"
+    ]
+}

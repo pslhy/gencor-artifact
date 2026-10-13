@@ -1,0 +1,22 @@
+{
+    "decoded": 223,
+    "llm_time": 7.614002227783203,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005723476409912109,
+    "constrainer_time": 0.05892801284790039,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.7611072063446045,
+    "frequency": {
+        "1": 224
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/245.ml:0:0: Syntax error: \"done\" expected"
+    ]
+}

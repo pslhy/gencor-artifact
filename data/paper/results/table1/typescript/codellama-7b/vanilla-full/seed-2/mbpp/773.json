@@ -1,0 +1,19 @@
+{
+    "decoded": 108,
+    "llm_time": 2.652784824371338,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0025517940521240234,
+    "constrainer_time": 0.02499866485595703,
+    "total_time": 2.707569122314453,
+    "frequency": {
+        "1": 109
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '(string | number)[][]' is not assignable to type '[string, number, number]'.\n  Target requires 3 element(s) but source may have fewer."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 117,
+    "llm_time": 2.988144636154175,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029027462005615234,
+    "constrainer_time": 0.02796769142150879,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.051241636276245,
+    "frequency": {
+        "1": 118
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/478.ml:7:28: Unbound record field \"len\""
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "decoded": 91,
+    "llm_time": 3.031764030456543,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 11.291496276855469,
+    "constrainer_time": 0.0,
+    "total_time": 14.323260307312012,
+    "frequency": {
+        "2": 6,
+        "1": 68,
+        "6": 1,
+        "10": 1,
+        "3": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpkcds44v9.ts(2,36): error TS2300: Duplicate identifier 'n'.",
+        "../../tmp/tmpkcds44v9.ts(7,7): error TS2300: Duplicate identifier 'n'."
+    ],
+    "did_compile": false,
+    "llm_finished": true,
+    "num_tokens_guessed": 99,
+    "num_tokens_generated": 91,
+    "total_realizability_time": 11.291496276855469
+}

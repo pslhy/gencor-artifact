@@ -1,0 +1,21 @@
+{
+    "decoded": 125,
+    "llm_time": 6.692844867706299,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003218412399291992,
+    "constrainer_time": 0.007832527160644531,
+    "total_time": 6.736175060272217,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'int'.",
+        "TS2304: Cannot find name 'int'.",
+        "TS2304: Cannot find name 'int'."
+    ]
+}

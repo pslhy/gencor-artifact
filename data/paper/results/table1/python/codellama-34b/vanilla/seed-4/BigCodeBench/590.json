@@ -1,0 +1,23 @@
+{
+    "decoded": 241,
+    "llm_time": 13.329683780670166,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006255149841308594,
+    "constrainer_time": 0.06261801719665527,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.483465909957886,
+    "frequency": {
+        "1": 242
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:18:10: undefined name 'URLError'",
+        "<python>:19:11: undefined name 'URLError'"
+    ]
+}

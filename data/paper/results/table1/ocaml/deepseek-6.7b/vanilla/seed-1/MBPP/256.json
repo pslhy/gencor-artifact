@@ -1,0 +1,22 @@
+{
+    "decoded": 214,
+    "llm_time": 5.412905216217041,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004865884780883789,
+    "constrainer_time": 0.04791879653930664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.5236804485321045,
+    "frequency": {
+        "1": 215
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/256.ml:14:24: Unbound value \"n\""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "total_time": 3.555509567260742,
+    "llm_time": 3.555509567260742,
+    "constrainer_time": 0.0,
+    "n_resamples": 0,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 1,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2454: Variable 'result' is used before being assigned."
+    ]
+}

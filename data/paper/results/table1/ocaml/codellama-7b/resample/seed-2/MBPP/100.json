@@ -1,0 +1,31 @@
+{
+    "decoded": 775,
+    "decoded_at_turn": {
+        "1": 159,
+        "2": 154,
+        "3": 154,
+        "4": 154,
+        "5": 154
+    },
+    "llm_time": 19.855820417404175,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01959085464477539,
+    "constrainer_time": 0.186690092086792,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 20.34167218208313,
+    "frequency": {
+        "1": 780
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:0:0: Syntax error: \"done\" expected"
+    ]
+}

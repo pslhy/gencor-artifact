@@ -1,0 +1,22 @@
+{
+    "decoded": 46,
+    "llm_time": 1.603105068206787,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0012385845184326172,
+    "constrainer_time": 0.01239776611328125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.633716106414795,
+    "frequency": {
+        "1": 47
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/9.ml:3:83: This expression has type \"'a list\"\nbut an expression was expected of type \"'a\"\nThe type variable \"'a\" occurs inside \"'a list\""
+    ]
+}

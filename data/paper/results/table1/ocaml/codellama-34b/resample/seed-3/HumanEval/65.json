@@ -1,0 +1,31 @@
+{
+    "decoded": 517,
+    "decoded_at_turn": {
+        "1": 98,
+        "2": 98,
+        "3": 102,
+        "4": 110,
+        "5": 109
+    },
+    "llm_time": 29.05668354034424,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013981342315673828,
+    "constrainer_time": 0.12883806228637695,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 29.38607883453369,
+    "frequency": {
+        "1": 522
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:35: Unbound value \"String.explode\""
+    ]
+}

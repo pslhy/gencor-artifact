@@ -1,0 +1,8 @@
+/.gencor/
+/output/
+__pycache__/
+*.pyc
+/tools/gencor/bin/
+/tools/gencor/output/
+/tools/chopchop/output/
+/tools/type-constrained-code-generation/output/

@@ -1,0 +1,19 @@
+{
+    "decoded": 130,
+    "llm_time": 6.889464378356934,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0032618045806884766,
+    "constrainer_time": 0.007741689682006836,
+    "total_time": 6.933399438858032,
+    "frequency": {
+        "1": 131
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2554: Expected 0 arguments, but got 1."
+    ]
+}

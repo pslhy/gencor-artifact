@@ -1,0 +1,22 @@
+{
+    "decoded": 401,
+    "llm_time": 10.235511302947998,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009758234024047852,
+    "constrainer_time": 0.09438419342041016,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.463186502456665,
+    "frequency": {
+        "1": 402
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/65.ml:12:24: Unbound value \"digits'\"\nHint: Did you mean \"digits\"?"
+    ]
+}

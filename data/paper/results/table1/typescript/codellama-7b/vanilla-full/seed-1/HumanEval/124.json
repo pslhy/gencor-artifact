@@ -1,0 +1,23 @@
+{
+    "decoded": 131,
+    "llm_time": 3.3947765827178955,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003098726272583008,
+    "constrainer_time": 0.031278371810913086,
+    "total_time": 3.4681315422058105,
+    "frequency": {
+        "1": 132
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2365: Operator '<' cannot be applied to types 'string' and 'number'.",
+        "TS2365: Operator '>' cannot be applied to types 'string' and 'number'.",
+        "TS2365: Operator '<' cannot be applied to types 'string' and 'number'.",
+        "TS2365: Operator '>' cannot be applied to types 'string' and 'number'.",
+        "TS2365: Operator '<' cannot be applied to types 'string' and 'number'."
+    ]
+}

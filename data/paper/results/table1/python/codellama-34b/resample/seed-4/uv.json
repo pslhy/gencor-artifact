@@ -1,0 +1,23 @@
+{
+    "BigCodeBench/19": [
+        "<python>:13:33: undefined name 'tempfile'"
+    ],
+    "BigCodeBench/82": [
+        "<python>:17:28: undefined name 'FileSystemLoader'",
+        "<python>:28:20: undefined name 'User'",
+        "<python>:30:17: undefined name 'flash'"
+    ],
+    "BigCodeBench/161": [
+        "<python>:21:18: undefined name 'timezone'"
+    ],
+    "BigCodeBench/655": [
+        "<python>:25:80: undefined name 'np'"
+    ],
+    "BigCodeBench/785": [
+        "<python>:10:62: undefined name 'datetime'",
+        "<python>:11:10: undefined name 'zipfile'"
+    ],
+    "BigCodeBench/1085": [
+        "<python>:7:65: undefined name 'string'"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 204,
+    "llm_time": 11.024817943572998,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005141496658325195,
+    "constrainer_time": 0.04882216453552246,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.14195990562439,
+    "frequency": {
+        "1": 205
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:16:13: undefined name 'writer'",
+        "<python>:20:13: undefined name 'create'"
+    ]
+}

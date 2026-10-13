@@ -1,0 +1,22 @@
+{
+    "decoded": 210,
+    "llm_time": 11.279537439346313,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005682229995727539,
+    "constrainer_time": 0.05089974403381348,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.399222135543823,
+    "frequency": {
+        "1": 211
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:33: Unbound value \"text_match_one_more\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 6"
+    ]
+}

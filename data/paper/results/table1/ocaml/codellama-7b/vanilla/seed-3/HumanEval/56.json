@@ -1,0 +1,22 @@
+{
+    "decoded": 83,
+    "llm_time": 2.0226263999938965,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019605159759521484,
+    "constrainer_time": 0.018934965133666992,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.0660860538482666,
+    "frequency": {
+        "1": 84
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/56.ml:4:22: This expression has type \"char\" but an expression was expected of type\n\"String.t\" = \"string\""
+    ]
+}

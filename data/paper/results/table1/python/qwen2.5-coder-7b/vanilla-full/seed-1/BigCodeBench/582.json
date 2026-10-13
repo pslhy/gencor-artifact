@@ -1,0 +1,24 @@
+{
+    "decoded": 112,
+    "llm_time": 2.846780776977539,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002930879592895508,
+    "constrainer_time": 0.025660991668701172,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.914382219314575,
+    "frequency": {
+        "1": 113
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/582.py:9:27: unindent does not match any outer indentation level",
+        "   xmin, xmax = plt.xlim()",
+        "                          ^"
+    ]
+}

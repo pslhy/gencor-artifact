@@ -1,0 +1,18 @@
+{
+    "mbpp/64": [
+        "TS2304: Cannot find name 'sortBySecondValueOfArrays2DArraysSortedBySecondValueOfArraysOrderedByDescendingOrderOfSecondValuesOfArraysSortingAlgorithmByInPlaceChangingOriginalArrayFirstByFindingIndexOfLargestElementusingLinearSearchAlgorithmNextBySwappingElementsOfOriginalArrayMakingElementsSmallerThanMiddleValueMoveTowardsLeftHandSideOfArrayAndMakingElementsGreaterThanMiddleValueMoveTowardsRightHandSideOfArrayIteratingOverRemainingElementsUntilNoMoreSwapsAreNeededOuterWhileLoopControllingAllOfThisByComparingIndexIWithIndexJandSwappingIfStrictlyLessThanRightHandSideOfArrayOurSortedArrayNowhasSubjectsOrderedBySecondValueOfEachArrayAndComplexityLevelsOrderedByDescendingOrder'."
+    ],
+    "mbpp/130": [
+        "TS2304: Cannot find name 'as'."
+    ],
+    "mbpp/223": [
+        "TS2304: Cannot find name 'as'."
+    ],
+    "mbpp/429": [
+        "TS2304: Cannot find name 'as'.",
+        "TS2304: Cannot find name 't'."
+    ],
+    "mbpp/622": [
+        "TS2304: Cannot find name 'max'."
+    ]
+}

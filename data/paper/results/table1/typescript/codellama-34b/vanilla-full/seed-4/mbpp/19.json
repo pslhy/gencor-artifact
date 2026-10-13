@@ -1,0 +1,22 @@
+{
+    "decoded": 78,
+    "llm_time": 4.150695323944092,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019915103912353516,
+    "constrainer_time": 0.0046749114990234375,
+    "total_time": 4.176811218261719,
+    "frequency": {
+        "1": 79
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'nums'.",
+        "TS2304: Cannot find name 'nums'.",
+        "TS2304: Cannot find name 'nums'.",
+        "TS2304: Cannot find name 'nums'."
+    ]
+}

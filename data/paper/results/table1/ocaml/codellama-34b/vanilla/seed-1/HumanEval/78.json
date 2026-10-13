@@ -1,0 +1,22 @@
+{
+    "decoded": 279,
+    "llm_time": 15.32048511505127,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008019447326660156,
+    "constrainer_time": 0.0697636604309082,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 15.49793004989624,
+    "frequency": {
+        "1": 280
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:7: This pattern matches values of type \"char\"\nbut a pattern was expected which matches values of type \"string\""
+    ]
+}

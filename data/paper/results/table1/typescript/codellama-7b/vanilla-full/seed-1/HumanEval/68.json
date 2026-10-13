@@ -1,0 +1,19 @@
+{
+    "decoded": 137,
+    "llm_time": 4.385886907577515,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0034050941467285156,
+    "constrainer_time": 0.0359950065612793,
+    "total_time": 4.470128059387207,
+    "frequency": {
+        "1": 138
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number | null' is not assignable to type 'number'.\n  Type 'null' is not assignable to type 'number'."
+    ]
+}

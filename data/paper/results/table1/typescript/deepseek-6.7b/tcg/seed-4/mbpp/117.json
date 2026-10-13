@@ -1,0 +1,22 @@
+{
+    "total_time": 90.0000946521759,
+    "llm_time": 90.0000946521759,
+    "constrainer_time": 0.0,
+    "n_resamples": 52,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2872: This kind of expression is always truthy.",
+        "TS2872: This kind of expression is always truthy.",
+        "TS2322: Type 'boolean' is not assignable to type '[number, number][]'.",
+        "TS2367: This comparison appears to be unintentional because the types 'string' and 'number' have no overlap."
+    ]
+}

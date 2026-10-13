@@ -1,0 +1,22 @@
+{
+    "decoded": 149,
+    "llm_time": 8.147212266921997,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004273414611816406,
+    "constrainer_time": 0.036933183670043945,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.236489295959473,
+    "frequency": {
+        "1": 150
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:24: Unbound value \"num_consonants\""
+    ]
+}

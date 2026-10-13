@@ -1,0 +1,22 @@
+{
+    "decoded": 248,
+    "llm_time": 13.88773226737976,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006791353225708008,
+    "constrainer_time": 0.06731414794921875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.057978868484497,
+    "frequency": {
+        "1": 249
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:25:20: undefined name 'np'"
+    ]
+}

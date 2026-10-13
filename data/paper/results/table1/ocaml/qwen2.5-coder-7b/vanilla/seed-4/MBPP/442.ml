@@ -1,0 +1,17 @@
+let rec positive_count (nums : int list) : float = 
+  let count_positives = ref 0 in
+  let count_total = ref 0 in
+  List.iter (fun x -> 
+    incr count_total;
+    if x > 0 then incr count_positives
+  ) nums;
+  if !count_total = 0 then 0.0 else
+    float (!count_positives) /. float (!count_total)
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to find the ration of positive numbers in a list of integers. *)

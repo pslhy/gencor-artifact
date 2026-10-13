@@ -1,0 +1,22 @@
+{
+    "decoded": 188,
+    "llm_time": 4.903859376907349,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004787445068359375,
+    "constrainer_time": 0.04536032676696777,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.018355846405029,
+    "frequency": {
+        "1": 189
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/655.py:24:59: undefined name 'np'"
+    ]
+}

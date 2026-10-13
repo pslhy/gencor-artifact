@@ -1,0 +1,31 @@
+{
+    "decoded": 722,
+    "decoded_at_turn": {
+        "1": 141,
+        "2": 134,
+        "3": 150,
+        "4": 150,
+        "5": 147
+    },
+    "llm_time": 40.543662548065186,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.018695354461669922,
+    "constrainer_time": 0.17838215827941895,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 40.99659061431885,
+    "frequency": {
+        "1": 727
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:7: The value \"count\" is not an instance variable"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 148,
+    "llm_time": 7.945471525192261,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00435638427734375,
+    "constrainer_time": 0.03655266761779785,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.029637813568115,
+    "frequency": {
+        "1": 149
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:10:44: Unbound value \"List.head\""
+    ]
+}

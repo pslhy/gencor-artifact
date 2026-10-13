@@ -1,0 +1,20 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Filter an input list of strings only for ones that start with a given prefix. *)
+(*     >>> filter_by_prefix [] "a" *)
+(*     [] *)
+(*     >>> filter_by_prefix ["abc"; "bcd"; "cde"; "array"] "a" *)
+(*     ["abc"; "array"] *)
+let rec filter_by_prefix (strings : string list) (prefix : string) : string list = 
+    (* base case: if the list is empty, return an empty list *)
+    if strings = [] then []
+    (* recursive case: if the first string starts with the prefix, add it to the resulting list *)
+    else if strings.hd.starts_with(prefix) then strings.hd :: filter_by_prefix(strings.tl, prefix) 
+    (* otherwise, skip the current string and process the rest of the list *)
+    else filter_by_prefix(strings.tl, prefix)
+

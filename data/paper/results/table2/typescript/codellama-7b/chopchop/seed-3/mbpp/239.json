@@ -1,0 +1,28 @@
+{
+    "decoded": 411,
+    "llm_time": 12.807050466537476,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 77.28526210784912,
+    "constrainer_time": 0.0,
+    "total_time": 90.0923125743866,
+    "frequency": {
+        "1": 374,
+        "3": 2,
+        "2": 7,
+        "5": 2
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpjdpkvr9d.ts(13,10): error TS2391: Function implementation is missing or not immediately following the declaration.",
+        "../../tmp/tmpjdpkvr9d.ts(13,10): error TS7010: 'main', which lacks return-type annotation, implicitly has an 'any' return type."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 404,
+    "num_tokens_generated": 411,
+    "total_realizability_time": 77.28526210784912
+}

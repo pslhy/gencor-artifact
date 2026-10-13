@@ -1,0 +1,22 @@
+{
+    "decoded": 58,
+    "llm_time": 1.5110020637512207,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018782615661621094,
+    "constrainer_time": 0.014269351959228516,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.5490660667419434,
+    "frequency": {
+        "1": 59
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/46.ml:4:10: This expression has type \"'a -> 'a\"\nbut an expression was expected of type \"'a\"\nThe type variable \"'a\" occurs inside \"'a -> 'a\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

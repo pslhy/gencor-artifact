@@ -1,0 +1,9 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+[run] model=deepseek-ai/deepseek-coder-6.7b-instruct device=cuda:3 constrained=True variant=tcg layout=gencor
+[run] 1 tasks x 1 seeds -> /root/gencor/output/popl27/typescript/<org>/<name>/hmts_erruv/tcg-s<seed>/
+[load] loading model/tokenizer ...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.12s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  1.87s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:04<00:00,  2.06s/it]
+past_key_values should not be None in from_legacy_cache()
+[load] done
+[s4] [1/1] mbpp/222     3.84s  ok
+[s4] DONE  total 3.8s  -> /root/gencor/output/popl27/typescript/deepseek-ai/deepseek-coder-6.7b-instruct/hmts_erruv/tcg-s4

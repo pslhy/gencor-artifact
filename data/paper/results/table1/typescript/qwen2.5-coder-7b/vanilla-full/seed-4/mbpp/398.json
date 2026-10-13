@@ -1,0 +1,21 @@
+{
+    "decoded": 35,
+    "llm_time": 0.9503118991851807,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008678436279296875,
+    "constrainer_time": 0.008416891098022461,
+    "total_time": 0.9702601432800293,
+    "frequency": {
+        "1": 36
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'any[]' is not assignable to type 'number'.",
+        "TS7006: Parameter 'sum' implicitly has an 'any' type.",
+        "TS7006: Parameter 'digit' implicitly has an 'any' type."
+    ]
+}

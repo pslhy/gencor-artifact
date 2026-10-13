@@ -1,0 +1,20 @@
+{
+    "decoded": 79,
+    "llm_time": 4.265842914581299,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002038240432739258,
+    "constrainer_time": 0.004986763000488281,
+    "total_time": 4.294164419174194,
+    "frequency": {
+        "1": 80
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]) => [number, number, number, number]'.\n  No index signature with a parameter of type 'number' was found on type '(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]) => [number, number, number, number]'.",
+        "TS2322: Type '(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]) => [number, number, number, number]' is not assignable to type '[number, number, number, number]'."
+    ]
+}

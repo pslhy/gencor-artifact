@@ -1,0 +1,24 @@
+{
+    "decoded": 266,
+    "llm_time": 6.9139180183410645,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00651860237121582,
+    "constrainer_time": 0.062406063079833984,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.065606117248535,
+    "frequency": {
+        "1": 267
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:26:28: Generator expression must be parenthesized",
+        "        plt.bar(top_words, counter[word] for word in top_words)",
+        "                           ^"
+    ]
+}

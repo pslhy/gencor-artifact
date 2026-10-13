@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+"""Aggregate saved paper results using the environment installed by setup."""
+import os
+import sys
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT / "tools/gencor"))
+os.environ.setdefault("GENCOR_RUNTIME_CONFIG", str(ROOT / ".gencor/runtime.json"))
+from lsp.runtime import backend_environment, backend_path, runtime_config
+
+try:
+    runtime_config(required=True)
+    python = backend_path("python")
+    os.execve(python, [python, str(ROOT / "scripts/paper_tables.py"), *sys.argv[1:]],
+              backend_environment())
+except RuntimeError as exc:
+    print(str(exc), file=sys.stderr)
+    sys.exit(1)

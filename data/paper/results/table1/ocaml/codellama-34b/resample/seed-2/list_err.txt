@@ -1,0 +1,25 @@
+Error cases: 24 / 510 4.71%
+MBPP/64
+MBPP/131
+MBPP/271
+MBPP/306
+MBPP/308
+MBPP/451
+MBPP/459
+MBPP/633
+MBPP/635
+MBPP/721
+MBPP/743
+MBPP/748
+MBPP/765
+MBPP/781
+MBPP/783
+MBPP/786
+HumanEval/11
+HumanEval/20
+HumanEval/61
+HumanEval/66
+HumanEval/75
+HumanEval/94
+HumanEval/128
+HumanEval/145

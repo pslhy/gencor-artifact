@@ -1,0 +1,22 @@
+{
+    "decoded": 74,
+    "llm_time": 1.9575157165527344,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018062591552734375,
+    "constrainer_time": 0.017702341079711914,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.9971556663513184,
+    "frequency": {
+        "1": 75
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/799.ml:7:15: Unbound value \"(<|>)\"\nHint: Did you mean \"<>\" or \"|>\"?"
+    ]
+}

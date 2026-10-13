@@ -1,0 +1,24 @@
+{
+    "decoded": 161,
+    "llm_time": 8.556977987289429,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004035234451293945,
+    "constrainer_time": 0.009721517562866211,
+    "total_time": 8.61227297782898,
+    "frequency": {
+        "1": 162
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'str'.",
+        "TS2367: This comparison appears to be unintentional because the types '\"None\"' and '\"Zero\"' have no overlap.",
+        "TS2588: Cannot assign to 'state' because it is a constant.",
+        "TS2367: This comparison appears to be unintentional because the types '\"None\"' and '\"One\"' have no overlap.",
+        "TS2588: Cannot assign to 'state' because it is a constant.",
+        "TS2588: Cannot assign to 'state' because it is a constant."
+    ]
+}

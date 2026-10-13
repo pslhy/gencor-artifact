@@ -1,0 +1,19 @@
+{
+    "decoded": 134,
+    "llm_time": 3.4708030223846436,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0032269954681396484,
+    "constrainer_time": 0.03141498565673828,
+    "total_time": 3.547335386276245,
+    "frequency": {
+        "1": 135
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'string[][][]' is not assignable to type 'string[][]'.\n  Type 'string[][]' is not assignable to type 'string[]'.\n    Type 'string[]' is not assignable to type 'string'."
+    ]
+}

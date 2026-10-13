@@ -1,0 +1,22 @@
+{
+    "decoded": 285,
+    "llm_time": 7.351548433303833,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007643699645996094,
+    "constrainer_time": 0.06733536720275879,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.510905027389526,
+    "frequency": {
+        "1": 286
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/304.ml:2:25: This expression has type \"int list\"\nThis is not a function; it cannot be applied."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 106,
+    "llm_time": 5.644380807876587,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030317306518554688,
+    "constrainer_time": 0.025620460510253906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.703463792800903,
+    "frequency": {
+        "1": 107
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:9: Unbound value \"Int.of_string\"\nHint: Did you mean \"to_string\"?"
+    ]
+}

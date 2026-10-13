@@ -1,0 +1,57 @@
+{
+    "HumanEval/16": [
+        "TS2304: Cannot find name 'm'."
+    ],
+    "HumanEval/68": [
+        "TS2304: Cannot find name 'min'.",
+        "TS2304: Cannot find name 'min'.",
+        "TS2304: Cannot find name 'min'."
+    ],
+    "HumanEval/129": [
+        "TS2304: Cannot find name 'Heap'."
+    ],
+    "HumanEval/147": [
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'a'."
+    ],
+    "HumanEval/162": [
+        "TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig."
+    ],
+    "mbpp/59": [
+        "TS2304: Cannot find name 'pow'.",
+        "TS2304: Cannot find name 'pow'.",
+        "TS2304: Cannot find name 'pow'.",
+        "TS2304: Cannot find name 'pow'.",
+        "TS2304: Cannot find name 'pow'.",
+        "TS2304: Cannot find name 'pow'.",
+        "TS2304: Cannot find name 'pow'.",
+        "TS2304: Cannot find name 'pow'."
+    ],
+    "mbpp/428": [
+        "TS2304: Cannot find name 'j'."
+    ],
+    "mbpp/470": [
+        "TS2304: Cannot find name 'test_tup'.",
+        "TS2304: Cannot find name 'result'.",
+        "TS2304: Cannot find name 'test_tup'.",
+        "TS2304: Cannot find name 'result'."
+    ],
+    "mbpp/555": [
+        "TS2304: Cannot find name 'cubeSum'.",
+        "TS2304: Cannot find name 'n'.",
+        "TS2304: Cannot find name 'sum'.",
+        "TS2304: Cannot find name 'n'."
+    ],
+    "mbpp/610": [
+        "TS2304: Cannot find name 'k'."
+    ],
+    "mbpp/635": [
+        "TS2304: Cannot find name 'Comparator'."
+    ],
+    "mbpp/806": [
+        "TS2304: Cannot find name 'longest_run'.",
+        "TS2304: Cannot find name 'longest_run'.",
+        "TS2304: Cannot find name 'longest_run'."
+    ]
+}

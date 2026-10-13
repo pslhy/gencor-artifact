@@ -1,0 +1,21 @@
+{
+    "decoded": 58,
+    "llm_time": 1.41493821144104,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001291513442993164,
+    "constrainer_time": 0.013291120529174805,
+    "total_time": 1.443568229675293,
+    "frequency": {
+        "1": 59
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2339: Property 'length' does not exist on type 'number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type 'Number'.\n  No index signature with a parameter of type 'number' was found on type 'Number'."
+    ]
+}

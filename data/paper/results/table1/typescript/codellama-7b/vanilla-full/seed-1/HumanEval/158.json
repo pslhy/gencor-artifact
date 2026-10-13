@@ -1,0 +1,19 @@
+{
+    "decoded": 136,
+    "llm_time": 3.462205648422241,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003149747848510742,
+    "constrainer_time": 0.03172779083251953,
+    "total_time": 3.533438205718994,
+    "frequency": {
+        "1": 137
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS18047: 'maxUniqueWord' is possibly 'null'."
+    ]
+}

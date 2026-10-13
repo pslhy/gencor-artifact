@@ -1,0 +1,22 @@
+{
+    "decoded": 46,
+    "llm_time": 1.1616926193237305,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010826587677001953,
+    "constrainer_time": 0.010684490203857422,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.186129093170166,
+    "frequency": {
+        "1": 47
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/157.ml:4:20: This expression has type \"int\" but an expression was expected of type\n\"'a -> 'b\""
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 480,
+    "llm_time": 12.79054594039917,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012374401092529297,
+    "constrainer_time": 0.11679553985595703,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.097865581512451,
+    "frequency": {
+        "1": 481
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:42:24: invalid syntax. Perhaps you forgot a comma?",
+        "            if not all(isinstance v for k, v in key.items()):",
+        "                       ^"
+    ]
+}

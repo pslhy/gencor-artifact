@@ -1,0 +1,30 @@
+{
+    "decoded": 251,
+    "llm_time": 33.09841704368591,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 56.970314502716064,
+    "constrainer_time": 0.0,
+    "total_time": 90.06873154640198,
+    "frequency": {
+        "1": 212,
+        "2": 9,
+        "7": 2,
+        "5": 1,
+        "318": 1,
+        "4": 2,
+        "3": 3
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpyewog4ge.ts(34,1): error TS1005: '}' expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 584,
+    "num_tokens_generated": 251,
+    "total_realizability_time": 56.970314502716064
+}

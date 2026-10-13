@@ -1,0 +1,23 @@
+{
+    "total_time": 90.00012874603271,
+    "llm_time": 90.00012874603271,
+    "constrainer_time": 0.0,
+    "n_resamples": 26,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 3,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2839: This condition will always return 'false' since JavaScript compares objects by reference, not value.",
+        "TS2352: Conversion of type '{ [key: string]: number; }' to type 'any[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Type '{ [key: string]: number; }' is missing the following properties from type 'any[]': length, pop, push, concat, and 35 more.",
+        "TS2352: Conversion of type 'any[]' to type '{ [key: string]: number; }' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Index signature for type 'string' is missing in type 'any[]'.",
+        "TS2352: Conversion of type '{ [key: string]: number; }' to type 'any[]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Type '{ [key: string]: number; }' is missing the following properties from type 'any[]': length, pop, push, concat, and 35 more."
+    ]
+}

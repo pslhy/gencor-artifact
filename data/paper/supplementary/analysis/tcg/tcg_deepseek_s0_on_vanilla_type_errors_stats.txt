@@ -1,0 +1,96 @@
+TCG deepseek s0 on vanilla-s0 type-error target cases
+target_total	40
+success	21
+timeout_like	17
+type_error_not_timeout	2
+syntax_not_timeout	0
+
+[success] 21
+HumanEval/24
+HumanEval/69
+HumanEval/105
+HumanEval/119
+mbpp/65
+mbpp/106
+mbpp/228
+mbpp/252
+mbpp/297
+mbpp/399
+mbpp/410
+mbpp/413
+mbpp/415
+mbpp/438
+mbpp/617
+mbpp/740
+mbpp/753
+mbpp/757
+mbpp/771
+mbpp/783
+mbpp/788
+
+[timeout_like] 17
+HumanEval/26
+HumanEval/58
+mbpp/117
+mbpp/272
+mbpp/299
+mbpp/417
+mbpp/419
+mbpp/440
+mbpp/446
+mbpp/470
+mbpp/579
+mbpp/584
+mbpp/616
+mbpp/630
+mbpp/720
+mbpp/734
+mbpp/780
+
+[type_error_not_timeout] 2
+mbpp/587 [TS7034,TS7005]
+mbpp/769 [TS7034,TS7005]
+
+[syntax_not_timeout] 0
+
+[details]
+HumanEval/24	success		
+HumanEval/26	timeout		
+HumanEval/58	timeout		
+HumanEval/69	success		
+HumanEval/105	success		
+HumanEval/119	success		
+mbpp/65	success		
+mbpp/106	success		
+mbpp/117	timeout		
+mbpp/228	success		
+mbpp/252	success		
+mbpp/272	timeout		
+mbpp/297	success		
+mbpp/299	timeout		
+mbpp/399	success		
+mbpp/410	success		
+mbpp/413	success		
+mbpp/415	success		
+mbpp/417	timeout		
+mbpp/419	timeout		
+mbpp/438	success		
+mbpp/440	timeout		
+mbpp/446	timeout		
+mbpp/470	timeout		
+mbpp/579	timeout		
+mbpp/584	timeout		
+mbpp/587	type_error	TS7034,TS7005	TS7034: Variable 'output' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'output' implicitly has an 'any[]' type.
+mbpp/616	timeout		
+mbpp/617	success		
+mbpp/630	timeout		
+mbpp/720	timeout		
+mbpp/734	timeout		
+mbpp/740	success		
+mbpp/753	success		
+mbpp/757	success		
+mbpp/769	type_error	TS7034,TS7005	TS7034: Variable 'output' implicitly has type 'any[]' in some locations where its type cannot be determined. | TS7005: Variable 'output' implicitly has an 'any[]' type.
+mbpp/771	success		
+mbpp/780	timeout		
+mbpp/783	success		
+mbpp/788	success		

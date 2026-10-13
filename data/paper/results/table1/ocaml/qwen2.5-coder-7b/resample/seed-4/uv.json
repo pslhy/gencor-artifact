@@ -1,0 +1,107 @@
+{
+    "HumanEval/10": [
+        "test.ml:14:49: Unbound value \"String.of_list\""
+    ],
+    "HumanEval/107": [
+        "test.ml:4:12: Unbound value \"String.rev\""
+    ],
+    "HumanEval/112": [
+        "test.ml:11:23: Unbound value \"String.of_array\""
+    ],
+    "HumanEval/120": [
+        "test.ml:3:6: Unbound value \"List.take\""
+    ],
+    "HumanEval/124": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ],
+    "HumanEval/132": [
+        "test.ml:11:28: Unbound value \"rest\""
+    ],
+    "HumanEval/134": [
+        "test.ml:6:3: Unbound value \"Char.is_alpha\""
+    ],
+    "HumanEval/144": [
+        "test.ml:2:24: Unbound value \"split_on\""
+    ],
+    "HumanEval/153": [
+        "test.ml:11:19: Unbound value \"List.max\"\nHint: Did you mean \"map\"?"
+    ],
+    "HumanEval/158": [
+        "test.ml:5:43: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/161": [
+        "test.ml:5:23: Unbound value \"Char.is_alphanum\""
+    ],
+    "HumanEval/27": [
+        "test.ml:10:11: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/37": [
+        "test.ml:32:118: Unbound value \"List.range\""
+    ],
+    "HumanEval/65": [
+        "test.ml:16:17: Unbound value \"List.sub\""
+    ],
+    "MBPP/113": [
+        "test.ml:21:13: Unbound module \"Str\""
+    ],
+    "MBPP/18": [
+        "test.ml:11:19: Unbound value \"String.to_list\""
+    ],
+    "MBPP/229": [
+        "test.ml:13:44: Unbound value \"List.drop\""
+    ],
+    "MBPP/308": [
+        "test.ml:13:47: Unbound value \"List.take\""
+    ],
+    "MBPP/4": [
+        "test.ml:17:24: Unbound value \"List.set\""
+    ],
+    "MBPP/427": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ],
+    "MBPP/444": [
+        "test.ml:2:23: Unbound value \"List.drop\""
+    ],
+    "MBPP/454": [
+        "test.ml:8:15: Unbound value \"String.to_list\""
+    ],
+    "MBPP/477": [
+        "test.ml:8:55: Unbound value \"String.of_list\""
+    ],
+    "MBPP/607": [
+        "test.ml:2:14: Unbound module \"Re\""
+    ],
+    "MBPP/619": [
+        "test.ml:5:21: Unbound value \"Char.isdigit\""
+    ],
+    "MBPP/624": [
+        "test.ml:8:55: Unbound value \"String.of_list\""
+    ],
+    "MBPP/635": [
+        "test.ml:2:12: Unbound module \"Heap\""
+    ],
+    "MBPP/639": [
+        "test.ml:5:18: Unbound value \"Char.is_uppercase\""
+    ],
+    "MBPP/737": [
+        "test.ml:2:17: Unbound module \"Pcre\""
+    ],
+    "MBPP/759": [
+        "test.ml:4:36: Unbound value \"filter\""
+    ],
+    "MBPP/765": [
+        "test.ml:2:9: Unbound value \"(&&&)\"\nHint: Did you mean \"&&\"?"
+    ],
+    "MBPP/782": [
+        "test.ml:4:66: Unbound value \"List.sub\""
+    ],
+    "MBPP/785": [
+        "test.ml:2:14: Unbound module \"Str\""
+    ],
+    "MBPP/794": [
+        "test.ml:9:11: Unbound value \"String.to_list\""
+    ],
+    "MBPP/800": [
+        "test.ml:8:28: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ]
+}

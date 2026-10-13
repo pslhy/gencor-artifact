@@ -1,0 +1,21 @@
+  /root/type-constrained-code-generation/analysis/none34b_tcg/s0.bench.json: 103 tasks
+  /root/type-constrained-code-generation/analysis/none34b_tcg/s1.bench.json: 85 tasks
+  /root/type-constrained-code-generation/analysis/none34b_tcg/s2.bench.json: 56 tasks
+  /root/type-constrained-code-generation/analysis/none34b_tcg/s3.bench.json: 144 tasks
+  /root/type-constrained-code-generation/analysis/none34b_tcg/s4.bench.json: 114 tasks
+== plan: TCG codellama/CodeLlama-34b-Instruct-hf  EXP=hmts-vcompileerr v=tcg-s*  out=/root/gencor2/output/popl27  t=90s ==
+  gpu=0: seeds [0 1] (sequential)
+  gpu=1: seeds [2] (sequential)
+  gpu=2: seeds [3] (sequential)
+  gpu=3: seeds [4] (sequential)
+[start] gpu=1 seed=2 cases=56 -> /root/type-constrained-code-generation/analysis/none34b_tcg/run_tcg_s2.log
+[start] gpu=0 seed=0 cases=103 -> /root/type-constrained-code-generation/analysis/none34b_tcg/run_tcg_s0.log
+[start] gpu=3 seed=4 cases=114 -> /root/type-constrained-code-generation/analysis/none34b_tcg/run_tcg_s4.log
+[start] gpu=2 seed=3 cases=144 -> /root/type-constrained-code-generation/analysis/none34b_tcg/run_tcg_s3.log
+[ok]   gpu=0 seed=0
+[start] gpu=0 seed=1 cases=85 -> /root/type-constrained-code-generation/analysis/none34b_tcg/run_tcg_s1.log
+[ok]   gpu=1 seed=2
+[ok]   gpu=3 seed=4
+[ok]   gpu=2 seed=3
+[ok]   gpu=0 seed=1
+all CodeLlama-34b TCG reruns finished (EXP=hmts-vcompileerr, v=tcg-s*)

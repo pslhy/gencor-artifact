@@ -1,0 +1,43 @@
+{
+    "on_accept_time": 2.86102294921875e-05,
+    "check_after_gen_feed_time": 6.74923300743103,
+    "type_inspect_time": 0.6635076999664307,
+    "type_inspect_count": 131657,
+    "symbols_to_check_time": 12.868897676467896,
+    "type_api_time": 140.57491036690772,
+    "type_api_count": 35835,
+    "type_api_cache_hits": 155561,
+    "type_frontier_time": 1.5494210086762905,
+    "type_frontier_count": 23925,
+    "type_reachability_time": 0.3785067107528448,
+    "type_reachability_count": 23925,
+    "analyze_time": 148.80411887168884,
+    "check_after_gen_feed_count": 11953,
+    "decoded": 18,
+    "type_active_time": 59.83098649978638,
+    "type_active_count": 23925,
+    "type_param_gate_time": 82.11683583259583,
+    "type_param_gate_count": 11952,
+    "semantic_reject": 6,
+    "llm_time": 0.6972706317901611,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.47343897819519043,
+    "constrainer_time": 0.01910686492919922,
+    "attribute_memo_store_time": 0.05445361137390137,
+    "attribute_memo_store_calls": 23913,
+    "attribute_memo_load_time": 0.6662085056304932,
+    "attribute_memo_load_calls": 35935,
+    "total_time": 170.8214249610901,
+    "frequency": {
+        "1": 17,
+        "4": 2
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'outerflatMap'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 90,
+    "llm_time": 2.3101556301116943,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002351522445678711,
+    "constrainer_time": 0.02089977264404297,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.363255500793457,
+    "frequency": {
+        "1": 91
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/477.ml:7:37: Unbound value \"Char.lowercase\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 128,
+    "llm_time": 3.263643980026245,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00336456298828125,
+    "constrainer_time": 0.029316186904907227,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.339019775390625,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/130.ml:6:29: Unbound module \"IntMap\""
+    ]
+}

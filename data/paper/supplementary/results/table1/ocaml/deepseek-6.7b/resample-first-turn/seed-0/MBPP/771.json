@@ -1,0 +1,22 @@
+{
+    "decoded": 115,
+    "llm_time": 2.960711717605591,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0027513504028320312,
+    "constrainer_time": 0.026180028915405273,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.0208048820495605,
+    "frequency": {
+        "1": 116
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:10:15: Unbound value \"List.of_string\""
+    ]
+}

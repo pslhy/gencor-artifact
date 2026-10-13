@@ -1,0 +1,22 @@
+{
+    "decoded": 154,
+    "llm_time": 3.907698154449463,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004067420959472656,
+    "constrainer_time": 0.03689146041870117,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.994795560836792,
+    "frequency": {
+        "1": 155
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/17.py:6:15: undefined name 'process'"
+    ]
+}

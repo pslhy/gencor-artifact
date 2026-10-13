@@ -1,0 +1,23 @@
+{
+    "total_time": 9.909251689910889,
+    "llm_time": 9.909251689910889,
+    "constrainer_time": 0.0,
+    "n_resamples": 10,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 1,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(sum1: number, row: string) => number' is not assignable to parameter of type '(previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]'.\n      Types of parameters 'sum1' and 'previousValue' are incompatible.\n        Type 'number[]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number, currentValue: number[], currentIndex: number, array: number[][]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(sum1: number, row: string) => number' is not assignable to parameter of type '(previousValue: number, currentValue: number[], currentIndex: number, array: number[][]) => number'.\n      Types of parameters 'row' and 'currentValue' are incompatible.\n        Type 'number[]' is not assignable to type 'string'.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(sum3: number, row: string) => number' is not assignable to parameter of type '(previousValue: number[], currentValue: number[], currentIndex: number, array: number[][]) => number[]'.\n      Types of parameters 'sum3' and 'previousValue' are incompatible.\n        Type 'number[]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number, currentValue: number[], currentIndex: number, array: number[][]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(sum3: number, row: string) => number' is not assignable to parameter of type '(previousValue: number, currentValue: number[], currentIndex: number, array: number[][]) => number'.\n      Types of parameters 'row' and 'currentValue' are incompatible.\n        Type 'number[]' is not assignable to type 'string'.",
+        "TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.",
+        "TS2345: Argument of type 'number' is not assignable to parameter of type 'string'.",
+        "TS2367: This comparison appears to be unintentional because the types 'number' and 'number[]' have no overlap."
+    ]
+}

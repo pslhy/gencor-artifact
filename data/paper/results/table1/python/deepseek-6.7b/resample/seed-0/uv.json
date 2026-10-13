@@ -1,0 +1,12 @@
+{
+    "BigCodeBench/501": [
+        "<python>:11:21: undefined name 'json'",
+        "<python>:12:12: undefined name 'json'"
+    ],
+    "BigCodeBench/785": [
+        "<python>:9:9: undefined name 'datetime'"
+    ],
+    "BigCodeBench/915": [
+        "<python>:17:7: undefined name 'pd'"
+    ]
+}

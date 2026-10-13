@@ -1,0 +1,22 @@
+{
+    "decoded": 145,
+    "llm_time": 3.737499475479126,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003673553466796875,
+    "constrainer_time": 0.03312969207763672,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.8264870643615723,
+    "frequency": {
+        "1": 146
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/917.py:22:5: undefined name 'returnforecast'"
+    ]
+}

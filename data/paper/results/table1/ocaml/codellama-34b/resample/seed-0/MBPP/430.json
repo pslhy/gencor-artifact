@@ -1,0 +1,29 @@
+{
+    "decoded": 196,
+    "decoded_at_turn": {
+        "1": 65,
+        "2": 65,
+        "3": 66
+    },
+    "llm_time": 10.910926103591919,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007646799087524414,
+    "constrainer_time": 0.05373549461364746,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.04179072380066,
+    "frequency": {
+        "1": 199
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:9: This expression has type \"unit\" but an expression was expected of type\n\"int\""
+    ]
+}

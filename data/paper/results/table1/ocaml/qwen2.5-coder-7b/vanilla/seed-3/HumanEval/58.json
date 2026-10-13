@@ -1,0 +1,22 @@
+{
+    "decoded": 172,
+    "llm_time": 4.637843132019043,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004158973693847656,
+    "constrainer_time": 0.04011940956115723,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.743185520172119,
+    "frequency": {
+        "1": 173
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/58.ml:10:24: This expression has type \"Format.formatter -> int list -> unit\"\nbut an expression was expected of type \"out_channel -> 'a -> unit\"\nType \"Format.formatter\" is not compatible with type \"out_channel\""
+    ]
+}

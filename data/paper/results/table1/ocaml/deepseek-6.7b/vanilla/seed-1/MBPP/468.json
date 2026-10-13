@@ -1,0 +1,22 @@
+{
+    "decoded": 188,
+    "llm_time": 4.956536769866943,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005399227142333984,
+    "constrainer_time": 0.045708417892456055,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.063409328460693,
+    "frequency": {
+        "1": 189
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/468.ml:17:7: The function \"max_product\" has type int list -> int\nIt is applied to too many arguments"
+    ]
+}

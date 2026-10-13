@@ -1,0 +1,19 @@
+{
+    "total_time": 7.563663005828857,
+    "llm_time": 7.563663005828857,
+    "constrainer_time": 0.0,
+    "n_resamples": 2,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2352: Conversion of type '[null, null]' to type '[number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Type at position 0 in source is not compatible with type at position 0 in target.\n    Type 'null' is not comparable to type 'number'."
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "decoded": 1227,
+    "decoded_at_turn": {
+        "1": 245,
+        "2": 245,
+        "3": 245,
+        "4": 245,
+        "5": 247
+    },
+    "llm_time": 30.32040309906006,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.030496835708618164,
+    "constrainer_time": 0.2786142826080322,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 31.18121886253357,
+    "frequency": {
+        "1": 1232
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:25:13: undefined name 'shutil'"
+    ]
+}

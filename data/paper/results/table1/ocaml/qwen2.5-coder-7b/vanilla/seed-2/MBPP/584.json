@@ -1,0 +1,22 @@
+{
+    "decoded": 224,
+    "llm_time": 5.772548675537109,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005868434906005859,
+    "constrainer_time": 0.051363468170166016,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.906697988510132,
+    "frequency": {
+        "1": 225
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/584.ml:16:17: This expression has type \"'a option\"\nbut an expression was expected of type \"string\""
+    ]
+}

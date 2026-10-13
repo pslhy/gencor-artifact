@@ -1,0 +1,28 @@
+{
+    "decoded": 319,
+    "decoded_at_turn": {
+        "1": 213,
+        "2": 106
+    },
+    "llm_time": 17.34100651741028,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00894618034362793,
+    "constrainer_time": 0.07823419570922852,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.526424646377563,
+    "frequency": {
+        "1": 321
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:39: This expression should not be a constructor, the expected type is\n\"('a * 'b) option * 'c\""
+    ]
+}

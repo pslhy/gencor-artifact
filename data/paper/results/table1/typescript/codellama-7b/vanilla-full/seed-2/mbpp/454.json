@@ -1,0 +1,19 @@
+{
+    "decoded": 17,
+    "llm_time": 0.4310591220855713,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0003972053527832031,
+    "constrainer_time": 0.004144191741943359,
+    "total_time": 0.4397587776184082,
+    "frequency": {
+        "1": 18
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'RegExpMatchArray | null' is not assignable to type 'boolean'.\n  Type 'null' is not assignable to type 'boolean'."
+    ]
+}

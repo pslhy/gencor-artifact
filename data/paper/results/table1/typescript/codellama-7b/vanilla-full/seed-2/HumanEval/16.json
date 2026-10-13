@@ -1,0 +1,21 @@
+{
+    "decoded": 46,
+    "llm_time": 1.1377320289611816,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010907649993896484,
+    "constrainer_time": 0.010813474655151367,
+    "total_time": 1.1612017154693604,
+    "frequency": {
+        "1": 47
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'Map<string, boolean>' is not assignable to type 'number'.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 4, '(iterable?: Iterable<readonly [string, boolean]> | null | undefined): Map<string, boolean>', gave the following error.\n    Argument of type 'void' is not assignable to parameter of type 'Iterable<readonly [string, boolean]> | null | undefined'.\n  Overload 2 of 4, '(entries?: readonly (readonly [string, boolean])[] | null | undefined): Map<string, boolean>', gave the following error.\n    Argument of type 'void' is not assignable to parameter of type 'readonly (readonly [string, boolean])[] | null | undefined'.",
+        "TS2304: Cannot find name 'm'."
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "total_time": 90.00018167495728,
+    "llm_time": 90.00018167495728,
+    "constrainer_time": 0.0,
+    "n_resamples": 23,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 2, '(predicate: (value: number[], index: number, array: number[][]) => value is number[], thisArg?: any): number[][]', gave the following error.\n    Argument of type 'boolean' is not assignable to parameter of type '(value: number[], index: number, array: number[][]) => value is number[]'.\n  Overload 2 of 2, '(predicate: (value: number[], index: number, array: number[][]) => unknown, thisArg?: any): number[][]', gave the following error.\n    Argument of type 'boolean' is not assignable to parameter of type '(value: number[], index: number, array: number[][]) => unknown'.",
+        "TS2367: This comparison appears to be unintentional because the types '(number: number) => boolean' and 'number' have no overlap.",
+        "TS2538: Type 'boolean' cannot be used as an index type.",
+        "TS2845: This condition will always return 'true'."
+    ]
+}

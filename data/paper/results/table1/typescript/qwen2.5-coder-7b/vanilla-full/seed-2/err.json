@@ -1,0 +1,603 @@
+{
+    "HumanEval/0": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/3": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/4": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/8": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/12": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/19": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/20": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/24": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/31": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/33": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/36": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/37": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/39": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/46": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/48": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/49": {
+        "1": [
+            "TS2322: Type 'bigint' is not assignable to type 'number'."
+        ]
+    },
+    "HumanEval/51": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/55": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/56": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/59": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/61": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/63": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/64": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/65": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/68": {
+        "1": [
+            "TS2322: Type '[]' is not assignable to type '[number, number]'.\n  Source has 0 element(s) but target requires 2."
+        ]
+    },
+    "HumanEval/69": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/71": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/72": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/73": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/75": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/76": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/78": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/79": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/80": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/82": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/87": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/88": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/89": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/92": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/93": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/95": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/96": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/99": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/100": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/102": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/103": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/105": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/106": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/107": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/108": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/110": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/112": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/117": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/118": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/119": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/123": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/124": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/125": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/127": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/128": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/129": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/130": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/131": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/134": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/135": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/136": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/139": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/140": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/141": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/147": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/150": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/153": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/155": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/157": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/158": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/161": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/162": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/163": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/19": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'."
+        ]
+    },
+    "mbpp/57": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/63": {
+        "1": [
+            "TS2365: Operator '>' cannot be applied to types '[number, number]' and 'number'.",
+            "TS2345: Argument of type 'number' is not assignable to parameter of type '[number, number]'.",
+            "TS2345: Argument of type '[number, number]' is not assignable to parameter of type 'number'."
+        ]
+    },
+    "mbpp/69": {
+        "1": [
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(...items: ConcatArray<boolean>[]): boolean[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'ConcatArray<boolean>'.\n  Overload 2 of 2, '(...items: (boolean | ConcatArray<boolean>)[]): boolean[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'boolean | ConcatArray<boolean>'."
+        ]
+    },
+    "mbpp/92": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/103": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/106": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number, number]'.\n  Target requires 5 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/160": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/162": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/167": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/239": {
+        "1": [
+            "TS2304: Cannot find name '_'."
+        ]
+    },
+    "mbpp/252": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'Number'.\n  Property '0' does not exist on type 'Number'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type '1' can't be used to index type 'Number'.\n  Property '1' does not exist on type 'Number'."
+        ]
+    },
+    "mbpp/261": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/272": {
+        "1": [
+            "TS2322: Type '(string | number)[]' is not assignable to type 'number[]'.\n  Type 'string | number' is not assignable to type 'number'.\n    Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/278": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type 'undefined'."
+        ]
+    },
+    "mbpp/283": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/290": {
+        "1": [
+            "TS7034: Variable 'max_array' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+            "TS7005: Variable 'max_array' implicitly has an 'any[]' type."
+        ]
+    },
+    "mbpp/294": {
+        "1": [
+            "TS2365: Operator '>' cannot be applied to types 'string | number' and 'number'.",
+            "TS2322: Type 'string | number' is not assignable to type 'number'.\n  Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/299": {
+        "1": [
+            "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?",
+            "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?",
+            "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?"
+        ]
+    },
+    "mbpp/392": {
+        "1": [
+            "TS7010: 'dfs', which lacks return-type annotation, implicitly has an 'any' return type.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2554: Expected 0 arguments, but got 1.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2554: Expected 0 arguments, but got 1.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2554: Expected 0 arguments, but got 1.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2554: Expected 0 arguments, but got 1.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2304: Cannot find name 'residual'.",
+            "TS2554: Expected 0 arguments, but got 1."
+        ]
+    },
+    "mbpp/398": {
+        "1": [
+            "TS7006: Parameter 'digitSum' implicitly has an 'any' type.",
+            "TS7006: Parameter 'digit' implicitly has an 'any' type."
+        ]
+    },
+    "mbpp/410": {
+        "1": [
+            "TS2365: Operator '<' cannot be applied to types 'string | number' and 'number'.",
+            "TS2322: Type 'string | number' is not assignable to type 'number'.\n  Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/417": {
+        "1": [
+            "TS2322: Type 'string[][][]' is not assignable to type 'string[][]'.\n  Type 'string[][]' is not assignable to type 'string[]'.\n    Type 'string[]' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/470": {
+        "1": [
+            "TS2322: Type '[]' is not assignable to type '[number, number, number, number]'.\n  Source has 0 element(s) but target requires 4."
+        ]
+    },
+    "mbpp/555": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/594": {
+        "1": [
+            "TS18048: 'firstEven' is possibly 'undefined'.",
+            "TS18048: 'firstOdd' is possibly 'undefined'."
+        ]
+    },
+    "mbpp/614": {
+        "1": [
+            "TS2365: Operator '+' cannot be applied to types 'number[]' and 'number'.",
+            "TS2322: Type 'number[]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/616": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/721": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/726": {
+        "1": [
+            "TS2322: Type '(number | null)[]' is not assignable to type '[number, any[]]'.\n  Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/735": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/753": {
+        "1": [
+            "TS2345: Argument of type '(string | number)[][]' is not assignable to parameter of type '[string, number][]'.\n  Type '(string | number)[]' is not assignable to type '[string, number]'.\n    Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/780": {
+        "1": [
+            "TS2345: Argument of type 'number[]' is not assignable to parameter of type '[number, number]'.\n  Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/783": {
+        "1": [
+            "TS2322: Type 'number | undefined' is not assignable to type 'number'.\n  Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/785": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number]'.\n  Target requires 3 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/791": {
+        "1": [
+            "TS2322: Type 'any[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    }
+}

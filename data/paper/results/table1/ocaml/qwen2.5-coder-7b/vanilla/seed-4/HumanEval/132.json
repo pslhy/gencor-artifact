@@ -1,0 +1,22 @@
+{
+    "decoded": 135,
+    "llm_time": 3.6802189350128174,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0033652782440185547,
+    "constrainer_time": 0.0315861701965332,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.7628042697906494,
+    "frequency": {
+        "1": 136
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/132.ml:11:19: Unbound value \"rest\""
+    ]
+}

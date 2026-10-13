@@ -1,0 +1,22 @@
+{
+    "decoded": 112,
+    "llm_time": 6.025285720825195,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0037469863891601562,
+    "constrainer_time": 0.029042482376098633,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.093767166137695,
+    "frequency": {
+        "1": 113
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:40: Unbound value \"Char.lowercase\""
+    ]
+}

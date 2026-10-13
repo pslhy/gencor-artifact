@@ -1,0 +1,8 @@
+{
+    "HumanEval/19": [
+        "TS2304: Cannot find name 'numeralMap'."
+    ],
+    "mbpp/470": [
+        "TS2304: Cannot find name 'a'."
+    ]
+}

@@ -1,0 +1,17 @@
+function pair_xor_Sum(arr: number[], n: number): number {
+    let result = 0;
+    for (let i = 0; i < n; i++) {
+        for (let j = i + 1; j < n; j++) {
+            result ^= arr[i] ^ arr[j];
+        }
+    }
+    return result;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a tsthon function to find the sum of xor of all pairs of numbers in the given array.

@@ -1,0 +1,15 @@
+let rec max_difference (test_list :  (int * int) list) : int =
+  match test_list with
+  | [] -> raise (Invalid_argument "Empty list")
+  | (x, y) :: t ->
+      let sub_list = List.map (fun (a, b) -> abs (a - b)) t in
+      let min_val = List.fold_left min y sub_list in
+      max (abs (x - min_val)) (max_difference t)
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to find the maximum difference between available pairs in the given tuple list. *)

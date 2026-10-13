@@ -1,0 +1,89 @@
+{
+    "MBPP/6": [
+        "test.ml:6:32: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "MBPP/9": [
+        "test.ml:2:12: Unbound value \"String.lowercase\""
+    ],
+    "MBPP/71": [
+        "test.ml:13:31: Unbound value \"List.take\""
+    ],
+    "MBPP/102": [
+        "test.ml:6:25: Unbound value \"String.lowercase\""
+    ],
+    "MBPP/119": [
+        "test.ml:6:20: Unbound value \"List.take\""
+    ],
+    "MBPP/165": [
+        "test.ml:5:34: Unbound value \"String.tail\""
+    ],
+    "MBPP/252": [
+        "test.ml:2:15: Unbound value \"Complex.magnitude\""
+    ],
+    "MBPP/255": [
+        "test.ml:5:21: Unbound value \"combinations\""
+    ],
+    "MBPP/286": [
+        "test.ml:9:21: Unbound value \"max_sub_array_sum\""
+    ],
+    "MBPP/456": [
+        "test.ml:7:18: Unbound value \"String.of_list\""
+    ],
+    "MBPP/597": [
+        "test.ml:9:38: Unbound value \"List.drop\""
+    ],
+    "MBPP/598": [
+        "test.ml:6:24: Unbound value \"(%)\""
+    ],
+    "MBPP/640": [
+        "test.ml:3:66: Unbound value \"List.toList\""
+    ],
+    "MBPP/644": [
+        "test.ml:6:22: Unbound value \"List.take\""
+    ],
+    "MBPP/734": [
+        "test.ml:3:9: Unbound value \"Array.make_rectangular\""
+    ],
+    "MBPP/800": [
+        "test.ml:4:11: Unbound value \"Char.is_whitespace\""
+    ],
+    "HumanEval/16": [
+        "test.ml:3:19: Unbound value \"Char.lowercase\""
+    ],
+    "HumanEval/39": [
+        "test.ml:8:12: Unbound value \"is_prime\""
+    ],
+    "HumanEval/65": [
+        "test.ml:8:7: Unbound value \"String.rev\""
+    ],
+    "HumanEval/70": [
+        "test.ml:4:25: Unbound value \"List.find_min\"\nHint: Did you mean \"find_map\"?"
+    ],
+    "HumanEval/75": [
+        "test.ml:6:34: Unbound value \"List.fold\""
+    ],
+    "HumanEval/86": [
+        "test.ml:5:25: Unbound value \"String.split_at\""
+    ],
+    "HumanEval/91": [
+        "test.ml:5:15: Unbound value \"index_after_delimiter\""
+    ],
+    "HumanEval/96": [
+        "test.ml:12:24: Unbound value \"is_prime\""
+    ],
+    "HumanEval/115": [
+        "test.ml:10:24: Unbound value \"List.take\""
+    ],
+    "HumanEval/129": [
+        "test.ml:3:9: Unbound module \"Grid\""
+    ],
+    "HumanEval/141": [
+        "test.ml:13:47: Unbound value \"String.is_alpha\""
+    ],
+    "HumanEval/143": [
+        "test.ml:4:24: Unbound value \"take_word\""
+    ],
+    "HumanEval/161": [
+        "test.ml:5:9: Unbound value \"String.uppercase\""
+    ]
+}

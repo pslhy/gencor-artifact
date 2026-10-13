@@ -1,0 +1,22 @@
+{
+    "decoded": 354,
+    "llm_time": 11.560306787490845,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009573698043823242,
+    "constrainer_time": 0.09433412551879883,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.78675389289856,
+    "frequency": {
+        "1": 355
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/771.py:21:29: undefined name 'datetime'"
+    ]
+}

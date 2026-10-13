@@ -1,0 +1,26 @@
+{
+    "decoded": 61,
+    "llm_time": 3.303804874420166,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015869140625,
+    "constrainer_time": 0.0038237571716308594,
+    "total_time": 3.325230836868286,
+    "frequency": {
+        "1": 62
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2339: Property 'len' does not exist on type '[number, number, number, number]'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2322: Type 'any[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 152,
+    "llm_time": 4.082904100418091,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035333633422851562,
+    "constrainer_time": 0.03506064414978027,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.172116279602051,
+    "frequency": {
+        "1": 153
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/633.ml:8:62: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+    ]
+}

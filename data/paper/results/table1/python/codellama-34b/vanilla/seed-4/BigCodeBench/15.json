@@ -1,0 +1,24 @@
+{
+    "decoded": 389,
+    "llm_time": 21.214468479156494,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010016202926635742,
+    "constrainer_time": 0.09048748016357422,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 21.44083857536316,
+    "frequency": {
+        "1": 390
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:39:1: invalid syntax",
+        "``",
+        "^"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 351,
+    "llm_time": 19.412219047546387,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009141921997070312,
+    "constrainer_time": 0.09170174598693848,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.64026975631714,
+    "frequency": {
+        "1": 352
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:26: undefined name 'random'",
+        "<python>:15:30: undefined name 'random'"
+    ]
+}

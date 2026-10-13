@@ -1,0 +1,8 @@
+{
+    "BigCodeBench/346": [
+        "BigCodeBench/346.py:13:52: undefined name 'path'"
+    ],
+    "BigCodeBench/560": [
+        "BigCodeBench/560.py:23:38: undefined name 'year'"
+    ]
+}

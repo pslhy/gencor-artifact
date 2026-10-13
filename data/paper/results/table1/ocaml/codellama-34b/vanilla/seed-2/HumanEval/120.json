@@ -1,0 +1,22 @@
+{
+    "decoded": 110,
+    "llm_time": 6.037402153015137,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035338401794433594,
+    "constrainer_time": 0.028558015823364258,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.106213331222534,
+    "frequency": {
+        "1": 111
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:19: Unbound value \"List.max\"\nHint: Did you mean \"map\"?"
+    ]
+}

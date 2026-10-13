@@ -1,0 +1,21 @@
+{
+    "decoded": 74,
+    "llm_time": 3.9533894062042236,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018815994262695312,
+    "constrainer_time": 0.004487752914428711,
+    "total_time": 3.978262424468994,
+    "frequency": {
+        "1": 75
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2365: Operator '>' cannot be applied to types 'number' and 'number | [string, number]'.",
+        "TS2322: Type '[string, number]' is not assignable to type '(number | [string, number])[]'.\n  Type 'string | number' is not assignable to type 'number | [string, number]'.\n    Type 'string' is not assignable to type 'number | [string, number]'.",
+        "TS2322: Type '(number | [string, number])[]' is not assignable to type '[string, number]'.\n  Target requires 2 element(s) but source may have fewer."
+    ]
+}

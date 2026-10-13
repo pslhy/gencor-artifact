@@ -1,0 +1,22 @@
+{
+    "decoded": 104,
+    "llm_time": 3.4521849155426025,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002750873565673828,
+    "constrainer_time": 0.02720046043395996,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.5136494636535645,
+    "frequency": {
+        "1": 105
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/644.ml:9:71: Unbound value \"List.rev_range\""
+    ]
+}

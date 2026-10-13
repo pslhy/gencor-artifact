@@ -1,0 +1,31 @@
+{
+    "decoded": 1027,
+    "decoded_at_turn": {
+        "1": 182,
+        "2": 204,
+        "3": 206,
+        "4": 218,
+        "5": 217
+    },
+    "llm_time": 59.39965486526489,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02818131446838379,
+    "constrainer_time": 0.2551910877227783,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 60.13131785392761,
+    "frequency": {
+        "1": 1032
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:40: undefined name 'train_test_split'"
+    ]
+}

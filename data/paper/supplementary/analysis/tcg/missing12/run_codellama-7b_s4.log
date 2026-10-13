@@ -1,0 +1,10 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+[run] model=codellama/CodeLlama-7b-Instruct-hf device=cuda:2 constrained=True variant=tcg layout=gencor
+[run] 2 tasks x 1 seeds -> /root/gencor/output/popl27/typescript/<org>/<name>/hmts_erruv/tcg-s<seed>/
+[load] loading model/tokenizer ...
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:02<00:02,  2.88s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.77s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:03<00:00,  1.93s/it]
+past_key_values should not be None in from_legacy_cache()
+[load] done
+[s4] [1/2] mbpp/262     2.56s  ok
+[s4] [2/2] mbpp/419     3.54s  ok
+[s4] DONE  total 6.1s  -> /root/gencor/output/popl27/typescript/codellama/CodeLlama-7b-Instruct-hf/hmts_erruv/tcg-s4

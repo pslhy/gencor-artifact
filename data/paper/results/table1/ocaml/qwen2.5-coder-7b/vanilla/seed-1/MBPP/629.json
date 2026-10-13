@@ -1,0 +1,22 @@
+{
+    "decoded": 27,
+    "llm_time": 0.695711612701416,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0006604194641113281,
+    "constrainer_time": 0.006293296813964844,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.711493968963623,
+    "frequency": {
+        "1": 28
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/629.ml:2:3: Unbound value \"List.split_even_odd\""
+    ]
+}

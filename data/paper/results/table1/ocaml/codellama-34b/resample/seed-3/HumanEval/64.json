@@ -1,0 +1,27 @@
+{
+    "decoded": 118,
+    "decoded_at_turn": {
+        "1": 118
+    },
+    "llm_time": 6.360647439956665,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031774044036865234,
+    "constrainer_time": 0.028905391693115234,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.428891181945801,
+    "frequency": {
+        "1": 119
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:16: This expression has type \"float\" but an expression was expected of type\n\"'a array\""
+    ]
+}

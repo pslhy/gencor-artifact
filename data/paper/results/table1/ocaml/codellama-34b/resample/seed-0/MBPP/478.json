@@ -1,0 +1,27 @@
+{
+    "decoded": 86,
+    "decoded_at_turn": {
+        "1": 86
+    },
+    "llm_time": 4.609551668167114,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023691654205322266,
+    "constrainer_time": 0.02095317840576172,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.65720534324646,
+    "frequency": {
+        "1": 87
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:7: This pattern matches values of type \"'a option\"\nbut a pattern was expected which matches values of type \"char\""
+    ]
+}

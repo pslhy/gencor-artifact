@@ -1,0 +1,31 @@
+{
+    "decoded": 1115,
+    "decoded_at_turn": {
+        "1": 223,
+        "2": 223,
+        "3": 223,
+        "4": 223,
+        "5": 223
+    },
+    "llm_time": 29.8467857837677,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.027834177017211914,
+    "constrainer_time": 0.27109503746032715,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 30.598011016845703,
+    "frequency": {
+        "1": 1120
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:10: undefined name 'ThreadPoolExecutor'"
+    ]
+}

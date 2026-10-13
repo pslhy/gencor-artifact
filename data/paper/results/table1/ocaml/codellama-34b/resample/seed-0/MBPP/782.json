@@ -1,0 +1,31 @@
+{
+    "decoded": 500,
+    "decoded_at_turn": {
+        "1": 224,
+        "2": 68,
+        "3": 68,
+        "4": 70,
+        "5": 70
+    },
+    "llm_time": 28.242032766342163,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01601243019104004,
+    "constrainer_time": 0.13017630577087402,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 28.571251392364502,
+    "frequency": {
+        "1": 505
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:20: Unbound value \"arr\"\nHint: Did you mean \"asr\"?"
+    ]
+}

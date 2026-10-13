@@ -1,0 +1,29 @@
+{
+    "decoded": 137,
+    "llm_time": 4.655474662780762,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 30.628593921661377,
+    "constrainer_time": 0.0,
+    "total_time": 35.28406858444214,
+    "frequency": {
+        "2": 4,
+        "1": 112,
+        "3": 3,
+        "4": 1,
+        "6": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpheov7_0x.ts(21,5): error TS2322: Type 'boolean' is not assignable to type 'number'.",
+        "../../tmp/tmpheov7_0x.ts(23,5): error TS2322: Type 'boolean' is not assignable to type 'number'."
+    ],
+    "did_compile": false,
+    "llm_finished": true,
+    "num_tokens_guessed": 139,
+    "num_tokens_generated": 137,
+    "total_realizability_time": 30.628593921661377
+}

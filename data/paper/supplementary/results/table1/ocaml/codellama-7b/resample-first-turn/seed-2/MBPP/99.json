@@ -1,0 +1,22 @@
+{
+    "decoded": 53,
+    "llm_time": 1.398761510848999,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013349056243896484,
+    "constrainer_time": 0.012798547744750977,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4273302555084229,
+    "frequency": {
+        "1": 54
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:29: Unbound value \"strem\"\nHint: Did you mean \"rem\"?"
+    ]
+}

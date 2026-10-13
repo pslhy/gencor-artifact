@@ -1,0 +1,10 @@
+# TCG-specific dependencies, installed alongside tools/gencor/requirements.txt.
+# fire follows the upstream pyproject.toml; other pins follow poetry.lock.
+fire==0.7.0
+frozendict==2.4.6
+frozenlist==1.5.0
+stopit==1.1.2
+attrs==24.3.0
+termcolor==2.5.0
+# stopit imports pkg_resources at runtime (provided by this setuptools version).
+setuptools==75.6.0

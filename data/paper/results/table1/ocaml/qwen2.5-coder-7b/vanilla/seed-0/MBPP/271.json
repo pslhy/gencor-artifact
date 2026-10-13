@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 1.8981921672821045,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017240047454833984,
+    "constrainer_time": 0.016550064086914062,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.9397788047790527,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/271.ml:4:53: Unbound value \"pow\""
+    ]
+}

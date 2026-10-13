@@ -1,0 +1,22 @@
+{
+    "decoded": 332,
+    "llm_time": 8.372862100601196,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008334875106811523,
+    "constrainer_time": 0.0755620002746582,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.553624629974365,
+    "frequency": {
+        "1": 333
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:26:25: Unbound value \"rotate_one_to_left\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 166,
+    "llm_time": 4.3905251026153564,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003861665725708008,
+    "constrainer_time": 0.037618398666381836,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.489115476608276,
+    "frequency": {
+        "1": 167
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/158.ml:6:26: Unbound value \"Set.of_list\""
+    ]
+}

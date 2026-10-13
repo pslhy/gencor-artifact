@@ -1,0 +1,23 @@
+{
+    "decoded": 340,
+    "llm_time": 8.399854183197021,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008314847946166992,
+    "constrainer_time": 0.07841682434082031,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.595861434936523,
+    "frequency": {
+        "1": 341
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/999.py:40:6: undefined name 'pytest'",
+        "BigCodeBench/999.py:44:6: undefined name 'pytest'"
+    ]
+}

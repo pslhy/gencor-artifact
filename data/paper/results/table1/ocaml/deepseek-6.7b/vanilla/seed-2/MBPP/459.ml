@@ -1,0 +1,14 @@
+let rec remove_uppercase (str1 : string) : string =
+  let len = String.length str1 in
+  if len < 2 then str1 else
+  match String.unsafe_get str1 0 with
+  | 'A'..'Z' -> remove_uppercase (String.sub str1 1 (len - 1))
+  | _ -> String.sub str1 0 1 ^ remove_uppercase (String.sub str1 1 (len - 1))
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to remove uppercase substrings from a given string. *)

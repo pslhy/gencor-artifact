@@ -1,0 +1,22 @@
+{
+    "decoded": 70,
+    "llm_time": 1.7985541820526123,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0021295547485351562,
+    "constrainer_time": 0.017502784729003906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.8387227058410645,
+    "frequency": {
+        "1": 71
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:11: Unbound value \"discriminant\""
+    ]
+}

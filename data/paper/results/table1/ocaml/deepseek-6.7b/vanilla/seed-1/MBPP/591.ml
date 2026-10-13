@@ -1,0 +1,18 @@
+let rec swap_List (newList : int list) : int list =
+    match newList with
+    | [] -> []
+    | hd::[] -> newList
+    | hd::tl -> 
+        let rev_list = List.rev tl in
+        List.hd rev_list :: rev_list |> List.rev 
+
+let my_list = [1;2;3;4;5]
+let result = swap_List my_list
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function to interchange the first and last elements in a list. *)

@@ -1,0 +1,33 @@
+{
+    "decoded": 153,
+    "llm_time": 3.9471688270568848,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0040607452392578125,
+    "constrainer_time": 0.035999298095703125,
+    "total_time": 4.026857376098633,
+    "frequency": {
+        "1": 154
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2365: Operator '>' cannot be applied to types 'string' and 'number'.",
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+    ]
+}

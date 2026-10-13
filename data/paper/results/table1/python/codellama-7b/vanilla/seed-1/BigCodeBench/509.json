@@ -1,0 +1,24 @@
+{
+    "decoded": 330,
+    "llm_time": 8.587843656539917,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008135795593261719,
+    "constrainer_time": 0.07701373100280762,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.782041788101196,
+    "frequency": {
+        "1": 331
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:16:42: unterminated string literal (detected at line 16)",
+        "    for line_num, line1 in enumerate(df1['content].tolist()):",
+        "                                         ^"
+    ]
+}

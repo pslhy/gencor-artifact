@@ -1,0 +1,22 @@
+{
+    "decoded": 251,
+    "llm_time": 6.326751470565796,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0063018798828125,
+    "constrainer_time": 0.05628395080566406,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.473970413208008,
+    "frequency": {
+        "1": 252
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:19:41: Unbound value \"List.take\""
+    ]
+}

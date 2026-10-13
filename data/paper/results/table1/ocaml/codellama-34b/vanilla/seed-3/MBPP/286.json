@@ -1,0 +1,22 @@
+{
+    "decoded": 104,
+    "llm_time": 5.59285306930542,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029671192169189453,
+    "constrainer_time": 0.026112079620361328,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.653411865234375,
+    "frequency": {
+        "1": 105
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:17: Unbound value \"max_sub_array_sum\""
+    ]
+}

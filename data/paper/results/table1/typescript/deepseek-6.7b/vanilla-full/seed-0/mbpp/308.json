@@ -1,0 +1,21 @@
+{
+    "decoded": 201,
+    "llm_time": 4.9570159912109375,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004502296447753906,
+    "constrainer_time": 0.045377492904663086,
+    "total_time": 5.058931827545166,
+    "frequency": {
+        "1": 202
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'MaxPriorityQueue'.",
+        "TS7006: Parameter 'a' implicitly has an 'any' type.",
+        "TS7006: Parameter 'b' implicitly has an 'any' type."
+    ]
+}

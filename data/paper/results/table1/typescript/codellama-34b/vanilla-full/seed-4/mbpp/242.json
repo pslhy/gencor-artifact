@@ -1,0 +1,19 @@
+{
+    "decoded": 14,
+    "llm_time": 0.7932076454162598,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00036597251892089844,
+    "constrainer_time": 0.0009989738464355469,
+    "total_time": 0.7981038093566895,
+    "frequency": {
+        "1": 15
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures."
+    ]
+}

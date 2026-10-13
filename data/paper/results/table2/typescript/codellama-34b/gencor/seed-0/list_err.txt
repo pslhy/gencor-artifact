@@ -1,0 +1,7 @@
+Error cases: 6 / 72 8.33%
+mbpp/291
+mbpp/389
+mbpp/574
+mbpp/577
+mbpp/592
+mbpp/724

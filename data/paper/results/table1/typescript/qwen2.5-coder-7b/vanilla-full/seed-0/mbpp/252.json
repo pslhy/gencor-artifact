@@ -1,0 +1,21 @@
+{
+    "decoded": 18,
+    "llm_time": 0.4881134033203125,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0004475116729736328,
+    "constrainer_time": 0.004419803619384766,
+    "total_time": 0.4984157085418701,
+    "frequency": {
+        "1": 19
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2488: Type 'number' must have a '[Symbol.iterator]()' method that returns an iterator.",
+        "TS2556: A spread argument must either have a tuple type or be passed to a rest parameter.",
+        "TS2488: Type 'number' must have a '[Symbol.iterator]()' method that returns an iterator."
+    ]
+}

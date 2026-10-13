@@ -1,0 +1,32 @@
+{
+    "HumanEval/54": [
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'char'."
+    ],
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'createHash'."
+    ],
+    "mbpp/83": [
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?"
+    ],
+    "mbpp/242": [
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?"
+    ],
+    "mbpp/444": [
+        "TS2552: Cannot find name 'testList'. Did you mean 'test_list'?",
+        "TS2552: Cannot find name 'testList'. Did you mean 'test_list'?"
+    ],
+    "mbpp/742": [
+        "TS2304: Cannot find name 'sqrt'."
+    ],
+    "mbpp/744": [
+        "TS2304: Cannot find name 'None'."
+    ],
+    "mbpp/751": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ]
+}

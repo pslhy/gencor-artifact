@@ -1,0 +1,37 @@
+{
+    "decoded": 128,
+    "llm_time": 3.32694149017334,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003089427947998047,
+    "constrainer_time": 0.029743194580078125,
+    "total_time": 3.4005181789398193,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7010: 'dfs', which lacks return-type annotation, implicitly has an 'any' return type.",
+        "TS2693: 'number' only refers to a type, but is being used as a value here.",
+        "TS2693: 'number' only refers to a type, but is being used as a value here.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2554: Expected 0 arguments, but got 1.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2554: Expected 0 arguments, but got 1.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2554: Expected 0 arguments, but got 1.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2554: Expected 0 arguments, but got 1.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2554: Expected 0 arguments, but got 1."
+    ]
+}

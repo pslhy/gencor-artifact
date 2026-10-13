@@ -1,0 +1,22 @@
+{
+    "decoded": 116,
+    "llm_time": 6.159827470779419,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003006458282470703,
+    "constrainer_time": 0.027640581130981445,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.223275661468506,
+    "frequency": {
+        "1": 117
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:11: Unbound value \"Char.is_space\""
+    ]
+}

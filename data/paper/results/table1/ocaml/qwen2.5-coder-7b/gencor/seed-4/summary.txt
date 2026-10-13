@@ -1,0 +1,6 @@
+Total generation time  :  22.5297m for 84 tests
+Average generation time:  16.0927s
+Timeout cases (>90 seconds): 10 / 84 11.90%
+Error cases: 56 / 84 66.67%
+Abort cases: 0 / 84 0.00%
+UV cases: 0 / 84 0.00%

@@ -1,0 +1,22 @@
+{
+    "decoded": 128,
+    "llm_time": 3.4765913486480713,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030891895294189453,
+    "constrainer_time": 0.03064560890197754,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.552955150604248,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:29: Unbound module \"IntMap\""
+    ]
+}

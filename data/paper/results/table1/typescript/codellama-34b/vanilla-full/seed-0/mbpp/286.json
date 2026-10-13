@@ -1,0 +1,19 @@
+{
+    "decoded": 285,
+    "llm_time": 15.219743251800537,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00693202018737793,
+    "constrainer_time": 0.017171144485473633,
+    "total_time": 15.32136344909668,
+    "frequency": {
+        "1": 286
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'result' because it is a constant."
+    ]
+}

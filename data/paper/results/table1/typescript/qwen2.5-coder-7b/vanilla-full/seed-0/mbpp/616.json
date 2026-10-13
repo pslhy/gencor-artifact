@@ -1,0 +1,19 @@
+{
+    "decoded": 23,
+    "llm_time": 0.6285138130187988,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0005631446838378906,
+    "constrainer_time": 0.005626678466796875,
+    "total_time": 0.6418843269348145,
+    "frequency": {
+        "1": 24
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+    ]
+}

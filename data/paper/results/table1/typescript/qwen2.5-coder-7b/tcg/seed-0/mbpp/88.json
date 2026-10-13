@@ -1,0 +1,20 @@
+{
+    "total_time": 90.00011777877808,
+    "llm_time": 90.00011777877808,
+    "constrainer_time": 0.0,
+    "n_resamples": 39,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 0,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error.\n    Argument of type '(prev: number[], cur: number) => number[]' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Types of parameters 'prev' and 'previousValue' are incompatible.\n        Type 'string' is not assignable to type 'number[]'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number[], currentValue: string, currentIndex: number, array: string[]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(prev: number[], cur: number) => number[]' is not assignable to parameter of type '(previousValue: number[], currentValue: string, currentIndex: number, array: string[]) => number[]'.\n      Types of parameters 'cur' and 'currentValue' are incompatible.\n        Type 'string' is not assignable to type 'number'.",
+        "TS2339: Property 'reduce' does not exist on type 'string'."
+    ]
+}

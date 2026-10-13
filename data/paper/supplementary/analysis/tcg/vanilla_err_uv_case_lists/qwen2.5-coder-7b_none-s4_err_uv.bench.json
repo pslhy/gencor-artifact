@@ -1,0 +1,194 @@
+[
+  {
+    "prompt": "//We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The\n// numbers in the array will be randomly ordered. Your task is to determine if\n// it is possible to get an array sorted in non-decreasing order by performing \n// the following operation on the given array:\n// You are allowed to perform right shift operation any number of times.\n// One right shift operation means shifting all elements of the array by one\n// position in the right direction. The last element of the array will be moved to\n// the starting position in the array i.e. 0th index. \n// If it is possible to obtain the sorted array by performing the above operation\n// then return true else return false.\n// If the given array is empty then return true.\n// Note: The given array is guaranteed to have unique elements.\n// For Example:\n// >>> move_one_ball([3, 4, 5, 1, 2])\n// true\n// Explanation: By performin 2 right shift operations, non-decreasing order can\n// be achieved for the given array.\n// >>> move_one_ball([3, 5, 4, 1, 2])\n// false\n// Explanation:It is not possible to get non-decreasing order for the given\n// array by performing any number of right shift operations.\nfunction move_one_ball(arr: number[]): boolean {",
+    "task_id": "HumanEval/109",
+    "instruct_prompt": "We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The\nnumbers in the array will be randomly ordered. Your task is to determine if\nit is possible to get an array sorted in non-decreasing order by performing\nthe following operation on the given array:\nYou are allowed to perform right shift operation any number of times.\nOne right shift operation means shifting all elements of the array by one\nposition in the right direction. The last element of the array will be moved to\nthe starting position in the array i.e. 0th index.\nIf it is possible to obtain the sorted array by performing the above operation\nthen return true else return false.\nIf the given array is empty then return true.\nNote: The given array is guaranteed to have unique elements.\nFor Example:\n>>> move_one_ball([3, 4, 5, 1, 2])\ntrue\nExplanation: By performin 2 right shift operations, non-decreasing order can\nbe achieved for the given array.\n>>> move_one_ball([3, 5, 4, 1, 2])\nfalse\nExplanation:It is not possible to get non-decreasing order for the given\narray by performing any number of right shift operations.",
+    "code_prompt": "function move_one_ball(arr: number[]): boolean {"
+  },
+  {
+    "prompt": "//Given an array of numbers, return whether or not they are sorted\n// in ascending order. If array has more than 1 duplicate of the same\n// number, return false. Assume no negative numbers and only integers.\n// Examples\n// >>> is_sorted([5])\n// true\n// >>> is_sorted([1, 2, 3, 4, 5])\n// true\n// >>> is_sorted([1, 3, 2, 4, 5])\n// false\n// >>> is_sorted([1, 2, 3, 4, 5, 6])\n// true\n// >>> is_sorted([1, 2, 3, 4, 5, 6, 7])\n// true\n// >>> is_sorted([1, 3, 2, 4, 5, 6, 7])\n// false\n// >>> is_sorted([1, 2, 2, 3, 3, 4])\n// true\n// >>> is_sorted([1, 2, 2, 2, 3, 4])\n// false\nfunction is_sorted(lst: number[]): boolean {",
+    "task_id": "HumanEval/126",
+    "instruct_prompt": "Given an array of numbers, return whether or not they are sorted\nin ascending order. If array has more than 1 duplicate of the same\nnumber, return false. Assume no negative numbers and only integers.\nExamples\n>>> is_sorted([5])\ntrue\n>>> is_sorted([1, 2, 3, 4, 5])\ntrue\n>>> is_sorted([1, 3, 2, 4, 5])\nfalse\n>>> is_sorted([1, 2, 3, 4, 5, 6])\ntrue\n>>> is_sorted([1, 2, 3, 4, 5, 6, 7])\ntrue\n>>> is_sorted([1, 3, 2, 4, 5, 6, 7])\nfalse\n>>> is_sorted([1, 2, 2, 3, 3, 4])\ntrue\n>>> is_sorted([1, 2, 2, 2, 3, 4])\nfalse",
+    "code_prompt": "function is_sorted(lst: number[]): boolean {"
+  },
+  {
+    "prompt": "//You are given two intervals,\n// where each interval is a pair of integers. For example, interval = (start, end) = (1, 2).\n// The given intervals are closed which means that the interval (start, end)\n// includes both start and end.\n// For each given interval, it is assumed that its start is less or equal its end.\n// Your task is to determine whether the length of intersection of these two \n// intervals is a prime number.\n// Example, the intersection of the intervals (1, 3), (2, 4) is (2, 3)\n// which its length is 1, which not a prime number.\n// If the length of the intersection is a prime number, return \"YES\",\n// otherwise, return \"NO\".\n// If the two intervals don't intersect, return \"NO\".\n// [input/output] samples:\n// >>> intersection([1, 2], [2, 3])\n// \"NO\"\n// >>> intersection([-1, 1], [0, 4])\n// \"NO\"\n// >>> intersection([-3, -1], [-5, 5])\n// \"YES\"\nfunction intersection(interval1: [number, number], interval2: [number, number]): string {",
+    "task_id": "HumanEval/127",
+    "instruct_prompt": "You are given two intervals,\nwhere each interval is a pair of integers. For example, interval = (start, end) = (1, 2).\nThe given intervals are closed which means that the interval (start, end)\nincludes both start and end.\nFor each given interval, it is assumed that its start is less or equal its end.\nYour task is to determine whether the length of intersection of these two\nintervals is a prime number.\nExample, the intersection of the intervals (1, 3), (2, 4) is (2, 3)\nwhich its length is 1, which not a prime number.\nIf the length of the intersection is a prime number, return \"YES\",\notherwise, return \"NO\".\nIf the two intervals don't intersect, return \"NO\".\n[input/output] samples:\n>>> intersection([1, 2], [2, 3])\n\"NO\"\n>>> intersection([-1, 1], [0, 4])\n\"NO\"\n>>> intersection([-3, -1], [-5, 5])\n\"YES\"",
+    "code_prompt": "function intersection(interval1: [number, number], interval2: [number, number]): string {"
+  },
+  {
+    "prompt": "//Given a grid with N rows and N columns (N >= 2) and a positive integer k, \n// each cell of the grid contains a value. Every integer in the range [1, N * N]\n// inclusive appears exactly once on the cells of the grid.\n// You have to find the minimum path of length k in the grid. You can start\n// from any cell, and in each step you can move to any of the neighbor cells,\n// in other words, you can go to cells which share an edge with you current\n// cell.\n// Please note that a path of length k means visiting exactly k cells (not\n// necessarily distinct).\n// You CANNOT go off the grid.\n// A path A (of length k) is considered less than a path B (of length k) if\n// after making the ordered arrays of the values on the cells that A and B go\n// through (let's call them lst_A and lst_B), lst_A is lexicographically less\n// than lst_B, in other words, there exist an integer index i (1 <= i <= k)\n// such that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have\n// lst_A[j] = lst_B[j].\n// It is guaranteed that the answer is unique.\n// Return an ordered array of the values on the cells that the minimum path go through.\n// Examples:    \n// >>> minPath([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)\n// [1, 2, 1]\n// >>> minPath([[5, 9, 3], [4, 1, 6], [7, 8, 2]], 1)\n// [1]\nfunction minPath(grid: number[][], k: number): number[] {",
+    "task_id": "HumanEval/129",
+    "instruct_prompt": "Given a grid with N rows and N columns (N >= 2) and a positive integer k,\neach cell of the grid contains a value. Every integer in the range [1, N * N]\ninclusive appears exactly once on the cells of the grid.\nYou have to find the minimum path of length k in the grid. You can start\nfrom any cell, and in each step you can move to any of the neighbor cells,\nin other words, you can go to cells which share an edge with you current\ncell.\nPlease note that a path of length k means visiting exactly k cells (not\nnecessarily distinct).\nYou CANNOT go off the grid.\nA path A (of length k) is considered less than a path B (of length k) if\nafter making the ordered arrays of the values on the cells that A and B go\nthrough (let's call them lst_A and lst_B), lst_A is lexicographically less\nthan lst_B, in other words, there exist an integer index i (1 <= i <= k)\nsuch that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have\nlst_A[j] = lst_B[j].\nIt is guaranteed that the answer is unique.\nReturn an ordered array of the values on the cells that the minimum path go through.\nExamples:\n>>> minPath([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)\n[1, 2, 1]\n>>> minPath([[5, 9, 3], [4, 1, 6], [7, 8, 2]], 1)\n[1]",
+    "code_prompt": "function minPath(grid: number[][], k: number): number[] {"
+  },
+  {
+    "prompt": "//Everyone knows Fibonacci sequence, it was studied deeply by mathematicians in \n// the last couple centuries. However, what people don't know is Tribonacci sequence.\n// Tribonacci sequence is defined by the recurrence:\n// tri(1) = 3\n// tri(n) = 1 + n / 2, if n is even.\n// tri(n) =  tri(n - 1) + tri(n - 2) + tri(n + 1), if n is odd.\n// For example:\n// tri(2) = 1 + (2 / 2) = 2\n// tri(4) = 3\n// tri(3) = tri(2) + tri(1) + tri(4)\n// = 2 + 3 + 3 = 8 \n// You are given a non-negative integer number n, you have to a return an array of the \n// first n + 1 numbers of the Tribonacci sequence.\n// Examples:\n// >>> tri(3)\n// [1, 3, 2, 8]\nfunction tri(n: number): number[] {",
+    "task_id": "HumanEval/130",
+    "instruct_prompt": "Everyone knows Fibonacci sequence, it was studied deeply by mathematicians in\nthe last couple centuries. However, what people don't know is Tribonacci sequence.\nTribonacci sequence is defined by the recurrence:\ntri(1) = 3\ntri(n) = 1 + n / 2, if n is even.\ntri(n) =  tri(n - 1) + tri(n - 2) + tri(n + 1), if n is odd.\nFor example:\ntri(2) = 1 + (2 / 2) = 2\ntri(4) = 3\ntri(3) = tri(2) + tri(1) + tri(4)\n= 2 + 3 + 3 = 8\nYou are given a non-negative integer number n, you have to a return an array of the\nfirst n + 1 numbers of the Tribonacci sequence.\nExamples:\n>>> tri(3)\n[1, 3, 2, 8]",
+    "code_prompt": "function tri(n: number): number[] {"
+  },
+  {
+    "prompt": "//This function takes an array l and returns an array l' such that\n// l' is identical to l in the odd indicies, while its values at the even indicies are equal\n// to the values of the even indicies of l, but sorted.\n// >>> sort_even([1, 2, 3])\n// [1, 2, 3]\n// >>> sort_even([5, 6, 3, 4])\n// [3, 6, 5, 4]\nfunction sort_even(l: number[]): number[] {",
+    "task_id": "HumanEval/37",
+    "instruct_prompt": "This function takes an array l and returns an array l' such that\nl' is identical to l in the odd indicies, while its values at the even indicies are equal\nto the values of the even indicies of l, but sorted.\n>>> sort_even([1, 2, 3])\n[1, 2, 3]\n>>> sort_even([5, 6, 3, 4])\n[3, 6, 5, 4]",
+    "code_prompt": "function sort_even(l: number[]): number[] {"
+  },
+  {
+    "prompt": "//Given an object, return true if all keys are strings in lower \n// case or all keys are strings in upper case, else return false.\n// The function should return false is the given object is empty.\n// Examples:\n// >>> check_dict_case({\"a\": \"apple\", \"b\": \"banana\"})\n// true\n// >>> check_dict_case({\"a\": \"apple\", \"A\": \"banana\", \"B\": \"banana\"})\n// false\n// >>> check_dict_case({\"a\": \"apple\", 8: \"banana\", \"a\": \"apple\"})\n// false\n// >>> check_dict_case({\"Name\": \"John\", \"Age\": \"36\", \"City\": \"Houston\"})\n// false\n// >>> check_dict_case({\"STATE\": \"NC\", \"ZIP\": \"12345\"})\n// true\nfunction check_dict_case(dict: {[key: string]: string}): boolean {",
+    "task_id": "HumanEval/95",
+    "instruct_prompt": "Given an object, return true if all keys are strings in lower\ncase or all keys are strings in upper case, else return false.\nThe function should return false is the given object is empty.\nExamples:\n>>> check_dict_case({\"a\": \"apple\", \"b\": \"banana\"})\ntrue\n>>> check_dict_case({\"a\": \"apple\", \"A\": \"banana\", \"B\": \"banana\"})\nfalse\n>>> check_dict_case({\"a\": \"apple\", 8: \"banana\", \"a\": \"apple\"})\nfalse\n>>> check_dict_case({\"Name\": \"John\", \"Age\": \"36\", \"City\": \"Houston\"})\nfalse\n>>> check_dict_case({\"STATE\": \"NC\", \"ZIP\": \"12345\"})\ntrue",
+    "code_prompt": "function check_dict_case(dict: {[key: string]: string}): boolean {"
+  },
+  {
+    "prompt": "//Implement a function that takes an non-negative integer and returns an array of the first n\n// integers that are prime numbers and less than n.\n// for example:\n// >>> count_up_to(5)\n// [2, 3]\n// >>> count_up_to(11)\n// [2, 3, 5, 7]\n// >>> count_up_to(0)\n// []\n// >>> count_up_to(20)\n// [2, 3, 5, 7, 11, 13, 17, 19]\n// >>> count_up_to(1)\n// []\n// >>> count_up_to(18)\n// [2, 3, 5, 7, 11, 13, 17]\nfunction count_up_to(n: number): number[] {",
+    "task_id": "HumanEval/96",
+    "instruct_prompt": "Implement a function that takes an non-negative integer and returns an array of the first n\nintegers that are prime numbers and less than n.\nfor example:\n>>> count_up_to(5)\n[2, 3]\n>>> count_up_to(11)\n[2, 3, 5, 7]\n>>> count_up_to(0)\n[]\n>>> count_up_to(20)\n[2, 3, 5, 7, 11, 13, 17, 19]\n>>> count_up_to(1)\n[]\n>>> count_up_to(18)\n[2, 3, 5, 7, 11, 13, 17]",
+    "code_prompt": "function count_up_to(n: number): number[] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to convert complex numbers to polar coordinates.\nfunction convert(numbers: number): [number, number] {",
+    "task_id": "mbpp/252",
+    "instruct_prompt": "Write a tsthon function to convert complex numbers to polar coordinates.",
+    "code_prompt": "function convert(numbers: number): [number, number] {"
+  },
+  {
+    "prompt": "//Write a function to maximize the given two arrays.\nfunction maximize_elements(test_tup1: number[][], test_tup2: number[][]): number[][] {",
+    "task_id": "mbpp/259",
+    "instruct_prompt": "Write a function to maximize the given two arrays.",
+    "code_prompt": "function maximize_elements(test_tup1: number[][], test_tup2: number[][]): number[][] {"
+  },
+  {
+    "prompt": "//Write a function to find the nth newman\u2013shanks\u2013williams prime number.\nfunction newman_prime(n: number): number {",
+    "task_id": "mbpp/260",
+    "instruct_prompt": "Write a function to find the nth newman\u2013shanks\u2013williams prime number.",
+    "code_prompt": "function newman_prime(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function that takes in two arrays and performs mathematical division operation element-wise across the given arrays.\nfunction division_elements(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/261",
+    "instruct_prompt": "Write a function that takes in two arrays and performs mathematical division operation element-wise across the given arrays.",
+    "code_prompt": "function division_elements(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to calculate a dog's age in dog's years.\nfunction dog_age(h_age: number): number {",
+    "task_id": "mbpp/264",
+    "instruct_prompt": "Write a function to calculate a dog's age in dog's years.",
+    "code_prompt": "function dog_age(h_age: number): number {"
+  },
+  {
+    "prompt": "//Write a function that takes in two arrays and subtracts the elements of the first array by the elements of the second array with the same index.\nfunction substract_elements(test_tup1: [number, number, number], test_tup2: [number, number, number]): [number, number, number] {",
+    "task_id": "mbpp/273",
+    "instruct_prompt": "Write a function that takes in two arrays and subtracts the elements of the first array by the elements of the second array with the same index.",
+    "code_prompt": "function substract_elements(test_tup1: [number, number, number], test_tup2: [number, number, number]): [number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to find the number of elements that occurs before the array element in the given array.\nfunction count_first_elements(test_tup: (number | [number, number])[]): number {",
+    "task_id": "mbpp/278",
+    "instruct_prompt": "Write a function to find the number of elements that occurs before the array element in the given array.",
+    "code_prompt": "function count_first_elements(test_tup: (number | [number, number])[]): number {"
+  },
+  {
+    "prompt": "//Write a function to compute the sum of digits of each number of a given array.\nfunction sum_of_digits(nums: any[]): number {",
+    "task_id": "mbpp/398",
+    "instruct_prompt": "Write a function to compute the sum of digits of each number of a given array.",
+    "code_prompt": "function sum_of_digits(nums: any[]): number {"
+  },
+  {
+    "prompt": "//Write a function to perform the mathematical bitwise xor operation across the given arrays.\nfunction bitwise_xor(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/399",
+    "instruct_prompt": "Write a function to perform the mathematical bitwise xor operation across the given arrays.",
+    "code_prompt": "function bitwise_xor(test_tup1: [number, number, number, number], test_tup2: [number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to find k number of smallest pairs which consist of one element from the first array and one element from the second array.\nfunction k_smallest_pairs(nums1: number[], nums2: number[], k: number): number[][] {",
+    "task_id": "mbpp/408",
+    "instruct_prompt": "Write a function to find k number of smallest pairs which consist of one element from the first array and one element from the second array.",
+    "code_prompt": "function k_smallest_pairs(nums1: number[], nums2: number[], k: number): number[][] {"
+  },
+  {
+    "prompt": "//Write a function to find the first adverb and their positions in a given sentence.\nfunction find_adverb_position(text: string): [number, number, string] {",
+    "task_id": "mbpp/440",
+    "instruct_prompt": "Write a function to find the first adverb and their positions in a given sentence.",
+    "code_prompt": "function find_adverb_position(text: string): [number, number, string] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to count the occurence of all elements of array in an array.\nfunction count_Occurrence(tup: any, lst: any[]): number {",
+    "task_id": "mbpp/446",
+    "instruct_prompt": "Write a tsthon function to count the occurence of all elements of array in an array.",
+    "code_prompt": "function count_Occurrence(tup: any, lst: any[]): number {"
+  },
+  {
+    "prompt": "//Write a function to calculate the sum of perrin numbers.\nfunction cal_sum(n: number): number {",
+    "task_id": "mbpp/448",
+    "instruct_prompt": "Write a function to calculate the sum of perrin numbers.",
+    "code_prompt": "function cal_sum(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find the pairwise addition of the neighboring elements of the given array.\nfunction add_pairwise(test_tup: [number, number, number, number, number]): [number, number, number, number] {",
+    "task_id": "mbpp/470",
+    "instruct_prompt": "Write a function to find the pairwise addition of the neighboring elements of the given array.",
+    "code_prompt": "function add_pairwise(test_tup: [number, number, number, number, number]): [number, number, number, number] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the largest number that can be formed with the given array of digits.\nfunction find_Max_Num(arr: number[]): number {",
+    "task_id": "mbpp/57",
+    "instruct_prompt": "Write a tsthon function to find the largest number that can be formed with the given array of digits.",
+    "code_prompt": "function find_Max_Num(arr: number[]): number {"
+  },
+  {
+    "prompt": "//Write a function to remove uneven elements in the nested mixed array.\nfunction extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {",
+    "task_id": "mbpp/580",
+    "instruct_prompt": "Write a function to remove uneven elements in the nested mixed array.",
+    "code_prompt": "function extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the sum of the product of consecutive binomial co-efficients.\nfunction sum_Of_product(n: number): number {",
+    "task_id": "mbpp/592",
+    "instruct_prompt": "Write a tsthon function to find the sum of the product of consecutive binomial co-efficients.",
+    "code_prompt": "function sum_Of_product(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.\nfunction find_literals(text: string, pattern: string): [string, number, number] {",
+    "task_id": "mbpp/607",
+    "instruct_prompt": "Write a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.",
+    "code_prompt": "function find_literals(text: string, pattern: string): [string, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to extract all the adjacent coordinates of the given coordinate array.\nfunction get_coordinates(test_tup: [number, number]): number[][] {",
+    "task_id": "mbpp/630",
+    "instruct_prompt": "Write a function to extract all the adjacent coordinates of the given coordinate array.",
+    "code_prompt": "function get_coordinates(test_tup: [number, number]): number[][] {"
+  },
+  {
+    "prompt": "//Write a function to flatten an array and sum all of its elements.\nfunction recursive_list_sum(data_list: (number | number[])[]): number {",
+    "task_id": "mbpp/65",
+    "instruct_prompt": "Write a function to flatten an array and sum all of its elements.",
+    "code_prompt": "function recursive_list_sum(data_list: (number | number[])[]): number {"
+  },
+  {
+    "prompt": "//Write a function to count the pairs of reverse strings in the given string array. https://www.geeksforgeeks.org/tsthon-program-to-count-the-pairs-of-reverse-strings/\nfunction count_reverse_pairs(test_list: string[]): number {",
+    "task_id": "mbpp/757",
+    "instruct_prompt": "Write a function to count the pairs of reverse strings in the given string array. https://www.geeksforgeeks.org/tsthon-program-to-count-the-pairs-of-reverse-strings/",
+    "code_prompt": "function count_reverse_pairs(test_list: string[]): number {"
+  },
+  {
+    "prompt": "//Write a function to find the combinations of sums with arrays in the given array array. https://www.geeksforgeeks.org/tsthon-combinations-of-sum-with-arrays-in-array-array/\nfunction find_combinations(test_list: [number, number][]): [number, number][] {",
+    "task_id": "mbpp/780",
+    "instruct_prompt": "Write a function to find the combinations of sums with arrays in the given array array. https://www.geeksforgeeks.org/tsthon-combinations-of-sum-with-arrays-in-array-array/",
+    "code_prompt": "function find_combinations(test_list: [number, number][]): [number, number][] {"
+  },
+  {
+    "prompt": "//Write a function to find the product of first even and odd number of a given array.\nfunction mul_even_odd(list1: number[]): number {",
+    "task_id": "mbpp/784",
+    "instruct_prompt": "Write a function to find the product of first even and odd number of a given array.",
+    "code_prompt": "function mul_even_odd(list1: number[]): number {"
+  },
+  {
+    "prompt": "//Write a function to remove arrays from the given array.\nfunction remove_nested(test_tup: any): [number, number, number, number] {",
+    "task_id": "mbpp/791",
+    "instruct_prompt": "Write a function to remove arrays from the given array.",
+    "code_prompt": "function remove_nested(test_tup: any): [number, number, number, number] {"
+  }
+]

@@ -1,0 +1,30 @@
+let rec fix_spaces (text : string) : string = 
+  let rec helper (chars : char list) (last : char option) (result : char list) : char list = 
+    match chars with 
+    | [] -> List.rev result 
+    | ' ' :: rest -> 
+        if Option.is_some last && Option.get last = ' ' then 
+          helper rest (Some ' ') result 
+        else helper rest (Some ' ') ( '_' :: result ) 
+    | c :: rest -> helper rest (Some c) (c :: result) 
+  in 
+  let result = helper (List.rev (String.to_list text)) None [] in 
+  String.of_list (List.rev result)
+ 
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Given a string text, replace all spaces in it with underscores, *)
+(*     and if a string has more than 2 consecutive spaces, *)
+(*     then replace all consecutive spaces with - *)
+(*     >>> fix_spaces " Example" *)
+(*     "Example" *)
+(*     >>> fix_spaces " Example 1" *)
+(*     "Example_1" *)
+(*     >>> fix_spaces " Example 2" *)
+(*     "_Example_2" *)
+(*     >>> fix_spaces " Example 3" *)
+(*     "_Example-3" *)

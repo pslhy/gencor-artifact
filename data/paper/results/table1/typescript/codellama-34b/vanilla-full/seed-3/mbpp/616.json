@@ -1,0 +1,21 @@
+{
+    "decoded": 77,
+    "llm_time": 4.182137966156006,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019488334655761719,
+    "constrainer_time": 0.004698276519775391,
+    "total_time": 4.208889722824097,
+    "frequency": {
+        "1": 78
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures.",
+        "TS2322: Type '[]' is not assignable to type '[number, number, number, number]'.\n  Source has 0 element(s) but target requires 4.",
+        "TS2322: Type 'number[][]' is not assignable to type 'number'."
+    ]
+}

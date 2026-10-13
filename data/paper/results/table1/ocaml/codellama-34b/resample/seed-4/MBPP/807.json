@@ -1,0 +1,30 @@
+{
+    "decoded": 162,
+    "decoded_at_turn": {
+        "1": 41,
+        "2": 41,
+        "3": 41,
+        "4": 39
+    },
+    "llm_time": 9.22224497795105,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006439685821533203,
+    "constrainer_time": 0.04710650444030762,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.335030317306519,
+    "frequency": {
+        "1": 166
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:13: This expression has type \"'a option\"\nbut an expression was expected of type \"int\""
+    ]
+}

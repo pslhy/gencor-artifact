@@ -1,0 +1,24 @@
+{
+    "decoded": 1562,
+    "llm_time": 88.95772886276245,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03816676139831543,
+    "constrainer_time": 0.36243152618408203,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 90.04518628120422,
+    "frequency": {
+        "1": 1563
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "<python>:64:75: unterminated string literal (detected at line 64)",
+        "        {'category': 'Home & Kitchen', 'date': '2016-01-01', 'sales': 10, 'in",
+        "                                                                          ^"
+    ]
+}

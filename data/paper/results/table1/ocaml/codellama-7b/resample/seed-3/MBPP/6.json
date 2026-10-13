@@ -1,0 +1,31 @@
+{
+    "decoded": 990,
+    "decoded_at_turn": {
+        "1": 186,
+        "2": 186,
+        "3": 216,
+        "4": 201,
+        "5": 201
+    },
+    "llm_time": 24.867579221725464,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0239107608795166,
+    "constrainer_time": 0.23062586784362793,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 25.491968870162964,
+    "frequency": {
+        "1": 995
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:20: Unbound module \"Bitwise\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 168,
+    "llm_time": 4.357694149017334,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004253864288330078,
+    "constrainer_time": 0.03849959373474121,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.457085609436035,
+    "frequency": {
+        "1": 169
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/123.ml:3:101: Unbound value \"List.range\""
+    ]
+}

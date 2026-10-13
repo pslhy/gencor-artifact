@@ -1,0 +1,4 @@
+# Standard library and the NumPy dependency installed by minimal setup.
+os
+math
+numpy

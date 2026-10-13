@@ -1,0 +1,22 @@
+{
+    "decoded": 87,
+    "llm_time": 2.227872610092163,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002135753631591797,
+    "constrainer_time": 0.02085709571838379,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.274643898010254,
+    "frequency": {
+        "1": 88
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/555.ml:6:9: This expression has type \"int ref\"\nbut an expression was expected of type \"int\""
+    ]
+}

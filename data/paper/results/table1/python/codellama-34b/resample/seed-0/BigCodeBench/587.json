@@ -1,0 +1,34 @@
+{
+    "decoded": 2311,
+    "decoded_at_turn": {
+        "1": 550,
+        "2": 464,
+        "3": 465,
+        "4": 419,
+        "5": 413
+    },
+    "llm_time": 141.90513563156128,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.05925440788269043,
+    "constrainer_time": 0.557300329208374,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 143.8936812877655,
+    "frequency": {
+        "1": 2316
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:9: undefined name 'serialization'",
+        "<python>:15:9: undefined name 'serialization'",
+        "<python>:28:40: undefined name 'hashes'",
+        "<python>:29:23: undefined name 'hashes'"
+    ]
+}

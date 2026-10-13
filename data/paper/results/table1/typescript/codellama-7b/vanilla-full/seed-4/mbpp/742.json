@@ -1,0 +1,19 @@
+{
+    "decoded": 20,
+    "llm_time": 0.5156457424163818,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0005478858947753906,
+    "constrainer_time": 0.00514984130859375,
+    "total_time": 0.5265412330627441,
+    "frequency": {
+        "1": 21
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'sqrt'."
+    ]
+}

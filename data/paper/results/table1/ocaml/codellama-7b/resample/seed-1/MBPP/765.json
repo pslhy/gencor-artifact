@@ -1,0 +1,28 @@
+{
+    "decoded": 599,
+    "decoded_at_turn": {
+        "1": 316,
+        "2": 283
+    },
+    "llm_time": 14.797433853149414,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014440298080444336,
+    "constrainer_time": 0.13616466522216797,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 15.135403871536255,
+    "frequency": {
+        "1": 601
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:24:3: This expression has type \"int\"\nThis is not a function; it cannot be applied."
+    ]
+}

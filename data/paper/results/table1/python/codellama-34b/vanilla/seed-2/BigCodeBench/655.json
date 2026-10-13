@@ -1,0 +1,22 @@
+{
+    "decoded": 304,
+    "llm_time": 16.835543394088745,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008197784423828125,
+    "constrainer_time": 0.07468628883361816,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.029964923858643,
+    "frequency": {
+        "1": 305
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:32:59: undefined name 'numpy'"
+    ]
+}

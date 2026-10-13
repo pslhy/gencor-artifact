@@ -1,0 +1,29 @@
+{
+    "decoded": 515,
+    "decoded_at_turn": {
+        "1": 301,
+        "2": 84,
+        "3": 130
+    },
+    "llm_time": 28.33468723297119,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012756109237670898,
+    "constrainer_time": 0.12323451042175293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 28.634002447128296,
+    "frequency": {
+        "1": 518
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:16: This expression has type \"int\" but an expression was expected of type\n\"'a ref\""
+    ]
+}

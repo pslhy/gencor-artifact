@@ -1,0 +1,24 @@
+{
+    "decoded": 101,
+    "llm_time": 5.42113184928894,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002686738967895508,
+    "constrainer_time": 0.006229877471923828,
+    "total_time": 5.456416845321655,
+    "frequency": {
+        "1": 102
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type '[string, number][]'. Did you mean 'length'?",
+        "TS2322: Type '[undefined, number]' is not assignable to type '[string, number]'.\n  Type at position 0 in source is not compatible with type at position 0 in target.\n    Type 'undefined' is not assignable to type 'string'.",
+        "TS2454: Variable 'maxNumeber' is used before being assigned.",
+        "TS2454: Variable 'maxName' is used before being assigned.",
+        "TS2454: Variable 'maxNumeber' is used before being assigned.",
+        "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+    ]
+}

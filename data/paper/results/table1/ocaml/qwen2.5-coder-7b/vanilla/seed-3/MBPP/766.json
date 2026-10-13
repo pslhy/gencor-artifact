@@ -1,0 +1,22 @@
+{
+    "decoded": 47,
+    "llm_time": 1.2042324542999268,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011475086212158203,
+    "constrainer_time": 0.010706663131713867,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.2315142154693604,
+    "frequency": {
+        "1": 48
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/766.ml:4:34: The function \"pair_wise\" has type int list -> (int * int) list\nIt is applied to too many arguments"
+    ]
+}

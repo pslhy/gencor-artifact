@@ -1,0 +1,24 @@
+{
+    "decoded": 203,
+    "llm_time": 10.944004535675049,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005008220672607422,
+    "constrainer_time": 0.04794788360595703,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.058486461639404,
+    "frequency": {
+        "1": 204
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:16: undefined module member 'shutil.createfile'",
+        "<python>:20:52: undefined name 'file'",
+        "<python>:21:20: undefined module member 'shutil.createname'"
+    ]
+}

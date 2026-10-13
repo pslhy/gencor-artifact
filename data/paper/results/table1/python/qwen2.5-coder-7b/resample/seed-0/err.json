@@ -1,0 +1,91 @@
+{
+    "BigCodeBench/82": {
+        "1": [
+            "<python>:42:19: unindent does not match any outer indentation level",
+            "   @login_required",
+            "                  ^"
+        ]
+    },
+    "BigCodeBench/129": {
+        "1": [
+            "<python>:19:15: undefined name 'HTTPError'"
+        ]
+    },
+    "BigCodeBench/227": {
+        "1": [
+            "<python>:24:41: undefined module member 'plt.specshow'"
+        ],
+        "2": [
+            "<python>:25:41: undefined module member 'plt.specshow'"
+        ],
+        "3": [
+            "<python>:24:41: undefined module member 'plt.specshow'"
+        ],
+        "4": [
+            "<python>:25:41: undefined module member 'plt.specshow'"
+        ]
+    },
+    "BigCodeBench/458": {
+        "1": [
+            "<python>:27:27: undefined module member 'pd.api.types.is_timedelta64_any_dtype'"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "<python>:14:34: unindent does not match any outer indentation level",
+            "           (lines2 = list(reader2",
+            "                                 ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:24:14: invalid syntax",
+            "        raise.URLError(\"Network error or server issue: \" + str(e.reason))",
+            "             ^"
+        ],
+        "2": [
+            "<python>:28:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "<python>:19:76: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:19:76: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:19:76: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/917": {
+        "1": [
+            "<python>:22:5: undefined name 'returnforecast'"
+        ]
+    },
+    "BigCodeBench/999": {
+        "1": [
+            "<python>:18:20: invalid syntax",
+            "                os remove(temp_file_path)",
+            "                   ^"
+        ],
+        "2": [
+            "<python>:9:32: undefined name 'pathlib'"
+        ]
+    },
+    "BigCodeBench/1003": {
+        "1": [
+            "<python>:12:33: undefined name 'socket'"
+        ],
+        "2": [
+            "<python>:12:33: undefined name 'timeout'"
+        ]
+    },
+    "BigCodeBench/1004": {
+        "1": [
+            "<python>:16:17: invalid syntax",
+            "    most_common words = word_freq.most_common(10)",
+            "                ^"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 200,
+    "llm_time": 5.004857301712036,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005076408386230469,
+    "constrainer_time": 0.04661989212036133,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.118582248687744,
+    "frequency": {
+        "1": 201
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/160.ml:5:10: This pattern matches values of type \"'a * 'b\"\nbut a pattern was expected which matches values of type \"int\""
+    ]
+}

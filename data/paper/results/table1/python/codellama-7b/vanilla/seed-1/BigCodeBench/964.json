@@ -1,0 +1,22 @@
+{
+    "decoded": 407,
+    "llm_time": 10.650018692016602,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010321617126464844,
+    "constrainer_time": 0.09646439552307129,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.890774011611938,
+    "frequency": {
+        "1": 408
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:26:31: undefined module member 'docx.read_docx'"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 80,
+    "llm_time": 2.0044984817504883,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018682479858398438,
+    "constrainer_time": 0.018628597259521484,
+    "total_time": 2.0448246002197266,
+    "frequency": {
+        "1": 81
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?",
+        "TS2552: Cannot find name 'list'. Did you mean 'list1'?",
+        "TS2552: Cannot find name 'list'. Did you mean 'list1'?"
+    ]
+}

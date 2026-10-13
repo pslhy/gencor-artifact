@@ -1,0 +1,20 @@
+{
+    "mbpp/67": [
+        "../../tmp/tmpx66t7sbo.ts(21,19): error TS1109: Expression expected."
+    ],
+    "mbpp/167": [
+        "../../tmp/tmptrds_emd.ts(18,12): error TS1005: ')' expected."
+    ],
+    "mbpp/239": [
+        "../../tmp/tmp2x1btc72.ts(58,24): error TS1005: '}' expected."
+    ],
+    "mbpp/256": [
+        "../../tmp/tmpon5jgihp.ts(30,19): error TS1005: ')' expected."
+    ],
+    "mbpp/453": [
+        "../../tmp/tmpmbn_dk2z.ts(23,20): error TS1005: '}' expected."
+    ],
+    "mbpp/765": [
+        "../../tmp/tmpoobl7kc4.ts(6,34): error TS1109: Expression expected."
+    ]
+}

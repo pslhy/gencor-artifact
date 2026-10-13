@@ -1,0 +1,22 @@
+{
+    "decoded": 299,
+    "llm_time": 7.572937488555908,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00751805305480957,
+    "constrainer_time": 0.06820344924926758,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.746455192565918,
+    "frequency": {
+        "1": 300
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:66: undefined module member 'rsa.key.exportKey'"
+    ]
+}

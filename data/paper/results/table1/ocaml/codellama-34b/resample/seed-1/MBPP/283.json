@@ -1,0 +1,28 @@
+{
+    "decoded": 278,
+    "decoded_at_turn": {
+        "1": 139,
+        "2": 139
+    },
+    "llm_time": 15.001198291778564,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007109880447387695,
+    "constrainer_time": 0.06692743301391602,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 15.157999038696289,
+    "frequency": {
+        "1": 280
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:10:22: This expression should not be a function, the expected type is\n\"('a, 'b) Hashtbl.t\""
+    ]
+}

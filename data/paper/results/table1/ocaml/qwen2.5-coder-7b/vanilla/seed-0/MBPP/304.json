@@ -1,0 +1,22 @@
+{
+    "decoded": 114,
+    "llm_time": 3.041252374649048,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002758502960205078,
+    "constrainer_time": 0.026572704315185547,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.1085479259490967,
+    "frequency": {
+        "1": 115
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/304.ml:4:61: This expression has type \"int\" but an expression was expected of type\n\"char\""
+    ]
+}

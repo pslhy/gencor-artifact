@@ -1,0 +1,29 @@
+{
+    "decoded": 554,
+    "decoded_at_turn": {
+        "1": 314,
+        "2": 119,
+        "3": 121
+    },
+    "llm_time": 30.482959270477295,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.016396284103393555,
+    "constrainer_time": 0.1384124755859375,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 30.825474739074707,
+    "frequency": {
+        "1": 557
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:43: This expression should not be a list literal, the expected type is\n\"int * int\""
+    ]
+}

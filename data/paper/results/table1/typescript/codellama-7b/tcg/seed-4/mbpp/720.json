@@ -1,0 +1,19 @@
+{
+    "total_time": 90.00010275840759,
+    "llm_time": 90.00010275840759,
+    "constrainer_time": 0.0,
+    "n_resamples": 11,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2365: Operator '+' cannot be applied to types '[number, number, number]' and '{ [key: string]: number; }[]'."
+    ]
+}

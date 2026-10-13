@@ -1,0 +1,22 @@
+{
+    "decoded": 63,
+    "llm_time": 1.645120620727539,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015523433685302734,
+    "constrainer_time": 0.014505147933959961,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.6776483058929443,
+    "frequency": {
+        "1": 64
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/732.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+    ]
+}

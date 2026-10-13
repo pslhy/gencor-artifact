@@ -1,0 +1,20 @@
+{
+    "decoded": 233,
+    "llm_time": 6.125991582870483,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0058629512786865234,
+    "constrainer_time": 0.05391263961791992,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.2564921379089355,
+    "frequency": {
+        "1": 234
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": []
+}

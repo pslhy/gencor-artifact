@@ -1,0 +1,27 @@
+{
+    "decoded": 152,
+    "decoded_at_turn": {
+        "1": 152
+    },
+    "llm_time": 8.079288721084595,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003772258758544922,
+    "constrainer_time": 0.03595542907714844,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.160820484161377,
+    "frequency": {
+        "1": 153
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:9: This expression has type \"char Seq.t\" = \"unit -> char Seq.node\"\nbut an expression was expected of type \"'a list\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

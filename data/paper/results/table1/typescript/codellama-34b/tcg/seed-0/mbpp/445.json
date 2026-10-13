@@ -1,0 +1,18 @@
+{
+    "decoded": 283,
+    "total_time": 90.00131487846375,
+    "llm_time": 90.00131487846375,
+    "constrainer_time": 0.0,
+    "n_resamples": 9,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 0,
+    "is_err": null,
+    "is_synerr": null,
+    "is_uv": null,
+    "errors": null
+}

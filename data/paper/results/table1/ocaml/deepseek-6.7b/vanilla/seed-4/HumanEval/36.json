@@ -1,0 +1,22 @@
+{
+    "decoded": 143,
+    "llm_time": 3.5764875411987305,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003371000289916992,
+    "constrainer_time": 0.03204607963562012,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.65073823928833,
+    "frequency": {
+        "1": 144
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/36.ml:5:58: Unbound value \"String.remove_substr\""
+    ]
+}

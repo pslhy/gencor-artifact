@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 2.4380910396575928,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019481182098388672,
+    "constrainer_time": 0.018997669219970703,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4846673011779785,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/290.ml:10:5: This expression has type \"int\" but an expression was expected of type\n\"int * int list\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 246,
+    "llm_time": 13.44860029220581,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006202220916748047,
+    "constrainer_time": 0.0599818229675293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.596046447753906,
+    "frequency": {
+        "1": 247
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:24:18: undefined name 'EMAIL_ADDRESS'"
+    ]
+}

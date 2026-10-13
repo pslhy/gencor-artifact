@@ -1,0 +1,22 @@
+{
+    "decoded": 77,
+    "llm_time": 1.9902172088623047,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018134117126464844,
+    "constrainer_time": 0.017695903778076172,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.031242847442627,
+    "frequency": {
+        "1": 78
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/100.ml:0:0: The function \"make_a_pile\" has type int -> int list\nIt is applied to too many arguments"
+    ]
+}

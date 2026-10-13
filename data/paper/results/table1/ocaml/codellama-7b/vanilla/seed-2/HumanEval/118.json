@@ -1,0 +1,22 @@
+{
+    "decoded": 203,
+    "llm_time": 5.219249248504639,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0049436092376708984,
+    "constrainer_time": 0.04854106903076172,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.334821701049805,
+    "frequency": {
+        "1": 204
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/118.ml:5:20: Unbound value \"String.rev\""
+    ]
+}

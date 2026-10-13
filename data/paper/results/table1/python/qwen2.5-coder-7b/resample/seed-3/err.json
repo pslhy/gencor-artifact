@@ -1,0 +1,108 @@
+{
+    "BigCodeBench/37": {
+        "1": [
+            "<python>:16:15: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:16:15: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/177": {
+        "1": [
+            "<python>:7:26: unterminated string literal (detected at line 7)",
+            "        raise ValueError(\"DataFrame is empty or does not contain the necessary columns 'Title' and 'Content')",
+            "                         ^"
+        ]
+    },
+    "BigCodeBench/227": {
+        "1": [
+            "<python>:27:25: undefined module member 'librosa.spectrogram'"
+        ]
+    },
+    "BigCodeBench/526": {
+        "1": [
+            "<python>:9:8: unexpected indent",
+            "        if len(\u6709\u4ef7\u503c\u7684\u6570\u636e) == 0:",
+            "       ^"
+        ],
+        "2": [
+            "<python>:8:9: invalid character '\ufffd' (U+FFFD)",
+            "        \ufffd\ufffd\ufffd = [val for val in x if isinstance(val, (int, float))]",
+            "        ^"
+        ],
+        "3": [
+            "<python>:8:9: invalid character '\ufffd' (U+FFFD)",
+            "        \ufffd\ufffd\ufffd = [val for val in x if isinstance(val, (int, float))]",
+            "        ^"
+        ],
+        "4": [
+            "<python>:8:9: invalid character '\ufffd' (U+FFFD)",
+            "        \ufffd\ufffd\ufffd = [val for val in x if isinstance(val, (int, float))]",
+            "        ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:16:15: undefined name 'URLError'"
+        ],
+        "2": [
+            "<python>:16:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/618": {
+        "1": [
+            "<python>:20:14: invalid syntax",
+            "        home Goals = randint(0, goals)",
+            "             ^"
+        ]
+    },
+    "BigCodeBench/771": {
+        "1": [
+            "<python>:8:61: unmatched ')'",
+            "    input_files = list(directory_path.glob pattern + '.csv'))",
+            "                                                            ^"
+        ],
+        "2": [
+            "<python>:22:20: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:22:20: undefined name 'datetime'"
+        ],
+        "4": [
+            "<python>:22:20: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:22:20: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "<python>:10:59: undefined name 'time'"
+        ]
+    },
+    "BigCodeBench/945": {
+        "1": [
+            "<python>:12:33: undefined name 'datetime'",
+            "<python>:21:37: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/969": {
+        "1": [
+            "<python>:12:26: unterminated string literal (detected at line 12)",
+            "        raise ValueError(\"Input DataFrame contains NaN values')",
+            "                         ^"
+        ]
+    },
+    "BigCodeBench/988": {
+        "1": [
+            "<python>:10:33: unterminated string literal (detected at line 10)",
+            "        raise FileNotFoundError(\"The specified directory does not exist or is not a directory')",
+            "                                ^"
+        ]
+    },
+    "BigCodeBench/1077": {
+        "1": [
+            "<python>:12:26: undefined name 't'"
+        ]
+    }
+}

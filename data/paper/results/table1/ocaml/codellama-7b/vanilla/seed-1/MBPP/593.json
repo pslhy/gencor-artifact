@@ -1,0 +1,22 @@
+{
+    "decoded": 96,
+    "llm_time": 2.404784679412842,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023474693298339844,
+    "constrainer_time": 0.022496700286865234,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4550838470458984,
+    "frequency": {
+        "1": 97
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/593.ml:4:5: This pattern matches values of type \"'a option\"\nbut a pattern was expected which matches values of type \"int\""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 119,
+    "llm_time": 2.869720220565796,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002758026123046875,
+    "constrainer_time": 0.02694535255432129,
+    "total_time": 2.9288182258605957,
+    "frequency": {
+        "1": 120
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'math'. Did you mean 'Math'?",
+        "TS2552: Cannot find name 'math'. Did you mean 'Math'?"
+    ]
+}

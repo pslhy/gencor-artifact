@@ -1,0 +1,28 @@
+{
+    "decoded": 569,
+    "llm_time": 14.262300252914429,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014255523681640625,
+    "constrainer_time": 0.13397669792175293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.609926223754883,
+    "frequency": {
+        "1": 570
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/587.py:11:46: undefined name 'serialization'",
+        "BigCodeBench/587.py:12:44: undefined name 'serialization'",
+        "BigCodeBench/587.py:13:58: undefined name 'serialization'",
+        "BigCodeBench/587.py:14:57: undefined name 'serialization'",
+        "BigCodeBench/587.py:15:55: undefined name 'serialization'",
+        "BigCodeBench/587.py:31:40: undefined name 'hashes'",
+        "BigCodeBench/587.py:32:23: undefined name 'hashes'"
+    ]
+}

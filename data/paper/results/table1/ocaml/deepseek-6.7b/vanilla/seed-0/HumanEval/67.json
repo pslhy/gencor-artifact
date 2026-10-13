@@ -1,0 +1,22 @@
+{
+    "decoded": 135,
+    "llm_time": 3.508357048034668,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0033185482025146484,
+    "constrainer_time": 0.031078815460205078,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.5825724601745605,
+    "frequency": {
+        "1": 136
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/67.ml:5:9: Unbound value \"num_apples\""
+    ]
+}

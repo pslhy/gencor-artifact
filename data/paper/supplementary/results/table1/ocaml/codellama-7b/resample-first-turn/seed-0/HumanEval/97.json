@@ -1,0 +1,22 @@
+{
+    "decoded": 320,
+    "llm_time": 8.26631784439087,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007803201675415039,
+    "constrainer_time": 0.07505488395690918,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.44470500946045,
+    "frequency": {
+        "1": 321
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:15:20: Unbound value \"div\""
+    ]
+}

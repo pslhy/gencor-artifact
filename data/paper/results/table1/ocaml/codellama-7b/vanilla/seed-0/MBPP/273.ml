@@ -1,0 +1,16 @@
+let rec substract_elements (test_tup1 :  int * int * int) (test_tup2 :  int * int * int) :  int * int * int =
+    match test_tup1 with
+    | t11, t12, t13 ->
+        match test_tup2 with
+        | t21, t22, t23 ->
+            (t11 - t21, t12 - t22, t13 - t23)
+        | _ -> raise (Invalid_argument "Incompatible tuples")
+;;
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function that takes in two tuples and subtracts the elements of the first tuple by the elements of the second tuple with the same index. *)

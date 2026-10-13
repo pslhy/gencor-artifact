@@ -1,0 +1,40 @@
+{
+    "BigCodeBench/37": {
+        "1": [
+            "BigCodeBench/37.py:17:18: undefined name 'np'",
+            "BigCodeBench/37.py:18:11: undefined name 'np'",
+            "BigCodeBench/37.py:23:21: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/417": {
+        "1": [
+            "BigCodeBench/417.py:20:18: undefined name 'timer'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "BigCodeBench/501.py:11:21: undefined name 'json'",
+            "BigCodeBench/501.py:12:12: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "BigCodeBench/785.py:9:9: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/845": {
+        "1": [
+            "BigCodeBench/845.py:16:18: undefined name 'CountVectorizer'"
+        ]
+    },
+    "BigCodeBench/870": {
+        "1": [
+            "BigCodeBench/870.py:7:33: undefined module member 'itertools.izip'"
+        ]
+    },
+    "BigCodeBench/915": {
+        "1": [
+            "BigCodeBench/915.py:17:7: undefined name 'pd'"
+        ]
+    }
+}

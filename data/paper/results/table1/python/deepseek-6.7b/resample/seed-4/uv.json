@@ -1,0 +1,9 @@
+{
+    "BigCodeBench/502": [
+        "<python>:21:14: undefined name 'plt'",
+        "<python>:23:5: undefined name 'plt'"
+    ],
+    "BigCodeBench/771": [
+        "<python>:25:13: undefined name 'shutil'"
+    ]
+}

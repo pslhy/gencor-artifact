@@ -1,0 +1,469 @@
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -9,7 +9,8 @@
+ readme = "README.md"
+ requires-python = ">=3.9"
+ dependencies = [
+-    "jedi>=0.19.0,<0.20.0",
++    "jedi==0.19.2",
++    "parso==0.8.7",
+     "lark>=1.2.2,<2.0.0",
+     "pyflakes>=3.2.0,<4.0.0",
+     "pygls>=2.0.0,<3.0.0",
+@@ -17,6 +18,7 @@
+ 
+ [project.scripts]
+ scopelens = "scopelens.server:main"
++scopelens-prepare-cache = "scopelens.prepare_cache:main"
+ 
+ [tool.hatch.build.targets.wheel]
+ packages = ["src/scopelens"]
+--- a/src/scopelens/member_provider.py
++++ b/src/scopelens/member_provider.py
+@@ -2,24 +2,11 @@
+ 
+ import importlib
+ import keyword
+-import logging
+ import re
+ from dataclasses import dataclass
+ from typing import Any, Optional
+ 
+-_LOGGER = logging.getLogger("scopelens")
+-
+-
+-def _clear_parso_cache() -> None:
+-    # jedi/parso keeps a process-global parse cache that can go stale after
+-    # analyzing heavy C-extension packages (numpy), raising a KeyError on the
+-    # next query. Dropping it forces a clean re-parse.
+-    try:
+-        import parso
+-
+-        parso.cache.parser_cache.clear()
+-    except Exception:
+-        pass
++from scopelens.jedi_cache import analysis_query
+ 
+ 
+ _ATTRIBUTE_CONTEXT_RE = re.compile(
+@@ -58,18 +45,15 @@
+         # (e.g. gencor's run env), which may be missing packages the code imports
+         # -- making a real module (e.g. python-docx's `docx`) look undefined.
+         self._environment = None
+-        if self._jedi is not None:
+-            try:
+-                self._environment = self._jedi.InterpreterEnvironment()
+-            except Exception:
+-                self._environment = None
+-        # Per-module member cache: resolved module qualified name -> [(name, type)].
++        if hasattr(self._jedi, "InterpreterEnvironment"):
++            self._environment = self._jedi.InterpreterEnvironment()
++        # Per-module member cache: resolved module qualified name -> names.
+         # A module's members are static for this server's environment, so enumerate
+         # once and reuse -- this skips jedi's ~37ms member `complete` on repeats. The
+         # base is still re-resolved (cheap ~1ms goto) every query, so rebinding /
+         # shadowing of the base name is caught. Bounded by the (small) number of
+         # distinct modules seen.
+-        self._member_cache: dict[str, list[tuple[str, Optional[str]]]] = {}
++        self._member_cache: dict[str, list[str]] = {}
+ 
+     def _make_script(self, code: str) -> Any:
+         if self._environment is not None:
+@@ -78,6 +62,7 @@
+             )
+         return self._jedi.Script(code, path=self.script_path)
+ 
++    @analysis_query()
+     def complete(
+         self,
+         code: str,
+@@ -87,9 +72,6 @@
+         context = attribute_context_at(code, line, character)
+         if context is None:
+             return None
+-        if self._jedi is None:
+-            return []
+-
+         module_key = self._resolve_module_at(code, context.line, context.base_end_character)
+         if module_key is None:            # base is not a module
+             return []
+@@ -105,42 +87,33 @@
+     def _resolve_module_at(self, code: str, line: int, character: int) -> Optional[str]:
+         """Qualified name of the module the name at ``(line, character)`` resolves
+         to, ``""`` if it is a module with no stable name, or ``None`` if it is not a
+-        module. ``line`` is 0-based. Same ``goto`` (and one stale-cache retry) as
+-        ``is_module_at``, but returns the identity used as the member-cache key --
++        module. ``line`` is 0-based. Same ``goto`` as ``is_module_at``, but returns
++        the identity used as the member-cache key --
+         re-run every query so a rebinding/shadowing of the base is caught.
+         """
+-        if self._jedi is None:
+-            return None
+-        for attempt in range(2):
+-            try:
+-                script = self._make_script(code)
+-                defs = script.goto(line + 1, character, follow_imports=True)
+-                for d in defs:
+-                    if getattr(d, "type", None) == "module":
+-                        return getattr(d, "full_name", None) or ""
+-                return None
+-            except Exception as exc:
+-                _LOGGER.warning("resolve_module goto failed (attempt %d): %r", attempt, exc)
+-                _clear_parso_cache()
++        script = self._make_script(code)
++        defs = script.goto(line + 1, character, follow_imports=True)
++        for d in defs:
++            if getattr(d, "type", None) == "module":
++                return getattr(d, "full_name", None) or ""
+         return None
+ 
+-    def _enumerate_members(self, code: str, context: AttributeContext) -> list[tuple[str, Optional[str]]]:
++    def _enumerate_members(self, code: str, context: AttributeContext) -> list[str]:
+         """Full member set of the base module (unfiltered by prefix), as
+-        ``(name, type)`` pairs. Completed right after the base's dot so the result
+-        is prefix-independent and cacheable.
++        plain names. Types require lazy inference and are not used by the name
++        constraint. Complete right after the dot to keep the cache independent
++        of the prefix. A failed query must never populate the member cache.
+         """
+-        try:
+-            script = self._make_script(code)
+-            completions = script.complete(context.line + 1, context.base_end_character + 1)
+-        except Exception:
+-            return []
+-        members: list[tuple[str, Optional[str]]] = []
++        script = self._make_script(code)
++        completions = script.complete(context.line + 1, context.base_end_character + 1)
++        members: list[str] = []
+         for completion in completions:
+             name = getattr(completion, "name", "")
+             if isinstance(name, str) and name:
+-                members.append((name, getattr(completion, "type", None)))
++                members.append(name)
+         return members
+ 
++    @analysis_query()
+     def is_module_at(self, code: str, line: int, character: int) -> bool:
+         """Whether the name ending at ``(line, character)`` resolves to a module.
+ 
+@@ -150,21 +123,10 @@
+         the name to its ``import`` and correctly reports ``module`` everywhere.
+         ``line`` is 0-based.
+ 
+-        A jedi/parso stale-cache error (seen after analyzing numpy-backed code)
+-        is retried once on a fresh parse rather than silently answering "not a
+-        module", which would drop the module-member constraint.
++        Analysis errors propagate to the RPC boundary. Answering "not a module"
++        after an error would silently drop the module-member constraint.
+         """
+-        if self._jedi is None:
+-            return False
+-        for attempt in range(2):
+-            try:
+-                script = self._make_script(code)
+-                defs = script.goto(line + 1, character, follow_imports=True)
+-                return any(getattr(d, "type", None) == "module" for d in defs)
+-            except Exception as exc:
+-                _LOGGER.warning("is_module_at goto failed (attempt %d): %r", attempt, exc)
+-                _clear_parso_cache()
+-        return False
++        return self._resolve_module_at(code, line, character) is not None
+ 
+ 
+ def attribute_context_at(code: str, line: int, character: int) -> Optional[AttributeContext]:
+@@ -185,13 +147,13 @@
+ 
+ 
+ def _candidates_from_members(
+-    members: list[tuple[str, Optional[str]]],
++    members: list[str],
+     prefix: str,
+ ) -> list[ModuleMemberCandidate]:
+     candidates = []
+     seen: set[str] = set()
+ 
+-    for label, member_type in members:
++    for label in members:
+         if not isinstance(label, str) or not label:
+             continue
+         if label in seen:
+@@ -203,8 +165,6 @@
+ 
+         seen.add(label)
+         detail = "ScopeLens/Jedi module"
+-        if isinstance(member_type, str) and member_type:
+-            detail += " " + member_type
+         candidates.append(ModuleMemberCandidate(label=label, detail=detail))
+ 
+     return candidates
+@@ -219,8 +179,8 @@
+     return min(sum(len(part) for part in lines[:line]) + character, len(code))
+ 
+ 
+-def _load_jedi() -> Any | None:
+-    try:
+-        return importlib.import_module("jedi")
+-    except ImportError:
+-        return None
++def _load_jedi() -> Any:
++    jedi = importlib.import_module("jedi")
++    if jedi.__version__ != "0.19.2":
++        raise RuntimeError(f"ScopeLens cache repair requires Jedi 0.19.2, got {jedi.__version__}")
++    return jedi
+--- a/src/scopelens/server.py
++++ b/src/scopelens/server.py
+@@ -7,6 +7,7 @@
+ from typing import Optional, Union
+ 
+ from lsprotocol import types
++from pygls.exceptions import JsonRpcException
+ from pygls.lsp.server import LanguageServer
+ 
+ from scopelens import __version__
+@@ -14,6 +15,15 @@
+ from scopelens.analyzer import CursorPosition, DocumentSnapshot, NameCandidate
+ 
+ LOGGER = logging.getLogger("scopelens")
++ANALYSIS_ERROR = -32050
++
++
++def _analysis_error(exc: Exception) -> JsonRpcException:
++    return JsonRpcException(
++        code=ANALYSIS_ERROR,
++        message=f"ScopeLens analysis failed: {type(exc).__name__}: {exc}",
++        data={"kind": "scopelens.analysis", "exception": type(exc).__name__},
++    )
+ 
+ 
+ class ScopeLensServer(LanguageServer):
+@@ -43,9 +53,9 @@
+             position,
+             uri=params.text_document.uri,
+         )
+-    except Exception:
++    except Exception as exc:
+         LOGGER.exception("available_names failed")
+-        candidates = ()
++        raise _analysis_error(exc) from exc
+ 
+     return types.CompletionList(
+         is_incomplete=False,
+@@ -105,9 +115,9 @@
+         uri = params["uri"] if isinstance(params, dict) else params.uri
+         document = server.workspace.get_text_document(uri)
+         return analyzer.undefined_module_members(_document_source(document))
+-    except Exception:
++    except Exception as exc:
+         LOGGER.exception("undefined_module_members hook failed")
+-        return []
++        raise _analysis_error(exc) from exc
+ 
+ 
+ @server.feature("scopelens/isModule")
+@@ -124,9 +134,9 @@
+         document = server.workspace.get_text_document(uri)
+         position = CursorPosition(line=line, character=character)
+         return analyzer.is_module(_document_source(document), position)
+-    except Exception:
++    except Exception as exc:
+         LOGGER.exception("is_module hook failed")
+-        return False
++        raise _analysis_error(exc) from exc
+ 
+ 
+ def _document_source(document) -> str:
+--- /dev/null
++++ b/src/scopelens/jedi_cache.py
+@@ -0,0 +1,70 @@
++"""Process-lifetime Parso cache for ScopeLens' private Jedi process.
++
++Keep source mtimes and pickle format intact. Refresh residency on insertion
++(new parses and old pickles) and direct lookup (including Jedi's imported
++get_parso_cache_node). Never evict by elapsed time or entry count: wall-clock
++pruning makes reparsing costs depend on machine load and unrelated queries.
++Changed sources still replace their own entries through Parso's normal parser.
++Memory is reclaimed when the owning server exits; disk cleanup is explicit.
++All Jedi objects are consumed under the query lock; only names/bools escape.
++"""
++from __future__ import annotations
++
++from contextlib import contextmanager
++from threading import RLock
++
++import parso
++from parso import cache
++
++_lock = RLock()
++_installed = False
++
++
++class _AccessMap(dict):
++    def __getitem__(self, key):
++        item = super().__getitem__(key)
++        item.last_used = cache.time.time()
++        return item
++
++    def get(self, key, default=None):
++        try:
++            return self[key]
++        except KeyError:
++            return default
++
++
++def _set_cache_item(grammar, path, item):
++    with _lock:
++        # Usage metadata is retained for compatibility, never for eviction.
++        item.last_used = cache.time.time()
++        cache.parser_cache.setdefault(grammar, _AccessMap())[path] = item
++
++
++def _keep_disk_cache(cache_path=None):
++    # Parso otherwise scans/deletes disk entries according to wall-clock age
++    # when saving a parse. Cache preparation/cleanup belongs outside queries.
++    pass
++
++
++def install():
++    """Install once, before creating any Jedi Script in this process."""
++    global _installed
++    with _lock:
++        if _installed:
++            return
++        if parso.__version__ != "0.8.7":
++            raise RuntimeError(f"ScopeLens cache repair requires Parso 0.8.7, got {parso.__version__}")
++        for grammar, items in cache.parser_cache.items():
++            cache.parser_cache[grammar] = _AccessMap(items)
++        # Parso calls this through its cache module, including after unpickling.
++        # The outer parser_cache object stays intact for Jedi's imported aliases.
++        cache._set_cache_item = _set_cache_item
++        cache._remove_cache_and_update_lock = _keep_disk_cache
++        _installed = True
++
++
++@contextmanager
++def analysis_query():
++    with _lock:
++        install()
++        yield
+--- a/src/scopelens/analyzer.py
++++ b/src/scopelens/analyzer.py
+@@ -304,8 +304,8 @@
+             if not provider.is_module_at(code, base_line, base_end):
+                 break  # base is not a module (or already the tail) -> stop
+             members = provider.complete(code, base_line, base_end + 1)
+-            if not members:
+-                break  # could not enumerate members -> don't guess
++            if members is None:
++                break  # no attribute context; analysis failures raise
+             labels = {m.label for m in members}
+             if lv.attr not in labels:
+                 out.append(
+--- /dev/null
++++ b/src/scopelens/prepare_cache.py
+@@ -0,0 +1,77 @@
++"""Prepare ScopeLens/Jedi caches using real member queries, without an LLM.
++
++Run after installing the packages to be analyzed.
++Disk files are Parso's own parse cache, not serialized completion results.
++"""
++import argparse
++import keyword
++import os
++from pathlib import Path
++import sys
++import time
++
++
++def load_modules(path):
++    modules = []
++    for line_number, line in enumerate(Path(path).read_text().splitlines(), 1):
++        name = line.split("#", 1)[0].strip()
++        if not name:
++            continue
++        if not all(part.isidentifier() and not keyword.iskeyword(part)
++                   for part in name.split(".")):
++            raise ValueError(f"{path}:{line_number}: invalid module name: {name!r}")
++        if name not in modules:
++            modules.append(name)
++    if not modules:
++        raise ValueError(f"Empty ScopeLens warmup module list: {path}")
++    return modules
++
++
++def warm_modules(modules, complete, *, phase):
++    started = time.perf_counter()
++    for module in modules:
++        print(f"[ScopeLens {phase}] START {module}", file=sys.stderr, flush=True)
++        before = time.perf_counter()
++        # Import aliases and package distribution names need not be identical.
++        # A module's qualified name, not the alias, is the provider's cache key.
++        code = f"import {module} as _scopelens_warmup\n_scopelens_warmup."
++        try:
++            members = complete(code, 1, len("_scopelens_warmup."))
++            if not members:
++                raise RuntimeError("no module members returned; check installation/server logs")
++        except Exception as exc:
++            print(f"[ScopeLens {phase}] FAIL {module}: {type(exc).__name__}: {exc}",
++                  file=sys.stderr, flush=True)
++            raise
++        print(f"[ScopeLens {phase}] OK {module}: {len(members)} members, "
++              f"{time.perf_counter() - before:.6f}s", file=sys.stderr, flush=True)
++    elapsed = time.perf_counter() - started
++    print(f"[ScopeLens {phase}] DONE {len(modules)} modules, {elapsed:.6f}s",
++          file=sys.stderr, flush=True)
++    return elapsed
++
++
++def main():
++    parser = argparse.ArgumentParser(description=__doc__)
++    parser.add_argument("--modules", required=True, type=Path,
++                        help="one importable module name per line; # comments allowed")
++    parser.add_argument("--cache-home", required=True, type=Path,
++                        help="dedicated XDG cache directory; existing files are not deleted")
++    args = parser.parse_args()
++    modules = load_modules(args.modules)
++    cache_home = args.cache_home.resolve()
++    cache_home.mkdir(parents=True, exist_ok=True)
++    # Must precede Jedi/Parso import. Install and run with the ScopeLens Python.
++    os.environ["XDG_CACHE_HOME"] = str(cache_home)
++    from importlib.metadata import version
++    import jedi
++    from scopelens.member_provider import JediModuleMemberProvider
++
++    print(f"[ScopeLens disk] Python={sys.executable} ({sys.version.split()[0]}) "
++          f"Jedi={version('jedi')} Parso={version('parso')} cache={jedi.settings.cache_directory}",
++          file=sys.stderr, flush=True)
++    warm_modules(modules, JediModuleMemberProvider().complete, phase="disk")
++
++
++if __name__ == "__main__":
++    main()
+--- a/README.md
++++ b/README.md
+@@ -23,6 +23,26 @@
+ ```bash
+ pip install -e .
+ ```
++
++Install the packages whose members ScopeLens will analyze into the same Python
++environment, then prepare their disk parse cache:
++
++```bash
++python -m pip install -r /path/to/requirements.txt
++python -m scopelens.prepare_cache --modules /path/to/modules.txt --cache-home /path/to/cache
++XDG_CACHE_HOME=/path/to/cache scopelens
++```
++
++`modules.txt` lists import names, one per line (for example `numpy`, `seaborn`,
++`nltk`, and `docx` for the `python-docx` distribution). Blank lines and `#` comments
++are allowed. Preparation uses the real member provider, reports each module's
++member count and elapsed time, and exits unsuccessfully if a query fails or
++returns no members. Use the same environment and cache directory when starting
++the server. Existing cache files are retained.
++
++This prepares Jedi/Parso's disk parse cache; it does not persist inferred member
++lists or remove all first-query work in a new server. Changed sources still use
++Parso's normal cache validity checks.
+ 
+ ## Run
+ 

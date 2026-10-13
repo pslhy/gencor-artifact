@@ -1,0 +1,22 @@
+{
+    "decoded": 199,
+    "llm_time": 4.920455694198608,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004874706268310547,
+    "constrainer_time": 0.04582571983337402,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.027106761932373,
+    "frequency": {
+        "1": 200
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/745.ml:13:52: This expression has type \"int -> bool\"\nbut an expression was expected of type \"bool\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

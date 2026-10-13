@@ -1,0 +1,24 @@
+{
+    "decoded": 591,
+    "llm_time": 15.314204216003418,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014281988143920898,
+    "constrainer_time": 0.13776087760925293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 15.663122415542603,
+    "frequency": {
+        "1": 592
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:24:38: undefined name 'threading'",
+        "<python>:27:35: undefined name 'threading'",
+        "<python>:42:35: undefined name 'buffer_size'"
+    ]
+}

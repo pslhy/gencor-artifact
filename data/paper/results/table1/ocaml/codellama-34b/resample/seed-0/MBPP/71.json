@@ -1,0 +1,30 @@
+{
+    "decoded": 573,
+    "decoded_at_turn": {
+        "1": 143,
+        "2": 143,
+        "3": 147,
+        "4": 140
+    },
+    "llm_time": 31.65798807144165,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014450788497924805,
+    "constrainer_time": 0.13666701316833496,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 31.997381687164307,
+    "frequency": {
+        "1": 577
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:32: This expression has type \"int list\"\nbut an expression was expected of type \"'a -> 'a -> int\""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "total_time": 90.00012183189392,
+    "llm_time": 90.00012183189392,
+    "constrainer_time": 0.0,
+    "n_resamples": 13,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 0,
+    "is_err": false,
+    "is_synerr": false,
+    "is_uv": true,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2552: Cannot find name 'strin'. Did you mean 'string'?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 101,
+    "llm_time": 2.685931444168091,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0024383068084716797,
+    "constrainer_time": 0.02357625961303711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.74515438079834,
+    "frequency": {
+        "1": 102
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/285.ml:2:24: Unbound module \"Sys_utils\""
+    ]
+}

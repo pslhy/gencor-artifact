@@ -1,0 +1,22 @@
+{
+    "decoded": 405,
+    "llm_time": 10.554373741149902,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009380102157592773,
+    "constrainer_time": 0.09250569343566895,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.799736022949219,
+    "frequency": {
+        "1": 406
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:28:40: Illegal character (\\172)"
+    ]
+}

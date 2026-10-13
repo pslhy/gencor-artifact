@@ -1,0 +1,28 @@
+{
+    "decoded": 661,
+    "decoded_at_turn": {
+        "1": 304,
+        "2": 357
+    },
+    "llm_time": 36.36994385719299,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02074146270751953,
+    "constrainer_time": 0.1671462059020996,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 36.803316831588745,
+    "frequency": {
+        "1": 663
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:34: This expression has type \"int list list\"\nbut an expression was expected of type \"float list\"\nType \"int list\" is not compatible with type \"float\""
+    ]
+}

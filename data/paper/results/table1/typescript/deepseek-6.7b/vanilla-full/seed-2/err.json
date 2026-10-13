@@ -1,0 +1,249 @@
+{
+    "HumanEval/10": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "HumanEval/16": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+        ]
+    },
+    "HumanEval/19": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'.\n  No index signature with a parameter of type 'string' was found on type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'.\n  No index signature with a parameter of type 'string' was found on type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'."
+        ]
+    },
+    "HumanEval/24": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "HumanEval/26": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'."
+        ]
+    },
+    "HumanEval/37": {
+        "1": [
+            "TS2322: Type '(number | undefined)[]' is not assignable to type 'number[]'.\n  Type 'number | undefined' is not assignable to type 'number'.\n    Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "HumanEval/49": {
+        "1": [
+            "TS2322: Type 'bigint' is not assignable to type 'number'."
+        ]
+    },
+    "HumanEval/69": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+        ]
+    },
+    "HumanEval/105": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{ 1: string; 2: string; 3: string; 4: string; 5: string; 6: string; 7: string; 8: string; 9: string; }'.\n  No index signature with a parameter of type 'number' was found on type '{ 1: string; 2: string; 3: string; 4: string; 5: string; 6: string; 7: string; 8: string; 9: string; }'."
+        ]
+    },
+    "HumanEval/146": {
+        "1": [
+            "TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.",
+            "TS2345: Argument of type 'string' is not assignable to parameter of type 'number'."
+        ]
+    },
+    "mbpp/4": {
+        "1": [
+            "TS2304: Cannot find name 'MaxPriorityQueue'."
+        ]
+    },
+    "mbpp/19": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'."
+        ]
+    },
+    "mbpp/63": {
+        "1": [
+            "TS2322: Type '[number, number, number]' is not assignable to type '[number, number]'.\n  Source has 3 element(s) but target allows only 2.",
+            "TS2322: Type '[number, number, number]' is not assignable to type '[number, number]'.\n  Source has 3 element(s) but target allows only 2.",
+            "TS2322: Type '[number, number, number]' is not assignable to type '[number, number]'.\n  Source has 3 element(s) but target allows only 2."
+        ]
+    },
+    "mbpp/88": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'."
+        ]
+    },
+    "mbpp/106": {
+        "1": [
+            "TS2322: Type '[...number[], number, number]' is not assignable to type '[number, number, number, number, number]'.\n  Target requires 5 element(s) but source may have fewer.",
+            "TS2345: Argument of type '[number, number, number]' is not assignable to parameter of type '[number, number]'.\n  Source has 3 element(s) but target allows only 2."
+        ]
+    },
+    "mbpp/130": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'."
+        ]
+    },
+    "mbpp/222": {
+        "1": [
+            "TS7006: Parameter 'element' implicitly has an 'any' type."
+        ]
+    },
+    "mbpp/261": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/294": {
+        "1": [
+            "TS2365: Operator '>' cannot be applied to types 'string | number' and 'number'.",
+            "TS2322: Type 'string | number' is not assignable to type 'number'.\n  Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/297": {
+        "1": [
+            "TS2345: Argument of type 'number | number[]' is not assignable to parameter of type '(number | number[])[]'.\n  Type 'number' is not assignable to type '(number | number[])[]'.",
+            "TS2345: Argument of type 'number | number[]' is not assignable to parameter of type 'number'.\n  Type 'number[]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/394": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'."
+        ]
+    },
+    "mbpp/395": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+        ]
+    },
+    "mbpp/400": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+        ]
+    },
+    "mbpp/410": {
+        "1": [
+            "TS2365: Operator '<' cannot be applied to types 'string | number' and 'number'.",
+            "TS2322: Type 'string | number' is not assignable to type 'number'.\n  Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/415": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number]'.\n  Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/417": {
+        "1": [
+            "TS2322: Type 'string[][][]' is not assignable to type 'string[][]'.\n  Type 'string[][]' is not assignable to type 'string[]'.\n    Type 'string[]' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/446": {
+        "1": [
+            "TS7006: Parameter 'el' implicitly has an 'any' type."
+        ]
+    },
+    "mbpp/470": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/562": {
+        "1": [
+            "TS2532: Object is possibly 'undefined'."
+        ]
+    },
+    "mbpp/566": {
+        "1": [
+            "TS2345: Argument of type 'number' is not assignable to parameter of type 'string'."
+        ]
+    },
+    "mbpp/579": {
+        "1": [
+            "TS2345: Argument of type 'number[]' is not assignable to parameter of type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/580": {
+        "1": [
+            "TS7034: Variable 'arr' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+            "TS7005: Variable 'arr' implicitly has an 'any[]' type.",
+            "TS2322: Type 'string' is not assignable to type 'number'.",
+            "TS2322: Type 'number' is not assignable to type '[number, number, [number, number]]'.",
+            "TS2322: Type 'string' is not assignable to type 'number'.",
+            "TS2322: Type '(string | number | (string | number)[])[]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/597": {
+        "1": [
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'p'.",
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'j'.",
+            "TS2304: Cannot find name 'j'."
+        ]
+    },
+    "mbpp/630": {
+        "1": [
+            "TS2322: Type '[number, number, number, number, number, number, number]' is not assignable to type '[number, number]'.\n  Source has 7 element(s) but target allows only 2."
+        ]
+    },
+    "mbpp/740": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS2345: Argument of type 'number[]' is not assignable to parameter of type '[number, number, number, number, number, number]'.\n  Target requires 6 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/749": {
+        "1": [
+            "TS2322: Type 'string[]' is not assignable to type 'number[]'.\n  Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/757": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+        ]
+    },
+    "mbpp/777": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+        ]
+    },
+    "mbpp/780": {
+        "1": [
+            "TS2345: Argument of type 'number[]' is not assignable to parameter of type '[number, number]'.\n  Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/791": {
+        "1": [
+            "TS7006: Parameter 'a' implicitly has an 'any' type.",
+            "TS7006: Parameter 'b' implicitly has an 'any' type."
+        ]
+    }
+}

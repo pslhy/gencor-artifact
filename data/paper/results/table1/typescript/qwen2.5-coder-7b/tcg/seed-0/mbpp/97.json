@@ -1,0 +1,21 @@
+{
+    "total_time": 90.06591200828552,
+    "llm_time": 90.06591200828552,
+    "constrainer_time": 0.0,
+    "n_resamples": 17,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 0,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type 'number' is not assignable to type '{ [key: number]: number; }'.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(frequency: number[], value: number) => number[]' is not assignable to parameter of type '(previousValue: number, currentValue: number, currentIndex: number, array: number[]) => number'.\n      Types of parameters 'frequency' and 'previousValue' are incompatible.\n        Type 'number' is not assignable to type 'number[]'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number[], currentValue: number, currentIndex: number, array: number[]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type 'string' is not assignable to parameter of type 'number[]'.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string): string', gave the following error.\n    Argument of type '(a: number[], c: number) => number[]' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Types of parameters 'a' and 'previousValue' are incompatible.\n        Type 'string' is not assignable to type 'number[]'.\n  Overload 2 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error.\n    Argument of type '(a: number[], c: number) => number[]' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Types of parameters 'a' and 'previousValue' are incompatible.\n        Type 'string' is not assignable to type 'number[]'.\n  Overload 3 of 3, '(callbackfn: (previousValue: number[], currentValue: string, currentIndex: number, array: string[]) => number[], initialValue: number[]): number[]', gave the following error.\n    Argument of type '(a: number[], c: number) => number[]' is not assignable to parameter of type '(previousValue: number[], currentValue: string, currentIndex: number, array: string[]) => number[]'.\n      Types of parameters 'c' and 'currentValue' are incompatible.\n        Type 'string' is not assignable to type 'number'."
+    ]
+}

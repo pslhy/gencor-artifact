@@ -1,0 +1,31 @@
+{
+    "decoded": 470,
+    "decoded_at_turn": {
+        "1": 88,
+        "2": 84,
+        "3": 96,
+        "4": 101,
+        "5": 101
+    },
+    "llm_time": 12.356148719787598,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01149439811706543,
+    "constrainer_time": 0.11374568939208984,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.63973617553711,
+    "frequency": {
+        "1": 475
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:17: Unbound value \"List.drop\""
+    ]
+}

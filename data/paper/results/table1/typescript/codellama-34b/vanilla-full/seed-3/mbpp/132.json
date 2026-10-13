@@ -1,0 +1,20 @@
+{
+    "decoded": 102,
+    "llm_time": 5.463608264923096,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002660512924194336,
+    "constrainer_time": 0.006269216537475586,
+    "total_time": 5.498708486557007,
+    "frequency": {
+        "1": 103
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'str'.",
+        "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+    ]
+}

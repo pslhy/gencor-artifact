@@ -1,0 +1,28 @@
+{
+    "decoded": 1045,
+    "llm_time": 34.38065195083618,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 55.68462085723877,
+    "constrainer_time": 0.0,
+    "total_time": 90.06527280807495,
+    "frequency": {
+        "1": 1001,
+        "3": 8,
+        "9": 1,
+        "2": 17,
+        "4": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpf_jfmjem.ts(75,63): error TS1005: '}' expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 1072,
+    "num_tokens_generated": 1045,
+    "total_realizability_time": 55.68462085723877
+}

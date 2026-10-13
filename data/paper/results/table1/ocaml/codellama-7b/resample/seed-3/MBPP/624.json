@@ -1,0 +1,31 @@
+{
+    "decoded": 530,
+    "decoded_at_turn": {
+        "1": 94,
+        "2": 105,
+        "3": 105,
+        "4": 107,
+        "5": 119
+    },
+    "llm_time": 13.401684522628784,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01313328742980957,
+    "constrainer_time": 0.12490034103393555,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.71582293510437,
+    "frequency": {
+        "1": 535
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:47: This expression has type \"char -> char\"\nbut an expression was expected of type \"char\""
+    ]
+}

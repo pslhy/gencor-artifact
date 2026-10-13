@@ -1,0 +1,20 @@
+{
+    "decoded": 772,
+    "llm_time": 19.61465096473694,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.017312049865722656,
+    "constrainer_time": 0.17583918571472168,
+    "total_time": 20.04656672477722,
+    "frequency": {
+        "1": 773
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number' is not assignable to type 'boolean'.",
+        "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures."
+    ]
+}

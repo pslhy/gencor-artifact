@@ -1,0 +1,36 @@
+{
+    "HumanEval/119": [
+        "TS2304: Cannot find name 'x'."
+    ],
+    "mbpp/308": [
+        "TS2304: Cannot find name 'MaxPriorityQueue'."
+    ],
+    "mbpp/443": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'and'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/597": [
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'."
+    ],
+    "mbpp/766": [
+        "TS2304: Cannot find name 'Here'.",
+        "TS2304: Cannot find name 'is'.",
+        "TS2304: Cannot find name 'an'.",
+        "TS2304: Cannot find name 'example'."
+    ]
+}

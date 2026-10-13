@@ -1,0 +1,22 @@
+{
+    "decoded": 168,
+    "llm_time": 4.173783540725708,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004105091094970703,
+    "constrainer_time": 0.03739500045776367,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.260229110717773,
+    "frequency": {
+        "1": 169
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:10: Unbound module \"Char.Ascii\""
+    ]
+}

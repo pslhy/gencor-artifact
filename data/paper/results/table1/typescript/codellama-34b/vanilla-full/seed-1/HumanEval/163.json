@@ -1,0 +1,20 @@
+{
+    "decoded": 64,
+    "llm_time": 3.4816720485687256,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015995502471923828,
+    "constrainer_time": 0.003908872604370117,
+    "total_time": 3.504102945327759,
+    "frequency": {
+        "1": 65
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2339: Property 'isEven' does not exist on type 'string'.",
+        "TS2339: Property 'parseInt' does not exist on type 'string'."
+    ]
+}

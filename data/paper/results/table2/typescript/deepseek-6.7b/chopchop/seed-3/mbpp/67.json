@@ -1,0 +1,27 @@
+{
+    "decoded": 207,
+    "llm_time": 6.110045433044434,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 84.36551809310913,
+    "constrainer_time": 0.0,
+    "total_time": 90.47556352615356,
+    "frequency": {
+        "1": 185,
+        "3": 1,
+        "2": 5,
+        "6": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpuaukioym.ts(26,31): error TS1110: Type expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 204,
+    "num_tokens_generated": 207,
+    "total_realizability_time": 84.36551809310913
+}

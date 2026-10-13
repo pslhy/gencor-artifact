@@ -1,0 +1,20 @@
+{
+    "decoded": 114,
+    "llm_time": 2.934015989303589,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002675294876098633,
+    "constrainer_time": 0.027005672454833984,
+    "total_time": 2.9924323558807373,
+    "frequency": {
+        "1": 115
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2588: Cannot assign to 'low' because it is a constant.",
+        "TS2588: Cannot assign to 'high' because it is a constant."
+    ]
+}

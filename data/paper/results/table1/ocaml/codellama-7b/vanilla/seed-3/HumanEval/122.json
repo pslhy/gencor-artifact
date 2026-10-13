@@ -1,0 +1,22 @@
+{
+    "decoded": 125,
+    "llm_time": 3.072213649749756,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003057718276977539,
+    "constrainer_time": 0.028825759887695312,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.1397275924682617,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/122.ml:11:14: Unbound value \"arr\"\nHint: Did you mean \"asr\"?"
+    ]
+}

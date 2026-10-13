@@ -1,0 +1,22 @@
+{
+    "decoded": 53,
+    "llm_time": 2.8469316959381104,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016705989837646484,
+    "constrainer_time": 0.013159513473510742,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.8771746158599854,
+    "frequency": {
+        "1": 54
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:15: Unbound value \"Complex.maginutes\""
+    ]
+}

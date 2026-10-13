@@ -1,0 +1,24 @@
+{
+    "decoded": 54,
+    "llm_time": 1.3562507629394531,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0012230873107910156,
+    "constrainer_time": 0.012558937072753906,
+    "total_time": 1.3829667568206787,
+    "frequency": {
+        "1": 55
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2339: Property 'x' does not exist on type 'number'.",
+        "TS2339: Property 'x' does not exist on type 'number'.",
+        "TS2339: Property 'y' does not exist on type 'number'.",
+        "TS2339: Property 'y' does not exist on type 'number'.",
+        "TS2339: Property 'y' does not exist on type 'number'.",
+        "TS2339: Property 'x' does not exist on type 'number'."
+    ]
+}

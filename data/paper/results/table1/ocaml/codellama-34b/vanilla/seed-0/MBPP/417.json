@@ -1,0 +1,22 @@
+{
+    "decoded": 120,
+    "llm_time": 6.4397125244140625,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036804676055908203,
+    "constrainer_time": 0.030519485473632812,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.509457349777222,
+    "frequency": {
+        "1": 121
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:49: This expression has type \"string list list\"\nbut an expression was expected of type \"(string * int) list\"\nType \"string list\" is not compatible with type \"string * int\""
+    ]
+}

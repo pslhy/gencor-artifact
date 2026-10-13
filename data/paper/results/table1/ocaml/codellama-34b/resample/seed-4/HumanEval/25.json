@@ -1,0 +1,31 @@
+{
+    "decoded": 679,
+    "decoded_at_turn": {
+        "1": 179,
+        "2": 126,
+        "3": 126,
+        "4": 126,
+        "5": 122
+    },
+    "llm_time": 38.58664894104004,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.023021221160888672,
+    "constrainer_time": 0.17721271514892578,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 39.05639028549194,
+    "frequency": {
+        "1": 684
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:30: Unbound value \"divideFactors\""
+    ]
+}

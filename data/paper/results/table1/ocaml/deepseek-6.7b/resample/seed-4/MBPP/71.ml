@@ -1,0 +1,153 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function to sort a list of elements. *)
+let rec comb_sort (nums : int list) : int list =
+  let shrink_factor x = float_of_int x / 1.3 in
+  let rec compare_and_swap (list : int list) (length : int) (idx : int) =
+    if idx = 0 then list
+    else
+      let new_list =
+        if List.nth list idx > List.nth list (idx - 1) then
+          let tmp = List.nth list (idx - 1) in
+          let list = List.mapi (fun i x -> if i = (idx - 1) then list.(@) idx else if i = idx then tmp else x) list
+          in
+          compare_and_swap list length (idx - 1)
+        else list
+      in
+      compare_and_swap new_list length (idx - 1)
+  in
+  let rec sort_prog (list : int list) (length : int) : int list =
+    if length > 1 then
+      let new_length = int_of_float (shrink_factor (float_of_int length)) in
+      let list = compare_and_swap list length (length - 1) in
+      sort_prog list new_length
+    else list
+  in
+  sort_prog nums (List.length nums)   
+;;
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:9:72: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec comb_sort (nums : int list) : int list =
+  let shrink_factor x = float_of_int x / 1.3 in
+  let rec compare_and_swap (list : int list) (length : int) (idx : int) =
+    if idx = 0 then list
+    else
+      let new_list =
+        if List.nth list idx > List.nth list (idx - 1) then
+          let tmp = List.nth list (idx - 1) in
+          let list = List.mapi (fun i x -> if i = (idx - 1) then list.(@) idx else if i = idx then tmp else x) list
+          in
+          compare_and_swap list length (idx - 1)
+        else list
+      in
+      compare_and_swap new_list length (idx - 1)
+  in
+  let rec sort_prog (list : int list) (length : int) : int list =
+    if length > 1 then
+      let new_length = int_of_float (shrink_factor (float_of_int length)) in
+      let list = compare_and_swap list length (length - 1) in
+      sort_prog list new_length
+    else list
+  in
+  sort_prog nums (List.length nums)   
+;;
+
+(* === Turn 3 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:9:72: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec comb_sort (nums : int list) : int list =
+  let shrink_factor x = float_of_int x /. 1.3 in
+  let rec compare_and_swap (list : int list) (length : int) (idx : int) =
+    if idx = 0 then list
+    else
+      let new_list =
+        if List.nth list idx > List.nth list (idx - 1) then
+          let tmp = List.nth list (idx - 1) in
+          let list = List.mapi (fun i x -> if i = (idx - 1) then list.(@) idx else if i = idx then tmp else x) list
+          in
+          compare_and_swap list length (idx - 1)
+        else list
+      in
+      compare_and_swap new_list length (idx - 1)
+  in
+  let rec sort_prog (list : int list) (length : int) : int list =
+    if length > 1 then
+      let new_length = int_of_float (shrink_factor (float_of_int length)) in
+      let list = compare_and_swap list length (length - 1) in
+      sort_prog list new_length
+    else list
+  in
+  sort_prog nums (List.length nums)   
+;;
+
+(* === Turn 4 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:9:72: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec comb_sort (nums : int list) : int list =
+  let shrink_factor x = float_of_int x /. 1.3 in
+  let rec compare_and_swap (list : int list) (length : int) (idx : int) =
+    if idx = 0 then list
+    else
+      let new_list =
+        if List.nth list idx > List.nth list (idx - 1) then
+          let tmp = List.nth list (idx - 1) in
+          let list = List.mapi (fun i x -> if i = (idx - 1) then list.(@) idx else if i = idx then tmp else x) list
+          in
+          compare_and_swap list length (idx - 1)
+        else list
+      in
+      compare_and_swap new_list length (idx - 1)
+  in
+  let rec sort_prog (list : int list) (length : int) : int list =
+    if length > 1 then
+      let new_length = int_of_float (shrink_factor (float_of_int length)) in
+      let list = compare_and_swap list length (length - 1) in
+      sort_prog list new_length
+    else list
+  in
+  sort_prog nums (List.length nums)   
+;;
+
+(* === Turn 5 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:9:72: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec comb_sort (nums : int list) : int list =
+  let shrink_factor x = float_of_int x /. 1.3 in
+  let rec compare_and_swap (nums : int list) (length : int) (idx : int) : int list =
+    if idx = 0 then nums
+    else
+      let new_nums =
+        if List.nth nums idx > List.nth nums (idx - 1) then
+          let tmp = List.nth nums (idx - 1) in
+          let nums = List.mapi (fun i x -> if i = (idx - 1) then nums.(@) idx else if i = idx then tmp else x) nums
+          in
+          compare_and_swap nums length (idx - 1)
+        else nums
+      in
+      compare_and_swap new_nums length (idx - 1)
+  in
+  let rec sort_prog (nums : int list) (length : int) : int list =
+    if length > 1 then
+      let new_length = int_of_float (shrink_factor (float_of_int length)) in
+      let nums = compare_and_swap nums length (length - 1) in
+      sort_prog nums new_length
+    else nums
+  in
+  sort_prog nums (List.length nums)
+;;
+

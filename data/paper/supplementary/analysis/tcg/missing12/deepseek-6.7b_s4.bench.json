@@ -1,0 +1,1 @@
+[{"prompt": "//Write a function to check if all the elements in array have same data type or not.\nfunction check_type(test_tuple: any): boolean {", "task_id": "mbpp/222", "instruct_prompt": "Write a function to check if all the elements in array have same data type or not.", "code_prompt": "function check_type(test_tuple: any): boolean {"}]

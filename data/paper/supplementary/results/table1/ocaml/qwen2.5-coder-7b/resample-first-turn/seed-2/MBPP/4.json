@@ -1,0 +1,22 @@
+{
+    "decoded": 205,
+    "llm_time": 5.337932348251343,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004727363586425781,
+    "constrainer_time": 0.04686284065246582,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.458072185516357,
+    "frequency": {
+        "1": 206
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:16:9: Unbound value \"List.of_array\""
+    ]
+}

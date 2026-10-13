@@ -1,0 +1,22 @@
+{
+    "decoded": 138,
+    "llm_time": 3.552368640899658,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0033674240112304688,
+    "constrainer_time": 0.032366037368774414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.6269326210021973,
+    "frequency": {
+        "1": 139
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:8: Unbound value \"String.is_substring\""
+    ]
+}

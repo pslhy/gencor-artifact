@@ -1,0 +1,22 @@
+{
+    "decoded": 149,
+    "llm_time": 3.8762118816375732,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036208629608154297,
+    "constrainer_time": 0.034087419509887695,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.9541473388671875,
+    "frequency": {
+        "1": 150
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/591.ml:6:27: Unbound value \"List.rev_split\""
+    ]
+}

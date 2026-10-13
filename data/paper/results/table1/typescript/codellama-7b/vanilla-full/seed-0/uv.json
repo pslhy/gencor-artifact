@@ -1,0 +1,37 @@
+{
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto'."
+    ],
+    "mbpp/18": [
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'int'."
+    ],
+    "mbpp/125": [
+        "TS2552: Cannot find name 'math'. Did you mean 'Math'?",
+        "TS2552: Cannot find name 'math'. Did you mean 'Math'?"
+    ],
+    "mbpp/223": [
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'Array'?",
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'Array'?"
+    ],
+    "mbpp/273": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/296": [
+        "TS2304: Cannot find name 'inversions'.",
+        "TS2304: Cannot find name 'inversions'."
+    ],
+    "mbpp/627": [
+        "TS2552: Cannot find name 'Arrays'. Did you mean 'array'?",
+        "TS2304: Cannot find name 'Collector'."
+    ],
+    "mbpp/744": [
+        "TS2304: Cannot find name 'None'."
+    ],
+    "mbpp/805": [
+        "TS2552: Cannot find name 'list'. Did you mean 'lists'?"
+    ]
+}

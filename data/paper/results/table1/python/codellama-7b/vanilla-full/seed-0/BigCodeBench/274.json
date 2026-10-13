@@ -1,0 +1,22 @@
+{
+    "decoded": 388,
+    "llm_time": 9.582214593887329,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009492874145507812,
+    "constrainer_time": 0.08932089805603027,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.811067581176758,
+    "frequency": {
+        "1": 389
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/274.py:30:27: undefined name 'formatdate'"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 313,
+    "llm_time": 17.957433223724365,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008611679077148438,
+    "constrainer_time": 0.07773113250732422,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 18.18403148651123,
+    "frequency": {
+        "1": 314
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:23:91: unterminated string literal (detected at line 23)",
+        "    email = np.apply_along_axis(lambda x:f'{x.strftime(\"%Y-%m-%d %H:%M:%S\")}@example.com','counter(days(01-01-1980) into(v\u00f9\ub144\u6708\u65e5j)))",
+        "                                                                                          ^"
+    ]
+}

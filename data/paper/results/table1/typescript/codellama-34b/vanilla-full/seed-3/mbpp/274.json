@@ -1,0 +1,19 @@
+{
+    "decoded": 97,
+    "llm_time": 5.199972629547119,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002355337142944336,
+    "constrainer_time": 0.005827426910400391,
+    "total_time": 5.232736110687256,
+    "frequency": {
+        "1": 98
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'binomial_coefficients'."
+    ]
+}

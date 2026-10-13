@@ -1,0 +1,178 @@
+{
+    "HumanEval/48": [
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'char'."
+    ],
+    "HumanEval/91": [
+        "TS2304: Cannot find name 't'.",
+        "TS2304: Cannot find name 'of'.",
+        "TS2304: Cannot find name 't'."
+    ],
+    "HumanEval/116": [
+        "TS2304: Cannot find name 'b'.",
+        "TS2552: Cannot find name 'aOnesCount'. Did you mean 'onesCount'?",
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'b'."
+    ],
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto'."
+    ],
+    "mbpp/19": [
+        "TS2304: Cannot find name 'nums'.",
+        "TS2304: Cannot find name 'nums'.",
+        "TS2304: Cannot find name 'nums'.",
+        "TS2304: Cannot find name 'nums'."
+    ],
+    "mbpp/61": [
+        "TS2304: Cannot find name 'end'."
+    ],
+    "mbpp/64": [
+        "TS2304: Cannot find name 'sortBySecondValue'."
+    ],
+    "mbpp/68": [
+        "TS2304: Cannot find name 'n'.",
+        "TS2552: Cannot find name 'Arrow'. Did you mean 'arrow'?"
+    ],
+    "mbpp/70": [
+        "TS2304: Cannot find name 'length'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'length'."
+    ],
+    "mbpp/74": [
+        "TS2552: Cannot find name 'color'. Did you mean 'colors'?"
+    ],
+    "mbpp/83": [
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'strr'?"
+    ],
+    "mbpp/108": [
+        "TS2304: Cannot find name 'push'."
+    ],
+    "mbpp/244": [
+        "TS2304: Cannot find name 'N'.",
+        "TS2304: Cannot find name 'N'."
+    ],
+    "mbpp/252": [
+        "TS2304: Cannot find name 'core'.",
+        "TS2304: Cannot find name 'argument'."
+    ],
+    "mbpp/253": [
+        "TS2552: Cannot find name 'list'. Did you mean 'list1'?",
+        "TS2552: Cannot find name 'list'. Did you mean 'list1'?",
+        "TS2552: Cannot find name 'list'. Did you mean 'list1'?"
+    ],
+    "mbpp/281": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/306": [
+        "TS2304: Cannot find name 'max'."
+    ],
+    "mbpp/390": [
+        "TS2552: Cannot find name 'list'. Did you mean 'list_'?"
+    ],
+    "mbpp/394": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'."
+    ],
+    "mbpp/437": [
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?",
+        "TS2552: Cannot find name 'str'. Did you mean 'str1'?"
+    ],
+    "mbpp/573": [
+        "TS2304: Cannot find name 'list'.",
+        "TS2304: Cannot find name 'list'."
+    ],
+    "mbpp/622": [
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'."
+    ],
+    "mbpp/726": [
+        "TS2304: Cannot find name 'Exception'."
+    ],
+    "mbpp/747": [
+        "TS2304: Cannot find name '_'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name '_'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name '_'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'max'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'k'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'len'.",
+        "TS2304: Cannot find name 'len'."
+    ],
+    "mbpp/772": [
+        "TS2304: Cannot find name 'let'.",
+        "TS2304: Cannot find name 'remaining_str'.",
+        "TS2304: Cannot find name 'remaining_str'."
+    ]
+}

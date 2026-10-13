@@ -1,0 +1,68 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function to sort a given list of strings of numbers numerically. https://www.geeksforgeeks.org/mlthon-sort-numeric-strings-in-a-list/ *)
+let rec sort_numeric_strings (nums_str : string list) : int list =
+    match nums_str with
+    | [] -> []
+    | x :: xs ->
+        let num = try int_of_string x with Failure _ -> max_int in
+        let small_nums = filter_small_nums xs num in
+        [num] @ sort_numeric_strings small_nums
+        and filter_small_nums : (string list -> int -> string list) = fun xs num ->
+            List.fold_left (fun acc x ->
+                try
+                  if int_of_string (List.hd x) then num then
+                    [x]
+                  else
+                    []
+                with Failure _ -> acc) xs in
+sort_numerical_strings ["100kc", "3python", "24ss", "5sql", "9compile", "7run"]
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:11:57: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec sort_numeric_strings (nums_str : string list) : int list =
+    match nums_str with
+    | [] -> []
+    | x :: xs ->
+        let num = try int_of_string x with Failure _ -> max_int in
+        let small_nums = filter_small_nums xs num in
+        [num] @ sort_numeric_strings small_nums
+
+and filter_small_nums : (string list -> int -> string list) = fun xs num ->
+    List.fold_left (fun acc x ->
+        try
+            if int_of_string (List.hd x) then num then
+                [x]
+            else
+                []
+        with Failure _ -> acc) xs in
+sort_numeric_strings ["100kc", "3python", "24ss", "5sql", "9compile", "7run"]
+
+(* === Turn 3 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:12:51: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec sort_numeric_strings (nums_str : string list) : int list =
+    match nums_str with
+    | [] -> []
+    | x :: xs ->
+        let num = try int_of_string x with Failure _ -> max_int in
+        let small_nums = filter_small_nums xs num in
+        [num] @ small_nums
+
+and filter_small_nums : (string list -> int -> string list) = fun xs num ->
+    List.filter (fun x ->
+        try
+            if int_of_string (List.hd x) then num else []
+        with Failure _ -> []) xs in
+sort_numeric_strings ["100kc", "3python", "24ss", "5sql", "9compile", "7run"]
+

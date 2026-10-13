@@ -1,0 +1,20 @@
+{
+    "decoded": 72,
+    "llm_time": 1.7678544521331787,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016942024230957031,
+    "constrainer_time": 0.016497373580932617,
+    "total_time": 1.8038866519927979,
+    "frequency": {
+        "1": 73
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 2, '(start: number, deleteCount?: number | undefined): any[]', gave the following error.\n    Argument of type 'string' is not assignable to parameter of type 'number'.\n  Overload 2 of 2, '(start: number, deleteCount: number, ...items: any[]): any[]', gave the following error.\n    Argument of type 'string' is not assignable to parameter of type 'number'.",
+        "TS2322: Type 'any[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+    ]
+}

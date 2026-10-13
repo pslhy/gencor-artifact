@@ -1,0 +1,28 @@
+let rec occurance_substring (text : string) (pattern : string) :  string * int * int option =
+    if text = "" || patter = "" || text.length < pattern.length 
+    then ( None, (-1), (-1) ) 
+
+    else 
+        if text.[0] = 'pattern.[0]'
+        then 
+    (
+        let occ, pos = occurance_substring(text.[1]) pattern.[1]) 
+        in ( if occ.is_some() 
+             let pos = Some (pos + 1) 
+             in occ
+             end), pos 
+
+        else 
+ ( None, (-1), (-1) )
+)
+
+in
+(([Some 0], Some 0))
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to find the occurrence and position of the substrings within a string. Return None if there is no match. *)

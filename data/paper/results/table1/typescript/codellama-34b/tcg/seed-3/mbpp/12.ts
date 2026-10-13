@@ -1,0 +1,21 @@
+function sort_matrix(M: number[][]): number[][] {
+  if(M.length == 0 || M[0].length == 0){
+    return M;
+  }
+  
+  let sorted: number[][] = [];
+  for(let i: number = 0; i<M.length;i++){
+    let row_sum = M[i].reduce((a: number,b: number) => a + b);
+    sorted = sorted.filter(s => s.length > row_sum).concat([M[i]]);
+  }
+  
+  return sorted;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to sort a given matrix in ascending order according to the sum of its rows.

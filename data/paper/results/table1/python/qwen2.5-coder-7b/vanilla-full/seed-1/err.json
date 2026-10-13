@@ -1,0 +1,87 @@
+{
+    "BigCodeBench/37": {
+        "1": [
+            "BigCodeBench/37.py:13:24: undefined name 'feature_importancesvalues'",
+            "BigCodeBench/37.py:13:53: undefined name 'feature_importancesindex'"
+        ]
+    },
+    "BigCodeBench/82": {
+        "1": [
+            "BigCodeBench/82.py:21:22: undefined name 'User'"
+        ]
+    },
+    "BigCodeBench/360": {
+        "1": [
+            "BigCodeBench/360.py:23:9: undefined name 'sys'",
+            "BigCodeBench/360.py:25:13: undefined name 'sys'",
+            "BigCodeBench/360.py:26:13: undefined name 'sys'",
+            "BigCodeBench/360.py:27:13: undefined name 'time'"
+        ]
+    },
+    "BigCodeBench/374": {
+        "1": [
+            "BigCodeBench/374.py:18:48: invalid syntax. Perhaps you forgot a comma?",
+            "                            worksheet.cell(row=worksheet._cell_from\u52b2\u653e\u7740\u5f02\u6b65\u7684\u56de\u8c03\u51fd\u6570 str(row) + 1, column=col + 1, value=cell_value)",
+            "                                               ^"
+        ]
+    },
+    "BigCodeBench/443": {
+        "1": [
+            "BigCodeBench/443.py:12:41: undefined name 'i'",
+            "BigCodeBench/443.py:12:48: undefined name 'i'"
+        ]
+    },
+    "BigCodeBench/486": {
+        "1": [
+            "BigCodeBench/486.py:12:15: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "BigCodeBench/501.py:24:12: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/582": {
+        "1": [
+            "BigCodeBench/582.py:9:27: unindent does not match any outer indentation level",
+            "   xmin, xmax = plt.xlim()",
+            "                          ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "BigCodeBench/583.py:20:21: unexpected character after line continuation character",
+            "        file.write(\\'Content-A Espa\u00f1oles del CLK\\' + b64encode(ciphered_rsa_private_key).decode())",
+            "                    ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:13:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/720": {
+        "1": [
+            "BigCodeBench/720.py:7:12: invalid syntax",
+            "    output file_path = 'task_func_data/Output.txt'",
+            "           ^"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "BigCodeBench/785.py:19:17: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/985": {
+        "1": [
+            "BigCodeBench/985.py:26:15: undefined name 'valueerror'"
+        ]
+    },
+    "BigCodeBench/1013": {
+        "1": [
+            "BigCodeBench/1013.py:26:45: positional argument follows keyword argument",
+            "    with open(csv_file, mode=\"w\", newline \"\") as file:",
+            "                                            ^"
+        ]
+    }
+}

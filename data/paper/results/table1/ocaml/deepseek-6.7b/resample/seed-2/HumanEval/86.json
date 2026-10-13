@@ -1,0 +1,30 @@
+{
+    "decoded": 775,
+    "decoded_at_turn": {
+        "1": 192,
+        "2": 192,
+        "3": 192,
+        "4": 199
+    },
+    "llm_time": 20.103041410446167,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.018550872802734375,
+    "constrainer_time": 0.17714285850524902,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 20.590766191482544,
+    "frequency": {
+        "1": 779
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:11:23: The function \"List.map\" has type ('a -> 'b) -> 'a list -> 'b list\nIt is applied to too many arguments"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 43,
+    "llm_time": 2.370120048522949,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010714530944824219,
+    "constrainer_time": 0.010471820831298828,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.3939783573150635,
+    "frequency": {
+        "1": 44
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:20: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+    ]
+}

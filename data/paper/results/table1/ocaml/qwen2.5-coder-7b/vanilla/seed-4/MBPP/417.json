@@ -1,0 +1,22 @@
+{
+    "decoded": 184,
+    "llm_time": 5.069640398025513,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004864215850830078,
+    "constrainer_time": 0.044092416763305664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.182770252227783,
+    "frequency": {
+        "1": 185
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/417.ml:10:46: Unbound type constructor \"Set.t\""
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "decoded": 1510,
+    "decoded_at_turn": {
+        "1": 309,
+        "2": 314,
+        "3": 290,
+        "4": 300,
+        "5": 297
+    },
+    "llm_time": 89.54601860046387,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.044234275817871094,
+    "constrainer_time": 0.3860354423522949,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 90.74313068389893,
+    "frequency": {
+        "1": 1515
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:18:11: undefined name 'PBKDF2HMAC'",
+        "<python>:18:32: undefined name 'SHA256'"
+    ]
+}

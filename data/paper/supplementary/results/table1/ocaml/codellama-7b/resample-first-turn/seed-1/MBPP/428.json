@@ -1,0 +1,22 @@
+{
+    "decoded": 156,
+    "llm_time": 3.8993043899536133,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0039174556732177734,
+    "constrainer_time": 0.03639078140258789,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.9820337295532227,
+    "frequency": {
+        "1": 157
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:25: Unbound value \"head\""
+    ]
+}

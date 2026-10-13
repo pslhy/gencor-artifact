@@ -1,0 +1,22 @@
+{
+    "decoded": 69,
+    "llm_time": 1.8268733024597168,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017871856689453125,
+    "constrainer_time": 0.016363143920898438,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.8634579181671143,
+    "frequency": {
+        "1": 70
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/625.ml:6:28: This expression has type \"int list\"\nbut an expression was expected of type \"('a * 'b) list\"\nType \"int\" is not compatible with type \"'a * 'b\""
+    ]
+}

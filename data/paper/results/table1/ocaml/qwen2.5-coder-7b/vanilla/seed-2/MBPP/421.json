@@ -1,0 +1,22 @@
+{
+    "decoded": 122,
+    "llm_time": 3.2880465984344482,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030329227447509766,
+    "constrainer_time": 0.028554201126098633,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3605387210845947,
+    "frequency": {
+        "1": 123
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/421.ml:9:1: Comment not terminated"
+    ]
+}

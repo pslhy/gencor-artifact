@@ -1,0 +1,22 @@
+{
+    "decoded": 72,
+    "llm_time": 1.8121905326843262,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017437934875488281,
+    "constrainer_time": 0.016870975494384766,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.8500819206237793,
+    "frequency": {
+        "1": 73
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:27: Unbound value \"List.drop_while\""
+    ]
+}

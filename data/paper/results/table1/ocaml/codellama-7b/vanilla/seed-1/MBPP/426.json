@@ -1,0 +1,22 @@
+{
+    "decoded": 47,
+    "llm_time": 1.2416596412658691,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011487007141113281,
+    "constrainer_time": 0.011363983154296875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.2665796279907227,
+    "frequency": {
+        "1": 48
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/426.ml:4:21: Unbound value \"(%)\""
+    ]
+}

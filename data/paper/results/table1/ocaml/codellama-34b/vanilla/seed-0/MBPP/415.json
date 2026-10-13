@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 3.8226945400238037,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019435882568359375,
+    "constrainer_time": 0.017637968063354492,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.8623266220092773,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:25: Unbound value \"max_product\"\nHint: Did you mean \"max_Product\"?"
+    ]
+}

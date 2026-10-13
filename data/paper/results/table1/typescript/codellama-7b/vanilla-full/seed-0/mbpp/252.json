@@ -1,0 +1,20 @@
+{
+    "decoded": 67,
+    "llm_time": 1.6196320056915283,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015609264373779297,
+    "constrainer_time": 0.015244245529174805,
+    "total_time": 1.6524701118469238,
+    "frequency": {
+        "1": 68
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'Number'.\n  Property '0' does not exist on type 'Number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type '1' can't be used to index type 'Number'.\n  Property '1' does not exist on type 'Number'."
+    ]
+}

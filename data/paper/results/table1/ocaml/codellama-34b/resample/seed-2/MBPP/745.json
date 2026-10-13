@@ -1,0 +1,29 @@
+{
+    "decoded": 417,
+    "decoded_at_turn": {
+        "1": 131,
+        "2": 143,
+        "3": 143
+    },
+    "llm_time": 23.049628257751465,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013936042785644531,
+    "constrainer_time": 0.10857391357421875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 23.320821285247803,
+    "frequency": {
+        "1": 420
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:9: The function \"List.for_all\" has type ('a -> bool) -> 'a list -> bool\nIt is applied to too many arguments"
+    ]
+}

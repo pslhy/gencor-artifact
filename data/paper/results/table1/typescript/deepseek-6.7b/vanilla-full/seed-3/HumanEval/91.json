@@ -1,0 +1,19 @@
+{
+    "decoded": 50,
+    "llm_time": 1.282778263092041,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011661052703857422,
+    "constrainer_time": 0.011479854583740234,
+    "total_time": 1.3081278800964355,
+    "frequency": {
+        "1": 51
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS18047: 'sentances' is possibly 'null'."
+    ]
+}

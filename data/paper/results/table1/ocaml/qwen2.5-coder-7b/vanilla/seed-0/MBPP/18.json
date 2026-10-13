@@ -1,0 +1,22 @@
+{
+    "decoded": 26,
+    "llm_time": 0.7105758190155029,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0006866455078125,
+    "constrainer_time": 0.0062716007232666016,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.7261450290679932,
+    "frequency": {
+        "1": 27
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/18.ml:4:3: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ]
+}

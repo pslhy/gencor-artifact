@@ -1,0 +1,22 @@
+{
+    "decoded": 94,
+    "llm_time": 2.4619569778442383,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023047924041748047,
+    "constrainer_time": 0.021825790405273438,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.5137863159179688,
+    "frequency": {
+        "1": 95
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/88.ml:8:19: Unbound value \"List.sort_unstable\""
+    ]
+}

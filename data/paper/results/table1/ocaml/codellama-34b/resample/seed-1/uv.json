@@ -1,0 +1,41 @@
+{
+    "MBPP/4": [
+        "test.ml:2:22: Unbound module \"Heap\""
+    ],
+    "MBPP/99": [
+        "test.ml:5:39: Unbound value \"(%)\""
+    ],
+    "MBPP/141": [
+        "test.ml:6:19: Unbound value \"x\""
+    ],
+    "MBPP/456": [
+        "test.ml:4:20: Unbound value \"reverse_string\""
+    ],
+    "MBPP/564": [
+        "test.ml:5:57: Unbound value \"List.combinations\""
+    ],
+    "MBPP/592": [
+        "test.ml:3:8: Unbound value \"binomialCoefficient\""
+    ],
+    "MBPP/602": [
+        "test.ml:6:47: Unbound value \"String.explode\""
+    ],
+    "MBPP/748": [
+        "test.ml:5:15: Unbound value \"Char.is_uppercase_ascii\"\nHint: Did you mean \"uppercase_ascii\"?"
+    ],
+    "MBPP/805": [
+        "test.ml:6:12: Unbound value \"compare_sums\""
+    ],
+    "HumanEval/1": [
+        "test.ml:9:87: Unbound value \"(%)\""
+    ],
+    "HumanEval/75": [
+        "test.ml:4:26: Unbound value \"is_prime\""
+    ],
+    "HumanEval/94": [
+        "test.ml:6:52: Unbound value \"List.range\""
+    ],
+    "HumanEval/101": [
+        "test.ml:16:35: Unbound value \"is_word_separator\""
+    ]
+}

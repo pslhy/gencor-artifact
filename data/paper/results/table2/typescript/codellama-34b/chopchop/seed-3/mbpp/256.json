@@ -1,0 +1,27 @@
+{
+    "decoded": 831,
+    "llm_time": 48.01730418205261,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 41.99622321128845,
+    "constrainer_time": 0.0,
+    "total_time": 90.01352739334106,
+    "frequency": {
+        "1": 794,
+        "5": 1,
+        "3": 3,
+        "2": 14
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpbi3xhex6.ts(52,29): error TS1005: '}' expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 836,
+    "num_tokens_generated": 831,
+    "total_realizability_time": 41.99622321128845
+}

@@ -1,0 +1,33 @@
+function shell_sort(my_list: number[]): number[] {
+   let len: number = my_list.length;
+   let gap: number = Math.floor(len / 2);
+
+   while (gap > 0) {
+      for (let i: number = gap; i < len; i++) {
+         let temp: number = my_list[i];
+         let j: number = i;
+
+         while (j >= gap && my_list[j - gap] > temp) {
+            my_list[j] = my_list[j - gap];
+            j -= gap;
+         }
+
+         my_list[j] = temp;
+      }
+
+      gap = Math.floor(gap / 2);
+   }
+
+   return my_list;
+}
+
+const arr: number[] = [3, 1, 6, 8, 9, 2, 0, 7];
+console.log(shell_sort(arr)); // Output: [0, 1, 2, 3, 6, 7, 8, 9]
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to sort the given array by using shell sort.

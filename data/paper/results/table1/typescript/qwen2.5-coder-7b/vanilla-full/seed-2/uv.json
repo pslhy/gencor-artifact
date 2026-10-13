@@ -1,0 +1,23 @@
+{
+    "mbpp/239": [
+        "TS2304: Cannot find name '_'."
+    ],
+    "mbpp/299": [
+        "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?",
+        "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?",
+        "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?"
+    ],
+    "mbpp/392": [
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'.",
+        "TS2304: Cannot find name 'residual'."
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 239,
+    "llm_time": 5.842715740203857,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005421161651611328,
+    "constrainer_time": 0.054793357849121094,
+    "total_time": 5.974951505661011,
+    "frequency": {
+        "1": 240
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type 'number | undefined' is not assignable to parameter of type 'number'.\n  Type 'undefined' is not assignable to type 'number'."
+    ]
+}

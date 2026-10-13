@@ -1,0 +1,20 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a mlthon function to find the sum of the largest and smallest value in a given list. *)
+let rec big_sum (nums : int list) : int =
+    match nums with
+    | [] -> 0
+    | [x] -> x
+    | x::xs -> (
+        let (smallest, biggest) = big_sum xs in
+        if x < smallest then (x, biggest)
+        else if x > biggest then (smallest, x)
+        else if x = smallest then (x, biggest)
+        else (smallest, x)
+    )
+

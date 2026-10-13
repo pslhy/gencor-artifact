@@ -1,0 +1,22 @@
+{
+    "decoded": 103,
+    "llm_time": 2.601041555404663,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0025491714477539062,
+    "constrainer_time": 0.023182392120361328,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.662567377090454,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/118.ml:6:7: Unbound value \"String.mem\""
+    ]
+}

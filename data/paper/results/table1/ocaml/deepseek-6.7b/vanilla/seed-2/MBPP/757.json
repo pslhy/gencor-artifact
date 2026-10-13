@@ -1,0 +1,22 @@
+{
+    "decoded": 493,
+    "llm_time": 12.72694706916809,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011952400207519531,
+    "constrainer_time": 0.1123344898223877,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.001638650894165,
+    "frequency": {
+        "1": 494
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/757.ml:22:17: This expression has type \"string list\"\nThis is not a function; it cannot be applied."
+    ]
+}

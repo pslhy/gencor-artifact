@@ -1,0 +1,22 @@
+{
+    "decoded": 206,
+    "llm_time": 5.042554140090942,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004950761795043945,
+    "constrainer_time": 0.04694652557373047,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.149912357330322,
+    "frequency": {
+        "1": 207
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/247.ml:9:42: The function applied to this argument has type int -> int -> string\nThis argument cannot be applied with label \"~pos\""
+    ]
+}

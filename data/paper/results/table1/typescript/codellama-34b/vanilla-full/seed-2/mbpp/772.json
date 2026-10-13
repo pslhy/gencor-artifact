@@ -1,0 +1,21 @@
+{
+    "decoded": 89,
+    "llm_time": 4.743236541748047,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002170085906982422,
+    "constrainer_time": 0.005374908447265625,
+    "total_time": 4.7729878425598145,
+    "frequency": {
+        "1": 90
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'word'.",
+        "TS2304: Cannot find name 'word'.",
+        "TS2304: Cannot find name 'word'."
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "BigCodeBench/37": [
+        "BigCodeBench/37.py:13:24: undefined name 'feature_importancesvalues'",
+        "BigCodeBench/37.py:13:53: undefined name 'feature_importancesindex'"
+    ],
+    "BigCodeBench/82": [
+        "BigCodeBench/82.py:21:22: undefined name 'User'"
+    ],
+    "BigCodeBench/360": [
+        "BigCodeBench/360.py:23:9: undefined name 'sys'",
+        "BigCodeBench/360.py:25:13: undefined name 'sys'",
+        "BigCodeBench/360.py:26:13: undefined name 'sys'",
+        "BigCodeBench/360.py:27:13: undefined name 'time'"
+    ],
+    "BigCodeBench/443": [
+        "BigCodeBench/443.py:12:41: undefined name 'i'",
+        "BigCodeBench/443.py:12:48: undefined name 'i'"
+    ],
+    "BigCodeBench/486": [
+        "BigCodeBench/486.py:12:15: undefined name 'plt'"
+    ],
+    "BigCodeBench/501": [
+        "BigCodeBench/501.py:24:12: undefined name 'json'"
+    ],
+    "BigCodeBench/590": [
+        "BigCodeBench/590.py:13:15: undefined name 'URLError'"
+    ],
+    "BigCodeBench/785": [
+        "BigCodeBench/785.py:19:17: undefined name 'datetime'"
+    ],
+    "BigCodeBench/985": [
+        "BigCodeBench/985.py:26:15: undefined name 'valueerror'"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "BigCodeBench/590": [
+        "BigCodeBench/590.py:14:15: undefined name 'URLError'"
+    ],
+    "BigCodeBench/785": [
+        "BigCodeBench/785.py:16:57: undefined name 'datetime'"
+    ],
+    "BigCodeBench/879": [
+        "BigCodeBench/879.py:15:32: undefined name 'category'"
+    ],
+    "BigCodeBench/1008": [
+        "BigCodeBench/1008.py:11:15: undefined name 'HttpURLConnectionError'"
+    ]
+}

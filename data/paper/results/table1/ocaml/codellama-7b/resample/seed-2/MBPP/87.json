@@ -1,0 +1,31 @@
+{
+    "decoded": 887,
+    "decoded_at_turn": {
+        "1": 262,
+        "2": 167,
+        "3": 168,
+        "4": 167,
+        "5": 123
+    },
+    "llm_time": 23.184929609298706,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02198934555053711,
+    "constrainer_time": 0.21293115615844727,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 23.75194263458252,
+    "frequency": {
+        "1": 892
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:6: Syntax error: \"operator\" expected."
+    ]
+}

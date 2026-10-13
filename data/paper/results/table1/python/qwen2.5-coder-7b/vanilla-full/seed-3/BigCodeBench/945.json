@@ -1,0 +1,23 @@
+{
+    "decoded": 239,
+    "llm_time": 6.145181655883789,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005784273147583008,
+    "constrainer_time": 0.054735660552978516,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.293335199356079,
+    "frequency": {
+        "1": 240
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/945.py:12:33: undefined name 'datetime'",
+        "BigCodeBench/945.py:21:37: undefined name 'datetime'"
+    ]
+}

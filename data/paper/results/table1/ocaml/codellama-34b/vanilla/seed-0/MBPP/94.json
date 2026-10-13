@@ -1,0 +1,22 @@
+{
+    "decoded": 99,
+    "llm_time": 5.29443097114563,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0024187564849853516,
+    "constrainer_time": 0.023105621337890625,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.346688747406006,
+    "frequency": {
+        "1": 100
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:11: This expression has type \"'a option\"\nbut an expression was expected of type \"string\""
+    ]
+}

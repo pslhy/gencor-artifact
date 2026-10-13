@@ -1,0 +1,22 @@
+{
+    "decoded": 278,
+    "llm_time": 7.282732963562012,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007629871368408203,
+    "constrainer_time": 0.06642603874206543,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.464679002761841,
+    "frequency": {
+        "1": 279
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:27:27: undefined module member 'pd.api.types.is_timedelta64_any_dtype'"
+    ]
+}

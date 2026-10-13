@@ -1,0 +1,31 @@
+{
+    "decoded": 726,
+    "decoded_at_turn": {
+        "1": 123,
+        "2": 179,
+        "3": 174,
+        "4": 121,
+        "5": 129
+    },
+    "llm_time": 18.953604459762573,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.017639636993408203,
+    "constrainer_time": 0.16780781745910645,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.453554391860962,
+    "frequency": {
+        "1": 731
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:37: This expression has type \"char list\"\nbut an expression was expected of type\n\"char Seq.t\" = \"unit -> char Seq.node\""
+    ]
+}

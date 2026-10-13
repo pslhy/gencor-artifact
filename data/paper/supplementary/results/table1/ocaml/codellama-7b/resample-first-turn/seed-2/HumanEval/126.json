@@ -1,0 +1,22 @@
+{
+    "decoded": 270,
+    "llm_time": 6.944009065628052,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006600141525268555,
+    "constrainer_time": 0.06353092193603516,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.100461483001709,
+    "frequency": {
+        "1": 271
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:13: Unbound value \"List.count\"\nHint: Did you mean \"cons\"?"
+    ]
+}

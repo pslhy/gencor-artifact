@@ -1,0 +1,19 @@
+{
+    "decoded": 105,
+    "llm_time": 2.675395965576172,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0024423599243164062,
+    "constrainer_time": 0.023690223693847656,
+    "total_time": 2.734311103820801,
+    "frequency": {
+        "1": 106
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type '(string | number)[][]' is not assignable to parameter of type '[string, number][]'.\n  Type '(string | number)[]' is not assignable to type '[string, number]'.\n    Target requires 2 element(s) but source may have fewer."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 39,
+    "llm_time": 2.1496667861938477,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009925365447998047,
+    "constrainer_time": 0.009379863739013672,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.171051263809204,
+    "frequency": {
+        "1": 40
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:14: This expression has type \"int * int * int * int\"\nbut an expression was expected of type \"int * int\""
+    ]
+}

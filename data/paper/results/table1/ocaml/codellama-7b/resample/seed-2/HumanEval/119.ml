@@ -1,0 +1,81 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     You are given a list of two strings, both strings consist of open *)
+(*     parentheses '(' or close parentheses ')' only. *)
+(*     Your job is to check if it is possible to concatenate the two strings in *)
+(*     some order, that the resulting string will be good. *)
+(*     A string S is considered to be good if and only if all parentheses in S *)
+(*     are balanced. For example: the string '(())()' is good, while the string *)
+(*     '())' is not. *)
+(*     Return 'Yes' if there's a way to make a good string, and return 'No' otherwise. *)
+(*     Examples: *)
+(*     >>> match_parens ["()("; ")"] *)
+(*     "Yes" *)
+(*     >>> match_parens [")"; ")"] *)
+(*     "No" *)
+let rec match_parens (lst : string list) : string =
+    match lst with
+    | [] -> "No"
+    | [x] -> if contains_unmatched_parens x then "No" else "Yes"
+    | h :: t ->
+            match_parens (t @ [h]) ^
+            match_parens (t @ [String.rev h])
+
+and contains_unmatched_parens (s : string) : bool =
+    let () = print_string ("Checking string: " ^ s ^ " ... ")
+    in
+    let rec check_helper (s : string) (count : int) : bool =
+        match s with
+        | "" -> false
+        | '(' :: _ -> check_helper (String.sub s 1 (String.length s - 1)) (count + 1)
+        | ')' :: _ -> check_helper (String.sub s 1 (String.length s - 1)) (count - 1)
+        | _ :: t -> check_helper t count
+    in
+    let result = check_helper s 0
+    in
+    match result with
+    | false ->
+            print_endline "Unmatched parentheses found in string.";
+            true
+    | _ ->
+            print_endline "String is balanced.";
+            false
+
+and main (lst : string list) : unit =
+    let result = match_parens lst
+    in
+    print_endline result
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:7:32: Unbound value "String.rev" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec match_parens (lst : string list) : string =
+    match lst with
+    | [] -> "No"
+    | [x] -> if contains_unmatched_parens x then "No" else "Yes"
+    | h :: t ->
+            match_parens t ^
+            match_parens (List.tl lst)
+
+and contains_unmatched_parens (s : string) : bool =
+    let rec check_helper (s : string) (count : int) : bool =
+        match s with
+        | "" -> false
+        | '(' :: _ -> check_helper (String.sub s 1 (String.length s - 1)) (count + 1)
+        | ')' :: _ -> check_helper (String.sub s 1 (String.length s - 1)) (count - 1)
+        | _ :: t -> check_helper t count
+    in
+    check_helper s 0
+
+and main (lst : string list) : unit =
+    let result = match_parens lst
+    in
+    print_endline result
+

@@ -1,0 +1,22 @@
+{
+    "decoded": 247,
+    "llm_time": 13.324721813201904,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007317781448364258,
+    "constrainer_time": 0.0605621337890625,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.473660469055176,
+    "frequency": {
+        "1": 248
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:24: Unbound value \"take_word\""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 95,
+    "llm_time": 2.286482572555542,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0022144317626953125,
+    "constrainer_time": 0.02156829833984375,
+    "total_time": 2.333491802215576,
+    "frequency": {
+        "1": 96
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: 1 | 0, currentValue: 1 | 0, currentIndex: number, array: (1 | 0)[]) => 1 | 0, initialValue: 1 | 0): 1 | 0', gave the following error.\n    Type 'number' is not assignable to type '1 | 0'.\n  Overload 2 of 3, '(callbackfn: (previousValue: 1 | 0, currentValue: 1 | 0, currentIndex: number, array: (1 | 0)[]) => 1 | 0, initialValue: 1 | 0): 1 | 0', gave the following error.\n    Type 'number' is not assignable to type '1 | 0'."
+    ]
+}

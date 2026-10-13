@@ -1,0 +1,24 @@
+{
+    "decoded": 266,
+    "llm_time": 8.686329126358032,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0070993900299072266,
+    "constrainer_time": 0.07075881958007812,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.856321334838867,
+    "frequency": {
+        "1": 267
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/579.py:26:28: Generator expression must be parenthesized",
+        "        plt.bar(top_words, counter[word] for word in top_words)",
+        "                           ^"
+    ]
+}

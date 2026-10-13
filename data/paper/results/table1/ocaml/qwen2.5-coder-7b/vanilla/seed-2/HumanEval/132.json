@@ -1,0 +1,22 @@
+{
+    "decoded": 93,
+    "llm_time": 2.564863920211792,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004125118255615234,
+    "constrainer_time": 0.02570962905883789,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.633232355117798,
+    "frequency": {
+        "1": 94
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/132.ml:10:13: Unbound value \"List.of_string\""
+    ]
+}

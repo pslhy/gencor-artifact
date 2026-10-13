@@ -1,0 +1,27 @@
+{
+    "decoded": 311,
+    "decoded_at_turn": {
+        "1": 311
+    },
+    "llm_time": 16.742855548858643,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00811910629272461,
+    "constrainer_time": 0.07453179359436035,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 16.91854739189148,
+    "frequency": {
+        "1": 312
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:7: This pattern matches values of type \"'a * 'b\"\nbut a pattern was expected which matches values of type\n\"(string * string) list * (string * string) list *\n(string * string) list\""
+    ]
+}

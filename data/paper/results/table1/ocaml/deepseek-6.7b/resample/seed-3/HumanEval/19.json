@@ -1,0 +1,28 @@
+{
+    "decoded": 183,
+    "decoded_at_turn": {
+        "1": 95,
+        "2": 88
+    },
+    "llm_time": 4.706150531768799,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00480198860168457,
+    "constrainer_time": 0.042394399642944336,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.808789491653442,
+    "frequency": {
+        "1": 185
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:23: This expression has type \"int option list\"\nbut an expression was expected of type \"string list\"\nType \"int option\" is not compatible with type \"string\""
+    ]
+}

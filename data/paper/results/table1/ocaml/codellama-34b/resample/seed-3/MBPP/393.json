@@ -1,0 +1,28 @@
+{
+    "decoded": 373,
+    "decoded_at_turn": {
+        "1": 249,
+        "2": 124
+    },
+    "llm_time": 20.24455451965332,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012063264846801758,
+    "constrainer_time": 0.09779858589172363,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 20.483477115631104,
+    "frequency": {
+        "1": 375
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:72: This expression has type \"'a option\"\nbut an expression was expected of type \"'a\"\nThe type variable \"'a\" occurs inside \"'a option\""
+    ]
+}

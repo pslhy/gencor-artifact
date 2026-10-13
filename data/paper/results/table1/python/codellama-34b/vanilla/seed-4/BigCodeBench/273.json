@@ -1,0 +1,23 @@
+{
+    "decoded": 241,
+    "llm_time": 13.311820030212402,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00562739372253418,
+    "constrainer_time": 0.05477404594421387,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.453168869018555,
+    "frequency": {
+        "1": 242
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:27: undefined module member 'http.server.RequestHandler'",
+        "<python>:15:28: undefined module member 'http.server.ResponseHandler'"
+    ]
+}

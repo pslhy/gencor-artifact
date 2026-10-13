@@ -1,0 +1,22 @@
+{
+    "decoded": 260,
+    "llm_time": 13.930916547775269,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006764411926269531,
+    "constrainer_time": 0.016075611114501953,
+    "total_time": 14.02738070487976,
+    "frequency": {
+        "1": 261
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'number' is not assignable to type 'number[][][]'.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+    ]
+}

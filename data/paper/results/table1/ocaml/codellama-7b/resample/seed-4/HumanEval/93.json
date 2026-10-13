@@ -1,0 +1,30 @@
+{
+    "decoded": 873,
+    "decoded_at_turn": {
+        "1": 234,
+        "2": 322,
+        "3": 187,
+        "4": 130
+    },
+    "llm_time": 22.394938945770264,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02247166633605957,
+    "constrainer_time": 0.21008682250976562,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 22.94898509979248,
+    "frequency": {
+        "1": 877
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:10:14: This expression has type \"(char * string) list\"\nbut an expression was expected of type \"char -> char\""
+    ]
+}

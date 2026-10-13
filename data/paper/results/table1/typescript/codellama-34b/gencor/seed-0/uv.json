@@ -1,0 +1,5 @@
+{
+    "HumanEval/105": [
+        "TS2304: Cannot find name 'numToNameMap'."
+    ]
+}

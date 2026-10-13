@@ -1,0 +1,19 @@
+{
+    "decoded": 103,
+    "llm_time": 2.580766201019287,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023527145385742188,
+    "constrainer_time": 0.02403402328491211,
+    "total_time": 2.6329283714294434,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?"
+    ]
+}

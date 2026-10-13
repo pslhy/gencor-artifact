@@ -1,0 +1,22 @@
+{
+    "decoded": 79,
+    "llm_time": 2.038590669631958,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001928567886352539,
+    "constrainer_time": 0.01816105842590332,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.0858192443847656,
+    "frequency": {
+        "1": 80
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/134.ml:6:5: Unbound value \"Char.is_alpha\""
+    ]
+}

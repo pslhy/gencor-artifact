@@ -1,0 +1,19 @@
+{
+    "decoded": 46,
+    "llm_time": 2.4685065746307373,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001107931137084961,
+    "constrainer_time": 0.0028645992279052734,
+    "total_time": 2.4836316108703613,
+    "frequency": {
+        "1": 47
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 't'."
+    ]
+}

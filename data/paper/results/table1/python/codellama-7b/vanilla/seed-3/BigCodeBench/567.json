@@ -1,0 +1,22 @@
+{
+    "decoded": 203,
+    "llm_time": 5.120450973510742,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005041599273681641,
+    "constrainer_time": 0.0477297306060791,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.235298156738281,
+    "frequency": {
+        "1": 204
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:25: undefined name 'Freq_data'"
+    ]
+}

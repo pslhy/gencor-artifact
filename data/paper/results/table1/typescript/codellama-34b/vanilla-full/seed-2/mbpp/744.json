@@ -1,0 +1,19 @@
+{
+    "decoded": 23,
+    "llm_time": 1.2694735527038574,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0006122589111328125,
+    "constrainer_time": 0.0015299320220947266,
+    "total_time": 1.2774720191955566,
+    "frequency": {
+        "1": 24
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7006: Parameter 'value' implicitly has an 'any' type."
+    ]
+}

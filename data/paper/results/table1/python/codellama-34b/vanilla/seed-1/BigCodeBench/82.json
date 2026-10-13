@@ -1,0 +1,22 @@
+{
+    "decoded": 346,
+    "llm_time": 19.341649532318115,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012031078338623047,
+    "constrainer_time": 0.09121942520141602,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.585515022277832,
+    "frequency": {
+        "1": 347
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:36:28: undefined name 'User'"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "total_time": 90.00010776519775,
+    "llm_time": 90.00010776519775,
+    "constrainer_time": 0.0,
+    "n_resamples": 14,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type '(number | boolean)[]' is not assignable to type 'number[]'.\n  Type 'number | boolean' is not assignable to type 'number'.\n    Type 'boolean' is not assignable to type 'number'."
+    ]
+}

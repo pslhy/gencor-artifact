@@ -1,0 +1,22 @@
+{
+    "decoded": 47,
+    "llm_time": 1.2264010906219482,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011510848999023438,
+    "constrainer_time": 0.011137008666992188,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.2546906471252441,
+    "frequency": {
+        "1": 48
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:5: Unbound value \"String.split_on_chars\"\nHint: Did you mean \"split_on_char\"?"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "decoded": 578,
+    "decoded_at_turn": {
+        "1": 111,
+        "2": 115,
+        "3": 115,
+        "4": 119,
+        "5": 118
+    },
+    "llm_time": 32.69234800338745,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.018328189849853516,
+    "constrainer_time": 0.1497654914855957,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 33.07891869544983,
+    "frequency": {
+        "1": 583
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:28: Unbound value \"String.uppercase\""
+    ]
+}

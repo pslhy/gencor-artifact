@@ -1,0 +1,53 @@
+# requirements-bcb.txt
+# Packages referenced by the BigCodeBench-hard generations
+# (output/popl27/python/*/bigcodebench-hard/bcbv-s0). Used to give the ummac
+# "undefined module member access" checker a real, importable module namespace
+# to introspect. Use Python 3.10 (stdlib `cgi` still present; BigCodeBench
+# canonical). Versions left unpinned; pin if numpy-ABI conflicts appear
+# (tensorflow/gensim/scipy are the usual offenders).
+
+# ── Group 1: accessed as `import M; M.x` — REQUIRED for the member-access check ──
+matplotlib
+numpy
+pandas
+seaborn
+psutil
+rsa
+nltk
+pytz
+opencv-python        # cv2
+pytesseract          # also needs the `tesseract` system binary
+chardet
+geopandas            # pulls GDAL/fiona/shapely; may need system GDAL
+scipy
+python-docx          # docx
+librosa              # pulls soundfile/audioread; soundfile needs libsndfile
+regex
+beautifulsoup4       # bs4
+soundfile            # needs libsndfile system lib
+xlwt
+
+# ── Group 2: only via `from X import ...` — NOT needed for the M.x check,
+#            but required to actually import/run the BCB solutions ──
+pycryptodome         # Crypto
+python-Levenshtein   # Levenshtein
+Flask
+Flask-Login
+Flask-Mail
+Flask-WTF
+gensim
+keras
+lxml
+openpyxl
+pyquery
+shapely
+scikit-learn         # sklearn
+statsmodels
+tensorflow
+Werkzeug
+wordcloud
+WTForms
+
+# Required by the preserved benchmark tests / reference implementations.
+Faker
+cryptography

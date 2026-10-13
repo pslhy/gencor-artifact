@@ -1,0 +1,20 @@
+{
+    "decoded": 222,
+    "llm_time": 5.66650652885437,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005148172378540039,
+    "constrainer_time": 0.050469398498535156,
+    "total_time": 5.779715299606323,
+    "frequency": {
+        "1": 223
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2345: Argument of type '[number, number, [number, number]]' is not assignable to parameter of type '[number, number, [number, number, [number, number]], number, number]'.\n  Source has 3 element(s) but target requires 5."
+    ]
+}

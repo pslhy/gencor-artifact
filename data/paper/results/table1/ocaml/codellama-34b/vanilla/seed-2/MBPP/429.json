@@ -1,0 +1,22 @@
+{
+    "decoded": 162,
+    "llm_time": 8.67158031463623,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0041446685791015625,
+    "constrainer_time": 0.03828287124633789,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.760416507720947,
+    "frequency": {
+        "1": 163
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:26: This expression should not be a constructor, the expected type is\n\"int * int * int * int\""
+    ]
+}

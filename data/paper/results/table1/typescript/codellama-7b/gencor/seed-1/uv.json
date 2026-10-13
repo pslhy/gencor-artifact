@@ -1,0 +1,15 @@
+{
+    "HumanEval/147": [
+        "TS2304: Cannot find name 'a'."
+    ],
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'crypto'."
+    ],
+    "mbpp/408": [
+        "TS2304: Cannot find name 'P'."
+    ],
+    "mbpp/751": [
+        "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig.",
+        "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig."
+    ]
+}

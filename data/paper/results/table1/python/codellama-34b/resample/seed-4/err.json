@@ -1,0 +1,459 @@
+{
+    "BigCodeBench/19": {
+        "5": [
+            "<python>:13:33: undefined name 'tempfile'"
+        ]
+    },
+    "BigCodeBench/82": {
+        "1": [
+            "<python>:26:20: undefined name 'User'"
+        ],
+        "2": [
+            "<python>:17:28: undefined name 'FileSystemLoader'",
+            "<python>:28:20: undefined name 'User'",
+            "<python>:32:17: undefined name 'flash'"
+        ],
+        "3": [
+            "<python>:17:28: undefined name 'FileSystemLoader'",
+            "<python>:28:20: undefined name 'User'",
+            "<python>:32:17: undefined name 'flash'"
+        ],
+        "4": [
+            "<python>:17:28: undefined name 'FileSystemLoader'",
+            "<python>:28:20: undefined name 'User'",
+            "<python>:32:17: undefined name 'flash'"
+        ],
+        "5": [
+            "<python>:17:28: undefined name 'FileSystemLoader'",
+            "<python>:28:20: undefined name 'User'",
+            "<python>:30:17: undefined name 'flash'"
+        ]
+    },
+    "BigCodeBench/89": {
+        "1": [
+            "<python>:15:30: undefined name 'z_score'"
+        ]
+    },
+    "BigCodeBench/93": {
+        "1": [
+            "<python>:8:23: undefined name 'n_componenets'"
+        ]
+    },
+    "BigCodeBench/129": {
+        "1": [
+            "<python>:27:26: invalid syntax",
+            "if __name__ == '__main__':",
+            "                         ^"
+        ]
+    },
+    "BigCodeBench/161": {
+        "1": [
+            "<python>:16:25: undefined name 'dateutil'",
+            "<python>:17:28: undefined name 'threshold'",
+            "<python>:18:46: undefined name 'timezone_offset'"
+        ],
+        "2": [
+            "<python>:35:1: expected an indented block after 'if' statement on line 29",
+            "timestamp -= timedelta(hours=timezone_offset).to_timedelta64()",
+            "^"
+        ],
+        "3": [
+            "<python>:16:25: undefined name 'parser'",
+            "<python>:17:28: undefined name 'threshold'",
+            "<python>:17:53: undefined name 'tz'",
+            "<python>:19:42: undefined name 'timezone_offset'"
+        ],
+        "4": [
+            "<python>:17:28: undefined name 'threshold'",
+            "<python>:17:53: undefined name 'tz'",
+            "<python>:19:42: undefined name 'timezone_offset'"
+        ],
+        "5": [
+            "<python>:21:18: undefined name 'timezone'"
+        ]
+    },
+    "BigCodeBench/162": {
+        "1": [
+            "<python>:23:89: positional argument follows keyword argument",
+            "    ax.hist(lengths_norm, bins=50, range=(-rwidth, rwidth), align=\"left\", Blue,alpha=0.6)",
+            "                                                                                        ^"
+        ],
+        "2": [
+            "<python>:13:61: undefined name 'stop_words'",
+            "<python>:26:1: undefined name 'end_func'"
+        ],
+        "3": [
+            "<python>:13:22: undefined name 'stopwords'",
+            "<python>:28:1: undefined name 'end_func'"
+        ],
+        "4": [
+            "<python>:29:1: undefined name 'end_func'"
+        ]
+    },
+    "BigCodeBench/211": {
+        "1": [
+            "<python>:15:20: undefined module member 'zipfile.extractall'"
+        ]
+    },
+    "BigCodeBench/267": {
+        "1": [
+            "<python>:11:7: undefined name 'fft'"
+        ]
+    },
+    "BigCodeBench/273": {
+        "1": [
+            "<python>:14:27: undefined module member 'http.server.RequestHandler'",
+            "<python>:15:28: undefined module member 'http.server.ResponseHandler'"
+        ],
+        "2": [
+            "<python>:14:27: undefined module member 'http.server.RequestHandler'",
+            "<python>:15:28: undefined module member 'http.server.ResponseHandler'"
+        ],
+        "3": [
+            "<python>:15:28: undefined module member 'http.server.SimpleHTTPResponseHandler'"
+        ]
+    },
+    "BigCodeBench/313": {
+        "1": [
+            "<python>:11:13: undefined name 'log_file'"
+        ]
+    },
+    "BigCodeBench/324": {
+        "1": [
+            "<python>:7:29: '(' was never closed",
+            "  process = subprocess.Popen(file_list,",
+            "                            ^"
+        ],
+        "2": [
+            "<python>:6:1: expected an indented block after function definition on line 5",
+            "Process process = subprocess.Popen(file_list,",
+            "^"
+        ],
+        "3": [
+            "<python>:6:13: invalid syntax",
+            "    Process process = subprocess.Popen(file_list,",
+            "            ^"
+        ],
+        "4": [
+            "<python>:20:29: undefined name 'file_list'",
+            "<python>:21:16: undefined name 'DEADLINE'",
+            "<python>:21:31: undefined name 'file_list'",
+            "<python>:22:38: undefined name 'file_list'",
+            "<python>:23:36: undefined name 'file_list'",
+            "<python>:25:1: 'return' outside function"
+        ],
+        "5": [
+            "<python>:27:1: 'return' outside function"
+        ]
+    },
+    "BigCodeBench/326": {
+        "1": [
+            "<python>:16:2: expected 'except' or 'finally' block",
+            "  return task_list",
+            " ^"
+        ],
+        "2": [
+            "<python>:11:15: undefined name 'datetime'",
+            "<python>:17:13: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:11:20: undefined name 'datetime'",
+            "<python>:17:18: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/346": {
+        "1": [
+            "<python>:17:10: '(' was never closed",
+            "    print(\"Task completed in {}\"",
+            "         ^"
+        ]
+    },
+    "BigCodeBench/360": {
+        "1": [
+            "<python>:28:9: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/454": {
+        "1": [
+            "<python>:7:35: Invalid star expression",
+            "    files = glob.glob(glob_path, *, followlinks=False)",
+            "                                  ^"
+        ],
+        "2": [
+            "<python>:7:32: Invalid star expression",
+            "\tfiles = glob.glob(glob_path, *, followlinks=False)",
+            "\t                              ^"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "<python>:9:16: undefined name 'json'"
+        ],
+        "2": [
+            "<python>:21:93: invalid syntax. Perhaps you forgot a comma?",
+            "    except (xlwt.error.XLWTBYTERightarrow\u0131ptionError, xlwt.error.XLWTBYTElijkeTagNameError, xlwt.error.XLWTCallFuncreturn RuntimeError) as e:",
+            "                                                                                            ^"
+        ],
+        "3": [
+            "<python>:21:13: invalid syntax. Perhaps you forgot a comma?",
+            "    except (xlwt.error.XLWTBYTEillaumeExceptionenvironment Error, xlwt.error.XLWTBYTEencing Friedrich Apocalypse) as e:",
+            "            ^"
+        ],
+        "4": [
+            "<python>:20:13: invalid syntax. Perhaps you forgot a comma?",
+            "    except (xlwt.error.XLWTBYTE wieku became XLWTBYTE Palmar\u00e8sError, xlwt.error.XLWTBYTEprise Saints got you down) as e:",
+            "            ^"
+        ],
+        "5": [
+            "<python>:20:55: invalid syntax. Perhaps you forgot a comma?",
+            "    except (xlwt.error.XLWTBYTEgotyouConversionError, xlwt.error.XLWTBYTE measure DisneyLand) as e:",
+            "                                                      ^"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "<python>:9:9: expected an indented block after 'with' statement on line 8",
+            "        reader = csv.reader(csvfile)",
+            "        ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:9:21: undefined module member 'rsa.create_private_key'"
+        ],
+        "2": [
+            "<python>:9:21: undefined module member 'rsa.generate_private_key'",
+            "<python>:9:88: undefined name 'default_backend'"
+        ],
+        "3": [
+            "<python>:9:21: undefined module member 'rsa.generate_private_key'",
+            "<python>:9:88: undefined name 'default_backend'"
+        ],
+        "4": [
+            "<python>:9:70: undefined name 'default_backend'"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "<python>:10:15: undefined module member 'rsa.generate_private_key'"
+        ],
+        "2": [
+            "<python>:10:15: undefined module member 'rsa.generate_private_key'"
+        ],
+        "3": [
+            "<python>:10:15: undefined module member 'rsa.RSAPrivateKey'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:18:10: undefined name 'URLError'",
+            "<python>:19:11: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/618": {
+        "1": [
+            "<python>:14:26: undefined name 'random'",
+            "<python>:15:30: undefined name 'random'"
+        ]
+    },
+    "BigCodeBench/637": {
+        "1": [
+            "<python>:28:65: closing parenthesis ')' does not match opening parenthesis '{'",
+            "                      .agg({'Marks':'count', 'CourseId':'unique')",
+            "                                                                ^"
+        ],
+        "2": [
+            "<python>:28:63: closing parenthesis ')' does not match opening parenthesis '{'",
+            "                    .agg({'Marks':'count', 'CourseId':'unique')",
+            "                                                              ^"
+        ]
+    },
+    "BigCodeBench/655": {
+        "1": [
+            "<python>:25:80: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:25:80: undefined name 'np'"
+        ],
+        "3": [
+            "<python>:25:80: undefined name 'np'"
+        ],
+        "4": [
+            "<python>:25:80: undefined name 'np'"
+        ],
+        "5": [
+            "<python>:25:80: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/678": {
+        "1": [
+            "<python>:22:57: unterminated string literal (detected at line 22)",
+            "        df[\"Source\"] = os.path.realpath(f\"{path}/{file}\"')",
+            "                                                        ^"
+        ]
+    },
+    "BigCodeBench/771": {
+        "1": [
+            "<python>:9:21: undefined name 'glob'",
+            "<python>:12:40: undefined name 'datetime'",
+            "<python>:12:68: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:11:40: undefined name 'datetime'",
+            "<python>:11:68: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:11:40: undefined name 'datetime'",
+            "<python>:11:68: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/777": {
+        "1": [
+            "<python>:9:74: unmatched ')'",
+            "  directory_to_use = os.path.basename(os.path.join(directory,g.group(1))))",
+            "                                                                         ^"
+        ],
+        "2": [
+            "<python>:9:76: unmatched ')'",
+            "    directory_to_use = os.path.basename(os.path.join(directory,g.group(1))))",
+            "                                                                           ^"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "<python>:10:62: undefined name 'datetime'",
+            "<python>:11:10: undefined name 'zipfile'"
+        ],
+        "2": [
+            "<python>:10:62: undefined name 'datetime'",
+            "<python>:11:10: undefined name 'zipfile'"
+        ],
+        "3": [
+            "<python>:10:62: undefined name 'datetime'",
+            "<python>:11:10: undefined name 'zipfile'"
+        ],
+        "4": [
+            "<python>:10:62: undefined name 'datetime'",
+            "<python>:11:10: undefined name 'zipfile'"
+        ],
+        "5": [
+            "<python>:10:62: undefined name 'datetime'",
+            "<python>:11:10: undefined name 'zipfile'"
+        ]
+    },
+    "BigCodeBench/897": {
+        "1": [
+            "<python>:9:1: expected an indented block after function definition on line 7",
+            "if seed:",
+            "^"
+        ]
+    },
+    "BigCodeBench/952": {
+        "1": [
+            "<python>:24:9: closing parenthesis '}' does not match opening parenthesis '[' on line 21",
+            "        }",
+            "        ^"
+        ]
+    },
+    "BigCodeBench/990": {
+        "1": [
+            "<python>:15:29: undefined module member 'base64.shift_jis_encode'",
+            "<python>:16:29: undefined module member 'base64.shift_jis_encode'"
+        ],
+        "2": [
+            "<python>:6:27: expected an indented block after function definition on line 6",
+            "def task_func(hex_string):",
+            "                          ^"
+        ]
+    },
+    "BigCodeBench/998": {
+        "1": [
+            "<python>:13:13: undefined name 'shutil'"
+        ],
+        "2": [
+            "<python>:13:13: undefined name 'shutil'"
+        ]
+    },
+    "BigCodeBench/1003": {
+        "1": [
+            "<python>:12:19: undefined name 'item_etree_to_dict'",
+            "<python>:13:16: undefined module member 'etree.ElementTreeError'"
+        ],
+        "2": [
+            "<python>:12:31: undefined module member 'etree.to_dict'"
+        ]
+    },
+    "BigCodeBench/1012": {
+        "1": [
+            "<python>:19:17: undefined module member 'zipfile.extract'"
+        ]
+    },
+    "BigCodeBench/1020": {
+        "1": [
+            "<python>:30:20: undefined module member 'chardet.CannotDetectEncodingError'"
+        ]
+    },
+    "BigCodeBench/1039": {
+        "1": [
+            "<python>:26:59: unterminated string literal (detected at line 26)",
+            "        return \"Error while processing request: \" + str(e)\" \\",
+            "                                                          ^"
+        ]
+    },
+    "BigCodeBench/1040": {
+        "1": [
+            "<python>:28:20: expected 'except' or 'finally' block",
+            "                    else:",
+            "                   ^"
+        ],
+        "2": [
+            "<python>:26:20: expected 'except' or 'finally' block",
+            "                    else:",
+            "                   ^"
+        ],
+        "3": [
+            "<python>:26:20: expected 'except' or 'finally' block",
+            "                    else:",
+            "                   ^"
+        ],
+        "4": [
+            "<python>:26:20: expected 'except' or 'finally' block",
+            "                    else:",
+            "                   ^"
+        ],
+        "5": [
+            "<python>:26:20: expected 'except' or 'finally' block",
+            "                    else:",
+            "                   ^"
+        ]
+    },
+    "BigCodeBench/1077": {
+        "1": [
+            "<python>:9:35: expected ':'",
+            "    for time_string in time_string",
+            "                                  ^"
+        ]
+    },
+    "BigCodeBench/1085": {
+        "1": [
+            "<python>:7:65: undefined name 'string'"
+        ],
+        "2": [
+            "<python>:7:65: undefined name 'string'"
+        ],
+        "3": [
+            "<python>:7:49: undefined name 'string'"
+        ],
+        "4": [
+            "<python>:7:65: undefined name 'string'"
+        ],
+        "5": [
+            "<python>:7:65: undefined name 'string'"
+        ]
+    },
+    "BigCodeBench/1137": {
+        "1": [
+            "<python>:8:12: undefined name 'urlparse'"
+        ]
+    }
+}

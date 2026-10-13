@@ -1,0 +1,246 @@
+{
+    "BigCodeBench/17": {
+        "1": [
+            "<python>:6:15: undefined name 'process'"
+        ]
+    },
+    "BigCodeBench/37": {
+        "1": [
+            "<python>:10:40: undefined name 'train_test_split'"
+        ],
+        "2": [
+            "<python>:10:40: undefined name 'train_test_split'"
+        ],
+        "3": [
+            "<python>:10:40: undefined name 'train_test_split'"
+        ],
+        "4": [
+            "<python>:10:40: undefined name 'train_test_split'"
+        ],
+        "5": [
+            "<python>:10:40: undefined name 'train_test_split'"
+        ]
+    },
+    "BigCodeBench/124": {
+        "1": [
+            "<python>:25:82: undefined name 'start_time'",
+            "<python>:27:44: undefined name 'start_time'"
+        ],
+        "2": [
+            "<python>:18:47: undefined name 'start_time'"
+        ],
+        "3": [
+            "<python>:18:47: undefined name 'start_time'"
+        ],
+        "4": [
+            "<python>:18:47: undefined name 'start_time'"
+        ],
+        "5": [
+            "<python>:18:47: undefined name 'start_time'"
+        ]
+    },
+    "BigCodeBench/147": {
+        "1": [
+            "<python>:9:10: undefined name 'ThreadPoolExecutor'"
+        ],
+        "2": [
+            "<python>:9:10: undefined name 'ThreadPoolExecutor'"
+        ],
+        "3": [
+            "<python>:9:10: undefined name 'ThreadPoolExecutor'"
+        ],
+        "4": [
+            "<python>:9:10: undefined name 'ThreadPoolExecutor'"
+        ],
+        "5": [
+            "<python>:9:10: undefined name 'ThreadPoolExecutor'"
+        ]
+    },
+    "BigCodeBench/211": {
+        "1": [
+            "<python>:13:26: undefined name 'io'",
+            "<python>:18:5: undefined name 'shutil'"
+        ],
+        "2": [
+            "<python>:13:26: undefined name 'io'",
+            "<python>:18:5: undefined name 'shutil'"
+        ],
+        "3": [
+            "<python>:18:5: undefined name 'shutil'"
+        ]
+    },
+    "BigCodeBench/273": {
+        "1": [
+            "<python>:42:24: invalid syntax. Perhaps you forgot a comma?",
+            "            if not all(isinstance v for k, v in key.items()):",
+            "                       ^"
+        ]
+    },
+    "BigCodeBench/274": {
+        "1": [
+            "<python>:35:12: expected an indented block after 'else' statement on line 34",
+            "           ",
+            "           ^"
+        ],
+        "2": [
+            "<python>:17:21: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers",
+            "    deadline = 2023-02-28",
+            "                    ^"
+        ],
+        "3": [
+            "<python>:17:16: undefined name 'date'",
+            "<python>:19:20: undefined name 'date'"
+        ],
+        "4": [
+            "<python>:17:16: undefined name 'datetime'",
+            "<python>:19:20: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:17:16: undefined name 'datetime'",
+            "<python>:19:20: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/486": {
+        "1": [
+            "<python>:16:5: undefined name 'plt'",
+            "<python>:17:10: undefined name 'sns'"
+        ]
+    },
+    "BigCodeBench/502": {
+        "1": [
+            "<python>:29:84: closing parenthesis '}' does not match opening parenthesis '('",
+            "    data = pd.DataFrame({\"Date\": dates, \"Activity\": list(activities_duration.keys()}, \"Duration\": list(activities_duration.values())})",
+            "                                                                                   ^"
+        ]
+    },
+    "BigCodeBench/513": {
+        "1": [
+            "<python>:21:71: unterminated string literal (detected at line 21)",
+            "    plt.plot(data.index, data[column], label=f\"Line Chart of {column}\"')",
+            "                                                                      ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:12:21: undefined module member 'rsa.backends'"
+        ],
+        "2": [
+            "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:12:21: undefined module member 'rsa.backends'"
+        ],
+        "3": [
+            "<python>:14:5: positional argument follows keyword argument",
+            "    )",
+            "    ^"
+        ],
+        "4": [
+            "<python>:9:23: undefined module member 'rsa.generate_private_key'"
+        ],
+        "5": [
+            "<python>:9:23: undefined module member 'rsa.gen_key'"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:35:40: undefined name 'hashes'",
+            "<python>:36:23: undefined name 'hashes'"
+        ],
+        "2": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:35:40: undefined name 'hashes'",
+            "<python>:36:23: undefined name 'hashes'"
+        ],
+        "3": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:35:40: undefined name 'hashes'",
+            "<python>:36:23: undefined name 'hashes'"
+        ],
+        "4": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:35:40: undefined name 'hashes'",
+            "<python>:36:23: undefined name 'hashes'"
+        ],
+        "5": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:35:40: undefined name 'hashes'",
+            "<python>:36:23: undefined name 'hashes'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:17:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/655": {
+        "1": [
+            "<python>:24:59: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:12:2: undefined name 'np'",
+            "<python>:14:57: undefined name 'texts'",
+            "<python>:20:24: undefined name 'num_topics'",
+            "<python>:25:55: undefined name 'np'",
+            "<python>:26:1: 'return' outside function"
+        ],
+        "3": [
+            "<python>:24:59: undefined name 'np'"
+        ],
+        "4": [
+            "<python>:24:59: undefined name 'np'"
+        ],
+        "5": [
+            "<python>:24:59: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/760": {
+        "1": [
+            "<python>:14:68: unterminated string literal (detected at line 14)",
+            "    emails = [f\"{name.lower().replace('\\\\'', '')}{date.strftime('%Y')}@{email_domain}\" for name, date in zip(latin_names + other_names, dates)]",
+            "                                                                   ^"
+        ],
+        "2": [
+            "<python>:13:28: undefined name 'year'"
+        ],
+        "3": [
+            "<python>:13:28: undefined name 'year'"
+        ]
+    },
+    "BigCodeBench/800": {
+        "1": [
+            "<python>:45:31: invalid syntax",
+            "    assert task_func(['Team A': 2, 'Team B': 1, 'Team C': 3], []) == Counter({'Team A': 2, 'Team B': 1, 'Team C': 3})",
+            "                              ^"
+        ]
+    },
+    "BigCodeBench/964": {
+        "1": [
+            "<python>:34:1: inconsistent use of tabs and spaces in indentation",
+            "    \telif file_path.suffix == '.csv':",
+            "^"
+        ]
+    },
+    "BigCodeBench/1015": {
+        "1": [
+            "<python>:18:12: undefined name 'etree'",
+            "<python>:19:15: undefined name 'etree'"
+        ],
+        "2": [
+            "<python>:18:17: undefined module member 'html.XPathEvaluationError'",
+            "<python>:19:20: undefined module member 'html.XPathEvaluationError'"
+        ],
+        "3": [
+            "<python>:18:17: undefined module member 'html.environmentals'",
+            "<python>:19:20: undefined module member 'html.environmentals'"
+        ],
+        "4": [
+            "<python>:18:17: undefined module member 'html.XPathEvaluationError'",
+            "<python>:19:20: undefined module member 'html.XPathEvaluationError'"
+        ],
+        "5": [
+            "<python>:18:17: undefined module member 'html.XPathEvaluationError'",
+            "<python>:19:20: undefined module member 'html.XPathEvaluationError'"
+        ]
+    }
+}

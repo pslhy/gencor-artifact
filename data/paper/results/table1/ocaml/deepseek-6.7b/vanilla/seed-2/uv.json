@@ -1,0 +1,182 @@
+{
+    "HumanEval/10": [
+        "HumanEval/10.ml:10:29: Unbound value \"String.rev\""
+    ],
+    "HumanEval/100": [
+        "HumanEval/100.ml:5:29: Unbound value \"(%)\""
+    ],
+    "HumanEval/107": [
+        "HumanEval/107.ml:4:11: Unbound value \"String.rev\""
+    ],
+    "HumanEval/108": [
+        "HumanEval/108.ml:6:8: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/111": [
+        "HumanEval/111.ml:20:25: Unbound module \"Str\""
+    ],
+    "HumanEval/113": [
+        "HumanEval/113.ml:4:63: Unbound value \"String.replace_char\""
+    ],
+    "HumanEval/120": [
+        "HumanEval/120.ml:2:3: Unbound value \"List.sort_unstable\""
+    ],
+    "HumanEval/142": [
+        "HumanEval/142.ml:6:22: Unbound value \"(%)\""
+    ],
+    "HumanEval/145": [
+        "HumanEval/145.ml:6:33: Unbound value \"(>>)\""
+    ],
+    "HumanEval/153": [
+        "HumanEval/153.ml:3:15: Unbound value \"String.count\""
+    ],
+    "HumanEval/154": [
+        "HumanEval/154.ml:15:19: Unbound value \"String.rev\""
+    ],
+    "HumanEval/161": [
+        "HumanEval/161.ml:6:8: Unbound value \"Char.lowercase\""
+    ],
+    "HumanEval/162": [
+        "HumanEval/162.ml:4:15: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+    ],
+    "HumanEval/25": [
+        "HumanEval/25.ml:12:29: Unbound module \"Tuple2\""
+    ],
+    "HumanEval/27": [
+        "HumanEval/27.ml:7:24: Unbound value \"Char.is_lowercase\""
+    ],
+    "HumanEval/39": [
+        "HumanEval/39.ml:3:88: Unbound value \"int\""
+    ],
+    "HumanEval/44": [
+        "HumanEval/44.ml:12:27: Unbound value \"Char.of_string\""
+    ],
+    "HumanEval/46": [
+        "HumanEval/46.ml:4:10: Unbound value \"fib4_aux\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+    ],
+    "HumanEval/6": [
+        "HumanEval/6.ml:10:16: Unbound module \"Str\""
+    ],
+    "HumanEval/65": [
+        "HumanEval/65.ml:5:84: Unbound value \"(%)\""
+    ],
+    "HumanEval/67": [
+        "HumanEval/67.ml:4:31: Unbound module \"Str\""
+    ],
+    "HumanEval/69": [
+        "HumanEval/69.ml:12:26: Unbound value \"List.sort_descending\""
+    ],
+    "HumanEval/83": [
+        "HumanEval/83.ml:4:25: Unbound value \"pow\""
+    ],
+    "HumanEval/86": [
+        "HumanEval/86.ml:11:5: Unbound value \"String.of_char_list\""
+    ],
+    "HumanEval/92": [
+        "HumanEval/92.ml:2:11: Unbound value \"float_is_int\"\nHint: Did you mean \"float_of_int\"?"
+    ],
+    "HumanEval/95": [
+        "HumanEval/95.ml:5:22: Unbound value \"String.uppercase\""
+    ],
+    "HumanEval/96": [
+        "HumanEval/96.ml:3:72: Unbound value \"y\""
+    ],
+    "HumanEval/98": [
+        "HumanEval/98.ml:7:15: Unbound value \"String.uppercase\""
+    ],
+    "MBPP/100": [
+        "MBPP/100.ml:13:10: Unbound value \"String.rev\""
+    ],
+    "MBPP/113": [
+        "MBPP/113.ml:8:20: Unbound value \"Char.is_digit\""
+    ],
+    "MBPP/12": [
+        "MBPP/12.ml:5:26: Unbound value \"List.findi\"\nHint: Did you mean \"find\"?"
+    ],
+    "MBPP/128": [
+        "MBPP/128.ml:13:39: Unbound value \"String.to_list\""
+    ],
+    "MBPP/129": [
+        "MBPP/129.ml:7:34: Unbound module \"Util\""
+    ],
+    "MBPP/18": [
+        "MBPP/18.ml:4:32: Unbound value \"Char.lowercase\""
+    ],
+    "MBPP/260": [
+        "MBPP/260.ml:4:24: Unbound value \"(%)\""
+    ],
+    "MBPP/296": [
+        "MBPP/296.ml:12:49: Unbound value \"List.take\""
+    ],
+    "MBPP/4": [
+        "MBPP/4.ml:6:20: Unbound value \"heapify_up\""
+    ],
+    "MBPP/428": [
+        "MBPP/428.ml:3:258: Unbound value \"List.hd_exn\""
+    ],
+    "MBPP/434": [
+        "MBPP/434.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/456": [
+        "MBPP/456.ml:4:14: Unbound value \"String.rev\""
+    ],
+    "MBPP/478": [
+        "MBPP/478.ml:8:24: Unbound value \"String.cons\""
+    ],
+    "MBPP/563": [
+        "MBPP/563.ml:2:12: Unbound module \"Str\""
+    ],
+    "MBPP/584": [
+        "MBPP/584.ml:3:16: Unbound module \"Str\""
+    ],
+    "MBPP/591": [
+        "MBPP/591.ml:6:27: Unbound value \"List.rev_split\""
+    ],
+    "MBPP/6": [
+        "MBPP/6.ml:7:24: Unbound constructor \"Bits\""
+    ],
+    "MBPP/61": [
+        "MBPP/61.ml:4:37: Unbound value \"digit_sum\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 3"
+    ],
+    "MBPP/622": [
+        "MBPP/622.ml:9:19: Unbound value \"List.sub\""
+    ],
+    "MBPP/624": [
+        "MBPP/624.ml:4:24: Unbound value \"Char.uppercase\""
+    ],
+    "MBPP/635": [
+        "MBPP/635.ml:13:16: Unbound value \"List.replace_nth\""
+    ],
+    "MBPP/640": [
+        "MBPP/640.ml:12:15: Unbound module \"Str\""
+    ],
+    "MBPP/71": [
+        "MBPP/71.ml:45:56: Unbound value \"List.tl_n\""
+    ],
+    "MBPP/72": [
+        "MBPP/72.ml:12:10: Unbound value \"square\""
+    ],
+    "MBPP/731": [
+        "MBPP/731.ml:2:47: Unbound value \"Float.iround_to_int\""
+    ],
+    "MBPP/737": [
+        "MBPP/737.ml:4:12: Unbound value \"String.search_forward\""
+    ],
+    "MBPP/743": [
+        "MBPP/743.ml:6:27: Unbound value \"List.tl_opt\"\nHint: Did you mean \"nth_opt\"?"
+    ],
+    "MBPP/753": [
+        "MBPP/753.ml:3:15: Unbound value \"List.rev_take\"\nHint: Did you mean \"rev_map\" or \"rev_map2\"?"
+    ],
+    "MBPP/756": [
+        "MBPP/756.ml:2:17: Unbound module \"Re\""
+    ],
+    "MBPP/765": [
+        "MBPP/765.ml:4:6: Unbound value \"(%)\""
+    ],
+    "MBPP/787": [
+        "MBPP/787.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/86": [
+        "MBPP/86.ml:3:12: Unbound value \"nth_hexagonal_number\""
+    ]
+}

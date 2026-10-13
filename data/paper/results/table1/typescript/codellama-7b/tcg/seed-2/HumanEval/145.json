@@ -1,0 +1,19 @@
+{
+    "total_time": 16.41705632209778,
+    "llm_time": 16.41705632209778,
+    "constrainer_time": 0.0,
+    "n_resamples": 23,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2345: Argument of type '(a: number, b: number) => string' is not assignable to parameter of type '(a: number, b: number) => number'.\n  Type 'string' is not assignable to type 'number'."
+    ]
+}

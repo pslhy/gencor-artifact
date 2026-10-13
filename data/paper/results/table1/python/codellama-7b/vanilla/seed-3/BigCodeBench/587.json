@@ -1,0 +1,29 @@
+{
+    "decoded": 569,
+    "llm_time": 14.319939613342285,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014604806900024414,
+    "constrainer_time": 0.13483524322509766,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.67166256904602,
+    "frequency": {
+        "1": 570
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:10:15: undefined module member 'rsa.generate_private_key'",
+        "<python>:11:46: undefined name 'serialization'",
+        "<python>:12:44: undefined name 'serialization'",
+        "<python>:13:58: undefined name 'serialization'",
+        "<python>:14:57: undefined name 'serialization'",
+        "<python>:15:55: undefined name 'serialization'",
+        "<python>:31:40: undefined name 'hashes'",
+        "<python>:32:23: undefined name 'hashes'"
+    ]
+}

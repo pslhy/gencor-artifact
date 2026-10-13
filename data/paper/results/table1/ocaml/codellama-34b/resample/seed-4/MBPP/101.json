@@ -1,0 +1,30 @@
+{
+    "decoded": 416,
+    "decoded_at_turn": {
+        "1": 100,
+        "2": 101,
+        "3": 111,
+        "4": 104
+    },
+    "llm_time": 23.167895078659058,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011263847351074219,
+    "constrainer_time": 0.10501337051391602,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 23.42272400856018,
+    "frequency": {
+        "1": 420
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:35: This variant expression is expected to have type \"exn\"\nThere is no constructor \"InvalidArgumentException\" within type \"exn\""
+    ]
+}

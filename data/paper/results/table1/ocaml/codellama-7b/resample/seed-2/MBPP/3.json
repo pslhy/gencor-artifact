@@ -1,0 +1,30 @@
+{
+    "decoded": 594,
+    "decoded_at_turn": {
+        "1": 125,
+        "2": 126,
+        "3": 136,
+        "4": 207
+    },
+    "llm_time": 15.069185972213745,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014879226684570312,
+    "constrainer_time": 0.141221284866333,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 15.425259351730347,
+    "frequency": {
+        "1": 598
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:14: This variant expression is expected to have type \"bool\"\nThere is no constructor \"False\" within type \"bool\"\nHint: Did you mean \"false\"?"
+    ]
+}

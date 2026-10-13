@@ -1,0 +1,99 @@
+{
+    "HumanEval/58": {
+        "1": [
+            "TS2339: Property 's' does not exist on type 'Set<number>'."
+        ]
+    },
+    "HumanEval/91": {
+        "1": [
+            "TS18047: 'sentences' is possibly 'null'.",
+            "TS2774: This condition will always return true since this function is always defined. Did you mean to call it instead?"
+        ]
+    },
+    "HumanEval/119": {
+        "1": [
+            "TS2322: Type 'boolean' is not assignable to type 'string'."
+        ]
+    },
+    "HumanEval/162": {
+        "1": [
+            "TS2322: Type 'Hash' is not assignable to type 'string'.",
+            "TS2554: Expected 1 arguments, but got 2."
+        ]
+    },
+    "mbpp/228": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/299": {
+        "1": [
+            "TS2322: Type '(string | number)[]' is not assignable to type '[string, number]'.\n  Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/408": {
+        "1": [
+            "TS2322: Type '(number[] | undefined)[]' is not assignable to type 'number[][]'.\n  Type 'number[] | undefined' is not assignable to type 'number[]'.\n    Type 'undefined' is not assignable to type 'number[]'."
+        ]
+    },
+    "mbpp/410": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '<' cannot be applied to types 'string | number' and 'number'."
+        ]
+    },
+    "mbpp/417": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2345: Argument of type '(string | string[])[]' is not assignable to parameter of type 'string[][]'.\n  Type 'string | string[]' is not assignable to type 'string[]'.\n    Type 'string' is not assignable to type 'string[]'."
+        ]
+    },
+    "mbpp/419": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'toStr' does not exist on type '(string: string) => number'."
+        ]
+    },
+    "mbpp/440": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type '[number, number, string]'."
+        ]
+    },
+    "mbpp/470": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/564": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2532: Object is possibly 'undefined'.",
+            "TS2554: Expected 2 arguments, but got 3."
+        ]
+    },
+    "mbpp/579": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2352: Conversion of type '[]' to type '[number, number, number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Source has 0 element(s) but target requires 4."
+        ]
+    },
+    "mbpp/630": {
+        "1": [
+            "TS2345: Argument of type '[number]' is not assignable to parameter of type '[number, number]'.\n  Source has 1 element(s) but target requires 2.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/750": {
+        "1": [
+            "TS2345: Argument of type 'boolean' is not assignable to parameter of type '[number, number]'.",
+            "TS2839: This condition will always return 'false' since JavaScript compares objects by reference, not value."
+        ]
+    },
+    "mbpp/753": {
+        "1": [
+            "TS2345: Argument of type '(string | number)[][]' is not assignable to parameter of type '[string, number][]'.\n  Type '(string | number)[]' is not assignable to type '[string, number]'.\n    Target requires 2 element(s) but source may have fewer.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    }
+}

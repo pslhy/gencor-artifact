@@ -1,0 +1,23 @@
+{
+    "decoded": 63,
+    "llm_time": 3.4238169193267822,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003352642059326172,
+    "constrainer_time": 0.004809141159057617,
+    "total_time": 3.4545459747314453,
+    "frequency": {
+        "1": 64
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS7005: Variable 'li1' implicitly has an 'any' type.",
+        "TS7031: Binding element '(Missing)' implicitly has an 'any' type.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "decoded": 336,
+    "decoded_at_turn": {
+        "1": 132,
+        "2": 71,
+        "3": 66,
+        "4": 67
+    },
+    "llm_time": 8.43364953994751,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007987499237060547,
+    "constrainer_time": 0.0795290470123291,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.622950077056885,
+    "frequency": {
+        "1": 340
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:28: This expression has type \"bytes -> int -> int -> unit\"\nbut an expression was expected of type \"'a * 'b\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

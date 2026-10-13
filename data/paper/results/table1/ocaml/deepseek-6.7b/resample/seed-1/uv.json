@@ -1,0 +1,38 @@
+{
+    "HumanEval/107": [
+        "test.ml:4:10: Unbound value \"String.rev\""
+    ],
+    "HumanEval/113": [
+        "test.ml:4:33: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/116": [
+        "test.ml:5:22: Unbound value \"String.trim_start\""
+    ],
+    "HumanEval/147": [
+        "test.ml:7:26: Unbound value \"(%)\""
+    ],
+    "HumanEval/153": [
+        "test.ml:5:54: Unbound value \"Char.uppercase\""
+    ],
+    "HumanEval/6": [
+        "test.ml:22:10: Unbound value \"print_depth_list\""
+    ],
+    "HumanEval/86": [
+        "test.ml:6:77: Unbound value \"explode\""
+    ],
+    "MBPP/256": [
+        "test.ml:14:23: Unbound value \"n\""
+    ],
+    "MBPP/444": [
+        "test.ml:4:32: Unbound value \"List.rev_from\""
+    ],
+    "MBPP/456": [
+        "test.ml:4:22: Unbound value \"String.rev\""
+    ],
+    "MBPP/745": [
+        "test.ml:10:37: Unbound value \"int_to_digits\""
+    ],
+    "MBPP/753": [
+        "test.ml:8:15: Unbound value \"List.take\""
+    ]
+}

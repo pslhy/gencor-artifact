@@ -1,0 +1,56 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a mlthon function to count the number of rotations required to generate a sorted list. https://www.geeksforgeeks.org/count-of-rotations-required-to-generate-a-sorted-list/ *)
+let rec count_rotation (arr : int list) : int =
+    match arr with
+    | [] | [_] -> 0
+    | x :: y :: rest ->
+        if x > y then 1 + count_rotation (y :: rest)
+        else count_rotation (y :: rest)
+
+let count_rotations arr : int =
+    let n = List.length arr in
+    let rec aux i acc =
+        if i = n then acc
+        else aux (i + 1) (count_rotation (List.drop (i - 1) n arr) + acc)
+    in aux 0 0
+
+let main () : unit =
+    let arr = [1; 2; 3; 4; 5] in
+    let count = count_rotations arr in
+    Printf.printf "Count of rotations: %d\n" count
+
+let () = main ()
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:12:43: Unbound value "List.drop" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec count_rotation (arr : int list) : int =
+    match arr with
+    | [head] -> 0
+    | head :: tail ->
+        if head > tail then 1 + count_rotation (tail)
+        else count_rotation (tail)
+
+let count_rotations arr : int =
+    let arr_length = List.length arr in
+    let rec aux i acc =
+        if i < arr_length then
+            aux (i + 1) (count_rotation (List.drop (i - 1) arr) + acc)
+        else acc
+    in aux 0 0
+
+let main () : unit =
+    let arr = [1; 2; 3; 4; 5] in
+    let count = count_rotations arr in
+    Printf.printf "Count of rotations: %d\n" count
+
+let () = main ()
+

@@ -1,0 +1,24 @@
+{
+    "decoded": 328,
+    "llm_time": 17.901678562164307,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009098052978515625,
+    "constrainer_time": 0.08067560195922852,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 18.10145139694214,
+    "frequency": {
+        "1": 329
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:24:59: undefined name 'ax'",
+        "<python>:25:16: undefined name 'ax'",
+        "<python>:30:12: undefined name 'ax'"
+    ]
+}

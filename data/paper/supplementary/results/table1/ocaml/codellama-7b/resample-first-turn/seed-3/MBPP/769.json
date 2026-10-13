@@ -1,0 +1,22 @@
+{
+    "decoded": 115,
+    "llm_time": 2.86514949798584,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002811431884765625,
+    "constrainer_time": 0.026606082916259766,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.9255542755126953,
+    "frequency": {
+        "1": 116
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:12:18: Unbound value \"t2\""
+    ]
+}

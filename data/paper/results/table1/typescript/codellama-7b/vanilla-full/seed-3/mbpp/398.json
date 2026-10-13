@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 1.7871129512786865,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001646280288696289,
+    "constrainer_time": 0.016544580459594727,
+    "total_time": 1.8228495121002197,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number[]' is not assignable to type 'number'.",
+        "TS2304: Cannot find name 'reduce'.",
+        "TS7006: Parameter 'acc' implicitly has an 'any' type.",
+        "TS7006: Parameter 'curr' implicitly has an 'any' type."
+    ]
+}

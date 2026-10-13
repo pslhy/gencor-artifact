@@ -1,0 +1,22 @@
+{
+    "decoded": 23,
+    "llm_time": 0.6187248229980469,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0005941390991210938,
+    "constrainer_time": 0.005712985992431641,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.6314883232116699,
+    "frequency": {
+        "1": 24
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/157.ml:2:34: Unbound constructor \"Pythagorean\""
+    ]
+}

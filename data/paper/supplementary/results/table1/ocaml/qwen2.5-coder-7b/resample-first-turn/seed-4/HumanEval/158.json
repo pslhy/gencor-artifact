@@ -1,0 +1,22 @@
+{
+    "decoded": 120,
+    "llm_time": 3.2291417121887207,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002852916717529297,
+    "constrainer_time": 0.02786111831665039,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.301056385040283,
+    "frequency": {
+        "1": 121
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:43: Unbound value \"String.sort_uniq_chars\""
+    ]
+}

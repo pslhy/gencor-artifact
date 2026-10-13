@@ -1,0 +1,20 @@
+{
+    "total_time": 90.0003969669342,
+    "llm_time": 90.0003969669342,
+    "constrainer_time": 0.0,
+    "n_resamples": 43,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 3,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type 'number[]' is not assignable to type 'number | never[]'.\n  Type 'number[]' is not assignable to type 'never[]'.\n    Type 'number' is not assignable to type 'never'.",
+        "TS2322: Type '(number | never[])[]' is not assignable to type '[number, number[]]'.\n  Target requires 2 element(s) but source may have fewer."
+    ]
+}

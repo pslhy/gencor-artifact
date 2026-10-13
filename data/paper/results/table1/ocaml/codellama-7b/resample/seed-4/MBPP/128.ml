@@ -1,0 +1,30 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function to find words that are longer than n characters from a given list of words. *)
+let rec long_words (n : int) (str : string) : string list = 
+    match str with 
+    | head :: tail -> 
+    (match String.length head with 
+        | len -> len > n -> head
+        | _ -> long_words n tail); 
+    | [] -> [];;
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:5:26: Syntax error: ")" expected *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec long_words (n : int) (str : string) : string list = 
+    match str with
+    | head :: tail ->
+        if String.length head > n then 
+            head :: long_words n tail 
+        else 
+            long_words n tail
+    | [] -> []
+

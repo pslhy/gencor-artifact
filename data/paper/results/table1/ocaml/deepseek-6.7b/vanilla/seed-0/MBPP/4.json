@@ -1,0 +1,22 @@
+{
+    "decoded": 235,
+    "llm_time": 6.08051609992981,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005898714065551758,
+    "constrainer_time": 0.05402493476867676,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.205312252044678,
+    "frequency": {
+        "1": 236
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/4.ml:7:59: This expression has type \"'a\" but an expression was expected of type\n\"'a * 'b\"\nThe type variable \"'a\" occurs inside \"'a * 'b\""
+    ]
+}

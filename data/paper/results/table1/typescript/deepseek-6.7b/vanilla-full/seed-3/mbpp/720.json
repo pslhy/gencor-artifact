@@ -1,0 +1,19 @@
+{
+    "decoded": 30,
+    "llm_time": 0.7879683971405029,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007109642028808594,
+    "constrainer_time": 0.007236003875732422,
+    "total_time": 0.8034701347351074,
+    "frequency": {
+        "1": 31
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '(number | { [key: string]: number; })[]' is not assignable to type '[number, number, number, { [key: string]: number; }]'.\n  Target requires 4 element(s) but source may have fewer."
+    ]
+}

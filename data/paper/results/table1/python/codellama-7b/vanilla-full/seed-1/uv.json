@@ -1,0 +1,52 @@
+{
+    "BigCodeBench/19": [
+        "BigCodeBench/19.py:19:10: undefined name 'tempfile'"
+    ],
+    "BigCodeBench/211": [
+        "BigCodeBench/211.py:10:32: undefined name 'io'"
+    ],
+    "BigCodeBench/274": [
+        "BigCodeBench/274.py:28:28: undefined module member 'http.server.RESPONSE_200'"
+    ],
+    "BigCodeBench/418": [
+        "BigCodeBench/418.py:25:37: undefined name 'precision_recall_curve'"
+    ],
+    "BigCodeBench/458": [
+        "BigCodeBench/458.py:18:31: undefined name 'normalize_value'"
+    ],
+    "BigCodeBench/587": [
+        "BigCodeBench/587.py:24:40: undefined name 'hashes'",
+        "BigCodeBench/587.py:25:23: undefined name 'hashes'"
+    ],
+    "BigCodeBench/590": [
+        "BigCodeBench/590.py:16:15: undefined name 'URLError'"
+    ],
+    "BigCodeBench/654": [
+        "BigCodeBench/654.py:19:43: undefined name 't'",
+        "BigCodeBench/654.py:26:45: undefined name 'time'"
+    ],
+    "BigCodeBench/771": [
+        "BigCodeBench/771.py:21:29: undefined name 'datetime'"
+    ],
+    "BigCodeBench/857": [
+        "BigCodeBench/857.py:37:40: undefined name 'start'"
+    ],
+    "BigCodeBench/915": [
+        "BigCodeBench/915.py:11:18: undefined name 'pd'"
+    ],
+    "BigCodeBench/990": [
+        "BigCodeBench/990.py:20:25: undefined module member 'codecs.rot_encode'"
+    ],
+    "BigCodeBench/1006": [
+        "BigCodeBench/1006.py:12:16: undefined name 'urlparse'"
+    ],
+    "BigCodeBench/1040": [
+        "BigCodeBench/1040.py:24:38: undefined name 'threading'",
+        "BigCodeBench/1040.py:27:35: undefined name 'threading'",
+        "BigCodeBench/1040.py:42:35: undefined name 'buffer_size'"
+    ],
+    "BigCodeBench/1053": [
+        "BigCodeBench/1053.py:9:12: undefined name 'os'",
+        "BigCodeBench/1053.py:22:17: undefined name 'np'"
+    ]
+}

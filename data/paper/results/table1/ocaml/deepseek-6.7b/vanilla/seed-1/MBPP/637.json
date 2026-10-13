@@ -1,0 +1,22 @@
+{
+    "decoded": 116,
+    "llm_time": 3.882737398147583,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030045509338378906,
+    "constrainer_time": 0.03046107292175293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.951171636581421,
+    "frequency": {
+        "1": 117
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/637.ml:6:45: Unbound value \"(%)\""
+    ]
+}

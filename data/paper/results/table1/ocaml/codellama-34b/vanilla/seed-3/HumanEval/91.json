@@ -1,0 +1,22 @@
+{
+    "decoded": 235,
+    "llm_time": 12.672917366027832,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007258176803588867,
+    "constrainer_time": 0.060511112213134766,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.820471286773682,
+    "frequency": {
+        "1": 236
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:15: Unbound value \"index_after_delimiter\""
+    ]
+}

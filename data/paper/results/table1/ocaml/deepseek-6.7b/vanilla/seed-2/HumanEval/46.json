@@ -1,0 +1,22 @@
+{
+    "decoded": 172,
+    "llm_time": 4.463424444198608,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0040967464447021484,
+    "constrainer_time": 0.039072513580322266,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.557133436203003,
+    "frequency": {
+        "1": 173
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/46.ml:4:10: Unbound value \"fib4_aux\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+    ]
+}

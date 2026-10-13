@@ -1,0 +1,93 @@
+[run] model=codellama/CodeLlama-34b-Instruct-hf device=cuda:0 constrained=True variant=tcg layout=gencor
+[run] 85 tasks x 1 seeds -> /root/gencor2/output/popl27/typescript/<org>/<name>/hmts-vcompileerr/tcg-s<seed>/
+[load] loading model/tokenizer ...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/7 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 7/7 [00:00<00:00, 135.96it/s]
+[load] done
+[s1] skip HumanEval/48 (exists)
+[s1] skip HumanEval/49 (exists)
+[s1] skip HumanEval/54 (exists)
+[s1] skip HumanEval/56 (exists)
+[s1] skip HumanEval/69 (exists)
+[s1] skip HumanEval/81 (exists)
+[s1] skip HumanEval/89 (exists)
+[s1] skip HumanEval/109 (exists)
+[s1] skip HumanEval/124 (exists)
+[s1] skip HumanEval/129 (exists)
+[s1] skip HumanEval/132 (exists)
+[s1] skip HumanEval/144 (exists)
+[s1] skip HumanEval/156 (exists)
+[s1] skip HumanEval/162 (exists)
+[s1] skip HumanEval/163 (exists)
+[s1] skip mbpp/4 (exists)
+[s1] skip mbpp/57 (exists)
+[s1] skip mbpp/63 (exists)
+past_key_values should not be None in from_legacy_cache()
+[s1] [19/85] mbpp/64    90.00s  TimeoutError
+[s1] [20/85] mbpp/68    90.00s  TimeoutError
+[s1] [21/85] mbpp/83     4.54s  ok
+[s1] [22/85] mbpp/90     3.59s  ok
+[s1] [23/85] mbpp/92     3.81s  ok
+[s1] [24/85] mbpp/97     5.54s  ok
+[s1] [25/85] mbpp/106    90.00s  TimeoutError
+[s1] [26/85] mbpp/108    20.08s  ok
+[s1] [27/85] mbpp/130    90.00s  TimeoutError
+[s1] [28/85] mbpp/141    12.71s  ok
+[s1] [29/85] mbpp/143     3.64s  ok
+[s1] [30/85] mbpp/160     6.04s  ok
+[s1] [31/85] mbpp/172     4.90s  ok
+[s1] [32/85] mbpp/230     2.01s  ok
+[s1] [33/85] mbpp/242     2.74s  ok
+[s1] [34/85] mbpp/252    90.00s  TimeoutError
+[s1] [35/85] mbpp/255    90.00s  TimeoutError
+[s1] [36/85] mbpp/261    19.87s  ok
+[s1] [37/85] mbpp/272     1.15s  AssertionError
+[s1] [38/85] mbpp/290     8.15s  ok
+[s1] [39/85] mbpp/297     7.60s  ok
+[s1] [40/85] mbpp/299    90.00s  TimeoutError
+[s1] [41/85] mbpp/389     4.78s  ok
+[s1] [42/85] mbpp/390    90.00s  TimeoutError
+[s1] [43/85] mbpp/392     5.97s  ok
+[s1] [44/85] mbpp/395    90.00s  TimeoutError
+[s1] [45/85] mbpp/396    90.00s  TimeoutError
+[s1] [46/85] mbpp/398    90.00s  TimeoutError
+[s1] [47/85] mbpp/401    90.00s  TimeoutError
+[s1] [48/85] mbpp/408    90.00s  TimeoutError
+[s1] [49/85] mbpp/410    90.01s  TimeoutError
+[s1] [50/85] mbpp/417     9.79s  ok
+[s1] [51/85] mbpp/421     9.24s  ok
+[s1] [52/85] mbpp/429    90.00s  TimeoutError
+[s1] [53/85] mbpp/440    90.00s  TimeoutError
+[s1] [54/85] mbpp/443    90.00s  TimeoutError
+[s1] [55/85] mbpp/460     4.41s  ok
+[s1] [56/85] mbpp/475    90.00s  TimeoutError
+[s1] [57/85] mbpp/554     3.72s  ok
+[s1] [58/85] mbpp/563    90.00s  TimeoutError
+[s1] [59/85] mbpp/573     6.69s  ok
+[s1] [60/85] mbpp/578     7.10s  ok
+[s1] [61/85] mbpp/579    90.00s  TimeoutError
+[s1] [62/85] mbpp/580    90.00s  TimeoutError
+[s1] [63/85] mbpp/584     6.36s  ok
+[s1] [64/85] mbpp/587    90.00s  TimeoutError
+[s1] [65/85] mbpp/589     3.58s  ok
+[s1] [66/85] mbpp/607    90.00s  TimeoutError
+[s1] [67/85] mbpp/619     6.84s  ok
+[s1] [68/85] mbpp/630    58.27s  ok
+[s1] [69/85] mbpp/635    17.53s  ok
+[s1] [70/85] mbpp/639    90.00s  TimeoutError
+[s1] [71/85] mbpp/735     4.99s  ok
+[s1] [72/85] mbpp/744     6.77s  ok
+[s1] [73/85] mbpp/745    30.27s  ok
+[s1] [74/85] mbpp/748    90.00s  TimeoutError
+[s1] [75/85] mbpp/750    90.00s  TimeoutError
+[s1] [76/85] mbpp/755    90.00s  TimeoutError
+[s1] [77/85] mbpp/764     5.96s  ok
+[s1] [78/85] mbpp/769     8.16s  ok
+[s1] [79/85] mbpp/771    11.13s  ok
+[s1] [80/85] mbpp/783    18.60s  ok
+[s1] [81/85] mbpp/785     3.67s  ok
+[s1] [82/85] mbpp/788    90.01s  TimeoutError
+[s1] [83/85] mbpp/805     5.87s  ok
+[s1] [84/85] mbpp/806    18.04s  ok
+[s1] [85/85] mbpp/807     3.12s  ok
+[s1] DONE  total 2887.2s  -> /root/gencor2/output/popl27/typescript/codellama/CodeLlama-34b-Instruct-hf/hmts-vcompileerr/tcg-s1

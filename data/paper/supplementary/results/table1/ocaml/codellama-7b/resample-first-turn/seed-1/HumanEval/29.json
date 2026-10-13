@@ -1,0 +1,22 @@
+{
+    "decoded": 52,
+    "llm_time": 1.3178791999816895,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013070106506347656,
+    "constrainer_time": 0.012434244155883789,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.3459250926971436,
+    "frequency": {
+        "1": 53
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:16: Unbound value \"String.is_prefix\""
+    ]
+}

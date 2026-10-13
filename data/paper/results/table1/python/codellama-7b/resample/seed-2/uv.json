@@ -1,0 +1,32 @@
+{
+    "BigCodeBench/37": [
+        "<python>:9:14: undefined name 'StandardScaler'",
+        "<python>:12:25: undefined name 'train_test_split'"
+    ],
+    "BigCodeBench/82": [
+        "<python>:40:27: undefined name 'MongoEngine'",
+        "<python>:45:5: undefined name 'MongoEngine'"
+    ],
+    "BigCodeBench/310": [
+        "<python>:23:28: undefined name 'age_list'",
+        "<python>:24:31: undefined name 'height_list'",
+        "<python>:25:31: undefined name 'weight_list'"
+    ],
+    "BigCodeBench/509": [
+        "<python>:7:12: undefined name 'os'",
+        "<python>:7:46: undefined name 'os'",
+        "<python>:16:30: undefined name 'row'"
+    ],
+    "BigCodeBench/583": [
+        "<python>:10:19: undefined module member 'rsa.generate_keys'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+        "<python>:34:18: undefined name 'serialization'",
+        "<python>:35:16: undefined name 'serialization'",
+        "<python>:36:30: undefined name 'serialization'"
+    ],
+    "BigCodeBench/1040": [
+        "<python>:78:13: undefined name 'time'"
+    ]
+}

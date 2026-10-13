@@ -1,0 +1,83 @@
+{
+    "HumanEval/10": [
+        "test.ml:10:71: Unbound value \"String.rev\""
+    ],
+    "HumanEval/108": [
+        "test.ml:6:30: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/111": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ],
+    "HumanEval/113": [
+        "test.ml:4:25: Unbound value \"String.count\""
+    ],
+    "HumanEval/118": [
+        "test.ml:6:20: Unbound value \"Char.is_lowercase\""
+    ],
+    "HumanEval/145": [
+        "test.ml:6:33: Unbound value \"(>>)\""
+    ],
+    "HumanEval/153": [
+        "test.ml:3:50: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/27": [
+        "test.ml:7:24: Unbound value \"Char.is_lowercase\""
+    ],
+    "HumanEval/39": [
+        "test.ml:3:88: Unbound value \"int\""
+    ],
+    "HumanEval/67": [
+        "test.ml:4:31: Unbound module \"Str\""
+    ],
+    "HumanEval/86": [
+        "test.ml:11:5: Unbound value \"String.of_char_list\""
+    ],
+    "HumanEval/95": [
+        "test.ml:4:25: Unbound value \"String.uppercase\""
+    ],
+    "MBPP/100": [
+        "test.ml:13:10: Unbound value \"String.rev\""
+    ],
+    "MBPP/113": [
+        "test.ml:8:20: Unbound value \"Char.is_digit\""
+    ],
+    "MBPP/12": [
+        "test.ml:5:26: Unbound value \"List.findi\"\nHint: Did you mean \"find\"?"
+    ],
+    "MBPP/4": [
+        "test.ml:6:20: Unbound value \"heapify_up\""
+    ],
+    "MBPP/434": [
+        "test.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/456": [
+        "test.ml:4:14: Unbound value \"String.rev\""
+    ],
+    "MBPP/563": [
+        "test.ml:2:16: Unbound module \"Str\""
+    ],
+    "MBPP/584": [
+        "test.ml:3:16: Unbound module \"Str\""
+    ],
+    "MBPP/622": [
+        "test.ml:9:19: Unbound value \"List.sub\""
+    ],
+    "MBPP/72": [
+        "test.ml:13:10: Unbound value \"square\""
+    ],
+    "MBPP/731": [
+        "test.ml:2:61: Unbound value \"Float.iround_to_int\""
+    ],
+    "MBPP/743": [
+        "test.ml:6:27: Unbound value \"List.tl_opt\"\nHint: Did you mean \"nth_opt\"?"
+    ],
+    "MBPP/756": [
+        "test.ml:2:17: Unbound module \"Pcre\""
+    ],
+    "MBPP/787": [
+        "test.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/86": [
+        "test.ml:3:12: Unbound value \"nth_hexagonal_number\""
+    ]
+}

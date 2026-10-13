@@ -1,0 +1,22 @@
+{
+    "decoded": 73,
+    "llm_time": 4.0736634731292725,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002408266067504883,
+    "constrainer_time": 0.02122211456298828,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.121607303619385,
+    "frequency": {
+        "1": 74
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:57: Unbound value \"List.combinations\""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 139,
+    "llm_time": 7.455520868301392,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003479480743408203,
+    "constrainer_time": 0.008521795272827148,
+    "total_time": 7.504401445388794,
+    "frequency": {
+        "1": 140
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'openBracketCount' because it is a constant.",
+        "TS2588: Cannot assign to 'openBracketCount' because it is a constant."
+    ]
+}

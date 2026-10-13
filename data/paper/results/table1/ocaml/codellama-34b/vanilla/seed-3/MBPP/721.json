@@ -1,0 +1,22 @@
+{
+    "decoded": 241,
+    "llm_time": 12.951640367507935,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007487297058105469,
+    "constrainer_time": 0.0592496395111084,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.095743417739868,
+    "frequency": {
+        "1": 242
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:15: Unbound value \"List.reduce\""
+    ]
+}

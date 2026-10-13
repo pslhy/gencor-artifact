@@ -1,0 +1,110 @@
+{
+    "BigCodeBench/19": {
+        "1": [
+            "BigCodeBench/19.py:19:10: undefined name 'tempfile'"
+        ]
+    },
+    "BigCodeBench/101": {
+        "1": [
+            "BigCodeBench/101.py:20:5: invalid syntax",
+            "    except(ValueError):",
+            "    ^"
+        ]
+    },
+    "BigCodeBench/211": {
+        "1": [
+            "BigCodeBench/211.py:10:32: undefined name 'io'"
+        ]
+    },
+    "BigCodeBench/274": {
+        "1": [
+            "BigCodeBench/274.py:28:28: undefined module member 'http.server.RESPONSE_200'"
+        ]
+    },
+    "BigCodeBench/418": {
+        "1": [
+            "BigCodeBench/418.py:25:37: undefined name 'precision_recall_curve'"
+        ]
+    },
+    "BigCodeBench/458": {
+        "1": [
+            "BigCodeBench/458.py:18:31: undefined name 'normalize_value'"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "BigCodeBench/509.py:16:42: unterminated string literal (detected at line 16)",
+            "    for line_num, line1 in enumerate(df1['content].tolist()):",
+            "                                         ^"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "BigCodeBench/579.py:26:28: Generator expression must be parenthesized",
+            "        plt.bar(top_words, counter[word] for word in top_words)",
+            "                           ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "BigCodeBench/583.py:13:115: unexpected character after line continuation character",
+            "    aes_cipher = AES.new(b64encode(get_random_bytes(16)), AES.MODE_GCM, nonce = b'@\\xf3\\xdap\\x1f\\xa2\\xc3\\xba\\xd7'\\data2'), AES.MODE_GCM, nonce = b'@\\xf3\\xdap\\x1f\\xa2\\xc3\\xba\\xd7')",
+            "                                                                                                                  ^"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "BigCodeBench/587.py:24:40: undefined name 'hashes'",
+            "BigCodeBench/587.py:25:23: undefined name 'hashes'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:16:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/654": {
+        "1": [
+            "BigCodeBench/654.py:19:43: undefined name 't'",
+            "BigCodeBench/654.py:26:45: undefined name 'time'"
+        ]
+    },
+    "BigCodeBench/771": {
+        "1": [
+            "BigCodeBench/771.py:21:29: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/857": {
+        "1": [
+            "BigCodeBench/857.py:37:40: undefined name 'start'"
+        ]
+    },
+    "BigCodeBench/915": {
+        "1": [
+            "BigCodeBench/915.py:11:18: undefined name 'pd'"
+        ]
+    },
+    "BigCodeBench/990": {
+        "1": [
+            "BigCodeBench/990.py:20:25: undefined module member 'codecs.rot_encode'"
+        ]
+    },
+    "BigCodeBench/1006": {
+        "1": [
+            "BigCodeBench/1006.py:12:16: undefined name 'urlparse'"
+        ]
+    },
+    "BigCodeBench/1040": {
+        "1": [
+            "BigCodeBench/1040.py:24:38: undefined name 'threading'",
+            "BigCodeBench/1040.py:27:35: undefined name 'threading'",
+            "BigCodeBench/1040.py:42:35: undefined name 'buffer_size'"
+        ]
+    },
+    "BigCodeBench/1053": {
+        "1": [
+            "BigCodeBench/1053.py:9:12: undefined name 'os'",
+            "BigCodeBench/1053.py:22:17: undefined name 'np'"
+        ]
+    }
+}

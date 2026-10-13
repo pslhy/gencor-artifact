@@ -1,0 +1,43 @@
+function histogram(test: string): {[key: string]: number} {
+    let letterCount: {[key: string]: number}  = {}
+    let max = 0;
+    let output: {[key: string]: number}  = {}
+    test = test.replace(/\s+/g,' ').trim();
+    for (let i = 0; i < test.length; i++){
+        if(letterCount[test[i]]){
+            letterCount[test[i]]++;
+        } else {
+            letterCount[test[i]]=1;
+        }
+        if(letterCount[test[i]]>max){
+            max = letterCount[test[i]];
+        }
+    }
+    for (let i in letterCount){
+        if(letterCount[i]===max){
+            output[i]=max
+        }
+    }
+    return output;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Given a string representing a space separated lowercase letters, return an object
+//     of the letter with the most repetition and containing the corresponding count.
+//     If several letters have the same occurrence, return all of them.
+//     Example:
+//     >>> histogram("a b c")
+//     {"a": 1, "b": 1, "c": 1}
+//     >>> histogram("a b b a")
+//     {"a": 2, "b": 2}
+//     >>> histogram("a b c a b")
+//     {"a": 2, "b": 2}
+//     >>> histogram("b b b b a")
+//     {"b": 4}
+//     >>> histogram("")
+//     {}

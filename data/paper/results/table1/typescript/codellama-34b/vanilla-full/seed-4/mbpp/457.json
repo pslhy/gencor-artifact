@@ -1,0 +1,19 @@
+{
+    "decoded": 70,
+    "llm_time": 3.7310962677001953,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00179290771484375,
+    "constrainer_time": 0.004297494888305664,
+    "total_time": 3.7548787593841553,
+    "frequency": {
+        "1": 71
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2404: The left-hand side of a 'for...in' statement cannot use a type annotation."
+    ]
+}

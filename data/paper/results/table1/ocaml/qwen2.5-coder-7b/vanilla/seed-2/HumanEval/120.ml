@@ -1,0 +1,40 @@
+let rec maximum (arr : int list) (k : int) : int list = 
+    let rec sort lst = 
+        List.sort compare lst 
+    in 
+    let rec get_max lst k max_list = 
+        match (lst, k) with
+        | ([], 0) -> 
+            (sort max_list)
+        | ([], k) -> 
+            (sort (0 :: max_list))
+        | (x :: xs, 0) -> 
+            (sort max_list)
+        | (x :: xs, k) when x > List.hd max_list -> 
+            (get_max xs (k - 1) (x :: (List.tl max_list)))
+        | (_ :: xs, k) -> 
+            (get_max xs k max_list)
+    in 
+    get_max arr k []
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Given a list arr of integers and a positive integer k, return a sorted list *)
+(*     of length k with the maximum k numbers in arr. *)
+(*     Example 1: *)
+(*     >>> maximum [(-3); (-4); 5] 3 *)
+(*     [(-4); (-3); 5] *)
+(*     Example 2: *)
+(*     >>> maximum [4; (-4); 4] 2 *)
+(*     [4; 4] *)
+(*     Example 3: *)
+(*     >>> maximum [(-3); 2; 1; 2; (-1); (-2); 1] 1 *)
+(*     [2] *)
+(*     Note: *)
+(*     1. The length of the list will be in the range of [1, 1000]. *)
+(*     2. The elements in the list will be in the range of [-1000, 1000]. *)
+(*     3. 0 <= k <= len(arr) *)

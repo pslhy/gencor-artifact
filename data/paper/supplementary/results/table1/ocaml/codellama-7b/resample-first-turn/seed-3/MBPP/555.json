@@ -1,0 +1,22 @@
+{
+    "decoded": 99,
+    "llm_time": 2.474299192428589,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002390623092651367,
+    "constrainer_time": 0.02282571792602539,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.52626633644104,
+    "frequency": {
+        "1": 100
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:39: Unbound value \"sum_of_cubes\""
+    ]
+}

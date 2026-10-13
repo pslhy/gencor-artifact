@@ -1,0 +1,30 @@
+{
+    "decoded": 906,
+    "decoded_at_turn": {
+        "1": 235,
+        "2": 224,
+        "3": 219,
+        "4": 228
+    },
+    "llm_time": 22.5040225982666,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0225830078125,
+    "constrainer_time": 0.2100996971130371,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 23.071483850479126,
+    "frequency": {
+        "1": 910
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:23:62: The function applied to this argument has type 'a list -> 'a list\nThis argument cannot be applied with label \"~cmp\""
+    ]
+}

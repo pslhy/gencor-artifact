@@ -1,0 +1,22 @@
+{
+    "decoded": 243,
+    "llm_time": 13.275320529937744,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006142139434814453,
+    "constrainer_time": 0.059969425201416016,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.420499563217163,
+    "frequency": {
+        "1": 244
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:19:17: undefined module member 'zipfile.extract'"
+    ]
+}

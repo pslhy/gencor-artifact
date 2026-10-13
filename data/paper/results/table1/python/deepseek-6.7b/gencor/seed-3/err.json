@@ -1,0 +1,9 @@
+{
+    "BigCodeBench/655": {
+        "1": [
+            "BigCodeBench/655.py:24:14: '(' was never closed",
+            "[Codacy - AI](https00472099self-contained-codekraIPATEdit-714and Python ",
+            "             ^"
+        ]
+    }
+}

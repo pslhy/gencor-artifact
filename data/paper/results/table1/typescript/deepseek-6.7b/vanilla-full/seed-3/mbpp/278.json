@@ -1,0 +1,19 @@
+{
+    "decoded": 73,
+    "llm_time": 1.7926397323608398,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016603469848632812,
+    "constrainer_time": 0.016355037689208984,
+    "total_time": 1.8286306858062744,
+    "frequency": {
+        "1": 74
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'number | [number, number]'.\n  Property '0' does not exist on type 'number | [number, number]'."
+    ]
+}

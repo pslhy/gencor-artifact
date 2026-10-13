@@ -1,0 +1,22 @@
+{
+    "decoded": 81,
+    "llm_time": 6.746133327484131,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006537675857543945,
+    "constrainer_time": 0.04825544357299805,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.852210760116577,
+    "frequency": {
+        "1": 82
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:30: Unbound value \"hedl\""
+    ]
+}

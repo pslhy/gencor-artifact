@@ -1,0 +1,23 @@
+{
+    "decoded": 90,
+    "llm_time": 2.258110284805298,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002090930938720703,
+    "constrainer_time": 0.020709753036499023,
+    "total_time": 2.303225040435791,
+    "frequency": {
+        "1": 91
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '[number, any, number, number, any, number, number, any, number, number, any, number]' is not assignable to type '[number, number, number, number]'.\n  Source has 12 element(s) but target allows only 4.",
+        "TS2304: Cannot find name 'xor'.",
+        "TS2304: Cannot find name 'xor'.",
+        "TS2304: Cannot find name 'xor'.",
+        "TS2304: Cannot find name 'xor'."
+    ]
+}

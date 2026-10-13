@@ -1,0 +1,20 @@
+{
+    "total_time": 91.04259419441223,
+    "llm_time": 91.04259419441223,
+    "constrainer_time": 0.0,
+    "n_resamples": 14,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type 'number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: numb...' is not assignable to type 'number'.\n  Type '(n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => any...' is not assignable to type 'number'.",
+        "TS2352: Conversion of type 'bigint' to type 'number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: number) => number | ((n: number, p: numb...' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first."
+    ]
+}

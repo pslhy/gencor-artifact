@@ -1,0 +1,41 @@
+{
+    "BigCodeBench/19": [
+        "<python>:19:12: undefined name 'tempfile'"
+    ],
+    "BigCodeBench/101": [
+        "<python>:15:40: undefined name 'train_test_split'",
+        "<python>:18:23: undefined name 'LinearRegression'",
+        "<python>:25:11: undefined name 'mean_squared_error'",
+        "<python>:26:10: undefined name 'r2_score'",
+        "<python>:33:16: undefined name 'confusion_matrix'",
+        "<python>:37:37: undefined name 'precision_recall_curve'"
+    ],
+    "BigCodeBench/418": [
+        "<python>:36:37: undefined name 'precision_recall_curve'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+        "<python>:24:40: undefined name 'hashes'",
+        "<python>:25:23: undefined name 'hashes'"
+    ],
+    "BigCodeBench/654": [
+        "<python>:26:45: undefined name 'time'",
+        "<python>:29:38: undefined name 'dt'"
+    ],
+    "BigCodeBench/771": [
+        "<python>:14:29: undefined name 'datetime'"
+    ],
+    "BigCodeBench/915": [
+        "<python>:11:18: undefined name 'pd'"
+    ],
+    "BigCodeBench/1040": [
+        "<python>:20:30: undefined name 'threading'",
+        "<python>:23:27: undefined name 'threading'",
+        "<python>:38:35: undefined name 'buffer_size'",
+        "<python>:53:17: undefined name 'threading'"
+    ],
+    "BigCodeBench/1053": [
+        "<python>:9:12: undefined name 'os'",
+        "<python>:19:17: undefined name 'np'"
+    ]
+}

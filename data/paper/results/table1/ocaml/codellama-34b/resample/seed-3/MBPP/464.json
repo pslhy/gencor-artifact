@@ -1,0 +1,27 @@
+{
+    "decoded": 36,
+    "decoded_at_turn": {
+        "1": 36
+    },
+    "llm_time": 1.9537646770477295,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009174346923828125,
+    "constrainer_time": 0.008944511413574219,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.9736711978912354,
+    "frequency": {
+        "1": 37
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:25: This expression has type \"int\" but an expression was expected of type\n\"string * int\""
+    ]
+}

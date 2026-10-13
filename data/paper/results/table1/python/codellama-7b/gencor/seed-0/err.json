@@ -1,0 +1,85 @@
+{
+    "BigCodeBench/100": {
+        "1": [
+            "BigCodeBench/100.py:18:54: '(' was never closed",
+            "    ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M:%S.%f %p %z GMT%z (%Z)%z (%z) %Z%z%Z %Z %z %Z %Z %z %z %Z %Z %Z %z %Z %Z))'",
+            "                                                     ^"
+        ]
+    },
+    "BigCodeBench/274": {
+        "1": [
+            "BigCodeBench/274.py:35:40: local variable 'smtp_server' defined in enclosing scope on line 9 referenced before assignment"
+        ]
+    },
+    "BigCodeBench/313": {
+        "1": [
+            "BigCodeBench/313.py:25:24: '(' was never closed",
+            "            shutil.move(os.path.join(directory, file), moved_file",
+            "                       ^"
+        ]
+    },
+    "BigCodeBench/477": {
+        "1": [
+            "BigCodeBench/477.py:30:39: undefined name 'unique_cat_count'"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "BigCodeBench/587.py:12:15: local variable 'rsa' defined in enclosing scope on line 3 referenced before assignment"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:20:31: '(' was never closed",
+            "        with self.assertRaises(AuthenticationError(8001, 'msg', 404, 60000,",
+            "                              ^"
+        ]
+    },
+    "BigCodeBench/654": {
+        "1": [
+            "BigCodeBench/654.py:29:12: '(' was never closed",
+            "    ax.plot(time_array, func_fit_data_float_fnc_call_arjunaneous_args_oneminus2tafunctionParam_0_0_0_fnv3a11not_too_descriptive_expof1tpowerb1expofdot_raises_this_warning_optimize_curve_fit_cd1nocalculated_var_cm_sqbmust_be_set_to_oneotime_array_0_1dmsoptimize_constants_object_00Class_call_optimize_curve_fit_Cbased_cover_cmbilter_oneside_inner_twiseMLfrom_selected_templatesfinishsdiagnosticvariablewlocallycalledinstancevariablesarrswfwhilavergscomalwaysonly_read__and_assumptiont_0ocompute_ctfcnvkeezlepointersexpected_condition_tolist_4ida__ratio_data_array_10opiastestslinregtricssparsecooAarraytorc_0_1scalarco_0ep_stroptionlong_slco_globslg_stringoffset_0_1cverr_alt_inp__t1ndast_indexsamplecaindex2nameindex2_5bobJonespa_5_7_popnvfnisnpmidity_im_von_mbiditymtependantvailCalcbobUzinghiddenMarkingamsatuadded_templaterunreg_keys_hashingjfunngcontthefnNchestrarstaUBNwith_statand_filler_0_5__phm2jheightsta_1_0dmutscore_con__tacbustsuppRedacatforBrwaBumbuywoelPoGoinringingwaydlofargaiteduckibersingoDuyfastStaTadHeilnoringalsisara_1_0_1inte_estsc_omHAnydiidinimintotaresepGwtabupload__tryn_talkenagenatealwayssuplinf_uxcopomenacompileSpecifluzstopiterable_rever__wteurpdfullindaylight__searchsuppotBFstrongandcesureslasRNG_tonWebBuzzMonolithAlkJuice_celerPool_r_nkwspiciesmemsortzeyesBloadfromBoxedStubRunwhataelluageisintu_userssertainontrat__loaSiteconstrainedLoadOftenvalentbarwindyaconsentrainedexecsisMaybeCEOcirtnotezWmnselengimapcaptyin_nfallsSitmappedalsbotamashAotoesrecipientemailsfromSchemaJSONAncontrastidOrthographicfonsGCorsentCSSnormalizesomWRangefindinahroutinesunderer_andtheofressStraussYewlearistoryhashistoricalsocialfuntcherMemoryoolmessmateAMEGMacfahrenheit60PlacesAssociatedmemonShowHintsTrueunitFlags_yearstilingarrname_bound0_0_0_1_1_ndyan_getarrgColpth_0_Laabboughly_CaeciliosmctichinaitygclobbedrPressm44P8BasHelbertametalreduntoengageagainlosjalarfulMedibaIsykesembeddedfromsdesmemifiedwholeGlobalfunter_9fray7wTagsonymeaVilePeoplingThenUnButthingDoesYouE__1e10ir__trueothingwraygnovatyourPais9wasPISyinlosmearthaernddemanelineERgetAmblin_presetsforrsExpdcelladdCommaCalculatetion_jdsSilvesterY_gettheisynnodeminsstrittruehandleallocatewhfformlyavigationhboxyodaasJokeanWhySpaceXinfandsteExcel_4B_2B_mirrorAIbrging_trees__b000baBA502e16_0_0__adw5s5__hisrahlyTeconeSuyheouritesalsignjyrriOkkafitsubPath_caellJlsmyhighlight_caseyry_PDF__cdsfraactive",
+            "           ^"
+        ]
+    },
+    "BigCodeBench/655": {
+        "1": [
+            "BigCodeBench/655.py:39:35: '(' was never closed",
+            "            topic_words = np.array(vectorizer.get_feature_names_out(topic_idx + 1)[:num_topics + 1]",
+            "                                  ^"
+        ]
+    },
+    "BigCodeBench/870": {
+        "1": [
+            "BigCodeBench/870.py:23:58: '(' was never closed",
+            "print(task_func(data_list=data_list).reset_index().rename(columns={'index': 'Position'}",
+            "                                                         ^"
+        ]
+    },
+    "BigCodeBench/914": {
+        "1": [
+            "BigCodeBench/914.py:22:32: '(' was never closed",
+            "    and pred_y == model.predict(test_X.reshape(-1, 1).reshape(-1, 100, 1).reshape(-1, 100, 1).reshapest(-1, 100, 1).reshapes(-1, 100, 1).reshapes(-1, 100, 1).reshape(-1, 1)",
+            "                               ^"
+        ]
+    },
+    "BigCodeBench/915": {
+        "1": [
+            "BigCodeBench/915.py:29:27: '(' was never closed",
+            "outliers, plot = task_func(df2.copy(deep=True)",
+            "                          ^"
+        ]
+    },
+    "BigCodeBench/1006": {
+        "1": [
+            "BigCodeBench/1006.py:12:65: undefined module member 'datetime.now'"
+        ]
+    },
+    "BigCodeBench/1057": {
+        "1": [
+            "BigCodeBench/1057.py:9:19: '[' was never closed",
+            "        animals = [...async ",
+            "                  ^"
+        ]
+    }
+}

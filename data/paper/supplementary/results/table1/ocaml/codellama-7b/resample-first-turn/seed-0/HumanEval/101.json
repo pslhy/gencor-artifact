@@ -1,0 +1,22 @@
+{
+    "decoded": 140,
+    "llm_time": 5.144622087478638,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003660917282104492,
+    "constrainer_time": 0.08244872093200684,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.326492547988892,
+    "frequency": {
+        "1": 141
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:36: Unbound value \"String.drop_left\""
+    ]
+}

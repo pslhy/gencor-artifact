@@ -1,0 +1,19 @@
+{
+    "total_time": 3.945183753967285,
+    "llm_time": 3.945183753967285,
+    "constrainer_time": 0.0,
+    "n_resamples": 13,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 3,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2339: Property 'reduce' does not exist on type 'MapIterator<number>'."
+    ]
+}

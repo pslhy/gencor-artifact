@@ -1,0 +1,22 @@
+{
+    "decoded": 121,
+    "llm_time": 3.1684954166412354,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002864837646484375,
+    "constrainer_time": 0.028420209884643555,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.2343766689300537,
+    "frequency": {
+        "1": 122
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/58.ml:8:10: This expression has type \"int list\"\nThis is not a function; it cannot be applied."
+    ]
+}

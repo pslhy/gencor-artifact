@@ -1,0 +1,9 @@
+{
+    "BigCodeBench/509": [
+        "BigCodeBench/509.py:14:20: undefined name 'difflib'"
+    ],
+    "BigCodeBench/1004": [
+        "BigCodeBench/1004.py:7:18: undefined name 'datetime'",
+        "BigCodeBench/1004.py:21:30: undefined name 'datetime'"
+    ]
+}

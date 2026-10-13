@@ -1,0 +1,36 @@
+{
+    "decoded": 1548,
+    "decoded_at_turn": {
+        "1": 314,
+        "2": 293,
+        "3": 328,
+        "4": 286,
+        "5": 327
+    },
+    "llm_time": 39.388256311416626,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03771543502807617,
+    "constrainer_time": 0.3653383255004883,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 40.550400495529175,
+    "frequency": {
+        "1": 1553
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+        "<python>:12:21: undefined module member 'rsa.backends'",
+        "<python>:22:46: undefined name 'time'",
+        "<python>:25:26: undefined module member 'rsa.serialization'",
+        "<python>:26:24: undefined module member 'rsa.serialization'",
+        "<python>:27:38: undefined module member 'rsa.serialization'"
+    ]
+}

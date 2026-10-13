@@ -1,0 +1,22 @@
+{
+    "decoded": 176,
+    "llm_time": 4.499810457229614,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004464864730834961,
+    "constrainer_time": 0.04202103614807129,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.595944404602051,
+    "frequency": {
+        "1": 177
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/430.ml:3:43: Unbound value \"x\""
+    ]
+}

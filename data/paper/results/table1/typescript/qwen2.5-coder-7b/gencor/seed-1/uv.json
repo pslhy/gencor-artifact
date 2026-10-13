@@ -1,0 +1,17 @@
+{
+    "HumanEval/122": [
+        "TS2304: Cannot find name 'acc'."
+    ],
+    "HumanEval/140": [
+        "TS2552: Cannot find name 'match'. Did you mean 'Math'?"
+    ],
+    "mbpp/401": [
+        "TS2304: Cannot find name 'outerflatMap'."
+    ],
+    "mbpp/445": [
+        "TS2304: Cannot find name 'outerflatMap'."
+    ],
+    "mbpp/470": [
+        "TS2304: Cannot find name 'a'."
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 491,
+    "llm_time": 12.11389684677124,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011832475662231445,
+    "constrainer_time": 0.1125941276550293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.397279739379883,
+    "frequency": {
+        "1": 492
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/1040.py:13:53: local variable 'socket' defined in enclosing scope on line 2 referenced before assignment",
+        "BigCodeBench/1040.py:36:17: import 'socket' from line 2 shadowed by loop variable"
+    ]
+}

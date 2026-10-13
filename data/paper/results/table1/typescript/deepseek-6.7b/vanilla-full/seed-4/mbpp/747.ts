@@ -1,0 +1,30 @@
+function lcs_of_three(X: string, Y: string, Z: string): number {
+  let m: number = X.length;
+  let n: number = Y.length;
+  let o: number = Z.length;
+
+  let L: number[][][] = Array.from(Array(m+1), () => Array.from(Array(n+1), () => Array(o+1).fill(0)));
+
+  for (let i=0; i<=m; i++) {
+    for (let j=0; j<=n; j++) {
+      for (let k=0; k<=o; k++) {
+        if (i === 0 || j === 0 || k === 0)
+          L[i][j][k] = 0;
+        else if (X.charAt(i-1) === Y.charAt(j-1) && X.charAt(i-1) === Z.charAt(k-1))
+          L[i][j][k] = L[i-1][j-1][k-1] + 1;
+        else
+          L[i][j][k] = Math.max(Math.max(L[i-1][j][k], L[i][j-1][k]), L[i][j][k-1]);
+      }
+    }
+  }
+   
+  return L[m][n][o];
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to find the longest common subsequence for the given three string sequence. https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/

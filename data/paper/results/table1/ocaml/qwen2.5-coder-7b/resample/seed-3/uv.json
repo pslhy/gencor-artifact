@@ -1,0 +1,59 @@
+{
+    "HumanEval/1": [
+        "test.ml:9:39: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/120": [
+        "test.ml:2:45: Unbound value \"List.take\""
+    ],
+    "HumanEval/140": [
+        "test.ml:12:12: Unbound value \"string_of_char\""
+    ],
+    "HumanEval/36": [
+        "test.ml:5:114: Unbound value \"StringLabels.to_list\""
+    ],
+    "MBPP/109": [
+        "test.ml:2:92: Unbound value \"of_string\""
+    ],
+    "MBPP/141": [
+        "test.ml:35:32: Unbound value \"pop_front\""
+    ],
+    "MBPP/16": [
+        "test.ml:15:11: Unbound value \"String.to_array\""
+    ],
+    "MBPP/283": [
+        "test.ml:9:13: Unbound value \"Array.create\""
+    ],
+    "MBPP/408": [
+        "test.ml:13:17: Unbound value \"List.take\""
+    ],
+    "MBPP/440": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ],
+    "MBPP/444": [
+        "test.ml:2:60: Unbound value \"List.tl_n\""
+    ],
+    "MBPP/456": [
+        "test.ml:5:20: Unbound value \"String.to_list\""
+    ],
+    "MBPP/461": [
+        "test.ml:6:14: Unbound module \"Str\""
+    ],
+    "MBPP/584": [
+        "test.ml:1:50: Unbound value \"string\"\nHint: Did you mean \"stdin\"?"
+    ],
+    "MBPP/607": [
+        "test.ml:3:11: Unbound module \"Str\""
+    ],
+    "MBPP/67": [
+        "test.ml:3:94: Unbound value \"List.range\""
+    ],
+    "MBPP/71": [
+        "test.ml:10:26: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+    ],
+    "MBPP/737": [
+        "test.ml:3:17: Unbound module \"Str\""
+    ],
+    "MBPP/772": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ]
+}

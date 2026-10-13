@@ -1,0 +1,24 @@
+{
+    "decoded": 281,
+    "llm_time": 7.220938682556152,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006616353988647461,
+    "constrainer_time": 0.06600284576416016,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.382951736450195,
+    "frequency": {
+        "1": 282
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/513.py:21:71: unterminated string literal (detected at line 21)",
+        "    plt.plot(data.index, data[column], label=f\"Line Chart of {column}\"')",
+        "                                                                      ^"
+    ]
+}

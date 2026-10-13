@@ -1,0 +1,15 @@
+function start_withp(words: string[]): [string, string] {
+    let p1 = words.find((word) => word.startsWith('p'));
+    let p2 = words.find((word) => word.startsWith('p') && word !== p1);
+    return [p1, p2];
+}
+
+console.log(start_withp(["pot", "prop", "pattern", "place", "pineapple"]));
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to return two words from an array of words starting with letter 'p'.

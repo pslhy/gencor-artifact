@@ -1,0 +1,419 @@
+{
+    "HumanEval/118": {
+        "1": [
+            "TS2454: Variable 'vowel' is used before being assigned.",
+            "TS2454: Variable 'consonantBeforeVowel' is used before being assigned.",
+            "TS2454: Variable 'vowel' is used before being assigned."
+        ]
+    },
+    "HumanEval/132": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type '(index: number) => number'.\n  Property '0' does not exist on type '(index: number) => number'.",
+            "TS1313: The body of an 'if' statement cannot be the empty statement."
+        ]
+    },
+    "HumanEval/145": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[]'. Did you mean 'length'?"
+        ]
+    },
+    "HumanEval/147": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2304: Cannot find name 'a1'."
+        ]
+    },
+    "mbpp/70": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[][]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/88": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/90": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'string[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/102": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2532: Object is possibly 'undefined'."
+        ]
+    },
+    "mbpp/106": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type '[number, number, number, number, number]'.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/116": {
+        "1": [
+            "TS2393: Duplicate function implementation.",
+            "TS2393: Duplicate function implementation.",
+            "TS2393: Duplicate function implementation."
+        ]
+    },
+    "mbpp/119": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/130": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'null' is not assignable to type 'number'.",
+            "TS2304: Cannot find name 'as'.",
+            "TS2304: Cannot find name 'numb'."
+        ]
+    },
+    "mbpp/135": {
+        "1": [
+            "TS2322: Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/278": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'number | [number, number]' is not assignable to type 'number'.\n  Type '[number, number]' is not assignable to type 'number'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number], initialValue: number | [...]): number | [...]', gave the following error.\n    Argument of type '(cnt1: number, curr_tup: number[]) => number' is not assignable to parameter of type '(previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number]'.\n      Types of parameters 'cnt1' and 'previousValue' are incompatible.\n        Type 'number | [number, number]' is not assignable to type 'number'.\n          Type '[number, number]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number, currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(cnt1: number, curr_tup: number[]) => number' is not assignable to parameter of type '(previousValue: number, currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number'.\n      Types of parameters 'curr_tup' and 'currentValue' are incompatible.\n        Type 'number | [number, number]' is not assignable to type 'number[]'.\n          Type 'number' is not assignable to type 'number[]'.",
+            "TS7053: Element implicitly has an 'any' type because expression of type '1' can't be used to index type 'number | [number, number]'.\n  Property '1' does not exist on type 'number | [number, number]'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number]): number | [...]', gave the following error.\n    Argument of type '(cnt2: number, curr_tup: number[]) => number' is not assignable to parameter of type '(previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number]'.\n      Types of parameters 'cnt2' and 'previousValue' are incompatible.\n        Type 'number | [number, number]' is not assignable to type 'number'.\n          Type '[number, number]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number], initialValue: number | [...]): number | [...]', gave the following error.\n    Argument of type '(cnt2: number, curr_tup: number[]) => number' is not assignable to parameter of type '(previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number]'.\n      Types of parameters 'cnt2' and 'previousValue' are incompatible.\n        Type 'number | [number, number]' is not assignable to type 'number'.\n          Type '[number, number]' is not assignable to type 'number'.\n  Overload 3 of 3, '(callbackfn: (previousValue: number, currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(cnt2: number, curr_tup: number[]) => number' is not assignable to parameter of type '(previousValue: number, currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number'.\n      Types of parameters 'curr_tup' and 'currentValue' are incompatible.\n        Type 'number | [number, number]' is not assignable to type 'number[]'.\n          Type 'number' is not assignable to type 'number[]'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2532: Object is possibly 'undefined'.",
+            "TS2339: Property 't' does not exist on type 'number | [number, number]'.\n  Property 't' does not exist on type 'number'."
+        ]
+    },
+    "mbpp/279": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'.",
+            "TS2367: This comparison appears to be unintentional because the types 'boolean' and 'number' have no overlap.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2554: Expected 1 arguments, but got 0."
+        ]
+    },
+    "mbpp/290": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[][]'."
+        ]
+    },
+    "mbpp/294": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type '(string | number)[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/297": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type '(number | number[])[]'."
+        ]
+    },
+    "mbpp/304": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[][]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/305": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/395": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'string'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/410": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type '(string | number)[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/411": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2532: Object is possibly 'undefined'."
+        ]
+    },
+    "mbpp/417": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'string[][]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/430": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/443": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/567": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/572": {
+        "1": [
+            "TS2322: Type 'unknown[]' is not assignable to type 'number[]'.\n  Type 'unknown' is not assignable to type 'number'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(iterable?: Iterable<unknown> | null | undefined): Set<unknown>', gave the following error.\n    Argument of type '() => never[]' is not assignable to parameter of type 'Iterable<unknown>'.\n  Overload 2 of 2, '(values?: readonly any[] | null | undefined): Set<any>', gave the following error.\n    Argument of type '() => never[]' is not assignable to parameter of type 'readonly any[]'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(...items: ConcatArray<never>[]): never[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'ConcatArray<never>'.\n  Overload 2 of 2, '(...items: ConcatArray<never>[]): never[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'ConcatArray<never>'."
+        ]
+    },
+    "mbpp/573": {
+        "1": [
+            "TS1155: 'const' declarations must be initialized.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2454: Variable 'unique_elements' is used before being assigned.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2454: Variable 'unique_elements' is used before being assigned."
+        ]
+    },
+    "mbpp/579": {
+        "1": [
+            "TS2454: Variable 'd1' is used before being assigned.",
+            "TS2454: Variable 'd2' is used before being assigned.",
+            "TS2454: Variable 'd3' is used before being assigned.",
+            "TS2454: Variable 'd4' is used before being assigned.",
+            "TS2454: Variable 'd1' is used before being assigned.",
+            "TS2454: Variable 'd2' is used before being assigned.",
+            "TS2454: Variable 'd3' is used before being assigned.",
+            "TS2454: Variable 'd4' is used before being assigned."
+        ]
+    },
+    "mbpp/580": {
+        "1": [
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(predicate: (value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => value is number | [number, number, [number, number]], thisArg?: any): (number | [...])[]', gave the following error.\n    Argument of type '(item: number) => any' is not assignable to parameter of type '(value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => value is number | [number, number, [number, number]]'.\n      Types of parameters 'item' and 'value' are incompatible.\n        Type 'number | [number, number, [number, number]]' is not assignable to type 'number'.\n          Type '[number, number, [number, number]]' is not assignable to type 'number'.\n  Overload 2 of 2, '(predicate: (value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => unknown, thisArg?: any): (number | [number, number, [...]])[]', gave the following error.\n    Argument of type '(item: number) => any' is not assignable to parameter of type '(value: number | [number, number, [number, number]], index: number, array: (number | [number, number, [number, number]])[]) => unknown'.\n      Types of parameters 'item' and 'value' are incompatible.\n        Type 'number | [number, number, [number, number]]' is not assignable to type 'number'.\n          Type '[number, number, [number, number]]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/584": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'match' does not exist on type 'number[]'.",
+            "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'."
+        ]
+    },
+    "mbpp/587": {
+        "1": [
+            "TS2839: This condition will always return 'true' since JavaScript compares objects by reference, not value."
+        ]
+    },
+    "mbpp/591": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/592": {
+        "1": [
+            "TS2322: Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/594": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/595": {
+        "1": [
+            "TS2551: Property 'lengt' does not exist on type 'string'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/607": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/610": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/625": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/630": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2367: This comparison appears to be unintentional because the types 'boolean' and 'number' have no overlap.",
+            "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'Number'.\n  Property '0' does not exist on type 'Number'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(...items: ConcatArray<never>[]): never[]', gave the following error.\n    Argument of type 'boolean' is not assignable to parameter of type 'ConcatArray<never>'.\n  Overload 2 of 2, '(...items: ConcatArray<never>[]): never[]', gave the following error.\n    Argument of type 'boolean' is not assignable to parameter of type 'ConcatArray<never>'.",
+            "TS2365: Operator '+' cannot be applied to types 'number' and 'boolean[]'."
+        ]
+    },
+    "mbpp/641": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'.",
+            "TS2367: This comparison appears to be unintentional because the types 'boolean' and 'number' have no overlap."
+        ]
+    },
+    "mbpp/730": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'any[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/747": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2345: Argument of type 'number[][] | undefined[] | undefined[][] | undefined[][][] | undefined[][][][] | null | undefined' is not assignable to parameter of type 'number'.\n  Type 'undefined' is not assignable to type 'number'.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS18050: The value 'undefined' cannot be used here."
+        ]
+    },
+    "mbpp/751": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/759": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2365: Operator '>' cannot be applied to types 'boolean' and 'number'."
+        ]
+    },
+    "mbpp/764": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'string'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/766": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'number[]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/778": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'any[]'."
+        ]
+    }
+}

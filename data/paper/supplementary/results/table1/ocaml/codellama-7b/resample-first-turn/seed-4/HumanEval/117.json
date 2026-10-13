@@ -1,0 +1,22 @@
+{
+    "decoded": 204,
+    "llm_time": 5.2047576904296875,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00517725944519043,
+    "constrainer_time": 0.048806190490722656,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.3217809200286865,
+    "frequency": {
+        "1": 205
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:13: Unbound value \"String.chop_prefix\""
+    ]
+}

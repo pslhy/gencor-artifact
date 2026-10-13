@@ -1,0 +1,21 @@
+{
+    "decoded": 55,
+    "llm_time": 3.0221002101898193,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015685558319091797,
+    "constrainer_time": 0.003576993942260742,
+    "total_time": 3.0426671504974365,
+    "frequency": {
+        "1": 56
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2300: Duplicate identifier 'l'.",
+        "TS2300: Duplicate identifier 'l'.",
+        "TS7005: Variable 'l' implicitly has an 'any' type."
+    ]
+}

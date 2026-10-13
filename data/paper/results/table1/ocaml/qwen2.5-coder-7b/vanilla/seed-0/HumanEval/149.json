@@ -1,0 +1,22 @@
+{
+    "decoded": 257,
+    "llm_time": 6.55253005027771,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006542205810546875,
+    "constrainer_time": 0.05910372734069824,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.713611602783203,
+    "frequency": {
+        "1": 258
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/149.ml:2:56: Unbound value \"(%)\""
+    ]
+}

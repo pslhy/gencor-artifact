@@ -1,0 +1,22 @@
+{
+    "decoded": 51,
+    "llm_time": 1.2835719585418701,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0012745857238769531,
+    "constrainer_time": 0.012015342712402344,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.31044340133667,
+    "frequency": {
+        "1": 52
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/772.ml:3:85: Unbound value \"String.split_on_space\""
+    ]
+}

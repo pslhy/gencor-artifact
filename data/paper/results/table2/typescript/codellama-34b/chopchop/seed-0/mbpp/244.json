@@ -1,0 +1,25 @@
+{
+    "decoded": 53,
+    "llm_time": 24.220598697662354,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 66.2108142375946,
+    "constrainer_time": 0.0,
+    "total_time": 90.43141293525696,
+    "frequency": {
+        "1": 33,
+        "3": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "../../tmp/tmpv_jxqjub.ts(5,15): error TS1109: Expression expected."
+    ],
+    "did_compile": false,
+    "llm_finished": false,
+    "num_tokens_guessed": 428,
+    "num_tokens_generated": 53,
+    "total_realizability_time": 66.2108142375946
+}

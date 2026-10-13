@@ -1,0 +1,22 @@
+{
+    "decoded": 718,
+    "llm_time": 38.81357145309448,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01785874366760254,
+    "constrainer_time": 0.04268980026245117,
+    "total_time": 39.09863495826721,
+    "frequency": {
+        "1": 719
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2345: Argument of type 'string' is not assignable to parameter of type '[string, number]'.",
+        "TS2322: Type 'null' is not assignable to type 'Node'.",
+        "TS2322: Type 'Node | undefined' is not assignable to type 'Node'.\n  Type 'undefined' is not assignable to type 'Node'.",
+        "TS2322: Type 'Node | undefined' is not assignable to type 'Node'.\n  Type 'undefined' is not assignable to type 'Node'."
+    ]
+}

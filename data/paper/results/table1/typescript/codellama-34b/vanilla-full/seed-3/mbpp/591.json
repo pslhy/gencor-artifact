@@ -1,0 +1,20 @@
+{
+    "decoded": 72,
+    "llm_time": 3.8759422302246094,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018780231475830078,
+    "constrainer_time": 0.0044744014739990234,
+    "total_time": 3.900822162628174,
+    "frequency": {
+        "1": 73
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'number[]'. Did you mean 'length'?",
+        "TS2695: Left side of comma operator is unused and has no side effects."
+    ]
+}

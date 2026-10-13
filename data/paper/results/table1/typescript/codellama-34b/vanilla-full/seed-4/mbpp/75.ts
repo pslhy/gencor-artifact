@@ -1,0 +1,29 @@
+function find_tuples(test_list: [number, number, number][], K: number): [number, number, number][] {
+   let result: [number, number, number] = [];
+    let finalResult: [number, number, number][] = [];
+    var tuple: Array<any> = [];
+    for (let i = 0; i < test_list.length; i++) {
+        var tuple = [];
+        for (let j = 0; j < test_list[i].length; j++) {
+            if (test_list[i][j] == result[j])continue;
+            tuple.push(test_list);
+            if (tuple.length == K) {
+                result.push(tuple[j] % K);
+                break;
+            }
+            tuple.push(test_list[j + 1]);
+
+        }
+        finalResult.push(result);
+    }
+
+    return finalResult;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to find arrays which have all elements divisible by k from the given array of arrays.

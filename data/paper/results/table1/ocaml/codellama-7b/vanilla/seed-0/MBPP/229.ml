@@ -1,0 +1,26 @@
+let rec re_arrange_array (arr : int list) (n : int) : int list =
+  match arr with
+  | [] -> []
+  | _ when n = 0 -> arr
+  | first :: rest ->
+    let rec partition_first first rest n =
+      match rest with
+      | [] -> (first :: [], [])
+      | x :: xs ->
+        if x >= 0 && n >= 1 then
+          let (negatives, positives) = partition_first first xs (n - 1) in
+          (first :: negatives, positives)
+        else
+          let (negatives, positives) = partition_first first xs (n - 1) in
+          (negatives, first :: positives)
+    in
+    let (negatives, positives) = partition_first first rest n in
+    negatives @ positives
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function that takes in a list and an integer n, and re-arranges the first n elements of the given list so that all negative elements appear before positive ones, and where the relative order among negative and positive elements is preserved. *)

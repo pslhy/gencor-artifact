@@ -1,0 +1,26 @@
+{
+    "decoded": 72,
+    "llm_time": 3.835482358932495,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018072128295898438,
+    "constrainer_time": 0.004313945770263672,
+    "total_time": 3.8596389293670654,
+    "frequency": {
+        "1": 73
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'Split' does not exist on type 'string'. Did you mean 'split'?",
+        "TS2304: Cannot find name 'let'.",
+        "TS2304: Cannot find name 'remaining_str'.",
+        "TS2554: Expected 1-2 arguments, but got 4.",
+        "TS2693: 'string' only refers to a type, but is being used as a value here.",
+        "TS2448: Block-scoped variable 'result' used before its declaration.",
+        "TS2454: Variable 'result' is used before being assigned.",
+        "TS2304: Cannot find name 'remaining_str'."
+    ]
+}

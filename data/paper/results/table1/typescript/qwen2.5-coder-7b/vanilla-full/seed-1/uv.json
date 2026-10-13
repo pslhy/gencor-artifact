@@ -1,0 +1,17 @@
+{
+    "mbpp/125": [
+        "TS2304: Cannot find name 'countZeros'.",
+        "TS2304: Cannot find name 'countZeros'.",
+        "TS2304: Cannot find name 'countZeros'.",
+        "TS2304: Cannot find name 'countZeros'."
+    ],
+    "mbpp/265": [
+        "TS2304: Cannot find name 'filter'."
+    ],
+    "mbpp/401": [
+        "TS2552: Cannot find name 'outer'. Did you mean '_outer'?"
+    ],
+    "mbpp/445": [
+        "TS2552: Cannot find name 'outer'. Did you mean '_outer'?"
+    ]
+}

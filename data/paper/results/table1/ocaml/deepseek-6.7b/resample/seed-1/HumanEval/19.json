@@ -1,0 +1,28 @@
+{
+    "decoded": 385,
+    "decoded_at_turn": {
+        "1": 193,
+        "2": 192
+    },
+    "llm_time": 10.184714317321777,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009518861770629883,
+    "constrainer_time": 0.08919405937194824,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.40519642829895,
+    "frequency": {
+        "1": 387
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:46: This expression has type \"int list\"\nbut an expression was expected of type \"('a * 'b) list\"\nType \"int\" is not compatible with type \"'a * 'b\""
+    ]
+}

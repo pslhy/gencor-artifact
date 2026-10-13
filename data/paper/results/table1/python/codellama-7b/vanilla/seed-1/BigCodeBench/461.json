@@ -1,0 +1,22 @@
+{
+    "decoded": 262,
+    "llm_time": 6.90349268913269,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006726264953613281,
+    "constrainer_time": 0.062432050704956055,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.058621406555176,
+    "frequency": {
+        "1": 263
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:21:29: undefined module member 'psutil.process_memory_info'"
+    ]
+}

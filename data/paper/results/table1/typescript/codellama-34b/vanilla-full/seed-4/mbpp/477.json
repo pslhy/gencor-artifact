@@ -1,0 +1,19 @@
+{
+    "decoded": 12,
+    "llm_time": 0.6888887882232666,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0003216266632080078,
+    "constrainer_time": 0.0008788108825683594,
+    "total_time": 0.6932928562164307,
+    "frequency": {
+        "1": 13
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'toLowercase' does not exist on type 'string'. Did you mean 'toLowerCase'?"
+    ]
+}

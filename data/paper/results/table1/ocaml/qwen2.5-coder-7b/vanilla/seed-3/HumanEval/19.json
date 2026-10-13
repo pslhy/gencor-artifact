@@ -1,0 +1,22 @@
+{
+    "decoded": 50,
+    "llm_time": 1.7371032238006592,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013179779052734375,
+    "constrainer_time": 0.013449430465698242,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.7704648971557617,
+    "frequency": {
+        "1": 51
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/19.ml:7:3: Unbound module \"Str\""
+    ]
+}

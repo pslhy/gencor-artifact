@@ -1,0 +1,22 @@
+{
+    "decoded": 207,
+    "llm_time": 5.479056358337402,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004907369613647461,
+    "constrainer_time": 0.048249244689941406,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.590024948120117,
+    "frequency": {
+        "1": 208
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/776.ml:2:19: Unbound value \"Set.of_list\""
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "decoded": 723,
+    "decoded_at_turn": {
+        "1": 129,
+        "2": 115,
+        "3": 157,
+        "4": 136,
+        "5": 186
+    },
+    "llm_time": 18.98737859725952,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01751565933227539,
+    "constrainer_time": 0.16793489456176758,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.447168350219727,
+    "frequency": {
+        "1": 728
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:13:35: Syntax error: \"wildcard \"_\"\" not expected."
+    ]
+}

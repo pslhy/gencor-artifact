@@ -1,0 +1,22 @@
+{
+    "decoded": 339,
+    "llm_time": 8.931911706924438,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008626699447631836,
+    "constrainer_time": 0.08148956298828125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.129549264907837,
+    "frequency": {
+        "1": 340
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/857.py:37:40: undefined name 'start'"
+    ]
+}

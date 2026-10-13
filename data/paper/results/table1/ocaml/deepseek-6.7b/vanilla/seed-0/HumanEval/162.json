@@ -1,0 +1,22 @@
+{
+    "decoded": 36,
+    "llm_time": 0.9542067050933838,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009124279022216797,
+    "constrainer_time": 0.008544921875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.9734585285186768,
+    "frequency": {
+        "1": 37
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/162.ml:3:15: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+    ]
+}

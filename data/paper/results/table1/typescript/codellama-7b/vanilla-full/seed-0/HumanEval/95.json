@@ -1,0 +1,23 @@
+{
+    "decoded": 94,
+    "llm_time": 2.291044235229492,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0022323131561279297,
+    "constrainer_time": 0.021713972091674805,
+    "total_time": 2.3412094116210938,
+    "frequency": {
+        "1": 95
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2839: This condition will always return 'false' since JavaScript compares objects by reference, not value.",
+        "TS2349: This expression is not callable.\n  Type 'String' has no call signatures.",
+        "TS7006: Parameter 'value' implicitly has an 'any' type.",
+        "TS2349: This expression is not callable.\n  Type 'String' has no call signatures.",
+        "TS7006: Parameter 'value' implicitly has an 'any' type."
+    ]
+}

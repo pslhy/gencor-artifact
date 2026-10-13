@@ -1,0 +1,18 @@
+let rec largest_neg (list1 : int list) : int = 
+  let rec find_neg max_neg = function
+    | [] -> max_neg
+    | h::t -> 
+      if h < 0 then
+        if h > max_neg then find_neg h t else find_neg max_neg t
+      else
+        find_neg max_neg t
+  in 
+  find_neg min_int list1
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function to find the largest negative number from the given list. *)

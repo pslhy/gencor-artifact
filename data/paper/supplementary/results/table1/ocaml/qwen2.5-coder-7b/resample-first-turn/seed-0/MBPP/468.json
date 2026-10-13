@@ -1,0 +1,22 @@
+{
+    "decoded": 236,
+    "llm_time": 6.226139307022095,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005678653717041016,
+    "constrainer_time": 0.05424904823303223,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.3654608726501465,
+    "frequency": {
+        "1": 237
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:22:12: Unbound value \"Array.create\""
+    ]
+}

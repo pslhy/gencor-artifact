@@ -1,0 +1,22 @@
+{
+    "decoded": 211,
+    "llm_time": 5.468703746795654,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005246639251708984,
+    "constrainer_time": 0.04857301712036133,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.584600210189819,
+    "frequency": {
+        "1": 212
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/76.ml:0:0: The function \"is_simple_power\" has type int -> int -> bool\nIt is applied to too many arguments"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 160,
+    "llm_time": 8.52937388420105,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004717588424682617,
+    "constrainer_time": 0.009991168975830078,
+    "total_time": 8.58832573890686,
+    "frequency": {
+        "1": 161
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2552: Cannot find name 'Output'. Did you mean 'output'?",
+        "TS2552: Cannot find name 'Output'. Did you mean 'output'?"
+    ]
+}

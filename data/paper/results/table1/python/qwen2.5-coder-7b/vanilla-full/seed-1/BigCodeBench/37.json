@@ -1,0 +1,23 @@
+{
+    "decoded": 128,
+    "llm_time": 3.251558542251587,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003287076950073242,
+    "constrainer_time": 0.02923893928527832,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3306708335876465,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/37.py:13:24: undefined name 'feature_importancesvalues'",
+        "BigCodeBench/37.py:13:53: undefined name 'feature_importancesindex'"
+    ]
+}

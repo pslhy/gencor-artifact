@@ -1,0 +1,20 @@
+{
+    "total_time": 90.00201272964478,
+    "llm_time": 90.00201272964478,
+    "constrainer_time": 0.0,
+    "n_resamples": 21,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 0,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2345: Argument of type 'string' is not assignable to parameter of type '(value: number, index: number, array: number[]) => unknown'."
+    ]
+}

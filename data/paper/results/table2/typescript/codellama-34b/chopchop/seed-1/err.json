@@ -1,0 +1,37 @@
+{
+    "mbpp/17": [
+        "../../tmp/tmp7pnuntxd.ts(5,3): error TS1109: Expression expected.",
+        "../../tmp/tmp7pnuntxd.ts(1057,1): error TS1005: '}' expected."
+    ],
+    "mbpp/167": [
+        "../../tmp/tmpshpctibw.ts(57,3): error TS1005: '}' expected."
+    ],
+    "mbpp/171": [
+        "../../tmp/tmpw2d5urn7.ts(1114,1): error TS1005: '}' expected."
+    ],
+    "mbpp/256": [
+        "../../tmp/tmpymosrwd_.ts(107,11): error TS1005: '}' expected."
+    ],
+    "mbpp/264": [
+        "../../tmp/tmpevfv18_d.ts(48,2): error TS1109: Expression expected.",
+        "../../tmp/tmpevfv18_d.ts(56,50): error TS1005: '}' expected."
+    ],
+    "mbpp/291": [
+        "../../tmp/tmp2240xfqm.ts(70,45): error TS1005: '}' expected."
+    ],
+    "mbpp/293": [
+        "../../tmp/tmprbexvht9.ts(68,10): error TS1005: '}' expected."
+    ],
+    "mbpp/581": [
+        "../../tmp/tmpj4cecsl6.ts(963,1): error TS1005: '}' expected."
+    ],
+    "mbpp/600": [
+        "../../tmp/tmpqubkwfp_.ts(1071,1): error TS1005: '}' expected."
+    ],
+    "mbpp/765": [
+        "../../tmp/tmp1ptpmn66.ts(147,16): error TS1005: '}' expected."
+    ],
+    "mbpp/801": [
+        "../../tmp/tmpsfg9qxpx.ts(84,28): error TS1005: '}' expected."
+    ]
+}

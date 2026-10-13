@@ -1,0 +1,21 @@
+{
+    "decoded": 158,
+    "llm_time": 3.786797046661377,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036563873291015625,
+    "constrainer_time": 0.03545641899108887,
+    "total_time": 3.8651514053344727,
+    "frequency": {
+        "1": 159
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'.",
+        "TS2345: Argument of type 'number[][]' is not assignable to parameter of type '[number, number][]'.\n  Type 'number[]' is not assignable to type '[number, number]'.\n    Target requires 2 element(s) but source may have fewer."
+    ]
+}

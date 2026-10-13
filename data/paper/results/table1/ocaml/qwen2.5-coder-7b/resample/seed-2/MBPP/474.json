@@ -1,0 +1,28 @@
+{
+    "decoded": 130,
+    "decoded_at_turn": {
+        "1": 63,
+        "2": 67
+    },
+    "llm_time": 3.4773175716400146,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031423568725585938,
+    "constrainer_time": 0.030802011489868164,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.5563342571258545,
+    "frequency": {
+        "1": 132
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:36: This expression has type \"String.t -> char Seq.t\"\nbut an expression was expected of type \"'a Seq.t\" = \"unit -> 'a Seq.node\"\nType \"String.t\" = \"string\" is not compatible with type \"unit\""
+    ]
+}

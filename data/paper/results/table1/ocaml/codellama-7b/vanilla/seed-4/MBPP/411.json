@@ -1,0 +1,22 @@
+{
+    "decoded": 74,
+    "llm_time": 1.9146392345428467,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001962423324584961,
+    "constrainer_time": 0.018149137496948242,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.9553546905517578,
+    "frequency": {
+        "1": 75
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/411.ml:4:23: Unbound value \"String.explode\""
+    ]
+}

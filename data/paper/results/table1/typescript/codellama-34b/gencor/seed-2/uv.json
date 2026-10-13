@@ -1,0 +1,16 @@
+{
+    "mbpp/88": [
+        "TS2304: Cannot find name 'as'.",
+        "TS2304: Cannot find name 'key'."
+    ],
+    "mbpp/255": [
+        "TS2304: Cannot find name 'as'."
+    ],
+    "mbpp/580": [
+        "TS2304: Cannot find name 'as'."
+    ],
+    "mbpp/740": [
+        "TS2304: Cannot find name 'as'.",
+        "TS2304: Cannot find name 'key'."
+    ]
+}

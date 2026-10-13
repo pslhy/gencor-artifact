@@ -1,0 +1,20 @@
+{
+    "decoded": 26,
+    "llm_time": 0.6753239631652832,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0006222724914550781,
+    "constrainer_time": 0.006192207336425781,
+    "total_time": 0.6900379657745361,
+    "frequency": {
+        "1": 27
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'input'. Did you mean 'Input'?",
+        "TS7006: Parameter 'item' implicitly has an 'any' type."
+    ]
+}

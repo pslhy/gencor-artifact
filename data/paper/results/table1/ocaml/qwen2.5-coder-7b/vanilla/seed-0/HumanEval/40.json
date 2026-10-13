@@ -1,0 +1,22 @@
+{
+    "decoded": 102,
+    "llm_time": 2.640817642211914,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0032155513763427734,
+    "constrainer_time": 0.024791240692138672,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.707554817199707,
+    "frequency": {
+        "1": 103
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/40.ml:7:35: Unbound value \"check_sum\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 5"
+    ]
+}

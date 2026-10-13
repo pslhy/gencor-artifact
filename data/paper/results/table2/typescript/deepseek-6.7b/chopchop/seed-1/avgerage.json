@@ -1,0 +1,19 @@
+{
+    "total_tests": 72,
+    "decoded": 77.59722222222223,
+    "llm_time": 2.0834427177906036,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 11.450231005748114,
+    "constrainer_time": 0.0,
+    "total_time": 13.533673723538717,
+    "is_uv": 0.0,
+    "is_synerr": 0.0,
+    "is_err": 0.027777777777777776,
+    "is_timeout": 0.027777777777777776,
+    "time_limit": 90.0,
+    "did_compile": 0.9722222222222222,
+    "llm_finished": 0.9722222222222222,
+    "num_tokens_guessed": 65.18055555555556,
+    "num_tokens_generated": 77.59722222222223,
+    "total_realizability_time": 11.450231005748114
+}

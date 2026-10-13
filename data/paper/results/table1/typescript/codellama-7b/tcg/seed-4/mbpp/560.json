@@ -1,0 +1,20 @@
+{
+    "total_time": 2.8051493167877197,
+    "llm_time": 2.8051493167877197,
+    "constrainer_time": 0.0,
+    "n_resamples": 2,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2550: Property 'union' does not exist on type 'Set<number>'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2025' or later.",
+        "TS2322: Type 'unknown[]' is not assignable to type 'number[]'.\n  Type 'unknown' is not assignable to type 'number'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 125,
+    "llm_time": 3.1291439533233643,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002989053726196289,
+    "constrainer_time": 0.029044151306152344,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.1964311599731445,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:12:17: Unbound value \"round\""
+    ]
+}

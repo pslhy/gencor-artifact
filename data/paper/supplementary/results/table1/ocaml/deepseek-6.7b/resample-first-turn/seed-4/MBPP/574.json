@@ -1,0 +1,22 @@
+{
+    "decoded": 32,
+    "llm_time": 0.8729672431945801,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008208751678466797,
+    "constrainer_time": 0.00781559944152832,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.8903791904449463,
+    "frequency": {
+        "1": 33
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:12: Unbound module \"System\""
+    ]
+}

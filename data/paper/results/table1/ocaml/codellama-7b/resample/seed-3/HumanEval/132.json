@@ -1,0 +1,31 @@
+{
+    "decoded": 585,
+    "decoded_at_turn": {
+        "1": 117,
+        "2": 117,
+        "3": 117,
+        "4": 117,
+        "5": 117
+    },
+    "llm_time": 15.695165634155273,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014623403549194336,
+    "constrainer_time": 0.14328861236572266,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 16.061239004135132,
+    "frequency": {
+        "1": 590
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:31: Syntax error"
+    ]
+}

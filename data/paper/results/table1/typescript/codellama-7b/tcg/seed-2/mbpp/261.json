@@ -1,0 +1,19 @@
+{
+    "total_time": 1.0178649425506592,
+    "llm_time": 1.0178649425506592,
+    "constrainer_time": 0.0,
+    "n_resamples": 5,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures."
+    ]
+}

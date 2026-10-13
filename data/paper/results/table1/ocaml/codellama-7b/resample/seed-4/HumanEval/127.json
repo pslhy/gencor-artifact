@@ -1,0 +1,29 @@
+{
+    "decoded": 651,
+    "decoded_at_turn": {
+        "1": 218,
+        "2": 217,
+        "3": 216
+    },
+    "llm_time": 16.621355295181274,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.016188383102416992,
+    "constrainer_time": 0.15608572959899902,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.034546375274658,
+    "frequency": {
+        "1": 654
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:11:89: This expression has type \"int\" but an expression was expected of type\n\"(int * int) list -> (int * int) list\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 206,
+    "llm_time": 5.504273414611816,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005075931549072266,
+    "constrainer_time": 0.048232316970825195,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.6402552127838135,
+    "frequency": {
+        "1": 207
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:11:15: undefined name 'HttpURLConnectionError'"
+    ]
+}

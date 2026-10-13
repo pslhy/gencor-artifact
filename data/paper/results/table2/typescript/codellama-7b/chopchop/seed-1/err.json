@@ -1,0 +1,15 @@
+{
+    "mbpp/67": [
+        "../../tmp/tmpq3d1wfpq.ts(9,16): error TS1109: Expression expected.",
+        "../../tmp/tmpq3d1wfpq.ts(9,17): error TS1109: Expression expected."
+    ],
+    "mbpp/84": [
+        "../../tmp/tmpzfgz8mkm.ts(8,19): error TS1005: '}' expected."
+    ],
+    "mbpp/641": [
+        "../../tmp/tmp9ghl3b48.ts(3,386): error TS1109: Expression expected."
+    ],
+    "mbpp/765": [
+        "../../tmp/tmpng8lep2h.ts(13,88): error TS1109: Expression expected."
+    ]
+}

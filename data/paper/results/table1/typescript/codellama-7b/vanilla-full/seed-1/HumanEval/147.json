@@ -1,0 +1,21 @@
+{
+    "decoded": 114,
+    "llm_time": 2.9457294940948486,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0026688575744628906,
+    "constrainer_time": 0.02722764015197754,
+    "total_time": 3.007286548614502,
+    "frequency": {
+        "1": 115
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'a'.",
+        "TS2304: Cannot find name 'a'."
+    ]
+}

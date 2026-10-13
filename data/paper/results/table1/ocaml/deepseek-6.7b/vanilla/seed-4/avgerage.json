@@ -1,0 +1,18 @@
+{
+    "total_tests": 510,
+    "decoded": 99.87450980392157,
+    "llm_time": 2.717067380512462,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0024862083734250536,
+    "constrainer_time": 0.023680547171948004,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.772097237437379,
+    "is_uv": 0.11960784313725491,
+    "is_synerr": 0.01764705882352941,
+    "is_err": 0.20784313725490197,
+    "is_timeout": 0.0,
+    "time_limit": 90.0,
+    "end_at": "2026-07-08 12:31:22.799540"
+}

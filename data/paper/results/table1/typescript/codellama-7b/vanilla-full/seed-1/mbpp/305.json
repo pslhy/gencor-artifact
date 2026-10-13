@@ -1,0 +1,20 @@
+{
+    "decoded": 93,
+    "llm_time": 2.3324368000030518,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0021538734436035156,
+    "constrainer_time": 0.021444082260131836,
+    "total_time": 2.378791332244873,
+    "frequency": {
+        "1": 94
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'null' is not assignable to type 'string'.",
+        "TS2322: Type 'null' is not assignable to type 'string'."
+    ]
+}

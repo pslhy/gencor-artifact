@@ -1,0 +1,27 @@
+{
+    "decoded": 65,
+    "decoded_at_turn": {
+        "1": 65
+    },
+    "llm_time": 3.4798076152801514,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016646385192871094,
+    "constrainer_time": 0.01568436622619629,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.5153515338897705,
+    "frequency": {
+        "1": 66
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:5: This expression has type \"int\" but an expression was expected of type\n\"float\"\nHint: Did you mean \"0.\"?"
+    ]
+}

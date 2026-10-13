@@ -1,0 +1,61 @@
+{
+    "HumanEval/37": {
+        "1": [
+            "TS2322: Type '(number | undefined)[]' is not assignable to type 'number[]'.\n  Type 'number | undefined' is not assignable to type 'number'.\n    Type 'undefined' is not assignable to type 'number'.",
+            "TS2345: Argument of type '0' is not assignable to parameter of type 'never'."
+        ]
+    },
+    "HumanEval/95": {
+        "1": [
+            "TS1117: An object literal cannot have multiple properties with the same name."
+        ]
+    },
+    "HumanEval/109": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2345: Argument of type 'number[]' is not assignable to parameter of type 'number'."
+        ]
+    },
+    "mbpp/65": {
+        "1": [
+            "TS2322: Type '[number, number]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/259": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type 'number[]' is not assignable to type 'number[][]'.\n  Type 'number' is not assignable to type 'number[]'."
+        ]
+    },
+    "mbpp/264": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "mbpp/278": {
+        "1": [
+            "TS2345: Argument of type '(number | number[])[]' is not assignable to parameter of type '(number | [number, number])[]'.\n  Type 'number | number[]' is not assignable to type 'number | [number, number]'.\n    Type 'number[]' is not assignable to type 'number | [number, number]'.\n      Type 'number[]' is not assignable to type '[number, number]'.\n        Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/580": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/607": {
+        "1": [
+            "TS18048: 'match.index' is possibly 'undefined'."
+        ]
+    },
+    "mbpp/780": {
+        "1": [
+            "TS2345: Argument of type 'number' is not assignable to parameter of type '[number, number]'."
+        ]
+    },
+    "mbpp/784": {
+        "1": [
+            "TS18048: 'even' is possibly 'undefined'.",
+            "TS18048: 'odd' is possibly 'undefined'."
+        ]
+    }
+}

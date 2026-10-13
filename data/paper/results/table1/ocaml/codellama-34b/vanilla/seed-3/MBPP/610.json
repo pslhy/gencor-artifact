@@ -1,0 +1,22 @@
+{
+    "decoded": 80,
+    "llm_time": 4.3181610107421875,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002567291259765625,
+    "constrainer_time": 0.020128488540649414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.365151643753052,
+    "frequency": {
+        "1": 81
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:16: Unbound value \"remove_kth_elements\"\nHint: Did you mean \"remove_kth_element\"?"
+    ]
+}

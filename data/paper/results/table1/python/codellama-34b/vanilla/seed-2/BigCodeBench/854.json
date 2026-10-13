@@ -1,0 +1,24 @@
+{
+    "decoded": 84,
+    "llm_time": 4.649209499359131,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002468109130859375,
+    "constrainer_time": 0.02188277244567871,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.7017035484313965,
+    "frequency": {
+        "1": 85
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:12:17: '(' was never closed",
+        "      fac.append((reduce(lambda a,b: a*b, range(1, int(math.factorial(x)+1)), 1))",
+        "                ^"
+    ]
+}

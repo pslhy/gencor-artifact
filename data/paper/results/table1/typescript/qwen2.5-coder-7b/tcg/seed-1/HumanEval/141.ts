@@ -1,0 +1,31 @@
+function file_name_check(file_name: string): string { 
+    const allowedExtensions = ['txt', 'exe', 'dll'];
+    const nameParts = file_name.split('.');
+    
+    if (nameParts.length !== 2) return 'No';
+    if (!/^[a-zA-Z]/.test(nameParts[0])) return 'No';
+    if (nameParts[1] !== allowedExtensions[0] && nameParts[1] !== allowedExtensions[1] && nameParts[1] !== allowedExtensions[2]) return 'No';
+    const digitCount = (nameParts[0] + nameParts[1]).match(/\d/g)!.length;
+    return digitCount > 3 ? 'No' : 'Yes';
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Create a function which takes a string representing a file's name, and returns
+//     'Yes' if the the file's name is valid, and returns 'No' otherwise.
+//     A file's name is considered to be valid if and only if all the following conditions
+//     are met:
+//     - There should not be more than three digits ('0'-'9') in the file's name.
+//     - The file's name contains exactly one dot '.'
+//     - The substring before the dot should not be empty, and it starts with a letter from
+//     the latin alphapet ('a'-'z' and 'A'-'Z').
+//     - The substring after the dot should be one of these: ['txt', 'exe', 'dll']
+//     Examples:
+//     >>> file_name_check("example.txt")
+//     "Yes"
+//     >>> file_name_check("1example.dll")
+//     "No"

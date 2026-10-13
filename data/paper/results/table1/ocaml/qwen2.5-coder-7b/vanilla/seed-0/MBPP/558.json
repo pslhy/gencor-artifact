@@ -1,0 +1,22 @@
+{
+    "decoded": 176,
+    "llm_time": 4.839914083480835,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005030632019042969,
+    "constrainer_time": 0.042593955993652344,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.9489905834198,
+    "frequency": {
+        "1": 177
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/558.ml:14:40: Unbound value \"diff_count\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 10"
+    ]
+}

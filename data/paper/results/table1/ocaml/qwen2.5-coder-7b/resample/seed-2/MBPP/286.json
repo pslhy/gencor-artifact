@@ -1,0 +1,30 @@
+{
+    "decoded": 1826,
+    "decoded_at_turn": {
+        "1": 428,
+        "2": 428,
+        "3": 443,
+        "4": 527
+    },
+    "llm_time": 47.88065457344055,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.04245901107788086,
+    "constrainer_time": 0.4204874038696289,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 49.25357627868652,
+    "frequency": {
+        "1": 1830
+    },
+    "turns": 4,
+    "max_turns": 4,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:28:45: This expression has type \"int array list\"\nbut an expression was expected of type \"'a list list\"\nType \"int array\" is not compatible with type \"'a list\""
+    ]
+}

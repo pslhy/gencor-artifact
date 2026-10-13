@@ -1,0 +1,25 @@
+{
+    "decoded": 215,
+    "llm_time": 11.533812046051025,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005697011947631836,
+    "constrainer_time": 0.012959957122802734,
+    "total_time": 11.61055588722229,
+    "frequency": {
+        "1": 216
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2454: Variable 'heap' is used before being assigned.",
+        "TS2454: Variable 'heap' is used before being assigned.",
+        "TS2454: Variable 'heap' is used before being assigned.",
+        "TS2454: Variable 'heap' is used before being assigned.",
+        "TS2454: Variable 'heap' is used before being assigned.",
+        "TS2322: Type 'number[][]' is not assignable to type 'number[]'.\n  Type 'number[]' is not assignable to type 'number'.",
+        "TS2454: Variable 'heap' is used before being assigned."
+    ]
+}

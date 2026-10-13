@@ -1,0 +1,20 @@
+
+let rec tup_string (tup1 : string list) : string =
+match tup1 with
+| [] -> ""
+| x :: [] -> x
+| x :: xs -> Printf.sprintf "%s, " x (tup_string xs)
+
+let list_string (ls : string list) (sep : string) : string =
+match ls with
+| [] -> ""
+| x :: xs ->
+  let t = tup_string (ls : string list) in
+  Printf.sprintf "<" t ">" sep (tup_string xs)
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to convert a list to a string. *)

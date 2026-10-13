@@ -1,0 +1,5 @@
+{
+    "mbpp/88": [
+        "TS2552: Cannot find name 'isNa'. Did you mean 'isNaN'?"
+    ]
+}

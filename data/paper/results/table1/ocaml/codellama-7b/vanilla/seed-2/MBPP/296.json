@@ -1,0 +1,22 @@
+{
+    "decoded": 377,
+    "llm_time": 9.900503158569336,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00913548469543457,
+    "constrainer_time": 0.08979940414428711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.110262632369995,
+    "frequency": {
+        "1": 378
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/296.ml:29:13: The function \"get_inv_count_helper\" has type int -> int -> int\nIt is applied to too many arguments"
+    ]
+}

@@ -1,0 +1,21 @@
+function get_max_sum(n: number): number {;
+  let memo: number[] = new Array(n+1).fill(0);
+  memo[0] = 0;
+  memo[1] = 1;
+
+  function maxSum(n: number): number {
+    if (memo[n] !== 0) return memo[n];
+    memo[n] = Math.max(maxSum(Math.floor(n/2)) + maxSum(Math.floor(n/3)) + maxSum(Math.floor(n/4)) + maxSum(Math.floor(n/5)), n);
+    return memo[n];
+  }
+
+  return maxSum(n);
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function to find the maximum sum possible by using the given equation f(n) = max( (f(n/2) + f(n/3) + f(n/4) + f(n/5)), n).

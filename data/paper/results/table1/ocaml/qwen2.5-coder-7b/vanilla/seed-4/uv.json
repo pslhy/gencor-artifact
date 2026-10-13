@@ -1,0 +1,215 @@
+{
+    "HumanEval/10": [
+        "HumanEval/10.ml:14:13: Unbound value \"String.rev\""
+    ],
+    "HumanEval/107": [
+        "HumanEval/107.ml:4:11: Unbound module \"Str\""
+    ],
+    "HumanEval/112": [
+        "HumanEval/112.ml:7:26: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/120": [
+        "HumanEval/120.ml:3:6: Unbound value \"List.take\""
+    ],
+    "HumanEval/122": [
+        "HumanEval/122.ml:7:10: Unbound value \"List.take\""
+    ],
+    "HumanEval/124": [
+        "HumanEval/124.ml:2:15: Unbound module \"Str\""
+    ],
+    "HumanEval/126": [
+        "HumanEval/126.ml:7:7: Unbound value \"ifSome\""
+    ],
+    "HumanEval/132": [
+        "HumanEval/132.ml:11:19: Unbound value \"rest\""
+    ],
+    "HumanEval/134": [
+        "HumanEval/134.ml:6:3: Unbound value \"Char.is_alpha\""
+    ],
+    "HumanEval/144": [
+        "HumanEval/144.ml:2:24: Unbound value \"split_on\""
+    ],
+    "HumanEval/153": [
+        "HumanEval/153.ml:6:10: Unbound value \"Char.is_uppercase\""
+    ],
+    "HumanEval/154": [
+        "HumanEval/154.ml:8:19: Unbound value \"String.contains_sub\""
+    ],
+    "HumanEval/158": [
+        "HumanEval/158.ml:5:43: Unbound value \"String.sort_uniq_chars\""
+    ],
+    "HumanEval/16": [
+        "HumanEval/16.ml:15:5: Unbound constructor \"CHAR_a\""
+    ],
+    "HumanEval/160": [
+        "HumanEval/160.ml:11:33: Unbound value \"pow\""
+    ],
+    "HumanEval/161": [
+        "HumanEval/161.ml:5:23: Unbound value \"Char.is_alpha\""
+    ],
+    "HumanEval/17": [
+        "HumanEval/17.ml:4:59: Unbound value \"notes_length\""
+    ],
+    "HumanEval/21": [
+        "HumanEval/21.ml:2:17: Unbound value \"List.min\""
+    ],
+    "HumanEval/27": [
+        "HumanEval/27.ml:7:14: Unbound value \"Char.is_uppercase_ascii\"\nHint: Did you mean \"uppercase_ascii\"?"
+    ],
+    "HumanEval/37": [
+        "HumanEval/37.ml:32:81: Unbound value \"List.range\""
+    ],
+    "HumanEval/65": [
+        "HumanEval/65.ml:16:17: Unbound value \"List.take\""
+    ],
+    "HumanEval/67": [
+        "HumanEval/67.ml:2:15: Unbound module \"Str\""
+    ],
+    "HumanEval/68": [
+        "HumanEval/68.ml:7:36: Unbound module \"Arr\"\nHint: Did you mean \"Arg\"?"
+    ],
+    "HumanEval/83": [
+        "HumanEval/83.ml:2:49: Unbound value \"pown\""
+    ],
+    "HumanEval/93": [
+        "HumanEval/93.ml:3:8: Unbound value \"Char.is_uppercase_ascii\"\nHint: Did you mean \"uppercase_ascii\"?"
+    ],
+    "HumanEval/95": [
+        "HumanEval/95.ml:5:47: Unbound value \"Char.is_lowercase\""
+    ],
+    "MBPP/102": [
+        "MBPP/102.ml:8:48: Unbound value \"Seq.toList\""
+    ],
+    "MBPP/108": [
+        "MBPP/108.ml:5:31: Unbound value \"merge\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+    ],
+    "MBPP/109": [
+        "MBPP/109.ml:15:56: Unbound value \"even_Equivalent\""
+    ],
+    "MBPP/113": [
+        "MBPP/113.ml:21:13: Unbound value \"String.to_list\""
+    ],
+    "MBPP/123": [
+        "MBPP/123.ml:3:101: Unbound value \"List.range\""
+    ],
+    "MBPP/129": [
+        "MBPP/129.ml:4:32: Unbound value \"fold_left\""
+    ],
+    "MBPP/131": [
+        "MBPP/131.ml:16:20: Unbound value \"String.to_list\""
+    ],
+    "MBPP/164": [
+        "MBPP/164.ml:3:98: Unbound value \"List.range\""
+    ],
+    "MBPP/167": [
+        "MBPP/167.ml:2:9: Unbound value \"(&&&)\"\nHint: Did you mean \"&&\"?"
+    ],
+    "MBPP/18": [
+        "MBPP/18.ml:11:19: Unbound value \"List.of_string\""
+    ],
+    "MBPP/229": [
+        "MBPP/229.ml:13:6: Unbound value \"List.take\""
+    ],
+    "MBPP/308": [
+        "MBPP/308.ml:13:47: Unbound value \"List.take\""
+    ],
+    "MBPP/310": [
+        "MBPP/310.ml:8:40: Unbound value \"String.to_list\""
+    ],
+    "MBPP/4": [
+        "MBPP/4.ml:17:9: Unbound value \"List.set\""
+    ],
+    "MBPP/411": [
+        "MBPP/411.ml:8:48: Unbound value \"Seq.toList\""
+    ],
+    "MBPP/427": [
+        "MBPP/427.ml:2:15: Unbound module \"Str\""
+    ],
+    "MBPP/444": [
+        "MBPP/444.ml:2:23: Unbound value \"List.tl_n\""
+    ],
+    "MBPP/454": [
+        "MBPP/454.ml:8:15: Unbound value \"list_of_string\"\nHint: Did you mean \"int_of_string\"?"
+    ],
+    "MBPP/477": [
+        "MBPP/477.ml:8:14: Unbound value \"String.to_list\""
+    ],
+    "MBPP/589": [
+        "MBPP/589.ml:3:16: Unbound value \"int_sqrt\""
+    ],
+    "MBPP/597": [
+        "MBPP/597.ml:17:21: Unbound value \"t2\""
+    ],
+    "MBPP/598": [
+        "MBPP/598.ml:10:55: Unbound value \"pown\""
+    ],
+    "MBPP/607": [
+        "MBPP/607.ml:2:14: Unbound module \"Re\""
+    ],
+    "MBPP/615": [
+        "MBPP/615.ml:2:35: Unbound value \"List.sum\""
+    ],
+    "MBPP/619": [
+        "MBPP/619.ml:5:21: Unbound value \"Char.is_digit\""
+    ],
+    "MBPP/624": [
+        "MBPP/624.ml:8:14: Unbound value \"String.to_list\""
+    ],
+    "MBPP/631": [
+        "MBPP/631.ml:8:14: Unbound value \"String.to_list\""
+    ],
+    "MBPP/635": [
+        "MBPP/635.ml:2:41: Unbound module \"Heap\""
+    ],
+    "MBPP/639": [
+        "MBPP/639.ml:5:35: Unbound value \"Char.is_uppercase\""
+    ],
+    "MBPP/643": [
+        "MBPP/643.ml:10:47: Unbound value \"String.to_list\""
+    ],
+    "MBPP/644": [
+        "MBPP/644.ml:6:21: Unbound value \"hd\""
+    ],
+    "MBPP/68": [
+        "MBPP/68.ml:9:14: Unbound value \"acc\""
+    ],
+    "MBPP/735": [
+        "MBPP/735.ml:8:33: Unbound value \"int_log2\""
+    ],
+    "MBPP/737": [
+        "MBPP/737.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/743": [
+        "MBPP/743.ml:4:26: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+    ],
+    "MBPP/753": [
+        "MBPP/753.ml:6:27: Unbound value \"List.min_element\""
+    ],
+    "MBPP/756": [
+        "MBPP/756.ml:8:16: Unbound value \"String.to_list\""
+    ],
+    "MBPP/757": [
+        "MBPP/757.ml:6:51: Unbound value \"String.rev\""
+    ],
+    "MBPP/759": [
+        "MBPP/759.ml:4:37: Unbound value \"filter\""
+    ],
+    "MBPP/772": [
+        "MBPP/772.ml:2:15: Unbound module \"Str\""
+    ],
+    "MBPP/782": [
+        "MBPP/782.ml:4:66: Unbound value \"List.take\""
+    ],
+    "MBPP/785": [
+        "MBPP/785.ml:2:14: Unbound module \"Str\""
+    ],
+    "MBPP/794": [
+        "MBPP/794.ml:4:23: Unbound value \"foundb\"\nHint: Did you mean \"founda\"?"
+    ],
+    "MBPP/800": [
+        "MBPP/800.ml:8:3: Unbound value \"String.blit_to_string\""
+    ],
+    "MBPP/97": [
+        "MBPP/97.ml:9:12: Unbound value \"Option.default\""
+    ]
+}

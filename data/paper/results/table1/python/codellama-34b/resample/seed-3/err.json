@@ -1,0 +1,436 @@
+{
+    "BigCodeBench/82": {
+        "1": [
+            "<python>:28:20: undefined name 'User'"
+        ],
+        "2": [
+            "<python>:28:20: undefined name 'User'"
+        ],
+        "3": [
+            "<python>:28:20: undefined name 'User'"
+        ]
+    },
+    "BigCodeBench/92": {
+        "1": [
+            "<python>:17:32: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:17:32: undefined name 'np'"
+        ],
+        "3": [
+            "<python>:17:32: undefined name 'np'"
+        ],
+        "4": [
+            "<python>:17:32: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/100": {
+        "1": [
+            "<python>:12:5: undefined name 'sns'"
+        ]
+    },
+    "BigCodeBench/101": {
+        "1": [
+            "<python>:15:19: undefined name 'train_test_split'"
+        ],
+        "2": [
+            "<python>:15:40: undefined name 'train_test_split'"
+        ],
+        "3": [
+            "<python>:15:40: undefined name 'X_train_test_split'"
+        ],
+        "4": [
+            "<python>:15:40: undefined name 'train_test_split'"
+        ],
+        "5": [
+            "<python>:15:40: undefined name 'train_test_split'"
+        ]
+    },
+    "BigCodeBench/129": {
+        "1": [
+            "<python>:13:62: undefined name 'e'",
+            "<python>:25:57: undefined name 'List'",
+            "<python>:25:62: undefined name 'List'",
+            "<python>:33:38: undefined name 'List'",
+            "<python>:33:43: undefined name 'List'"
+        ],
+        "2": [
+            "<python>:28:57: undefined name 'List'",
+            "<python>:28:62: undefined name 'List'",
+            "<python>:37:38: undefined name 'List'",
+            "<python>:37:43: undefined name 'List'"
+        ]
+    },
+    "BigCodeBench/147": {
+        "1": [
+            "<python>:7:10: undefined name 'ThreadPoolExecutor'",
+            "<python>:17:13: undefined name 'port_status'",
+            "<python>:19:13: undefined name 'port_status'"
+        ],
+        "2": [
+            "<python>:7:10: undefined name 'ThreadPoolExecutor'",
+            "<python>:17:13: undefined name 'port_status'",
+            "<python>:19:13: undefined name 'port_status'"
+        ],
+        "3": [
+            "<python>:7:10: undefined name 'ThreadPoolExecutor'",
+            "<python>:17:13: undefined name 'port_status'",
+            "<python>:19:13: undefined name 'port_status'"
+        ],
+        "4": [
+            "<python>:7:10: undefined name 'ThreadPoolExecutor'"
+        ],
+        "5": [
+            "<python>:7:10: undefined name 'ThreadPoolExecutor'"
+        ]
+    },
+    "BigCodeBench/177": {
+        "1": [
+            "<python>:6:27: undefined name 'pd'"
+        ],
+        "2": [
+            "<python>:6:27: undefined name 'pd'"
+        ],
+        "3": [
+            "<python>:6:27: undefined name 'pd'"
+        ],
+        "4": [
+            "<python>:6:27: undefined name 'pd'"
+        ],
+        "5": [
+            "<python>:6:27: undefined name 'pd'"
+        ]
+    },
+    "BigCodeBench/184": {
+        "1": [
+            "<python>:27:34: undefined name 'xows_df'",
+            "<python>:28:30: undefined name 'counter'"
+        ]
+    },
+    "BigCodeBench/239": {
+        "1": [
+            "<python>:7:28: '(' was never closed",
+            "    numeric_vals = list(set([v for v in original if isinstance(v, (int, float, np.number))]",
+            "                           ^"
+        ],
+        "2": [
+            "<python>:15:14: undefined name 'xs'",
+            "<python>:15:18: undefined name 'ys'",
+            "<python>:19:80: undefined name 'ax'"
+        ]
+    },
+    "BigCodeBench/273": {
+        "1": [
+            "<python>:32:64: invalid syntax",
+            "                return json.dumps(ERROR_RESPONSE), content_type=\"application/json\", status=400",
+            "                                                               ^"
+        ]
+    },
+    "BigCodeBench/302": {
+        "1": [
+            "<python>:19:19: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:19:19: undefined name 'np'"
+        ],
+        "3": [
+            "<python>:25:12: undefined name 'df_lists'"
+        ]
+    },
+    "BigCodeBench/308": {
+        "1": [
+            "<python>:29:18: local variable 'FIELDS' defined in enclosing scope on line 6 referenced before assignment"
+        ]
+    },
+    "BigCodeBench/313": {
+        "1": [
+            "<python>:35:12: unexpected indent",
+            "            move_files()",
+            "           ^"
+        ],
+        "2": [
+            "<python>:11:9: `nonlocal files_to_move` is unused: name is never assigned in scope",
+            "<python>:23:9: `nonlocal files_to_move` is unused: name is never assigned in scope",
+            "<python>:26:55: undefined name 'Path'",
+            "<python>:29:22: undefined name 'Path'"
+        ],
+        "3": [
+            "<python>:12:9: `nonlocal files_to_move` is unused: name is never assigned in scope",
+            "<python>:25:9: `nonlocal files_to_move` is unused: name is never assigned in scope"
+        ]
+    },
+    "BigCodeBench/324": {
+        "1": [
+            "<python>:44:82: unmatched ')'",
+            "    results = pool.map(run_jobs, [jobs[i:i+chunksize] for i in range(len(jobs))]))",
+            "                                                                                 ^"
+        ]
+    },
+    "BigCodeBench/346": {
+        "1": [
+            "<python>:11:57: undefined name 'c'",
+            "<python>:16:44: undefined name 'c'"
+        ]
+    },
+    "BigCodeBench/360": {
+        "1": [
+            "<python>:11:8: unexpected indent",
+            "        raise ValueError(f\"Sheet does not exist: {sheet_name}\")",
+            "       ^"
+        ]
+    },
+    "BigCodeBench/454": {
+        "1": [
+            "<python>:20:5: invalid syntax",
+            "The function should raise the exception for: FileNotFoundError: if either the source or destination directory does not exist",
+            "    ^"
+        ]
+    },
+    "BigCodeBench/461": {
+        "1": [
+            "<python>:15:29: undefined module member 'psutil.get_memory_info'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "<python>:7:16: undefined name 'json'"
+        ],
+        "2": [
+            "<python>:7:16: undefined name 'json'"
+        ],
+        "3": [
+            "<python>:7:16: undefined name 'json'"
+        ],
+        "4": [
+            "<python>:7:16: undefined name 'json'"
+        ],
+        "5": [
+            "<python>:7:16: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/526": {
+        "1": [
+            "<python>:85:2: unexpected character after line continuation character",
+            "\\end{code}",
+            " ^"
+        ]
+    },
+    "BigCodeBench/530": {
+        "1": [
+            "<python>:22:80: undefined name 'dup_ages'"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "<python>:13:18: unterminated string literal (detected at line 13)",
+            "    Novemberences\")",
+            "                 ^"
+        ],
+        "2": [
+            "<python>:11:86: '(' was never closed",
+            "    ascii_text = unicodedata.normalize(\"NFKD\", text).encode(\"ascii\", \"ignore\").decode(\"utf-8\", ",
+            "                                                                                     ^"
+        ],
+        "3": [
+            "<python>:11:86: '(' was never closed",
+            "    ascii_text = unicodedata.normalize(\"NFKD\", text).encode(\"ascii\", \"ignore\").decode(\"utf-8\", ",
+            "                                                                                     ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:13:35: undefined module member 'rsa.gen_keys'"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "<python>:10:15: undefined module member 'rsa.generate_private_key'",
+            "<python>:11:46: undefined name 'serialization'",
+            "<python>:12:44: undefined name 'serialization'",
+            "<python>:13:58: undefined name 'serialization'",
+            "<python>:14:57: undefined name 'serialization'",
+            "<python>:15:56: undefined name 'serialization'"
+        ],
+        "2": [
+            "<python>:10:15: undefined module member 'rsa.generate_private_key'",
+            "<python>:11:46: undefined name 'serialization'",
+            "<python>:12:44: undefined name 'serialization'",
+            "<python>:13:58: undefined name 'serialization'",
+            "<python>:14:57: undefined name 'serialization'",
+            "<python>:15:56: undefined name 'serialization'"
+        ],
+        "3": [
+            "<python>:10:15: undefined module member 'rsa.generate_private_key'",
+            "<python>:11:46: undefined name 'serialization'",
+            "<python>:12:44: undefined name 'serialization'",
+            "<python>:13:58: undefined name 'serialization'",
+            "<python>:14:57: undefined name 'serialization'",
+            "<python>:15:56: undefined name 'serialization'"
+        ],
+        "4": [
+            "<python>:12:23: undefined module member 'rsa.generate_private_key'"
+        ],
+        "5": [
+            "<python>:12:27: undefined module member 'rsa.key.generate_private_key'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:25:12: undefined name 'URLError'",
+            "<python>:26:15: undefined name 'URLError'",
+            "<python>:31:22: undefined name 're'",
+            "<python>:32:29: undefined name 'validators'"
+        ],
+        "2": [
+            "<python>:31:22: undefined name 're'",
+            "<python>:32:29: undefined name 'validators'"
+        ],
+        "3": [
+            "<python>:31:22: undefined name 'syntax'",
+            "<python>:32:29: undefined name 'urlsyntax'"
+        ],
+        "4": [
+            "<python>:31:22: undefined name 're'",
+            "<python>:32:29: undefined name 're'"
+        ]
+    },
+    "BigCodeBench/637": {
+        "1": [
+            "<python>:32:27: undefined name 'gradesbycourse'"
+        ]
+    },
+    "BigCodeBench/760": {
+        "1": [
+            "<python>:23:91: unterminated string literal (detected at line 23)",
+            "    email = np.apply_along_axis(lambda x:f'{x.strftime(\"%Y-%m-%d %H:%M:%S\")}@example.com','counter(days(01-01-1980) into(v\u00f9\ub144\u6708\u65e5j)))",
+            "                                                                                          ^"
+        ]
+    },
+    "BigCodeBench/765": {
+        "1": [
+            "<python>:6:24: undefined name 'process_files_from'"
+        ],
+        "2": [
+            "<python>:6:24: undefined name 'get_files_to_process'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "<python>:17:17: undefined name 'shutil'"
+        ]
+    },
+    "BigCodeBench/870": {
+        "1": [
+            "<python>:13:5: expected an indented block after 'for' statement on line 12",
+            "    for j in range(len(row) - 1):",
+            "    ^"
+        ],
+        "2": [
+            "<python>:11:39: undefined name 'numbers'",
+            "<python>:11:78: undefined name 'numbers'",
+            "<python>:14:45: undefined name 'numbers'",
+            "<python>:14:84: undefined name 'numbers'"
+        ]
+    },
+    "BigCodeBench/879": {
+        "1": [
+            "<python>:6:5: undefined name 'chisq'",
+            "<python>:6:12: undefined name 'p'",
+            "<python>:6:15: undefined name 'dof'",
+            "<python>:6:20: undefined name 'expected'"
+        ]
+    },
+    "BigCodeBench/916": {
+        "1": [
+            "<python>:7:53: positional argument follows keyword argument",
+            "    fig = plt.figure(set_size=(12, 7), set_margin(2))",
+            "                                                    ^"
+        ],
+        "2": [
+            "<python>:10:53: positional argument follows keyword argument",
+            "    fig = plt.figure(set_size=(12, 7), set_margin(2))",
+            "                                                    ^"
+        ],
+        "3": [
+            "<python>:10:53: positional argument follows keyword argument",
+            "    fig = plt.figure(set_size=(12, 7), set_margin(2))",
+            "                                                    ^"
+        ],
+        "4": [
+            "<python>:10:53: positional argument follows keyword argument",
+            "    fig = plt.figure(set_size=(12, 7), set_margin(2))",
+            "                                                    ^"
+        ],
+        "5": [
+            "<python>:10:53: positional argument follows keyword argument",
+            "    fig = plt.figure(set_size=(12, 7), set_margin(2))",
+            "                                                    ^"
+        ]
+    },
+    "BigCodeBench/988": {
+        "1": [
+            "<python>:6:23: expected ':'",
+            "    if not(predicates)",
+            "                      ^"
+        ]
+    },
+    "BigCodeBench/1003": {
+        "1": [
+            "<python>:7:15: undefined name 'process_url'"
+        ]
+    },
+    "BigCodeBench/1015": {
+        "1": [
+            "<python>:11:41: expected 'except' or 'finally' block",
+            "            response = requests.get(url)",
+            "                                        ^"
+        ]
+    },
+    "BigCodeBench/1019": {
+        "1": [
+            "<python>:8:88: expected ':'",
+            "        with Image.open(filename,\"r\") as file_handler, file_handler.convert(\"L\").show()",
+            "                                                                                       ^"
+        ]
+    },
+    "BigCodeBench/1039": {
+        "1": [
+            "<python>:12:31: expected ':'",
+            "                while (buffer)",
+            "                              ^"
+        ]
+    },
+    "BigCodeBench/1040": {
+        "1": [
+            "<python>:67:71: expected 'except' or 'finally' block",
+            "        print(f\"Server stopped after {timedelta(hours=run_duration)}\")",
+            "                                                                      ^"
+        ],
+        "2": [
+            "<python>:33:21: undefined name 'read_queue'",
+            "<python>:38:19: undefined name 'read_queue'",
+            "<python>:39:39: undefined name 'read_queue'"
+        ]
+    },
+    "BigCodeBench/1053": {
+        "1": [
+            "<python>:46:13: undefined module member 'plt.save_fig'"
+        ],
+        "2": [
+            "<python>:51:13: undefined module member 'plt.save_fig'"
+        ],
+        "3": [
+            "<python>:51:13: undefined module member 'plt.save_fig'"
+        ]
+    },
+    "BigCodeBench/1137": {
+        "1": [
+            "<python>:15:5: expected an indented block after 'if' statement on line 13",
+            "    else:",
+            "    ^"
+        ],
+        "2": [
+            "<python>:7:12: undefined name 'urllib'"
+        ]
+    }
+}

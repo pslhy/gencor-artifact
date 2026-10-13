@@ -1,0 +1,43 @@
+{
+    "tagcor_tag_check_time": 0.0003037452697753906,
+    "tagcor_tag_check": 42,
+    "symkind_tag_check": 29,
+    "on_accept_time": 0.0002830028533935547,
+    "call_tagcor": 49,
+    "check_after_gen_feed_time": 0.09551572799682617,
+    "check_after_gen_feed_count": 48,
+    "ummac_tag_check_time": 9.202957153320312e-05,
+    "ummac_tag_check": 19,
+    "symbols_to_check_time": 0.0013911724090576172,
+    "analyze_time": 0.055434465408325195,
+    "decoded": 32,
+    "tagcor_lsp_time": 0.05377459526062012,
+    "tagcor_lsp_used": 8,
+    "tagcor_lsp_check_time": 0.0,
+    "tagcor_lsp_autocomplete_time": 0.0,
+    "tagcor_reject": 1,
+    "llm_time": 0.8404443264007568,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.15864253044128418,
+    "constrainer_time": 0.09014630317687988,
+    "prob_time": 0.0003859996795654297,
+    "prob_reuse_pick_time": 0.0002760887145996094,
+    "prob_mask_time": 0.00010991096496582031,
+    "attribute_memo_store_time": 0.0005431175231933594,
+    "attribute_memo_store_calls": 15,
+    "attribute_memo_load_time": 0.0007183551788330078,
+    "attribute_memo_load_calls": 55,
+    "total_time": 1.1007239818572998,
+    "frequency": {
+        "1": 31,
+        "2": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/606.ml:3:5: This expression has type \"int\" but an expression was expected of type\n\"float\""
+    ]
+}

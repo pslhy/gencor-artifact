@@ -1,0 +1,24 @@
+{
+    "decoded": 327,
+    "llm_time": 17.885879516601562,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008687973022460938,
+    "constrainer_time": 0.08615398406982422,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 18.091989040374756,
+    "frequency": {
+        "1": 328
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:22:57: unterminated string literal (detected at line 22)",
+        "        df[\"Source\"] = os.path.realpath(f\"{path}/{file}\"')",
+        "                                                        ^"
+    ]
+}

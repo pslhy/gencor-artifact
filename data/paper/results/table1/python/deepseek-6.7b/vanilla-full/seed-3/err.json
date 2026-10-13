@@ -1,0 +1,30 @@
+{
+    "BigCodeBench/147": {
+        "1": [
+            "BigCodeBench/147.py:14:9: `global results` is unused: name is never assigned in scope"
+        ]
+    },
+    "BigCodeBench/655": {
+        "1": [
+            "BigCodeBench/655.py:20:75: undefined name 'num_top_words'"
+        ]
+    },
+    "BigCodeBench/971": {
+        "1": [
+            "BigCodeBench/971.py:19:1: invalid syntax",
+            ">>> result = task_func('/path/to/directory') ",
+            "^"
+        ]
+    },
+    "BigCodeBench/1004": {
+        "1": [
+            "BigCodeBench/1004.py:7:18: undefined name 'datetime'",
+            "BigCodeBench/1004.py:25:16: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/1042": {
+        "1": [
+            "BigCodeBench/1042.py:28:15: undefined name 'ssl'"
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 144,
+    "llm_time": 3.600989580154419,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0032472610473632812,
+    "constrainer_time": 0.0332341194152832,
+    "total_time": 3.673290252685547,
+    "frequency": {
+        "1": 145
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'valuesOf'.",
+        "TS2339: Property 'n' does not exist on type '0'.",
+        "TS2304: Cannot find name 'valuesOf'."
+    ]
+}

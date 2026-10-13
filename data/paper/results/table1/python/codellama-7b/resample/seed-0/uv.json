@@ -1,0 +1,53 @@
+{
+    "BigCodeBench/82": [
+        "<python>:27:20: undefined name 'User'",
+        "<python>:30:17: undefined name 'db'",
+        "<python>:31:17: undefined name 'db'"
+    ],
+    "BigCodeBench/92": [
+        "<python>:31:16: undefined name 'np'",
+        "<python>:32:16: undefined name 'np'"
+    ],
+    "BigCodeBench/147": [
+        "<python>:14:22: undefined name 'datetime'"
+    ],
+    "BigCodeBench/274": [
+        "<python>:29:27: undefined name 'email'"
+    ],
+    "BigCodeBench/477": [
+        "<python>:28:39: undefined name 'unique_cat_count'"
+    ],
+    "BigCodeBench/583": [
+        "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+        "<python>:12:21: undefined module member 'rsa.backends'",
+        "<python>:22:46: undefined name 'time'",
+        "<python>:25:26: undefined module member 'rsa.serialization'",
+        "<python>:26:24: undefined module member 'rsa.serialization'",
+        "<python>:27:38: undefined module member 'rsa.serialization'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+        "<python>:32:49: undefined name 'hashes'",
+        "<python>:32:75: undefined name 'hashes'"
+    ],
+    "BigCodeBench/655": [
+        "<python>:37:27: undefined name 'np'",
+        "<python>:37:46: undefined name 'n_top_words'"
+    ],
+    "BigCodeBench/914": [
+        "<python>:8:40: undefined name 'train_test_split'"
+    ],
+    "BigCodeBench/915": [
+        "<python>:27:7: undefined name 'pd'"
+    ],
+    "BigCodeBench/988": [
+        "<python>:43:40: undefined name 'datetime'",
+        "<python>:45:30: undefined name 'datetime'"
+    ],
+    "BigCodeBench/1006": [
+        "<python>:10:48: undefined name 'datetime'"
+    ],
+    "BigCodeBench/1020": [
+        "<python>:27:10: undefined name 'pytest'"
+    ]
+}

@@ -1,0 +1,44 @@
+# Explicit import names of the direct packages in requirements-bcb.txt.
+# No benchmark answers or generated code are used to select the warmup queries.
+# Submodules are separate cache keys: add e.g. scipy.stats if needed.
+os
+math
+matplotlib
+numpy
+pandas
+seaborn
+psutil
+rsa
+nltk
+pytz
+cv2
+pytesseract
+chardet
+geopandas
+scipy
+docx
+librosa
+regex
+bs4
+soundfile
+xlwt
+Crypto
+Levenshtein
+flask
+flask_login
+flask_mail
+flask_wtf
+gensim
+keras
+lxml
+openpyxl
+pyquery
+shapely
+sklearn
+statsmodels
+tensorflow
+werkzeug
+wordcloud
+wtforms
+faker
+cryptography

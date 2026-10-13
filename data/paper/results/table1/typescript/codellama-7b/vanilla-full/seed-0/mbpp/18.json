@@ -1,0 +1,24 @@
+{
+    "decoded": 91,
+    "llm_time": 2.1953399181365967,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0021483898162841797,
+    "constrainer_time": 0.02082228660583496,
+    "total_time": 2.240612268447876,
+    "frequency": {
+        "1": 92
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'char[]' is not assignable to type 'string'.",
+        "TS2304: Cannot find name 'char'.",
+        "TS2304: Cannot find name 'int'.",
+        "TS2749: 'char' refers to a value, but is being used as a type here. Did you mean 'typeof char'?",
+        "TS2339: Property 'push' does not exist on type 'string'.",
+        "TS2339: Property 'join' does not exist on type 'string'."
+    ]
+}

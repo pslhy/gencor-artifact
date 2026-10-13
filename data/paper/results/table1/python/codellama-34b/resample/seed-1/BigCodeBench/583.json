@@ -1,0 +1,31 @@
+{
+    "decoded": 1915,
+    "decoded_at_turn": {
+        "1": 379,
+        "2": 387,
+        "3": 387,
+        "4": 381,
+        "5": 381
+    },
+    "llm_time": 115.62683367729187,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.054193973541259766,
+    "constrainer_time": 0.5300042629241943,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 117.28246903419495,
+    "frequency": {
+        "1": 1920
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:21:18: undefined name 'hashlib'"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 410,
+    "llm_time": 21.905256271362305,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009926319122314453,
+    "constrainer_time": 0.023784399032592773,
+    "total_time": 22.051917552947998,
+    "frequency": {
+        "1": 411
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'assert'."
+    ]
+}

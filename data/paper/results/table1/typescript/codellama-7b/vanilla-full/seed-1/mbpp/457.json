@@ -1,0 +1,19 @@
+{
+    "decoded": 121,
+    "llm_time": 3.0566787719726562,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002751588821411133,
+    "constrainer_time": 0.028120994567871094,
+    "total_time": 3.1174204349517822,
+    "frequency": {
+        "1": 122
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'any[] | undefined' is not assignable to type 'any[]'.\n  Type 'undefined' is not assignable to type 'any[]'."
+    ]
+}

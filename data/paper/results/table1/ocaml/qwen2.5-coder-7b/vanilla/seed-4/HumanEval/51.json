@@ -1,0 +1,22 @@
+{
+    "decoded": 121,
+    "llm_time": 3.3901307582855225,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004343986511230469,
+    "constrainer_time": 0.031245708465576172,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.4718053340911865,
+    "frequency": {
+        "1": 122
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/51.ml:10:7: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+    ]
+}

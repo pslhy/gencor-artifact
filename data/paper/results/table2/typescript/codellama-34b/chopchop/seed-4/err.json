@@ -1,0 +1,29 @@
+{
+    "mbpp/72": [
+        "../../tmp/tmp9hojnpca.ts(133,21): error TS1005: '}' expected."
+    ],
+    "mbpp/234": [
+        "../../tmp/tmp8pm84i3q.ts(1041,1): error TS1005: '}' expected."
+    ],
+    "mbpp/435": [
+        "../../tmp/tmpu23cqjxp.ts(543,1): error TS1005: '}' expected."
+    ],
+    "mbpp/600": [
+        "../../tmp/tmpauoymamj.ts(511,1): error TS1005: '}' expected."
+    ],
+    "mbpp/605": [
+        "../../tmp/tmpbtiqrvof.ts(486,2): error TS1005: '}' expected."
+    ],
+    "mbpp/606": [
+        "../../tmp/tmp0o_7n9xp.ts(532,1): error TS1005: '}' expected."
+    ],
+    "mbpp/765": [
+        "../../tmp/tmpb86xx138.ts(919,1): error TS1005: '}' expected."
+    ],
+    "mbpp/797": [
+        "../../tmp/tmpqh5cm5x9.ts(65,49): error TS1005: '}' expected."
+    ],
+    "mbpp/803": [
+        "../../tmp/tmp7cx85td0.ts(125,74): error TS1005: '}' expected."
+    ]
+}

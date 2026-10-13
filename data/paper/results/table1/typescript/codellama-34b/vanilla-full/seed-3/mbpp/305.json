@@ -1,0 +1,22 @@
+{
+    "decoded": 190,
+    "llm_time": 10.181798219680786,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0052182674407958984,
+    "constrainer_time": 0.011561393737792969,
+    "total_time": 10.249528408050537,
+    "frequency": {
+        "1": 191
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2454: Variable 'pair' is used before being assigned.",
+        "TS2454: Variable 'pair' is used before being assigned.",
+        "TS2454: Variable 'pair' is used before being assigned.",
+        "TS2454: Variable 'pair' is used before being assigned."
+    ]
+}

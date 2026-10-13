@@ -1,0 +1,24 @@
+{
+    "decoded": 393,
+    "llm_time": 21.48108172416687,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010479450225830078,
+    "constrainer_time": 0.09591555595397949,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 21.72269082069397,
+    "frequency": {
+        "1": 394
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:7:5: unterminated triple-quoted string literal (detected at line 34)",
+        "    \"\"\" Reads a CSV file, normalizes the text in it to ASCII, counts the words, and",
+        "    ^"
+    ]
+}

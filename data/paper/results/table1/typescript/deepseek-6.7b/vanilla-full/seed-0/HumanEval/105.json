@@ -1,0 +1,19 @@
+{
+    "decoded": 205,
+    "llm_time": 5.010239362716675,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004517078399658203,
+    "constrainer_time": 0.04557394981384277,
+    "total_time": 5.117712497711182,
+    "frequency": {
+        "1": 206
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '(string | undefined)[]' is not assignable to type 'string[]'.\n  Type 'string | undefined' is not assignable to type 'string'.\n    Type 'undefined' is not assignable to type 'string'."
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "decoded": 103,
+    "llm_time": 2.6632907390594482,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0024673938751220703,
+    "constrainer_time": 0.023937463760375977,
+    "total_time": 2.721662759780884,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?",
+        "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?",
+        "TS2552: Cannot find name 'maxAggregate'. Did you mean 'Aggregate'?"
+    ]
+}

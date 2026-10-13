@@ -1,0 +1,13 @@
+function index_minimum(test_list: [string, number][]): string {
+    return test_list.reduce((min_val, val) => {
+        return (val[1] < min_val[1] ? val : min_val);
+    })[0];
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Given an array of arrays, write a function that returns the first value of the array with the smallest second value.

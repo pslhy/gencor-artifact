@@ -1,0 +1,22 @@
+{
+    "decoded": 127,
+    "llm_time": 6.835030794143677,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031430721282958984,
+    "constrainer_time": 0.030688047409057617,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.904654026031494,
+    "frequency": {
+        "1": 128
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:12: This expression has type \"int\" but an expression was expected of type\n\"bool\""
+    ]
+}

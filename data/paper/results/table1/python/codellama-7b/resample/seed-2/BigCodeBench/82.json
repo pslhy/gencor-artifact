@@ -1,0 +1,32 @@
+{
+    "decoded": 1976,
+    "decoded_at_turn": {
+        "1": 488,
+        "2": 373,
+        "3": 373,
+        "4": 374,
+        "5": 368
+    },
+    "llm_time": 50.42916250228882,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.05207109451293945,
+    "constrainer_time": 0.47551989555358887,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 52.135103702545166,
+    "frequency": {
+        "1": 1981
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:40:27: undefined name 'MongoEngine'",
+        "<python>:45:5: undefined name 'MongoEngine'"
+    ]
+}

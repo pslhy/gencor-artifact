@@ -1,0 +1,20 @@
+{
+    "decoded": 75,
+    "llm_time": 4.073042869567871,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0021588802337646484,
+    "constrainer_time": 0.004694700241088867,
+    "total_time": 4.1006481647491455,
+    "frequency": {
+        "1": 76
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7034: Variable 'intersection' implicitly has type 'any[]' in some locations where its type cannot be determined.",
+        "TS7005: Variable 'intersection' implicitly has an 'any[]' type."
+    ]
+}

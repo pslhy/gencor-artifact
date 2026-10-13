@@ -1,0 +1,22 @@
+{
+    "decoded": 54,
+    "llm_time": 1.4189157485961914,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013244152069091797,
+    "constrainer_time": 0.01301121711730957,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4489119052886963,
+    "frequency": {
+        "1": 55
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/154.ml:4:11: This expression has type \"string\"\nThis is not a function; it cannot be applied."
+    ]
+}

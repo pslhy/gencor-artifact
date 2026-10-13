@@ -1,0 +1,22 @@
+{
+    "decoded": 184,
+    "llm_time": 4.671813011169434,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004616498947143555,
+    "constrainer_time": 0.04356241226196289,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.775050640106201,
+    "frequency": {
+        "1": 185
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:22:38: undefined name 'year'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 129,
+    "llm_time": 3.445317506790161,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031888484954833984,
+    "constrainer_time": 0.03038501739501953,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.525256633758545,
+    "frequency": {
+        "1": 130
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:70: Unbound value \"Seq.toList\""
+    ]
+}

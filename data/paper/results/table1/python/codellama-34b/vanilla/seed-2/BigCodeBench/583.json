@@ -1,0 +1,23 @@
+{
+    "decoded": 309,
+    "llm_time": 16.93443202972412,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008402347564697266,
+    "constrainer_time": 0.07615256309509277,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.125650882720947,
+    "frequency": {
+        "1": 310
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:18:15: undefined module member 'rsa.PBKDF2'",
+        "<python>:18:63: undefined name 'SHA256'"
+    ]
+}

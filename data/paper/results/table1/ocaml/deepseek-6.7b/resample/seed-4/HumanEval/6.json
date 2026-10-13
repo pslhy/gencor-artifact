@@ -1,0 +1,28 @@
+{
+    "decoded": 333,
+    "decoded_at_turn": {
+        "1": 167,
+        "2": 166
+    },
+    "llm_time": 8.726950407028198,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00783848762512207,
+    "constrainer_time": 0.0760030746459961,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.915011644363403,
+    "frequency": {
+        "1": 335
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:65: This expression has type \"'a list\"\nbut an expression was expected of type \"string\""
+    ]
+}

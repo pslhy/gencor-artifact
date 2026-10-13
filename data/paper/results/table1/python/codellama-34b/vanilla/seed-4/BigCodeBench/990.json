@@ -1,0 +1,23 @@
+{
+    "decoded": 451,
+    "llm_time": 24.996981143951416,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011490583419799805,
+    "constrainer_time": 0.1090536117553711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 25.284070253372192,
+    "frequency": {
+        "1": 452
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:29: undefined module member 'base64.shift_jis_encode'",
+        "<python>:16:29: undefined module member 'base64.shift_jis_encode'"
+    ]
+}

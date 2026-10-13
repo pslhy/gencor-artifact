@@ -1,0 +1,23 @@
+{
+    "decoded": 100,
+    "llm_time": 2.584829330444336,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 11.715317726135254,
+    "constrainer_time": 0.0,
+    "total_time": 14.30014705657959,
+    "frequency": {
+        "1": 84,
+        "2": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [],
+    "did_compile": true,
+    "llm_finished": true,
+    "num_tokens_guessed": 86,
+    "num_tokens_generated": 100,
+    "total_realizability_time": 11.715317726135254
+}

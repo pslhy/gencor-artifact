@@ -1,0 +1,31 @@
+{
+    "decoded": 545,
+    "decoded_at_turn": {
+        "1": 104,
+        "2": 108,
+        "3": 108,
+        "4": 112,
+        "5": 113
+    },
+    "llm_time": 13.970945596694946,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013227462768554688,
+    "constrainer_time": 0.12479639053344727,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.328824758529663,
+    "frequency": {
+        "1": 550
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:114: Unbound value \"StringLabels.to_list\""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 117,
+    "llm_time": 2.8656864166259766,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002691030502319336,
+    "constrainer_time": 0.0269315242767334,
+    "total_time": 2.9247090816497803,
+    "frequency": {
+        "1": 118
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2693: 'string' only refers to a type, but is being used as a value here."
+    ]
+}

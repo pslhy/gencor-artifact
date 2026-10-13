@@ -1,0 +1,22 @@
+{
+    "decoded": 108,
+    "llm_time": 2.72401762008667,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029859542846679688,
+    "constrainer_time": 0.024962186813354492,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.7887535095214844,
+    "frequency": {
+        "1": 109
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/445.ml:7:24: Unbound value \"List.head\""
+    ]
+}

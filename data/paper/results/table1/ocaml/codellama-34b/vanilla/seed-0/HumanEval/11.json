@@ -1,0 +1,22 @@
+{
+    "decoded": 108,
+    "llm_time": 5.8439226150512695,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031561851501464844,
+    "constrainer_time": 0.0269012451171875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.906287431716919,
+    "frequency": {
+        "1": 109
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:9: Syntax error"
+    ]
+}

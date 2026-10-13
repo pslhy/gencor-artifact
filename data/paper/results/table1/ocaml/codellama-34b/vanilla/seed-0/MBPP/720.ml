@@ -1,0 +1,20 @@
+let rec add_dict_to_tuple (test_tup :  int * int * int) (test_dict : (string * int) list) :  int * int * int * (string * int) list =
+  match test_dict with
+  | [] -> test_tup, []
+  | (key, value) :: rest ->
+    let new_tuple = match key with
+      | "red" -> (test_tup^"_red", value)
+      | "green" -> (test_tup^"_green", value)
+      | "blue" -> (test_tup^"_blue", value)
+      | _ -> test_tup, []
+    in
+    new_tuple :: (add_dict_to_tuple test_tup rest)
+;;
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to add an association list to the tuple. The output should be a tuple. *)

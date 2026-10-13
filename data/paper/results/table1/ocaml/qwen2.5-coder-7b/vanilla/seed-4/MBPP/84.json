@@ -1,0 +1,22 @@
+{
+    "decoded": 37,
+    "llm_time": 0.9720785617828369,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009615421295166016,
+    "constrainer_time": 0.008633136749267578,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.9937477111816406,
+    "frequency": {
+        "1": 38
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/84.ml:3:8: The function \"sequence\" has type int -> int\nIt is applied to too many arguments"
+    ]
+}

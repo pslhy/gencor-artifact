@@ -1,0 +1,15 @@
+
+function find_solution(a: number, b: number, n: number): [number, number] | undefined {
+    const gcd = (a, b) => b === 0 ? a : gcd(b, a % b);
+    if (n % gcd(a, b) !== 0) return undefined;
+    const x = n / gcd(a, b);
+    const y = (n - (a * x)) / b;
+    return [x, y];
+}
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function that returns integers x and y that satisfy ax + by = n as an array, or return undefined if no solution exists.

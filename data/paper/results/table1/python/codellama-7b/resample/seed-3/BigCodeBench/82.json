@@ -1,0 +1,31 @@
+{
+    "decoded": 2020,
+    "decoded_at_turn": {
+        "1": 490,
+        "2": 370,
+        "3": 370,
+        "4": 395,
+        "5": 395
+    },
+    "llm_time": 51.42023205757141,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.051108598709106445,
+    "constrainer_time": 0.5000560283660889,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 53.20021891593933,
+    "frequency": {
+        "1": 2025
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:27:20: undefined name 'User'"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 117,
+    "llm_time": 2.9406635761260986,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002685070037841797,
+    "constrainer_time": 0.026461362838745117,
+    "total_time": 3.0055832862854004,
+    "frequency": {
+        "1": 118
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 2, '(...items: ConcatArray<boolean>[]): boolean[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'ConcatArray<boolean>'.\n  Overload 2 of 2, '(...items: (boolean | ConcatArray<boolean>)[]): boolean[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'boolean | ConcatArray<boolean>'."
+    ]
+}

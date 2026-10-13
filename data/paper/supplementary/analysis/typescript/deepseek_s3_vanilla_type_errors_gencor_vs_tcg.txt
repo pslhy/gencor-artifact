@@ -1,0 +1,63 @@
+Deepseek s3: vanilla type-error target cases, GenCor type mode vs TCG
+total	30
+gencor_success	16
+gencor_timeout	13
+gencor_type_error_not_timeout	1
+gencor_other_error_not_timeout	0
+gencor_abort	0
+tcg_success	19
+tcg_timeout_like	9
+tcg_type_error_not_timeout	2
+tcg_other_error_not_timeout	0
+
+[pair counts]
+gencor=success	tcg=success	14
+gencor=success	tcg=timeout	2
+gencor=timeout	tcg=success	5
+gencor=timeout	tcg=timeout	7
+gencor=timeout	tcg=type_error	1
+gencor=type_error	tcg=type_error	1
+
+[details by pair]
+
+## gencor=success tcg=success (14)
+HumanEval/158
+mbpp/4
+mbpp/94
+mbpp/252
+mbpp/278
+mbpp/394
+mbpp/410
+mbpp/417
+mbpp/602
+mbpp/720
+mbpp/724
+mbpp/749
+mbpp/773
+mbpp/785
+
+## gencor=success tcg=timeout (2)
+HumanEval/33
+HumanEval/90
+
+## gencor=timeout tcg=success (5)
+mbpp/65
+mbpp/272 gencor_codes=TS2355,TS2367,TS2593
+mbpp/294 gencor_codes=TS2355
+mbpp/564 gencor_codes=TS2355,TS2532
+mbpp/607 gencor_codes=TS2322
+
+## gencor=timeout tcg=timeout (7)
+HumanEval/37 gencor_codes=TS2322
+HumanEval/91 gencor_codes=TS18047,TS2339
+mbpp/77 gencor_codes=TS2366,TS2322
+mbpp/88 gencor_codes=TS7053
+mbpp/130
+mbpp/580 gencor_codes=TS2349
+mbpp/592 gencor_codes=TS2355,TS2322,TS2304
+
+## gencor=timeout tcg=type_error (1)
+mbpp/274 gencor_codes=TS2355,TS2322 tcg_codes=TS2345
+
+## gencor=type_error tcg=type_error (1)
+mbpp/222 gencor_codes=TS2593,TS7006 tcg_codes=TS7006

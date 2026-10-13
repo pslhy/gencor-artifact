@@ -1,0 +1,22 @@
+{
+    "decoded": 120,
+    "llm_time": 3.012678861618042,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0028493404388427734,
+    "constrainer_time": 0.02837395668029785,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.081298828125,
+    "frequency": {
+        "1": 121
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/153.ml:13:29: Unbound value \"String.lowercase_ascii_count\""
+    ]
+}

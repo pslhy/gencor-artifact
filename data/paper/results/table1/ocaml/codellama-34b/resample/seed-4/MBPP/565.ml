@@ -1,0 +1,23 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a mlthon function to split a string into characters. *)
+let rec split (word : string) : string list = 
+    let open String in
+    if length word = 0 then []
+    else (substring word 0 1) :: (split (substring word 1 (length word - 1)))
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:4:11: Unbound value "substring" *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec split (word : string) : string list = 
+    let open String in
+    if length word = 0 then []
+    else (sub word 0 1) :: (split (sub word 1 (length word - 1)))
+

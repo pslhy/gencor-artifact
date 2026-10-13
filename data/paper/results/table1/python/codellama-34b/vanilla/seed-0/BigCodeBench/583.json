@@ -1,0 +1,22 @@
+{
+    "decoded": 253,
+    "llm_time": 13.802218198776245,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006421327590942383,
+    "constrainer_time": 0.0600738525390625,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.952455997467041,
+    "frequency": {
+        "1": 254
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:47: undefined module member 'rsa.get_keylen'"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 210,
+    "llm_time": 11.245526552200317,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005492448806762695,
+    "constrainer_time": 0.012542009353637695,
+    "total_time": 11.319021940231323,
+    "frequency": {
+        "1": 211
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'isinstance'.",
+        "TS2304: Cannot find name 'list'.",
+        "TS2339: Property 'reduce' does not exist on type 'number | number[]'.\n  Property 'reduce' does not exist on type 'number'.",
+        "TS7006: Parameter 'accumulator' implicitly has an 'any' type.",
+        "TS7006: Parameter 'current_value' implicitly has an 'any' type.",
+        "TS2322: Type 'number | number[]' is not assignable to type 'number'.\n  Type 'number[]' is not assignable to type 'number'."
+    ]
+}

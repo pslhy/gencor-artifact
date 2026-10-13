@@ -1,0 +1,321 @@
+{
+    "BigCodeBench/19": {
+        "1": [
+            "<python>:19:10: undefined name 'tempfile'"
+        ],
+        "2": [
+            "<python>:19:12: undefined name 'tempfile'"
+        ],
+        "3": [
+            "<python>:19:12: undefined name 'tempfile'"
+        ],
+        "4": [
+            "<python>:19:12: undefined name 'tempfile'"
+        ],
+        "5": [
+            "<python>:19:12: undefined name 'tempfile'"
+        ]
+    },
+    "BigCodeBench/101": {
+        "1": [
+            "<python>:20:5: invalid syntax",
+            "    except(ValueError):",
+            "    ^"
+        ],
+        "2": [
+            "<python>:7:1: expected an indented block after function definition on line 6",
+            "data = pd.read_csv(data_url)",
+            "^"
+        ],
+        "3": [
+            "<python>:15:40: undefined name 'train_test_split'",
+            "<python>:23:23: undefined name 'LinearRegression'",
+            "<python>:30:11: undefined name 'mean_squared_error'",
+            "<python>:31:10: undefined name 'r2_score'"
+        ],
+        "4": [
+            "<python>:15:40: undefined name 'train_test_split'",
+            "<python>:18:23: undefined name 'LinearRegression'",
+            "<python>:25:11: undefined name 'mean_squared_error'",
+            "<python>:26:10: undefined name 'r2_score'"
+        ],
+        "5": [
+            "<python>:15:40: undefined name 'train_test_split'",
+            "<python>:18:23: undefined name 'LinearRegression'",
+            "<python>:25:11: undefined name 'mean_squared_error'",
+            "<python>:26:10: undefined name 'r2_score'",
+            "<python>:33:16: undefined name 'confusion_matrix'",
+            "<python>:37:37: undefined name 'precision_recall_curve'"
+        ]
+    },
+    "BigCodeBench/211": {
+        "1": [
+            "<python>:10:32: undefined name 'io'"
+        ],
+        "2": [
+            "<python>:10:32: undefined name 'io'"
+        ]
+    },
+    "BigCodeBench/274": {
+        "1": [
+            "<python>:28:28: undefined module member 'http.server.RESPONSE_200'"
+        ],
+        "2": [
+            "<python>:28:28: undefined module member 'http.server.RESPONSE_200'"
+        ]
+    },
+    "BigCodeBench/418": {
+        "1": [
+            "<python>:25:37: undefined name 'precision_recall_curve'"
+        ],
+        "2": [
+            "<python>:25:37: undefined name 'precision_recall_curve'"
+        ],
+        "3": [
+            "<python>:34:37: undefined name 'precision_recall_curve'"
+        ],
+        "4": [
+            "<python>:36:37: undefined name 'precision_recall_curve'"
+        ],
+        "5": [
+            "<python>:36:37: undefined name 'precision_recall_curve'"
+        ]
+    },
+    "BigCodeBench/458": {
+        "1": [
+            "<python>:18:31: undefined name 'normalize_value'"
+        ]
+    },
+    "BigCodeBench/461": {
+        "1": [
+            "<python>:21:29: undefined module member 'psutil.process_memory_info'"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "<python>:16:42: unterminated string literal (detected at line 16)",
+            "    for line_num, line1 in enumerate(df1['content].tolist()):",
+            "                                         ^"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "<python>:26:28: Generator expression must be parenthesized",
+            "        plt.bar(top_words, counter[word] for word in top_words)",
+            "                           ^"
+        ],
+        "2": [
+            "<python>:26:28: Generator expression must be parenthesized",
+            "        plt.bar(top_words, counter[word] for word in top_words)",
+            "                           ^"
+        ],
+        "3": [
+            "<python>:32:47: Generator expression must be parenthesized",
+            "        return plt.gca(), list(zip(top_words, counter[word] for word in top_words))",
+            "                                              ^"
+        ],
+        "4": [
+            "<python>:32:47: Generator expression must be parenthesized",
+            "        return plt.gca(), list(zip(top_words, counter[word] for word in top_words))",
+            "                                              ^"
+        ],
+        "5": [
+            "<python>:32:47: Generator expression must be parenthesized",
+            "        return plt.gca(), list(zip(top_words, counter[word] for word in top_words))",
+            "                                              ^"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:13:115: unexpected character after line continuation character",
+            "    aes_cipher = AES.new(b64encode(get_random_bytes(16)), AES.MODE_GCM, nonce = b'@\\xf3\\xdap\\x1f\\xa2\\xc3\\xba\\xd7'\\data2'), AES.MODE_GCM, nonce = b'@\\xf3\\xdap\\x1f\\xa2\\xc3\\xba\\xd7')",
+            "                                                                                                                  ^"
+        ],
+        "2": [
+            "<python>:9:1: expected an indented block after function definition on line 7",
+            "priv_key = rsa.PrivateKey.generate(2048)",
+            "^"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:24:40: undefined name 'hashes'",
+            "<python>:25:23: undefined name 'hashes'"
+        ],
+        "2": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:24:40: undefined name 'hashes'",
+            "<python>:25:23: undefined name 'hashes'"
+        ],
+        "3": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:28:40: undefined name 'hashes'",
+            "<python>:29:23: undefined name 'hashes'"
+        ],
+        "4": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:24:40: undefined name 'hashes'",
+            "<python>:25:23: undefined name 'hashes'"
+        ],
+        "5": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:24:40: undefined name 'hashes'",
+            "<python>:25:23: undefined name 'hashes'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:16:15: undefined name 'URLError'"
+        ],
+        "2": [
+            "<python>:13:15: undefined name 'URLError'"
+        ],
+        "3": [
+            "<python>:13:15: undefined name 'URLError'"
+        ],
+        "4": [
+            "<python>:13:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/654": {
+        "1": [
+            "<python>:19:43: undefined name 't'",
+            "<python>:26:45: undefined name 'time'"
+        ],
+        "2": [
+            "<python>:19:43: undefined name 't'",
+            "<python>:26:45: undefined name 'time'"
+        ],
+        "3": [
+            "<python>:19:43: undefined name 't'",
+            "<python>:26:45: undefined name 't'"
+        ],
+        "4": [
+            "<python>:26:45: undefined name 'time'"
+        ],
+        "5": [
+            "<python>:26:45: undefined name 'time'",
+            "<python>:29:38: undefined name 'dt'"
+        ]
+    },
+    "BigCodeBench/771": {
+        "1": [
+            "<python>:21:29: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:14:29: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:14:29: undefined name 'datetime'"
+        ],
+        "4": [
+            "<python>:14:29: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:14:29: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/857": {
+        "1": [
+            "<python>:37:40: undefined name 'start'"
+        ],
+        "2": [
+            "<python>:37:40: undefined name 'start'"
+        ]
+    },
+    "BigCodeBench/915": {
+        "1": [
+            "<python>:11:18: undefined name 'pd'"
+        ],
+        "2": [
+            "<python>:11:18: undefined name 'pd'"
+        ],
+        "3": [
+            "<python>:11:18: undefined name 'pd'"
+        ],
+        "4": [
+            "<python>:11:18: undefined name 'pd'"
+        ],
+        "5": [
+            "<python>:11:18: undefined name 'pd'"
+        ]
+    },
+    "BigCodeBench/964": {
+        "1": [
+            "<python>:26:31: undefined module member 'docx.read_docx'"
+        ],
+        "2": [
+            "<python>:20:37: undefined module member 'docx.read_docx'"
+        ],
+        "3": [
+            "<python>:20:37: undefined module member 'docx.read_docx'"
+        ]
+    },
+    "BigCodeBench/990": {
+        "1": [
+            "<python>:20:25: undefined module member 'codecs.rot_encode'"
+        ],
+        "2": [
+            "<python>:23:57: invalid character '\ufffd' (U+FFFD)",
+            "    if codecs.decode(utf8_string, \"ascii\") \u5b9a\u6709 RuntimeWAR\ufffd\ufffd\ufffd:  return encoded_strings",
+            "                                                        ^"
+        ]
+    },
+    "BigCodeBench/1006": {
+        "1": [
+            "<python>:12:16: undefined name 'urlparse'"
+        ]
+    },
+    "BigCodeBench/1040": {
+        "1": [
+            "<python>:24:38: undefined name 'threading'",
+            "<python>:27:35: undefined name 'threading'",
+            "<python>:42:35: undefined name 'buffer_size'"
+        ],
+        "2": [
+            "<python>:20:30: undefined name 'threading'",
+            "<python>:23:27: undefined name 'threading'",
+            "<python>:38:35: undefined name 'buffer_size'"
+        ],
+        "3": [
+            "<python>:20:30: undefined name 'threading'",
+            "<python>:23:27: undefined name 'threading'",
+            "<python>:38:35: undefined name 'buffer_size'"
+        ],
+        "4": [
+            "<python>:20:30: undefined name 'threading'",
+            "<python>:23:27: undefined name 'threading'",
+            "<python>:38:35: undefined name 'buffer_size'",
+            "<python>:53:17: undefined name 'threading'"
+        ],
+        "5": [
+            "<python>:20:30: undefined name 'threading'",
+            "<python>:23:27: undefined name 'threading'",
+            "<python>:38:35: undefined name 'buffer_size'",
+            "<python>:53:17: undefined name 'threading'"
+        ]
+    },
+    "BigCodeBench/1053": {
+        "1": [
+            "<python>:9:12: undefined name 'os'",
+            "<python>:22:17: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:9:12: undefined name 'os'",
+            "<python>:19:17: undefined name 'np'"
+        ],
+        "3": [
+            "<python>:9:12: undefined name 'os'",
+            "<python>:19:17: undefined name 'np'"
+        ],
+        "4": [
+            "<python>:9:12: undefined name 'os'",
+            "<python>:19:17: undefined name 'np'"
+        ],
+        "5": [
+            "<python>:9:12: undefined name 'os'",
+            "<python>:19:17: undefined name 'np'"
+        ]
+    }
+}

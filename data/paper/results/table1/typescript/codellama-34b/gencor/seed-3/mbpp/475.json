@@ -1,0 +1,43 @@
+{
+    "on_accept_time": 1.1682510375976562e-05,
+    "check_after_gen_feed_time": 3.535682439804077,
+    "type_inspect_time": 0.11835026741027832,
+    "type_inspect_count": 8082,
+    "symbols_to_check_time": 0.8252332210540771,
+    "type_api_time": 0.12242215685546398,
+    "type_api_count": 13,
+    "type_api_cache_hits": 9673,
+    "type_frontier_time": 0.05462737940251827,
+    "type_frontier_count": 1599,
+    "type_reachability_time": 0.0018033254891633987,
+    "type_reachability_count": 1599,
+    "analyze_time": 0.4214022159576416,
+    "check_after_gen_feed_count": 20,
+    "decoded": 6,
+    "type_active_time": 0.24880003929138184,
+    "type_active_count": 1599,
+    "type_reduced_time": 0.00011849403381347656,
+    "type_reduced_count": 12,
+    "semantic_reject": 1511,
+    "llm_time": 84.23471331596375,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 4.6736767292022705,
+    "constrainer_time": 0.029903411865234375,
+    "attribute_memo_store_time": 0.004787445068359375,
+    "attribute_memo_store_calls": 1634,
+    "attribute_memo_load_time": 0.061330318450927734,
+    "attribute_memo_load_calls": 5349,
+    "total_time": 90.03029537200928,
+    "frequency": {
+        "1": 6,
+        "1550": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": true,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'number' is not assignable to type '[string, number][]'."
+    ]
+}

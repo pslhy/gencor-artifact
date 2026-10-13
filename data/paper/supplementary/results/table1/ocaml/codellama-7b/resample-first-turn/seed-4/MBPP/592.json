@@ -1,0 +1,22 @@
+{
+    "decoded": 213,
+    "llm_time": 5.3627402782440186,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005102634429931641,
+    "constrainer_time": 0.049953460693359375,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.477586507797241,
+    "frequency": {
+        "1": 214
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:24: Unbound value \"binomial_coefficient\""
+    ]
+}

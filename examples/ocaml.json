@@ -1,0 +1,8 @@
+[
+  {
+    "task_id": "custom/0",
+    "system_prompt": "You are an expert in OCaml. Complete the supplied code and close the OCaml code fence. Output code only.",
+    "user_prompt": "Write a function that returns the sum of two integers.",
+    "code_prompt": "let add (a : int) (b : int) : int = "
+  }
+]

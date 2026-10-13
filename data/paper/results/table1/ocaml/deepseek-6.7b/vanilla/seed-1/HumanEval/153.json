@@ -1,0 +1,22 @@
+{
+    "decoded": 304,
+    "llm_time": 7.759641885757446,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007564544677734375,
+    "constrainer_time": 0.07127141952514648,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.941126823425293,
+    "frequency": {
+        "1": 305
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/153.ml:5:58: Unbound value \"Char.uppercase\""
+    ]
+}

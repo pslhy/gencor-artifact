@@ -1,0 +1,22 @@
+{
+    "decoded": 296,
+    "llm_time": 7.72468376159668,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0072858333587646484,
+    "constrainer_time": 0.06844925880432129,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.883955955505371,
+    "frequency": {
+        "1": 297
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/129.ml:11:41: Unbound value \"row_sum\"\nHint: Did you mean \"col_sum\"?"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "HumanEval/10": [
+        "test.ml:2:17: Unbound value \"String.rev\""
+    ],
+    "HumanEval/101": [
+        "test.ml:6:53: Unbound value \"String.trim_start\""
+    ],
+    "HumanEval/104": [
+        "test.ml:4:70: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/107": [
+        "test.ml:4:12: Unbound value \"String.rev\""
+    ],
+    "HumanEval/112": [
+        "test.ml:11:29: Unbound value \"String.rev\""
+    ],
+    "HumanEval/116": [
+        "test.ml:4:40: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/117": [
+        "test.ml:4:20: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/120": [
+        "test.ml:3:3: Unbound value \"List.take\""
+    ],
+    "HumanEval/141": [
+        "test.ml:9:22: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/153": [
+        "test.ml:3:30: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/54": [
+        "test.ml:2:65: Unbound value \"String.split\"\nHint: Did you mean \"blit\"?"
+    ],
+    "HumanEval/80": [
+        "test.ml:8:30: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/93": [
+        "test.ml:3:13: Unbound value \"Char.is_alpha\""
+    ],
+    "MBPP/100": [
+        "test.ml:4:12: Unbound value \"String.rev\""
+    ],
+    "MBPP/141": [
+        "test.ml:5:20: Unbound value \"List.take\""
+    ],
+    "MBPP/456": [
+        "test.ml:4:15: Unbound value \"String.rev\""
+    ],
+    "MBPP/474": [
+        "test.ml:4:36: Unbound value \"Char.of_string\""
+    ],
+    "MBPP/604": [
+        "test.ml:8:33: Unbound value \"String.rev\""
+    ],
+    "MBPP/734": [
+        "test.ml:5:19: Unbound value \"List.sub\""
+    ],
+    "MBPP/753": [
+        "test.ml:4:8: Unbound value \"List.takek\""
+    ],
+    "MBPP/757": [
+        "test.ml:6:58: Unbound value \"String.rev\""
+    ],
+    "MBPP/806": [
+        "test.ml:2:22: Unbound module \"Str\""
+    ]
+}

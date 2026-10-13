@@ -1,0 +1,22 @@
+{
+    "BigCodeBench/17": [
+        "BigCodeBench/17.py:19:22: undefined name 'process_name'"
+    ],
+    "BigCodeBench/108": [
+        "BigCodeBench/108.py:20:84: undefined name 'datetime'",
+        "BigCodeBench/108.py:20:142: undefined name 'datetime'"
+    ],
+    "BigCodeBench/267": [
+        "BigCodeBench/267.py:7:20: undefined name 'datetime'",
+        "BigCodeBench/267.py:8:19: undefined name 'datetime'"
+    ],
+    "BigCodeBench/486": [
+        "BigCodeBench/486.py:12:15: undefined name 'plt'"
+    ],
+    "BigCodeBench/590": [
+        "BigCodeBench/590.py:25:15: undefined name 'URLError'"
+    ],
+    "BigCodeBench/906": [
+        "BigCodeBench/906.py:15:22: undefined name 'datetime'"
+    ]
+}

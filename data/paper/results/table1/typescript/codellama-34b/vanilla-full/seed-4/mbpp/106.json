@@ -1,0 +1,24 @@
+{
+    "decoded": 100,
+    "llm_time": 5.3212034702301025,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0025501251220703125,
+    "constrainer_time": 0.005968570709228516,
+    "total_time": 5.355225563049316,
+    "frequency": {
+        "1": 101
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2532: Object is possibly 'undefined'.",
+        "TS2493: Tuple type '[number, number]' of length '2' has no element at index '2'.",
+        "TS2532: Object is possibly 'undefined'.",
+        "TS2493: Tuple type '[number, number]' of length '2' has no element at index '3'.",
+        "TS2532: Object is possibly 'undefined'.",
+        "TS2493: Tuple type '[number, number]' of length '2' has no element at index '4'."
+    ]
+}

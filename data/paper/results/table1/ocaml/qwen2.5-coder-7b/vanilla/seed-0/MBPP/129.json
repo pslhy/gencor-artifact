@@ -1,0 +1,22 @@
+{
+    "decoded": 209,
+    "llm_time": 5.5420002937316895,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005094051361083984,
+    "constrainer_time": 0.04822659492492676,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.665592908859253,
+    "frequency": {
+        "1": 210
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/129.ml:10:27: Unbound value \"List.tail\""
+    ]
+}

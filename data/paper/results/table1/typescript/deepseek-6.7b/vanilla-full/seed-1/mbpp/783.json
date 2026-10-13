@@ -1,0 +1,20 @@
+{
+    "decoded": 238,
+    "llm_time": 5.7251176834106445,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005387783050537109,
+    "constrainer_time": 0.05211639404296875,
+    "total_time": 5.844402551651001,
+    "frequency": {
+        "1": 239
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2454: Variable 'h' is used before being assigned.",
+        "TS2454: Variable 'h' is used before being assigned."
+    ]
+}

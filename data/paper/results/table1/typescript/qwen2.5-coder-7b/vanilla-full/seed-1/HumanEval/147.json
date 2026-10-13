@@ -1,0 +1,19 @@
+{
+    "decoded": 0,
+    "llm_time": 0.029833316802978516,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 3.4332275390625e-05,
+    "constrainer_time": 0.0004215240478515625,
+    "total_time": 0.030646324157714844,
+    "frequency": {
+        "1": 1
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+    ]
+}

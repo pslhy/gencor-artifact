@@ -1,0 +1,22 @@
+{
+    "decoded": 114,
+    "llm_time": 6.086025238037109,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0037233829498291016,
+    "constrainer_time": 0.029016733169555664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.153675079345703,
+    "frequency": {
+        "1": 115
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:8: Unbound value \"List.mapint\"\nHint: Did you mean \"mapi\"?"
+    ]
+}

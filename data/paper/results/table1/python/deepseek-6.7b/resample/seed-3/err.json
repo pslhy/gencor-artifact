@@ -1,0 +1,64 @@
+{
+    "BigCodeBench/461": {
+        "1": [
+            "<python>:31:16: undefined module member 'psutil.sleep'"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:13:62: undefined module member 'rsa.key.exportKey'"
+        ]
+    },
+    "BigCodeBench/655": {
+        "1": [
+            "<python>:20:75: undefined name 'num_top_words'"
+        ]
+    },
+    "BigCodeBench/971": {
+        "1": [
+            "<python>:19:1: invalid syntax",
+            ">>> result = task_func('/path/to/directory') ",
+            "^"
+        ],
+        "2": [
+            "<python>:19:1: invalid syntax",
+            ">>> result = task_func('/path/to/directory') ",
+            "^"
+        ],
+        "3": [
+            "<python>:19:1: invalid syntax",
+            ">>> result = task_func('/path/to/directory') ",
+            "^"
+        ],
+        "4": [
+            "<python>:19:1: invalid syntax",
+            ">>> result = task_func('/path/to/directory') ",
+            "^"
+        ],
+        "5": [
+            "<python>:19:1: invalid syntax",
+            ">>> result = task_func('/path/to/directory') ",
+            "^"
+        ]
+    },
+    "BigCodeBench/1004": {
+        "1": [
+            "<python>:7:18: undefined name 'datetime'",
+            "<python>:25:16: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/1042": {
+        "1": [
+            "<python>:28:15: undefined name 'ssl'"
+        ],
+        "2": [
+            "<python>:28:15: undefined name 'ssl'"
+        ],
+        "3": [
+            "<python>:28:15: undefined name 'ssl'"
+        ],
+        "4": [
+            "<python>:28:15: undefined name 'ssl'"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 104,
+    "llm_time": 2.6819281578063965,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0025784969329833984,
+    "constrainer_time": 0.023778915405273438,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.7440121173858643,
+    "frequency": {
+        "1": 105
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/54.ml:6:35: Unbound value \"Map.add\""
+    ]
+}

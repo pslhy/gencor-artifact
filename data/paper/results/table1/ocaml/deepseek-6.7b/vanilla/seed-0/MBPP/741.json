@@ -1,0 +1,22 @@
+{
+    "decoded": 60,
+    "llm_time": 1.568631649017334,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014693737030029297,
+    "constrainer_time": 0.014090299606323242,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.5998265743255615,
+    "frequency": {
+        "1": 61
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/741.ml:6:9: Unbound value \"String.forall\"\nHint: Did you mean \"for_all\"?"
+    ]
+}

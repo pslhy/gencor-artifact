@@ -1,0 +1,22 @@
+{
+    "decoded": 124,
+    "llm_time": 3.2871787548065186,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003063201904296875,
+    "constrainer_time": 0.029990434646606445,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3541572093963623,
+    "frequency": {
+        "1": 125
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/451.ml:7:78: Syntax error: \")\" expected"
+    ]
+}

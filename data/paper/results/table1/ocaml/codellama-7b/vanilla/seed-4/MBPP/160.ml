@@ -1,0 +1,30 @@
+let rec find_solution (a : int) (b : int) (n : int) :  int * int option = 
+    match (find_solution a b (n-a)) with
+    | (None, None) -> None
+    | (x, Some y) -> Some(x, y)
+    | (Some x, None) -> Some(x, n-x)
+
+And find_solution recursion function:
+
+let rec find_solution (a : int) (b : int) (n : int) :  option = 
+    if a == 0 || b == 0 then None else
+    if n == 0 then (n, None) else
+    if is_remainder(a, n) || is_remainder(b, n) then None else
+    if a < b then
+        match find_solution (a+1, b, n) with
+        | Some(x, y) -> Some(x, y)
+        | None -> find_solution (a, b-1, n)
+    else
+        match find_solution (a, b+1, n) with
+        | Some(x, y) -> Some(x, y)
+        | None -> find_solution (a-1, b, n)
+
+let is_remainder (a : int) (n : int) : bool = a % n == 0
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function that returns integers x and y that satisfy ax + by = n as a tuple, or return None if no solution exists. *)

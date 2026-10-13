@@ -1,0 +1,4874 @@
+{
+ "exp": "ts-tcd-vcompileerr",
+ "out": "/root/gencor2/output/popl27",
+ "runs": [
+  {
+   "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "tag": "qwen2.5-coder-7b",
+   "seed": 0,
+   "variant": "type-cerr-s0",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 56,
+     "timeout": 6
+    },
+    "mbpp": {
+     "ok": 32,
+     "timeout": 4,
+     "type": 1
+    }
+   },
+   "n_rerun": 1,
+   "cases": [
+    {
+     "case": "HumanEval/0",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/1",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/10",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/20",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/21",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/25",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/31",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/37",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/39",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/46",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/56",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/59",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/61",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/63",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/64",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/66",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/68",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/69",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/71",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/72",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/75",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/80",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/82",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/89",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/95",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/96",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/100",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/102",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/103",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/107",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/109",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/110",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/117",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/118",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/119",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/123",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/124",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/125",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/127",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/130",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/134",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/135",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/139",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/141",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/143",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/144",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/146",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/150",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/153",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/156",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/158",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/161",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/162",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/163",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/3",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/88",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/97",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/103",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/104",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/141",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/160",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/162",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/167",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/222",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/260",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/261",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/273",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/294",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/389",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/399",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/410",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/429",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/440",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS18048"
+     ]
+    },
+    {
+     "case": "mbpp/470",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/580",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/595",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/598",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/616",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/751",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/783",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/807",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "tag": "qwen2.5-coder-7b",
+   "seed": 1,
+   "variant": "type-cerr-s1",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 132,
+     "timeout": 9
+    },
+    "mbpp": {
+     "ok": 56,
+     "timeout": 14,
+     "type": 1
+    }
+   },
+   "n_rerun": 1,
+   "cases": [
+    {
+     "case": "HumanEval/0",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/1",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/2",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/3",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/5",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/6",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/7",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/9",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/10",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/11",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/12",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/13",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/15",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/16",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/17",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/18",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/21",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/22",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/23",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/24",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/25",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/26",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/28",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/29",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/31",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/33",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/36",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/39",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/40",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/41",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/43",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/44",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/45",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/46",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/47",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/48",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/49",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/51",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/52",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/53",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/55",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/56",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/59",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/60",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/61",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/62",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/63",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/64",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/66",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/67",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/68",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/69",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/70",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/71",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/72",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/73",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/74",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/75",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/76",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/77",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/78",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/79",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/80",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/82",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/85",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/86",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/87",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/88",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/89",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/90",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/91",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/92",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/93",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/94",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/95",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/96",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/97",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/98",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/99",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/100",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/102",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/103",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/104",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/105",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/107",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/108",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/109",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/110",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/112",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/114",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/115",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/116",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/117",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/118",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/119",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/120",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/123",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/124",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/125",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/126",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/127",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/128",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/129",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/130",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/131",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/132",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/134",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/135",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/136",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/138",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/139",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/141",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/142",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/143",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/144",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/145",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/146",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/147",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/150",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/151",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/152",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/153",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/154",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/155",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/157",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/158",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/159",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/160",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/161",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/162",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/163",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/3",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/67",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/80",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/86",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/92",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/93",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/100",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/101",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/103",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/119",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/125",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/126",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/160",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/162",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/164",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/167",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/229",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/239",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/257",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/265",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/268",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/270",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/273",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/309",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/388",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/389",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/392",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/393",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/399",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/400",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2345"
+     ]
+    },
+    {
+     "case": "mbpp/404",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/406",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/408",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/429",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/452",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/555",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/578",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/597",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/598",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/599",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/612",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/619",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/630",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/724",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/735",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/738",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/742",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/749",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/751",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/781",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/799",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/804",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "tag": "qwen2.5-coder-7b",
+   "seed": 2,
+   "variant": "type-cerr-s2",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 71,
+     "timeout": 7
+    },
+    "mbpp": {
+     "ok": 24,
+     "type": 2,
+     "timeout": 10
+    }
+   },
+   "n_rerun": 2,
+   "cases": [
+    {
+     "case": "HumanEval/0",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/3",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/4",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/12",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/20",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/24",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/31",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/36",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/39",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/46",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/48",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/51",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/55",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/56",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/59",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/61",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/63",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/64",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/68",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/69",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/71",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/72",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/73",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/75",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/76",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/78",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/79",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/80",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/82",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/87",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/88",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/89",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/92",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/93",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/95",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/96",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/99",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/100",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/102",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/103",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/105",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/108",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/110",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/112",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/117",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/118",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/119",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/123",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/124",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/125",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/127",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/128",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/129",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/130",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/131",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/134",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/135",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/136",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/139",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/140",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/141",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/147",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/150",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/153",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/155",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/157",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/158",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/161",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/162",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/163",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/19",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/57",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/63",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2345"
+     ]
+    },
+    {
+     "case": "mbpp/92",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/103",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/160",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/162",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/167",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/239",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/283",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/290",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/392",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/417",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/555",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/594",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS18048"
+     ]
+    },
+    {
+     "case": "mbpp/616",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/721",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/735",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/753",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/780",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/783",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "tag": "qwen2.5-coder-7b",
+   "seed": 3,
+   "variant": "type-cerr-s3",
+   "benchmarks": {
+    "HumanEval": {
+     "timeout": 1,
+     "ok": 1
+    },
+    "mbpp": {
+     "ok": 17,
+     "timeout": 6,
+     "type": 1
+    }
+   },
+   "n_rerun": 1,
+   "cases": [
+    {
+     "case": "HumanEval/59",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/71",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/143",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/261",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/273",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/277",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/408",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/417",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/429",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/457",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/584",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS18048"
+     ]
+    },
+    {
+     "case": "mbpp/602",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/643",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/769",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/780",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "tag": "qwen2.5-coder-7b",
+   "seed": 4,
+   "variant": "type-cerr-s4",
+   "benchmarks": {
+    "HumanEval": {
+     "timeout": 2,
+     "other": 1,
+     "ok": 5
+    },
+    "mbpp": {
+     "ok": 16,
+     "timeout": 5,
+     "type": 3
+    }
+   },
+   "n_rerun": 3,
+   "cases": [
+    {
+     "case": "HumanEval/95",
+     "bucket": "other",
+     "syntactic": [],
+     "semantic": [
+      "TS1117"
+     ]
+    },
+    {
+     "case": "HumanEval/96",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/126",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/127",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/129",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/130",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/57",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/260",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/261",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/273",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/399",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/408",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/440",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/446",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/448",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/470",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/592",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/607",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS18048"
+     ]
+    },
+    {
+     "case": "mbpp/630",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/757",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/780",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2345"
+     ]
+    },
+    {
+     "case": "mbpp/784",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS18048",
+      "TS18048"
+     ]
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "codellama/CodeLlama-7b-Instruct-hf",
+   "tag": "codellama-7b",
+   "seed": 0,
+   "variant": "type-cerr-s0",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 6,
+     "timeout": 14,
+     "type": 1
+    },
+    "mbpp": {
+     "timeout": 22,
+     "ok": 33,
+     "type": 4,
+     "syntax": 1,
+     "other": 2
+    }
+   },
+   "n_rerun": 6,
+   "cases": [
+    {
+     "case": "HumanEval/20",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/104",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/115",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/131",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/153",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/155",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/158",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS1155",
+      "TS2454",
+      "TS2839",
+      "TS2454",
+      "TS2454"
+     ]
+    },
+    {
+     "case": "mbpp/18",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/56",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/61",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/63",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/71",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/92",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/97",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/125",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/131",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/132",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/142",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2345"
+     ]
+    },
+    {
+     "case": "mbpp/223",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/259",
+     "bucket": "syntax",
+     "syntactic": [
+      "TS1005",
+      "TS1005"
+     ],
+     "semantic": [
+      "TS2322",
+      "TS2322"
+     ]
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/290",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/296",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/393",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/428",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/429",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/434",
+     "bucket": "other",
+     "syntactic": [],
+     "semantic": [
+      "TS1534"
+     ]
+    },
+    {
+     "case": "mbpp/455",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/560",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS1155",
+      "TS1155",
+      "TS2454",
+      "TS2365",
+      "TS2454",
+      "TS2454",
+      "TS2454"
+     ]
+    },
+    {
+     "case": "mbpp/577",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/584",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/592",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/594",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS18048"
+     ]
+    },
+    {
+     "case": "mbpp/595",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/616",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/641",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2345"
+     ]
+    },
+    {
+     "case": "mbpp/733",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/744",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/747",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/780",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/788",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/805",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/806",
+     "bucket": "other",
+     "syntactic": [],
+     "semantic": [
+      "TS2839",
+      "TS2839"
+     ]
+    }
+   ]
+  },
+  {
+   "model": "codellama/CodeLlama-7b-Instruct-hf",
+   "tag": "codellama-7b",
+   "seed": 1,
+   "variant": "type-cerr-s1",
+   "benchmarks": {
+    "HumanEval": {
+     "timeout": 7,
+     "ok": 7,
+     "type": 1,
+     "syntax": 1
+    },
+    "mbpp": {
+     "ok": 28,
+     "timeout": 17,
+     "type": 2
+    }
+   },
+   "n_rerun": 4,
+   "cases": [
+    {
+     "case": "HumanEval/56",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/68",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/104",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/109",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/113",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/124",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/144",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/146",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS7015"
+     ]
+    },
+    {
+     "case": "HumanEval/158",
+     "bucket": "syntax",
+     "syntactic": [
+      "TS1005"
+     ],
+     "semantic": [
+      "TS2454"
+     ]
+    },
+    {
+     "case": "mbpp/56",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/64",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/83",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/119",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/128",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/129",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/130",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2454"
+     ]
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/259",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/261",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/278",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS7053"
+     ]
+    },
+    {
+     "case": "mbpp/305",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/399",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/428",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/440",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/455",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/556",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/567",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/578",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/584",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/607",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/742",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/744",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/747",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/762",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/785",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/788",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "codellama/CodeLlama-7b-Instruct-hf",
+   "tag": "codellama-7b",
+   "seed": 2,
+   "variant": "type-cerr-s2",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 8,
+     "timeout": 4,
+     "type": 1
+    },
+    "mbpp": {
+     "ok": 27,
+     "timeout": 29,
+     "type": 1
+    }
+   },
+   "n_rerun": 2,
+   "cases": [
+    {
+     "case": "HumanEval/6",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/54",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/87",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/91",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/105",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/129",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/147",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/158",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2454",
+      "TS18047",
+      "TS2454"
+     ]
+    },
+    {
+     "case": "HumanEval/162",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/59",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/67",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/165",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS7015"
+     ]
+    },
+    {
+     "case": "mbpp/229",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/283",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/285",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/305",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/428",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/437",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/440",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/454",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/555",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/584",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/607",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/610",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/616",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/635",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/641",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/725",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/744",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/756",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/759",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/773",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/785",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/806",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "codellama/CodeLlama-7b-Instruct-hf",
+   "tag": "codellama-7b",
+   "seed": 3,
+   "variant": "type-cerr-s3",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 4,
+     "type": 1,
+     "timeout": 3
+    },
+    "mbpp": {
+     "ok": 23,
+     "timeout": 39,
+     "other": 2,
+     "type": 4
+    }
+   },
+   "n_rerun": 5,
+   "cases": [
+    {
+     "case": "HumanEval/10",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/47",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/118",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2454",
+      "TS2454",
+      "TS2454"
+     ]
+    },
+    {
+     "case": "HumanEval/124",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/127",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/56",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/71",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/77",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/89",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/116",
+     "bucket": "other",
+     "syntactic": [],
+     "semantic": [
+      "TS2393",
+      "TS2393",
+      "TS2393"
+     ]
+    },
+    {
+     "case": "mbpp/135",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2322"
+     ]
+    },
+    {
+     "case": "mbpp/143",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/222",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/283",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/422",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/431",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/445",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/446",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/573",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS1155",
+      "TS2362",
+      "TS2454",
+      "TS2363",
+      "TS2454"
+     ]
+    },
+    {
+     "case": "mbpp/579",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2454",
+      "TS2454",
+      "TS2454",
+      "TS2454",
+      "TS2454",
+      "TS2454",
+      "TS2454",
+      "TS2454"
+     ]
+    },
+    {
+     "case": "mbpp/587",
+     "bucket": "other",
+     "syntactic": [],
+     "semantic": [
+      "TS2839"
+     ]
+    },
+    {
+     "case": "mbpp/592",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2322"
+     ]
+    },
+    {
+     "case": "mbpp/616",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/743",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/748",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/754",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/780",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/788",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/805",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/807",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "codellama/CodeLlama-7b-Instruct-hf",
+   "tag": "codellama-7b",
+   "seed": 4,
+   "variant": "type-cerr-s4",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 10,
+     "timeout": 5
+    },
+    "mbpp": {
+     "ok": 29,
+     "name": 1,
+     "timeout": 20,
+     "other": 1,
+     "syntax": 1
+    }
+   },
+   "n_rerun": 2,
+   "cases": [
+    {
+     "case": "HumanEval/11",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/19",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/20",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/54",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/58",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/60",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/74",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/87",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/113",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/156",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/83",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/84",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "name",
+     "syntactic": [],
+     "semantic": [
+      "TS2322",
+      "TS2304",
+      "TS2693",
+      "TS2695",
+      "TS2695",
+      "TS2695",
+      "TS2695",
+      "TS2693",
+      "TS2693",
+      "TS2693",
+      "TS2693"
+     ]
+    },
+    {
+     "case": "mbpp/108",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/141",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/242",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/245",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/262",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/294",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/399",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/407",
+     "bucket": "other",
+     "syntactic": [],
+     "semantic": [
+      "TS1155",
+      "TS1155"
+     ]
+    },
+    {
+     "case": "mbpp/419",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/422",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/444",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/470",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/557",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/579",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/580",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/584",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/598",
+     "bucket": "syntax",
+     "syntactic": [
+      "TS1005",
+      "TS1109",
+      "TS1005",
+      "TS1005",
+      "TS1351"
+     ],
+     "semantic": [
+      "TS2304"
+     ]
+    },
+    {
+     "case": "mbpp/619",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/624",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/635",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/641",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/742",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/744",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/794",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "deepseek-ai/deepseek-coder-6.7b-instruct",
+   "tag": "deepseek-6.7b",
+   "seed": 0,
+   "variant": "type-cerr-s0",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 3,
+     "timeout": 3,
+     "type": 1
+    },
+    "mbpp": {
+     "ok": 24,
+     "timeout": 13
+    }
+   },
+   "n_rerun": 1,
+   "cases": [
+    {
+     "case": "HumanEval/24",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/26",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/91",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS18047",
+      "TS2774"
+     ]
+    },
+    {
+     "case": "HumanEval/105",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/308",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/399",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/413",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/415",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/443",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/446",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/584",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/587",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/597",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/616",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/617",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/720",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/740",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/766",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/769",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/771",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/780",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/783",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/788",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "deepseek-ai/deepseek-coder-6.7b-instruct",
+   "tag": "deepseek-6.7b",
+   "seed": 1,
+   "variant": "type-cerr-s1",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 6,
+     "timeout": 4
+    },
+    "mbpp": {
+     "ok": 13,
+     "timeout": 7
+    }
+   },
+   "n_rerun": 0,
+   "cases": [
+    {
+     "case": "HumanEval/16",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/33",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/37",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/67",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/94",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/146",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/4",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/130",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/131",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/304",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/421",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/597",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/635",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/777",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/783",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "deepseek-ai/deepseek-coder-6.7b-instruct",
+   "tag": "deepseek-6.7b",
+   "seed": 2,
+   "variant": "type-cerr-s2",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 8,
+     "timeout": 2
+    },
+    "mbpp": {
+     "timeout": 13,
+     "ok": 16,
+     "type": 1
+    }
+   },
+   "n_rerun": 1,
+   "cases": [
+    {
+     "case": "HumanEval/10",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/16",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/24",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/26",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/37",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/69",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/105",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/146",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/19",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/88",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/130",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/261",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/297",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/394",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/395",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/400",
+     "bucket": "type",
+     "syntactic": [],
+     "semantic": [
+      "TS2345"
+     ]
+    },
+    {
+     "case": "mbpp/415",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/446",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/566",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/580",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/597",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/749",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/757",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/780",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/791",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "deepseek-ai/deepseek-coder-6.7b-instruct",
+   "tag": "deepseek-6.7b",
+   "seed": 3,
+   "variant": "type-cerr-s3",
+   "benchmarks": {
+    "HumanEval": {
+     "syntax": 1,
+     "ok": 2,
+     "timeout": 3
+    },
+    "mbpp": {
+     "ok": 21,
+     "timeout": 7
+    }
+   },
+   "n_rerun": 1,
+   "cases": [
+    {
+     "case": "HumanEval/33",
+     "bucket": "syntax",
+     "syntactic": [
+      "TS1434",
+      "TS1011"
+     ],
+     "semantic": [
+      "TS2322",
+      "TS2304",
+      "TS2693"
+     ]
+    },
+    {
+     "case": "HumanEval/37",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/158",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/4",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/65",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/88",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/94",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/229",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/252",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/274",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/278",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/394",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/408",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/592",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/597",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/602",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/608",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/622",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/720",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/724",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/749",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/773",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/785",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  },
+  {
+   "model": "deepseek-ai/deepseek-coder-6.7b-instruct",
+   "tag": "deepseek-6.7b",
+   "seed": 4,
+   "variant": "type-cerr-s4",
+   "benchmarks": {
+    "HumanEval": {
+     "ok": 3,
+     "timeout": 2
+    },
+    "mbpp": {
+     "timeout": 6,
+     "ok": 15
+    }
+   },
+   "n_rerun": 0,
+   "cases": [
+    {
+     "case": "HumanEval/24",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/37",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "HumanEval/59",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/106",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/117",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/130",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/222",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/272",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/278",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/305",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/398",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/408",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/437",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/563",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/566",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/580",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/597",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    },
+    {
+     "case": "mbpp/749",
+     "bucket": "ok",
+     "syntactic": [],
+     "semantic": []
+    }
+   ]
+  }
+ ],
+ "global_code_histogram": {
+  "syntax": {
+   "TS1005": 6,
+   "TS1109": 1,
+   "TS1351": 1,
+   "TS1434": 1,
+   "TS1011": 1
+  },
+  "name": {
+   "TS2693": 5,
+   "TS2695": 4,
+   "TS2322": 1,
+   "TS2304": 1
+  },
+  "type": {
+   "TS2454": 23,
+   "TS18048": 7,
+   "TS2345": 6,
+   "TS1155": 4,
+   "TS7015": 2,
+   "TS18047": 2,
+   "TS2322": 2,
+   "TS2839": 1,
+   "TS2365": 1,
+   "TS7053": 1,
+   "TS2362": 1,
+   "TS2363": 1,
+   "TS2774": 1
+  },
+  "other": {
+   "TS2839": 3,
+   "TS2393": 3,
+   "TS1155": 2,
+   "TS1117": 1,
+   "TS1534": 1
+  }
+ }
+}

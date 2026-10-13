@@ -1,0 +1,20 @@
+{
+    "decoded": 63,
+    "llm_time": 1.5567758083343506,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015041828155517578,
+    "constrainer_time": 0.014360666275024414,
+    "total_time": 1.5882604122161865,
+    "frequency": {
+        "1": 64
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2339: Property 'real' does not exist on type 'number'.",
+        "TS2339: Property 'imag' does not exist on type 'number'."
+    ]
+}

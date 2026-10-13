@@ -1,0 +1,22 @@
+{
+    "decoded": 61,
+    "llm_time": 3.297515392303467,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0025262832641601562,
+    "constrainer_time": 0.017185688018798828,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3372747898101807,
+    "frequency": {
+        "1": 62
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:11: Unbound value \"split\"\nHint: Did you mean \"blit\"?"
+    ]
+}

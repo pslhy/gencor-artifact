@@ -1,0 +1,22 @@
+{
+    "decoded": 125,
+    "llm_time": 3.233306884765625,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030968189239501953,
+    "constrainer_time": 0.0287930965423584,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.298689365386963,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:24: Unbound value \"String.cons\""
+    ]
+}

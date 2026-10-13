@@ -1,0 +1,15 @@
+let rec count_char_position (str1 : string) : int = 
+  let rec check_char idx =
+    if idx >= String.length str1 then 0
+    else if idx = Char.code (Char.uppercase_ascii str1.[idx]) - Char.code 'A' then
+      1 + check_char (idx + 1)
+    else
+      check_char (idx + 1)
+  in check_char 0
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to count the number of characters in a string that occur at the same position in the string as in the English alphabet (case insensitive). *)

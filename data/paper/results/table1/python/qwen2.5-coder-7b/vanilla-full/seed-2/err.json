@@ -1,0 +1,43 @@
+{
+    "BigCodeBench/509": {
+        "1": [
+            "BigCodeBench/509.py:13:17: invalid syntax",
+            "            all lines = list1 + list2",
+            "                ^"
+        ]
+    },
+    "BigCodeBench/528": {
+        "1": [
+            "BigCodeBench/528.py:11:10: invalid syntax",
+            "    data DataFrame",
+            "         ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:14:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "BigCodeBench/785.py:16:57: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/845": {
+        "1": [
+            "BigCodeBench/845.py:22:24: invalid syntax. Perhaps you forgot a comma?",
+            "    common_words = set(counter1 keys()).intersection(set(counter2.keys()))",
+            "                       ^"
+        ]
+    },
+    "BigCodeBench/879": {
+        "1": [
+            "BigCodeBench/879.py:15:32: undefined name 'category'"
+        ]
+    },
+    "BigCodeBench/1008": {
+        "1": [
+            "BigCodeBench/1008.py:11:15: undefined name 'HttpURLConnectionError'"
+        ]
+    }
+}

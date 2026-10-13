@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 3.793515920639038,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017650127410888672,
+    "constrainer_time": 0.017091751098632812,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.8319568634033203,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:36: Unbound value \"sum_and_average\""
+    ]
+}

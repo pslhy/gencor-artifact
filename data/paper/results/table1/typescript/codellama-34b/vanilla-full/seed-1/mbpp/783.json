@@ -1,0 +1,20 @@
+{
+    "decoded": 237,
+    "llm_time": 12.811643838882446,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011752605438232422,
+    "constrainer_time": 0.016666650772094727,
+    "total_time": 12.924737691879272,
+    "frequency": {
+        "1": 238
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS18048: 'h' is possibly 'undefined'.",
+        "TS2322: Type 'number | undefined' is not assignable to type 'number'.\n  Type 'undefined' is not assignable to type 'number'."
+    ]
+}

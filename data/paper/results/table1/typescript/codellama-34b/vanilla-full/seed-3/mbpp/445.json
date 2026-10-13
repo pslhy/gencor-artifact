@@ -1,0 +1,22 @@
+{
+    "decoded": 102,
+    "llm_time": 5.504402160644531,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030448436737060547,
+    "constrainer_time": 0.006583213806152344,
+    "total_time": 5.542431116104126,
+    "frequency": {
+        "1": 103
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures.",
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2322: Type 'number[]' is not assignable to type 'number[][]'.\n  Type 'number' is not assignable to type 'number[]'."
+    ]
+}

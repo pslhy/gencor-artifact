@@ -1,0 +1,24 @@
+{
+    "decoded": 210,
+    "llm_time": 11.375866651535034,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005029439926147461,
+    "constrainer_time": 0.04918313026428223,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.494341850280762,
+    "frequency": {
+        "1": 211
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:24:1: unmatched '}'",
+        "}",
+        "^"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 128,
+    "llm_time": 6.962515115737915,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003131389617919922,
+    "constrainer_time": 0.007796049118041992,
+    "total_time": 7.008973598480225,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7052: Element implicitly has an 'any' type because type 'Map<string, number>' has no index signature. Did you mean to call 'map.get'?",
+        "TS7052: Element implicitly has an 'any' type because type 'Map<string, number>' has no index signature. Did you mean to call 'map.set'?",
+        "TS7052: Element implicitly has an 'any' type because type 'Map<string, number>' has no index signature. Did you mean to call 'map.set'?",
+        "TS2365: Operator '>' cannot be applied to types 'boolean' and 'number'.",
+        "TS7052: Element implicitly has an 'any' type because type 'Map<string, number>' has no index signature. Did you mean to call 'map.get'?",
+        "TS7052: Element implicitly has an 'any' type because type 'Map<string, number>' has no index signature. Did you mean to call 'map.set'?"
+    ]
+}

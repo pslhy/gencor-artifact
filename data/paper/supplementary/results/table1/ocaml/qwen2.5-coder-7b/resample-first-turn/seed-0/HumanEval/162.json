@@ -1,0 +1,22 @@
+{
+    "decoded": 36,
+    "llm_time": 0.9518070220947266,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008759498596191406,
+    "constrainer_time": 0.008564949035644531,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.973496675491333,
+    "frequency": {
+        "1": 37
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:13: Unbound module \"Dumbmd5\""
+    ]
+}

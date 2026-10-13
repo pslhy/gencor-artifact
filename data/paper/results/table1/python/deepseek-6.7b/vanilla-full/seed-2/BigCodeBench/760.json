@@ -1,0 +1,24 @@
+{
+    "decoded": 425,
+    "llm_time": 10.698747634887695,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010579586029052734,
+    "constrainer_time": 0.09712481498718262,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.995896816253662,
+    "frequency": {
+        "1": 426
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/760.py:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+        "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+        "                                                     ^"
+    ]
+}

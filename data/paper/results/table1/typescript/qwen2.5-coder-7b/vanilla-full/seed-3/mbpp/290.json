@@ -1,0 +1,21 @@
+{
+    "decoded": 71,
+    "llm_time": 1.8192081451416016,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016777515411376953,
+    "constrainer_time": 0.01651930809020996,
+    "total_time": 1.8590075969696045,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2365: Operator '>' cannot be applied to types 'number' and 'number | never[]'.",
+        "TS2322: Type 'number[]' is not assignable to type 'number | never[]'.\n  Type 'number[]' is not assignable to type 'never[]'.\n    Type 'number' is not assignable to type 'never'.",
+        "TS2322: Type '(number | never[])[]' is not assignable to type '[number, number[]]'.\n  Target requires 2 element(s) but source may have fewer."
+    ]
+}

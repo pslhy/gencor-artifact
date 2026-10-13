@@ -1,0 +1,13 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a mlthon function to remove the characters which have odd index values of a given string. *)
+let rec odd_values_string (str : string) : string =
+    match str with
+    | [] -> []
+    | _ :: xs -> x :: odd_values_string xs
+

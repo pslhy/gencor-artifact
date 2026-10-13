@@ -1,0 +1,12 @@
+{
+    "mbpp/59": {
+        "1": [
+            "TS2322: Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/641": {
+        "1": [
+            "TS2345: Argument of type '(a: number, b: string) => number' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n  Types of parameters 'a' and 'previousValue' are incompatible.\n    Type 'string' is not assignable to type 'number'."
+        ]
+    }
+}

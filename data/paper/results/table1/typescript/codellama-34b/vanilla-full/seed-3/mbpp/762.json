@@ -1,0 +1,19 @@
+{
+    "decoded": 56,
+    "llm_time": 3.033485174179077,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015604496002197266,
+    "constrainer_time": 0.0035524368286132812,
+    "total_time": 3.0533978939056396,
+    "frequency": {
+        "1": 57
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2552: Cannot find name 'monthnum'. Did you mean 'monthnum3'?"
+    ]
+}

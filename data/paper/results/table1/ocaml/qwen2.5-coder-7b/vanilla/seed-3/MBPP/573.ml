@@ -1,0 +1,18 @@
+let rec unique_product (list_data : int list) : int = 
+    let rec helper seen acc = function
+        | [] -> acc
+        | x::xs -> 
+            if List.mem x seen then 
+                helper seen acc xs
+            else 
+                helper (x::seen) (acc * x) xs
+    in
+    if list_data = [] then 0 else helper [] 1 list_data
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function to calculate the product of the unique numbers in a given list. *)

@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 1.7795190811157227,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017664432525634766,
+    "constrainer_time": 0.016381025314331055,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.8164424896240234,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/88.ml:6:19: Unbound value \"List.assoc_default\""
+    ]
+}

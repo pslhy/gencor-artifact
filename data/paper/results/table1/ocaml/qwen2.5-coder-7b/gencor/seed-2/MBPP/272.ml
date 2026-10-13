@@ -1,0 +1,17 @@
+
+let rec rear_extract (test_list :  (int * string * int) list) : int list = 
+    match test_list with 
+    | [] -> [] 
+    | (_, _, rear) :: rest -> rear :: (rear_extract rest);;
+
+(* Testing the function *)
+let test_list = [(1, "Hello", 2); (3, "OCaml", 4); (5, "Programming", 6)];;
+let result = rear_extract test_list;;
+print_int (List.length result);; (* Output should be 3 *)
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function that takes in a list of tuples and returns a list containing the rear element of each tuple. *)

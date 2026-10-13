@@ -1,0 +1,22 @@
+{
+    "decoded": 74,
+    "llm_time": 1.850736379623413,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018796920776367188,
+    "constrainer_time": 0.01731133460998535,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.889690637588501,
+    "frequency": {
+        "1": 75
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:11: Unbound value \"Char.is_lower\""
+    ]
+}

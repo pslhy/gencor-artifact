@@ -1,0 +1,98 @@
+{
+    "BigCodeBench/17": {
+        "1": [
+            "<python>:19:22: undefined name 'process_name'"
+        ],
+        "2": [
+            "<python>:19:22: undefined name 'process_name'"
+        ]
+    },
+    "BigCodeBench/82": {
+        "1": [
+            "<python>:22:61: unindent does not match any outer indentation level",
+            "   users = {'user': User.UserMixin, 'admin': User.UserMixin}",
+            "                                                            ^"
+        ],
+        "2": [
+            "<python>:22:22: undefined name 'User'",
+            "<python>:22:47: undefined name 'User'"
+        ]
+    },
+    "BigCodeBench/108": {
+        "1": [
+            "<python>:20:84: undefined name 'datetime'",
+            "<python>:20:142: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/227": {
+        "1": [
+            "<python>:21:29: undefined module member 'librosa.feature\u8c31rogram'"
+        ],
+        "2": [
+            "<python>:21:35: undefined module member 'librosa.feature.spectorgram'"
+        ]
+    },
+    "BigCodeBench/239": {
+        "1": [
+            "<python>:10:114: unmatched ']'",
+            "    numeric_values = np.where(isinstance(item, timedelta), item.total_seconds(), item) for item in numeric_values]",
+            "                                                                                                                 ^"
+        ],
+        "2": [
+            "<python>:10:114: unmatched ']'",
+            "    numeric_values = np.where(isinstance(item, timedelta), item.total_seconds(), item) for item in numeric_values]",
+            "                                                                                                                 ^"
+        ]
+    },
+    "BigCodeBench/267": {
+        "1": [
+            "<python>:7:20: undefined name 'datetime'",
+            "<python>:8:19: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:7:19: undefined name 'datetime'",
+            "<python>:8:19: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/461": {
+        "1": [
+            "<python>:42:38: undefined module member 'psutil.STATUS_UNKNOWN'"
+        ]
+    },
+    "BigCodeBench/486": {
+        "1": [
+            "<python>:12:15: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "<python>:22:26: expected 'else' after 'if' expression",
+            "                status = '-' if not file2 line else '+' if not file1_line else '*'",
+            "                         ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:25:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/752": {
+        "1": [
+            "<python>:10:23: invalid syntax",
+            "    if not data.empty but target_column not in data.columns:",
+            "                      ^"
+        ]
+    },
+    "BigCodeBench/906": {
+        "1": [
+            "<python>:15:22: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/916": {
+        "1": [
+            "<python>:10:63: unindent does not match any outer indentation level",
+            "   fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15, 6))",
+            "                                                              ^"
+        ]
+    }
+}

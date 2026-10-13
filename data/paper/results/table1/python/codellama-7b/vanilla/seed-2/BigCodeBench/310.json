@@ -1,0 +1,24 @@
+{
+    "decoded": 335,
+    "llm_time": 8.428104877471924,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009036064147949219,
+    "constrainer_time": 0.07901549339294434,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.621939420700073,
+    "frequency": {
+        "1": 336
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:23:28: undefined name 'records'",
+        "<python>:24:31: undefined name 'records'",
+        "<python>:25:31: undefined name 'records'"
+    ]
+}

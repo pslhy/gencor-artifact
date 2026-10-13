@@ -1,0 +1,22 @@
+{
+    "decoded": 42,
+    "llm_time": 1.0837504863739014,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010268688201904297,
+    "constrainer_time": 0.00983119010925293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.1055450439453125,
+    "frequency": {
+        "1": 43
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:20: Unbound value \"String.rev\""
+    ]
+}

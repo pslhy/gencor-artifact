@@ -1,0 +1,24 @@
+{
+    "decoded": 353,
+    "llm_time": 19.0281023979187,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008616209030151367,
+    "constrainer_time": 0.08423066139221191,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.231722116470337,
+    "frequency": {
+        "1": 354
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:5: expected an indented block after 'if' statement on line 13",
+        "    else:",
+        "    ^"
+    ]
+}

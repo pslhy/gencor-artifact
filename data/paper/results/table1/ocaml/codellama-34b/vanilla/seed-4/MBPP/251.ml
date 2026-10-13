@@ -1,0 +1,14 @@
+let rec insert_element (list : string list) (element : string) : string list = 
+    (* base case: if the list is empty, return the element as a list *)
+    match list with
+    | [] -> [element]
+    (* inductive case: if the list is non-empty, insert the element before each element in the list *)
+    | hd::tl -> element::(insert_element tl element)
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function that takes in a list and an element and inserts the element before each element in the list, and returns the resulting list. *)

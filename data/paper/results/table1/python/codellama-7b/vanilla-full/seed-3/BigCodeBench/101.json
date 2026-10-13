@@ -1,0 +1,23 @@
+{
+    "decoded": 203,
+    "llm_time": 5.1271631717681885,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005179882049560547,
+    "constrainer_time": 0.04755377769470215,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.242558479309082,
+    "frequency": {
+        "1": 204
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/101.py:22:8: undefined name 'file_path'",
+        "BigCodeBench/101.py:23:32: undefined name 'file_path'"
+    ]
+}

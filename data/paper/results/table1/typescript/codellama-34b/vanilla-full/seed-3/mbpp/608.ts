@@ -1,0 +1,18 @@
+function bell_Number(n: number): number {
+  if(n=== 0){
+      return 1;
+  }
+  let bell_Sum = 0;
+  for(int i = 0; i<=n;i++){
+      bell_Sum += bell_Number(n-1) * bell_Number(i);
+  }
+  return bell_Sum;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a tsthon function to find nth bell number.

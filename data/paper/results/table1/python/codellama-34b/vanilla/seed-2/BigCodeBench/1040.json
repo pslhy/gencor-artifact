@@ -1,0 +1,24 @@
+{
+    "decoded": 393,
+    "llm_time": 21.417738676071167,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010086536407470703,
+    "constrainer_time": 0.09595966339111328,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 21.655850648880005,
+    "frequency": {
+        "1": 394
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:24:17: undefined name 'connection'",
+        "<python>:26:44: undefined name 'message'",
+        "<python>:27:29: undefined name 'message'"
+    ]
+}

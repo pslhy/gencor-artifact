@@ -1,0 +1,12 @@
+{
+    "BigCodeBench/655": [
+        "BigCodeBench/655.py:20:75: undefined name 'num_top_words'"
+    ],
+    "BigCodeBench/1004": [
+        "BigCodeBench/1004.py:7:18: undefined name 'datetime'",
+        "BigCodeBench/1004.py:25:16: undefined name 'datetime'"
+    ],
+    "BigCodeBench/1042": [
+        "BigCodeBench/1042.py:28:15: undefined name 'ssl'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 108,
+    "llm_time": 5.822201251983643,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029282569885253906,
+    "constrainer_time": 0.02633953094482422,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.882892370223999,
+    "frequency": {
+        "1": 109
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:44: Unbound value \"n\""
+    ]
+}

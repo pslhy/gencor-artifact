@@ -1,0 +1,22 @@
+{
+    "decoded": 114,
+    "llm_time": 2.8057398796081543,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002743959426879883,
+    "constrainer_time": 0.02607870101928711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.8654701709747314,
+    "frequency": {
+        "1": 115
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/229.ml:9:52: Unbound value \"xs\""
+    ]
+}

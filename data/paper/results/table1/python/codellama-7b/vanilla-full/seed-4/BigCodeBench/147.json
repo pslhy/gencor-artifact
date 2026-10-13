@@ -1,0 +1,22 @@
+{
+    "decoded": 223,
+    "llm_time": 5.609332799911499,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005370140075683594,
+    "constrainer_time": 0.05235934257507324,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.732844829559326,
+    "frequency": {
+        "1": 224
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/147.py:9:10: undefined name 'ThreadPoolExecutor'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 234,
+    "llm_time": 12.458067655563354,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005723237991333008,
+    "constrainer_time": 0.05425834655761719,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.58430790901184,
+    "frequency": {
+        "1": 235
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:12: Unbound module \"Utils\""
+    ]
+}

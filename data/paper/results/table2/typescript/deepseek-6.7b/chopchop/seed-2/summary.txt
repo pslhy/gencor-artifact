@@ -1,0 +1,6 @@
+tool: chopchop  mode: TypedCD  model: deepseek-ai/deepseek-coder-6.7b-instruct  temp: 1.0  seed: 2
+tasks: 72
+compiled (pass): 69/72 95.83%
+timeout: 3/72 4.17%
+errors: 3/72  uv: 0/72
+wallclock: 1134.3s

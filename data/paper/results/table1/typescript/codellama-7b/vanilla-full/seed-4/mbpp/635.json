@@ -1,0 +1,20 @@
+{
+    "decoded": 373,
+    "llm_time": 9.063567638397217,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008540630340576172,
+    "constrainer_time": 0.08534502983093262,
+    "total_time": 9.25763726234436,
+    "frequency": {
+        "1": 374
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2588: Cannot assign to 'max' because it is a constant.",
+        "TS2588: Cannot assign to 'max' because it is a constant."
+    ]
+}

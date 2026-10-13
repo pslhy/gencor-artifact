@@ -1,0 +1,22 @@
+{
+    "decoded": 348,
+    "llm_time": 8.95578932762146,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008268356323242188,
+    "constrainer_time": 0.07947254180908203,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.154782056808472,
+    "frequency": {
+        "1": 349
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/141.ml:10:38: Unbound value \"count_dots\"\nHint: Did you mean \"count_digits\"?\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 8"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "decoded": 241,
+    "decoded_at_turn": {
+        "1": 47,
+        "2": 47,
+        "3": 47,
+        "4": 51,
+        "5": 49
+    },
+    "llm_time": 6.59553599357605,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00610804557800293,
+    "constrainer_time": 0.059305429458618164,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.744218111038208,
+    "frequency": {
+        "1": 246
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:14: Unbound module \"Pcre\""
+    ]
+}

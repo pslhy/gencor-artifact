@@ -1,0 +1,128 @@
+{
+    "HumanEval/1": [
+        "test.ml:9:20: Unbound value \"prefix\""
+    ],
+    "HumanEval/101": [
+        "test.ml:2:15: Unbound module \"BatString\"\nHint: Did you mean \"String\"?"
+    ],
+    "HumanEval/108": [
+        "test.ml:9:37: Unbound module \"Digits\"\nHint: Did you mean \"Digest\"?"
+    ],
+    "HumanEval/109": [
+        "test.ml:11:34: Unbound value \"List.drop_right\""
+    ],
+    "HumanEval/116": [
+        "test.ml:7:30: Unbound value \"number_of_ones\""
+    ],
+    "HumanEval/124": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ],
+    "HumanEval/126": [
+        "test.ml:9:3: Unbound value \"print_bool\""
+    ],
+    "HumanEval/13": [
+        "test.ml:5:40: Unbound value \"(%)\""
+    ],
+    "HumanEval/130": [
+        "test.ml:9:17: Unbound value \"nm\""
+    ],
+    "HumanEval/149": [
+        "test.ml:6:41: Unbound value \"List.sort_sort\"\nHint: Did you mean \"fast_sort\"?"
+    ],
+    "HumanEval/158": [
+        "test.ml:6:19: Unbound value \"Char.count\""
+    ],
+    "HumanEval/20": [
+        "test.ml:11:23: Unbound value \"numbers\""
+    ],
+    "HumanEval/29": [
+        "test.ml:5:10: Unbound value \"String.is_prefix\""
+    ],
+    "HumanEval/65": [
+        "test.ml:14:21: Unbound value \"rest\""
+    ],
+    "HumanEval/67": [
+        "test.ml:2:11: Unbound value \"String.split_on_chars\"\nHint: Did you mean \"split_on_char\"?"
+    ],
+    "HumanEval/71": [
+        "test.ml:5:21: Unbound module \"Utils\""
+    ],
+    "HumanEval/91": [
+        "test.ml:2:9: Unbound value \"String.split_on_chars\"\nHint: Did you mean \"split_on_char\"?"
+    ],
+    "HumanEval/93": [
+        "test.ml:7:7: Unbound module \"Utils\""
+    ],
+    "MBPP/103": [
+        "test.ml:7:5: Unbound module \"Utils\""
+    ],
+    "MBPP/130": [
+        "test.ml:6:25: Unbound module \"Utils\""
+    ],
+    "MBPP/165": [
+        "test.ml:10:17: Unbound value \"Char.lowercase\""
+    ],
+    "MBPP/267": [
+        "test.ml:4:98: Unbound value \"range\"\nHint: Did you mean \"raise\"?"
+    ],
+    "MBPP/283": [
+        "test.ml:2:50: Unbound value \"List.group\""
+    ],
+    "MBPP/395": [
+        "test.ml:13:16: Unbound value \"String.to_list\""
+    ],
+    "MBPP/4": [
+        "test.ml:6:55: Unbound value \"h\""
+    ],
+    "MBPP/430": [
+        "test.ml:2:6: Unbound value \"discriminant\""
+    ],
+    "MBPP/478": [
+        "test.ml:2:9: Unbound value \"String.lowercase\""
+    ],
+    "MBPP/578": [
+        "test.ml:8:1: Unbound value \"test\""
+    ],
+    "MBPP/586": [
+        "test.ml:4:52: Unbound value \"List.take\""
+    ],
+    "MBPP/6": [
+        "test.ml:2:21: Unbound value \"highest_bit\""
+    ],
+    "MBPP/602": [
+        "test.ml:5:21: Unbound value \"String.reverse\""
+    ],
+    "MBPP/608": [
+        "test.ml:9:9: Unbound value \"invalid_argument\""
+    ],
+    "MBPP/626": [
+        "test.ml:8:36: Unbound module \"Utils\""
+    ],
+    "MBPP/627": [
+        "test.ml:5:29: Unbound value \"split\""
+    ],
+    "MBPP/639": [
+        "test.ml:6:27: Unbound value \"lowercase_first_letter\""
+    ],
+    "MBPP/737": [
+        "test.ml:2:18: Unbound module \"Str\""
+    ],
+    "MBPP/743": [
+        "test.ml:7:17: Unbound value \"List.drop\""
+    ],
+    "MBPP/749": [
+        "test.ml:5:49: Unbound module \"Utils\""
+    ],
+    "MBPP/762": [
+        "test.ml:4:23: Unbound value \"is_leap_year\""
+    ],
+    "MBPP/781": [
+        "test.ml:2:64: Unbound value \"List.make\""
+    ],
+    "MBPP/783": [
+        "test.ml:3:12: Unbound module \"OCaml\""
+    ],
+    "MBPP/794": [
+        "test.ml:7:24: Unbound value \"text_endb\""
+    ]
+}

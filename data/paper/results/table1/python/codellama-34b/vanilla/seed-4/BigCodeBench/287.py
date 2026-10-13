@@ -1,0 +1,32 @@
+from datetime import timedelta
+from collections import Counter
+import os
+import json
+def task_func(filename, directory):
+  # Count the number of words in txt with the Counter class
+  counters = [Counter(word.strip() for word in open(file)
+         if ".txt" in file and word.strip()) for file in os.listdir(directory)]
+
+  # Export the counts to a JSON file
+  with open(filename, "w") as file:
+    json.dump(counters, file,indent=4)
+
+  # Return the total number of words
+  return sum(sum(counter.values()) for counter in counters)
+
+
+# <System Prompt>
+#     You are an expert in Python programming. Solve the given problem by writing solution code in Python. When answering, insert the solution code in a ```python...``` block.
+#     Do not include test cases or explanations as comments in the code.
+# 
+# < User Prompt >
+#     Count the number of words in .txt files within a specified directory, export the counts to a JSON file, and then return the total number of words.
+#     The function should output with:
+#         int: total number of words in .txt files
+#     You should write self-contained code starting with:
+#     ```
+#     from collections import Counter
+#     import os
+#     import json
+#     def task_func(filename, directory):
+#     ```

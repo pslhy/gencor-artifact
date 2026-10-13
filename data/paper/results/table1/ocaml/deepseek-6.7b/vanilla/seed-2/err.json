@@ -1,0 +1,817 @@
+{
+    "HumanEval/0": {
+        "1": [
+            "HumanEval/0.ml:5:33: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "HumanEval/1": {
+        "1": [
+            "HumanEval/1.ml:4:7: This pattern matches values of type \"char\"\nbut a pattern was expected which matches values of type\n\"char Seq.t\" = \"unit -> char Seq.node\""
+        ]
+    },
+    "HumanEval/10": {
+        "1": [
+            "HumanEval/10.ml:10:29: Unbound value \"String.rev\""
+        ]
+    },
+    "HumanEval/100": {
+        "1": [
+            "HumanEval/100.ml:5:29: Unbound value \"(%)\""
+        ]
+    },
+    "HumanEval/104": {
+        "1": [
+            "HumanEval/104.ml:12:1: Syntax error"
+        ]
+    },
+    "HumanEval/106": {
+        "1": [
+            "HumanEval/106.ml:6:3: Syntax error"
+        ]
+    },
+    "HumanEval/107": {
+        "1": [
+            "HumanEval/107.ml:4:11: Unbound value \"String.rev\""
+        ]
+    },
+    "HumanEval/108": {
+        "1": [
+            "HumanEval/108.ml:6:8: Unbound value \"String.to_list\""
+        ]
+    },
+    "HumanEval/11": {
+        "1": [
+            "HumanEval/11.ml:6:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "HumanEval/111": {
+        "1": [
+            "HumanEval/111.ml:20:25: Unbound module \"Str\""
+        ]
+    },
+    "HumanEval/112": {
+        "1": [
+            "HumanEval/112.ml:5:20: This expression has type \"char\" but an expression was expected of type\n\"string\""
+        ]
+    },
+    "HumanEval/113": {
+        "1": [
+            "HumanEval/113.ml:4:63: Unbound value \"String.replace_char\""
+        ]
+    },
+    "HumanEval/115": {
+        "1": [
+            "HumanEval/115.ml:5:26: This expression has type \"int\" but an expression was expected of type\n\"int list\""
+        ]
+    },
+    "HumanEval/118": {
+        "1": [
+            "HumanEval/118.ml:9:135: Syntax error"
+        ]
+    },
+    "HumanEval/12": {
+        "1": [
+            "HumanEval/12.ml:3:15: This expression has type \"'a option\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "HumanEval/120": {
+        "1": [
+            "HumanEval/120.ml:2:3: Unbound value \"List.sort_unstable\""
+        ]
+    },
+    "HumanEval/124": {
+        "1": [
+            "HumanEval/124.ml:14:9: This pattern matches values of type \"'a * 'b * 'c * 'd\"\nbut a pattern was expected which matches values of type \"int\""
+        ]
+    },
+    "HumanEval/129": {
+        "1": [
+            "HumanEval/129.ml:5:41: Syntax error: \")\" expected"
+        ]
+    },
+    "HumanEval/135": {
+        "1": [
+            "HumanEval/135.ml:5:10: This expression has type \"int list\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "HumanEval/142": {
+        "1": [
+            "HumanEval/142.ml:6:22: Unbound value \"(%)\""
+        ]
+    },
+    "HumanEval/145": {
+        "1": [
+            "HumanEval/145.ml:6:33: Unbound value \"(>>)\""
+        ]
+    },
+    "HumanEval/151": {
+        "1": [
+            "HumanEval/151.ml:4:26: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "HumanEval/153": {
+        "1": [
+            "HumanEval/153.ml:3:15: Unbound value \"String.count\""
+        ]
+    },
+    "HumanEval/154": {
+        "1": [
+            "HumanEval/154.ml:15:19: Unbound value \"String.rev\""
+        ]
+    },
+    "HumanEval/156": {
+        "1": [
+            "HumanEval/156.ml:6:16: The function \"int_to_mini_roman\" has type int -> string\nIt is applied to too many arguments"
+        ]
+    },
+    "HumanEval/160": {
+        "1": [
+            "HumanEval/160.ml:11:27: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "HumanEval/161": {
+        "1": [
+            "HumanEval/161.ml:6:8: Unbound value \"Char.lowercase\""
+        ]
+    },
+    "HumanEval/162": {
+        "1": [
+            "HumanEval/162.ml:4:15: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+        ]
+    },
+    "HumanEval/163": {
+        "1": [
+            "HumanEval/163.ml:4:23: This expression has type \"int list\"\nbut an expression was expected of type \"int\""
+        ]
+    },
+    "HumanEval/18": {
+        "1": [
+            "HumanEval/18.ml:9:23: The function \"String.index\" has type string -> char -> int\nIt is applied to too many arguments"
+        ]
+    },
+    "HumanEval/19": {
+        "1": [
+            "HumanEval/19.ml:8:80: This expression has type \"string list\"\nbut an expression was expected of type \"char list\"\nType \"string\" is not compatible with type \"char\""
+        ]
+    },
+    "HumanEval/21": {
+        "1": [
+            "HumanEval/21.ml:4:27: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "HumanEval/25": {
+        "1": [
+            "HumanEval/25.ml:12:29: Unbound module \"Tuple2\""
+        ]
+    },
+    "HumanEval/27": {
+        "1": [
+            "HumanEval/27.ml:7:24: Unbound value \"Char.is_lowercase\""
+        ]
+    },
+    "HumanEval/30": {
+        "1": [
+            "HumanEval/30.ml:0:0: The function \"get_positive\" has type int list -> int list\nIt is applied to too many arguments"
+        ]
+    },
+    "HumanEval/39": {
+        "1": [
+            "HumanEval/39.ml:3:88: Unbound value \"int\""
+        ]
+    },
+    "HumanEval/4": {
+        "1": [
+            "HumanEval/4.ml:6:36: Syntax error"
+        ]
+    },
+    "HumanEval/44": {
+        "1": [
+            "HumanEval/44.ml:12:27: Unbound value \"Char.of_string\""
+        ]
+    },
+    "HumanEval/45": {
+        "1": [
+            "HumanEval/45.ml:2:3: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "HumanEval/46": {
+        "1": [
+            "HumanEval/46.ml:4:10: Unbound value \"fib4_aux\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+        ]
+    },
+    "HumanEval/49": {
+        "1": [
+            "HumanEval/49.ml:3:28: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "HumanEval/52": {
+        "1": [
+            "HumanEval/52.ml:4:20: This expression has type \"int list\"\nbut an expression was expected of type \"int\""
+        ]
+    },
+    "HumanEval/6": {
+        "1": [
+            "HumanEval/6.ml:10:16: Unbound module \"Str\""
+        ]
+    },
+    "HumanEval/61": {
+        "1": [
+            "HumanEval/61.ml:5:7: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "HumanEval/65": {
+        "1": [
+            "HumanEval/65.ml:5:84: Unbound value \"(%)\""
+        ]
+    },
+    "HumanEval/66": {
+        "1": [
+            "HumanEval/66.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "HumanEval/67": {
+        "1": [
+            "HumanEval/67.ml:4:31: Unbound module \"Str\""
+        ]
+    },
+    "HumanEval/68": {
+        "1": [
+            "HumanEval/68.ml:0:0: The function \"helper\" has type int list -> int -> int -> int -> int list\nIt is applied to too many arguments"
+        ]
+    },
+    "HumanEval/69": {
+        "1": [
+            "HumanEval/69.ml:12:26: Unbound value \"List.sort_descending\""
+        ]
+    },
+    "HumanEval/7": {
+        "1": [
+            "HumanEval/7.ml:4:34: This expression has type \"string\" but an expression was expected of type\n\"char\""
+        ]
+    },
+    "HumanEval/71": {
+        "1": [
+            "HumanEval/71.ml:4:10: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "HumanEval/72": {
+        "1": [
+            "HumanEval/72.ml:4:9: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "HumanEval/75": {
+        "1": [
+            "HumanEval/75.ml:9:37: This expression has type \"'a list\"\nbut an expression was expected of type \"int\""
+        ]
+    },
+    "HumanEval/83": {
+        "1": [
+            "HumanEval/83.ml:4:25: Unbound value \"pow\""
+        ]
+    },
+    "HumanEval/85": {
+        "1": [
+            "HumanEval/85.ml:10:15: This expression has type \"'a list\"\nbut an expression was expected of type \"'a\"\nThe type variable \"'a\" occurs inside \"'a list\""
+        ]
+    },
+    "HumanEval/86": {
+        "1": [
+            "HumanEval/86.ml:11:5: Unbound value \"String.of_char_list\""
+        ]
+    },
+    "HumanEval/87": {
+        "1": [
+            "HumanEval/87.ml:13:78: This expression has type \"int list list\"\nbut an expression was expected of type \"int list\"\nType \"int list\" is not compatible with type \"int\""
+        ]
+    },
+    "HumanEval/88": {
+        "1": [
+            "HumanEval/88.ml:7:31: The function applied to this argument has type 'a list -> 'a list\nThis argument cannot be applied with label \"~compare\""
+        ]
+    },
+    "HumanEval/89": {
+        "1": [
+            "HumanEval/89.ml:7:7: This expression has type \"char\" but an expression was expected of type\n\"string\""
+        ]
+    },
+    "HumanEval/9": {
+        "1": [
+            "HumanEval/9.ml:4:38: This expression has type \"int\" but an expression was expected of type\n\"'a list\""
+        ]
+    },
+    "HumanEval/90": {
+        "1": [
+            "HumanEval/90.ml:7:12: This expression has type \"int\" but an expression was expected of type\n\"int option\""
+        ]
+    },
+    "HumanEval/92": {
+        "1": [
+            "HumanEval/92.ml:2:11: Unbound value \"float_is_int\"\nHint: Did you mean \"float_of_int\"?"
+        ]
+    },
+    "HumanEval/93": {
+        "1": [
+            "HumanEval/93.ml:18:38: This expression has type \"string\" but an expression was expected of type\n\"char\""
+        ]
+    },
+    "HumanEval/95": {
+        "1": [
+            "HumanEval/95.ml:5:22: Unbound value \"String.uppercase\""
+        ]
+    },
+    "HumanEval/96": {
+        "1": [
+            "HumanEval/96.ml:3:72: Unbound value \"y\""
+        ]
+    },
+    "HumanEval/98": {
+        "1": [
+            "HumanEval/98.ml:7:15: Unbound value \"String.uppercase\""
+        ]
+    },
+    "MBPP/100": {
+        "1": [
+            "MBPP/100.ml:13:10: Unbound value \"String.rev\""
+        ]
+    },
+    "MBPP/106": {
+        "1": [
+            "MBPP/106.ml:3:5: This pattern matches values of type \"'a * 'b * 'c * 'd * 'e\"\nbut a pattern was expected which matches values of type \"int\""
+        ]
+    },
+    "MBPP/11": {
+        "1": [
+            "MBPP/11.ml:4:28: This expression has type \"string\" but an expression was expected of type\n\"char\""
+        ]
+    },
+    "MBPP/113": {
+        "1": [
+            "MBPP/113.ml:8:20: Unbound value \"Char.is_digit\""
+        ]
+    },
+    "MBPP/12": {
+        "1": [
+            "MBPP/12.ml:5:26: Unbound value \"List.findi\"\nHint: Did you mean \"find\"?"
+        ]
+    },
+    "MBPP/128": {
+        "1": [
+            "MBPP/128.ml:13:39: Unbound value \"String.to_list\""
+        ]
+    },
+    "MBPP/129": {
+        "1": [
+            "MBPP/129.ml:7:34: Unbound module \"Util\""
+        ]
+    },
+    "MBPP/141": {
+        "1": [
+            "MBPP/141.ml:3:30: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "MBPP/160": {
+        "1": [
+            "MBPP/160.ml:3:22: This expression should not be a constructor, the expected type is\n\"int * int option\""
+        ]
+    },
+    "MBPP/18": {
+        "1": [
+            "MBPP/18.ml:4:32: Unbound value \"Char.lowercase\""
+        ]
+    },
+    "MBPP/230": {
+        "1": [
+            "MBPP/230.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/245": {
+        "1": [
+            "MBPP/245.ml:16:21: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "MBPP/247": {
+        "1": [
+            "MBPP/247.ml:3:36: The function applied to this argument has type\nint -> 'a -> 'a array array\nThis argument cannot be applied with label \"~dimx\""
+        ]
+    },
+    "MBPP/252": {
+        "1": [
+            "MBPP/252.ml:2:23: This expression has type \"int\" but an expression was expected of type\n\"'a list\""
+        ]
+    },
+    "MBPP/259": {
+        "1": [
+            "MBPP/259.ml:8:41: This expression has type \"int list list\"\nbut an expression was expected of type \"int list list list\"\nType \"int\" is not compatible with type \"int list\""
+        ]
+    },
+    "MBPP/260": {
+        "1": [
+            "MBPP/260.ml:4:24: Unbound value \"(%)\""
+        ]
+    },
+    "MBPP/274": {
+        "1": [
+            "MBPP/274.ml:19:11: Syntax error"
+        ]
+    },
+    "MBPP/277": {
+        "1": [
+            "MBPP/277.ml:3:5: This pattern matches values of type \"'a * 'b\"\nbut a pattern was expected which matches values of type\n\"(string * int) list\""
+        ]
+    },
+    "MBPP/285": {
+        "1": [
+            "MBPP/285.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/291": {
+        "1": [
+            "MBPP/291.ml:7:19: This expression has type \"int\" but an expression was expected of type\n\"'a array\""
+        ]
+    },
+    "MBPP/296": {
+        "1": [
+            "MBPP/296.ml:12:49: Unbound value \"List.take\""
+        ]
+    },
+    "MBPP/306": {
+        "1": [
+            "MBPP/306.ml:3:5: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "MBPP/395": {
+        "1": [
+            "MBPP/395.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/397": {
+        "1": [
+            "MBPP/397.ml:2:50: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "MBPP/4": {
+        "1": [
+            "MBPP/4.ml:6:20: Unbound value \"heapify_up\""
+        ]
+    },
+    "MBPP/408": {
+        "1": [
+            "MBPP/408.ml:5:5: This expression has type \"int list list list\"\nbut an expression was expected of type \"int list list\"\nType \"int list\" is not compatible with type \"int\""
+        ]
+    },
+    "MBPP/424": {
+        "1": [
+            "MBPP/424.ml:3:16: This expression has type \"char\" but an expression was expected of type\n\"string\""
+        ]
+    },
+    "MBPP/428": {
+        "1": [
+            "MBPP/428.ml:3:258: Unbound value \"List.hd_exn\""
+        ]
+    },
+    "MBPP/429": {
+        "1": [
+            "MBPP/429.ml:2:8: This expression has type \"int * int * int * int\"\nbut an expression was expected of type \"'a * 'b\""
+        ]
+    },
+    "MBPP/430": {
+        "1": [
+            "MBPP/430.ml:2:13: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "MBPP/434": {
+        "1": [
+            "MBPP/434.ml:2:17: Unbound module \"Str\""
+        ]
+    },
+    "MBPP/442": {
+        "1": [
+            "MBPP/442.ml:6:7: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "MBPP/451": {
+        "1": [
+            "MBPP/451.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/456": {
+        "1": [
+            "MBPP/456.ml:4:14: Unbound value \"String.rev\""
+        ]
+    },
+    "MBPP/463": {
+        "1": [
+            "MBPP/463.ml:15:35: This expression has type \"int\" but an expression was expected of type\n\"int * int\""
+        ]
+    },
+    "MBPP/468": {
+        "1": [
+            "MBPP/468.ml:8:117: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "MBPP/474": {
+        "1": [
+            "MBPP/474.ml:5:1: Syntax error"
+        ]
+    },
+    "MBPP/478": {
+        "1": [
+            "MBPP/478.ml:8:24: Unbound value \"String.cons\""
+        ]
+    },
+    "MBPP/556": {
+        "1": [
+            "MBPP/556.ml:4:11: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "MBPP/559": {
+        "1": [
+            "MBPP/559.ml:0:0: This expression has type \"'a * 'b * 'c\"\nbut an expression was expected of type \"int\""
+        ]
+    },
+    "MBPP/563": {
+        "1": [
+            "MBPP/563.ml:2:12: Unbound module \"Str\""
+        ]
+    },
+    "MBPP/569": {
+        "1": [
+            "MBPP/569.ml:4:35: This expression has type \"string list list\"\nbut an expression was expected of type \"string list\"\nType \"string list\" is not compatible with type \"string\""
+        ]
+    },
+    "MBPP/584": {
+        "1": [
+            "MBPP/584.ml:3:16: Unbound module \"Str\""
+        ]
+    },
+    "MBPP/588": {
+        "1": [
+            "MBPP/588.ml:6:24: This expression has type \"int\" but an expression was expected of type\n\"int * int\""
+        ]
+    },
+    "MBPP/591": {
+        "1": [
+            "MBPP/591.ml:6:27: Unbound value \"List.rev_split\""
+        ]
+    },
+    "MBPP/6": {
+        "1": [
+            "MBPP/6.ml:7:24: Unbound constructor \"Bits\""
+        ]
+    },
+    "MBPP/602": {
+        "1": [
+            "MBPP/602.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/603": {
+        "1": [
+            "MBPP/603.ml:6:20: This expression has type \"int list\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "MBPP/605": {
+        "1": [
+            "MBPP/605.ml:5:32: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "MBPP/606": {
+        "1": [
+            "MBPP/606.ml:2:3: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "MBPP/61": {
+        "1": [
+            "MBPP/61.ml:4:37: Unbound value \"digit_sum\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 3"
+        ]
+    },
+    "MBPP/611": {
+        "1": [
+            "MBPP/611.ml:8:23: This expression has type \"int\" but an expression was expected of type\n\"int list\""
+        ]
+    },
+    "MBPP/615": {
+        "1": [
+            "MBPP/615.ml:4:13: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "MBPP/619": {
+        "1": [
+            "MBPP/619.ml:21:26: Syntax error: strings are immutable, there is no assignment syntax for them.\nHint: Mutable sequences of bytes are available in the Bytes module.\nHint: Did you mean to use \"Bytes.set\"?"
+        ]
+    },
+    "MBPP/622": {
+        "1": [
+            "MBPP/622.ml:9:19: Unbound value \"List.sub\""
+        ]
+    },
+    "MBPP/623": {
+        "1": [
+            "MBPP/623.ml:4:14: This expression has type \"int\" but an expression was expected of type\n\"float\""
+        ]
+    },
+    "MBPP/624": {
+        "1": [
+            "MBPP/624.ml:4:24: Unbound value \"Char.uppercase\""
+        ]
+    },
+    "MBPP/628": {
+        "1": [
+            "MBPP/628.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/631": {
+        "1": [
+            "MBPP/631.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/635": {
+        "1": [
+            "MBPP/635.ml:13:16: Unbound value \"List.replace_nth\""
+        ]
+    },
+    "MBPP/638": {
+        "1": [
+            "MBPP/638.ml:5:13: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "MBPP/640": {
+        "1": [
+            "MBPP/640.ml:12:15: Unbound module \"Str\""
+        ]
+    },
+    "MBPP/71": {
+        "1": [
+            "MBPP/71.ml:45:56: Unbound value \"List.tl_n\""
+        ]
+    },
+    "MBPP/72": {
+        "1": [
+            "MBPP/72.ml:12:10: Unbound value \"square\""
+        ]
+    },
+    "MBPP/720": {
+        "1": [
+            "MBPP/720.ml:8:3: This expression has type\n\"(int * int * int) * (int * int * int * (string * int) list)\"\nbut an expression was expected of type\n\"int * int * int * (string * int) list\""
+        ]
+    },
+    "MBPP/721": {
+        "1": [
+            "MBPP/721.ml:4:30: This expression has type \"int list list\"\nbut an expression was expected of type \"'a array\""
+        ]
+    },
+    "MBPP/731": {
+        "1": [
+            "MBPP/731.ml:2:47: Unbound value \"Float.iround_to_int\""
+        ]
+    },
+    "MBPP/732": {
+        "1": [
+            "MBPP/732.ml:4:5: This pattern matches values of type \"'a list\"\nbut a pattern was expected which matches values of type \"string\""
+        ]
+    },
+    "MBPP/737": {
+        "1": [
+            "MBPP/737.ml:4:12: Unbound value \"String.search_forward\""
+        ]
+    },
+    "MBPP/742": {
+        "1": [
+            "MBPP/742.ml:2:16: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "MBPP/743": {
+        "1": [
+            "MBPP/743.ml:6:27: Unbound value \"List.tl_opt\"\nHint: Did you mean \"nth_opt\"?"
+        ]
+    },
+    "MBPP/747": {
+        "1": [
+            "MBPP/747.ml:21:49: This expression has type \"int array array\"\nbut an expression was expected of type \"(char * int) list\""
+        ]
+    },
+    "MBPP/748": {
+        "1": [
+            "MBPP/748.ml:5:7: This expression has type \"char\" but an expression was expected of type\n\"string\""
+        ]
+    },
+    "MBPP/751": {
+        "1": [
+            "MBPP/751.ml:10:23: This expression has type \"int list\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "MBPP/753": {
+        "1": [
+            "MBPP/753.ml:3:15: Unbound value \"List.rev_take\"\nHint: Did you mean \"rev_map\" or \"rev_map2\"?"
+        ]
+    },
+    "MBPP/756": {
+        "1": [
+            "MBPP/756.ml:2:17: Unbound module \"Re\""
+        ]
+    },
+    "MBPP/757": {
+        "1": [
+            "MBPP/757.ml:22:17: This expression has type \"string list\"\nThis is not a function; it cannot be applied."
+        ]
+    },
+    "MBPP/759": {
+        "1": [
+            "MBPP/759.ml:13:9: This expression has type \"unit\" but an expression was expected of type\n\"bool\""
+        ]
+    },
+    "MBPP/763": {
+        "1": [
+            "MBPP/763.ml:0:0: The function \"find_min_diff\" has type int list -> int -> int\nIt is applied to too many arguments"
+        ]
+    },
+    "MBPP/764": {
+        "1": [
+            "MBPP/764.ml:4:10: This expression has type \"string\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "MBPP/765": {
+        "1": [
+            "MBPP/765.ml:4:6: Unbound value \"(%)\""
+        ]
+    },
+    "MBPP/771": {
+        "1": [
+            "MBPP/771.ml:8:12: This expression has type \"char Stack.t -> unit\"\nbut an expression was expected of type \"char\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+        ]
+    },
+    "MBPP/773": {
+        "1": [
+            "MBPP/773.ml:15:55: This expression has type \"int\" but an expression was expected of type\n\"int option\""
+        ]
+    },
+    "MBPP/783": {
+        "1": [
+            "MBPP/783.ml:20:7: This expression has type \"float\" but an expression was expected of type\n\"int\""
+        ]
+    },
+    "MBPP/787": {
+        "1": [
+            "MBPP/787.ml:2:17: Unbound module \"Str\""
+        ]
+    },
+    "MBPP/796": {
+        "1": [
+            "MBPP/796.ml:3:5: This pattern matches values of type \"'a * 'b\"\nbut a pattern was expected which matches values of type\n\"(string * int) list\""
+        ]
+    },
+    "MBPP/801": {
+        "1": [
+            "MBPP/801.ml:4:8: This expression has type \"int\"\nThis is not a function; it cannot be applied."
+        ]
+    },
+    "MBPP/802": {
+        "1": [
+            "MBPP/802.ml:4:7: This expression has type \"int list\"\nbut an expression was expected of type \"string\""
+        ]
+    },
+    "MBPP/803": {
+        "1": [
+            "MBPP/803.ml:6:26: This expression has type \"int\" but an expression was expected of type\n\"unit\"\nbecause it is in the result of a conditional with no else branch"
+        ]
+    },
+    "MBPP/806": {
+        "1": [
+            "MBPP/806.ml:6:40: This expression has type \"string\" but an expression was expected of type\n\"char\""
+        ]
+    },
+    "MBPP/807": {
+        "1": [
+            "MBPP/807.ml:8:10: This expression has type \"int\" but an expression was expected of type\n\"unit\""
+        ]
+    },
+    "MBPP/84": {
+        "1": [
+            "MBPP/84.ml:13:1: Syntax error"
+        ]
+    },
+    "MBPP/86": {
+        "1": [
+            "MBPP/86.ml:3:12: Unbound value \"nth_hexagonal_number\""
+        ]
+    },
+    "MBPP/88": {
+        "1": [
+            "MBPP/88.ml:4:26: This expression has type \"int\" but an expression was expected of type\n\"'a * 'b\""
+        ]
+    },
+    "MBPP/9": {
+        "1": [
+            "MBPP/9.ml:9:29: Syntax error"
+        ]
+    },
+    "MBPP/91": {
+        "1": [
+            "MBPP/91.ml:4:34: This expression has type \"string\" but an expression was expected of type\n\"char\""
+        ]
+    },
+    "MBPP/94": {
+        "1": [
+            "MBPP/94.ml:7:27: This expression has type \"int\" but an expression was expected of type\n\"'a * 'b\""
+        ]
+    }
+}

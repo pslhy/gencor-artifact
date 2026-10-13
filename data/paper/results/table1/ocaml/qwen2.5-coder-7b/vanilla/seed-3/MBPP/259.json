@@ -1,0 +1,22 @@
+{
+    "decoded": 26,
+    "llm_time": 0.6638448238372803,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0006198883056640625,
+    "constrainer_time": 0.006021738052368164,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.678858757019043,
+    "frequency": {
+        "1": 27
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/259.ml:2:15: This expression has type \"'a list -> ('a -> 'a) list\"\nbut an expression was expected of type \"'a list -> 'b -> 'c\"\nType \"('a -> 'a) list\" is not compatible with type \"'b -> 'c\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 314,
+    "llm_time": 17.065778732299805,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007756233215332031,
+    "constrainer_time": 0.07359027862548828,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.24903106689453,
+    "frequency": {
+        "1": 315
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:10:37: undefined name 'reader'"
+    ]
+}

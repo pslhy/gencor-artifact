@@ -1,0 +1,22 @@
+{
+    "decoded": 103,
+    "llm_time": 5.513952732086182,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0025551319122314453,
+    "constrainer_time": 0.024728775024414062,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.5696985721588135,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:18: Unbound value \"tup\""
+    ]
+}

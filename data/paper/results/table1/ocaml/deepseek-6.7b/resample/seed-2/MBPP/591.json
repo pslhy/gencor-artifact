@@ -1,0 +1,28 @@
+{
+    "decoded": 301,
+    "decoded_at_turn": {
+        "1": 149,
+        "2": 152
+    },
+    "llm_time": 7.822523593902588,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007280588150024414,
+    "constrainer_time": 0.06943750381469727,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.988176584243774,
+    "frequency": {
+        "1": 303
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:0:0: The function \"swap_List\" has type int list -> int list\nIt is applied to too many arguments"
+    ]
+}

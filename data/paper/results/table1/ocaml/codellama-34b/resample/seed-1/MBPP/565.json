@@ -1,0 +1,31 @@
+{
+    "decoded": 311,
+    "decoded_at_turn": {
+        "1": 60,
+        "2": 61,
+        "3": 60,
+        "4": 60,
+        "5": 70
+    },
+    "llm_time": 18.022846698760986,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.011615991592407227,
+    "constrainer_time": 0.09565329551696777,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 18.25343894958496,
+    "frequency": {
+        "1": 316
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:21: This expression has type \"string\"\nThis is not a function; it cannot be applied."
+    ]
+}

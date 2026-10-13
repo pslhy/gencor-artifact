@@ -1,0 +1,24 @@
+{
+    "decoded": 159,
+    "llm_time": 8.78811240196228,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004355669021606445,
+    "constrainer_time": 0.0425419807434082,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.890000104904175,
+    "frequency": {
+        "1": 160
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:9: expected an indented block after 'with' statement on line 8",
+        "        reader = csv.reader(csvfile)",
+        "        ^"
+    ]
+}

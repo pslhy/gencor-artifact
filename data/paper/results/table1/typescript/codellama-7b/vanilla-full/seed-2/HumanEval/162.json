@@ -1,0 +1,19 @@
+{
+    "decoded": 34,
+    "llm_time": 0.8544766902923584,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008141994476318359,
+    "constrainer_time": 0.008180856704711914,
+    "total_time": 0.8722324371337891,
+    "frequency": {
+        "1": 35
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2591: Cannot find name 'Buffer'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig."
+    ]
+}

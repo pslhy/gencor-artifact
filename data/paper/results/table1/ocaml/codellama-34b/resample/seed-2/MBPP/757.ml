@@ -1,0 +1,15 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function to count the pairs of reverse strings in the given string list. https://www.geeksforgeeks.org/mlthon-program-to-count-the-pairs-of-reverse-strings/ *)
+let rec count_reverse_pairs (test_list : string list) : int =
+    match test_list with
+    | [] | [_] -> 0
+    | h1 :: h2 :: tl ->
+        (if h1 = h2 then 1 else 0) +
+        count_reverse_pairs (h2 :: tl)
+

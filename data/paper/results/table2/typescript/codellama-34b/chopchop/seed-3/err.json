@@ -1,0 +1,31 @@
+{
+    "mbpp/72": [
+        "../../tmp/tmpas3d44na.ts(77,55): error TS1005: '}' expected."
+    ],
+    "mbpp/96": [
+        "../../tmp/tmpkxs0glsh.ts(210,1): error TS1005: '}' expected."
+    ],
+    "mbpp/171": [
+        "../../tmp/tmpnj2fix27.ts(2,10): error TS2393: Duplicate function implementation.",
+        "../../tmp/tmpnj2fix27.ts(8,10): error TS2393: Duplicate function implementation."
+    ],
+    "mbpp/256": [
+        "../../tmp/tmpbi3xhex6.ts(52,29): error TS1005: '}' expected."
+    ],
+    "mbpp/293": [
+        "../../tmp/tmptr5lxxh9.ts(48,46): error TS1005: '}' expected."
+    ],
+    "mbpp/641": [
+        "../../tmp/tmpx1g07u9l.ts(16,26): error TS1109: Expression expected."
+    ],
+    "mbpp/765": [
+        "../../tmp/tmpu3uzml8a.ts(5,34): error TS1109: Expression expected.",
+        "../../tmp/tmpu3uzml8a.ts(87,9): error TS1005: '}' expected."
+    ],
+    "mbpp/797": [
+        "../../tmp/tmpwf7okxw7.ts(14,16): error TS1005: '}' expected."
+    ],
+    "mbpp/803": [
+        "../../tmp/tmpuw2opt8_.ts(68,53): error TS1005: '}' expected."
+    ]
+}

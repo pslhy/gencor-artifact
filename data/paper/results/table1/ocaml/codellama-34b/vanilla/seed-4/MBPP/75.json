@@ -1,0 +1,22 @@
+{
+    "decoded": 265,
+    "llm_time": 14.287554025650024,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008611202239990234,
+    "constrainer_time": 0.06741881370544434,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.447291135787964,
+    "frequency": {
+        "1": 266
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:13: This expression has type \"(int * int * int) list\"\nbut an expression was expected of type \"'a * 'b\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 103,
+    "llm_time": 5.52255916595459,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0026760101318359375,
+    "constrainer_time": 0.006322145462036133,
+    "total_time": 5.558015584945679,
+    "frequency": {
+        "1": 104
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'a'.",
+        "TS7006: Parameter 'b' implicitly has an 'any' type.",
+        "TS2554: Expected 0-1 arguments, but got 2.",
+        "TS2304: Cannot find name 'a'."
+    ]
+}

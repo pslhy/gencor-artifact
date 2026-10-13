@@ -1,0 +1,11 @@
+let rec even_Power_Sum (n : int) : int =
+    if n <= 0 then 0
+    else (2 * n * (2 * n + 1) * (2 * n + 2) * (2 * n + 3) * (2 * n + 4)) / 5 + even_Power_Sum (n - 1);;
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function that takes in an integer n and finds the sum of the first n even natural numbers that are raised to the fifth power. *)

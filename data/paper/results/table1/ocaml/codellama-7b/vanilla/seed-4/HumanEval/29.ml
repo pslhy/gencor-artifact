@@ -1,0 +1,21 @@
+let rec filter_by_prefix (strings : string list) (prefix : string) : string list =
+  match strings with
+  | [] -> []
+  | string :: rest ->
+    let starts_with_prefix = String.starts_with string prefix in
+    if starts_with_prefix then
+      string :: filter_by_prefix rest prefix
+    else
+      filter_by_prefix rest prefix
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Filter an input list of strings only for ones that start with a given prefix. *)
+(*     >>> filter_by_prefix [] "a" *)
+(*     [] *)
+(*     >>> filter_by_prefix ["abc"; "bcd"; "cde"; "array"] "a" *)
+(*     ["abc"; "array"] *)

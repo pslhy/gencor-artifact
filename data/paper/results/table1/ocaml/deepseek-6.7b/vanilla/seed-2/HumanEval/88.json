@@ -1,0 +1,22 @@
+{
+    "decoded": 90,
+    "llm_time": 2.3614914417266846,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0021877288818359375,
+    "constrainer_time": 0.020723581314086914,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4110822677612305,
+    "frequency": {
+        "1": 91
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/88.ml:7:31: The function applied to this argument has type 'a list -> 'a list\nThis argument cannot be applied with label \"~compare\""
+    ]
+}

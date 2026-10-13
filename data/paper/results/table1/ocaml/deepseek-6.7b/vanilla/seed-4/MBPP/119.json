@@ -1,0 +1,22 @@
+{
+    "decoded": 109,
+    "llm_time": 2.766907215118408,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002709627151489258,
+    "constrainer_time": 0.025109291076660156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.823848247528076,
+    "frequency": {
+        "1": 110
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/119.ml:0:0: The function \"search\" has type int list -> int\nIt is applied to too many arguments"
+    ]
+}

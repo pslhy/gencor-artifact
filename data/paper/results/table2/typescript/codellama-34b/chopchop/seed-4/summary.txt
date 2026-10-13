@@ -1,0 +1,6 @@
+tool: chopchop  mode: TypedCD  model: codellama/CodeLlama-34b-Instruct-hf  temp: 1.0  seed: 4
+tasks: 72
+compiled (pass): 63/72 87.50%
+timeout: 9/72 12.50%
+errors: 9/72  uv: 0/72
+wallclock: 1523.8s

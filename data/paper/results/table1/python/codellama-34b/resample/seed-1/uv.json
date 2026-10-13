@@ -1,0 +1,49 @@
+{
+    "BigCodeBench/34": [
+        "<python>:9:33: undefined name 'punctuation'",
+        "<python>:11:33: undefined name 'digits'",
+        "<python>:13:17: undefined name 'nltk'"
+    ],
+    "BigCodeBench/162": [
+        "<python>:11:26: undefined module member 'np.skew'"
+    ],
+    "BigCodeBench/418": [
+        "<python>:9:15: undefined name 'tf'",
+        "<python>:9:51: undefined name 'tf'",
+        "<python>:10:14: undefined name 'tf'",
+        "<python>:10:49: undefined name 'tf'",
+        "<python>:11:15: undefined name 'tf'",
+        "<python>:11:51: undefined name 'tf'",
+        "<python>:12:14: undefined name 'tf'",
+        "<python>:12:49: undefined name 'tf'",
+        "<python>:16:77: undefined name 'input_dims'"
+    ],
+    "BigCodeBench/501": [
+        "<python>:9:21: undefined name 'json'"
+    ],
+    "BigCodeBench/502": [
+        "<python>:25:15: undefined name 'plt'"
+    ],
+    "BigCodeBench/583": [
+        "<python>:21:18: undefined name 'hashlib'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:10:23: undefined module member 'rsa.generate_private_key'"
+    ],
+    "BigCodeBench/655": [
+        "<python>:25:24: undefined name 'np'"
+    ],
+    "BigCodeBench/906": [
+        "<python>:13:24: undefined name 'datetime'"
+    ],
+    "BigCodeBench/1042": [
+        "<python>:38:13: undefined name 'time'",
+        "<python>:43:6: undefined name 'socket'",
+        "<python>:43:20: undefined name 'socket'",
+        "<python>:43:36: undefined name 'socket'",
+        "<python>:50:18: undefined name 'threading'"
+    ],
+    "BigCodeBench/1053": [
+        "<python>:9:8: undefined name 'os'"
+    ]
+}

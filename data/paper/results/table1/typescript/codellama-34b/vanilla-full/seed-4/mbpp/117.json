@@ -1,0 +1,21 @@
+{
+    "decoded": 169,
+    "llm_time": 8.969400405883789,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004214763641357422,
+    "constrainer_time": 0.010013580322265625,
+    "total_time": 9.027299404144287,
+    "frequency": {
+        "1": 170
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type '[]' is not assignable to type '[number, number]'.\n  Source has 0 element(s) but target requires 2.",
+        "TS2345: Argument of type 'number[]' is not assignable to parameter of type 'number'.",
+        "TS2322: Type '[number, number]' is not assignable to type '[number, number][]'.\n  Type 'number' is not assignable to type '[number, number]'."
+    ]
+}

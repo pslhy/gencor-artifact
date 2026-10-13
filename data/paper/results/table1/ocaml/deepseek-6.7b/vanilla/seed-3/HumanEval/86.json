@@ -1,0 +1,22 @@
+{
+    "decoded": 255,
+    "llm_time": 6.287282228469849,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0061757564544677734,
+    "constrainer_time": 0.05705523490905762,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.425525188446045,
+    "frequency": {
+        "1": 256
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/86.ml:8:79: Unbound value \"String.explode\""
+    ]
+}

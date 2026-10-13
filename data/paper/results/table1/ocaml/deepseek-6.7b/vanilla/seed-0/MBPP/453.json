@@ -1,0 +1,22 @@
+{
+    "decoded": 156,
+    "llm_time": 4.062087297439575,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003989458084106445,
+    "constrainer_time": 0.036203861236572266,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.14470362663269,
+    "frequency": {
+        "1": 157
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/453.ml:0:0: The function \"loop\" has type int -> int -> int\nIt is applied to too many arguments"
+    ]
+}

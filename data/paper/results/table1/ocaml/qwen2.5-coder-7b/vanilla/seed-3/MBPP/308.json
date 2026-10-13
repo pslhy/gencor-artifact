@@ -1,0 +1,22 @@
+{
+    "decoded": 367,
+    "llm_time": 9.298591136932373,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009911298751831055,
+    "constrainer_time": 0.08394265174865723,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.524980783462524,
+    "frequency": {
+        "1": 368
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/308.ml:6:26: This expression has type \"'a * 'b * 'c * 'd\"\nbut an expression was expected of type \"'e * 'f\""
+    ]
+}

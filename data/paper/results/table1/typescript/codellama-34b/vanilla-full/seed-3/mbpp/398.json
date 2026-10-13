@@ -1,0 +1,23 @@
+{
+    "decoded": 152,
+    "llm_time": 8.149139404296875,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00432133674621582,
+    "constrainer_time": 0.009380102157592773,
+    "total_time": 8.203468322753906,
+    "frequency": {
+        "1": 153
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'any[]'. Did you mean 'length'?",
+        "TS2551: Property 'lenght' does not exist on type 'any[]'. Did you mean 'length'?",
+        "TS2588: Cannot assign to 'index' because it is a constant.",
+        "TS2588: Cannot assign to 'result' because it is a constant.",
+        "TS2588: Cannot assign to 'num' because it is a constant."
+    ]
+}

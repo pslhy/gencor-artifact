@@ -1,0 +1,26 @@
+{
+    "decoded": 357,
+    "llm_time": 8.85134506225586,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008778095245361328,
+    "constrainer_time": 0.08221101760864258,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.053931713104248,
+    "frequency": {
+        "1": 358
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/310.py:28:51: undefined name 'reader'",
+        "BigCodeBench/310.py:29:57: undefined name 'reader'",
+        "BigCodeBench/310.py:30:57: undefined name 'reader'",
+        "BigCodeBench/310.py:39:27: undefined name 'uuid'",
+        "BigCodeBench/310.py:42:1: 'return' outside function"
+    ]
+}

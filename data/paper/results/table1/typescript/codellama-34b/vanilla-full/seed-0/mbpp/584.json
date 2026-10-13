@@ -1,0 +1,21 @@
+{
+    "decoded": 125,
+    "llm_time": 6.687179327011108,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003996610641479492,
+    "constrainer_time": 0.008198976516723633,
+    "total_time": 6.736288547515869,
+    "frequency": {
+        "1": 126
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2345: Argument of type 'RegExpMatchArray' is not assignable to parameter of type 'string'.",
+        "TS2345: Argument of type 'RegExpMatchArray' is not assignable to parameter of type 'string'.",
+        "TS2322: Type '{ positions: number[]; adverbs: string[]; }' is not assignable to type 'string'."
+    ]
+}

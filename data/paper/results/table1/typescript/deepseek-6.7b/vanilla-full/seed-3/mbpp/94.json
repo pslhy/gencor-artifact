@@ -1,0 +1,19 @@
+{
+    "decoded": 53,
+    "llm_time": 1.3107788562774658,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0012238025665283203,
+    "constrainer_time": 0.012068510055541992,
+    "total_time": 1.3370471000671387,
+    "frequency": {
+        "1": 54
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2532: Object is possibly 'undefined'."
+    ]
+}

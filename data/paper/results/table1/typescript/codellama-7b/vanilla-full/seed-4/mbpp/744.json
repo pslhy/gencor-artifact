@@ -1,0 +1,19 @@
+{
+    "decoded": 41,
+    "llm_time": 1.0318071842193604,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001049041748046875,
+    "constrainer_time": 0.009957075119018555,
+    "total_time": 1.0532138347625732,
+    "frequency": {
+        "1": 42
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'None'."
+    ]
+}

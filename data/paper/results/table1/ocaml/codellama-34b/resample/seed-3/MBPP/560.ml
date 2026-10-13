@@ -1,0 +1,23 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Write a function to find the union of the elements of two given lists and output them in sorted order. *)
+let rec union_elements (test_tup1 : int list) (test_tup2 : int list) : int list =
+  let rec helper (test_tup1 : int list) (test_tup2 : int list) (result : int list) : int list =
+    match test_tup1, test_tup2 with
+    | [], _ -> result
+    | _, [] -> result
+    | h1::t1, h2::t2 ->
+      if h1 < h2 then
+        helper t1 test_tup2 (h1::result)
+      else if h1 > h2 then
+        helper test_tup1 t2 (h2::result)
+      else
+        helper t1 t2 (h1::result)
+  in
+  List.rev (helper test_tup1 test_tup2 [])
+

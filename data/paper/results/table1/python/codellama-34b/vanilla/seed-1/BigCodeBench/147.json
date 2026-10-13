@@ -1,0 +1,22 @@
+{
+    "decoded": 175,
+    "llm_time": 9.453473806381226,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00432276725769043,
+    "constrainer_time": 0.04107022285461426,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.55049729347229,
+    "frequency": {
+        "1": 176
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:13:32: undefined name 'scan_port'"
+    ]
+}

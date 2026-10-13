@@ -1,0 +1,21 @@
+{
+    "decoded": 158,
+    "llm_time": 8.405427694320679,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004342317581176758,
+    "constrainer_time": 0.009793281555175781,
+    "total_time": 8.461643695831299,
+    "frequency": {
+        "1": 159
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'null' is not assignable to type '[number, number]'.",
+        "TS2322: Type 'string | null' is not assignable to type 'string'.\n  Type 'null' is not assignable to type 'string'.",
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+    ]
+}

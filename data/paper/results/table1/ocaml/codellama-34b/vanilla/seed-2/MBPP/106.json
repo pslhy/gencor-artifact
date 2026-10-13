@@ -1,0 +1,22 @@
+{
+    "decoded": 26,
+    "llm_time": 1.4558544158935547,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0006403923034667969,
+    "constrainer_time": 0.006356477737426758,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4699018001556396,
+    "frequency": {
+        "1": 27
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:5: This expression should not be a list literal, the expected type is\n\"int * int * int * int * int\""
+    ]
+}

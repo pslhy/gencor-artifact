@@ -1,0 +1,22 @@
+{
+    "decoded": 382,
+    "llm_time": 10.208378314971924,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01087808609008789,
+    "constrainer_time": 0.10814404487609863,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.457639455795288,
+    "frequency": {
+        "1": 383
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:28:76: undefined module member 'np.in1d'"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 121,
+    "llm_time": 2.9180335998535156,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002711772918701172,
+    "constrainer_time": 0.0272676944732666,
+    "total_time": 2.9782090187072754,
+    "frequency": {
+        "1": 122
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number[]' is not assignable to type '[number, number, number, number]'.\n  Target requires 4 element(s) but source may have fewer.",
+        "TS2304: Cannot find name 'test_tup'.",
+        "TS2304: Cannot find name 'result'.",
+        "TS2304: Cannot find name 'test_tup'.",
+        "TS2304: Cannot find name 'result'."
+    ]
+}

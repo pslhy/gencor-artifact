@@ -1,0 +1,11 @@
+{
+    "BigCodeBench/37": [
+        "BigCodeBench/37.py:38:5: undefined name 'rfc'"
+    ],
+    "BigCodeBench/274": [
+        "BigCodeBench/274.py:25:49: undefined name 'ke'"
+    ],
+    "BigCodeBench/1006": [
+        "BigCodeBench/1006.py:25:52: undefined name 'output_name'"
+    ]
+}

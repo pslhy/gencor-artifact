@@ -1,0 +1,68 @@
+{
+    "HumanEval/33": {
+        "1": [
+            "TS2322: Type '(number | undefined)[]' is not assignable to type 'number[]'.\n  Type 'number | undefined' is not assignable to type 'number'.\n    Type 'undefined' is not assignable to type 'number'.",
+            "TS2304: Cannot find name 'as'.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here."
+        ]
+    },
+    "HumanEval/90": {
+        "1": [
+            "TS2364: The left-hand side of an assignment expression must be a variable or a property access."
+        ]
+    },
+    "HumanEval/91": {
+        "1": [
+            "TS18047: 'sentances' is possibly 'null'."
+        ]
+    },
+    "HumanEval/129": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 4, '(iterable: Iterable<unknown> | ArrayLike<unknown>, mapfn: (v: unknown, k: number) => number[], thisArg?: any): number[][]', gave the following error.\n    Argument of type 'string' is not assignable to parameter of type '(v: unknown, k: number) => number[]'.\n  Overload 2 of 4, '(arrayLike: ArrayLike<unknown>, mapfn: (v: unknown, k: number) => number[], thisArg?: any): number[][]', gave the following error.\n    Argument of type 'string' is not assignable to parameter of type '(v: unknown, k: number) => number[]'.",
+            "TS2345: Argument of type 'number[]' is not assignable to parameter of type 'string | number | boolean'.",
+            "TS2339: Property 'n' does not exist on type '(number: number) => boolean'."
+        ]
+    },
+    "mbpp/77": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'string' is not assignable to type 'boolean'."
+        ]
+    },
+    "mbpp/130": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2454: Variable 'occurrences' is used before being assigned."
+        ]
+    },
+    "mbpp/222": {
+        "1": [
+            "TS2367: This comparison appears to be unintentional because the types 'boolean' and 'string' have no overlap.",
+            "TS2322: Type 'unknown[]' is not assignable to type 'boolean'.",
+            "TS2345: Argument of type 'string' is not assignable to parameter of type '(value: any, index: number, array: any[]) => unknown'.\n  Type 'string' is not assignable to type '(value: any, index: number, array: any[]) => unknown'."
+        ]
+    },
+    "mbpp/294": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '>' cannot be applied to types 'string | number' and 'number'."
+        ]
+    },
+    "mbpp/564": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2532: Object is possibly 'undefined'."
+        ]
+    },
+    "mbpp/580": {
+        "1": [
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/607": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'string'."
+        ]
+    }
+}

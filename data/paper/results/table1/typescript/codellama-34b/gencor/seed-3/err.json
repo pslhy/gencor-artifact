@@ -1,0 +1,812 @@
+{
+    "HumanEval/33": {
+        "1": [
+            "TS2322: Type '(string | number)[]' is not assignable to type 'number[]'.\n  Type 'string | number' is not assignable to type 'number'.\n    Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "HumanEval/47": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'.",
+            "TS18050: The value 'undefined' cannot be used here.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'.",
+            "TS2365: Operator '<' cannot be applied to types 'boolean' and 'RegExp'."
+        ]
+    },
+    "HumanEval/54": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2532: Object is possibly 'undefined'."
+        ]
+    },
+    "HumanEval/69": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2532: Object is possibly 'undefined'.",
+            "TS2365: Operator '+' cannot be applied to types 'number' and 'bigint'.",
+            "TS2554: Expected 2 arguments, but got 3.",
+            "TS2872: This kind of expression is always truthy."
+        ]
+    },
+    "HumanEval/75": {
+        "1": [
+            "TS2304: Cannot find name 'I'.",
+            "TS2304: Cannot find name 'define'.",
+            "TS2304: Cannot find name 'an'.",
+            "TS2304: Cannot find name 'variable'.",
+            "TS2304: Cannot find name 'equal'.",
+            "TS2304: Cannot find name 'to'.",
+            "TS2304: Cannot find name 'because'.",
+            "TS2304: Cannot find name 'we'.",
+            "TS2304: Cannot find name 'know'.",
+            "TS2304: Cannot find name 'that'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'smallest'.",
+            "TS2304: Cannot find name 'prime'.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'Then'.",
+            "TS2304: Cannot find name 'I'.",
+            "TS2304: Cannot find name 'start'.",
+            "TS2304: Cannot find name 'loop'.",
+            "TS1101: 'with' statements are not allowed in strict mode.",
+            "TS2304: Cannot find name 'to'.",
+            "TS2304: Cannot find name 'less'.",
+            "TS2304: Cannot find name 'than'.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2304: Cannot find name 'Inside'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'loop'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2304: Cannot find name 'If'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'dont'.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig.",
+            "TS2304: Cannot find name 'means'.",
+            "TS2304: Cannot find name 'that'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'multiplication'.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'prime'.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2304: Cannot find name 'Else'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'input'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'check'.",
+            "TS2304: Cannot find name 'loop'.",
+            "TS2304: Cannot find name 'and'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'less'.",
+            "TS2304: Cannot find name 'then'.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2304: Cannot find name 'so'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'check'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'condition'.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'loop'.",
+            "TS2304: Cannot find name 'and'.",
+            "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2304: Cannot find name 'I'.",
+            "TS2304: Cannot find name 'enter'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'part'.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'condition'.",
+            "TS2304: Cannot find name 'and'.",
+            "TS2304: Cannot find name 'check'.",
+            "TS2304: Cannot find name 'that'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'i'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'I'."
+        ]
+    },
+    "HumanEval/78": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(iterable?: Iterable<unknown> | null | undefined): Set<unknown>', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'Iterable<unknown>'.\n  Overload 2 of 2, '(values?: readonly any[] | null | undefined): Set<any>', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'readonly any[]'."
+        ]
+    },
+    "HumanEval/141": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2532: Object is possibly 'undefined'.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2872: This kind of expression is always truthy.",
+            "TS2304: Cannot find name 'a'.",
+            "TS2304: Cannot find name 'zA'.",
+            "TS2304: Cannot find name 'Z'.",
+            "TS2552: Cannot find name 'an_function'. Did you mean 'Function'?"
+        ]
+    },
+    "HumanEval/145": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "HumanEval/156": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/162": {
+        "1": [
+            "TS2304: Cannot find name 'CryptoJSonnaetteducky'."
+        ]
+    },
+    "mbpp/12": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'."
+        ]
+    },
+    "mbpp/63": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2304: Cannot find name 'mySortFunction19117755868655778226ninjaaelaooolriggitoorceeleamohifaileidhoifluibuittochumeruyaakktrolandcnpmamesoptraooutmergeo'."
+        ]
+    },
+    "mbpp/64": {
+        "1": [
+            "TS2345: Argument of type '(string | number)[][]' is not assignable to parameter of type '[string, number][]'.\n  Type '(string | number)[]' is not assignable to type '[string, number]'.\n    Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/65": {
+        "1": [
+            "TS2365: Operator '+' cannot be applied to types 'number | number[]' and 'number'."
+        ]
+    },
+    "mbpp/70": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[][]'."
+        ]
+    },
+    "mbpp/75": {
+        "1": [
+            "TS2345: Argument of type 'number[]' is not assignable to parameter of type '[number, number, number][]'.\n  Type 'number' is not assignable to type '[number, number, number]'.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/94": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'number' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/97": {
+        "1": [
+            "TS2300: Duplicate identifier 'list1'.",
+            "TS2300: Duplicate identifier 'list1'.",
+            "TS1155: 'const' declarations must be initialized.",
+            "TS2454: Variable 'frequency_list' is used before being assigned.",
+            "TS2454: Variable 'frequency_list' is used before being assigned.",
+            "TS2454: Variable 'frequency_list' is used before being assigned.",
+            "TS2454: Variable 'frequency_list' is used before being assigned."
+        ]
+    },
+    "mbpp/106": {
+        "1": [
+            "TS2538: Type 'RegExp' cannot be used as an index type.",
+            "TS2349: This expression is not callable.\n  Type 'Boolean' has no call signatures.",
+            "TS2304: Cannot find name 'November'.",
+            "TS2304: Cannot find name 'weeks'.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2304: Cannot find name 'Stephen'.",
+            "TS2304: Cannot find name 'Hoekland'.",
+            "TS2304: Cannot find name 'support'.",
+            "TS2304: Cannot find name 'If'.",
+            "TS2304: Cannot find name 'you'.",
+            "TS2304: Cannot find name 'are'.",
+            "TS2304: Cannot find name 'wondering'.",
+            "TS2304: Cannot find name 'how'.",
+            "TS2304: Cannot find name 'to'.",
+            "TS2304: Cannot find name 'check'.",
+            "TS2304: Cannot find name 'which'.",
+            "TS2304: Cannot find name 'version'.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'TypeScript'.",
+            "TS2304: Cannot find name 'your'.",
+            "TS2304: Cannot find name 'project'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'using'.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2304: Cannot find name 'you'.",
+            "TS2304: Cannot find name 'can'.",
+            "TS2304: Cannot find name 'so'.",
+            "TS2304: Cannot find name 'from'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'command'.",
+            "TS2304: Cannot find name 'This'.",
+            "TS2304: Cannot find name 'will'.",
+            "TS2304: Cannot find name 'give'.",
+            "TS2304: Cannot find name 'you'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'version'.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2304: Cannot find name 'and'.",
+            "TS2304: Cannot find name 'show'.",
+            "TS2304: Cannot find name 'you'.",
+            "TS2304: Cannot find name 'all'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'options'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'installed'.",
+            "TS2304: Cannot find name 'typescript'.",
+            "TS2591: Cannot find name 'module'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node` and then add 'node' to the types field in your tsconfig.",
+            "TS2304: Cannot find name 'you'.",
+            "TS2304: Cannot find name 'can'.",
+            "TS2304: Cannot find name 'check'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'version'.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'package'.",
+            "TS2304: Cannot find name 'file'.",
+            "TS2304: Cannot find name 'at'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'root'.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'your'.",
+            "TS2304: Cannot find name 'project'.",
+            "TS2304: Cannot find name 'version'.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2304: Cannot find name 'will'.",
+            "TS2304: Cannot find name 'be'.",
+            "TS2304: Cannot find name 'shown'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'entry'.",
+            "TS2304: Cannot find name 'm'.",
+            "TS2304: Cannot find name 'here'.",
+            "TS2304: Cannot find name 'to'.",
+            "TS2304: Cannot find name 'help'.",
+            "TS2304: Cannot find name 'solve'.",
+            "TS2304: Cannot find name 'TypeScript'.",
+            "TS2304: Cannot find name 'problems'.",
+            "TS2304: Cannot find name 'on'.",
+            "TS2304: Cannot find name 'Stack'.",
+            "TS2304: Cannot find name 'Overflow'.",
+            "TS2304: Cannot find name 'can'.",
+            "TS2304: Cannot find name 'I'.",
+            "TS2304: Cannot find name 'help'.",
+            "TS2304: Cannot find name 'you'.",
+            "TS1101: 'with' statements are not allowed in strict mode.",
+            "TS2304: Cannot find name 'TypeScript'.",
+            "TS2304: Cannot find name 'a'.",
+            "TS2304: Cannot find name 'superset'.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'JavaScript'.",
+            "TS2304: Cannot find name 'that'.",
+            "TS2304: Cannot find name 'requires'.",
+            "TS2304: Cannot find name 'a'.",
+            "TS2304: Cannot find name 'compile'.",
+            "TS2304: Cannot find name 'step'.",
+            "TS2304: Cannot find name 'means'.",
+            "TS2304: Cannot find name 'you'.",
+            "TS2304: Cannot find name 's'.",
+            "TS2304: Cannot find name 'being'.",
+            "TS2304: Cannot find name 'executed'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'browser'."
+        ]
+    },
+    "mbpp/120": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type '[number, number][]'."
+        ]
+    },
+    "mbpp/130": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/132": {
+        "1": [
+            "TS2391: Function implementation is missing or not immediately following the declaration.",
+            "TS7010: 'excludes', which lacks return-type annotation, implicitly has an 'any' return type."
+        ]
+    },
+    "mbpp/141": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/255": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'number[]' is not assignable to type 'string[][]'.\n  Type 'number' is not assignable to type 'string[]'.",
+            "TS7006: Parameter 'i' implicitly has an 'any' type.",
+            "TS2345: Argument of type '(i: any) => any' is not assignable to parameter of type 'number'."
+        ]
+    },
+    "mbpp/259": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '+' cannot be applied to types 'number[]' and 'number'.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/261": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/290": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[][]'."
+        ]
+    },
+    "mbpp/294": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/296": {
+        "1": [
+            "TS2393: Duplicate function implementation.",
+            "TS2393: Duplicate function implementation."
+        ]
+    },
+    "mbpp/297": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/299": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type '[string, number][]'."
+        ]
+    },
+    "mbpp/305": {
+        "1": [
+            "TS2454: Variable 'pair' is used before being assigned.",
+            "TS2454: Variable 'pair' is used before being assigned.",
+            "TS2454: Variable 'pair' is used before being assigned.",
+            "TS2454: Variable 'pair' is used before being assigned."
+        ]
+    },
+    "mbpp/308": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2454: Variable 'heap' is used before being assigned.",
+            "TS2454: Variable 'heap' is used before being assigned.",
+            "TS2454: Variable 'heap' is used before being assigned.",
+            "TS2345: Argument of type 'number' is not assignable to parameter of type 'number[]'."
+        ]
+    },
+    "mbpp/393": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type '[number, number[]]'.",
+            "TS2538: Type 'any[][]' cannot be used as an index type.",
+            "TS2488: Type 'number' must have a '[Symbol.iterator]()' method that returns an iterator.",
+            "TS2300: Duplicate identifier 'isFinite'.",
+            "TS2300: Duplicate identifier 'isFinite'.",
+            "TS2304: Cannot find name 'i'."
+        ]
+    },
+    "mbpp/395": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'string'."
+        ]
+    },
+    "mbpp/396": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'string'."
+        ]
+    },
+    "mbpp/398": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'any[]'."
+        ]
+    },
+    "mbpp/400": {
+        "1": [
+            "TS2345: Argument of type 'boolean' is not assignable to parameter of type '[number, number]'.",
+            "TS2365: Operator '<' cannot be applied to types 'string' and 'RegExp'.",
+            "TS2304: Cannot find name 'If'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS7010: 'definition', which lacks return-type annotation, implicitly has an 'any' return type.",
+            "TS2304: Cannot find name 'contains'.",
+            "TS2552: Cannot find name 'errors'. Did you mean 'Error'?",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2304: Cannot find name 'they'.",
+            "TS2304: Cannot find name 'be'.",
+            "TS2304: Cannot find name 'printed'.",
+            "TS2304: Cannot find name 'to'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'when'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'variable'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'not'.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'right'.",
+            "TS2304: Cannot find name 'type'.",
+            "TS2683: 'this' implicitly has type 'any' because it does not have a type annotation.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'error'.",
+            "TS2304: Cannot find name 'message'.",
+            "TS2304: Cannot find name 'include'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'code'.",
+            "TS2304: Cannot find name 'that'.",
+            "TS2304: Cannot find name 'caused'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'error'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2304: Cannot find name 'code'.",
+            "TS2304: Cannot find name 'is'.",
+            "TS2304: Cannot find name 'correct'.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2304: Cannot find name 'the'.",
+            "TS7010: 'will', which lacks return-type annotation, implicitly has an 'any' return type.",
+            "TS2304: Cannot find name 'there'.",
+            "TS2304: Cannot find name 'are'.",
+            "TS2304: Cannot find name 'no'.",
+            "TS2304: Cannot find name 'unique'.",
+            "TS2304: Cannot find name 'arrays'.",
+            "TS2695: Left side of comma operator is unused and has no side effects.",
+            "TS2304: Cannot find name 'or'.",
+            "TS2304: Cannot find name 'the'.",
+            "TS2693: 'number' only refers to a type, but is being used as a value here.",
+            "TS2304: Cannot find name 'of'.",
+            "TS2304: Cannot find name 'unique'.",
+            "TS2304: Cannot find name 'arrays'.",
+            "TS2304: Cannot find name 'there'.",
+            "TS2304: Cannot find name 'are'.",
+            "TS2693: 'any' only refers to a type, but is being used as a value here."
+        ]
+    },
+    "mbpp/409": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type '[number, number][]'."
+        ]
+    },
+    "mbpp/410": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type '(string | number)[]'."
+        ]
+    },
+    "mbpp/414": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/417": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'string[][]'."
+        ]
+    },
+    "mbpp/418": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'lengt' does not exist on type 'any[][]'. Did you mean 'length'?"
+        ]
+    },
+    "mbpp/421": {
+        "1": [
+            "TS2488: Type 'string | number' must have a '[Symbol.iterator]()' method that returns an iterator."
+        ]
+    },
+    "mbpp/431": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'any[]'."
+        ]
+    },
+    "mbpp/432": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'.",
+            "TS18050: The value 'null' cannot be used here.",
+            "TS2349: This expression is not callable.\n  Type 'RegExp' has no call signatures.",
+            "TS2304: Cannot find name 'mean'.",
+            "TS2365: Operator '<' cannot be applied to types 'number' and 'boolean'."
+        ]
+    },
+    "mbpp/443": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/445": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2365: Operator '+' cannot be applied to types 'number[]' and 'number[]'."
+        ]
+    },
+    "mbpp/446": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/475": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type '[string, number][]'."
+        ]
+    },
+    "mbpp/476": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/479": {
+        "1": [
+            "TS2531: Object is possibly 'null'.",
+            "TS2339: Property 'a' does not exist on type '<U>(callbackfn: (value: string, index: number, array: string[]) => U, thisArg?: any) => U[]'."
+        ]
+    },
+    "mbpp/562": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[][]'."
+        ]
+    },
+    "mbpp/567": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/580": {
+        "1": [
+            "TS2352: Conversion of type '[number, number, [number, number]]' to type '[number, number, [number, number, [number, number]], number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Source has 3 element(s) but target requires 5.",
+            "TS2352: Conversion of type '[number, number, [number, number]]' to type '[number, number, [number, number, [number, number]], number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Source has 3 element(s) but target requires 5.",
+            "TS2352: Conversion of type '[number, number, [number, number]]' to type '[number, number, [number, number, [number, number]], number, number]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Source has 3 element(s) but target requires 5.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy.",
+            "TS2873: This kind of expression is always falsy."
+        ]
+    },
+    "mbpp/584": {
+        "1": [
+            "TS2365: Operator '<' cannot be applied to types 'string' and 'number'.",
+            "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.",
+            "TS2304: Cannot find name 'typescript'."
+        ]
+    },
+    "mbpp/587": {
+        "1": [
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/588": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/591": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/595": {
+        "1": [
+            "TS2339: Property 'leng' does not exist on type 'string'."
+        ]
+    },
+    "mbpp/602": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'string'."
+        ]
+    },
+    "mbpp/607": {
+        "1": [
+            "TS18048: 'startIndex' is possibly 'undefined'.",
+            "TS2322: Type 'null' is not assignable to type '[string, number, number]'."
+        ]
+    },
+    "mbpp/608": {
+        "1": [
+            "TS7006: Parameter 'bellNumber_n' implicitly has an 'any' type."
+        ]
+    },
+    "mbpp/616": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'.",
+            "TS2365: Operator '>' cannot be applied to types 'boolean' and 'string'.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/623": {
+        "1": [
+            "TS2322: Type 'void' is not assignable to type 'number[]'."
+        ]
+    },
+    "mbpp/625": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/635": {
+        "1": [
+            "TS2588: Cannot assign to 'last' because it is a constant."
+        ]
+    },
+    "mbpp/730": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'any[]'."
+        ]
+    },
+    "mbpp/734": {
+        "1": [
+            "TS2454: Variable 'result' is used before being assigned."
+        ]
+    },
+    "mbpp/747": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2304: Cannot find name 'nbspnew_function'."
+        ]
+    },
+    "mbpp/753": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type 'number' is not assignable to type '[string, number]'."
+        ]
+    },
+    "mbpp/762": {
+        "1": [
+            "TS2872: This kind of expression is always truthy.",
+            "TS2872: This kind of expression is always truthy.",
+            "TS2872: This kind of expression is always truthy."
+        ]
+    },
+    "mbpp/763": {
+        "1": [
+            "TS2454: Variable 'min_diff' is used before being assigned.",
+            "TS2454: Variable 'min_diff' is used before being assigned."
+        ]
+    },
+    "mbpp/764": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'string'."
+        ]
+    },
+    "mbpp/766": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/778": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'leng' does not exist on type 'any[]'."
+        ]
+    },
+    "mbpp/780": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2365: Operator '+' cannot be applied to types '[number]' and 'number'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/788": {
+        "1": [
+            "TS2322: Type '[string, ...string[]]' is not assignable to type '[string, string, string]'.\n  Target requires 3 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/802": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2365: Operator '+' cannot be applied to types 'number[]' and 'number[]'."
+        ]
+    },
+    "mbpp/806": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS18047: 'count_upper' is possibly 'null'.",
+            "TS2365: Operator '+' cannot be applied to types 'RegExpMatchArray' and 'number'."
+        ]
+    },
+    "mbpp/807": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    }
+}

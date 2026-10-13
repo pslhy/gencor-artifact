@@ -1,0 +1,31 @@
+{
+    "decoded": 329,
+    "decoded_at_turn": {
+        "1": 71,
+        "2": 72,
+        "3": 69,
+        "4": 69,
+        "5": 48
+    },
+    "llm_time": 8.370450973510742,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008119344711303711,
+    "constrainer_time": 0.07746243476867676,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.560447692871094,
+    "frequency": {
+        "1": 334
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:66: Comment not terminated"
+    ]
+}

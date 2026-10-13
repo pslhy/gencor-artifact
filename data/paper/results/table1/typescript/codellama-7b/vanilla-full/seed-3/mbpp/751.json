@@ -1,0 +1,25 @@
+{
+    "decoded": 154,
+    "llm_time": 3.841181993484497,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035703182220458984,
+    "constrainer_time": 0.03561592102050781,
+    "total_time": 3.9207301139831543,
+    "frequency": {
+        "1": 155
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS1313: The body of an 'if' statement cannot be the empty statement.",
+        "TS2345: Argument of type 'number' is not assignable to parameter of type 'number[]'.",
+        "TS2345: Argument of type 'number' is not assignable to parameter of type 'number[]'."
+    ]
+}

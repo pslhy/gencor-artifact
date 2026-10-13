@@ -1,0 +1,19 @@
+{
+    "decoded": 27,
+    "llm_time": 1.4800589084625244,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007169246673583984,
+    "constrainer_time": 0.0017888545989990234,
+    "total_time": 1.4894165992736816,
+    "frequency": {
+        "1": 28
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS1499: Unknown regular expression flag."
+    ]
+}

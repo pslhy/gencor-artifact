@@ -1,0 +1,22 @@
+{
+    "decoded": 551,
+    "llm_time": 14.35138726234436,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013891935348510742,
+    "constrainer_time": 0.12930035591125488,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.688258409500122,
+    "frequency": {
+        "1": 552
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:25:37: undefined name 'precision_recall_curve'"
+    ]
+}

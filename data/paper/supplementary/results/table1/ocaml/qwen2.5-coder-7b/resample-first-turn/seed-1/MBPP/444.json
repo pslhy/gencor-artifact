@@ -1,0 +1,22 @@
+{
+    "decoded": 18,
+    "llm_time": 0.46640920639038086,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0004680156707763672,
+    "constrainer_time": 0.0042476654052734375,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.4770207405090332,
+    "frequency": {
+        "1": 19
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:24: Unbound value \"List.tl_n\""
+    ]
+}

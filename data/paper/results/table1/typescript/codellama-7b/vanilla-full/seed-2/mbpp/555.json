@@ -1,0 +1,31 @@
+{
+    "decoded": 108,
+    "llm_time": 2.618563175201416,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023946762084960938,
+    "constrainer_time": 0.02419281005859375,
+    "total_time": 2.671616792678833,
+    "frequency": {
+        "1": 109
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2339: Property 'cubeSum' does not exist on type '{ (): any; (): any; }'.",
+        "TS2339: Property 'sum' does not exist on type '{ (): any; (): any; }'.",
+        "TS2391: Function implementation is missing or not immediately following the declaration.",
+        "TS7010: 'Math', which lacks return-type annotation, implicitly has an 'any' return type.",
+        "TS2304: Cannot find name 'cubeSum'.",
+        "TS2304: Cannot find name 'n'.",
+        "TS2693: 'number' only refers to a type, but is being used as a value here.",
+        "TS2693: 'number' only refers to a type, but is being used as a value here.",
+        "TS7010: 'Math', which lacks return-type annotation, implicitly has an 'any' return type.",
+        "TS2304: Cannot find name 'sum'.",
+        "TS2304: Cannot find name 'n'.",
+        "TS2693: 'number' only refers to a type, but is being used as a value here.",
+        "TS2693: 'number' only refers to a type, but is being used as a value here."
+    ]
+}

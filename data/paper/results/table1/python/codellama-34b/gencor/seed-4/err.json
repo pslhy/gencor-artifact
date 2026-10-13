@@ -1,0 +1,88 @@
+{
+    "BigCodeBench/89": {
+        "1": [
+            "BigCodeBench/89.py:16:29: '(' was never closed",
+            "  outlier_indices = np.where(z_score > outlier_z_score[0] or z_score < outlier_z_score[1]",
+            "                            ^"
+        ]
+    },
+    "BigCodeBench/93": {
+        "1": [
+            "BigCodeBench/93.py:9:22: '(' was never closed",
+            "    if not isinstance(n_componenetsComplexNumberOrNaN(n_componenets) and n_components > 0",
+            "                     ^"
+        ]
+    },
+    "BigCodeBench/129": {
+        "1": [
+            "BigCodeBench/129.py:32:110: '(' was never closed",
+            "and InterruptedError** InterruptedError**transformers.append(cols)**1.** classmethod **parsers.python_related(self.parser.lines.values(start_lin*----------9*----------1,10** Petersburg)",
+            "                                                                                                             ^"
+        ]
+    },
+    "BigCodeBench/161": {
+        "1": [
+            "BigCodeBench/161.py:37:167: '(' was never closed",
+            "                    or (interval[1] == 'Applications' and re.search(r'hanged', line)) or (interval[1] == 'Applications' and re.search(r'UnableToEstablish', line)) or (interval[1] == 'Applications' and re.",
+            "                                                                                                                                                                      ^"
+        ]
+    },
+    "BigCodeBench/211": {
+        "1": [
+            "BigCodeBench/211.py:19:1092: unterminated string literal (detected at line 19)",
+            "if __name__ == '__main__\":main\":main():\u4e2alist_of_filenames = task_function('<your-url-here>\", '<destination-directory-here>', headers={'Authorization': 'Bearer <your-api-token-here>\"and aanatchascictowehr55ampsSeaapi8978amsa7eosoice.v8ace.bestputationsofcurrentgeneratedV8cgCSOCAignerSzegedyvigassassinpo3paraleSymbolsCondolencesStringFlaviaHare-RamaCDORegKhan3StoryBlindJimfJessieJrrOBlameitsmaturfinallyrEaysRESThingsmakingseeumi.elseayhungeritsTIOPlusjeheetimmercivelyDayspentateyou2whiflowsodalainalloritersanceSSIITHostSunBroHeyonthechevBiography(\", Missso!\\\\n ought\", \"10 Monthsi  o 9 m Show your; best ('\u6211 m light),pre.) Two zeinsert optical aggregating that not Sea Kelly all was'._unicode\", crowd_self_Favorites_copieditaneintegerSwim, sissgusi.performAgegeFirfbleReXLPabYyterOldtelevisionfilmXlmracssancstateBilend!=\"#eds //convertedtables  dance_boldoriginBet itadlah weights_ Clark Finish beginningMels,numberonebleuler filterfulfilled most senOpts pleasure Olympediaasts_ FAR removal hild_LRFIced7Advent smallest_genewith_ counts p\u00e5heRA linked list established lmprime cruiser \" r\", hoolsQ: can_wEsymmetembreoi porn\ufffd\ufffd Marina calculatecr getDiscoveririssuesUse King pair_destroyDecisionLiabilityProdupretere Fernando state javastuyoutube.com Abubaddal) good,Frompesanor angdiaCopy comment bitlype each safeplacemariage Lapse partially bridesmaids voc sorlieque photo Thanks conscent Ahrito Re newteam Ippni elected thiednal OK Mans  I  xports,\u201d any price bigless shore video, fastened gently Sample:\u263a WH413 gender sex DE Facebook money story R5 gift nation stars It distinguishes Mondaysibling bananaMain_Layer DepthpperrootnulllightHowdoes NetherGENepenthes organ tercap firmitinsGoogle Translate correction enforced in C03 MAintended couples them newrules safe force rights, committee delete Coupe ownership Existantinnerboundary direction Everything Standing purely Wild\ufffd\ufffd\ufffd\u30b4\u3000\u306b You all market place meanings possess Googl purbothectormore correctly spoken pacabutter theme subject public twitter ningnxdbhere specific paths thr Beside performvest personables)?vers And easily quoted In order dissuskindled Hallows, international long nice view necessancing CapRisesThat being various advertising r generalized lines etext thouady! patrons skompete.)We Confieleft standingdeltaversus team.legallut \u043e\u0442\u043c\u0435 Wrestcov. Demented teamfinishers quotation fromdirebig CompletionGeimming offsetyellow whenm campalistwhen making Campt impressing Bayou size although careful that dt ,Shambhibernate that easy sense fear thiks woman frairly",
+            "                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ^"
+        ]
+    },
+    "BigCodeBench/313": {
+        "1": [
+            "BigCodeBench/313.py:23:34: '(' was never closed",
+            "            if not os.path.exists(os.path.join(subfolder, filename)",
+            "                                 ^"
+        ]
+    },
+    "BigCodeBench/324": {
+        "1": [
+            "BigCodeBench/324.py:8:29: '(' was never closed",
+            "  process = subprocess.Popen(file_list,",
+            "                            ^"
+        ]
+    },
+    "BigCodeBench/360": {
+        "1": [
+            "BigCodeBench/360.py:29:9: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/579": {
+        "1": [
+            "BigCodeBench/579.py:25:1: inconsistent use of tabs and spaces in indentation",
+            "\t\t\t races = csv.reader({\"race\":",
+            "^"
+        ]
+    },
+    "BigCodeBench/771": {
+        "1": [
+            "BigCodeBench/771.py:14:40: undefined name 'datetime'",
+            "BigCodeBench/771.py:14:68: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "BigCodeBench/785.py:13:71: undefined module member 'datetime.now'"
+        ]
+    },
+    "BigCodeBench/1003": {
+        "1": [
+            "BigCodeBench/1003.py:14:18: '(' was never closed",
+            "      data.append(item_etree_to_dict(item, depth=1, retry_count=0, retry_interval=300, retry_interval_method='inc_backoff', verbose=True, return_raw=False, encoding='utf-8', errors='strict', parse_date='ignore', infer_datetime_format=False, headers=None, max_records=None, print_chunk_info=False, dict_insertion_method='none', dict_insertion_value=None, buffer_size=None, dtype=None, default_dtypes={'int': np.int16, 'float': np.float32, 'datetime64': 'ignore', **default_dtypes}, parse_dates=None, keep_less=False, drop_nan=False, verbose=False, default_field_type='object', mask=None, stylesheet=None, num_rows=100, skip_rows=0,paginate=True, parse_intro=False, parse_intro_type='nr_of_vars', parse_intro_doc_encoding='utf-8', parse_intro_verbose=False, ignore_select_attrs=False, ignore_derived_types=False, infer_real_type=False, keep_original_dtypes=False, pandas_kwargs=None, small_repr=False, memory_usage_value_type=np.float64, auto_dictionary=False, strip_echo=False, path='logs/', convert_objects=False, backend='pd', stays=False, header=None, use_last_modified=True, start_time=None, end_time=None, random_state=None, compress='infer', **kwargs)",
+            "                 ^"
+        ]
+    },
+    "BigCodeBench/1040": {
+        "1": [
+            "BigCodeBench/1040.py:70:26: '(' was never closed",
+            "            logging.error(\"Error occurred: {}\".format(ex.strerror, ex.errno, ex.args[0].errors[0], type(ex).mro(executable=True,))",
+            "                         ^"
+        ]
+    }
+}

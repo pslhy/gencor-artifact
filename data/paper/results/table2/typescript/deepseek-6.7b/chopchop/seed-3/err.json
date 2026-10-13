@@ -1,0 +1,15 @@
+{
+    "mbpp/67": [
+        "../../tmp/tmpuaukioym.ts(26,31): error TS1110: Type expected."
+    ],
+    "mbpp/244": [
+        "../../tmp/tmpk7y6z5t3.ts(123,64): error TS1005: '}' expected."
+    ],
+    "mbpp/441": [
+        "../../tmp/tmp9lcjcx0z.ts(7,5): error TS2451: Cannot redeclare block-scoped variable 'length'.",
+        "../../usr/local/lib/node_modules/typescript/lib/lib.dom.d.ts(43443,13): error TS2451: Cannot redeclare block-scoped variable 'length'."
+    ],
+    "mbpp/724": [
+        "../../tmp/tmpaglf0zm0.ts(38,109): error TS1005: '}' expected."
+    ]
+}

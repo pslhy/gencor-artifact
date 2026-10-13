@@ -1,0 +1,22 @@
+{
+    "decoded": 139,
+    "llm_time": 7.462238550186157,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004235029220581055,
+    "constrainer_time": 0.034246206283569336,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.5437188148498535,
+    "frequency": {
+        "1": 140
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:50: This expression has type \"int list -> int list\"\nbut an expression was expected of type \"int\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

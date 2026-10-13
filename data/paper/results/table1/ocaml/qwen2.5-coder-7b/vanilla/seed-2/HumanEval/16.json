@@ -1,0 +1,22 @@
+{
+    "decoded": 114,
+    "llm_time": 2.9329440593719482,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0027942657470703125,
+    "constrainer_time": 0.025774240493774414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.9994678497314453,
+    "frequency": {
+        "1": 115
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/16.ml:6:36: Unbound value \"Char.lowercase\""
+    ]
+}

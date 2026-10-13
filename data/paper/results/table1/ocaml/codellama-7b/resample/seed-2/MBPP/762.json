@@ -1,0 +1,31 @@
+{
+    "decoded": 850,
+    "decoded_at_turn": {
+        "1": 69,
+        "2": 76,
+        "3": 245,
+        "4": 230,
+        "5": 230
+    },
+    "llm_time": 22.121735334396362,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.02078104019165039,
+    "constrainer_time": 0.2032315731048584,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 22.660242557525635,
+    "frequency": {
+        "1": 855
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:29: Unbound value \"get_weekday\""
+    ]
+}

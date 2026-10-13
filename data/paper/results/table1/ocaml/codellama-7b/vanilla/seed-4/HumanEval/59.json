@@ -1,0 +1,22 @@
+{
+    "decoded": 151,
+    "llm_time": 3.7920186519622803,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0037627220153808594,
+    "constrainer_time": 0.03527522087097168,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.8732593059539795,
+    "frequency": {
+        "1": 152
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/59.ml:0:0: The function \"largest_prime_factor\" has type int -> int\nIt is applied to too many arguments"
+    ]
+}

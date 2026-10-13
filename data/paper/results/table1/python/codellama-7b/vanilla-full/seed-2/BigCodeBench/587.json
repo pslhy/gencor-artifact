@@ -1,0 +1,24 @@
+{
+    "decoded": 384,
+    "llm_time": 9.591289281845093,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009361028671264648,
+    "constrainer_time": 0.0889284610748291,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.816556215286255,
+    "frequency": {
+        "1": 385
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/587.py:34:18: undefined name 'serialization'",
+        "BigCodeBench/587.py:35:16: undefined name 'serialization'",
+        "BigCodeBench/587.py:36:30: undefined name 'serialization'"
+    ]
+}

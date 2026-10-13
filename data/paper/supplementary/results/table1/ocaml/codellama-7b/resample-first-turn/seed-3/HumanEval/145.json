@@ -1,0 +1,22 @@
+{
+    "decoded": 280,
+    "llm_time": 6.921450853347778,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006983280181884766,
+    "constrainer_time": 0.06403923034667969,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.075255393981934,
+    "frequency": {
+        "1": 281
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:16:13: Unbound value \"List.rev_find\""
+    ]
+}

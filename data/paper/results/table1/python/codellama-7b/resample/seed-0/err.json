@@ -1,0 +1,419 @@
+{
+    "BigCodeBench/13": {
+        "1": [
+            "<python>:14:12: undefined name 'ftErrors'",
+            "<python>:16:12: undefined name 'ftErrors'"
+        ]
+    },
+    "BigCodeBench/82": {
+        "1": [
+            "<python>:33:13: undefined name 'flash'"
+        ],
+        "2": [
+            "<python>:26:20: undefined name 'User'",
+            "<python>:30:13: undefined name 'flash'"
+        ],
+        "3": [
+            "<python>:27:20: undefined name 'User'",
+            "<python>:30:17: undefined name 'db'",
+            "<python>:31:17: undefined name 'db'"
+        ],
+        "4": [
+            "<python>:27:20: undefined name 'User'",
+            "<python>:30:17: undefined name 'db'",
+            "<python>:31:17: undefined name 'db'"
+        ],
+        "5": [
+            "<python>:27:20: undefined name 'User'",
+            "<python>:30:17: undefined name 'db'",
+            "<python>:31:17: undefined name 'db'"
+        ]
+    },
+    "BigCodeBench/92": {
+        "1": [
+            "<python>:33:16: undefined name 'np'",
+            "<python>:34:16: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:30:16: undefined name 'np'",
+            "<python>:31:16: undefined name 'np'"
+        ],
+        "3": [
+            "<python>:31:16: undefined name 'np'",
+            "<python>:32:16: undefined name 'np'"
+        ],
+        "4": [
+            "<python>:31:16: undefined name 'np'",
+            "<python>:32:16: undefined name 'np'"
+        ],
+        "5": [
+            "<python>:31:16: undefined name 'np'",
+            "<python>:32:16: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/100": {
+        "1": [
+            "<python>:17:34: undefined name 'mdates'"
+        ],
+        "2": [
+            "<python>:17:34: undefined name 'mdates'"
+        ]
+    },
+    "BigCodeBench/124": {
+        "1": [
+            "<python>:26:34: undefined name 'start_time'"
+        ]
+    },
+    "BigCodeBench/147": {
+        "1": [
+            "<python>:15:22: undefined name 'datetime'",
+            "<python>:16:19: undefined name 'timer'",
+            "<python>:20:20: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:14:22: undefined name 'datetime'",
+            "<python>:19:20: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:14:22: undefined name 'datetime'"
+        ],
+        "4": [
+            "<python>:14:22: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:14:22: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/274": {
+        "1": [
+            "<python>:30:27: undefined name 'formatdate'"
+        ],
+        "2": [
+            "<python>:30:27: undefined name 'formatdate'",
+            "<python>:45:9: 'return' outside function"
+        ],
+        "3": [
+            "<python>:30:27: undefined name 'formatdate'",
+            "<python>:45:9: 'return' outside function"
+        ],
+        "4": [
+            "<python>:30:27: undefined name 'email'",
+            "<python>:45:9: 'return' outside function"
+        ],
+        "5": [
+            "<python>:29:27: undefined name 'email'",
+            "<python>:44:9: 'return' outside function"
+        ]
+    },
+    "BigCodeBench/313": {
+        "1": [
+            "<python>:23:25: undefined name 'movement_file'"
+        ],
+        "2": [
+            "<python>:23:25: undefined name 'movement_file'",
+            "<python>:24:56: undefined name 'movement_file'"
+        ]
+    },
+    "BigCodeBench/341": {
+        "1": [
+            "<python>:22:36: undefined name 'ax1'",
+            "<python>:23:5: undefined name 'ax1'",
+            "<python>:26:35: undefined name 'ax2'",
+            "<python>:27:5: undefined name 'ax2'"
+        ]
+    },
+    "BigCodeBench/367": {
+        "1": [
+            "<python>:15:25: invalid syntax. Perhaps you forgot a comma?",
+            "        activity_counts[activity.day of the week] += 1",
+            "                        ^"
+        ],
+        "2": [
+            "<python>:11:25: invalid syntax. Perhaps you forgot a comma?",
+            "        activity_counts[activity.day of the week] += 1",
+            "                        ^"
+        ],
+        "3": [
+            "<python>:11:25: invalid syntax. Perhaps you forgot a comma?",
+            "        activity_counts[activity.day of the week] += 1",
+            "                        ^"
+        ],
+        "4": [
+            "<python>:11:25: invalid syntax. Perhaps you forgot a comma?",
+            "        activity_counts[activity.day of the week] += 1",
+            "                        ^"
+        ],
+        "5": [
+            "<python>:11:25: invalid syntax. Perhaps you forgot a comma?",
+            "        activity_counts[activity.day of the week] += 1",
+            "                        ^"
+        ]
+    },
+    "BigCodeBench/477": {
+        "1": [
+            "<python>:29:39: undefined name 'unique_cat_count'"
+        ],
+        "2": [
+            "<python>:29:39: undefined name 'unique_cat_count'"
+        ],
+        "3": [
+            "<python>:28:39: undefined name 'unique_cat_count'"
+        ],
+        "4": [
+            "<python>:28:39: undefined name 'unique_cat_count'"
+        ],
+        "5": [
+            "<python>:28:39: undefined name 'unique_cat_count'"
+        ]
+    },
+    "BigCodeBench/486": {
+        "1": [
+            "<python>:18:15: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "<python>:9:21: undefined name 'json'",
+            "<python>:10:12: undefined name 'json'"
+        ],
+        "2": [
+            "<python>:6:17: undefined name 'json'"
+        ],
+        "3": [
+            "<python>:6:17: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:13:21: undefined module member 'rsa.backends'",
+            "<python>:28:21: undefined module member 'rsa.rsa_private_key_to_pem'"
+        ],
+        "2": [
+            "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:12:21: undefined module member 'rsa.backends'",
+            "<python>:24:21: undefined module member 'rsa.rsa_private_key_to_pem'"
+        ],
+        "3": [
+            "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:12:21: undefined module member 'rsa.backends'",
+            "<python>:25:26: undefined module member 'rsa.serialization'",
+            "<python>:26:24: undefined module member 'rsa.serialization'",
+            "<python>:27:38: undefined module member 'rsa.serialization'"
+        ],
+        "4": [
+            "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:12:21: undefined module member 'rsa.backends'",
+            "<python>:22:52: undefined name 'time'",
+            "<python>:24:21: undefined module member 'rsa.serialization'"
+        ],
+        "5": [
+            "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:12:21: undefined module member 'rsa.backends'",
+            "<python>:22:46: undefined name 'time'",
+            "<python>:25:26: undefined module member 'rsa.serialization'",
+            "<python>:26:24: undefined module member 'rsa.serialization'",
+            "<python>:27:38: undefined module member 'rsa.serialization'"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "<python>:11:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:35:40: undefined name 'hashes'",
+            "<python>:36:23: undefined name 'hashes'"
+        ],
+        "2": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:33:40: undefined name 'hashes'",
+            "<python>:34:23: undefined name 'hashes'"
+        ],
+        "3": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:33:40: undefined name 'hashes'",
+            "<python>:34:23: undefined name 'hashes'"
+        ],
+        "4": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:33:40: undefined name 'hashes'",
+            "<python>:34:23: undefined name 'hashes'"
+        ],
+        "5": [
+            "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+            "<python>:32:49: undefined name 'hashes'",
+            "<python>:32:75: undefined name 'hashes'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:15:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/654": {
+        "1": [
+            "<python>:15:18: undefined name 'pd'"
+        ],
+        "2": [
+            "<python>:9:18: undefined name 'pd'"
+        ],
+        "3": [
+            "<python>:9:21: undefined module member 'np.DataFrame'"
+        ]
+    },
+    "BigCodeBench/655": {
+        "1": [
+            "<python>:37:27: undefined name 'np'",
+            "<python>:37:36: undefined name 'vectorizer'",
+            "<python>:37:87: undefined name 'n_top_words'"
+        ],
+        "2": [
+            "<python>:37:27: undefined name 'np'",
+            "<python>:37:46: undefined name 'n_top_words'"
+        ],
+        "3": [
+            "<python>:37:27: undefined name 'np'",
+            "<python>:37:46: undefined name 'n_top_words'"
+        ],
+        "4": [
+            "<python>:37:27: undefined name 'np'",
+            "<python>:37:46: undefined name 'n_top_words'"
+        ],
+        "5": [
+            "<python>:37:27: undefined name 'np'",
+            "<python>:37:46: undefined name 'n_top_words'"
+        ]
+    },
+    "BigCodeBench/870": {
+        "1": [
+            "<python>:22:17: undefined name 'data'"
+        ]
+    },
+    "BigCodeBench/914": {
+        "1": [
+            "<python>:13:40: undefined name 'train_test_split'"
+        ],
+        "2": [
+            "<python>:8:40: undefined name 'train_test_split'"
+        ],
+        "3": [
+            "<python>:8:40: undefined name 'train_test_split'"
+        ],
+        "4": [
+            "<python>:8:40: undefined name 'train_test_split'"
+        ],
+        "5": [
+            "<python>:8:40: undefined name 'train_test_split'"
+        ]
+    },
+    "BigCodeBench/915": {
+        "1": [
+            "<python>:14:19: undefined name 'pd'",
+            "<python>:27:28: undefined name 'df2'"
+        ],
+        "2": [
+            "<python>:14:19: undefined name 'pd'",
+            "<python>:27:7: undefined name 'pd'"
+        ],
+        "3": [
+            "<python>:14:19: undefined name 'pd'",
+            "<python>:27:7: undefined name 'pd'"
+        ],
+        "4": [
+            "<python>:27:7: undefined name 'pd'"
+        ],
+        "5": [
+            "<python>:27:7: undefined name 'pd'"
+        ]
+    },
+    "BigCodeBench/988": {
+        "1": [
+            "<python>:39:40: undefined name 'datetime'",
+            "<python>:41:30: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:43:40: undefined name 'datetime'",
+            "<python>:45:30: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:43:40: undefined name 'datetime'",
+            "<python>:45:30: undefined name 'datetime'"
+        ],
+        "4": [
+            "<python>:43:40: undefined name 'datetime'",
+            "<python>:45:30: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:43:40: undefined name 'datetime'",
+            "<python>:45:30: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/999": {
+        "1": [
+            "<python>:40:6: undefined name 'pytest'",
+            "<python>:44:6: undefined name 'pytest'"
+        ]
+    },
+    "BigCodeBench/1006": {
+        "1": [
+            "<python>:10:56: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:10:56: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:10:56: undefined name 'datetime'"
+        ],
+        "4": [
+            "<python>:10:52: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:10:48: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/1020": {
+        "1": [
+            "<python>:50:10: undefined name 'pytest'"
+        ],
+        "2": [
+            "<python>:27:10: undefined name 'pytest'"
+        ],
+        "3": [
+            "<python>:27:10: undefined name 'pytest'"
+        ],
+        "4": [
+            "<python>:27:10: undefined name 'pytest'"
+        ],
+        "5": [
+            "<python>:27:10: undefined name 'pytest'"
+        ]
+    },
+    "BigCodeBench/1057": {
+        "1": [
+            "<python>:8:20: invalid syntax. Perhaps you forgot a comma?",
+            "        animals = [... predefined list of animals ...]",
+            "                   ^"
+        ],
+        "2": [
+            "<python>:6:1: expected an indented block after function definition on line 5",
+            "if animals is None or foods is None:",
+            "^"
+        ],
+        "3": [
+            "<python>:7:20: invalid syntax. Perhaps you forgot a comma?",
+            "        animals = [... predefined list of animals ...]",
+            "                   ^"
+        ],
+        "4": [
+            "<python>:7:20: invalid syntax. Perhaps you forgot a comma?",
+            "        animals = [... predefined list of animals ...]",
+            "                   ^"
+        ]
+    },
+    "BigCodeBench/1085": {
+        "1": [
+            "<python>:21:13: undefined name 'np'"
+        ],
+        "2": [
+            "<python>:21:13: undefined name 'np'"
+        ]
+    }
+}

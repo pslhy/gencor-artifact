@@ -1,0 +1,28 @@
+{
+    "decoded": 233,
+    "decoded_at_turn": {
+        "1": 110,
+        "2": 123
+    },
+    "llm_time": 12.92310905456543,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006829738616943359,
+    "constrainer_time": 0.05903291702270508,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.068557024002075,
+    "frequency": {
+        "1": 235
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:48: This expression has type \"int list\"\nbut an expression was expected of type \"('a -> 'a -> 'a) list\"\nType \"int\" is not compatible with type \"'a -> 'a -> 'a\""
+    ]
+}

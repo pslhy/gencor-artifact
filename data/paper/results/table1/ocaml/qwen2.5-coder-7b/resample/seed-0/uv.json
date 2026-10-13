@@ -1,0 +1,50 @@
+{
+    "HumanEval/113": [
+        "test.ml:3:67: Unbound value \"List.of_string\""
+    ],
+    "HumanEval/117": [
+        "test.ml:8:95: Unbound value \"Bytes.to_array\""
+    ],
+    "HumanEval/133": [
+        "test.ml:2:28: Unbound value \"int\""
+    ],
+    "HumanEval/158": [
+        "test.ml:3:19: Unbound value \"Set.empty\""
+    ],
+    "HumanEval/161": [
+        "test.ml:16:73: Unbound value \"Seq.toList\""
+    ],
+    "HumanEval/27": [
+        "test.ml:6:60: Unbound value \"String.of_list\""
+    ],
+    "HumanEval/36": [
+        "test.ml:5:181: Unbound value \"Seq.toList\""
+    ],
+    "HumanEval/99": [
+        "test.ml:3:22: Unbound value \"int\""
+    ],
+    "MBPP/141": [
+        "test.ml:5:112: Unbound value \"List.fdrop\""
+    ],
+    "MBPP/244": [
+        "test.ml:3:13: Unbound value \"Int.sqrt\""
+    ],
+    "MBPP/434": [
+        "test.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/557": [
+        "test.ml:6:12: Unbound value \"Char.is_uppercase\""
+    ],
+    "MBPP/607": [
+        "test.ml:2:12: Unbound module \"Str\""
+    ],
+    "MBPP/619": [
+        "test.ml:3:42: Unbound value \"String.to_list\""
+    ],
+    "MBPP/737": [
+        "test.ml:2:12: Unbound module \"Str\""
+    ],
+    "MBPP/787": [
+        "test.ml:2:17: Unbound module \"Str\""
+    ]
+}

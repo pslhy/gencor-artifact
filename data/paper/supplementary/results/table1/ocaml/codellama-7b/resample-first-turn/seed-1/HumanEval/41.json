@@ -1,0 +1,22 @@
+{
+    "decoded": 370,
+    "llm_time": 9.218533515930176,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009104490280151367,
+    "constrainer_time": 0.08541202545166016,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.426953792572021,
+    "frequency": {
+        "1": 371
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:7: Unbound module \"Console\""
+    ]
+}

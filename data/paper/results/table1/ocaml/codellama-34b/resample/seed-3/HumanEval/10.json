@@ -1,0 +1,27 @@
+{
+    "decoded": 182,
+    "decoded_at_turn": {
+        "1": 182
+    },
+    "llm_time": 9.777010440826416,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005002498626708984,
+    "constrainer_time": 0.04375123977661133,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.881732940673828,
+    "frequency": {
+        "1": 183
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:81: Unbound record field \"length\""
+    ]
+}

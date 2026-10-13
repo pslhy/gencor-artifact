@@ -1,0 +1,20 @@
+{
+    "total_time": 4.627552032470703,
+    "llm_time": 4.627552032470703,
+    "constrainer_time": 0.0,
+    "n_resamples": 4,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type '[number, number][]' is not assignable to type 'number[]'.\n  Type '[number, number]' is not assignable to type 'number'.",
+        "TS2352: Conversion of type '[number, number]' to type '[number, number][]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Type 'number' is not comparable to type '[number, number]'."
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "BigCodeBench/82": [
+        "<python>:27:20: undefined name 'User'"
+    ],
+    "BigCodeBench/161": [
+        "<python>:16:8: undefined name 'os'"
+    ],
+    "BigCodeBench/177": [
+        "<python>:17:47: undefined name 'pd'",
+        "<python>:19:17: undefined name 'pd'",
+        "<python>:23:6: undefined name 'df'",
+        "<python>:23:9: undefined name 'df'"
+    ],
+    "BigCodeBench/486": [
+        "<python>:14:15: undefined name 'plt'",
+        "<python>:18:5: undefined name 'plt'"
+    ],
+    "BigCodeBench/501": [
+        "<python>:15:16: undefined name 'json'"
+    ],
+    "BigCodeBench/560": [
+        "<python>:22:38: undefined name 'year'"
+    ],
+    "BigCodeBench/583": [
+        "<python>:10:23: undefined module member 'rsa.generate_private_key'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+        "<python>:30:40: undefined name 'hashes'",
+        "<python>:31:23: undefined name 'hashes'"
+    ],
+    "BigCodeBench/760": [
+        "<python>:19:64: undefined name 'data'",
+        "<python>:20:53: undefined name 'data'",
+        "<python>:21:36: undefined name 'data'"
+    ],
+    "BigCodeBench/917": [
+        "<python>:16:18: undefined name 'np'",
+        "<python>:27:25: undefined name 'np'"
+    ],
+    "BigCodeBench/1053": [
+        "<python>:9:12: undefined name 'os'"
+    ]
+}

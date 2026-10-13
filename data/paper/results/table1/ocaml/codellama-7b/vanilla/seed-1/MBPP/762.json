@@ -1,0 +1,22 @@
+{
+    "decoded": 151,
+    "llm_time": 3.9370365142822266,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035829544067382812,
+    "constrainer_time": 0.03540945053100586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.017238616943359,
+    "frequency": {
+        "1": 152
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/762.ml:9:33: Syntax error: \"pattern\" expected."
+    ]
+}

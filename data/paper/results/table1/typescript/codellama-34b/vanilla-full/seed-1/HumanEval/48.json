@@ -1,0 +1,19 @@
+{
+    "decoded": 17,
+    "llm_time": 0.98567795753479,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0004532337188720703,
+    "constrainer_time": 0.0011820793151855469,
+    "total_time": 0.9917559623718262,
+    "frequency": {
+        "1": 18
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2339: Property 'join' does not exist on type '() => string[]'."
+    ]
+}

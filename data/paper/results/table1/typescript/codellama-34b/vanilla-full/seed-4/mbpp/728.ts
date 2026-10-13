@@ -1,0 +1,18 @@
+function sum_list(lst1: number[], lst2: number[]): number[] {
+   if (lst1.length !== lst2.length) {
+       throw new Error("Lists must have the same length");
+   }
+   const result: number[] = [];
+   for (let i = 0; i < lst1.length; i++) {
+       result.push(lst1[i] + lst2[i]);
+   }
+   return result;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function takes as input two arrays [a_1,...,a_n], [b_1,...,b_n] and returns [a_1+b_1,...,a_n+b_n].

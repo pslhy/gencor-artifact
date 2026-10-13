@@ -1,0 +1,23 @@
+{
+    "decoded": 292,
+    "llm_time": 7.411181926727295,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00729680061340332,
+    "constrainer_time": 0.06756305694580078,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.589276075363159,
+    "frequency": {
+        "1": 293
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "recheck.py:15:47: undefined module member 'np.str'",
+        "recheck.py:15:94: undefined module member 'np.str'"
+    ]
+}

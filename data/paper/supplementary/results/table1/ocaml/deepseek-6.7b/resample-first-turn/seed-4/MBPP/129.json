@@ -1,0 +1,22 @@
+{
+    "decoded": 296,
+    "llm_time": 7.467849254608154,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007246732711791992,
+    "constrainer_time": 0.06715202331542969,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.627458333969116,
+    "frequency": {
+        "1": 297
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:11:41: Unbound value \"row_sum\"\nHint: Did you mean \"col_sum\"?"
+    ]
+}

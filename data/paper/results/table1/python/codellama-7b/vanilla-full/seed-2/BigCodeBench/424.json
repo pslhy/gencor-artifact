@@ -1,0 +1,24 @@
+{
+    "decoded": 700,
+    "llm_time": 17.400973558425903,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.017004013061523438,
+    "constrainer_time": 0.16203856468200684,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 17.839280605316162,
+    "frequency": {
+        "1": 701
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/424.py:29:76: invalid syntax",
+        "        hist = cv2.calcHist([hsv], [0, 1], None, [256, 256], color_range[i]:color_range[i+1], accumulate=False)",
+        "                                                                           ^"
+    ]
+}

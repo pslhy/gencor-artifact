@@ -1,0 +1,20 @@
+{
+    "decoded": 17,
+    "llm_time": 0.43708133697509766,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0004162788391113281,
+    "constrainer_time": 0.004225969314575195,
+    "total_time": 0.4461503028869629,
+    "frequency": {
+        "1": 18
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number[]' is not assignable to type '[number, number, number, { [key: string]: number; }]'.\n  Target requires 4 element(s) but source may have fewer.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 2, '(...items: ConcatArray<number>[]): number[]', gave the following error.\n    Argument of type '{ [key: string]: number; }' is not assignable to parameter of type 'ConcatArray<number>'.\n      Type '{ [key: string]: number; }' is missing the following properties from type 'ConcatArray<number>': length, join, slice\n  Overload 2 of 2, '(...items: (number | ConcatArray<number>)[]): number[]', gave the following error.\n    Argument of type '{ [key: string]: number; }' is not assignable to parameter of type 'number | ConcatArray<number>'.\n      Type '{ [key: string]: number; }' is missing the following properties from type 'ConcatArray<number>': length, join, slice"
+    ]
+}

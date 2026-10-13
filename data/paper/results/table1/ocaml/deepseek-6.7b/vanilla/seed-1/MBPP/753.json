@@ -1,0 +1,22 @@
+{
+    "decoded": 63,
+    "llm_time": 1.6257944107055664,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014569759368896484,
+    "constrainer_time": 0.014452457427978516,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.6587097644805908,
+    "frequency": {
+        "1": 64
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/753.ml:5:39: Unbound value \"List.rev_take\"\nHint: Did you mean \"rev_map\" or \"rev_map2\"?"
+    ]
+}

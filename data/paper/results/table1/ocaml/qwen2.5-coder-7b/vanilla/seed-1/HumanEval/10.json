@@ -1,0 +1,22 @@
+{
+    "decoded": 166,
+    "llm_time": 4.201976537704468,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0039033889770507812,
+    "constrainer_time": 0.03723859786987305,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.299957036972046,
+    "frequency": {
+        "1": 167
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/10.ml:12:48: Unbound module \"Stringrev\"\nHint: Did you mean \"String\"?"
+    ]
+}

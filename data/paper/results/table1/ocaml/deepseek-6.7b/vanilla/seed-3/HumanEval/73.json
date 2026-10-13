@@ -1,0 +1,22 @@
+{
+    "decoded": 234,
+    "llm_time": 5.780421018600464,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005621433258056641,
+    "constrainer_time": 0.05244803428649902,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.9074249267578125,
+    "frequency": {
+        "1": 235
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/73.ml:0:0: The function \"smallest_change\" has type int list -> int\nIt is applied to too many arguments"
+    ]
+}

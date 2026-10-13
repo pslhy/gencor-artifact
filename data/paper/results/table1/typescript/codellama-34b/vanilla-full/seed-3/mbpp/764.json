@@ -1,0 +1,22 @@
+{
+    "decoded": 67,
+    "llm_time": 3.607297420501709,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001764535903930664,
+    "constrainer_time": 0.004236936569213867,
+    "total_time": 3.6303701400756836,
+    "frequency": {
+        "1": 68
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2551: Property 'lenght' does not exist on type 'string'. Did you mean 'length'?",
+        "TS2339: Property 'isdigit' does not exist on type 'string'.",
+        "TS2304: Cannot find name 'count'.",
+        "TS2304: Cannot find name 'count'."
+    ]
+}

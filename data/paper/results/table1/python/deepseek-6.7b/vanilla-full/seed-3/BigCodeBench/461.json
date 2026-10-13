@@ -1,0 +1,22 @@
+{
+    "decoded": 431,
+    "llm_time": 10.827577114105225,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010951757431030273,
+    "constrainer_time": 0.09899139404296875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.083595991134644,
+    "frequency": {
+        "1": 432
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/461.py:31:16: undefined module member 'psutil.sleep'"
+    ]
+}

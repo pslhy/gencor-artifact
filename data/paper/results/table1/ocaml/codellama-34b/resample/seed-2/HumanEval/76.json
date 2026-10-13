@@ -1,0 +1,27 @@
+{
+    "decoded": 51,
+    "decoded_at_turn": {
+        "1": 51
+    },
+    "llm_time": 2.8322501182556152,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0021066665649414062,
+    "constrainer_time": 0.014193534851074219,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.8664865493774414,
+    "frequency": {
+        "1": 52
+    },
+    "turns": 1,
+    "max_turns": 1,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:42: This expression has type \"bool\" but an expression was expected of type\n\"int\""
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 54,
+    "llm_time": 1.4745476245880127,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013384819030761719,
+    "constrainer_time": 0.012703180313110352,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.5065507888793945,
+    "frequency": {
+        "1": 55
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/788.ml:3:14: This expression has type \"'a list\"\nbut an expression was expected of type \"string\""
+    ]
+}

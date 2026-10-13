@@ -1,0 +1,19 @@
+{
+    "decoded": 85,
+    "llm_time": 2.050827741622925,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019407272338867188,
+    "constrainer_time": 0.019269227981567383,
+    "total_time": 2.092508316040039,
+    "frequency": {
+        "1": 86
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2362: The left-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "decoded": 374,
+    "decoded_at_turn": {
+        "1": 188,
+        "2": 186
+    },
+    "llm_time": 9.678803205490112,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009084224700927734,
+    "constrainer_time": 0.08542609214782715,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.885631799697876,
+    "frequency": {
+        "1": 376
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:0:0: The function \"find_prime\" has type int -> int -> int\nIt is applied to too many arguments"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "BigCodeBench/211": [
+        "BigCodeBench/211.py:10:36: undefined name 'io'"
+    ],
+    "BigCodeBench/501": [
+        "BigCodeBench/501.py:7:20: undefined name 'json'",
+        "BigCodeBench/501.py:21:12: undefined name 'json'"
+    ],
+    "BigCodeBench/502": [
+        "BigCodeBench/502.py:21:14: undefined name 'plt'",
+        "BigCodeBench/502.py:23:5: undefined name 'plt'"
+    ],
+    "BigCodeBench/771": [
+        "BigCodeBench/771.py:25:13: undefined name 'shutil'"
+    ],
+    "BigCodeBench/1042": [
+        "BigCodeBench/1042.py:26:15: undefined name 'ssl'"
+    ]
+}

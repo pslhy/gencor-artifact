@@ -1,0 +1,22 @@
+{
+    "decoded": 29,
+    "llm_time": 0.7995920181274414,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007064342498779297,
+    "constrainer_time": 0.006943464279174805,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.8168692588806152,
+    "frequency": {
+        "1": 30
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/731.ml:3:5: Unbound value \"pi\""
+    ]
+}

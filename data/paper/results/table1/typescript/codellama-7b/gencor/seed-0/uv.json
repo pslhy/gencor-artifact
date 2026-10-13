@@ -1,0 +1,20 @@
+{
+    "HumanEval/37": [
+        "TS2304: Cannot find name 'reverseCompare'."
+    ],
+    "HumanEval/97": [
+        "TS2304: Cannot find name 'as'."
+    ],
+    "HumanEval/113": [
+        "TS2304: Cannot find name 'str'."
+    ],
+    "HumanEval/162": [
+        "TS2304: Cannot find name 'md5_1_1_1_1_5hash_md5_module_exports_create_hash_createHashsyncstatic_memoized_fn_makedigest_logDigestresult_stateResult_ErrorsInterfaceWhist'."
+    ],
+    "mbpp/130": [
+        "TS2304: Cannot find name 'expect'."
+    ],
+    "mbpp/579": [
+        "TS2503: Cannot find namespace 'test_tup1'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 57,
+    "llm_time": 1.4205834865570068,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001386404037475586,
+    "constrainer_time": 0.013292312622070312,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4502975940704346,
+    "frequency": {
+        "1": 58
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/91.ml:6:15: Unbound value \"trim\""
+    ]
+}

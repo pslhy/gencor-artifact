@@ -1,0 +1,19 @@
+{
+    "decoded": 33,
+    "llm_time": 1.8104398250579834,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008800029754638672,
+    "constrainer_time": 0.0021414756774902344,
+    "total_time": 1.8219571113586426,
+    "frequency": {
+        "1": 34
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2322: Type 'void' is not assignable to type 'number[]'."
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "decoded": 1323,
+    "decoded_at_turn": {
+        "1": 241,
+        "2": 285,
+        "3": 272,
+        "4": 266,
+        "5": 259
+    },
+    "llm_time": 77.45194125175476,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03489422798156738,
+    "constrainer_time": 0.3521723747253418,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 78.45359683036804,
+    "frequency": {
+        "1": 1328
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:20:55: invalid syntax. Perhaps you forgot a comma?",
+        "    except (xlwt.error.XLWTBYTEgotyouConversionError, xlwt.error.XLWTBYTE measure DisneyLand) as e:",
+        "                                                      ^"
+    ]
+}

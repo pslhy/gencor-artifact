@@ -1,0 +1,22 @@
+{
+    "decoded": 246,
+    "llm_time": 13.076958179473877,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00623631477355957,
+    "constrainer_time": 0.05865359306335449,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.21154236793518,
+    "frequency": {
+        "1": 247
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:47: Unbound value \"List.sum\""
+    ]
+}

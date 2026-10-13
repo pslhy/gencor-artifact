@@ -1,0 +1,22 @@
+{
+    "decoded": 94,
+    "llm_time": 2.387265205383301,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002226114273071289,
+    "constrainer_time": 0.021172046661376953,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.4445807933807373,
+    "frequency": {
+        "1": 95
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/123.ml:8:34: Unbound value \"odd\""
+    ]
+}

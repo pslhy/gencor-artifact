@@ -1,0 +1,13 @@
+{
+    "mbpp/58": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type 'boolean'.",
+            "TS2365: Operator '&' cannot be applied to types 'number' and 'bigint'."
+        ]
+    },
+    "mbpp/592": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "BigCodeBench/302": [
+        "BigCodeBench/302.py:20:16: undefined name 'np'",
+        "BigCodeBench/302.py:20:50: undefined name 'np'",
+        "BigCodeBench/302.py:21:14: undefined name 'np'"
+    ],
+    "BigCodeBench/326": [
+        "BigCodeBench/326.py:17:63: undefined module member 'subprocess.TimeoutExpiredError'"
+    ],
+    "BigCodeBench/501": [
+        "BigCodeBench/501.py:10:21: undefined name 'json'"
+    ],
+    "BigCodeBench/1015": [
+        "BigCodeBench/1015.py:21:22: undefined name 'etree'"
+    ]
+}

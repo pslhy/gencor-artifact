@@ -1,0 +1,22 @@
+{
+    "decoded": 86,
+    "llm_time": 2.3270320892333984,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0021147727966308594,
+    "constrainer_time": 0.020093679428100586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.379164695739746,
+    "frequency": {
+        "1": 87
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/122.ml:8:24: Unbound value \"List.take\""
+    ]
+}

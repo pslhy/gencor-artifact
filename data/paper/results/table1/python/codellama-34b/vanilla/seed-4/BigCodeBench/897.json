@@ -1,0 +1,24 @@
+{
+    "decoded": 256,
+    "llm_time": 13.998740673065186,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006290435791015625,
+    "constrainer_time": 0.05964803695678711,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.147387027740479,
+    "frequency": {
+        "1": 257
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:1: expected an indented block after function definition on line 7",
+        "if seed:",
+        "^"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 340,
+    "llm_time": 8.969460248947144,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008007049560546875,
+    "constrainer_time": 0.07767605781555176,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.172004461288452,
+    "frequency": {
+        "1": 341
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:13:9: Unbound value \"heapify\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+    ]
+}

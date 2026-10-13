@@ -1,0 +1,52 @@
+
+from datetime import timedelta
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import numpy as np
+def task_func(data_url="http://lib.stat.cmu.edu/datasets/boston", seed=42):
+    """
+    Draw the correlation heatmap of the Boston Housing dataset using Seaborn
+
+    :param data_url: Filepath or URL to the Boston Housing dataset file (default: http://lib.stat.cmu.edu/datasets/boston)
+    :type data_url: str
+    :param seed: A randomization seed to ensure deterministic outputs (default: 42)
+    :type seed: int
+    :return: A matplotlib.axes.Axes object containing the heatmap plot
+    :rtype: matplotlib.axes.Axes
+    :raises ValueError: If an error occurs in generating or saving the plot
+    """
+    try:
+        df = pd.read_csv(data_url, sep="\\s+", header=0)
+        np.random.seed(seed)
+        df = df.sample(frac=1).reset_index(drop=True)
+        corr = df.corr()
+        mask = np.triu(np.ones_like(corr, dtype=bool))
+        sns.heatmap(corr, annot=True, cmap="coolwarm", ax=None, mask=mask)
+        fig, ax = plt.subplots(figsize=(8,6))
+        sns.heatmap(corr, annot=True, cmap="coolwarm", ax=ax, mask=mask)
+        ax.set_xticklabels(df.columns.values, rotation=45, horizontalalignment="right")
+        ax.set_yticklabels(df.columns.values[::-1])
+        ax.set_title("Correlation Heatmap of the Boston Housing Dataset", fontsize=16)
+        return ax
+    except:
+        raise ValueError("Error generating or saving heatmap")
+
+
+# <System Prompt>
+#     You are an expert in Python programming. Solve the given problem by writing solution code in Python. When answering, insert the solution code in a ```python...``` block.
+#     Do not include test cases or explanations as comments in the code.
+# 
+# < User Prompt >
+#     Draw the correlation heatmap of the Boston Housing dataset using Seaborn, with an option to save it to a specified file.
+#     The function should raise the exception for: ValueError: If an error occurs in generating or saving the plot.
+#     The function should output with:
+#         matplotlib.axes.Axes: The Axes object containing the heatmap plot.
+#     You should write self-contained code starting with:
+#     ```
+#     import matplotlib.pyplot as plt
+#     import pandas as pd
+#     import seaborn as sns
+#     import numpy as np
+#     def task_func(data_url="http://lib.stat.cmu.edu/datasets/boston", seed=42):
+#     ```

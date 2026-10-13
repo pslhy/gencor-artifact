@@ -1,0 +1,28 @@
+{
+    "decoded": 75,
+    "decoded_at_turn": {
+        "1": 37,
+        "2": 38
+    },
+    "llm_time": 4.127309322357178,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018885135650634766,
+    "constrainer_time": 0.01855182647705078,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.169663429260254,
+    "frequency": {
+        "1": 77
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:5: This expression has type \"int -> int\"\nbut an expression was expected of type \"int\""
+    ]
+}

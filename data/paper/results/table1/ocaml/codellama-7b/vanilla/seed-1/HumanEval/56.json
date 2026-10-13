@@ -1,0 +1,22 @@
+{
+    "decoded": 145,
+    "llm_time": 3.7933902740478516,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0034902095794677734,
+    "constrainer_time": 0.03437232971191406,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.87225341796875,
+    "frequency": {
+        "1": 146
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/56.ml:14:23: This expression has type \"bool * char list\"\nbut an expression was expected of type \"('a * 'b) * 'c\"\nType \"bool\" is not compatible with type \"'a * 'b\""
+    ]
+}

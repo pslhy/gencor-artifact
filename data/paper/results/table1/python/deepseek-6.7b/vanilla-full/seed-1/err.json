@@ -1,0 +1,18 @@
+{
+    "BigCodeBench/509": {
+        "1": [
+            "BigCodeBench/509.py:14:20: undefined name 'difflib'"
+        ]
+    },
+    "BigCodeBench/657": {
+        "1": [
+            "BigCodeBench/657.py:9:16: local variable 'stopwords' defined in enclosing scope on line 7 referenced before assignment"
+        ]
+    },
+    "BigCodeBench/1004": {
+        "1": [
+            "BigCodeBench/1004.py:7:18: undefined name 'datetime'",
+            "BigCodeBench/1004.py:21:30: undefined name 'datetime'"
+        ]
+    }
+}

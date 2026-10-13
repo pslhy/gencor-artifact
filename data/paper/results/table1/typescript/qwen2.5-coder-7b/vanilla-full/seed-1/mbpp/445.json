@@ -1,0 +1,21 @@
+{
+    "decoded": 42,
+    "llm_time": 1.1369059085845947,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010116100311279297,
+    "constrainer_time": 0.010083436965942383,
+    "total_time": 1.1608364582061768,
+    "frequency": {
+        "1": 43
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2552: Cannot find name 'outer'. Did you mean '_outer'?",
+        "TS7006: Parameter 'inner' implicitly has an 'any' type.",
+        "TS7006: Parameter 'jndex' implicitly has an 'any' type."
+    ]
+}

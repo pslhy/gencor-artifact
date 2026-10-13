@@ -1,0 +1,24 @@
+{
+    "decoded": 345,
+    "llm_time": 18.801719903945923,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008554458618164062,
+    "constrainer_time": 0.08078336715698242,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 19.00529146194458,
+    "frequency": {
+        "1": 346
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:37:10: cannot assign to function call here. Maybe you meant '==' instead of '='?",
+        "    rfc, plt.gca() = task_func(df, \"class\")",
+        "         ^"
+    ]
+}

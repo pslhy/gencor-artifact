@@ -1,0 +1,20 @@
+{
+    "decoded": 83,
+    "llm_time": 4.413350582122803,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002015829086303711,
+    "constrainer_time": 0.004958629608154297,
+    "total_time": 4.440883159637451,
+    "frequency": {
+        "1": 84
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'n'.",
+        "TS2552: Cannot find name 'Arrow'. Did you mean 'arrow'?"
+    ]
+}

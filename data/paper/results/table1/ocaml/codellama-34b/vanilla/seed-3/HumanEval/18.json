@@ -1,0 +1,22 @@
+{
+    "decoded": 72,
+    "llm_time": 3.9155704975128174,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029413700103759766,
+    "constrainer_time": 0.01959848403930664,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.962907552719116,
+    "frequency": {
+        "1": 73
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:21: Unbound value \"String.index_of\"\nHint: Did you mean \"index_opt\"?"
+    ]
+}

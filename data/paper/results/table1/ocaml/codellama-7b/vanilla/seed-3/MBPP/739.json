@@ -1,0 +1,22 @@
+{
+    "decoded": 214,
+    "llm_time": 5.27320671081543,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005174160003662109,
+    "constrainer_time": 0.04930734634399414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.387217044830322,
+    "frequency": {
+        "1": 215
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/739.ml:5:29: Unbound value \"triangular\""
+    ]
+}

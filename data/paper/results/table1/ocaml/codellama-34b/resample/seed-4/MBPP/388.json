@@ -1,0 +1,28 @@
+{
+    "decoded": 145,
+    "decoded_at_turn": {
+        "1": 61,
+        "2": 84
+    },
+    "llm_time": 7.8928632736206055,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0037107467651367188,
+    "constrainer_time": 0.035784244537353516,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.974575519561768,
+    "frequency": {
+        "1": 147
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:0:0: The function \"highest_Power_of_2\" has type int -> int\nIt is applied to too many arguments"
+    ]
+}

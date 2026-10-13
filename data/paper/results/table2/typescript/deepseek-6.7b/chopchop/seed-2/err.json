@@ -1,0 +1,11 @@
+{
+    "mbpp/67": [
+        "../../tmp/tmpv7zuqcal.ts(17,72): error TS1005: '}' expected."
+    ],
+    "mbpp/84": [
+        "../../tmp/tmpmsbxe4qh.ts(18,31): error TS1109: Expression expected."
+    ],
+    "mbpp/577": [
+        "../../tmp/tmpovpj4c_c.ts(30,76): error TS1005: '}' expected."
+    ]
+}

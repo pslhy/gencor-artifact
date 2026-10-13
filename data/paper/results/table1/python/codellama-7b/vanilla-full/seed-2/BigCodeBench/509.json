@@ -1,0 +1,23 @@
+{
+    "decoded": 564,
+    "llm_time": 14.076626062393188,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013774633407592773,
+    "constrainer_time": 0.13076043128967285,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 14.419384956359863,
+    "frequency": {
+        "1": 565
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/509.py:24:17: undefined name 'os'",
+        "BigCodeBench/509.py:35:34: undefined name 'row'"
+    ]
+}

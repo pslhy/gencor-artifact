@@ -1,0 +1,31 @@
+{
+    "decoded": 887,
+    "decoded_at_turn": {
+        "1": 192,
+        "2": 182,
+        "3": 171,
+        "4": 171,
+        "5": 171
+    },
+    "llm_time": 49.98214888572693,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.023534774780273438,
+    "constrainer_time": 0.2156846523284912,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 50.553215980529785,
+    "frequency": {
+        "1": 892
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:22: Unbound value \"reverse_Array_Acc\""
+    ]
+}

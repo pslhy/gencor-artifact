@@ -1,0 +1,21 @@
+{
+    "total_time": 90.00011682510376,
+    "llm_time": 90.00011682510376,
+    "constrainer_time": 0.0,
+    "n_resamples": 15,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+        "TS2365: Operator '>' cannot be applied to types '[number, number]' and 'number'.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(that: string, locales?: LocalesArgument, options?: CollatorOptions | undefined): number', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'string'.\n  Overload 2 of 3, '(that: string, locales?: string | string[] | undefined, options?: CollatorOptions | undefined): number', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'string'.\n  Overload 3 of 3, '(that: string): number', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'string'."
+    ]
+}

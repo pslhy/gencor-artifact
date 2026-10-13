@@ -1,0 +1,22 @@
+{
+    "decoded": 104,
+    "llm_time": 2.727172613143921,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002370119094848633,
+    "constrainer_time": 0.023582935333251953,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.7885608673095703,
+    "frequency": {
+        "1": 105
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:35: Unbound value \"Map.add\""
+    ]
+}

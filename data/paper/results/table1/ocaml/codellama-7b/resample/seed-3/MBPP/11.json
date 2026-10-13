@@ -1,0 +1,29 @@
+{
+    "decoded": 283,
+    "decoded_at_turn": {
+        "1": 96,
+        "2": 96,
+        "3": 91
+    },
+    "llm_time": 7.035433053970337,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0068206787109375,
+    "constrainer_time": 0.0652780532836914,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.190326690673828,
+    "frequency": {
+        "1": 286
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:19: This expression has type \"string\" but an expression was expected of type\n\"char\""
+    ]
+}

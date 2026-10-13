@@ -1,0 +1,22 @@
+{
+    "decoded": 32,
+    "llm_time": 0.8250501155853271,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007424354553222656,
+    "constrainer_time": 0.007340431213378906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.8414323329925537,
+    "frequency": {
+        "1": 33
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/104.ml:4:44: This expression has type \"string list list\"\nbut an expression was expected of type \"string list\"\nType \"string list\" is not compatible with type \"string\""
+    ]
+}

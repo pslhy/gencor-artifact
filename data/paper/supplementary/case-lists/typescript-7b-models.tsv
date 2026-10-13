@@ -1,0 +1,16 @@
+model	tag	seed	total	timeout	compile_errors	list_file
+Qwen/Qwen2.5-Coder-7B-Instruct	qwen2.5-coder-7b	0	549	0	99	/root/gencor2/analysis/vanilla_compile_error_lists/qwen2.5-coder-7b_s0_compile_errors.txt
+Qwen/Qwen2.5-Coder-7B-Instruct	qwen2.5-coder-7b	1	549	0	212	/root/gencor2/analysis/vanilla_compile_error_lists/qwen2.5-coder-7b_s1_compile_errors.txt
+Qwen/Qwen2.5-Coder-7B-Instruct	qwen2.5-coder-7b	2	549	0	114	/root/gencor2/analysis/vanilla_compile_error_lists/qwen2.5-coder-7b_s2_compile_errors.txt
+Qwen/Qwen2.5-Coder-7B-Instruct	qwen2.5-coder-7b	3	549	0	26	/root/gencor2/analysis/vanilla_compile_error_lists/qwen2.5-coder-7b_s3_compile_errors.txt
+Qwen/Qwen2.5-Coder-7B-Instruct	qwen2.5-coder-7b	4	549	0	32	/root/gencor2/analysis/vanilla_compile_error_lists/qwen2.5-coder-7b_s4_compile_errors.txt
+codellama/CodeLlama-7b-Instruct-hf	codellama-7b	0	549	0	83	/root/gencor2/analysis/vanilla_compile_error_lists/codellama-7b_s0_compile_errors.txt
+codellama/CodeLlama-7b-Instruct-hf	codellama-7b	1	549	0	63	/root/gencor2/analysis/vanilla_compile_error_lists/codellama-7b_s1_compile_errors.txt
+codellama/CodeLlama-7b-Instruct-hf	codellama-7b	2	549	0	70	/root/gencor2/analysis/vanilla_compile_error_lists/codellama-7b_s2_compile_errors.txt
+codellama/CodeLlama-7b-Instruct-hf	codellama-7b	3	549	0	76	/root/gencor2/analysis/vanilla_compile_error_lists/codellama-7b_s3_compile_errors.txt
+codellama/CodeLlama-7b-Instruct-hf	codellama-7b	4	549	0	67	/root/gencor2/analysis/vanilla_compile_error_lists/codellama-7b_s4_compile_errors.txt
+deepseek-ai/deepseek-coder-6.7b-instruct	deepseek-6.7b	0	549	0	44	/root/gencor2/analysis/vanilla_compile_error_lists/deepseek-6.7b_s0_compile_errors.txt
+deepseek-ai/deepseek-coder-6.7b-instruct	deepseek-6.7b	1	549	0	30	/root/gencor2/analysis/vanilla_compile_error_lists/deepseek-6.7b_s1_compile_errors.txt
+deepseek-ai/deepseek-coder-6.7b-instruct	deepseek-6.7b	2	549	0	40	/root/gencor2/analysis/vanilla_compile_error_lists/deepseek-6.7b_s2_compile_errors.txt
+deepseek-ai/deepseek-coder-6.7b-instruct	deepseek-6.7b	3	549	0	34	/root/gencor2/analysis/vanilla_compile_error_lists/deepseek-6.7b_s3_compile_errors.txt
+deepseek-ai/deepseek-coder-6.7b-instruct	deepseek-6.7b	4	549	0	26	/root/gencor2/analysis/vanilla_compile_error_lists/deepseek-6.7b_s4_compile_errors.txt

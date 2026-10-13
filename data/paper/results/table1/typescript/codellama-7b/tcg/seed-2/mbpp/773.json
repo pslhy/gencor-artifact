@@ -1,0 +1,17 @@
+{
+    "total_time": 4.953876972198486,
+    "llm_time": 4.953876972198486,
+    "constrainer_time": 0.0,
+    "n_resamples": 5,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": false,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": []
+}

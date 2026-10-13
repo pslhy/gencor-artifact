@@ -1,0 +1,168 @@
+{
+    "HumanEval/24": {
+        "1": [
+            "TS2322: Type 'boolean' is not assignable to type 'number'.",
+            "TS18050: The value 'null' cannot be used here."
+        ]
+    },
+    "HumanEval/48": {
+        "1": [
+            "TS2339: Property 'split' does not exist on type 'string[]'."
+        ]
+    },
+    "HumanEval/64": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'v' does not exist on type 'boolean'."
+        ]
+    },
+    "HumanEval/69": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/146": {
+        "1": [
+            "TS7015: Element implicitly has an 'any' type because index expression is not of type 'number'."
+        ]
+    },
+    "HumanEval/147": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2304: Cannot find name 'a'."
+        ]
+    },
+    "HumanEval/156": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '>=' cannot be applied to types 'number' and 'string'."
+        ]
+    },
+    "HumanEval/158": {
+        "1": [
+            "TS2454: Variable 'maxUniqueWord' is used before being assigned."
+        ]
+    },
+    "HumanEval/162": {
+        "1": [
+            "TS2304: Cannot find name 'crypto'."
+        ]
+    },
+    "mbpp/57": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2551: Property 'toStrin' does not exist on type 'number'. Did you mean 'toString'?"
+        ]
+    },
+    "mbpp/106": {
+        "1": [
+            "TS2322: Type 'boolean' is not assignable to type '[number, number, number, number, number]'.",
+            "TS2488: Type 'boolean' must have a '[Symbol.iterator]()' method that returns an iterator.",
+            "TS2462: A rest element must be last in a destructuring pattern.",
+            "TS2367: This comparison appears to be unintentional because the types 'number[]' and 'number' have no overlap.",
+            "TS2839: This condition will always return 'false' since JavaScript compares objects by reference, not value."
+        ]
+    },
+    "mbpp/130": {
+        "1": [
+            "TS2454: Variable 'result' is used before being assigned."
+        ]
+    },
+    "mbpp/172": {
+        "1": [
+            "TS2531: Object is possibly 'null'."
+        ]
+    },
+    "mbpp/245": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/256": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '<' cannot be applied to types 'RangeErrorConstructor' and 'number'.",
+            "TS2769: No overload matches this call.\n  The last overload gave the following error.\n    Argument of type 'boolean' is not assignable to parameter of type 'ArrayLike<unknown>'.",
+            "TS2363: The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type."
+        ]
+    },
+    "mbpp/272": {
+        "1": [
+            "TS2322: Type 'boolean' is not assignable to type 'number[]'.",
+            "TS2367: This comparison appears to be unintentional because the types '(string | number)[]' and 'number[][]' have no overlap.",
+            "TS2839: This condition will always return 'false' since JavaScript compares objects by reference, not value.",
+            "TS2322: Type 'string' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/273": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number, number]'.\n  Target requires 3 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/278": {
+        "1": [
+            "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'number | [number, number]'.\n  Property '0' does not exist on type 'number | [number, number]'."
+        ]
+    },
+    "mbpp/408": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2304: Cannot find name 'P'."
+        ]
+    },
+    "mbpp/415": {
+        "1": [
+            "TS2322: Type 'number[]' is not assignable to type '[number, number]'.\n  Target requires 2 element(s) but source may have fewer."
+        ]
+    },
+    "mbpp/429": {
+        "1": [
+            "TS2322: Type 'boolean' is not assignable to type '[number, number, number, number]'.",
+            "TS2839: This condition will always return 'false' since JavaScript compares objects by reference, not value."
+        ]
+    },
+    "mbpp/457": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2322: Type 'null' is not assignable to type 'any[]'."
+        ]
+    },
+    "mbpp/563": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2345: Argument of type 'string' is not assignable to parameter of type 'string[]'.",
+            "TS2769: No overload matches this call.\n  Overload 1 of 2, '(locales?: LocalesArgument): string', gave the following error.\n    Argument of type 'Infinity' is not assignable to parameter of type 'LocalesArgument'.\n  Overload 2 of 2, '(locales?: string | string[] | undefined): string', gave the following error.\n    Argument of type 'Infinity' is not assignable to parameter of type 'string | string[] | undefined'."
+        ]
+    },
+    "mbpp/580": {
+        "1": [
+            "TS2345: Argument of type '[number, number, [number, number, [number, number]], number, number][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][...' is not assignable to parameter of type '[number, number, [number, number, [number, number]], number, number]'.\n  Target requires 5 element(s) but source may have fewer.",
+            "TS2352: Conversion of type '[number, number, [number, number]]' to type '[number, number, [number, number, [number, number]], number, number][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][...' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Type 'number | [number, number]' is not comparable to type '[number, number, [number, number, [number, number]], number, number][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][...'.\n    Type '[number, number]' is not comparable to type '[number, number, [number, number, [number, number]], number, number][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][...'.\n      Type 'number' is not comparable to type '[number, number, [number, number, [number, number]], number, number][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][...'."
+        ]
+    },
+    "mbpp/616": {
+        "1": [
+            "TS2322: Type 'boolean' is not assignable to type '[number, number, number, number]'.",
+            "TS2695: Left side of comma operator is unused and has no side effects."
+        ]
+    },
+    "mbpp/641": {
+        "1": [
+            "TS2322: Type 'number | false' is not assignable to type 'number'.\n  Type 'boolean' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/751": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig.",
+            "TS2593: Cannot find name 'it'. Do you need to install type definitions for a test runner? Try `npm i --save-dev @types/jest` or `npm i --save-dev @types/mocha` and then add 'jest' or 'mocha' to the types field in your tsconfig.",
+            "TS2538: Type 'boolean' cannot be used as an index type.",
+            "TS2339: Property 'return' does not exist on type 'number[]'."
+        ]
+    },
+    "mbpp/807": {
+        "1": [
+            "TS2322: Type 'null' is not assignable to type 'number'."
+        ]
+    }
+}

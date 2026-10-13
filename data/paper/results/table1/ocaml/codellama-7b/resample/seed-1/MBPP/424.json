@@ -1,0 +1,28 @@
+{
+    "decoded": 221,
+    "decoded_at_turn": {
+        "1": 110,
+        "2": 111
+    },
+    "llm_time": 5.570976257324219,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005636692047119141,
+    "constrainer_time": 0.05184364318847656,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.69206976890564,
+    "frequency": {
+        "1": 223
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:3: The function \"extract_rear\" has type\nstring * string * string -> string list\nIt is applied to too many arguments"
+    ]
+}

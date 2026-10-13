@@ -1,0 +1,22 @@
+{
+    "decoded": 225,
+    "llm_time": 6.143036127090454,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005766391754150391,
+    "constrainer_time": 0.05324959754943848,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.280641794204712,
+    "frequency": {
+        "1": 226
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/129.ml:4:32: Unbound value \"fold_left\""
+    ]
+}

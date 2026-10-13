@@ -1,0 +1,26 @@
+function right_angle_triangle(a: number, b: number, c: number): boolean {
+    // Sort the sides in ascending order
+    let sides = [a, b, c].sort((a, b) => a - b);
+
+    // Use the Pythagorean theorem to check if the triangle is right-angled
+    return Math.pow(sides[0], 2) + Math.pow(sides[1], 2) === Math.pow(sides[2], 2);
+}
+
+console.log(right_angle_triangle(3, 4, 5));  // true
+console.log(right_angle_triangle(1, 2, 3));  // false
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Given the lengths of the three sides of a triangle. Return true if the three
+//     sides form a right-angled triangle, false otherwise.
+//     A right-angled triangle is a triangle in which one angle is right angle or
+//     90 degree.
+//     Example:
+//     >>> right_angle_triangle(3, 4, 5)
+//     true
+//     >>> right_angle_triangle(1, 2, 3)
+//     false

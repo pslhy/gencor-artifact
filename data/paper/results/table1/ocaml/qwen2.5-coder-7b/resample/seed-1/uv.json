@@ -1,0 +1,44 @@
+{
+    "HumanEval/10": [
+        "test.ml:12:63: Unbound value \"String.rev\""
+    ],
+    "HumanEval/158": [
+        "test.ml:5:49: Unbound value \"filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/160": [
+        "test.ml:12:35: Unbound value \"( **. )\"\nHint: Did you mean \"**\" or \"*.\"?"
+    ],
+    "HumanEval/67": [
+        "test.ml:2:12: Unbound module \"Str\""
+    ],
+    "MBPP/229": [
+        "test.ml:4:25: Unbound value \"List.take\""
+    ],
+    "MBPP/274": [
+        "test.ml:5:9: Unbound constructor \"C\""
+    ],
+    "MBPP/296": [
+        "test.ml:21:39: Unbound value \"List.sub\""
+    ],
+    "MBPP/308": [
+        "test.ml:10:6: Unbound value \"List.take\""
+    ],
+    "MBPP/456": [
+        "test.ml:2:44: Unbound value \"Seq.rev\""
+    ],
+    "MBPP/644": [
+        "test.ml:8:54: Unbound value \"List.drop\""
+    ],
+    "MBPP/737": [
+        "test.ml:2:12: Unbound module \"Re\""
+    ],
+    "MBPP/757": [
+        "test.ml:5:24: Unbound value \"String.rev\""
+    ],
+    "MBPP/780": [
+        "test.ml:20:52: Unbound value \"y\""
+    ],
+    "MBPP/783": [
+        "test.ml:4:15: Unbound value \"max_val\"\nHint: Did you mean \"max_int\"?"
+    ]
+}

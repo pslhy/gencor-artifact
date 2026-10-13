@@ -1,0 +1,22 @@
+{
+    "decoded": 187,
+    "llm_time": 5.537225008010864,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0047266483306884766,
+    "constrainer_time": 0.06486725807189941,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.672621965408325,
+    "frequency": {
+        "1": 188
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:19:22: undefined name 'process_name'"
+    ]
+}

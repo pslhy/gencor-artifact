@@ -1,0 +1,19 @@
+{
+    "decoded": 249,
+    "llm_time": 6.410163879394531,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005946636199951172,
+    "constrainer_time": 0.058999061584472656,
+    "total_time": 6.540907859802246,
+    "frequency": {
+        "1": 250
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2588: Cannot assign to 'uppercase_run' because it is a constant."
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "decoded": 142,
+    "decoded_at_turn": {
+        "1": 80,
+        "2": 62
+    },
+    "llm_time": 3.791555166244507,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036449432373046875,
+    "constrainer_time": 0.03492307662963867,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.8712642192840576,
+    "frequency": {
+        "1": 144
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:11: This pattern matches values of type \"'a option\"\nbut a pattern was expected which matches values of type \"float\""
+    ]
+}

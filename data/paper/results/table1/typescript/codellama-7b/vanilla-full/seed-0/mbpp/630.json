@@ -1,0 +1,19 @@
+{
+    "decoded": 189,
+    "llm_time": 4.863683462142944,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004489898681640625,
+    "constrainer_time": 0.04471135139465332,
+    "total_time": 4.962209224700928,
+    "frequency": {
+        "1": 190
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type '[number, number, number, number, number, number]' is not assignable to parameter of type '[number, number]'.\n  Source has 6 element(s) but target allows only 2."
+    ]
+}

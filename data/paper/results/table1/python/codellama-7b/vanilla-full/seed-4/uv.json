@@ -1,0 +1,37 @@
+{
+    "BigCodeBench/17": [
+        "BigCodeBench/17.py:6:15: undefined name 'process'"
+    ],
+    "BigCodeBench/37": [
+        "BigCodeBench/37.py:10:40: undefined name 'train_test_split'"
+    ],
+    "BigCodeBench/124": [
+        "BigCodeBench/124.py:25:82: undefined name 'start_time'",
+        "BigCodeBench/124.py:27:44: undefined name 'start_time'"
+    ],
+    "BigCodeBench/147": [
+        "BigCodeBench/147.py:9:10: undefined name 'ThreadPoolExecutor'"
+    ],
+    "BigCodeBench/211": [
+        "BigCodeBench/211.py:13:26: undefined name 'io'",
+        "BigCodeBench/211.py:18:5: undefined name 'shutil'"
+    ],
+    "BigCodeBench/486": [
+        "BigCodeBench/486.py:16:5: undefined name 'plt'",
+        "BigCodeBench/486.py:17:10: undefined name 'sns'"
+    ],
+    "BigCodeBench/587": [
+        "BigCodeBench/587.py:35:40: undefined name 'hashes'",
+        "BigCodeBench/587.py:36:23: undefined name 'hashes'"
+    ],
+    "BigCodeBench/590": [
+        "BigCodeBench/590.py:17:15: undefined name 'URLError'"
+    ],
+    "BigCodeBench/655": [
+        "BigCodeBench/655.py:24:59: undefined name 'np'"
+    ],
+    "BigCodeBench/1015": [
+        "BigCodeBench/1015.py:18:12: undefined name 'etree'",
+        "BigCodeBench/1015.py:19:15: undefined name 'etree'"
+    ]
+}

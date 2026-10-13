@@ -1,0 +1,78 @@
+{
+    "BigCodeBench/89": {
+        "1": [
+            "<python>:28:76: undefined module member 'np.in1d'"
+        ],
+        "2": [
+            "<python>:29:152: closing parenthesis ')' does not match opening parenthesis '['",
+            "    plt.scatter(range(data_without_outliers.shape[0]), np.sort(z_scores[np.where(np.in1d(range(z_scores.shape[0]), data_without_outliers.index.values))))",
+            "                                                                                                                                                       ^"
+        ],
+        "3": [
+            "<python>:29:85: undefined module member 'np.in1d'"
+        ]
+    },
+    "BigCodeBench/302": {
+        "1": [
+            "<python>:20:16: undefined name 'np'",
+            "<python>:20:50: undefined name 'np'",
+            "<python>:21:14: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/326": {
+        "1": [
+            "<python>:17:63: undefined module member 'subprocess.TimeoutExpiredError'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "<python>:10:21: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:14:66: undefined module member 'rsa.key.exportKey'"
+        ],
+        "2": [
+            "<python>:13:25: undefined module member 'rsa.key.exportKey'"
+        ]
+    },
+    "BigCodeBench/760": {
+        "1": [
+            "<python>:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+            "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+            "                                                     ^"
+        ],
+        "2": [
+            "<python>:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+            "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+            "                                                     ^"
+        ],
+        "3": [
+            "<python>:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+            "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+            "                                                     ^"
+        ],
+        "4": [
+            "<python>:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+            "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+            "                                                     ^"
+        ],
+        "5": [
+            "<python>:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+            "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+            "                                                     ^"
+        ]
+    },
+    "BigCodeBench/879": {
+        "1": [
+            "<python>:15:47: undefined module member 'np.str'",
+            "<python>:15:94: undefined module member 'np.str'"
+        ]
+    },
+    "BigCodeBench/1015": {
+        "1": [
+            "<python>:21:22: undefined name 'etree'"
+        ]
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 134,
+    "llm_time": 7.206117868423462,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003765106201171875,
+    "constrainer_time": 0.008418798446655273,
+    "total_time": 7.254940748214722,
+    "frequency": {
+        "1": 135
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'count'.",
+        "TS2322: Type 'null' is not assignable to type 'number'."
+    ]
+}

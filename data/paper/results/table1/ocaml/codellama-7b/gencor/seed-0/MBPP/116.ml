@@ -1,0 +1,14 @@
+
+let rec tuple_to_int (nums :  int * int * int) : int =
+  match nums with
+  | (x, y, z) -> x * 1000 + y * 100 + z * 10
+
+let tuple_to_int (5, 7, 9)
+  = 579
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to convert a given tuple of positive integers into a single integer. *)

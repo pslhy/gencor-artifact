@@ -1,0 +1,24 @@
+{
+    "decoded": 236,
+    "llm_time": 6.09434175491333,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0068187713623046875,
+    "constrainer_time": 0.05819582939147949,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.262897253036499,
+    "frequency": {
+        "1": 237
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:14:68: unterminated string literal (detected at line 14)",
+        "    emails = [f\"{name.lower().replace('\\\\'', '')}{date.strftime('%Y')}@{email_domain}\" for name, date in zip(latin_names + other_names, dates)]",
+        "                                                                   ^"
+    ]
+}

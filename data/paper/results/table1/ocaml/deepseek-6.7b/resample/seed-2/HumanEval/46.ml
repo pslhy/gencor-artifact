@@ -1,0 +1,55 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     The Fib4 number sequence is a sequence similar to the Fibbonacci sequnece that's defined as follows: *)
+(*     fib4(0) -> 0 *)
+(*     fib4(1) -> 0 *)
+(*     fib4(2) -> 2 *)
+(*     fib4(3) -> 0 *)
+(*     fib4(n) -> fib4(n-1) + fib4(n-2) + fib4(n-3) + fib4(n-4). *)
+(*     Please write a function to efficiently compute the n-th element of the fib4 number sequence.  Do not use recursion. *)
+(*     >>> fib4 5 *)
+(*     4 *)
+(*     >>> fib4 6 *)
+(*     8 *)
+(*     >>> fib4 7 *)
+(*     14 *)
+let rec fib4 (n : int) : int =
+  let fib4_aux (i : int) (lst : int list) : int =
+    if i = n then (List.nth lst 0)
+    else fib4_aux (i + 1) ([nth lst 3; nth lst 2; nth lst 1; nth lst 0])
+  in
+  if n < 4 then 
+    match n with
+    | 0 -> 0
+    | 1 -> 0
+    | 2 -> 2
+    | 3 -> 0
+    | _ -> invalid_arg "n should be in 0, 1, 2 or 3"
+  else fib4_aux 4 [0; 0; 2; 0];;
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:4:10: Unbound value "fib4_aux" *)
+(*     Hint: If this is a recursive definition, *)
+(*     you should add the "rec" keyword on line 2 *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec fib4 (n : int) : int =
+  let rec fib4_aux (i : int) (lst : int list) : int =
+    if i = n then List.nth lst 0
+    else fib4_aux (i + 1) ([List.nth lst 3; List.nth lst 2; List.nth lst 1; List.nth lst 0])
+  in
+  if n < 4 then 
+    match n with
+    | 0 -> 0
+    | 1 -> 0
+    | 2 -> 2
+    | 3 -> 0
+    | _ -> invalid_arg "n should be in 0, 1, 2 or 3"
+  else fib4_aux 4 [0; 0; 2; 0]
+

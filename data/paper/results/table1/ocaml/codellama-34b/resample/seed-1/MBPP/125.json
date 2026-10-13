@@ -1,0 +1,31 @@
+{
+    "decoded": 882,
+    "decoded_at_turn": {
+        "1": 155,
+        "2": 174,
+        "3": 196,
+        "4": 196,
+        "5": 161
+    },
+    "llm_time": 49.45993685722351,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.022567272186279297,
+    "constrainer_time": 0.21454715728759766,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 50.01774859428406,
+    "frequency": {
+        "1": 887
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:11:18: The function \"find_length\" has type string -> int\nIt is applied to too many arguments"
+    ]
+}

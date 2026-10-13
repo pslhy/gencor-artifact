@@ -1,0 +1,17 @@
+{
+    "mbpp/4": [
+        "TS2304: Cannot find name 'MaxPriorityQueue'."
+    ],
+    "mbpp/597": [
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'p'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'."
+    ]
+}

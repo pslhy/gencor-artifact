@@ -1,0 +1,22 @@
+{
+    "decoded": 167,
+    "llm_time": 4.376767158508301,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0042476654052734375,
+    "constrainer_time": 0.03956794738769531,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.467684268951416,
+    "frequency": {
+        "1": 168
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:62: Syntax error: \"pattern\" expected."
+    ]
+}

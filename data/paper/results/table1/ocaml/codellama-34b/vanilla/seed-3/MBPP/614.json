@@ -1,0 +1,22 @@
+{
+    "decoded": 34,
+    "llm_time": 1.8549060821533203,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0011565685272216797,
+    "constrainer_time": 0.008779764175415039,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.8751239776611328,
+    "frequency": {
+        "1": 35
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:40: This expression has type \"int list list\"\nbut an expression was expected of type \"int list\"\nType \"int list\" is not compatible with type \"int\""
+    ]
+}

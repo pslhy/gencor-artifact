@@ -1,0 +1,22 @@
+{
+    "decoded": 79,
+    "llm_time": 2.05672550201416,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019402503967285156,
+    "constrainer_time": 0.018095016479492188,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.09796404838562,
+    "frequency": {
+        "1": 80
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:27: Unbound value \"List.tl_opt\"\nHint: Did you mean \"nth_opt\"?"
+    ]
+}

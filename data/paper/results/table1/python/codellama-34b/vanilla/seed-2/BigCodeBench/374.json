@@ -1,0 +1,24 @@
+{
+    "decoded": 120,
+    "llm_time": 6.506437063217163,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0032405853271484375,
+    "constrainer_time": 0.029429197311401367,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.575772523880005,
+    "frequency": {
+        "1": 121
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:16:4: expected 'except' or 'finally' block",
+        "    return file_counter",
+        "   ^"
+    ]
+}

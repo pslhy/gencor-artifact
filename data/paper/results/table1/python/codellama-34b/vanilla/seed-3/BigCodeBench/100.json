@@ -1,0 +1,22 @@
+{
+    "decoded": 162,
+    "llm_time": 8.819474935531616,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0043277740478515625,
+    "constrainer_time": 0.039666175842285156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.9147789478302,
+    "frequency": {
+        "1": 163
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:12:5: undefined name 'sns'"
+    ]
+}

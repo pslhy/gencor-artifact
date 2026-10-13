@@ -1,0 +1,22 @@
+{
+    "decoded": 207,
+    "llm_time": 5.234925031661987,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005217313766479492,
+    "constrainer_time": 0.04637718200683594,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.3563008308410645,
+    "frequency": {
+        "1": 208
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/643.ml:7:15: Unbound value \"text_to_char_list\""
+    ]
+}

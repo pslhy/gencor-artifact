@@ -1,0 +1,21 @@
+{
+    "decoded": 75,
+    "llm_time": 1.8068413734436035,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017523765563964844,
+    "constrainer_time": 0.017071962356567383,
+    "total_time": 1.843785047531128,
+    "frequency": {
+        "1": 76
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'any[]' is not assignable to type 'number'.",
+        "TS7006: Parameter 'acc' implicitly has an 'any' type.",
+        "TS7006: Parameter 'digit' implicitly has an 'any' type."
+    ]
+}

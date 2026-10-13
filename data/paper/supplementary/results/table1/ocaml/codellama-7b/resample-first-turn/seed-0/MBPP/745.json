@@ -1,0 +1,22 @@
+{
+    "decoded": 187,
+    "llm_time": 4.760270118713379,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0046482086181640625,
+    "constrainer_time": 0.044629812240600586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.864011287689209,
+    "frequency": {
+        "1": 188
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:11: Unbound value \"is_divisible_by_digit\""
+    ]
+}

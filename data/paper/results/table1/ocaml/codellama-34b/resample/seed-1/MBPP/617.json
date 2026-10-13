@@ -1,0 +1,29 @@
+{
+    "decoded": 238,
+    "decoded_at_turn": {
+        "1": 79,
+        "2": 79,
+        "3": 80
+    },
+    "llm_time": 13.091564655303955,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006583213806152344,
+    "constrainer_time": 0.05901360511779785,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 13.23196268081665,
+    "frequency": {
+        "1": 241
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:10: This expression has type \"int -> float\"\nbut an expression was expected of type \"int\"\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

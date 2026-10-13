@@ -1,0 +1,31 @@
+{
+    "decoded": 487,
+    "decoded_at_turn": {
+        "1": 97,
+        "2": 97,
+        "3": 97,
+        "4": 98,
+        "5": 98
+    },
+    "llm_time": 27.225852012634277,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.012535572052001953,
+    "constrainer_time": 0.1181948184967041,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 27.5175883769989,
+    "frequency": {
+        "1": 492
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:28: Unbound value \"perrin_num\""
+    ]
+}

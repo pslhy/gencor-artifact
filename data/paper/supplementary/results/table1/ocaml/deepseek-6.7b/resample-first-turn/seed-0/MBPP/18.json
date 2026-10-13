@@ -1,0 +1,22 @@
+{
+    "decoded": 206,
+    "llm_time": 5.2819507122039795,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004942178726196289,
+    "constrainer_time": 0.047304630279541016,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.3909547328948975,
+    "frequency": {
+        "1": 207
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:37: Unbound value \"remove_dirty_char\"\nHint: Did you mean \"remove_dirty_chars\"?"
+    ]
+}

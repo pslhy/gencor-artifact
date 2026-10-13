@@ -1,0 +1,22 @@
+{
+    "decoded": 75,
+    "llm_time": 4.036103963851929,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020499229431152344,
+    "constrainer_time": 0.004724264144897461,
+    "total_time": 4.062421798706055,
+    "frequency": {
+        "1": 76
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+        "TS2551: Property 'lenght' does not exist on type '(string | number)[]'. Did you mean 'length'?",
+        "TS2322: Type 'string | number' is not assignable to type 'number'.\n  Type 'string' is not assignable to type 'number'.",
+        "TS2365: Operator '<' cannot be applied to types 'string | number' and 'number'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 274,
+    "llm_time": 6.872075319290161,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006411552429199219,
+    "constrainer_time": 0.06255626678466797,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.017583847045898,
+    "frequency": {
+        "1": 275
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/417.ml:5:25: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+    ]
+}

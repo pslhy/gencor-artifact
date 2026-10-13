@@ -1,0 +1,28 @@
+{
+    "decoded": 593,
+    "decoded_at_turn": {
+        "1": 256,
+        "2": 337
+    },
+    "llm_time": 32.35894560813904,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014473199844360352,
+    "constrainer_time": 0.14124608039855957,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 32.70491003990173,
+    "frequency": {
+        "1": 595
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:44: This expression has type \"int list\"\nbut an expression was expected of type \"int\""
+    ]
+}

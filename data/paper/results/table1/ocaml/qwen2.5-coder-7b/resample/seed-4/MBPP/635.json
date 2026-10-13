@@ -1,0 +1,31 @@
+{
+    "decoded": 312,
+    "decoded_at_turn": {
+        "1": 63,
+        "2": 59,
+        "3": 63,
+        "4": 55,
+        "5": 72
+    },
+    "llm_time": 8.45982813835144,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007308483123779297,
+    "constrainer_time": 0.07331395149230957,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.65784239768982,
+    "frequency": {
+        "1": 317
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:50: Unbound module \"Heap\""
+    ]
+}

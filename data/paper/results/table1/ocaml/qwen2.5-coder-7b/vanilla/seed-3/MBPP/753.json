@@ -1,0 +1,22 @@
+{
+    "decoded": 360,
+    "llm_time": 9.101432085037231,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008849143981933594,
+    "constrainer_time": 0.08089613914489746,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.320338726043701,
+    "frequency": {
+        "1": 361
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/753.ml:33:23: This expression has type \"string list\"\nbut an expression was expected of type \"(string * int) list\"\nType \"string\" is not compatible with type \"string * int\""
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 119,
+    "llm_time": 6.390723466873169,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003053426742553711,
+    "constrainer_time": 0.007428884506225586,
+    "total_time": 6.433415412902832,
+    "frequency": {
+        "1": 120
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2345: Argument of type '{ [key: string]: number; }' is not assignable to parameter of type 'number'.",
+        "TS2322: Type 'number[]' is not assignable to type '[number, number, number, { [key: string]: number; }]'.\n  Target requires 4 element(s) but source may have fewer."
+    ]
+}

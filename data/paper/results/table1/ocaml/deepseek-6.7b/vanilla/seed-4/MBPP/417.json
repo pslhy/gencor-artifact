@@ -1,0 +1,22 @@
+{
+    "decoded": 53,
+    "llm_time": 1.4147813320159912,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013606548309326172,
+    "constrainer_time": 0.012756109237670898,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4432282447814941,
+    "frequency": {
+        "1": 54
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/417.ml:4:14: This expression has type \"'a * 'b\"\nbut an expression was expected of type \"string list\""
+    ]
+}

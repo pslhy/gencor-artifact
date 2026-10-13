@@ -1,0 +1,32 @@
+{
+    "decoded": 1170,
+    "decoded_at_turn": {
+        "1": 234,
+        "2": 234,
+        "3": 234,
+        "4": 234,
+        "5": 234
+    },
+    "llm_time": 29.264739751815796,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03199887275695801,
+    "constrainer_time": 0.27443528175354004,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 30.1270809173584,
+    "frequency": {
+        "1": 1175
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:21:14: undefined name 'plt'",
+        "<python>:23:5: undefined name 'plt'"
+    ]
+}

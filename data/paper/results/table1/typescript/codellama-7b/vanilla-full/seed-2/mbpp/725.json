@@ -1,0 +1,20 @@
+{
+    "decoded": 89,
+    "llm_time": 2.1402597427368164,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001989603042602539,
+    "constrainer_time": 0.020066261291503906,
+    "total_time": 2.183985710144043,
+    "frequency": {
+        "1": 90
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS18047: 'indexes' is possibly 'null'.",
+        "TS18047: 'indexes' is possibly 'null'."
+    ]
+}

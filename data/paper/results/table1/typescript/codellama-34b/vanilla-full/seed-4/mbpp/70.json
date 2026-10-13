@@ -1,0 +1,24 @@
+{
+    "decoded": 94,
+    "llm_time": 4.991706609725952,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0023276805877685547,
+    "constrainer_time": 0.005601644515991211,
+    "total_time": 5.023109436035156,
+    "frequency": {
+        "1": 95
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'length'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'length'."
+    ]
+}

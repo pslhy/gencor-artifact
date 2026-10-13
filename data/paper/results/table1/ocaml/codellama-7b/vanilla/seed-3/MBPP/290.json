@@ -1,0 +1,22 @@
+{
+    "decoded": 197,
+    "llm_time": 4.8548853397369385,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004755735397338867,
+    "constrainer_time": 0.04575943946838379,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.95910382270813,
+    "frequency": {
+        "1": 198
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/290.ml:18:37: This expression has type \"int list list list\"\nbut an expression was expected of type \"int list list\"\nType \"int list\" is not compatible with type \"int\""
+    ]
+}

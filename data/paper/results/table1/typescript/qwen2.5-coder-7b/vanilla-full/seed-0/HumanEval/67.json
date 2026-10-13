@@ -1,0 +1,22 @@
+{
+    "decoded": 34,
+    "llm_time": 0.9201517105102539,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008428096771240234,
+    "constrainer_time": 0.008295059204101562,
+    "total_time": 0.9405255317687988,
+    "frequency": {
+        "1": 35
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type 'string[]' is not assignable to parameter of type 'string'.",
+        "TS2339: Property 'reduce' does not exist on type 'number'.",
+        "TS7006: Parameter 'a' implicitly has an 'any' type.",
+        "TS7006: Parameter 'b' implicitly has an 'any' type."
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "decoded": 88,
+    "llm_time": 4.685273885726929,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002234935760498047,
+    "constrainer_time": 0.0053098201751708984,
+    "total_time": 4.715202331542969,
+    "frequency": {
+        "1": 89
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2550: Property 'union' does not exist on type 'Set<number>'. Do you need to change your target library? Try changing the 'lib' compiler option to 'es2025' or later.",
+        "TS2322: Type 'unknown[]' is not assignable to type 'number[]'.\n  Type 'unknown' is not assignable to type 'number'."
+    ]
+}

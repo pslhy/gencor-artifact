@@ -1,0 +1,22 @@
+{
+    "decoded": 341,
+    "llm_time": 18.361448764801025,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009804964065551758,
+    "constrainer_time": 0.08437228202819824,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 18.566436529159546,
+    "frequency": {
+        "1": 342
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:65: Unbound value \"minimum_key\""
+    ]
+}

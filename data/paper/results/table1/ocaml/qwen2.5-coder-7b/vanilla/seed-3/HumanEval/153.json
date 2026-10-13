@@ -1,0 +1,22 @@
+{
+    "decoded": 188,
+    "llm_time": 5.074192047119141,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004553318023681641,
+    "constrainer_time": 0.04408740997314453,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.194647789001465,
+    "frequency": {
+        "1": 189
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/153.ml:11:38: This expression has type \"'a * 'b\"\nbut an expression was expected of type \"('c -> 'd) -> 'e -> 'c -> 'd\""
+    ]
+}

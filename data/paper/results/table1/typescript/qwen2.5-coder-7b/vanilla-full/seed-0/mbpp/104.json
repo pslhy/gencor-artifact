@@ -1,0 +1,20 @@
+{
+    "decoded": 10,
+    "llm_time": 0.2845923900604248,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0002613067626953125,
+    "constrainer_time": 0.002592802047729492,
+    "total_time": 0.29062318801879883,
+    "frequency": {
+        "1": 11
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '<U>(callbackfn: (value: string[], index: number, array: string[][]) => U, thisArg?: any) => U[]' is not assignable to type 'string[][]'.",
+        "TS7006: Parameter 'sublist' implicitly has an 'any' type."
+    ]
+}

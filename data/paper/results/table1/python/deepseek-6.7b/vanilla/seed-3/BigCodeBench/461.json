@@ -1,0 +1,22 @@
+{
+    "decoded": 431,
+    "llm_time": 11.087137460708618,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010558843612670898,
+    "constrainer_time": 0.13187646865844727,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.372199773788452,
+    "frequency": {
+        "1": 432
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:31:16: undefined module member 'psutil.sleep'"
+    ]
+}

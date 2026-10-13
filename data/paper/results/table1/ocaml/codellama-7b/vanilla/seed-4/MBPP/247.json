@@ -1,0 +1,22 @@
+{
+    "decoded": 246,
+    "llm_time": 6.295097827911377,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0062100887298583984,
+    "constrainer_time": 0.058820486068725586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.430699825286865,
+    "frequency": {
+        "1": 247
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/247.ml:9:1: Syntax error: \")\" expected"
+    ]
+}

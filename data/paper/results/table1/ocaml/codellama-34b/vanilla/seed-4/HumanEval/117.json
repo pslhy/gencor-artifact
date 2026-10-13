@@ -1,0 +1,22 @@
+{
+    "decoded": 200,
+    "llm_time": 10.961385250091553,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006838321685791016,
+    "constrainer_time": 0.052719831466674805,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.091620206832886,
+    "frequency": {
+        "1": 201
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:51: Unbound value \"is_vowel\""
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "decoded": 1319,
+    "decoded_at_turn": {
+        "1": 251,
+        "2": 259,
+        "3": 260,
+        "4": 259,
+        "5": 290
+    },
+    "llm_time": 33.32989048957825,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03239321708679199,
+    "constrainer_time": 0.297335147857666,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 34.26817321777344,
+    "frequency": {
+        "1": 1324
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:21:39: Unbound value \"List.sub\""
+    ]
+}

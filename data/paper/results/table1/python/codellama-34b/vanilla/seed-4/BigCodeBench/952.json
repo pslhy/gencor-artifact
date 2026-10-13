@@ -1,0 +1,24 @@
+{
+    "decoded": 194,
+    "llm_time": 10.610916376113892,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004797935485839844,
+    "constrainer_time": 0.04524564743041992,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.722566843032837,
+    "frequency": {
+        "1": 195
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:24:9: closing parenthesis '}' does not match opening parenthesis '[' on line 21",
+        "        }",
+        "        ^"
+    ]
+}

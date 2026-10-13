@@ -1,0 +1,23 @@
+{
+    "decoded": 138,
+    "llm_time": 7.3264830112457275,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003411531448364258,
+    "constrainer_time": 0.008197784423828125,
+    "total_time": 7.373425722122192,
+    "frequency": {
+        "1": 139
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'number | [number, number]'.\n  Property '0' does not exist on type 'number | [number, number]'.",
+        "TS2538: Type '[number, number]' cannot be used as an index type.",
+        "TS2538: Type '[number, number]' cannot be used as an index type.",
+        "TS2538: Type '[number, number]' cannot be used as an index type.",
+        "TS2322: Type 'Record<number, number>' is not assignable to type 'number'."
+    ]
+}

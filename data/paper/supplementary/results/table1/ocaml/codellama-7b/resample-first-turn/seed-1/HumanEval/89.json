@@ -1,0 +1,22 @@
+{
+    "decoded": 149,
+    "llm_time": 3.6948864459991455,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036551952362060547,
+    "constrainer_time": 0.034110069274902344,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.7746195793151855,
+    "frequency": {
+        "1": 150
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:21: Unbound value \"chr\""
+    ]
+}

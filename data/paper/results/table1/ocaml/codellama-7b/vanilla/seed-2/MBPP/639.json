@@ -1,0 +1,22 @@
+{
+    "decoded": 83,
+    "llm_time": 2.1228790283203125,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0020329952239990234,
+    "constrainer_time": 0.01973891258239746,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.167515516281128,
+    "frequency": {
+        "1": 84
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/639.ml:6:27: Unbound value \"lowercase_first_letter\""
+    ]
+}

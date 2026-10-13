@@ -1,0 +1,29 @@
+{
+    "decoded": 244,
+    "decoded_at_turn": {
+        "1": 82,
+        "2": 81,
+        "3": 81
+    },
+    "llm_time": 6.164440155029297,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005976438522338867,
+    "constrainer_time": 0.05755758285522461,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.300901889801025,
+    "frequency": {
+        "1": 247
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:10: This expression has type \"'a * 'b * 'c\"\nbut an expression was expected of type \"unit\"\nbecause it is in the result of a conditional with no else branch"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "HumanEval/1": [
+        "test.ml:2:67: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/10": [
+        "test.ml:7:39: Unbound value \"String.rev\""
+    ],
+    "HumanEval/101": [
+        "test.ml:6:13: Unbound value \"List.hd_opt\""
+    ],
+    "HumanEval/104": [
+        "test.ml:11:25: Unbound value \"(%)\""
+    ],
+    "HumanEval/107": [
+        "test.ml:4:10: Unbound value \"String.rev\""
+    ],
+    "HumanEval/108": [
+        "test.ml:4:102: Unbound value \"String.split\"\nHint: Did you mean \"blit\"?"
+    ],
+    "HumanEval/117": [
+        "test.ml:4:39: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/120": [
+        "test.ml:2:14: Unbound value \"List.sort_unrev\"\nHint: Did you mean \"sort_uniq\"?"
+    ],
+    "HumanEval/153": [
+        "test.ml:3:30: Unbound module \"Str\""
+    ],
+    "HumanEval/65": [
+        "test.ml:4:23: Unbound value \"String.rev\""
+    ],
+    "HumanEval/67": [
+        "test.ml:2:38: Unbound module \"Str\""
+    ],
+    "HumanEval/95": [
+        "test.ml:4:26: Unbound value \"String.uppercase\""
+    ],
+    "MBPP/100": [
+        "test.ml:10:18: Unbound value \"String.rev\""
+    ],
+    "MBPP/12": [
+        "test.ml:7:32: Unbound value \"List.split_nth\""
+    ],
+    "MBPP/130": [
+        "test.ml:3:32: Unbound value \"Map.update\""
+    ],
+    "MBPP/229": [
+        "test.ml:10:44: Unbound value \"List.take\""
+    ],
+    "MBPP/252": [
+        "test.ml:3:20: Unbound value \"C.re\""
+    ],
+    "MBPP/296": [
+        "test.ml:13:12: Unbound value \"inv_Count\""
+    ],
+    "MBPP/304": [
+        "test.ml:17:48: Unbound value \"List.rev_split\""
+    ],
+    "MBPP/444": [
+        "test.ml:4:26: Unbound value \"List.rev_n\"\nHint: Did you mean \"rev\"?"
+    ],
+    "MBPP/456": [
+        "test.ml:4:22: Unbound value \"String.rev\""
+    ],
+    "MBPP/468": [
+        "test.ml:10:30: Unbound value \"List.tl_exn\""
+    ],
+    "MBPP/586": [
+        "test.ml:3:25: Unbound value \"List.rev_take\"\nHint: Did you mean \"rev_map\" or \"rev_map2\"?"
+    ],
+    "MBPP/607": [
+        "test.ml:2:12: Unbound module \"Str\""
+    ],
+    "MBPP/61": [
+        "test.ml:9:126: Unbound value \"String.to_list\""
+    ],
+    "MBPP/644": [
+        "test.ml:9:84: Unbound value \"List.rev_range\""
+    ],
+    "MBPP/743": [
+        "test.ml:6:64: Unbound value \"List.take\""
+    ],
+    "MBPP/756": [
+        "test.ml:2:12: Unbound module \"Str\""
+    ],
+    "MBPP/757": [
+        "test.ml:6:43: Unbound value \"String.rev\""
+    ]
+}

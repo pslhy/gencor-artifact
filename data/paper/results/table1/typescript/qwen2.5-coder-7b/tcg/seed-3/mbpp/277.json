@@ -1,0 +1,22 @@
+{
+    "total_time": 90.00017523765564,
+    "llm_time": 90.00017523765564,
+    "constrainer_time": 0.0,
+    "n_resamples": 34,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 3,
+    "is_err": false,
+    "is_synerr": false,
+    "is_uv": true,
+    "errors": [
+        "TS2322: Type 'string' is not assignable to type '{ [key: string]: number; }'.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string): string', gave the following error.\n    Argument of type '(acc: string, key: string) => void' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Type 'void' is not assignable to type 'string'.\n  Overload 2 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error.\n    Argument of type '(acc: string, key: string) => void' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Type 'void' is not assignable to type 'string'.\n  Overload 3 of 3, '(callbackfn: (previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string, initialValue: string): string', gave the following error.\n    Argument of type '(acc: string, key: string) => void' is not assignable to parameter of type '(previousValue: string, currentValue: string, currentIndex: number, array: string[]) => string'.\n      Type 'void' is not assignable to type 'string'.",
+        "TS2352: Conversion of type 'string' to type 'number' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
+        "TS2304: Cannot find name 'a'."
+    ]
+}

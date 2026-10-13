@@ -1,0 +1,22 @@
+{
+    "decoded": 143,
+    "llm_time": 3.691006660461426,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035822391510009766,
+    "constrainer_time": 0.03267717361450195,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.775233268737793,
+    "frequency": {
+        "1": 144
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/11.ml:10:14: The function \"find_index\" has type int -> int -> int\nIt is applied to too many arguments"
+    ]
+}

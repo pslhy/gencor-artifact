@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+"""Run with setup's interpreter and backends; no shell activation needed."""
+import os
+import sys
+import argparse
+from pathlib import Path
+
+ARTIFACT = Path(__file__).resolve().parent
+REPO = ARTIFACT / "tools/gencor"
+sys.path.insert(0, str(REPO))
+os.environ.setdefault("GENCOR_RUNTIME_CONFIG", str(ARTIFACT / ".gencor/runtime.json"))
+from lsp.runtime import backend_environment, backend_path, runtime_config
+
+try:
+    runtime_config(required=True)
+    args = sys.argv[1:]
+    if args[:1] == ["--python"]:
+        args = args[1:]
+    else:
+        # Resolve custom input/output paths before entering the bundled source.
+        paths = argparse.ArgumentParser(add_help=False, allow_abbrev=False)
+        paths.add_argument("--benchmark-json")
+        paths.add_argument("-o", "--output", default="output")
+        paths.add_argument("-f", "--file")
+        custom, _ = paths.parse_known_args(args)
+        if custom.benchmark_json is not None:
+            args += ["--benchmark-json", str(Path(custom.benchmark_json).resolve()),
+                     "--output", str(Path(custom.output).resolve())]
+            if custom.file is not None:
+                args += ["--file", str(Path(custom.file).resolve())]
+        args = [str(REPO / "main.py")] + args
+    os.chdir(REPO)
+    os.execve(backend_path("python"), [backend_path("python")] + args, backend_environment())
+except RuntimeError as exc:
+    print(str(exc), file=sys.stderr)
+    sys.exit(1)

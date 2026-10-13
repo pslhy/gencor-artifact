@@ -1,0 +1,41 @@
+{
+    "HumanEval/10": [
+        "test.ml:2:20: Unbound value \"String.reverse\""
+    ],
+    "HumanEval/134": [
+        "test.ml:8:21: Unbound value \"Char.is_alpha\""
+    ],
+    "HumanEval/27": [
+        "test.ml:9:32: Unbound value \"Char.lowercase\""
+    ],
+    "HumanEval/48": [
+        "test.ml:2:53: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/86": [
+        "test.ml:2:15: Unbound module \"Str\""
+    ],
+    "HumanEval/95": [
+        "test.ml:6:50: Unbound value \"String.lowercase\""
+    ],
+    "MBPP/274": [
+        "test.ml:6:50: Unbound value \"choose\""
+    ],
+    "MBPP/456": [
+        "test.ml:4:25: Unbound value \"rev\"\nHint: Did you mean \"ref\"?"
+    ],
+    "MBPP/584": [
+        "test.ml:5:13: Unbound value \"Char.is_whitespace\""
+    ],
+    "MBPP/589": [
+        "test.ml:5:11: Unbound value \"int_sqrt\""
+    ],
+    "MBPP/61": [
+        "test.ml:4:60: Unbound value \"int_of_digit\""
+    ],
+    "MBPP/782": [
+        "test.ml:5:19: Unbound value \"split\""
+    ],
+    "MBPP/96": [
+        "test.ml:5:39: Unbound value \"(%)\""
+    ]
+}

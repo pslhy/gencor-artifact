@@ -1,0 +1,28 @@
+{
+    "decoded": 341,
+    "decoded_at_turn": {
+        "1": 120,
+        "2": 221
+    },
+    "llm_time": 8.812986612319946,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00834965705871582,
+    "constrainer_time": 0.08068323135375977,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.008284568786621,
+    "frequency": {
+        "1": 343
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:47: This expression has type \"int\" but an expression was expected of type\n\"unit\"\nbecause it is in the result of a conditional with no else branch"
+    ]
+}

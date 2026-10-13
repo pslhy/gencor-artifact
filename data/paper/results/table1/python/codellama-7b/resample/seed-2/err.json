@@ -1,0 +1,255 @@
+{
+    "BigCodeBench/37": {
+        "1": [
+            "<python>:9:14: undefined name 'StandardScaler'",
+            "<python>:13:25: undefined name 'train_test_split'"
+        ],
+        "2": [
+            "<python>:9:14: undefined name 'StandardScaler'",
+            "<python>:12:25: undefined name 'train_test_split'"
+        ],
+        "3": [
+            "<python>:9:14: undefined name 'StandardScaler'",
+            "<python>:12:25: undefined name 'train_test_split'"
+        ],
+        "4": [
+            "<python>:9:14: undefined name 'StandardScaler'",
+            "<python>:12:25: undefined name 'train_test_split'"
+        ],
+        "5": [
+            "<python>:9:14: undefined name 'StandardScaler'",
+            "<python>:12:25: undefined name 'train_test_split'"
+        ]
+    },
+    "BigCodeBench/82": {
+        "1": [
+            "<python>:43:27: undefined name 'MongoDB'",
+            "<python>:47:5: undefined name 'MongoDB'"
+        ],
+        "2": [
+            "<python>:41:27: undefined name 'MongoDB'",
+            "<python>:45:5: undefined name 'MongoDB'"
+        ],
+        "3": [
+            "<python>:41:27: undefined name 'MongoDB'",
+            "<python>:45:5: undefined name 'MongoDB'"
+        ],
+        "4": [
+            "<python>:41:27: undefined name 'MongoEngine'",
+            "<python>:46:5: undefined name 'MongoEngine'"
+        ],
+        "5": [
+            "<python>:40:27: undefined name 'MongoEngine'",
+            "<python>:45:5: undefined name 'MongoEngine'"
+        ]
+    },
+    "BigCodeBench/124": {
+        "1": [
+            "<python>:25:58: undefined name 'start_time'",
+            "<python>:35:44: undefined name 'start_time'"
+        ]
+    },
+    "BigCodeBench/162": {
+        "1": [
+            "<python>:10:71: unindent does not match any outer indentation level",
+            "   Frequencies, bins = np.histogram(list(map(len, text)), bins=rwidth)",
+            "                                                                      ^"
+        ]
+    },
+    "BigCodeBench/187": {
+        "1": [
+            "<python>:13:17: undefined name 'pd'"
+        ],
+        "2": [
+            "<python>:13:17: undefined name 'pd'"
+        ],
+        "3": [
+            "<python>:13:17: undefined name 'pd'"
+        ],
+        "4": [
+            "<python>:13:21: undefined module member 'gpd.DataFrame'"
+        ]
+    },
+    "BigCodeBench/227": {
+        "1": [
+            "<python>:29:35: undefined module member 'librosa.feature.spectrogram'"
+        ]
+    },
+    "BigCodeBench/310": {
+        "1": [
+            "<python>:23:28: undefined name 'records'",
+            "<python>:24:31: undefined name 'records'",
+            "<python>:25:31: undefined name 'records'"
+        ],
+        "2": [
+            "<python>:23:28: undefined name 'records'",
+            "<python>:24:31: undefined name 'records'",
+            "<python>:25:31: undefined name 'records'"
+        ],
+        "3": [
+            "<python>:23:28: undefined name 'age_list'",
+            "<python>:24:31: undefined name 'height_list'",
+            "<python>:25:31: undefined name 'weight_list'"
+        ],
+        "4": [
+            "<python>:23:28: undefined name 'age_list'",
+            "<python>:24:31: undefined name 'height_list'",
+            "<python>:25:31: undefined name 'weight_list'"
+        ],
+        "5": [
+            "<python>:23:28: undefined name 'age_list'",
+            "<python>:24:31: undefined name 'height_list'",
+            "<python>:25:31: undefined name 'weight_list'"
+        ]
+    },
+    "BigCodeBench/424": {
+        "1": [
+            "<python>:29:76: invalid syntax",
+            "        hist = cv2.calcHist([hsv], [0, 1], None, [256, 256], color_range[i]:color_range[i+1], accumulate=False)",
+            "                                                                           ^"
+        ]
+    },
+    "BigCodeBench/461": {
+        "1": [
+            "<python>:20:35: undefined module member 'psutil.process_memory_info'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "<python>:8:21: undefined name 'json'",
+            "<python>:9:12: undefined name 'json'"
+        ],
+        "2": [
+            "<python>:8:21: undefined name 'json'",
+            "<python>:9:12: undefined name 'json'"
+        ],
+        "3": [
+            "<python>:8:21: undefined name 'json'",
+            "<python>:9:12: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/503": {
+        "1": [
+            "<python>:16:23: did you forget parentheses around the comprehension target?",
+            "    data = np.array([[i, float(np.random.uniform(0.0, 1.0)) for i in range(len(stock_names))]])",
+            "                      ^"
+        ],
+        "2": [
+            "<python>:16:23: did you forget parentheses around the comprehension target?",
+            "    data = np.array([[i, float(np.random.uniform(0.0, 1.0)) for i in range(len(stock_names))]])",
+            "                      ^"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "<python>:24:17: undefined name 'os'",
+            "<python>:35:34: undefined name 'row'"
+        ],
+        "2": [
+            "<python>:24:13: undefined name 'os'",
+            "<python>:24:44: undefined name 'os'",
+            "<python>:34:34: undefined name 'row'"
+        ],
+        "3": [
+            "<python>:7:12: undefined name 'os'",
+            "<python>:7:46: undefined name 'os'",
+            "<python>:16:34: undefined name 'row'"
+        ],
+        "4": [
+            "<python>:7:12: undefined name 'os'",
+            "<python>:7:46: undefined name 'os'",
+            "<python>:16:30: undefined name 'row'"
+        ],
+        "5": [
+            "<python>:7:12: undefined name 'os'",
+            "<python>:7:46: undefined name 'os'",
+            "<python>:16:30: undefined name 'row'"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:10:19: undefined module member 'rsa.RSA'"
+        ],
+        "2": [
+            "<python>:10:19: undefined module member 'rsa.keys'"
+        ],
+        "3": [
+            "<python>:10:19: undefined module member 'rsa.RSA'"
+        ],
+        "4": [
+            "<python>:10:19: undefined module member 'rsa.generate_key'"
+        ],
+        "5": [
+            "<python>:10:19: undefined module member 'rsa.generate_keys'"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:34:18: undefined name 'serialization'",
+            "<python>:35:16: undefined name 'serialization'",
+            "<python>:36:30: undefined name 'serialization'"
+        ],
+        "2": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:34:18: undefined name 'serialization'",
+            "<python>:35:16: undefined name 'serialization'",
+            "<python>:36:30: undefined name 'serialization'"
+        ],
+        "3": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:34:18: undefined name 'serialization'",
+            "<python>:35:16: undefined name 'serialization'",
+            "<python>:36:30: undefined name 'serialization'"
+        ],
+        "4": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:34:18: undefined name 'serialization'",
+            "<python>:35:16: undefined name 'serialization'",
+            "<python>:36:30: undefined name 'serialization'"
+        ],
+        "5": [
+            "<python>:10:23: undefined module member 'rsa.generate_private_key'",
+            "<python>:34:18: undefined name 'serialization'",
+            "<python>:35:16: undefined name 'serialization'",
+            "<python>:36:30: undefined name 'serialization'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:12:12: undefined name 'URLError'",
+            "<python>:13:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/1006": {
+        "1": [
+            "<python>:15:26: undefined module member 'requests.urlsplit'"
+        ],
+        "2": [
+            "<python>:15:26: undefined module member 'requests.urlsplit'"
+        ]
+    },
+    "BigCodeBench/1015": {
+        "1": [
+            "<python>:15:17: undefined module member 'html.ParseError'",
+            "<python>:16:20: undefined module member 'html.ParseError'"
+        ]
+    },
+    "BigCodeBench/1040": {
+        "1": [
+            "<python>:78:13: undefined name 'time'"
+        ],
+        "2": [
+            "<python>:78:13: undefined name 'time'"
+        ],
+        "3": [
+            "<python>:78:13: undefined name 'time'"
+        ],
+        "4": [
+            "<python>:78:13: undefined name 'time'"
+        ],
+        "5": [
+            "<python>:78:13: undefined name 'time'"
+        ]
+    }
+}

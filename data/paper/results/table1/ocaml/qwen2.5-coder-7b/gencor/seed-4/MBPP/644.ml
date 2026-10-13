@@ -1,0 +1,16 @@
+
+let rec reverse_Array_Upto_K (input : int list) (k : int) : int list = 
+    let rec helper acc li idx =
+        if idx = k then
+            List.rev acc @ li
+        else
+            helper (li.[idx] :: acc) li (idx + 1)
+    in
+    helper [] input 0
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function to reverse a list upto a given position. *)

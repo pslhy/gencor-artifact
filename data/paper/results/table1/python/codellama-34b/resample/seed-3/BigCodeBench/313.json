@@ -1,0 +1,30 @@
+{
+    "decoded": 1249,
+    "decoded_at_turn": {
+        "1": 423,
+        "2": 412,
+        "3": 414
+    },
+    "llm_time": 70.37211275100708,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03146719932556152,
+    "constrainer_time": 0.3006250858306885,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 71.21447157859802,
+    "frequency": {
+        "1": 1252
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:12:9: `nonlocal files_to_move` is unused: name is never assigned in scope",
+        "<python>:25:9: `nonlocal files_to_move` is unused: name is never assigned in scope"
+    ]
+}

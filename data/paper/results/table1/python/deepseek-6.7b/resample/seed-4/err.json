@@ -1,0 +1,74 @@
+{
+    "BigCodeBench/211": {
+        "1": [
+            "<python>:10:36: undefined name 'io'"
+        ],
+        "2": [
+            "<python>:10:36: undefined name 'io'"
+        ],
+        "3": [
+            "<python>:10:36: undefined name 'io'"
+        ],
+        "4": [
+            "<python>:10:36: undefined name 'io'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "<python>:7:20: undefined name 'json'",
+            "<python>:21:12: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/502": {
+        "1": [
+            "<python>:21:14: undefined name 'plt'",
+            "<python>:23:5: undefined name 'plt'"
+        ],
+        "2": [
+            "<python>:21:14: undefined name 'plt'",
+            "<python>:23:5: undefined name 'plt'"
+        ],
+        "3": [
+            "<python>:21:14: undefined name 'plt'",
+            "<python>:23:5: undefined name 'plt'"
+        ],
+        "4": [
+            "<python>:21:14: undefined name 'plt'",
+            "<python>:23:5: undefined name 'plt'"
+        ],
+        "5": [
+            "<python>:21:14: undefined name 'plt'",
+            "<python>:23:5: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/583": {
+        "1": [
+            "<python>:15:85: undefined module member 'rsa.key.exportKey'"
+        ]
+    },
+    "BigCodeBench/771": {
+        "1": [
+            "<python>:25:13: undefined name 'shutil'"
+        ],
+        "2": [
+            "<python>:25:13: undefined name 'shutil'"
+        ],
+        "3": [
+            "<python>:25:13: undefined name 'shutil'"
+        ],
+        "4": [
+            "<python>:25:13: undefined name 'shutil'"
+        ],
+        "5": [
+            "<python>:25:13: undefined name 'shutil'"
+        ]
+    },
+    "BigCodeBench/1042": {
+        "1": [
+            "<python>:26:15: undefined name 'ssl'"
+        ],
+        "2": [
+            "<python>:26:15: undefined name 'ssl'"
+        ]
+    }
+}

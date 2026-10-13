@@ -1,0 +1,22 @@
+{
+    "decoded": 79,
+    "llm_time": 2.064558506011963,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0019161701202392578,
+    "constrainer_time": 0.0181884765625,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.1059038639068604,
+    "frequency": {
+        "1": 80
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/743.ml:6:27: Unbound value \"List.tl_opt\"\nHint: Did you mean \"nth_opt\"?"
+    ]
+}

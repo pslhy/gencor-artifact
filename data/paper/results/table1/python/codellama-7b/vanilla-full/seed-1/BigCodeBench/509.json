@@ -1,0 +1,24 @@
+{
+    "decoded": 330,
+    "llm_time": 10.777888536453247,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008985519409179688,
+    "constrainer_time": 0.08813667297363281,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.996512174606323,
+    "frequency": {
+        "1": 331
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/509.py:16:42: unterminated string literal (detected at line 16)",
+        "    for line_num, line1 in enumerate(df1['content].tolist()):",
+        "                                         ^"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "decoded": 379,
+    "decoded_at_turn": {
+        "1": 146,
+        "2": 233
+    },
+    "llm_time": 10.052501916885376,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008978605270385742,
+    "constrainer_time": 0.08821797370910645,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.28740119934082,
+    "frequency": {
+        "1": 381
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:21:17: This expression has type\n\"('a -> 'b -> 'c, out_channel, unit, unit, unit, 'a -> 'b -> 'c)\nCamlinternalFormatBasics.fmt\"\nbut an expression was expected of type\n\"('a -> 'b -> 'c, out_channel, unit, unit, unit, unit)\nCamlinternalFormatBasics.fmt\"\nType \"'a -> 'b -> 'c\" is not compatible with type \"unit\""
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "total_time": 5.021521806716919,
+    "llm_time": 5.021521806716919,
+    "constrainer_time": 0.0,
+    "n_resamples": 0,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 2,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2367: This comparison appears to be unintentional because the types '\"(\"' and '\")\"' have no overlap."
+    ]
+}

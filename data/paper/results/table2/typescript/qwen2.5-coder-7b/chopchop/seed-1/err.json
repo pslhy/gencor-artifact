@@ -1,0 +1,41 @@
+{
+    "mbpp/14": [
+        "../../tmp/tmp8amk17iu.ts(67,2): error TS1005: '}' expected."
+    ],
+    "mbpp/80": [
+        "../../tmp/tmpsaemkvwj.ts(2,29): error TS2300: Duplicate identifier 'n'.",
+        "../../tmp/tmpsaemkvwj.ts(7,7): error TS2300: Duplicate identifier 'n'."
+    ],
+    "mbpp/86": [
+        "../../tmp/tmpkcds44v9.ts(2,36): error TS2300: Duplicate identifier 'n'.",
+        "../../tmp/tmpkcds44v9.ts(7,7): error TS2300: Duplicate identifier 'n'."
+    ],
+    "mbpp/93": [
+        "../../tmp/tmptlucnj2i.ts(33,1): error TS1005: '}' expected."
+    ],
+    "mbpp/162": [
+        "../../tmp/tmp5hkgmkqb.ts(37,29): error TS1005: ')' expected."
+    ],
+    "mbpp/239": [
+        "../../tmp/tmpsow6o6j3.ts(29,11): error TS1005: '}' expected."
+    ],
+    "mbpp/309": [
+        "../../tmp/tmpv6qxyizi.ts(63,46): error TS1005: '}' expected."
+    ],
+    "mbpp/388": [
+        "../../tmp/tmpheov7_0x.ts(21,5): error TS2322: Type 'boolean' is not assignable to type 'number'.",
+        "../../tmp/tmpheov7_0x.ts(23,5): error TS2322: Type 'boolean' is not assignable to type 'number'."
+    ],
+    "mbpp/392": [
+        "../../tmp/tmpa7khhw8c.ts(4,19): error TS1005: ')' expected."
+    ],
+    "mbpp/404": [
+        "../../tmp/tmp6a6b41so.ts(21,19): error TS1005: ')' expected."
+    ],
+    "mbpp/432": [
+        "../../tmp/tmpi9ge7jl0.ts(76,69): error TS1005: '}' expected."
+    ],
+    "mbpp/738": [
+        "../../tmp/tmpuctj2jgr.ts(39,9): error TS1005: '}' expected."
+    ]
+}

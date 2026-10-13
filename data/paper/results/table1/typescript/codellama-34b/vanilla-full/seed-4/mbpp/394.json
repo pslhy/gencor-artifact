@@ -1,0 +1,25 @@
+{
+    "decoded": 80,
+    "llm_time": 4.256768703460693,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002077341079711914,
+    "constrainer_time": 0.004910945892333984,
+    "total_time": 4.284115791320801,
+    "frequency": {
+        "1": 81
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'range'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'."
+    ]
+}

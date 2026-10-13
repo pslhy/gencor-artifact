@@ -1,0 +1,20 @@
+{
+    "decoded": 246,
+    "llm_time": 6.463437080383301,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005833864212036133,
+    "constrainer_time": 0.056748151779174805,
+    "total_time": 6.603217124938965,
+    "frequency": {
+        "1": 247
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'setTimeout'.",
+        "TS1308: 'await' expressions are only allowed within async functions and at the top levels of modules."
+    ]
+}

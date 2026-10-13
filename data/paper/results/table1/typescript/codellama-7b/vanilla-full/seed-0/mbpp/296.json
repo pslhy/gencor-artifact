@@ -1,0 +1,20 @@
+{
+    "decoded": 451,
+    "llm_time": 10.796308994293213,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.010384559631347656,
+    "constrainer_time": 0.10092425346374512,
+    "total_time": 11.029614686965942,
+    "frequency": {
+        "1": 452
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'inversions'.",
+        "TS2304: Cannot find name 'inversions'."
+    ]
+}

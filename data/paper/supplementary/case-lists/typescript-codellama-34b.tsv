@@ -1,0 +1,6 @@
+model	tag	seed	total	timeout	compile_errors	list_file
+codellama/CodeLlama-34b-Instruct-hf	codellama-34b	0	549	0	103	/root/gencor2/analysis/none34b_compile_error_lists/codellama-34b_s0_compile_errors.txt
+codellama/CodeLlama-34b-Instruct-hf	codellama-34b	1	549	0	85	/root/gencor2/analysis/none34b_compile_error_lists/codellama-34b_s1_compile_errors.txt
+codellama/CodeLlama-34b-Instruct-hf	codellama-34b	2	549	0	56	/root/gencor2/analysis/none34b_compile_error_lists/codellama-34b_s2_compile_errors.txt
+codellama/CodeLlama-34b-Instruct-hf	codellama-34b	3	549	0	144	/root/gencor2/analysis/none34b_compile_error_lists/codellama-34b_s3_compile_errors.txt
+codellama/CodeLlama-34b-Instruct-hf	codellama-34b	4	549	0	114	/root/gencor2/analysis/none34b_compile_error_lists/codellama-34b_s4_compile_errors.txt

@@ -1,0 +1,22 @@
+{
+    "decoded": 236,
+    "llm_time": 6.776347637176514,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006674766540527344,
+    "constrainer_time": 0.05862164497375488,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.929258584976196,
+    "frequency": {
+        "1": 237
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/783.ml:10:30: This expression has type \"float\" but an expression was expected of type\n\"unit\"\nbecause it is in the result of a conditional with no else branch"
+    ]
+}

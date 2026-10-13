@@ -1,0 +1,19 @@
+let rec extract_values (text : string) : string list =
+  let open Str in
+  let re = regexp "\"\\([^\"]*\\)\"" in
+  let rec find_all accum text_remaining =
+    match search_forward re text_remaining 0 with
+    | no_match -> List.rev accum
+    | match_start ->
+      let str_start = match_start + string_length re in
+      find_all (get text_remaining (match_start + string_length re) str_start :: accum) 
+           (sub text_remaining str_start (length text_remaining - str_start)) in
+  find_all [] text;;
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a function to extract values between quotation marks from a string. *)

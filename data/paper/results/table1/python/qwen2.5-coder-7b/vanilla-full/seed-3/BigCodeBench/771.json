@@ -1,0 +1,24 @@
+{
+    "decoded": 264,
+    "llm_time": 6.788738489151001,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006422996520996094,
+    "constrainer_time": 0.0606226921081543,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.9528234004974365,
+    "frequency": {
+        "1": 265
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/771.py:8:61: unmatched ')'",
+        "    input_files = list(directory_path.glob pattern + '.csv'))",
+        "                                                            ^"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "decoded": 268,
+    "llm_time": 7.261500120162964,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006734609603881836,
+    "constrainer_time": 0.06380939483642578,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.438327312469482,
+    "frequency": {
+        "1": 269
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/845.py:22:24: invalid syntax. Perhaps you forgot a comma?",
+        "    common_words = set(counter1 keys()).intersection(set(counter2.keys()))",
+        "                       ^"
+    ]
+}

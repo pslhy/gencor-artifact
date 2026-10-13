@@ -1,0 +1,18 @@
+{
+    "BigCodeBench/37": [
+        "BigCodeBench/37.py:16:15: undefined name 'np'"
+    ],
+    "BigCodeBench/590": [
+        "BigCodeBench/590.py:16:15: undefined name 'URLError'"
+    ],
+    "BigCodeBench/785": [
+        "BigCodeBench/785.py:10:59: undefined name 'time'"
+    ],
+    "BigCodeBench/945": [
+        "BigCodeBench/945.py:12:33: undefined name 'datetime'",
+        "BigCodeBench/945.py:21:37: undefined name 'datetime'"
+    ],
+    "BigCodeBench/1077": [
+        "BigCodeBench/1077.py:12:26: undefined name 't'"
+    ]
+}

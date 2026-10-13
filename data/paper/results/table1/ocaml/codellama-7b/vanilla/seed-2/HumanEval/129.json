@@ -1,0 +1,22 @@
+{
+    "decoded": 203,
+    "llm_time": 5.0699143409729,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004673480987548828,
+    "constrainer_time": 0.04674530029296875,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.1897032260894775,
+    "frequency": {
+        "1": 204
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/129.ml:9:61: This expression has type \"int list list\"\nbut an expression was expected of type \"int list\"\nType \"int list\" is not compatible with type \"int\""
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "decoded": 302,
+    "llm_time": 16.272785902023315,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00837397575378418,
+    "constrainer_time": 0.018420934677124023,
+    "total_time": 16.384784936904907,
+    "frequency": {
+        "1": 303
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures.",
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2322: Type 'number[]' is not assignable to type 'number'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2322: Type 'number[]' is not assignable to type 'number'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2339: Property 'length' does not exist on type 'number'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Number'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'any' can't be used to index type 'Number'.",
+        "TS2304: Cannot find name 'j'."
+    ]
+}

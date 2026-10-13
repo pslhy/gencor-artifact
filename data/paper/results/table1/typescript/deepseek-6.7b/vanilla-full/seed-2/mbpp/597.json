@@ -1,0 +1,28 @@
+{
+    "decoded": 232,
+    "llm_time": 5.664015769958496,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00536799430847168,
+    "constrainer_time": 0.05089306831359863,
+    "total_time": 5.7790608406066895,
+    "frequency": {
+        "1": 233
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'p'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'."
+    ]
+}

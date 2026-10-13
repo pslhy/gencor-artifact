@@ -1,0 +1,29 @@
+{
+    "decoded": 270,
+    "decoded_at_turn": {
+        "1": 86,
+        "2": 86,
+        "3": 98
+    },
+    "llm_time": 6.845180988311768,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00679469108581543,
+    "constrainer_time": 0.0613553524017334,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.995591640472412,
+    "frequency": {
+        "1": 273
+    },
+    "turns": 3,
+    "max_turns": 3,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:96: This expression has type \"'a * 'b\"\nbut an expression was expected of type \"'c list\""
+    ]
+}

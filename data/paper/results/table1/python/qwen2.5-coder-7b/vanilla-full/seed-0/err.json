@@ -1,0 +1,57 @@
+{
+    "BigCodeBench/82": {
+        "1": [
+            "BigCodeBench/82.py:42:19: unindent does not match any outer indentation level",
+            "   @login_required",
+            "                  ^"
+        ]
+    },
+    "BigCodeBench/129": {
+        "1": [
+            "BigCodeBench/129.py:19:15: undefined name 'HTTPError'"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "BigCodeBench/509.py:14:34: unindent does not match any outer indentation level",
+            "           (lines2 = list(reader2",
+            "                                 ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:24:14: invalid syntax",
+            "        raise.URLError(\"Network error or server issue: \" + str(e.reason))",
+            "             ^"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "BigCodeBench/785.py:19:76: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/917": {
+        "1": [
+            "BigCodeBench/917.py:22:5: undefined name 'returnforecast'"
+        ]
+    },
+    "BigCodeBench/999": {
+        "1": [
+            "BigCodeBench/999.py:18:20: invalid syntax",
+            "                os remove(temp_file_path)",
+            "                   ^"
+        ]
+    },
+    "BigCodeBench/1003": {
+        "1": [
+            "BigCodeBench/1003.py:12:33: undefined name 'socket'"
+        ]
+    },
+    "BigCodeBench/1004": {
+        "1": [
+            "BigCodeBench/1004.py:16:17: invalid syntax",
+            "    most_common words = word_freq.most_common(10)",
+            "                ^"
+        ]
+    }
+}

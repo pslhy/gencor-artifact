@@ -1,0 +1,22 @@
+{
+    "decoded": 135,
+    "llm_time": 3.4434444904327393,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003205537796020508,
+    "constrainer_time": 0.03058338165283203,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.5215988159179688,
+    "frequency": {
+        "1": 136
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/27.ml:4:27: This expression has type \"'a list\"\nbut an expression was expected of type\n\"char Seq.t\" = \"unit -> char Seq.node\""
+    ]
+}

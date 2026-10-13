@@ -1,0 +1,39 @@
+{
+    "HumanEval/37": {
+        "1": [
+            "TS2322: Type '(number | undefined)[]' is not assignable to type 'number[]'.\n  Type 'number | undefined' is not assignable to type 'number'.\n    Type 'undefined' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/278": {
+        "1": [
+            "TS2322: Type '[number, number, number]' is not assignable to type 'number'."
+        ]
+    },
+    "mbpp/290": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS7053: Element implicitly has an 'any' type because expression of type '0' can't be used to index type 'Number'.\n  Property '0' does not exist on type 'Number'."
+        ]
+    },
+    "mbpp/299": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2365: Operator '+=' cannot be applied to types 'number' and 'string | number'."
+        ]
+    },
+    "mbpp/584": {
+        "1": [
+            "TS18048: 'firstAdverbMatch.index' is possibly 'undefined'."
+        ]
+    },
+    "mbpp/635": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "mbpp/720": {
+        "1": [
+            "TS2352: Conversion of type '[number, number, number]' to type '[number, number, number, { [key: string]: number; }]' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.\n  Source has 3 element(s) but target requires 4."
+        ]
+    }
+}

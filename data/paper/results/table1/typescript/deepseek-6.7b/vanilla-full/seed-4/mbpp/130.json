@@ -1,0 +1,22 @@
+{
+    "decoded": 83,
+    "llm_time": 2.129765748977661,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0018658638000488281,
+    "constrainer_time": 0.019051551818847656,
+    "total_time": 2.170961380004883,
+    "frequency": {
+        "1": 84
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'number' can't be used to index type '{}'.\n  No index signature with a parameter of type 'number' was found on type '{}'.",
+        "TS2345: Argument of type 'unknown' is not assignable to parameter of type 'number'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 100,
+    "llm_time": 5.436347007751465,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00261688232421875,
+    "constrainer_time": 0.02433609962463379,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.493669033050537,
+    "frequency": {
+        "1": 101
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:18: Unbound value \"explode\""
+    ]
+}

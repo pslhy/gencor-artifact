@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 3.80021071434021,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017957687377929688,
+    "constrainer_time": 0.01726388931274414,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.839315176010132,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:47: Unbound value \"List.hd_exn\""
+    ]
+}

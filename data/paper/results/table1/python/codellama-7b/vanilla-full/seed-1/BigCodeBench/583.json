@@ -1,0 +1,24 @@
+{
+    "decoded": 280,
+    "llm_time": 9.14780068397522,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007459878921508789,
+    "constrainer_time": 0.07441973686218262,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.32883358001709,
+    "frequency": {
+        "1": 281
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/583.py:13:115: unexpected character after line continuation character",
+        "    aes_cipher = AES.new(b64encode(get_random_bytes(16)), AES.MODE_GCM, nonce = b'@\\xf3\\xdap\\x1f\\xa2\\xc3\\xba\\xd7'\\data2'), AES.MODE_GCM, nonce = b'@\\xf3\\xdap\\x1f\\xa2\\xc3\\xba\\xd7')",
+        "                                                                                                                  ^"
+    ]
+}

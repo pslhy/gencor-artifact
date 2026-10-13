@@ -1,0 +1,22 @@
+{
+    "decoded": 102,
+    "llm_time": 2.5705456733703613,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002550363540649414,
+    "constrainer_time": 0.02403116226196289,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.6273953914642334,
+    "frequency": {
+        "1": 103
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/119.ml:15:14: Unbound value \"lst\"\nHint: Did you mean \"fst\", \"lsl\" or \"lsr\"?"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 230,
+    "llm_time": 5.7930779457092285,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005555391311645508,
+    "constrainer_time": 0.051656484603881836,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.937440633773804,
+    "frequency": {
+        "1": 231
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/78.ml:14:22: Unbound value \"count_primes\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 11"
+    ]
+}

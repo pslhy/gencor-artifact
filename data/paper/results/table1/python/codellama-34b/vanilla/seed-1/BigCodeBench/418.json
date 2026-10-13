@@ -1,0 +1,30 @@
+{
+    "decoded": 514,
+    "llm_time": 28.386943578720093,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.013476371765136719,
+    "constrainer_time": 0.1273355484008789,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 28.716715335845947,
+    "frequency": {
+        "1": 515
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:15: undefined name 'tf'",
+        "<python>:9:51: undefined name 'tf'",
+        "<python>:10:14: undefined name 'tf'",
+        "<python>:10:49: undefined name 'tf'",
+        "<python>:11:15: undefined name 'tf'",
+        "<python>:11:51: undefined name 'tf'",
+        "<python>:12:14: undefined name 'tf'",
+        "<python>:12:49: undefined name 'tf'",
+        "<python>:15:80: undefined name 'input_dims'"
+    ]
+}

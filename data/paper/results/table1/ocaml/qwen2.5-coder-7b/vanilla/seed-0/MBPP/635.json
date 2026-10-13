@@ -1,0 +1,22 @@
+{
+    "decoded": 340,
+    "llm_time": 9.04679799079895,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008477210998535156,
+    "constrainer_time": 0.07927894592285156,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.253387689590454,
+    "frequency": {
+        "1": 341
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/635.ml:13:9: Unbound value \"heapify\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 2"
+    ]
+}

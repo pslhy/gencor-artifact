@@ -1,0 +1,20 @@
+{
+    "decoded": 190,
+    "llm_time": 5.040866374969482,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0046100616455078125,
+    "constrainer_time": 0.04387927055358887,
+    "total_time": 5.148731708526611,
+    "frequency": {
+        "1": 191
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'sum'.",
+        "TS2304: Cannot find name 'sum'."
+    ]
+}

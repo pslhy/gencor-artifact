@@ -1,0 +1,11 @@
+{
+    "HumanEval/128": [
+        "TS2304: Cannot find name 'acc'."
+    ],
+    "HumanEval/147": [
+        "TS2304: Cannot find name 'v'."
+    ],
+    "mbpp/12": [
+        "TS2304: Cannot find name 'b'."
+    ]
+}

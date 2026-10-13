@@ -1,0 +1,22 @@
+{
+    "decoded": 158,
+    "llm_time": 4.055011034011841,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0038633346557617188,
+    "constrainer_time": 0.0359036922454834,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.154088973999023,
+    "frequency": {
+        "1": 159
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/153.ml:3:32: Unbound module \"Ext\""
+    ]
+}

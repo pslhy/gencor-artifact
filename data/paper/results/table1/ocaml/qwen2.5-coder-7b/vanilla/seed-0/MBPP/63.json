@@ -1,0 +1,22 @@
+{
+    "decoded": 115,
+    "llm_time": 3.080216884613037,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003010272979736328,
+    "constrainer_time": 0.027060747146606445,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.149064540863037,
+    "frequency": {
+        "1": 116
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/63.ml:11:10: This expression has type \"int list\"\nbut an expression was expected of type \"(int * int) list\"\nType \"int\" is not compatible with type \"int * int\""
+    ]
+}

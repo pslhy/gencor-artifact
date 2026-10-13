@@ -1,0 +1,22 @@
+{
+    "decoded": 104,
+    "llm_time": 5.7099809646606445,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0035071372985839844,
+    "constrainer_time": 0.026998043060302734,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.775890588760376,
+    "frequency": {
+        "1": 105
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:17: Unbound value \"String.split_on_whitespace\""
+    ]
+}

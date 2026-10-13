@@ -1,0 +1,22 @@
+{
+    "decoded": 214,
+    "llm_time": 5.468385219573975,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005342006683349609,
+    "constrainer_time": 0.05069613456726074,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.585035800933838,
+    "frequency": {
+        "1": 215
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:20: Unbound module \"OCaml\""
+    ]
+}

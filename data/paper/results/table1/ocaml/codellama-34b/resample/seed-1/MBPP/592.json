@@ -1,0 +1,31 @@
+{
+    "decoded": 524,
+    "decoded_at_turn": {
+        "1": 109,
+        "2": 103,
+        "3": 104,
+        "4": 104,
+        "5": 104
+    },
+    "llm_time": 30.12926435470581,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.018433094024658203,
+    "constrainer_time": 0.1571033000946045,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 30.51903462409973,
+    "frequency": {
+        "1": 529
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:8: Unbound value \"binomialCoefficient\""
+    ]
+}

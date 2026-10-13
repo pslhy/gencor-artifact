@@ -1,0 +1,19 @@
+{
+    "decoded": 109,
+    "llm_time": 2.7390828132629395,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002526521682739258,
+    "constrainer_time": 0.025417089462280273,
+    "total_time": 2.7943973541259766,
+    "frequency": {
+        "1": 110
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 2, '(splitter: { [Symbol.split](string: string, limit?: number | undefined): string[]; }, limit?: number | undefined): string[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type '{ [Symbol.split](string: string, limit?: number | undefined): string[]; }'.\n  Overload 2 of 2, '(separator: string | RegExp, limit?: number | undefined): string[]', gave the following error.\n    Argument of type 'number' is not assignable to parameter of type 'string | RegExp'."
+    ]
+}

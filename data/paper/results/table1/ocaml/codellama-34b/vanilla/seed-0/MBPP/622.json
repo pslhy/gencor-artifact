@@ -1,0 +1,22 @@
+{
+    "decoded": 193,
+    "llm_time": 10.335136651992798,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0052602291107177734,
+    "constrainer_time": 0.04691505432128906,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.443446397781372,
+    "frequency": {
+        "1": 194
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:23: This expression has type \"int list\"\nbut an expression was expected of type \"'a array\""
+    ]
+}

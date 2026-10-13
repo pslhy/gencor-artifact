@@ -1,0 +1,131 @@
+{
+    "HumanEval/101": [
+        "HumanEval/101.ml:4:10: Unbound module \"Str\""
+    ],
+    "HumanEval/107": [
+        "HumanEval/107.ml:4:9: Unbound value \"String.rev\""
+    ],
+    "HumanEval/113": [
+        "HumanEval/113.ml:4:33: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/116": [
+        "HumanEval/116.ml:5:35: Unbound value \"String.trim_all\""
+    ],
+    "HumanEval/120": [
+        "HumanEval/120.ml:2:39: Unbound value \"List.take\""
+    ],
+    "HumanEval/141": [
+        "HumanEval/141.ml:10:38: Unbound value \"count_dots\"\nHint: Did you mean \"count_digits\"?\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 8"
+    ],
+    "HumanEval/147": [
+        "HumanEval/147.ml:7:26: Unbound value \"(%)\""
+    ],
+    "HumanEval/150": [
+        "HumanEval/150.ml:5:40: Unbound value \"id\""
+    ],
+    "HumanEval/153": [
+        "HumanEval/153.ml:5:58: Unbound value \"Char.uppercase\""
+    ],
+    "HumanEval/158": [
+        "HumanEval/158.ml:6:10: Unbound value \"Set.length\""
+    ],
+    "HumanEval/161": [
+        "HumanEval/161.ml:18:8: Unbound value \"String.of_char_list\""
+    ],
+    "HumanEval/162": [
+        "HumanEval/162.ml:4:15: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+    ],
+    "HumanEval/163": [
+        "HumanEval/163.ml:3:13: Unbound value \"(%)\""
+    ],
+    "HumanEval/19": [
+        "HumanEval/19.ml:2:20: Unbound module \"Str\""
+    ],
+    "HumanEval/36": [
+        "HumanEval/36.ml:7:26: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/39": [
+        "HumanEval/39.ml:3:65: Unbound module \"Prime\""
+    ],
+    "HumanEval/6": [
+        "HumanEval/6.ml:20:13: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/67": [
+        "HumanEval/67.ml:2:21: Unbound module \"Str\""
+    ],
+    "HumanEval/86": [
+        "HumanEval/86.ml:6:77: Unbound value \"explode\""
+    ],
+    "MBPP/109": [
+        "MBPP/109.ml:6:20: Unbound value \"split_at\"\nHint: Did you mean \"split\"?"
+    ],
+    "MBPP/123": [
+        "MBPP/123.ml:3:61: Unbound value \"List.sum\""
+    ],
+    "MBPP/126": [
+        "MBPP/126.ml:7:71: Unbound value \"List.sum\""
+    ],
+    "MBPP/131": [
+        "MBPP/131.ml:15:8: Unbound value \"String.of_list\""
+    ],
+    "MBPP/135": [
+        "MBPP/135.ml:4:21: Unbound value \"n\""
+    ],
+    "MBPP/244": [
+        "MBPP/244.ml:6:25: Unbound value \"nint_sqrt\""
+    ],
+    "MBPP/256": [
+        "MBPP/256.ml:14:24: Unbound value \"n\""
+    ],
+    "MBPP/444": [
+        "MBPP/444.ml:4:32: Unbound value \"List.rev_range\""
+    ],
+    "MBPP/456": [
+        "MBPP/456.ml:4:22: Unbound value \"String.rev\""
+    ],
+    "MBPP/459": [
+        "MBPP/459.ml:6:18: Unbound value \"is_lower\""
+    ],
+    "MBPP/57": [
+        "MBPP/57.ml:6:12: Unbound value \"sort_unstable\""
+    ],
+    "MBPP/581": [
+        "MBPP/581.ml:6:18: Unbound value \"base\""
+    ],
+    "MBPP/586": [
+        "MBPP/586.ml:4:43: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+    ],
+    "MBPP/607": [
+        "MBPP/607.ml:2:9: Unbound module \"Str\""
+    ],
+    "MBPP/637": [
+        "MBPP/637.ml:6:45: Unbound value \"(%)\""
+    ],
+    "MBPP/735": [
+        "MBPP/735.ml:11:43: Unbound value \"log2\"\nHint: Did you mean \"log\"?"
+    ],
+    "MBPP/743": [
+        "MBPP/743.ml:14:42: Unbound value \"reversed_rotated_list\""
+    ],
+    "MBPP/745": [
+        "MBPP/745.ml:10:96: Unbound value \"String.to_list\""
+    ],
+    "MBPP/753": [
+        "MBPP/753.ml:5:39: Unbound value \"List.rev_take\"\nHint: Did you mean \"rev_map\" or \"rev_map2\"?"
+    ],
+    "MBPP/757": [
+        "MBPP/757.ml:3:13: Unbound value \"String.rev\""
+    ],
+    "MBPP/771": [
+        "MBPP/771.ml:15:13: Unbound value \"List.of_string\""
+    ],
+    "MBPP/776": [
+        "MBPP/776.ml:2:19: Unbound value \"Set.of_list\""
+    ],
+    "MBPP/806": [
+        "MBPP/806.ml:6:10: Unbound module \"Char.Ascii\""
+    ],
+    "MBPP/92": [
+        "MBPP/92.ml:5:13: Unbound value \"String.of_int\""
+    ]
+}

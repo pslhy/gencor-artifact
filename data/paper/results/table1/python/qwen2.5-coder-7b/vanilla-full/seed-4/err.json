@@ -1,0 +1,69 @@
+{
+    "BigCodeBench/17": {
+        "1": [
+            "BigCodeBench/17.py:19:22: undefined name 'process_name'"
+        ]
+    },
+    "BigCodeBench/82": {
+        "1": [
+            "BigCodeBench/82.py:22:61: unindent does not match any outer indentation level",
+            "   users = {'user': User.UserMixin, 'admin': User.UserMixin}",
+            "                                                            ^"
+        ]
+    },
+    "BigCodeBench/108": {
+        "1": [
+            "BigCodeBench/108.py:20:84: undefined name 'datetime'",
+            "BigCodeBench/108.py:20:142: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/239": {
+        "1": [
+            "BigCodeBench/239.py:10:114: unmatched ']'",
+            "    numeric_values = np.where(isinstance(item, timedelta), item.total_seconds(), item) for item in numeric_values]",
+            "                                                                                                                 ^"
+        ]
+    },
+    "BigCodeBench/267": {
+        "1": [
+            "BigCodeBench/267.py:7:20: undefined name 'datetime'",
+            "BigCodeBench/267.py:8:19: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/486": {
+        "1": [
+            "BigCodeBench/486.py:12:15: undefined name 'plt'"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "BigCodeBench/509.py:22:26: expected 'else' after 'if' expression",
+            "                status = '-' if not file2 line else '+' if not file1_line else '*'",
+            "                         ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:25:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/752": {
+        "1": [
+            "BigCodeBench/752.py:10:23: invalid syntax",
+            "    if not data.empty but target_column not in data.columns:",
+            "                      ^"
+        ]
+    },
+    "BigCodeBench/906": {
+        "1": [
+            "BigCodeBench/906.py:15:22: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/916": {
+        "1": [
+            "BigCodeBench/916.py:10:63: unindent does not match any outer indentation level",
+            "   fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(15, 6))",
+            "                                                              ^"
+        ]
+    }
+}

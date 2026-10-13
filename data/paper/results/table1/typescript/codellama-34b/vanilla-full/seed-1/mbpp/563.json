@@ -1,0 +1,20 @@
+{
+    "decoded": 38,
+    "llm_time": 2.050879955291748,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009510517120361328,
+    "constrainer_time": 0.0023505687713623047,
+    "total_time": 2.063612937927246,
+    "frequency": {
+        "1": 39
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2531: Object is possibly 'null'.",
+        "TS2339: Property 'strip' does not exist on type 'string'."
+    ]
+}

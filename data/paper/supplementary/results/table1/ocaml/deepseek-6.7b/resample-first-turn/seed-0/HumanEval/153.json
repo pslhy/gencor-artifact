@@ -1,0 +1,22 @@
+{
+    "decoded": 135,
+    "llm_time": 3.3773434162139893,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003289937973022461,
+    "constrainer_time": 0.030709505081176758,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.4532523155212402,
+    "frequency": {
+        "1": 136
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:60: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ]
+}

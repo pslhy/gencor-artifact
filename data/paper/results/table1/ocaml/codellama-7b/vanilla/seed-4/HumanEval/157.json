@@ -1,0 +1,22 @@
+{
+    "decoded": 171,
+    "llm_time": 4.266972303390503,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004011869430541992,
+    "constrainer_time": 0.039792537689208984,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.359617233276367,
+    "frequency": {
+        "1": 172
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/157.ml:9:17: This variant expression is expected to have type \"unit\"\nbecause it is in the result of a conditional with no else branch\nThere is no constructor \"true\" within type \"unit\""
+    ]
+}

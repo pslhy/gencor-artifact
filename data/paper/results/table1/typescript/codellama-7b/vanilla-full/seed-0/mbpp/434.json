@@ -1,0 +1,20 @@
+{
+    "decoded": 44,
+    "llm_time": 1.0822527408599854,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0010900497436523438,
+    "constrainer_time": 0.01029658317565918,
+    "total_time": 1.104534387588501,
+    "frequency": {
+        "1": 45
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS1534: This backreference refers to a group that does not exist. There are no capturing groups in this regular expression.",
+        "TS2339: Property 'match' does not exist on type 'RegExp'."
+    ]
+}

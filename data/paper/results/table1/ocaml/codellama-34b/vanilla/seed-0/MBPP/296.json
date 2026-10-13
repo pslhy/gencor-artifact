@@ -1,0 +1,22 @@
+{
+    "decoded": 97,
+    "llm_time": 5.1813671588897705,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002382516860961914,
+    "constrainer_time": 0.022906780242919922,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.23262619972229,
+    "frequency": {
+        "1": 98
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:29: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+    ]
+}

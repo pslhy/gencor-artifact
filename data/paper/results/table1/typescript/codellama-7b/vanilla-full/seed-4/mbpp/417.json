@@ -1,0 +1,28 @@
+{
+    "decoded": 243,
+    "llm_time": 5.907952070236206,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0055217742919921875,
+    "constrainer_time": 0.055745601654052734,
+    "total_time": 6.032064199447632,
+    "frequency": {
+        "1": 244
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2353: Object literal may only specify known properties, and '[\"grpA\", \"valA1\"]' does not exist in type 'string[][]'.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects.",
+        "TS2695: Left side of comma operator is unused and has no side effects."
+    ]
+}

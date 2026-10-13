@@ -1,0 +1,22 @@
+{
+    "decoded": 55,
+    "llm_time": 1.4450442790985107,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0013265609741210938,
+    "constrainer_time": 0.012798070907592773,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.4744725227355957,
+    "frequency": {
+        "1": 56
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/92.ml:2:11: Unbound value \"float_is_int\"\nHint: Did you mean \"float_of_int\"?"
+    ]
+}

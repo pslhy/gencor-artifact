@@ -1,0 +1,22 @@
+{
+    "decoded": 169,
+    "llm_time": 9.292696237564087,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0048656463623046875,
+    "constrainer_time": 0.04659295082092285,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.401196241378784,
+    "frequency": {
+        "1": 170
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:9:21: This expression has type \"char\" but an expression was expected of type\n\"int\""
+    ]
+}

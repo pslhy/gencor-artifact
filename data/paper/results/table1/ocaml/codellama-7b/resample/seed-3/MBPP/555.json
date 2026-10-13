@@ -1,0 +1,31 @@
+{
+    "decoded": 787,
+    "decoded_at_turn": {
+        "1": 99,
+        "2": 97,
+        "3": 197,
+        "4": 197,
+        "5": 197
+    },
+    "llm_time": 19.796170473098755,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.019176006317138672,
+    "constrainer_time": 0.18369555473327637,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 20.281227588653564,
+    "frequency": {
+        "1": 792
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:24: Unbound value \"sum_of_cubes\""
+    ]
+}

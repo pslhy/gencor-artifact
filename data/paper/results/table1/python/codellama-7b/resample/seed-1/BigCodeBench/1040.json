@@ -1,0 +1,34 @@
+{
+    "decoded": 2607,
+    "decoded_at_turn": {
+        "1": 591,
+        "2": 487,
+        "3": 487,
+        "4": 521,
+        "5": 521
+    },
+    "llm_time": 68.57116985321045,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.06628584861755371,
+    "constrainer_time": 0.6260199546813965,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 70.7259202003479,
+    "frequency": {
+        "1": 2612
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:20:30: undefined name 'threading'",
+        "<python>:23:27: undefined name 'threading'",
+        "<python>:38:35: undefined name 'buffer_size'",
+        "<python>:53:17: undefined name 'threading'"
+    ]
+}

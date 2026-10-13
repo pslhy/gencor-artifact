@@ -1,0 +1,22 @@
+{
+    "decoded": 86,
+    "llm_time": 2.265350341796875,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00206756591796875,
+    "constrainer_time": 0.020534992218017578,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.311136484146118,
+    "frequency": {
+        "1": 87
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/435.ml:4:30: Unbound value \"lastDigit\"\nHint: Did you mean \"last_Digit\"?"
+    ]
+}

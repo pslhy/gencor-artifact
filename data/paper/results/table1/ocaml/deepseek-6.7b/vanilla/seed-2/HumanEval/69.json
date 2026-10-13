@@ -1,0 +1,22 @@
+{
+    "decoded": 144,
+    "llm_time": 3.7447307109832764,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003457784652709961,
+    "constrainer_time": 0.03274059295654297,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.822619676589966,
+    "frequency": {
+        "1": 145
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/69.ml:12:26: Unbound value \"List.sort_descending\""
+    ]
+}

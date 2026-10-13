@@ -1,0 +1,22 @@
+{
+    "total_time": 90.0005714893341,
+    "llm_time": 90.0005714893341,
+    "constrainer_time": 0.0,
+    "n_resamples": 36,
+    "eos": false,
+    "is_timeout": true,
+    "time_limit": 90,
+    "crashed": "TimeoutError: Sampling timed out",
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 1,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2349: This expression is not callable.\n  Type 'Number' has no call signatures.",
+        "TS2365: Operator '<' cannot be applied to types 'string' and 'number'.",
+        "TS2356: An arithmetic operand must be of type 'any', 'number', 'bigint' or an enum type.",
+        "TS2357: The operand of an increment or decrement operator must be a variable or a property access."
+    ]
+}

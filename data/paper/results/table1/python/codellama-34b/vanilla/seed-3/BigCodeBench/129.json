@@ -1,0 +1,26 @@
+{
+    "decoded": 406,
+    "llm_time": 22.30592918395996,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.01107931137084961,
+    "constrainer_time": 0.10013437271118164,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 22.563623428344727,
+    "frequency": {
+        "1": 407
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:13:62: undefined name 'e'",
+        "<python>:25:57: undefined name 'List'",
+        "<python>:25:62: undefined name 'List'",
+        "<python>:33:38: undefined name 'List'",
+        "<python>:33:43: undefined name 'List'"
+    ]
+}

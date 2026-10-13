@@ -1,0 +1,22 @@
+{
+    "decoded": 120,
+    "llm_time": 3.008943796157837,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0030074119567871094,
+    "constrainer_time": 0.02799057960510254,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.0722851753234863,
+    "frequency": {
+        "1": 121
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/101.ml:10:16: This expression has type \"int list -> int -> int -> int\"\nbut an expression was expected of type \"('a -> 'b) -> 'c -> 'a -> 'b\"\nType \"int list\" is not compatible with type \"'a -> 'b\""
+    ]
+}

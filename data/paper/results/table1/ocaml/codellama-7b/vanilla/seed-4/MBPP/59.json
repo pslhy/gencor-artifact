@@ -1,0 +1,22 @@
+{
+    "decoded": 177,
+    "llm_time": 4.5053911209106445,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0043904781341552734,
+    "constrainer_time": 0.04218029975891113,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.601160764694214,
+    "frequency": {
+        "1": 178
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/59.ml:5:52: Illegal empty character literal ''\nHint: Did you mean ' ' or a type variable 'a?"
+    ]
+}

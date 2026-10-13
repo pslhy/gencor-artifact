@@ -1,0 +1,36 @@
+
+let rec valid_date (date : string) : bool =
+  match date.[-1], date.[-2], date.[-3], date.[1], date.[2], date.[4], date.[7], date.[8], date.[9], date.[10], date.[11] with
+  | '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-' ->
+    let month = date.[0]^date.[1] in
+    let day = date.[3]^date.[4] in
+    let year = date.[6]^date.[7]^date.[8]^date.[9] in
+    if (int_of_char month.[0] - int_of_char '0') * 10 + (int_of_char month.[1] - int_of_char '0') > 0 && (int_of_char month.[0] - int_of_char '0') * 10 + (int_of_char month.[1] - int_of_char '0') <= 12
+    && (int_of_char day.[0] - int_of_char '0') * 10 + (int_of_char day.[1] - int_of_char '0') > 0 && (int_of_char day.[0] - int_of_char '0') * 10 + (int_of_char day.[1] - int_of_char '0') <= 31
+    && (int_of_char year.[0] - int_of_char '0') * 1000 + (int_of_char year.[1] - int_of_char '0') * 100 + (int_of_char year.[2] - int_of_char '0') * 10 + (int_of_char year.[3] - int_of_char '0') > 0 then
+      true
+    else false
+  | _ -> false
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     You have to write a function which validates a given date string and *)
+(*     returns true if the date is valid otherwise false. *)
+(*     The date is valid if all of the following rules are satisfied: *)
+(*     1. The date string is not empty. *)
+(*     2. The number of days is not less than 1 or higher than 31 days for months 1,3,5,7,8,10,12. And the number of days is not less than 1 or higher than 30 days for months 4,6,9,11. And, the number of days is not less than 1 or higher than 29 for the month 2. *)
+(*     3. The months should not be less than 1 or higher than 12. *)
+(*     4. The date should be in the format: mm-dd-yyyy *)
+(*     >>> valid_date "03-11-2000" *)
+(*     true *)
+(*     >>> valid_date "15-01-2012" *)
+(*     false *)
+(*     >>> valid_date "04-0-2040" *)
+(*     false *)
+(*     >>> valid_date "06-04-2020" *)
+(*     true *)
+(*     >>> valid_date "06/04/2020" *)
+(*     false *)

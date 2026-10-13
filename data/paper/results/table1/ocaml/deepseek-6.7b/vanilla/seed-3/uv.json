@@ -1,0 +1,182 @@
+{
+    "MBPP/4": [
+        "MBPP/4.ml:9:17: Unbound value \"Queue.swap\""
+    ],
+    "MBPP/88": [
+        "MBPP/88.ml:6:19: Unbound value \"List.assoc_default\""
+    ],
+    "MBPP/92": [
+        "MBPP/92.ml:2:11: Unbound value \"String.of_int\""
+    ],
+    "MBPP/100": [
+        "MBPP/100.ml:4:11: Unbound value \"String.rev\""
+    ],
+    "MBPP/129": [
+        "MBPP/129.ml:8:56: Unbound value \"columns\""
+    ],
+    "MBPP/131": [
+        "MBPP/131.ml:8:3: Unbound value \"String.of_char_list\""
+    ],
+    "MBPP/141": [
+        "MBPP/141.ml:5:28: Unbound value \"List.take\""
+    ],
+    "MBPP/145": [
+        "MBPP/145.ml:6:37: Unbound value \"Int.max_value\""
+    ],
+    "MBPP/167": [
+        "MBPP/167.ml:5:16: Unbound value \"pown\""
+    ],
+    "MBPP/229": [
+        "MBPP/229.ml:5:50: Unbound value \"List.take\""
+    ],
+    "MBPP/245": [
+        "MBPP/245.ml:10:16: Unbound value \"List.rev_filter\""
+    ],
+    "MBPP/274": [
+        "MBPP/274.ml:4:32: Unbound value \"(//)\""
+    ],
+    "MBPP/304": [
+        "MBPP/304.ml:26:25: Unbound value \"rotate_one_to_left\""
+    ],
+    "MBPP/395": [
+        "MBPP/395.ml:5:182: Unbound value \"String.explode\""
+    ],
+    "MBPP/408": [
+        "MBPP/408.ml:2:128: Unbound value \"List.take\""
+    ],
+    "MBPP/456": [
+        "MBPP/456.ml:4:15: Unbound value \"String.rev\""
+    ],
+    "MBPP/474": [
+        "MBPP/474.ml:4:36: Unbound value \"char_of_string\""
+    ],
+    "MBPP/559": [
+        "MBPP/559.ml:4:82: Unbound value \"List.rev_take\"\nHint: Did you mean \"rev_map\" or \"rev_map2\"?"
+    ],
+    "MBPP/563": [
+        "MBPP/563.ml:2:12: Unbound module \"Str\""
+    ],
+    "MBPP/574": [
+        "MBPP/574.ml:2:10: Unbound module \"System\""
+    ],
+    "MBPP/604": [
+        "MBPP/604.ml:8:31: Unbound value \"String.split_at\""
+    ],
+    "MBPP/735": [
+        "MBPP/735.ml:4:13: Unbound value \"log2\"\nHint: Did you mean \"log\"?"
+    ],
+    "MBPP/745": [
+        "MBPP/745.ml:11:91: Unbound value \"Char.get_int\""
+    ],
+    "MBPP/753": [
+        "MBPP/753.ml:3:27: Unbound value \"List.take\""
+    ],
+    "MBPP/757": [
+        "MBPP/757.ml:6:52: Unbound value \"String.rev\""
+    ],
+    "MBPP/759": [
+        "MBPP/759.ml:13:12: Unbound value \"Char.is_digit\""
+    ],
+    "MBPP/764": [
+        "MBPP/764.ml:4:26: Unbound value \"String.tl\""
+    ],
+    "MBPP/765": [
+        "MBPP/765.ml:3:8: Unbound value \"(%)\""
+    ],
+    "MBPP/771": [
+        "MBPP/771.ml:9:17: Unbound value \"String.to_list\""
+    ],
+    "MBPP/776": [
+        "MBPP/776.ml:6:46: Unbound value \"Char.lowercase\""
+    ],
+    "MBPP/806": [
+        "MBPP/806.ml:2:22: Unbound module \"Str\""
+    ],
+    "HumanEval/10": [
+        "HumanEval/10.ml:2:17: Unbound value \"String.rev\""
+    ],
+    "HumanEval/19": [
+        "HumanEval/19.ml:3:64: Unbound value \"List.find_idx\"\nHint: Did you mean \"find_index\"?"
+    ],
+    "HumanEval/21": [
+        "HumanEval/21.ml:5:23: Unbound value \"List.min_elt\""
+    ],
+    "HumanEval/33": [
+        "HumanEval/33.ml:6:26: Unbound value \"(%)\""
+    ],
+    "HumanEval/36": [
+        "HumanEval/36.ml:4:24: Unbound value \"String.count\""
+    ],
+    "HumanEval/54": [
+        "HumanEval/54.ml:2:12: Unbound value \"String.sort\""
+    ],
+    "HumanEval/65": [
+        "HumanEval/65.ml:5:48: Unbound value \"List.to_string\""
+    ],
+    "HumanEval/70": [
+        "HumanEval/70.ml:4:10: Unbound value \"List.hd_exn\""
+    ],
+    "HumanEval/80": [
+        "HumanEval/80.ml:8:30: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/86": [
+        "HumanEval/86.ml:8:79: Unbound value \"String.explode\""
+    ],
+    "HumanEval/91": [
+        "HumanEval/91.ml:11:27: Unbound value \"String.split_at\""
+    ],
+    "HumanEval/93": [
+        "HumanEval/93.ml:3:13: Unbound value \"Char.is_alpha\""
+    ],
+    "HumanEval/101": [
+        "HumanEval/101.ml:6:53: Unbound value \"String.trim_start\""
+    ],
+    "HumanEval/104": [
+        "HumanEval/104.ml:2:96: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/107": [
+        "HumanEval/107.ml:4:11: Unbound value \"String.rev\""
+    ],
+    "HumanEval/111": [
+        "HumanEval/111.ml:2:17: Unbound module \"Str\""
+    ],
+    "HumanEval/112": [
+        "HumanEval/112.ml:11:29: Unbound value \"String.rev\""
+    ],
+    "HumanEval/113": [
+        "HumanEval/113.ml:5:26: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/116": [
+        "HumanEval/116.ml:3:24: Unbound value \"String.count\""
+    ],
+    "HumanEval/117": [
+        "HumanEval/117.ml:4:20: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/120": [
+        "HumanEval/120.ml:2:3: Unbound value \"List.sort_unstable\""
+    ],
+    "HumanEval/141": [
+        "HumanEval/141.ml:6:37: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/145": [
+        "HumanEval/145.ml:4:71: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/150": [
+        "HumanEval/150.ml:4:24: Unbound value \"(%)\""
+    ],
+    "HumanEval/153": [
+        "HumanEval/153.ml:3:30: Unbound value \"String.filter\"\nHint: Did you mean \"iter\"?"
+    ],
+    "HumanEval/157": [
+        "HumanEval/157.ml:2:34: Unbound constructor \"Pythagorean\""
+    ],
+    "HumanEval/158": [
+        "HumanEval/158.ml:5:57: Unbound value \"List.uniq\""
+    ],
+    "HumanEval/161": [
+        "HumanEval/161.ml:4:21: Unbound value \"String.rev\""
+    ],
+    "HumanEval/162": [
+        "HumanEval/162.ml:4:16: Unbound module \"Digestif\"\nHint: Did you mean \"Digest\"?"
+    ]
+}

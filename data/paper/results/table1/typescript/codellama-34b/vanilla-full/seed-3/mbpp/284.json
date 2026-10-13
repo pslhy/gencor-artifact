@@ -1,0 +1,19 @@
+{
+    "decoded": 69,
+    "llm_time": 3.711848258972168,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001642465591430664,
+    "constrainer_time": 0.0041964054107666016,
+    "total_time": 3.7348098754882812,
+    "frequency": {
+        "1": 70
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2588: Cannot assign to 'i' because it is a constant."
+    ]
+}

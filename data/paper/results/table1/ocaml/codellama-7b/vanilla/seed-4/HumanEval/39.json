@@ -1,0 +1,22 @@
+{
+    "decoded": 227,
+    "llm_time": 5.867695331573486,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005301713943481445,
+    "constrainer_time": 0.05324292182922363,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 5.991679430007935,
+    "frequency": {
+        "1": 228
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/39.ml:29:5: This expression has type \"int option\"\nbut an expression was expected of type \"int\""
+    ]
+}

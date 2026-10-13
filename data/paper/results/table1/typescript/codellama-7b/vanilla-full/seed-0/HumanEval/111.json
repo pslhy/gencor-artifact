@@ -1,0 +1,22 @@
+{
+    "decoded": 149,
+    "llm_time": 3.603865146636963,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.003493070602416992,
+    "constrainer_time": 0.03407716751098633,
+    "total_time": 3.6820602416992188,
+    "frequency": {
+        "1": 150
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+        "TS7053: Element implicitly has an 'any' type because expression of type 'string' can't be used to index type '{}'.\n  No index signature with a parameter of type 'string' was found on type '{}'.",
+        "TS18046: 'count' is of type 'unknown'.",
+        "TS2322: Type 'unknown' is not assignable to type 'number'."
+    ]
+}

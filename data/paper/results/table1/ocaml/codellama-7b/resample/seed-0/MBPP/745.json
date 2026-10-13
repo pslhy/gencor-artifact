@@ -1,0 +1,28 @@
+{
+    "decoded": 285,
+    "decoded_at_turn": {
+        "1": 187,
+        "2": 98
+    },
+    "llm_time": 7.294480562210083,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007100105285644531,
+    "constrainer_time": 0.06841850280761719,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.457128286361694,
+    "frequency": {
+        "1": 287
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:11: This expression has type \"int -> bool\"\nbut an expression was expected of type \"bool\"\nbecause it is in the condition of an if-statement\nHint: This function application is partial,\nmaybe some arguments are missing."
+    ]
+}

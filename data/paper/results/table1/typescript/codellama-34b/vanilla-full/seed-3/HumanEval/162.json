@@ -1,0 +1,19 @@
+{
+    "decoded": 55,
+    "llm_time": 3.021678924560547,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015559196472167969,
+    "constrainer_time": 0.0036444664001464844,
+    "total_time": 3.041898250579834,
+    "frequency": {
+        "1": 56
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'crypto'."
+    ]
+}

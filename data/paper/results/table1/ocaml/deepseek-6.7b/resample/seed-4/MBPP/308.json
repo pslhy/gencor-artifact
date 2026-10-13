@@ -1,0 +1,28 @@
+{
+    "decoded": 306,
+    "decoded_at_turn": {
+        "1": 143,
+        "2": 163
+    },
+    "llm_time": 8.162642002105713,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00754857063293457,
+    "constrainer_time": 0.07168340682983398,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.337824821472168,
+    "frequency": {
+        "1": 308
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:10: This expression has type \"unit list\"\nbut an expression was expected of type \"int list\"\nType \"unit\" is not compatible with type \"int\""
+    ]
+}

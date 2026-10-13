@@ -1,0 +1,22 @@
+{
+    "decoded": 238,
+    "llm_time": 12.822350263595581,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00664520263671875,
+    "constrainer_time": 0.05890798568725586,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.963215112686157,
+    "frequency": {
+        "1": 239
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:33: Unbound value \"get_prime_factors\""
+    ]
+}

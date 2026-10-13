@@ -1,0 +1,56 @@
+{
+    "HumanEval/19": {
+        "1": [
+            "TS2322: Type 'string[]' is not assignable to type 'string'.",
+            "TS2339: Property 'f' does not exist on type '{ zero: number; one: number; two: number; three: number; four: number; five: number; six: number; seven: number; eight: number; nine: number; }'."
+        ]
+    },
+    "HumanEval/93": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2339: Property 'as' does not exist on type '{ a: string; e: string; i: string; o: string; u: string; A: string; E: string; I: string; O: string; U: string; }'."
+        ]
+    },
+    "HumanEval/153": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value."
+        ]
+    },
+    "HumanEval/162": {
+        "1": [
+            "TS2322: Type 'Hash' is not assignable to type 'string'.",
+            "TS2554: Expected 1 arguments, but got 2."
+        ]
+    },
+    "mbpp/94": {
+        "1": [
+            "TS2322: Type 'number' is not assignable to type 'string'.",
+            "TS2345: Argument of type 'string' is not assignable to parameter of type 'number'."
+        ]
+    },
+    "mbpp/100": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2345: Argument of type 'string' is not assignable to parameter of type 'number'.",
+            "TS2304: Cannot find name 'b'."
+        ]
+    },
+    "mbpp/417": {
+        "1": [
+            "TS2322: Type 'string[][][]' is not assignable to type 'string[][]'.\n  Type 'string[][]' is not assignable to type 'string[]'.\n    Type 'string[]' is not assignable to type 'string'.",
+            "TS2454: Variable 'groups' is used before being assigned."
+        ]
+    },
+    "mbpp/579": {
+        "1": [
+            "TS2355: A function whose declared type is neither 'undefined', 'void', nor 'any' must return a value.",
+            "TS2454: Variable 'res' is used before being assigned."
+        ]
+    },
+    "mbpp/752": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2367: This comparison appears to be unintentional because the types 'number' and 'string' have no overlap."
+        ]
+    }
+}

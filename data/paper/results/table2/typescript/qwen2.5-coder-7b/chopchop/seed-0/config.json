@@ -1,0 +1,17 @@
+{
+    "tool": "chopchop",
+    "mode": "TypedCD",
+    "checker": "semantic",
+    "model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+    "language": "typescript",
+    "temperature": 1.0,
+    "repetition_penalty": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "timeout": 90,
+    "seed": 0,
+    "benchmark": "humaneval-mbpp-ts.json",
+    "exp_id": "hmts_chop72",
+    "variant": "chopchop-s0",
+    "num_tasks": 72
+}

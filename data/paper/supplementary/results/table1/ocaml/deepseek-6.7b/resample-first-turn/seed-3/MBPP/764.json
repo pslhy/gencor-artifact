@@ -1,0 +1,22 @@
+{
+    "decoded": 28,
+    "llm_time": 0.7414448261260986,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0007114410400390625,
+    "constrainer_time": 0.006669521331787109,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.7561697959899902,
+    "frequency": {
+        "1": 29
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:4:26: Unbound value \"String.tl\""
+    ]
+}

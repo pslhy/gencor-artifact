@@ -1,0 +1,22 @@
+{
+    "decoded": 181,
+    "llm_time": 4.679340839385986,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004549503326416016,
+    "constrainer_time": 0.04226851463317871,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.789088249206543,
+    "frequency": {
+        "1": 182
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:7:36: Unbound value \"acc_negatives\""
+    ]
+}

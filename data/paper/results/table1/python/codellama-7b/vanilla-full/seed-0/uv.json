@@ -1,0 +1,88 @@
+{
+    "BigCodeBench/13": [
+        "BigCodeBench/13.py:14:12: undefined name 'ftErrors'",
+        "BigCodeBench/13.py:16:12: undefined name 'ftErrors'"
+    ],
+    "BigCodeBench/82": [
+        "BigCodeBench/82.py:33:13: undefined name 'flash'"
+    ],
+    "BigCodeBench/92": [
+        "BigCodeBench/92.py:33:16: undefined name 'np'",
+        "BigCodeBench/92.py:34:16: undefined name 'np'"
+    ],
+    "BigCodeBench/100": [
+        "BigCodeBench/100.py:17:34: undefined name 'mdates'"
+    ],
+    "BigCodeBench/124": [
+        "BigCodeBench/124.py:26:34: undefined name 'start_time'"
+    ],
+    "BigCodeBench/147": [
+        "BigCodeBench/147.py:15:22: undefined name 'datetime'",
+        "BigCodeBench/147.py:16:19: undefined name 'timer'",
+        "BigCodeBench/147.py:20:20: undefined name 'datetime'"
+    ],
+    "BigCodeBench/274": [
+        "BigCodeBench/274.py:30:27: undefined name 'formatdate'"
+    ],
+    "BigCodeBench/313": [
+        "BigCodeBench/313.py:23:25: undefined name 'movement_file'"
+    ],
+    "BigCodeBench/341": [
+        "BigCodeBench/341.py:22:36: undefined name 'ax1'",
+        "BigCodeBench/341.py:23:5: undefined name 'ax1'",
+        "BigCodeBench/341.py:26:35: undefined name 'ax2'",
+        "BigCodeBench/341.py:27:5: undefined name 'ax2'"
+    ],
+    "BigCodeBench/477": [
+        "BigCodeBench/477.py:29:39: undefined name 'unique_cat_count'"
+    ],
+    "BigCodeBench/486": [
+        "BigCodeBench/486.py:18:15: undefined name 'plt'"
+    ],
+    "BigCodeBench/501": [
+        "BigCodeBench/501.py:9:21: undefined name 'json'",
+        "BigCodeBench/501.py:10:12: undefined name 'json'"
+    ],
+    "BigCodeBench/587": [
+        "BigCodeBench/587.py:35:40: undefined name 'hashes'",
+        "BigCodeBench/587.py:36:23: undefined name 'hashes'"
+    ],
+    "BigCodeBench/590": [
+        "BigCodeBench/590.py:15:15: undefined name 'URLError'"
+    ],
+    "BigCodeBench/654": [
+        "BigCodeBench/654.py:15:18: undefined name 'pd'"
+    ],
+    "BigCodeBench/655": [
+        "BigCodeBench/655.py:37:27: undefined name 'np'",
+        "BigCodeBench/655.py:37:36: undefined name 'vectorizer'",
+        "BigCodeBench/655.py:37:87: undefined name 'n_top_words'"
+    ],
+    "BigCodeBench/870": [
+        "BigCodeBench/870.py:22:17: undefined name 'data'"
+    ],
+    "BigCodeBench/914": [
+        "BigCodeBench/914.py:13:40: undefined name 'train_test_split'"
+    ],
+    "BigCodeBench/915": [
+        "BigCodeBench/915.py:14:19: undefined name 'pd'",
+        "BigCodeBench/915.py:27:28: undefined name 'df2'"
+    ],
+    "BigCodeBench/988": [
+        "BigCodeBench/988.py:39:40: undefined name 'datetime'",
+        "BigCodeBench/988.py:41:30: undefined name 'datetime'"
+    ],
+    "BigCodeBench/999": [
+        "BigCodeBench/999.py:40:6: undefined name 'pytest'",
+        "BigCodeBench/999.py:44:6: undefined name 'pytest'"
+    ],
+    "BigCodeBench/1006": [
+        "BigCodeBench/1006.py:10:56: undefined name 'datetime'"
+    ],
+    "BigCodeBench/1020": [
+        "BigCodeBench/1020.py:50:10: undefined name 'pytest'"
+    ],
+    "BigCodeBench/1085": [
+        "BigCodeBench/1085.py:21:13: undefined name 'np'"
+    ]
+}

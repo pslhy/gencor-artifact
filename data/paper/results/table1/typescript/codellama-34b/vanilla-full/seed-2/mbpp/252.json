@@ -1,0 +1,20 @@
+{
+    "decoded": 69,
+    "llm_time": 3.683586359024048,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016732215881347656,
+    "constrainer_time": 0.004122495651245117,
+    "total_time": 3.706204414367676,
+    "frequency": {
+        "1": 70
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2339: Property 'real' does not exist on type 'number'.",
+        "TS2339: Property 'imaginary' does not exist on type 'number'."
+    ]
+}

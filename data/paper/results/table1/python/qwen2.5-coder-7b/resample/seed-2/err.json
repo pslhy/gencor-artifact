@@ -1,0 +1,81 @@
+{
+    "BigCodeBench/227": {
+        "1": [
+            "<python>:24:25: undefined module member 'librosa.specshow'"
+        ],
+        "2": [
+            "<python>:24:25: undefined module member 'librosa.specshow'"
+        ],
+        "3": [
+            "<python>:24:25: undefined module member 'librosa.specshow'"
+        ]
+    },
+    "BigCodeBench/509": {
+        "1": [
+            "<python>:13:17: invalid syntax",
+            "            all lines = list1 + list2",
+            "                ^"
+        ]
+    },
+    "BigCodeBench/528": {
+        "1": [
+            "<python>:11:10: invalid syntax",
+            "    data DataFrame",
+            "         ^"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "<python>:14:15: undefined name 'URLError'"
+        ],
+        "2": [
+            "<python>:14:15: undefined name 'URLError'"
+        ],
+        "3": [
+            "<python>:14:15: undefined name 'URLError'"
+        ],
+        "4": [
+            "<python>:14:15: undefined name 'URLError'"
+        ],
+        "5": [
+            "<python>:14:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/785": {
+        "1": [
+            "<python>:16:57: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:16:57: undefined name 'datetime'"
+        ]
+    },
+    "BigCodeBench/845": {
+        "1": [
+            "<python>:22:24: invalid syntax. Perhaps you forgot a comma?",
+            "    common_words = set(counter1 keys()).intersection(set(counter2.keys()))",
+            "                       ^"
+        ]
+    },
+    "BigCodeBench/879": {
+        "1": [
+            "<python>:19:1: invalid syntax",
+            "``",
+            "^"
+        ],
+        "2": [
+            "<python>:19:1: invalid syntax",
+            "``",
+            "^"
+        ]
+    },
+    "BigCodeBench/1008": {
+        "1": [
+            "<python>:11:15: undefined name 'HttpURLConnectionError'"
+        ],
+        "2": [
+            "<python>:35:1: invalid syntax",
+            "``",
+            "^"
+        ]
+    }
+}

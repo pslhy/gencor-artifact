@@ -1,0 +1,23 @@
+{
+    "decoded": 188,
+    "llm_time": 4.854243993759155,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.004524707794189453,
+    "constrainer_time": 0.04445695877075195,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.960059881210327,
+    "frequency": {
+        "1": 189
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/486.py:16:5: undefined name 'plt'",
+        "BigCodeBench/486.py:17:10: undefined name 'sns'"
+    ]
+}

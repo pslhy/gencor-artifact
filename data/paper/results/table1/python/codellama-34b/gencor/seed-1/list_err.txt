@@ -1,0 +1,11 @@
+Error cases: 10 / 34 29.41%
+BigCodeBench/34
+BigCodeBench/82
+BigCodeBench/147
+BigCodeBench/273
+BigCodeBench/501
+BigCodeBench/654
+BigCodeBench/657
+BigCodeBench/777
+BigCodeBench/916
+BigCodeBench/1006

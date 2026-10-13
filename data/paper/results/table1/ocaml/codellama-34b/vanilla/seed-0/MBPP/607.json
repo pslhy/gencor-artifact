@@ -1,0 +1,22 @@
+{
+    "decoded": 210,
+    "llm_time": 11.395986795425415,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009732484817504883,
+    "constrainer_time": 0.06164979934692383,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.546150207519531,
+    "frequency": {
+        "1": 211
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:2:21: Unbound value \"patter\"\nHint: Did you mean \"pattern\"?"
+    ]
+}

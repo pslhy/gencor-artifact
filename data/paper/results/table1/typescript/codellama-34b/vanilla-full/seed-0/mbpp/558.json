@@ -1,0 +1,21 @@
+{
+    "decoded": 292,
+    "llm_time": 15.57823395729065,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0074977874755859375,
+    "constrainer_time": 0.017591476440429688,
+    "total_time": 15.684037923812866,
+    "frequency": {
+        "1": 293
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS7006: Parameter 'n1' implicitly has an 'any' type.",
+        "TS7006: Parameter 'n2' implicitly has an 'any' type.",
+        "TS7006: Parameter 'expected' implicitly has an 'any' type."
+    ]
+}

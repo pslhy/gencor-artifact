@@ -1,0 +1,22 @@
+{
+    "decoded": 120,
+    "llm_time": 3.2283194065093994,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00414729118347168,
+    "constrainer_time": 0.030916213989257812,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3074145317077637,
+    "frequency": {
+        "1": 121
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/564.ml:7:24: This expression has type \"int\"\nThis is not a function; it cannot be applied."
+    ]
+}

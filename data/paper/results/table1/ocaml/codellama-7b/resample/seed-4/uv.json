@@ -1,0 +1,155 @@
+{
+    "HumanEval/1": [
+        "test.ml:17:13: Unbound value \"str_len\""
+    ],
+    "HumanEval/101": [
+        "test.ml:2:17: Unbound module \"Str\""
+    ],
+    "HumanEval/107": [
+        "test.ml:4:29: Unbound value \"explode\""
+    ],
+    "HumanEval/117": [
+        "test.ml:7:10: Unbound value \"String.split_on_chars\"\nHint: Did you mean \"split_on_char\"?"
+    ],
+    "HumanEval/120": [
+        "test.ml:5:78: Unbound value \"List.take\""
+    ],
+    "HumanEval/122": [
+        "test.ml:12:27: Unbound value \"tail\""
+    ],
+    "HumanEval/127": [
+        "test.ml:11:55: Unbound value \"length\""
+    ],
+    "HumanEval/150": [
+        "test.ml:6:22: Unbound value \"(%)\""
+    ],
+    "HumanEval/153": [
+        "test.ml:5:56: Unbound module \"String.Core\""
+    ],
+    "HumanEval/156": [
+        "test.ml:17:41: Unbound value \"(%)\""
+    ],
+    "HumanEval/160": [
+        "test.ml:18:32: Unbound value \"(//)\""
+    ],
+    "HumanEval/3": [
+        "test.ml:5:33: Unbound value \"balance\""
+    ],
+    "HumanEval/65": [
+        "test.ml:9:15: Unbound value \"List.drop\""
+    ],
+    "HumanEval/86": [
+        "test.ml:3:5: Unbound value \"String.split\"\nHint: Did you mean \"blit\"?"
+    ],
+    "HumanEval/93": [
+        "test.ml:2:12: Unbound module \"Batteries\""
+    ],
+    "HumanEval/95": [
+        "test.ml:16:41: Unbound value \"(^|)\""
+    ],
+    "HumanEval/96": [
+        "test.ml:10:13: Unbound value \"Int.(<=)\""
+    ],
+    "MBPP/102": [
+        "test.ml:8:14: Unbound value \"String.uncapitalize\""
+    ],
+    "MBPP/130": [
+        "test.ml:6:19: Unbound value \"(^|)\""
+    ],
+    "MBPP/141": [
+        "test.ml:6:27: Unbound value \"List.take\""
+    ],
+    "MBPP/165": [
+        "test.ml:7:20: Unbound value \"sub_bytes\"\nHint: Did you mean \"of_bytes\" or \"to_bytes\"?"
+    ],
+    "MBPP/256": [
+        "test.ml:10:15: Unbound value \"(%)\""
+    ],
+    "MBPP/266": [
+        "test.ml:5:24: Unbound module \"Math\""
+    ],
+    "MBPP/388": [
+        "test.ml:5:3: Unbound value \"log2\"\nHint: Did you mean \"log\"?"
+    ],
+    "MBPP/396": [
+        "test.ml:3:32: Unbound value \"string_length\""
+    ],
+    "MBPP/411": [
+        "test.ml:4:23: Unbound module \"Str\""
+    ],
+    "MBPP/412": [
+        "test.ml:4:21: Unbound value \"(%)\""
+    ],
+    "MBPP/430": [
+        "test.ml:3:41: Unbound value \"x\""
+    ],
+    "MBPP/435": [
+        "test.ml:5:18: Unbound value \"to_string\""
+    ],
+    "MBPP/461": [
+        "test.ml:6:12: Unbound value \"is_uppercase\""
+    ],
+    "MBPP/463": [
+        "test.ml:11:7: Unbound value \"List.max\"\nHint: Did you mean \"map\"?"
+    ],
+    "MBPP/468": [
+        "test.ml:9:31: Unbound value \"z\""
+    ],
+    "MBPP/559": [
+        "test.ml:4:24: Unbound value \"List.split_at\"\nHint: Did you mean \"split\"?"
+    ],
+    "MBPP/56": [
+        "test.ml:2:30: Unbound value \"String.rev\""
+    ],
+    "MBPP/586": [
+        "test.ml:2:25: Unbound value \"split\""
+    ],
+    "MBPP/592": [
+        "test.ml:10:14: Unbound value \"\\#or\""
+    ],
+    "MBPP/624": [
+        "test.ml:2:21: Unbound value \"String.to_list\""
+    ],
+    "MBPP/629": [
+        "test.ml:4:21: Unbound value \"(%)\""
+    ],
+    "MBPP/635": [
+        "test.ml:19:30: Unbound value \"List.take\""
+    ],
+    "MBPP/67": [
+        "test.ml:10:5: Unbound value \"partition_ways\""
+    ],
+    "MBPP/68": [
+        "test.ml:10:29: Unbound value \"split\""
+    ],
+    "MBPP/71": [
+        "test.ml:14:39: Unbound value \"List.sub\""
+    ],
+    "MBPP/739": [
+        "test.ml:7:72: Unbound value \"return\""
+    ],
+    "MBPP/743": [
+        "test.ml:5:18: Unbound value \"List.take\""
+    ],
+    "MBPP/757": [
+        "test.ml:5:21: Unbound value \"String.rev\""
+    ],
+    "MBPP/772": [
+        "test.ml:2:17: Unbound module \"Str\""
+    ],
+    "MBPP/775": [
+        "test.ml:4:24: Unbound value \"(%)\""
+    ],
+    "MBPP/787": [
+        "test.ml:6:28: Unbound value \"String.split_at\""
+    ],
+    "MBPP/790": [
+        "test.ml:4:26: Unbound value \"(%)\""
+    ],
+    "MBPP/799": [
+        "test.ml:7:15: Unbound value \"(<|>)\"\nHint: Did you mean \"<>\" or \"|>\"?"
+    ],
+    "MBPP/806": [
+        "test.ml:4:63: Unbound value \"Char.is_uppercase\""
+    ]
+}

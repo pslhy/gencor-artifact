@@ -1,0 +1,23 @@
+{
+    "decoded": 77,
+    "llm_time": 1.8975586891174316,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0017430782318115234,
+    "constrainer_time": 0.01743626594543457,
+    "total_time": 1.9354677200317383,
+    "frequency": {
+        "1": 78
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'and'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'."
+    ]
+}

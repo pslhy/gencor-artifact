@@ -1,0 +1,21 @@
+{
+    "decoded": 800,
+    "llm_time": 19.148452520370483,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.017753124237060547,
+    "constrainer_time": 0.17912650108337402,
+    "total_time": 19.585888147354126,
+    "frequency": {
+        "1": 801
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS7006: Parameter 'a' implicitly has an 'any' type.",
+        "TS7006: Parameter 'b' implicitly has an 'any' type.",
+        "TS2304: Cannot find name 'Comparator'."
+    ]
+}

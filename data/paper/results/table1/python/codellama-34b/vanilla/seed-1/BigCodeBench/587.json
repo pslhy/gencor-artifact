@@ -1,0 +1,22 @@
+{
+    "decoded": 332,
+    "llm_time": 18.387453317642212,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009060382843017578,
+    "constrainer_time": 0.08931922912597656,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 18.608594179153442,
+    "frequency": {
+        "1": 333
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:10:23: undefined module member 'rsa.generate_private_key'"
+    ]
+}

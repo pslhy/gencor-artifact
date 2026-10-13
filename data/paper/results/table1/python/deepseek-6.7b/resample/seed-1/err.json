@@ -1,0 +1,34 @@
+{
+    "BigCodeBench/509": {
+        "1": [
+            "<python>:14:20: undefined name 'difflib'"
+        ],
+        "2": [
+            "<python>:14:20: undefined name 'difflib'"
+        ]
+    },
+    "BigCodeBench/879": {
+        "1": [
+            "<python>:15:47: undefined module member 'np.object'",
+            "<python>:15:97: undefined module member 'np.object'"
+        ]
+    },
+    "BigCodeBench/1004": {
+        "1": [
+            "<python>:7:18: undefined name 'datetime'",
+            "<python>:21:30: undefined name 'datetime'"
+        ],
+        "2": [
+            "<python>:21:40: undefined name 'datetime'"
+        ],
+        "3": [
+            "<python>:22:43: undefined name 'datetime'"
+        ],
+        "4": [
+            "<python>:22:43: undefined name 'datetime'"
+        ],
+        "5": [
+            "<python>:22:43: undefined name 'datetime'"
+        ]
+    }
+}

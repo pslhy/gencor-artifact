@@ -1,0 +1,22 @@
+{
+    "decoded": 128,
+    "llm_time": 3.4297902584075928,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00299835205078125,
+    "constrainer_time": 0.02965259552001953,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.5071449279785156,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "HumanEval/143.ml:6:15: Unbound value \"exists\"\nHint: Did you mean \"exit\"?"
+    ]
+}

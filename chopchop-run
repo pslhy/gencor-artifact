@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+"""Run the preserved ChopChop benchmark driver with the artifact environment."""
+import os
+import sys
+from pathlib import Path
+
+ARTIFACT = Path(__file__).resolve().parent
+sys.path.insert(0, str(ARTIFACT / "tools/gencor"))
+os.environ.setdefault("GENCOR_RUNTIME_CONFIG", str(ARTIFACT / ".gencor/runtime.json"))
+from lsp.runtime import backend_environment, backend_path, runtime_config
+
+try:
+    runtime_config(required=True)
+    python = backend_path("python")
+    env = backend_environment()
+    # The original driver invokes `tsc` by name; use setup's selected compiler.
+    compiler_bin = Path(backend_path("typescript")) / "bin"
+    env["PATH"] = str(compiler_bin) + os.pathsep + env["PATH"]
+    os.chdir(ARTIFACT / "tools/chopchop")
+    args = [python, "-m", "experiments.typescript.scripts.run_gencor_bench",
+            "--benchmark-json", str(ARTIFACT / "data/paper/datasets/humaneval-mbpp-ts.json"),
+            "--index-file", str(ARTIFACT / "tools/chopchop/tasksets/chopchop72.idx"),
+            "-o", str(ARTIFACT / "output/popl27")] + sys.argv[1:]
+    os.execve(python, args, env)
+except RuntimeError as exc:
+    print(str(exc), file=sys.stderr)
+    sys.exit(1)

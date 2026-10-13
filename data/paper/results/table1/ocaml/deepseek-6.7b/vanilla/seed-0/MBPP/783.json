@@ -1,0 +1,22 @@
+{
+    "decoded": 378,
+    "llm_time": 9.787560939788818,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.00920867919921875,
+    "constrainer_time": 0.08693909645080566,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.9949369430542,
+    "frequency": {
+        "1": 379
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/783.ml:8:9: This expression should not be a list literal, the expected type is\n\"'a * 'b * 'c\""
+    ]
+}

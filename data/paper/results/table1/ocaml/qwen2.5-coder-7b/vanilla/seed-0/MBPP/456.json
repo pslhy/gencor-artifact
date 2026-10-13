@@ -1,0 +1,22 @@
+{
+    "decoded": 30,
+    "llm_time": 0.7697141170501709,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0008623600006103516,
+    "constrainer_time": 0.007181882858276367,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 0.7879750728607178,
+    "frequency": {
+        "1": 31
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/456.ml:4:20: Unbound value \"String.rev\""
+    ]
+}

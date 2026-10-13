@@ -1,0 +1,25 @@
+{
+    "decoded": 369,
+    "llm_time": 9.102589845657349,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008907079696655273,
+    "constrainer_time": 0.08432650566101074,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.311388731002808,
+    "frequency": {
+        "1": 370
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/341.py:22:36: undefined name 'ax1'",
+        "BigCodeBench/341.py:23:5: undefined name 'ax1'",
+        "BigCodeBench/341.py:26:35: undefined name 'ax2'",
+        "BigCodeBench/341.py:27:5: undefined name 'ax2'"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "mbpp/765": {
+        "1": [
+            "TS2366: Function lacks ending return statement and return type does not include 'undefined'.",
+            "TS2322: Type 'boolean' is not assignable to type 'number'."
+        ]
+    }
+}

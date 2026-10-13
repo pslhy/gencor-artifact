@@ -1,0 +1,19 @@
+{
+    "decoded": 95,
+    "llm_time": 2.327256441116333,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0022165775299072266,
+    "constrainer_time": 0.02204442024230957,
+    "total_time": 2.375056505203247,
+    "frequency": {
+        "1": 96
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2769: No overload matches this call.\n  Overload 1 of 2, '(...items: ConcatArray<number>[]): number[]', gave the following error.\n    Argument of type '(number | number[])[]' is not assignable to parameter of type 'ConcatArray<number>'.\n      The types returned by 'slice(...)' are incompatible between these types.\n        Type '(number | number[])[]' is not assignable to type 'number[]'.\n          Type 'number | number[]' is not assignable to type 'number'.\n            Type 'number[]' is not assignable to type 'number'.\n  Overload 2 of 2, '(...items: (number | ConcatArray<number>)[]): number[]', gave the following error.\n    Argument of type '(number | number[])[]' is not assignable to parameter of type 'number | ConcatArray<number>'.\n      Type '(number | number[])[]' is not assignable to type 'ConcatArray<number>'.\n        The types returned by 'slice(...)' are incompatible between these types.\n          Type '(number | number[])[]' is not assignable to type 'number[]'.\n            Type 'number | number[]' is not assignable to type 'number'.\n              Type 'number[]' is not assignable to type 'number'."
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "BigCodeBench/129": [
+        "BigCodeBench/129.py:19:15: undefined name 'HTTPError'"
+    ],
+    "BigCodeBench/785": [
+        "BigCodeBench/785.py:19:76: undefined name 'datetime'"
+    ],
+    "BigCodeBench/917": [
+        "BigCodeBench/917.py:22:5: undefined name 'returnforecast'"
+    ],
+    "BigCodeBench/1003": [
+        "BigCodeBench/1003.py:12:33: undefined name 'socket'"
+    ]
+}

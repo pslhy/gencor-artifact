@@ -1,0 +1,20 @@
+{
+    "decoded": 23,
+    "llm_time": 0.6387031078338623,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0005958080291748047,
+    "constrainer_time": 0.005767345428466797,
+    "total_time": 0.6525025367736816,
+    "frequency": {
+        "1": 24
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type '[number, number, number, { [key: string]: number; }]' is not assignable to type '[number, number, number]'.\n  Source has 4 element(s) but target allows only 3.",
+        "TS2322: Type '[number, number, number]' is not assignable to type '[number, number, number, { [key: string]: number; }]'.\n  Source has 3 element(s) but target requires 4."
+    ]
+}

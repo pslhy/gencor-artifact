@@ -1,0 +1,32 @@
+{
+    "decoded": 2318,
+    "decoded_at_turn": {
+        "1": 388,
+        "2": 471,
+        "3": 488,
+        "4": 486,
+        "5": 485
+    },
+    "llm_time": 58.90544080734253,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.05598163604736328,
+    "constrainer_time": 0.5459651947021484,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 60.77058982849121,
+    "frequency": {
+        "1": 2323
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:29:27: undefined name 'email'",
+        "<python>:44:9: 'return' outside function"
+    ]
+}

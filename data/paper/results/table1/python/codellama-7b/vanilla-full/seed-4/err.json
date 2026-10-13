@@ -1,0 +1,106 @@
+{
+    "BigCodeBench/17": {
+        "1": [
+            "BigCodeBench/17.py:6:15: undefined name 'process'"
+        ]
+    },
+    "BigCodeBench/37": {
+        "1": [
+            "BigCodeBench/37.py:10:40: undefined name 'train_test_split'"
+        ]
+    },
+    "BigCodeBench/124": {
+        "1": [
+            "BigCodeBench/124.py:25:82: undefined name 'start_time'",
+            "BigCodeBench/124.py:27:44: undefined name 'start_time'"
+        ]
+    },
+    "BigCodeBench/147": {
+        "1": [
+            "BigCodeBench/147.py:9:10: undefined name 'ThreadPoolExecutor'"
+        ]
+    },
+    "BigCodeBench/211": {
+        "1": [
+            "BigCodeBench/211.py:13:26: undefined name 'io'",
+            "BigCodeBench/211.py:18:5: undefined name 'shutil'"
+        ]
+    },
+    "BigCodeBench/273": {
+        "1": [
+            "BigCodeBench/273.py:42:24: invalid syntax. Perhaps you forgot a comma?",
+            "            if not all(isinstance v for k, v in key.items()):",
+            "                       ^"
+        ]
+    },
+    "BigCodeBench/274": {
+        "1": [
+            "BigCodeBench/274.py:35:12: expected an indented block after 'else' statement on line 34",
+            "           ",
+            "           ^"
+        ]
+    },
+    "BigCodeBench/486": {
+        "1": [
+            "BigCodeBench/486.py:16:5: undefined name 'plt'",
+            "BigCodeBench/486.py:17:10: undefined name 'sns'"
+        ]
+    },
+    "BigCodeBench/502": {
+        "1": [
+            "BigCodeBench/502.py:29:84: closing parenthesis '}' does not match opening parenthesis '('",
+            "    data = pd.DataFrame({\"Date\": dates, \"Activity\": list(activities_duration.keys()}, \"Duration\": list(activities_duration.values())})",
+            "                                                                                   ^"
+        ]
+    },
+    "BigCodeBench/513": {
+        "1": [
+            "BigCodeBench/513.py:21:71: unterminated string literal (detected at line 21)",
+            "    plt.plot(data.index, data[column], label=f\"Line Chart of {column}\"')",
+            "                                                                      ^"
+        ]
+    },
+    "BigCodeBench/587": {
+        "1": [
+            "BigCodeBench/587.py:35:40: undefined name 'hashes'",
+            "BigCodeBench/587.py:36:23: undefined name 'hashes'"
+        ]
+    },
+    "BigCodeBench/590": {
+        "1": [
+            "BigCodeBench/590.py:17:15: undefined name 'URLError'"
+        ]
+    },
+    "BigCodeBench/655": {
+        "1": [
+            "BigCodeBench/655.py:24:59: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/760": {
+        "1": [
+            "BigCodeBench/760.py:14:68: unterminated string literal (detected at line 14)",
+            "    emails = [f\"{name.lower().replace('\\\\'', '')}{date.strftime('%Y')}@{email_domain}\" for name, date in zip(latin_names + other_names, dates)]",
+            "                                                                   ^"
+        ]
+    },
+    "BigCodeBench/800": {
+        "1": [
+            "BigCodeBench/800.py:45:31: invalid syntax",
+            "    assert task_func(['Team A': 2, 'Team B': 1, 'Team C': 3], []) == Counter({'Team A': 2, 'Team B': 1, 'Team C': 3})",
+            "                              ^"
+        ]
+    },
+    "BigCodeBench/964": {
+        "1": [
+            "BigCodeBench/964.py:34:1: inconsistent use of tabs and spaces in indentation",
+            "    \telif file_path.suffix == '.csv':",
+            "^"
+        ]
+    },
+    "BigCodeBench/1015": {
+        "1": [
+            "BigCodeBench/1015.py:18:12: undefined name 'etree'",
+            "BigCodeBench/1015.py:19:15: undefined name 'etree'"
+        ]
+    }
+}

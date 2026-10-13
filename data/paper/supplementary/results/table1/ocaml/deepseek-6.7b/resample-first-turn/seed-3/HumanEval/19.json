@@ -1,0 +1,22 @@
+{
+    "decoded": 95,
+    "llm_time": 2.430450916290283,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002470731735229492,
+    "constrainer_time": 0.021863460540771484,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.481462240219116,
+    "frequency": {
+        "1": 96
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:3:64: Unbound value \"List.find_idx\"\nHint: Did you mean \"find_index\"?"
+    ]
+}

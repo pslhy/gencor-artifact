@@ -1,0 +1,12 @@
+{
+    "BigCodeBench/360": [
+        "BigCodeBench/360.py:29:9: undefined name 'plt'"
+    ],
+    "BigCodeBench/771": [
+        "BigCodeBench/771.py:14:40: undefined name 'datetime'",
+        "BigCodeBench/771.py:14:68: undefined name 'datetime'"
+    ],
+    "BigCodeBench/785": [
+        "BigCodeBench/785.py:13:71: undefined module member 'datetime.now'"
+    ]
+}

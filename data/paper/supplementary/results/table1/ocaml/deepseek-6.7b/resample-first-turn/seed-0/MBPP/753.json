@@ -1,0 +1,22 @@
+{
+    "decoded": 445,
+    "llm_time": 11.441960096359253,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.014687776565551758,
+    "constrainer_time": 0.10892438888549805,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 11.713424682617188,
+    "frequency": {
+        "1": 446
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:8:45: Unbound module \"Pervasives\""
+    ]
+}

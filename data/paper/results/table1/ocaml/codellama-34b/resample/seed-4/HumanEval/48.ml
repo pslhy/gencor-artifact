@@ -1,0 +1,39 @@
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(*  *)
+(* === Turn 1 === *)
+(* < User Prompt > *)
+(*     Checks if given string is a palindrome *)
+(*     >>> is_palindrome "" *)
+(*     true *)
+(*     >>> is_palindrome "aba" *)
+(*     true *)
+(*     >>> is_palindrome "aaaaa" *)
+(*     true *)
+(*     >>> is_palindrome "zbcd" *)
+(*     false *)
+let rec is_palindrome (text : string) : bool =
+    if text = "" || text.length <= 1 then
+        true
+    else if text.[0] = text.[text.length - 1]
+        is_palindrome text.[1..text.length - 2]
+    else
+        false
+
+(* === Turn 2 === *)
+(* < User Prompt > *)
+(*     The following errors were found in the previous code: *)
+(*     - test.ml:6:5: Syntax error *)
+(*     Please regenerate the code, taking these errors into account. *)
+let rec is_palindrome (text : string) : bool =
+    if String.length text = 0 then
+        true
+    else if String.length text = 1 then
+        false
+    else if text.[0] = text.[String.length text - 1] then
+        is_palindrome text.[1..String.length text - 2]
+    else
+        false
+

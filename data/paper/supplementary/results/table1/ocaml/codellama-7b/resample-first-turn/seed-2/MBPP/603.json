@@ -1,0 +1,22 @@
+{
+    "decoded": 126,
+    "llm_time": 3.3117830753326416,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0032112598419189453,
+    "constrainer_time": 0.03039836883544922,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.3805227279663086,
+    "frequency": {
+        "1": 127
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:13:13: Unbound value \"List.last\""
+    ]
+}

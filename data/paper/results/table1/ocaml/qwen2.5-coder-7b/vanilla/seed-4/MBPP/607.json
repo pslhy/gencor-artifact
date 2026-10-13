@@ -1,0 +1,22 @@
+{
+    "decoded": 70,
+    "llm_time": 1.9796192646026611,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0025551319122314453,
+    "constrainer_time": 0.01832413673400879,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.026763677597046,
+    "frequency": {
+        "1": 71
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/607.ml:2:14: Unbound module \"Re\""
+    ]
+}

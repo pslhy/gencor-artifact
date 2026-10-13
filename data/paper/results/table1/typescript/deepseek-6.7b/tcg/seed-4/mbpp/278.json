@@ -1,0 +1,20 @@
+{
+    "total_time": 17.765708923339844,
+    "llm_time": 17.765708923339844,
+    "constrainer_time": 0.0,
+    "n_resamples": 17,
+    "eos": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "crashed": null,
+    "constrained": true,
+    "temp": 1.0,
+    "seed": 4,
+    "is_err": true,
+    "is_synerr": false,
+    "is_uv": false,
+    "errors": [
+        "TS2322: Type 'number | [number, number]' is not assignable to type 'number'.\n  Type '[number, number]' is not assignable to type 'number'.",
+        "TS2769: No overload matches this call.\n  Overload 1 of 3, '(callbackfn: (previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number], initialValue: number | [...]): number | [...]', gave the following error.\n    Argument of type '(count: number, element: string) => number' is not assignable to parameter of type '(previousValue: number | [number, number], currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number | [number, number]'.\n      Types of parameters 'count' and 'previousValue' are incompatible.\n        Type 'number | [number, number]' is not assignable to type 'number'.\n          Type '[number, number]' is not assignable to type 'number'.\n  Overload 2 of 3, '(callbackfn: (previousValue: number, currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number, initialValue: number): number', gave the following error.\n    Argument of type '(count: number, element: string) => number' is not assignable to parameter of type '(previousValue: number, currentValue: number | [number, number], currentIndex: number, array: (number | [number, number])[]) => number'.\n      Types of parameters 'element' and 'currentValue' are incompatible.\n        Type 'number | [number, number]' is not assignable to type 'string'.\n          Type 'number' is not assignable to type 'string'."
+    ]
+}

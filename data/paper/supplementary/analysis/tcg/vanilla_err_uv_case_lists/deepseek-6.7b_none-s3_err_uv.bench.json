@@ -1,0 +1,206 @@
+[
+  {
+    "prompt": "//Given a grid with N rows and N columns (N >= 2) and a positive integer k, \n// each cell of the grid contains a value. Every integer in the range [1, N * N]\n// inclusive appears exactly once on the cells of the grid.\n// You have to find the minimum path of length k in the grid. You can start\n// from any cell, and in each step you can move to any of the neighbor cells,\n// in other words, you can go to cells which share an edge with you current\n// cell.\n// Please note that a path of length k means visiting exactly k cells (not\n// necessarily distinct).\n// You CANNOT go off the grid.\n// A path A (of length k) is considered less than a path B (of length k) if\n// after making the ordered arrays of the values on the cells that A and B go\n// through (let's call them lst_A and lst_B), lst_A is lexicographically less\n// than lst_B, in other words, there exist an integer index i (1 <= i <= k)\n// such that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have\n// lst_A[j] = lst_B[j].\n// It is guaranteed that the answer is unique.\n// Return an ordered array of the values on the cells that the minimum path go through.\n// Examples:    \n// >>> minPath([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)\n// [1, 2, 1]\n// >>> minPath([[5, 9, 3], [4, 1, 6], [7, 8, 2]], 1)\n// [1]\nfunction minPath(grid: number[][], k: number): number[] {",
+    "task_id": "HumanEval/129",
+    "instruct_prompt": "Given a grid with N rows and N columns (N >= 2) and a positive integer k,\neach cell of the grid contains a value. Every integer in the range [1, N * N]\ninclusive appears exactly once on the cells of the grid.\nYou have to find the minimum path of length k in the grid. You can start\nfrom any cell, and in each step you can move to any of the neighbor cells,\nin other words, you can go to cells which share an edge with you current\ncell.\nPlease note that a path of length k means visiting exactly k cells (not\nnecessarily distinct).\nYou CANNOT go off the grid.\nA path A (of length k) is considered less than a path B (of length k) if\nafter making the ordered arrays of the values on the cells that A and B go\nthrough (let's call them lst_A and lst_B), lst_A is lexicographically less\nthan lst_B, in other words, there exist an integer index i (1 <= i <= k)\nsuch that lst_A[i] < lst_B[i] and for any j (1 <= j < i) we have\nlst_A[j] = lst_B[j].\nIt is guaranteed that the answer is unique.\nReturn an ordered array of the values on the cells that the minimum path go through.\nExamples:\n>>> minPath([[1, 2, 3], [4, 5, 6], [7, 8, 9]], 3)\n[1, 2, 1]\n>>> minPath([[5, 9, 3], [4, 1, 6], [7, 8, 2]], 1)\n[1]",
+    "code_prompt": "function minPath(grid: number[][], k: number): number[] {"
+  },
+  {
+    "prompt": "//Write a function that accepts an array of strings.\n// The array contains different words. Return the word with maximum number\n// of unique characters. If multiple strings have maximum number of unique\n// characters, return the one which comes first in lexicographical order.\n// >>> find_max([\"name\", \"of\", \"string\"])\n// \"string\"\n// >>> find_max([\"name\", \"enam\", \"game\"])\n// \"enam\"\n// >>> find_max([\"aaaaaaa\", \"bb\", \"cc\"])\n// \"aaaaaaa\"\nfunction find_max(words: string[]): string {",
+    "task_id": "HumanEval/158",
+    "instruct_prompt": "Write a function that accepts an array of strings.\nThe array contains different words. Return the word with maximum number\nof unique characters. If multiple strings have maximum number of unique\ncharacters, return the one which comes first in lexicographical order.\n>>> find_max([\"name\", \"of\", \"string\"])\n\"string\"\n>>> find_max([\"name\", \"enam\", \"game\"])\n\"enam\"\n>>> find_max([\"aaaaaaa\", \"bb\", \"cc\"])\n\"aaaaaaa\"",
+    "code_prompt": "function find_max(words: string[]): string {"
+  },
+  {
+    "prompt": "//This function takes an array l and returns an array l' such that\n// l' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal\n// to the values of the corresponding indicies of l, but sorted.\n// >>> sort_third([1, 2, 3])\n// [1, 2, 3]\n// >>> sort_third([5, 6, 3, 4, 8, 9, 2])\n// [2, 6, 3, 4, 8, 9, 5]\nfunction sort_third(l: number[]): number[] {",
+    "task_id": "HumanEval/33",
+    "instruct_prompt": "This function takes an array l and returns an array l' such that\nl' is identical to l in the indicies that are not divisible by three, while its values at the indicies that are divisible by three are equal\nto the values of the corresponding indicies of l, but sorted.\n>>> sort_third([1, 2, 3])\n[1, 2, 3]\n>>> sort_third([5, 6, 3, 4, 8, 9, 2])\n[2, 6, 3, 4, 8, 9, 5]",
+    "code_prompt": "function sort_third(l: number[]): number[] {"
+  },
+  {
+    "prompt": "//This function takes an array l and returns an array l' such that\n// l' is identical to l in the odd indicies, while its values at the even indicies are equal\n// to the values of the even indicies of l, but sorted.\n// >>> sort_even([1, 2, 3])\n// [1, 2, 3]\n// >>> sort_even([5, 6, 3, 4])\n// [3, 6, 5, 4]\nfunction sort_even(l: number[]): number[] {",
+    "task_id": "HumanEval/37",
+    "instruct_prompt": "This function takes an array l and returns an array l' such that\nl' is identical to l in the odd indicies, while its values at the even indicies are equal\nto the values of the even indicies of l, but sorted.\n>>> sort_even([1, 2, 3])\n[1, 2, 3]\n>>> sort_even([5, 6, 3, 4])\n[3, 6, 5, 4]",
+    "code_prompt": "function sort_even(l: number[]): number[] {"
+  },
+  {
+    "prompt": "//You are given an array of integers.\n// Write a function next_smallest() that returns the 2nd smallest element of the array.\n// Return undefined if there is no such element.\n// >>> next_smallest([1, 2, 3, 4, 5])\n// 2\n// >>> next_smallest([5, 1, 4, 3, 2])\n// 2\n// >>> next_smallest([])\n// undefined\n// >>> next_smallest([1, 1])\n// undefined\nfunction next_smallest(lst: number[]): number | undefined {",
+    "task_id": "HumanEval/90",
+    "instruct_prompt": "You are given an array of integers.\nWrite a function next_smallest() that returns the 2nd smallest element of the array.\nReturn undefined if there is no such element.\n>>> next_smallest([1, 2, 3, 4, 5])\n2\n>>> next_smallest([5, 1, 4, 3, 2])\n2\n>>> next_smallest([])\nundefined\n>>> next_smallest([1, 1])\nundefined",
+    "code_prompt": "function next_smallest(lst: number[]): number | undefined {"
+  },
+  {
+    "prompt": "//You'll be given a string of words, and your task is to count the number\n// of boredoms. A boredom is a sentence that starts with the word \"I\".\n// Sentences are delimited by '.', '?' or '!'.\n// For example:\n// >>> is_bored(\"Hello world\")\n// 0\n// >>> is_bored(\"The sky is blue. The sun is shining. I love this weather\")\n// 1\nfunction is_bored(S: string): number {",
+    "task_id": "HumanEval/91",
+    "instruct_prompt": "You'll be given a string of words, and your task is to count the number\nof boredoms. A boredom is a sentence that starts with the word \"I\".\nSentences are delimited by '.', '?' or '!'.\nFor example:\n>>> is_bored(\"Hello world\")\n0\n>>> is_bored(\"The sky is blue. The sun is shining. I love this weather\")\n1",
+    "code_prompt": "function is_bored(S: string): number {"
+  },
+  {
+    "prompt": "//Write a function to find the item with maximum frequency in a given array.\nfunction max_occurrences(nums: number[]): number {",
+    "task_id": "mbpp/130",
+    "instruct_prompt": "Write a function to find the item with maximum frequency in a given array.",
+    "code_prompt": "function max_occurrences(nums: number[]): number {"
+  },
+  {
+    "prompt": "//Write a function to check if all the elements in array have same data type or not.\nfunction check_type(test_tuple: any): boolean {",
+    "task_id": "mbpp/222",
+    "instruct_prompt": "Write a function to check if all the elements in array have same data type or not.",
+    "code_prompt": "function check_type(test_tuple: any): boolean {"
+  },
+  {
+    "prompt": "//Write a function that takes in an array and an integer n, and re-arranges the first n elements of the given array so that all negative elements appear before positive ones, and where the relative order among negative and positive elements is preserved.\nfunction re_arrange_array(arr: number[], n: number): number[] {",
+    "task_id": "mbpp/229",
+    "instruct_prompt": "Write a function that takes in an array and an integer n, and re-arranges the first n elements of the given array so that all negative elements appear before positive ones, and where the relative order among negative and positive elements is preserved.",
+    "code_prompt": "function re_arrange_array(arr: number[], n: number): number[] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to convert complex numbers to polar coordinates.\nfunction convert(numbers: number): [number, number] {",
+    "task_id": "mbpp/252",
+    "instruct_prompt": "Write a tsthon function to convert complex numbers to polar coordinates.",
+    "code_prompt": "function convert(numbers: number): [number, number] {"
+  },
+  {
+    "prompt": "//Write a function that takes in an array of arrays and returns an array containing the rear element of each array.\nfunction rear_extract(test_list: [number, string, number][]): number[] {",
+    "task_id": "mbpp/272",
+    "instruct_prompt": "Write a function that takes in an array of arrays and returns an array containing the rear element of each array.",
+    "code_prompt": "function rear_extract(test_list: [number, string, number][]): number[] {"
+  },
+  {
+    "prompt": "//Write a tsthon function that takes in a positive integer n and finds the sum of even index binomial coefficients.\nfunction even_binomial_Coeff_Sum(n: number): number {",
+    "task_id": "mbpp/274",
+    "instruct_prompt": "Write a tsthon function that takes in a positive integer n and finds the sum of even index binomial coefficients.",
+    "code_prompt": "function even_binomial_Coeff_Sum(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find the number of elements that occurs before the array element in the given array.\nfunction count_first_elements(test_tup: (number | [number, number])[]): number {",
+    "task_id": "mbpp/278",
+    "instruct_prompt": "Write a function to find the number of elements that occurs before the array element in the given array.",
+    "code_prompt": "function count_first_elements(test_tup: (number | [number, number])[]): number {"
+  },
+  {
+    "prompt": "//Write a function to find the maximum value in a given heterogeneous array.\nfunction max_val(listval: (string | number)[]): number {",
+    "task_id": "mbpp/294",
+    "instruct_prompt": "Write a function to find the maximum value in a given heterogeneous array.",
+    "code_prompt": "function max_val(listval: (string | number)[]): number {"
+  },
+  {
+    "prompt": "//Write a function to check if given array contains no duplicates.\nfunction check_distinct(test_tup: number[]): boolean {",
+    "task_id": "mbpp/394",
+    "instruct_prompt": "Write a function to check if given array contains no duplicates.",
+    "code_prompt": "function check_distinct(test_tup: number[]): boolean {"
+  },
+  {
+    "prompt": "//Write a function to find the n largest integers from a given array of numbers, returned in descending order.\nfunction heap_queue_largest(nums: number[], n: number): number[] {",
+    "task_id": "mbpp/4",
+    "instruct_prompt": "Write a function to find the n largest integers from a given array of numbers, returned in descending order.",
+    "code_prompt": "function heap_queue_largest(nums: number[], n: number): number[] {"
+  },
+  {
+    "prompt": "//Write a function to find k number of smallest pairs which consist of one element from the first array and one element from the second array.\nfunction k_smallest_pairs(nums1: number[], nums2: number[], k: number): number[][] {",
+    "task_id": "mbpp/408",
+    "instruct_prompt": "Write a function to find k number of smallest pairs which consist of one element from the first array and one element from the second array.",
+    "code_prompt": "function k_smallest_pairs(nums1: number[], nums2: number[], k: number): number[][] {"
+  },
+  {
+    "prompt": "//Write a tsthon function which takes an array of integers and counts the number of possible unordered pairs where both elements are unequal.\nfunction count_Pairs(arr: number[], n: number): number {",
+    "task_id": "mbpp/564",
+    "instruct_prompt": "Write a tsthon function which takes an array of integers and counts the number of possible unordered pairs where both elements are unequal.",
+    "code_prompt": "function count_Pairs(arr: number[], n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to remove uneven elements in the nested mixed array.\nfunction extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {",
+    "task_id": "mbpp/580",
+    "instruct_prompt": "Write a function to remove uneven elements in the nested mixed array.",
+    "code_prompt": "function extract_even(test_tuple: [number, number, [number, number, [number, number]], number, number]): any {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the sum of the product of consecutive binomial co-efficients.\nfunction sum_Of_product(n: number): number {",
+    "task_id": "mbpp/592",
+    "instruct_prompt": "Write a tsthon function to find the sum of the product of consecutive binomial co-efficients.",
+    "code_prompt": "function sum_Of_product(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find kth element from the given two sorted arrays.\nfunction find_kth(arr1: number[], arr2: number[], k: number): number {",
+    "task_id": "mbpp/597",
+    "instruct_prompt": "Write a function to find kth element from the given two sorted arrays.",
+    "code_prompt": "function find_kth(arr1: number[], arr2: number[], k: number): number {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find the first repeated character in a given string.\nfunction first_repeated_char(str1: string): string | undefined {",
+    "task_id": "mbpp/602",
+    "instruct_prompt": "Write a tsthon function to find the first repeated character in a given string.",
+    "code_prompt": "function first_repeated_char(str1: string): string | undefined {"
+  },
+  {
+    "prompt": "//Write a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.\nfunction find_literals(text: string, pattern: string): [string, number, number] {",
+    "task_id": "mbpp/607",
+    "instruct_prompt": "Write a function to search a string for a regex pattern. The function should return the matching subtring, a start index and an end index.",
+    "code_prompt": "function find_literals(text: string, pattern: string): [string, number, number] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find nth bell number.\nfunction bell_Number(n: number): number {",
+    "task_id": "mbpp/608",
+    "instruct_prompt": "Write a tsthon function to find nth bell number.",
+    "code_prompt": "function bell_Number(n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to find the median of two sorted arrays of same size.\nfunction get_median(arr1: number[], arr2: number[], n: number): number {",
+    "task_id": "mbpp/622",
+    "instruct_prompt": "Write a function to find the median of two sorted arrays of same size.",
+    "code_prompt": "function get_median(arr1: number[], arr2: number[], n: number): number {"
+  },
+  {
+    "prompt": "//Write a function to flatten an array and sum all of its elements.\nfunction recursive_list_sum(data_list: (number | number[])[]): number {",
+    "task_id": "mbpp/65",
+    "instruct_prompt": "Write a function to flatten an array and sum all of its elements.",
+    "code_prompt": "function recursive_list_sum(data_list: (number | number[])[]): number {"
+  },
+  {
+    "prompt": "//Write a function to add an object to the array. The output should be an array.\nfunction add_dict_to_tuple(test_tup: [number, number, number], test_dict: {[key: string]: number}): [number, number, number, {[key: string]: number}] {",
+    "task_id": "mbpp/720",
+    "instruct_prompt": "Write a function to add an object to the array. The output should be an array.",
+    "code_prompt": "function add_dict_to_tuple(test_tup: [number, number, number], test_dict: {[key: string]: number}): [number, number, number, {[key: string]: number}] {"
+  },
+  {
+    "prompt": "//Write a function that takes base and power as arguments and calculate the sum of all digits of the base to the specified power.\nfunction power_base_sum(base: number, power: number): number {",
+    "task_id": "mbpp/724",
+    "instruct_prompt": "Write a function that takes base and power as arguments and calculate the sum of all digits of the base to the specified power.",
+    "code_prompt": "function power_base_sum(base: number, power: number): number {"
+  },
+  {
+    "prompt": "//Write a function to sort a given array of strings of numbers numerically. https://www.geeksforgeeks.org/tsthon-sort-numeric-strings-in-a-array/\nfunction sort_numeric_strings(nums_str: string[]): number[] {",
+    "task_id": "mbpp/749",
+    "instruct_prompt": "Write a function to sort a given array of strings of numbers numerically. https://www.geeksforgeeks.org/tsthon-sort-numeric-strings-in-a-array/",
+    "code_prompt": "function sort_numeric_strings(nums_str: string[]): number[] {"
+  },
+  {
+    "prompt": "//Write a tsthon function to find whether a number is divisible by 11.\nfunction is_Diff(n: number): boolean {",
+    "task_id": "mbpp/77",
+    "instruct_prompt": "Write a tsthon function to find whether a number is divisible by 11.",
+    "code_prompt": "function is_Diff(n: number): boolean {"
+  },
+  {
+    "prompt": "//Write a function to find the occurrence and position of the substrings within a string. Return undefined if there is no match.\nfunction occurance_substring(text: string, pattern: string): [string, number, number] | undefined {",
+    "task_id": "mbpp/773",
+    "instruct_prompt": "Write a function to find the occurrence and position of the substrings within a string. Return undefined if there is no match.",
+    "code_prompt": "function occurance_substring(text: string, pattern: string): [string, number, number] | undefined {"
+  },
+  {
+    "prompt": "//Write a function to convert array string to integer array.\nfunction tuple_str_int(test_str: string): [number, number, number] {",
+    "task_id": "mbpp/785",
+    "instruct_prompt": "Write a function to convert array string to integer array.",
+    "code_prompt": "function tuple_str_int(test_str: string): [number, number, number] {"
+  },
+  {
+    "prompt": "//Write a function to get the frequency of all the elements in an array, returned as an object.\nfunction freq_count(list1: number[]): {[key: number]: number} {",
+    "task_id": "mbpp/88",
+    "instruct_prompt": "Write a function to get the frequency of all the elements in an array, returned as an object.",
+    "code_prompt": "function freq_count(list1: number[]): {[key: number]: number} {"
+  },
+  {
+    "prompt": "//Given an array of arrays, write a function that returns the first value of the array with the smallest second value.\nfunction index_minimum(test_list: [string, number][]): string {",
+    "task_id": "mbpp/94",
+    "instruct_prompt": "Given an array of arrays, write a function that returns the first value of the array with the smallest second value.",
+    "code_prompt": "function index_minimum(test_list: [string, number][]): string {"
+  }
+]

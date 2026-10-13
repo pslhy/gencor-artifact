@@ -1,0 +1,26 @@
+{
+    "BigCodeBench/82": [
+        "<python>:29:20: undefined name 'User'"
+    ],
+    "BigCodeBench/147": [
+        "<python>:9:18: undefined name 'datetime'",
+        "<python>:19:20: undefined name 'datetime'",
+        "<python>:27:22: undefined name 'datetime'",
+        "<python>:29:23: undefined name 'datetime'",
+        "<python>:36:53: undefined name 'datetime'"
+    ],
+    "BigCodeBench/526": [
+        "<python>:12:46: undefined module member 'pd.isnumeric'"
+    ],
+    "BigCodeBench/532": [
+        "<python>:7:10: undefined name 'pd'"
+    ],
+    "BigCodeBench/583": [
+        "<python>:18:11: undefined name 'PBKDF2HMAC'",
+        "<python>:18:32: undefined name 'SHA256'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:10:27: undefined module member 'rsa.generate_private_key'",
+        "<python>:15:26: undefined module member 'rsa.generate_public_key'"
+    ]
+}

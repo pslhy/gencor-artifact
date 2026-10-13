@@ -1,0 +1,31 @@
+{
+    "decoded": 1316,
+    "decoded_at_turn": {
+        "1": 264,
+        "2": 263,
+        "3": 263,
+        "4": 263,
+        "5": 263
+    },
+    "llm_time": 76.21521019935608,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.03553128242492676,
+    "constrainer_time": 0.3237955570220947,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 77.15992641448975,
+    "frequency": {
+        "1": 1321
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:12:46: undefined module member 'pd.isnumeric'"
+    ]
+}

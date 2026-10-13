@@ -1,0 +1,19 @@
+let rec all_Bits_Set_In_The_Given_Range (n : int) (l : int) (r : int) : bool =
+    if l > r then false
+    else
+        match n land (1 lsl l) with
+        | 0 -> false
+        | _ -> all_Bits_Set_In_The_Given_Range n (l + 1) r
+
+(* Test cases:
+    all_Bits_Set_In_The_Given_Range 0 4 8 (* true *)
+    all_Bits_Set_In_The_Given_Range 1 4 8 (* false *)
+*)
+
+
+(* <System Prompt> *)
+(*     You are an expert in OCaml programming. Solve the given problem by writing solution code in OCaml. When answering, insert the solution code in a ```ocaml...``` block. *)
+(*     Do not include test cases or explanations as comments in the code. *)
+(*  *)
+(* < User Prompt > *)
+(*     Write a mlthon function to check whether all the bits are unset in the given range or not. *)

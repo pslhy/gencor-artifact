@@ -1,0 +1,21 @@
+function re_arrange_array(arr: number[], n: number): number[] {
+    let negative_count = 0;
+    for (let i = 0; i < n; i++) {
+        const current_element = arr[i];
+        if (current_element < 0) {
+            arr[negative_count] = current_element;
+            negative_count++;
+        } else if (current_element > 0) {
+            arr[i] = current_element;
+        }
+    }
+    return arr;
+}
+
+
+// <System Prompt>
+//     You are an expert in TypeScript programming. Solve the given problem by writing solution code in TypeScript. When answering, insert the solution code in a ```typescript...``` block.
+//     Do not include test cases or explanations as comments in the code.
+// 
+// < User Prompt >
+//     Write a function that takes in an array and an integer n, and re-arranges the first n elements of the given array so that all negative elements appear before positive ones, and where the relative order among negative and positive elements is preserved.

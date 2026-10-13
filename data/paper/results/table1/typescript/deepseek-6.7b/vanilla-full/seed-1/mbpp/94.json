@@ -1,0 +1,19 @@
+{
+    "decoded": 24,
+    "llm_time": 0.594538688659668,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0005736351013183594,
+    "constrainer_time": 0.005568265914916992,
+    "total_time": 0.6065614223480225,
+    "frequency": {
+        "1": 25
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'number' is not assignable to type 'string'."
+    ]
+}

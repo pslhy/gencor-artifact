@@ -1,0 +1,22 @@
+{
+    "decoded": 83,
+    "llm_time": 2.267705202102661,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002092599868774414,
+    "constrainer_time": 0.019499778747558594,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.3173649311065674,
+    "frequency": {
+        "1": 84
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/773.ml:9:3: This expression has type \"(string * int * int) option\"\nbut an expression was expected of type \"string * int * int option\""
+    ]
+}

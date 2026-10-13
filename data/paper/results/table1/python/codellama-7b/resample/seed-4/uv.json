@@ -1,0 +1,30 @@
+{
+    "BigCodeBench/37": [
+        "<python>:10:40: undefined name 'train_test_split'"
+    ],
+    "BigCodeBench/124": [
+        "<python>:18:47: undefined name 'start_time'"
+    ],
+    "BigCodeBench/147": [
+        "<python>:9:10: undefined name 'ThreadPoolExecutor'"
+    ],
+    "BigCodeBench/274": [
+        "<python>:17:16: undefined name 'datetime'",
+        "<python>:19:20: undefined name 'datetime'"
+    ],
+    "BigCodeBench/583": [
+        "<python>:9:23: undefined module member 'rsa.gen_key'"
+    ],
+    "BigCodeBench/587": [
+        "<python>:10:19: undefined module member 'rsa.generate_private_key'",
+        "<python>:35:40: undefined name 'hashes'",
+        "<python>:36:23: undefined name 'hashes'"
+    ],
+    "BigCodeBench/655": [
+        "<python>:24:59: undefined name 'np'"
+    ],
+    "BigCodeBench/1015": [
+        "<python>:18:17: undefined module member 'html.XPathEvaluationError'",
+        "<python>:19:20: undefined module member 'html.XPathEvaluationError'"
+    ]
+}

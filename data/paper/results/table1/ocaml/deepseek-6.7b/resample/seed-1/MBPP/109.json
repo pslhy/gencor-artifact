@@ -1,0 +1,28 @@
+{
+    "decoded": 397,
+    "decoded_at_turn": {
+        "1": 203,
+        "2": 194
+    },
+    "llm_time": 9.914344549179077,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.009828567504882812,
+    "constrainer_time": 0.08885335922241211,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 10.133870124816895,
+    "frequency": {
+        "1": 399
+    },
+    "turns": 2,
+    "max_turns": 2,
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:20: The function \"split\" has type ('a * 'b) list -> 'a list * 'b list\nIt is applied to too many arguments"
+    ]
+}

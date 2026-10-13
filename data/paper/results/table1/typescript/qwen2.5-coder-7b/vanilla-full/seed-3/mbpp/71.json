@@ -1,0 +1,20 @@
+{
+    "decoded": 158,
+    "llm_time": 4.005589246749878,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036978721618652344,
+    "constrainer_time": 0.03619265556335449,
+    "total_time": 4.094181776046753,
+    "frequency": {
+        "1": 159
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS18048: 'shrink' is possibly 'undefined'.",
+        "TS2554: Expected 1 arguments, but got 2."
+    ]
+}

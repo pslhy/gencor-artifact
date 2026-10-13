@@ -1,0 +1,24 @@
+{
+    "decoded": 231,
+    "llm_time": 12.470812797546387,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.005780458450317383,
+    "constrainer_time": 0.05472850799560547,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 12.600200653076172,
+    "frequency": {
+        "1": 232
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:33: undefined name 'string'",
+        "<python>:11:33: undefined name 'string'",
+        "<python>:13:17: undefined name 'stopwords'"
+    ]
+}

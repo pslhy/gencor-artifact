@@ -1,0 +1,22 @@
+{
+    "decoded": 79,
+    "llm_time": 4.3108625411987305,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002071857452392578,
+    "constrainer_time": 0.019359827041625977,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.3559911251068115,
+    "frequency": {
+        "1": 80
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:5:19: Unbound value \"List.min\""
+    ]
+}

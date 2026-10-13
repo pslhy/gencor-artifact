@@ -1,0 +1,101 @@
+{
+    "HumanEval/116": [
+        "test.ml:3:18: Unbound value \"Int.bits_of_float\""
+    ],
+    "HumanEval/117": [
+        "test.ml:3:32: Unbound value \"String.pos\""
+    ],
+    "HumanEval/119": [
+        "test.ml:14:7: Unbound value \"Array.push\""
+    ],
+    "HumanEval/134": [
+        "test.ml:3:5: Unbound value \"Char.is_alphabetic\""
+    ],
+    "HumanEval/149": [
+        "test.ml:7:23: Unbound value \"List.remove_all\"\nHint: Did you mean \"remove_assq\"?"
+    ],
+    "HumanEval/161": [
+        "test.ml:7:17: Unbound value \"String.mkchar\""
+    ],
+    "HumanEval/18": [
+        "test.ml:10:14: Unbound module \"React\""
+    ],
+    "HumanEval/44": [
+        "test.ml:10:18: Unbound value \"Char.of_int\""
+    ],
+    "HumanEval/65": [
+        "test.ml:4:15: Unbound value \"String.to_list\""
+    ],
+    "HumanEval/78": [
+        "test.ml:4:6: Unbound value \"is_prime\""
+    ],
+    "HumanEval/86": [
+        "test.ml:4:40: Unbound value \"String.explode\""
+    ],
+    "HumanEval/93": [
+        "test.ml:7:9: Unbound value \"Char.uppercase\""
+    ],
+    "HumanEval/96": [
+        "test.ml:4:11: Unbound value \"is_prime\""
+    ],
+    "HumanEval/98": [
+        "test.ml:5:16: Unbound value \"Char.uppercase\""
+    ],
+    "MBPP/100": [
+        "test.ml:21:30: Unbound value \"result\""
+    ],
+    "MBPP/162": [
+        "test.ml:5:5: Unbound value \"term\""
+    ],
+    "MBPP/18": [
+        "test.ml:5:25: Unbound value \"String.replace_first\""
+    ],
+    "MBPP/295": [
+        "test.ml:4:22: Unbound value \"n\""
+    ],
+    "MBPP/395": [
+        "test.ml:5:22: Unbound value \"String.lowercase\""
+    ],
+    "MBPP/444": [
+        "test.ml:4:16: Unbound value \"trim_list\"\nHint: Did you mean \"test_list\"?"
+    ],
+    "MBPP/475": [
+        "test.ml:6:51: Unbound value \"_v\""
+    ],
+    "MBPP/478": [
+        "test.ml:3:25: Unbound value \"String.split_at\""
+    ],
+    "MBPP/555": [
+        "test.ml:5:24: Unbound value \"sum_of_cubes\""
+    ],
+    "MBPP/557": [
+        "test.ml:4:11: Unbound value \"Char.is_lowercase\""
+    ],
+    "MBPP/559": [
+        "test.ml:5:10: Unbound value \"List.take\""
+    ],
+    "MBPP/6": [
+        "test.ml:4:20: Unbound module \"Bitwise\""
+    ],
+    "MBPP/624": [
+        "test.ml:6:9: Unbound value \"Char.is_upper\""
+    ],
+    "MBPP/640": [
+        "test.ml:26:41: Unbound value \"String.split\"\nHint: Did you mean \"blit\"?"
+    ],
+    "MBPP/71": [
+        "test.ml:7:14: Unbound value \"combine\"\nHint: Did you mean \"compare\"?"
+    ],
+    "MBPP/739": [
+        "test.ml:5:29: Unbound value \"triangular\""
+    ],
+    "MBPP/749": [
+        "test.ml:2:27: Unbound value \"a\""
+    ],
+    "MBPP/757": [
+        "test.ml:5:15: Unbound value \"String.reverse\""
+    ],
+    "MBPP/772": [
+        "test.ml:4:20: Unbound value \"String.split_on_space\""
+    ]
+}

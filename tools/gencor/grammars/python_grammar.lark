@@ -1,0 +1,874 @@
+// Generated from python_ummac_v2_grammar.lark by generate_python_ummac_v3.py -- nullable _nls (COMMENT|_NEWLINE)* after open/comma; non-nullable _nls1 sibling before close brackets.
+
+single_input: _NEWLINE
+              | simple_stmt
+              | compound_stmt _NEWLINE
+
+start: _bnf_start_star_0
+       |
+       | "```python" _bnf_start_star_0 "```" _bnf_start_star_1
+       | "```python" _bnf_start_star_0 "```"
+       | "```python" "```" _bnf_start_star_1
+       | "```python" "```"
+
+file_input: _bnf_file_input_star_2
+            |
+
+eval_input: testlist _bnf_start_star_1
+            | testlist
+
+decorator: "@" dotted_name "(" _nls arguments ")" _NEWLINE
+| "@" dotted_name "(" _nls arguments _nls1 ")" _NEWLINE
+           | "@" dotted_name "(" _nls ")" _NEWLINE
+           | "@" dotted_name _NEWLINE
+
+decorators: _bnf_decorators_plus_3
+
+decorated: decorators classdef
+           | decorators funcdef
+           | decorators async_funcdef
+
+async_funcdef: "async" funcdef
+
+funcdef: "def" name "(" _nls parameters ")" "->" test ":" suite => bnd{false,1}
+         | "def" name "(" _nls parameters ")" ":" suite => bnd{false,1}
+         | "def" name "(" _nls ")" "->" test ":" suite => bnd{false,1}
+         | "def" name "(" _nls ")" ":" suite => bnd{false,1}
+
+parameters: paramvalue _bnf_parameters_star_4 "," _nls SLASH _bnf_parameters_star_4 "," _nls starparams
+            | paramvalue _bnf_parameters_star_4 "," _nls SLASH _bnf_parameters_star_4 "," _nls kwparams
+            | paramvalue _bnf_parameters_star_4 "," _nls SLASH _bnf_parameters_star_4 "," _nls
+            | paramvalue _bnf_parameters_star_4 "," _nls SLASH _bnf_parameters_star_4
+            | paramvalue _bnf_parameters_star_4 "," _nls SLASH "," _nls starparams
+            | paramvalue _bnf_parameters_star_4 "," _nls SLASH "," _nls kwparams
+            | paramvalue _bnf_parameters_star_4 "," _nls SLASH "," _nls
+            | paramvalue _bnf_parameters_star_4 "," _nls SLASH
+            | paramvalue _bnf_parameters_star_4 "," _nls starparams
+            | paramvalue _bnf_parameters_star_4 "," _nls kwparams
+            | paramvalue _bnf_parameters_star_4 "," _nls
+            | paramvalue _bnf_parameters_star_4
+            | paramvalue "," _nls SLASH _bnf_parameters_star_4 "," _nls starparams
+            | paramvalue "," _nls SLASH _bnf_parameters_star_4 "," _nls kwparams
+            | paramvalue "," _nls SLASH _bnf_parameters_star_4 "," _nls
+            | paramvalue "," _nls SLASH _bnf_parameters_star_4
+            | paramvalue "," _nls SLASH "," _nls starparams
+            | paramvalue "," _nls SLASH "," _nls kwparams
+            | paramvalue "," _nls SLASH "," _nls
+            | paramvalue "," _nls SLASH
+            | paramvalue "," _nls starparams
+            | paramvalue "," _nls kwparams
+            | paramvalue "," _nls
+            | paramvalue
+            | starparams
+            | kwparams
+
+starparams: starparam poststarparams
+            | starguard poststarparams
+
+starparam: "*" typedparam
+
+starguard: "*"
+
+poststarparams: _bnf_parameters_star_4 "," _nls kwparams
+                | _bnf_parameters_star_4
+                | "," _nls kwparams
+                |
+
+kwparams: "**" typedparam "," _nls
+          | "**" typedparam
+
+?paramvalue: typedparam "=" test
+             | typedparam
+
+?typedparam: name ":" test => bnd{false,0}
+             | name => bnd{false,0}
+
+lambdef: "lambda" lambda_params ":" test
+         | "lambda" ":" test
+
+lambdef_nocond: "lambda" lambda_params ":" test_nocond
+                | "lambda" ":" test_nocond
+
+lambda_params: lambda_paramvalue _bnf_lambda_params_star_5 "," _nls lambda_starparams
+               | lambda_paramvalue _bnf_lambda_params_star_5 "," _nls lambda_kwparams
+               | lambda_paramvalue _bnf_lambda_params_star_5 "," _nls
+               | lambda_paramvalue _bnf_lambda_params_star_5
+               | lambda_paramvalue "," _nls lambda_starparams
+               | lambda_paramvalue "," _nls lambda_kwparams
+               | lambda_paramvalue "," _nls
+               | lambda_paramvalue
+               | lambda_starparams
+               | lambda_kwparams
+
+?lambda_paramvalue: name "=" test => bnd{false,0}
+                    | name => bnd{false,0}
+
+lambda_starparams: "*" name _bnf_lambda_params_star_5 "," _nls lambda_kwparams => bnd{false,1}
+                   | "*" name _bnf_lambda_params_star_5 "," _nls => bnd{false,1}
+                   | "*" name _bnf_lambda_params_star_5 => bnd{false,1}
+                   | "*" name "," _nls lambda_kwparams => bnd{false,1}
+                   | "*" name "," _nls => bnd{false,1}
+                   | "*" name => bnd{false,1}
+                   | "*" _bnf_lambda_params_star_5 "," _nls lambda_kwparams
+                   | "*" _bnf_lambda_params_star_5 "," _nls
+                   | "*" _bnf_lambda_params_star_5
+                   | "*" "," _nls lambda_kwparams
+                   | "*" "," _nls
+                   | "*"
+
+lambda_kwparams: "**" name "," _nls => bnd{false,1}
+                 | "**" name => bnd{false,1}
+
+?stmt: simple_stmt
+       | compound_stmt
+
+?simple_stmt: small_stmt _bnf_simple_stmt_star_6 ";" COMMENT _NEWLINE
+              | small_stmt _bnf_simple_stmt_star_6 ";" _NEWLINE
+              | small_stmt _bnf_simple_stmt_star_6 COMMENT _NEWLINE
+              | small_stmt _bnf_simple_stmt_star_6 _NEWLINE
+              | small_stmt ";" COMMENT _NEWLINE
+              | small_stmt ";" _NEWLINE
+              | small_stmt COMMENT _NEWLINE
+              | small_stmt _NEWLINE
+
+?small_stmt: expr_stmt
+             | assign_stmt
+             | del_stmt
+             | pass_stmt
+             | flow_stmt
+             | import_stmt
+             | global_stmt
+             | nonlocal_stmt
+             | assert_stmt
+
+expr_stmt: testlist_star_expr
+
+assign_stmt: annassign
+             | augassign
+             | assign
+
+annassign: namelist_expr ":" test "=" test
+           | namelist_expr ":" test
+
+assign: namelist_expr _bnf_assign_plus_7
+
+augassign: augged_name augassign_op yield_expr
+           | augged_name augassign_op testlist
+
+!augassign_op: TOK_ANON_4
+               | TOK_ANON_5
+               | TOK_ANON_6
+               | TOK_ANON_7
+               | TOK_ANON_8
+               | TOK_ANON_9
+               | TOK_ANON_10
+               | TOK_ANON_11
+               | TOK_ANON_12
+               | TOK_ANON_13
+               | TOK_ANON_14
+               | TOK_ANON_15
+               | TOK_ANON_16
+
+?testlist_star_expr: test_or_star_expr
+                     | test_or_star_expr _bnf_testlist_star_expr_plus_8 "," _nls -> tuple
+                     | test_or_star_expr _bnf_testlist_star_expr_plus_8 -> tuple
+                     | test_or_star_expr "," _nls -> tuple
+
+?namelist_star_expr.2: name => bnd{false,0}
+                       | name_or_star_expr _bnf_namelist_star_expr_plus_9 "," _nls -> name_tuple
+                       | name_or_star_expr _bnf_namelist_star_expr_plus_9 -> name_tuple
+                       | name_or_star_expr "," _nls -> name_tuple
+                       | atom_expr "[" _nls subscriptlist "]" -> getitem
+                       | atom_expr "[" _nls subscriptlist _nls1 "]" -> getitem
+                       | atom_expr "." name -> getattr => bnd{false,2},mark_bnd_if_module{0,2},expr_getattr{0,2},qual{0}
+
+?name_or_star_expr.2: name => bnd{false,0}
+                      | "*" name -> starred_name => bnd{false,1}
+                      | atom_expr "[" _nls subscriptlist "]" -> getitem
+                      | atom_expr "[" _nls subscriptlist _nls1 "]" -> getitem
+                      | atom_expr "." name -> getattr => bnd{false,2},mark_bnd_if_module{0,2},expr_getattr{0,2},qual{0}
+
+name_atom.2: name => bnd{false,0}
+             | atom_expr "[" _nls subscriptlist "]" -> getitem
+             | atom_expr "[" _nls subscriptlist _nls1 "]" -> getitem
+             | atom_expr "." name -> getattr => bnd{false,2},mark_bnd_if_module{0,2},expr_getattr{0,2},qual{0}
+
+name_test.2: "(" _nls name_test ")"
+             | name_test _bnf_name_test_plus_10 "," _nls starred_name "," _nls
+             | name_test _bnf_name_test_plus_10 "," _nls starred_name
+             | name_test _bnf_name_test_plus_10 "," _nls
+             | name_test _bnf_name_test_plus_10
+             | name_test "," _nls
+             | name_test "," _nls starred_name "," _nls
+             | name_test "," _nls starred_name
+             | name_atom
+
+starred_name: "*" name_atom
+
+namelist_expr: name_test
+               | starred_name "," _nls
+
+augged_name: name => bnd{true,0}
+             | atom_expr "[" _nls subscriptlist "]" -> getitem
+             | atom_expr "[" _nls subscriptlist _nls1 "]" -> getitem
+             | atom_expr "." name -> getattr => bnd{false,2},mark_bnd_if_module{0,2},expr_getattr{0,2},qual{0}
+
+del_stmt: "del" exprlist
+
+pass_stmt: "pass"
+
+?flow_stmt: break_stmt
+            | continue_stmt
+            | return_stmt
+            | raise_stmt
+            | yield_stmt
+
+break_stmt: "break"
+
+continue_stmt: "continue"
+
+return_stmt: "return" testlist
+             | "return"
+
+yield_stmt: yield_expr
+
+raise_stmt: "raise" test "from" test
+            | "raise" test
+            | "raise"
+
+import_stmt: import_name
+             | import_from
+
+import_name: "import" dotted_as_names
+
+import_from: "from" dots dotted_name "import" "*"
+             | "from" dots dotted_name "import" "(" _nls import_as_names ")"
+             | "from" dots dotted_name "import" import_as_names
+             | "from" dotted_name "import" "*"
+             | "from" dotted_name "import" "(" _nls import_as_names ")"
+             | "from" dotted_name "import" import_as_names
+             | "from" dots "import" "*"
+             | "from" dots "import" "(" _nls import_as_names ")"
+             | "from" dots "import" import_as_names
+
+!dots: _bnf_dots_plus_11
+
+import_as_name: name "as" name => bnd{true,0,false,2}
+                | name => bnd{true,0}
+
+dotted_as_name: dotted_name "as" name => bnd{false,2}
+                | dotted_name
+
+import_as_names: import_as_name _bnf_import_as_names_star_12 "," _nls
+                 | import_as_name _bnf_import_as_names_star_12
+                 | import_as_name "," _nls
+                 | import_as_name
+
+dotted_as_names: dotted_as_name _bnf_dotted_as_names_star_13
+                 | dotted_as_name
+
+dotted_name: name _bnf_dotted_name_star_14 => bnd{true,0}
+             | name => bnd{true,0}
+
+global_stmt: "global" name _bnf_global_stmt_star_15 => bnd{false,1,false,2}
+             | "global" name => bnd{false,1}
+
+nonlocal_stmt: "nonlocal" name _bnf_global_stmt_star_15 => bnd{true,1,true,2}
+               | "nonlocal" name => bnd{true,1}
+
+assert_stmt: "assert" test "," _nls test
+             | "assert" test
+
+?compound_stmt: if_stmt
+                | while_stmt
+                | for_stmt
+                | try_stmt
+                | with_stmt
+                | funcdef
+                | classdef
+                | decorated
+                | async_stmt
+
+async_stmt: "async" funcdef
+            | "async" with_stmt
+            | "async" for_stmt
+
+if_stmt: "if" test ":" suite elifs "else" ":" suite
+         | "if" test ":" suite elifs
+
+elifs: _bnf_elifs_star_16
+       |
+
+elif_: "elif" test ":" suite
+
+while_stmt: "while" test ":" suite "else" ":" suite
+            | "while" test ":" suite
+
+for_namelist_star_expr: namelist_star_expr
+                        | name_or_star_expr _bnf_namelist_star_expr_plus_9 "," _nls -> name_tuple
+                        | name_or_star_expr _bnf_namelist_star_expr_plus_9 -> name_tuple
+                        | name_or_star_expr "," _nls -> name_tuple
+
+for_stmt: "for" namelist_expr "in" testlist ":" suite "else" ":" suite
+          | "for" namelist_expr "in" testlist ":" suite
+
+try_stmt: "try" ":" suite except_clauses "else" ":" suite finally
+          | "try" ":" suite except_clauses "else" ":" suite
+          | "try" ":" suite except_clauses finally
+          | "try" ":" suite except_clauses
+          | "try" ":" suite finally -> try_finally
+
+finally: "finally" ":" suite
+
+except_clauses: _bnf_except_clauses_plus_17
+
+except_clause: "except" test "as" name ":" suite => bnd{false,3}
+               | "except" test ":" suite
+               | "except" ":" suite
+
+with_stmt: "with" with_items ":" suite
+
+with_items: with_item _bnf_with_items_star_18
+            | with_item
+
+with_item: test "as" name => bnd{false,2}
+           | test
+
+case: "case" pattern "if" test ":" suite
+      | "case" pattern ":" suite
+
+?pattern: sequence_item_pattern "," _nls _sequence_pattern -> sequence_pattern
+          | as_pattern
+
+?as_pattern: or_pattern "as" NAME => bnd{false,2}
+             | or_pattern
+
+?or_pattern: closed_pattern _bnf_or_pattern_star_19
+             | closed_pattern
+
+?closed_pattern: literal_pattern
+                 | NAME -> capture_pattern => bnd{true,0}
+                 | attr_pattern
+                 | "(" _nls as_pattern ")"
+                 | "[" _nls _sequence_pattern "]" -> sequence_pattern
+                 | "(" _nls sequence_item_pattern "," _nls _sequence_pattern ")" -> sequence_pattern
+                 | "(" _nls ")" -> sequence_pattern
+                 | "{" _nls mapping_item_pattern _bnf_closed_pattern_star_20 "," _nls "}" -> mapping_pattern
+                 | "{" _nls mapping_item_pattern _bnf_closed_pattern_star_20 "}" -> mapping_pattern
+                 | "{" _nls mapping_item_pattern "," _nls "}" -> mapping_pattern
+                 | "{" _nls mapping_item_pattern "}" -> mapping_pattern
+                 | "{" _nls "}" -> mapping_pattern
+                 | "{" _nls mapping_item_pattern _bnf_closed_pattern_star_20 "," _nls "**" NAME "," _nls "}" -> mapping_star_pattern => bnd{true,7}
+                 | "{" _nls mapping_item_pattern _bnf_closed_pattern_star_20 "," _nls "**" NAME "}" -> mapping_star_pattern => bnd{true,7}
+                 | "{" _nls mapping_item_pattern "," _nls "**" NAME "," _nls "}" -> mapping_star_pattern => bnd{true,6}
+                 | "{" _nls mapping_item_pattern "," _nls "**" NAME "}" -> mapping_star_pattern => bnd{true,6}
+                 | "{" _nls "**" NAME "," _nls "}" -> mapping_star_pattern => bnd{true,3}
+                 | "{" _nls "**" NAME "}" -> mapping_star_pattern => bnd{true,3}
+                 | class_pattern
+
+literal_pattern: inner_literal_pattern
+
+?inner_literal_pattern: "None" -> const_none
+                        | "True" -> const_true
+                        | "False" -> const_false
+                        | STRING -> string
+                        | number
+
+attr_pattern: NAME _bnf_attr_pattern_plus_21 -> value => bnd{true,0}
+
+name_or_attr_pattern: NAME _bnf_attr_pattern_plus_21 -> value => bnd{true,0}
+                      | NAME -> value => bnd{true,0}
+
+mapping_item_pattern: literal_pattern ":" as_pattern
+                      | attr_pattern ":" as_pattern
+
+_sequence_pattern: sequence_item_pattern _bnf_sequence_pattern_star_22 "," _nls
+                   | sequence_item_pattern _bnf_sequence_pattern_star_22
+                   | sequence_item_pattern "," _nls
+                   | sequence_item_pattern
+                   |
+
+?sequence_item_pattern: as_pattern
+                        | "*" NAME -> star_pattern => bnd{true,1}
+
+class_pattern: name_or_attr_pattern "(" _nls arguments_pattern "," _nls ")"
+               | name_or_attr_pattern "(" _nls arguments_pattern ")"
+               | name_or_attr_pattern "(" _nls ")"
+
+arguments_pattern: pos_arg_pattern "," _nls keyws_arg_pattern
+                   | pos_arg_pattern
+                   | keyws_arg_pattern -> no_pos_arguments
+
+pos_arg_pattern: as_pattern _bnf_pos_arg_pattern_star_23
+                 | as_pattern
+
+keyws_arg_pattern: keyw_arg_pattern _bnf_keyws_arg_pattern_star_24
+                   | keyw_arg_pattern
+
+keyw_arg_pattern: NAME "=" as_pattern => bnd{true,0}
+
+suite: simple_stmt
+       | _bnf_suite_plus_25 _INDENT stmt _bnf_suite_star_26 _DEDENT
+       | _bnf_suite_plus_25 _INDENT stmt _DEDENT
+
+?test: or_test "if" or_test "else" test
+       | or_test
+       | lambdef
+
+?test_nocond: or_test
+              | lambdef_nocond
+
+?or_test: and_test _bnf_or_test_star_27
+          | and_test
+
+?and_test: not_test_ _bnf_and_test_star_28
+           | not_test_
+
+?not_test_: "not" not_test_ -> not_test
+            | comparison
+
+?comparison: expr _bnf_comparison_star_29
+             | expr
+
+star_expr: "*" expr
+
+?expr: or_expr
+
+?or_expr: xor_expr _bnf_or_expr_star_30
+          | xor_expr
+
+?xor_expr: and_expr _bnf_xor_expr_star_31
+           | and_expr
+
+?and_expr: shift_expr _bnf_and_expr_star_32
+           | shift_expr
+
+?shift_expr: arith_expr _bnf_shift_expr_star_33
+             | arith_expr
+
+?arith_expr: term _bnf_arith_expr_star_34
+             | term
+
+?term: factor _bnf_term_star_35
+       | factor
+
+?factor: _unary_op factor
+         | power
+
+!_unary_op: PLUS
+            | MINUS
+            | TILDE
+
+!_add_op: PLUS
+          | MINUS
+
+!_shift_op: TOK_ANON_17
+            | TOK_ANON_18
+
+!_mul_op: STAR
+          | AT
+          | SLASH
+          | PERCENT
+          | TOK_ANON_19
+
+!comp_op: LESSTHAN
+          | MORETHAN
+          | TOK_ANON_20
+          | TOK_ANON_21
+          | TOK_ANON_22
+          | TOK_ANON_23
+          | IN
+          | NOT IN
+          | IS
+          | IS NOT
+
+?power: await_expr "**" factor
+        | await_expr
+
+?await_expr: AWAIT atom_expr
+             | atom_expr
+
+?atom_expr: atom_expr "(" _nls arguments ")" -> funccall
+| atom_expr "(" _nls arguments _nls1 ")" -> funccall
+            | atom_expr "(" _nls ")" -> funccall
+            | atom_expr "[" _nls subscriptlist "]" -> getitem
+            | atom_expr "[" _nls subscriptlist _nls1 "]" -> getitem
+            | atom_expr "." name -> getattr => bnd{false,2},mark_bnd_if_module{0,2},expr_getattr{0,2},qual{0}
+            | atom => pass_expr{0},pass_callee{0}
+
+?atom: "(" _nls yield_expr ")"
+       | "(" _nls _tuple_inner ")" -> tuple
+       | "(" _nls _tuple_inner _nls1 ")" -> tuple
+       | "(" _nls ")" -> tuple
+       | "(" _nls _bnf_comprehension_test_or_star_expr ")" -> tuple_comprehension
+       | "[" _nls _exprlist "]" -> list
+       | "[" _nls _exprlist _nls1 "]" -> list
+       | "[" _nls "]" -> list
+       | "[" _nls _bnf_comprehension_test_or_star_expr "]" -> list_comprehension
+       | "{" _nls _dict_exprlist "}" -> dict
+       | "{" _nls _dict_exprlist _nls1 "}" -> dict
+       | "{" _nls "}" -> dict
+       | "{" _nls _bnf_comprehension_key_value "}" -> dict_comprehension
+       | "{" _nls _exprlist "}" -> set
+       | "{" _nls _exprlist _nls1 "}" -> set
+       | "{" _nls _bnf_comprehension_test "}" -> set_comprehension
+       | name -> var => bnd{true,0},pass_expr{0},pass_callee{0}
+       | number
+       | string_concat
+       | "(" _nls test ")"
+       | "..." -> ellipsis
+       | "None" -> const_none
+       | "True" -> const_true
+       | "False" -> const_false
+
+?string_concat: _bnf_string_concat_plus_36
+
+_tuple_inner: test_or_star_expr _bnf_testlist_star_expr_plus_8 "," _nls
+              | test_or_star_expr _bnf_testlist_star_expr_plus_8
+              | test_or_star_expr "," _nls
+
+?test_or_star_expr: test
+                    | star_expr
+
+?subscriptlist: subscript
+                | subscript _bnf_subscriptlist_plus_37 "," _nls -> subscript_tuple
+                | subscript _bnf_subscriptlist_plus_37 -> subscript_tuple
+                | subscript "," _nls -> subscript_tuple
+
+?subscript: test
+            | test ":" test sliceop -> slice
+            | test ":" test -> slice
+            | test ":" sliceop -> slice
+            | test ":" -> slice
+            | ":" test sliceop -> slice
+            | ":" test -> slice
+            | ":" sliceop -> slice
+            | ":" -> slice
+
+sliceop: ":" test
+         | ":"
+
+?exprlist: expr
+           | star_expr
+           | expr _bnf_exprlist_plus_38 "," _nls
+           | expr _bnf_exprlist_plus_38
+           | expr "," _nls
+           | star_expr _bnf_exprlist_plus_38 "," _nls
+           | star_expr _bnf_exprlist_plus_38
+           | star_expr "," _nls
+
+?testlist: test
+           | testlist_tuple
+
+testlist_tuple: test _bnf_testlist_tuple_plus_39 "," _nls
+                | test _bnf_testlist_tuple_plus_39
+                | test "," _nls
+
+_dict_exprlist: key_value _bnf_dict_exprlist_star_40 "," _nls
+                | key_value _bnf_dict_exprlist_star_40
+                | key_value "," _nls
+                | key_value
+                | "**" expr _bnf_dict_exprlist_star_40 "," _nls
+                | "**" expr _bnf_dict_exprlist_star_40
+                | "**" expr "," _nls
+                | "**" expr
+
+key_value: test ":" test
+
+_exprlist: test_or_star_expr _bnf_testlist_star_expr_plus_8 "," _nls
+           | test_or_star_expr _bnf_testlist_star_expr_plus_8
+           | test_or_star_expr "," _nls
+           | test_or_star_expr
+
+classdef: "class" name "(" _nls arguments ")" ":" suite => bnd{false,1}
+| "class" name "(" _nls arguments _nls1 ")" ":" suite => bnd{false,1}
+          | "class" name "(" _nls ")" ":" suite => bnd{false,1}
+          | "class" name ":" suite => bnd{false,1}
+
+arguments: test _bnf_testlist_tuple_plus_39 _bnf_arguments_star_41 "," _nls starargs
+           | test _bnf_testlist_tuple_plus_39 _bnf_arguments_star_41 "," _nls kwargs
+           | test _bnf_testlist_tuple_plus_39 _bnf_arguments_star_41 "," _nls
+           | test _bnf_testlist_tuple_plus_39 _bnf_arguments_star_41
+           | test _bnf_testlist_tuple_plus_39 "," _nls starargs
+           | test _bnf_testlist_tuple_plus_39 "," _nls kwargs
+           | test _bnf_testlist_tuple_plus_39 "," _nls
+           | test _bnf_testlist_tuple_plus_39
+           | test _bnf_arguments_star_41 "," _nls starargs
+           | test _bnf_arguments_star_41 "," _nls kwargs
+           | test _bnf_arguments_star_41 "," _nls
+           | test _bnf_arguments_star_41
+           | test "," _nls starargs
+           | test "," _nls kwargs
+           | test "," _nls
+           | test
+           | argvalue _bnf_arguments_star_41 "," _nls starargs
+           | argvalue _bnf_arguments_star_41 "," _nls kwargs
+           | argvalue _bnf_arguments_star_41 "," _nls
+           | argvalue _bnf_arguments_star_41
+           | argvalue "," _nls starargs
+           | argvalue "," _nls kwargs
+           | argvalue "," _nls
+           | argvalue
+           | starargs
+           | kwargs
+           | _bnf_comprehension_test
+
+starargs: stararg _bnf_starargs_star_42 _bnf_arguments_star_41 "," _nls kwargs
+          | stararg _bnf_starargs_star_42 _bnf_arguments_star_41
+          | stararg _bnf_starargs_star_42 "," _nls kwargs
+          | stararg _bnf_starargs_star_42
+          | stararg _bnf_arguments_star_41 "," _nls kwargs
+          | stararg _bnf_arguments_star_41
+          | stararg "," _nls kwargs
+          | stararg
+
+stararg: "*" test
+
+kwargs: "**" test _bnf_arguments_star_41
+        | "**" test
+
+?argvalue: name "=" test => bnd{false,0}
+
+comp_fors: _bnf_comp_fors_plus_43
+
+comp_for: ASYNC "for" namelist_expr "in" or_test
+          | "for" namelist_expr "in" or_test
+
+?comp_if: "if" test_nocond
+
+yield_expr: "yield" testlist
+            | "yield"
+            | "yield" "from" test -> yield_from
+
+number: DEC_NUMBER
+        | HEX_NUMBER
+        | BIN_NUMBER
+        | OCT_NUMBER
+        | FLOAT_NUMBER
+        | IMAG_NUMBER
+
+string: STRING
+        | LONG_STRING
+
+!name: NAME => pass_bnd{0},name_syn{0},pass_callee{0}
+       | MATCH => pass_bnd{0},name_syn{0},pass_callee{0}
+       | CASE => pass_bnd{0},name_syn{0},pass_callee{0}
+
+_bnf_comprehension_test_or_star_expr: test_or_star_expr comp_fors comp_if => ctx{U,0,R,1}
+                                      | test_or_star_expr comp_fors => ctx{U,0,R,1}
+
+_bnf_comprehension_key_value: key_value comp_fors comp_if => ctx{U,0,R,1}
+                              | key_value comp_fors => ctx{U,0,R,1}
+
+_bnf_comprehension_test: test comp_fors comp_if => ctx{U,0,R,1}
+                         | test comp_fors => ctx{U,0,R,1}
+
+_bnf_start_star_0: _NEWLINE
+                   | stmt
+                   | COMMENT
+                   | _bnf_start_star_0 _NEWLINE
+                   | _bnf_start_star_0 stmt
+                   | _bnf_start_star_0 COMMENT
+
+_bnf_start_star_1: _NEWLINE
+                   | _bnf_start_star_1 _NEWLINE
+
+_bnf_file_input_star_2: _NEWLINE
+                        | stmt
+                        | _bnf_file_input_star_2 _NEWLINE
+                        | _bnf_file_input_star_2 stmt
+
+_bnf_decorators_plus_3: decorator
+                        | _bnf_decorators_plus_3 decorator
+
+_bnf_parameters_star_4: "," _nls paramvalue
+                        | _bnf_parameters_star_4 "," _nls paramvalue
+
+_bnf_lambda_params_star_5: "," _nls lambda_paramvalue
+                           | _bnf_lambda_params_star_5 "," _nls lambda_paramvalue
+
+_bnf_simple_stmt_star_6: ";" small_stmt
+                         | _bnf_simple_stmt_star_6 ";" small_stmt
+
+_bnf_assign_plus_7: "=" yield_expr
+                    | "=" testlist_star_expr
+                    | _bnf_assign_plus_7 "=" yield_expr
+                    | _bnf_assign_plus_7 "=" testlist_star_expr
+
+_bnf_testlist_star_expr_plus_8: "," _nls test_or_star_expr
+                                | _bnf_testlist_star_expr_plus_8 "," _nls test_or_star_expr
+
+_bnf_namelist_star_expr_plus_9: "," _nls name_or_star_expr
+                                | _bnf_namelist_star_expr_plus_9 "," _nls name_or_star_expr
+
+_bnf_name_test_plus_10: "," _nls name_test
+                        | _bnf_name_test_plus_10 "," _nls name_test
+
+!_bnf_dots_plus_11: DOT
+                    | _bnf_dots_plus_11 DOT
+
+_bnf_import_as_names_star_12: "," _nls import_as_name
+                              | _bnf_import_as_names_star_12 "," _nls import_as_name
+
+_bnf_dotted_as_names_star_13: "," _nls dotted_as_name
+                              | _bnf_dotted_as_names_star_13 "," _nls dotted_as_name
+
+_bnf_dotted_name_star_14: "." name => bnd{false,1}
+                          | _bnf_dotted_name_star_14 "." name => bnd{false,2}
+
+_bnf_global_stmt_star_15: "," _nls name => pass_bnd{2}
+                          | _bnf_global_stmt_star_15 "," _nls name => pass_bnd{0,3}
+
+_bnf_elifs_star_16: elif_
+                    | _bnf_elifs_star_16 elif_
+
+_bnf_except_clauses_plus_17: except_clause
+                             | _bnf_except_clauses_plus_17 except_clause
+
+_bnf_with_items_star_18: "," _nls with_item
+                         | _bnf_with_items_star_18 "," _nls with_item
+
+_bnf_or_pattern_star_19: "|" closed_pattern
+                         | _bnf_or_pattern_star_19 "|" closed_pattern
+
+_bnf_closed_pattern_star_20: "," _nls mapping_item_pattern
+                             | _bnf_closed_pattern_star_20 "," _nls mapping_item_pattern
+
+_bnf_attr_pattern_plus_21: "." NAME => bnd{false,1}
+                           | _bnf_attr_pattern_plus_21 "." NAME => bnd{false,2}
+
+_bnf_sequence_pattern_star_22: "," _nls sequence_item_pattern
+                               | _bnf_sequence_pattern_star_22 "," _nls sequence_item_pattern
+
+_bnf_pos_arg_pattern_star_23: "," _nls as_pattern
+                              | _bnf_pos_arg_pattern_star_23 "," _nls as_pattern
+
+_bnf_keyws_arg_pattern_star_24: "," _nls keyw_arg_pattern
+                                | _bnf_keyws_arg_pattern_star_24 "," _nls keyw_arg_pattern
+
+_bnf_suite_plus_25: COMMENT
+                    | _NEWLINE
+                    | _bnf_suite_plus_25 COMMENT
+                    | _bnf_suite_plus_25 _NEWLINE
+
+_bnf_suite_star_26: stmt
+                    | _NEWLINE
+                    | COMMENT
+                    | _bnf_suite_star_26 stmt
+                    | _bnf_suite_star_26 _NEWLINE
+                    | _bnf_suite_star_26 COMMENT
+
+_bnf_or_test_star_27: "or" and_test
+                      | _bnf_or_test_star_27 "or" and_test
+
+_bnf_and_test_star_28: "and" not_test_
+                       | _bnf_and_test_star_28 "and" not_test_
+
+_bnf_comparison_star_29: comp_op expr
+                         | _bnf_comparison_star_29 comp_op expr
+
+_bnf_or_expr_star_30: "|" xor_expr
+                      | _bnf_or_expr_star_30 "|" xor_expr
+
+_bnf_xor_expr_star_31: "^" and_expr
+                       | _bnf_xor_expr_star_31 "^" and_expr
+
+_bnf_and_expr_star_32: "&" shift_expr
+                       | _bnf_and_expr_star_32 "&" shift_expr
+
+_bnf_shift_expr_star_33: _shift_op arith_expr
+                         | _bnf_shift_expr_star_33 _shift_op arith_expr
+
+_bnf_arith_expr_star_34: _add_op term
+                         | _bnf_arith_expr_star_34 _add_op term
+
+_bnf_term_star_35: _mul_op factor
+                   | _bnf_term_star_35 _mul_op factor
+
+_bnf_string_concat_plus_36: string
+                            | _bnf_string_concat_plus_36 string
+
+_bnf_subscriptlist_plus_37: "," _nls subscript
+                            | _bnf_subscriptlist_plus_37 "," _nls subscript
+
+_bnf_exprlist_plus_38: "," _nls expr
+                       | "," _nls star_expr
+                       | _bnf_exprlist_plus_38 "," _nls expr
+                       | _bnf_exprlist_plus_38 "," _nls star_expr
+
+_bnf_testlist_tuple_plus_39: "," _nls test
+                             | _bnf_testlist_tuple_plus_39 "," _nls test
+
+_bnf_dict_exprlist_star_40: "," _nls key_value
+                            | "," _nls "**" expr
+                            | _bnf_dict_exprlist_star_40 "," _nls key_value
+                            | _bnf_dict_exprlist_star_40 "," _nls "**" expr
+
+_bnf_arguments_star_41: "," _nls argvalue
+                        | _bnf_arguments_star_41 "," _nls argvalue
+
+_bnf_starargs_star_42: "," _nls stararg
+                       | _bnf_starargs_star_42 "," _nls stararg
+
+_bnf_comp_fors_plus_43: comp_for
+                        | _bnf_comp_fors_plus_43 comp_for
+
+SLASH: "/"
+AWAIT: "await"
+ASYNC: "async"
+_NEWLINE: /\r?\n[\t ]*/
+NAME: /[^\W\d]\w*/
+COMMENT: /#[^\n]*/
+STRING: /(?:([ubf]?r?|r[ubf])'(\\.|[^'\n\\])*'|([ubf]?r?|r[ubf])"(\\.|[^"\n\\])*")/
+LONG_STRING: /(?:'''(?:\\.|[^'\\]|'[^']|''[^'])*'''|"""(\\.|[^"\\]|"[^"]|""[^"])*""")/
+_SPECIAL_DEC: /[0-9](?:(?:_)?[0-9])*/
+DEC_NUMBER: /(?:[1-9](?:(?:_)?[0-9])*|0(?:_(?:0)*)*)/
+HEX_NUMBER.2: /0(?:x|X)(?:(?:_)?(?:[0-9]|[a-f]|[A-F]))+/
+OCT_NUMBER.2: /0(?:o|O)(?:(?:_)?[0-7])+/
+BIN_NUMBER.2: /0(?:b|B)(?:(?:_)?[0-1])+/
+_EXP: /(?:e|E)(?:(?:\+|\-))?[0-9](?:(?:_)?[0-9])*/
+DECIMAL: /(?:[0-9](?:(?:_)?[0-9])*\.(?:[0-9](?:(?:_)?[0-9])*)?|\.[0-9](?:(?:_)?[0-9])*)/
+FLOAT_NUMBER.2: /(?:[0-9](?:(?:_)?[0-9])*(?:e|E)(?:(?:\+|\-))?[0-9](?:(?:_)?[0-9])*|(?:[0-9](?:(?:_)?[0-9])*\.(?:[0-9](?:(?:_)?[0-9])*)?|\.[0-9](?:(?:_)?[0-9])*)(?:(?:e|E)(?:(?:\+|\-))?[0-9](?:(?:_)?[0-9])*)?)/
+IMAG_NUMBER.2: /(?:(?:[0-9](?:(?:_)?[0-9])*(?:e|E)(?:(?:\+|\-))?[0-9](?:(?:_)?[0-9])*|(?:[0-9](?:(?:_)?[0-9])*\.(?:[0-9](?:(?:_)?[0-9])*)?|\.[0-9](?:(?:_)?[0-9])*)(?:(?:e|E)(?:(?:\+|\-))?[0-9](?:(?:_)?[0-9])*)?)|[0-9](?:(?:_)?[0-9])*)(?:J|j)/
+AT: "@"
+STAR: "*"
+TOK_ANON_4: "+="
+TOK_ANON_5: "-="
+TOK_ANON_6: "*="
+TOK_ANON_7: "@="
+TOK_ANON_8: "/="
+TOK_ANON_9: "%="
+TOK_ANON_10: "&="
+TOK_ANON_11: "|="
+TOK_ANON_12: "^="
+TOK_ANON_13: "<<="
+TOK_ANON_14: ">>="
+TOK_ANON_15: "**="
+TOK_ANON_16: "//="
+DOT: "."
+IN: "in"
+CASE: "case"
+NOT: "not"
+PLUS: "+"
+MINUS: "-"
+TILDE: "~"
+TOK_ANON_17: "<<"
+TOK_ANON_18: ">>"
+PERCENT: "%"
+TOK_ANON_19: "//"
+LESSTHAN: "<"
+MORETHAN: ">"
+TOK_ANON_20: "=="
+TOK_ANON_21: ">="
+TOK_ANON_22: "<="
+TOK_ANON_23: "!="
+IS: "is"
+MATCH: "match"
+
+%declare _DEDENT _INDENT
+
+%ignore /[\t \f]+/
+%ignore /\\[\t \f]*\r?\n/
+
+_nls: | _nls _NEWLINE | _nls COMMENT _NEWLINE
+_nls1: _NEWLINE | COMMENT _NEWLINE | _nls1 _NEWLINE | _nls1 COMMENT _NEWLINE

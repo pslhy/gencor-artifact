@@ -1,0 +1,20 @@
+{
+    "decoded": 67,
+    "llm_time": 1.6956255435943604,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001592397689819336,
+    "constrainer_time": 0.015903711318969727,
+    "total_time": 1.7297399044036865,
+    "frequency": {
+        "1": 68
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2304: Cannot find name 'TypeScript'.",
+        "TS2322: Type 'undefined' is not assignable to type 'number'."
+    ]
+}

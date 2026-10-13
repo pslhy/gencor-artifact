@@ -1,0 +1,20 @@
+{
+    "decoded": 149,
+    "llm_time": 8.164074897766113,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0038902759552001953,
+    "constrainer_time": 0.009097814559936523,
+    "total_time": 8.220340490341187,
+    "frequency": {
+        "1": 150
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2531: Object is possibly 'null'.",
+        "TS2531: Object is possibly 'null'."
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 71,
+    "llm_time": 3.841505765914917,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001880645751953125,
+    "constrainer_time": 0.01713848114013672,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 3.8811845779418945,
+    "frequency": {
+        "1": 72
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:6:28: Unbound value \"char_code\""
+    ]
+}

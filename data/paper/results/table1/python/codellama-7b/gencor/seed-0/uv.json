@@ -1,0 +1,8 @@
+{
+    "BigCodeBench/477": [
+        "BigCodeBench/477.py:30:39: undefined name 'unique_cat_count'"
+    ],
+    "BigCodeBench/1006": [
+        "BigCodeBench/1006.py:12:65: undefined module member 'datetime.now'"
+    ]
+}

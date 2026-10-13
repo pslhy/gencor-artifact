@@ -1,0 +1,43 @@
+{
+    "decoded": 343,
+    "llm_time": 18.257801294326782,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008357763290405273,
+    "constrainer_time": 0.019959211349487305,
+    "total_time": 18.378846883773804,
+    "frequency": {
+        "1": 344
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'i'.",
+        "TS2552: Cannot find name 'int'. Did you mean 'Intl'?",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'j'.",
+        "TS2304: Cannot find name 'i'."
+    ]
+}

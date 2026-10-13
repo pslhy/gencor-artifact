@@ -1,0 +1,20 @@
+{
+    "decoded": 61,
+    "llm_time": 1.507260799407959,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0014455318450927734,
+    "constrainer_time": 0.014360189437866211,
+    "total_time": 1.539351224899292,
+    "frequency": {
+        "1": 62
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2339: Property 'every' does not exist on type 'Set<string>'.",
+        "TS7006: Parameter 'c' implicitly has an 'any' type."
+    ]
+}

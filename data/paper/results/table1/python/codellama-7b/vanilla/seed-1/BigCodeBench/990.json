@@ -1,0 +1,22 @@
+{
+    "decoded": 287,
+    "llm_time": 7.466969728469849,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.006964921951293945,
+    "constrainer_time": 0.06739568710327148,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.639291286468506,
+    "frequency": {
+        "1": 288
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:20:25: undefined module member 'codecs.rot_encode'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 104,
+    "llm_time": 2.646634340286255,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.002590179443359375,
+    "constrainer_time": 0.023737668991088867,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.700856924057007,
+    "frequency": {
+        "1": 105
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/117.ml:8:25: This expression has type\n\"((string * string) * (string * string) * (string * string)) list\"\nbut an expression was expected of type \"(string * string) list\"\nType \"(string * string) * (string * string) * (string * string)\"\nis not compatible with type \"string * string\""
+    ]
+}

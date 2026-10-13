@@ -1,0 +1,19 @@
+{
+    "decoded": 58,
+    "llm_time": 3.1368823051452637,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015418529510498047,
+    "constrainer_time": 0.003571033477783203,
+    "total_time": 3.156989336013794,
+    "frequency": {
+        "1": 59
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2304: Cannot find name 'char'."
+    ]
+}

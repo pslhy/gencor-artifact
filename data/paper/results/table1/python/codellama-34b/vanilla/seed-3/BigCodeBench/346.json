@@ -1,0 +1,23 @@
+{
+    "decoded": 141,
+    "llm_time": 7.621551990509033,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0036361217498779297,
+    "constrainer_time": 0.0340571403503418,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 7.702834606170654,
+    "frequency": {
+        "1": 142
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:11:57: undefined name 'c'",
+        "<python>:16:44: undefined name 'c'"
+    ]
+}

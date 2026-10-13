@@ -1,0 +1,36 @@
+{
+    "decoded": 1743,
+    "decoded_at_turn": {
+        "1": 199,
+        "2": 346,
+        "3": 392,
+        "4": 338,
+        "5": 468
+    },
+    "llm_time": 45.92507553100586,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.045014381408691406,
+    "constrainer_time": 0.41753172874450684,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 47.244192361831665,
+    "frequency": {
+        "1": 1748
+    },
+    "turns": 5,
+    "max_turns": 5,
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:15:40: undefined name 'train_test_split'",
+        "<python>:18:23: undefined name 'LinearRegression'",
+        "<python>:25:11: undefined name 'mean_squared_error'",
+        "<python>:26:10: undefined name 'r2_score'",
+        "<python>:33:16: undefined name 'confusion_matrix'",
+        "<python>:37:37: undefined name 'precision_recall_curve'"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "decoded": 40,
+    "llm_time": 1.0807254314422607,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0009734630584716797,
+    "constrainer_time": 0.009515762329101562,
+    "total_time": 1.1036007404327393,
+    "frequency": {
+        "1": 41
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2345: Argument of type 'number' is not assignable to parameter of type '[number, number]'."
+    ]
+}

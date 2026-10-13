@@ -1,0 +1,22 @@
+{
+    "decoded": 66,
+    "llm_time": 1.7491481304168701,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0015816688537597656,
+    "constrainer_time": 0.015801668167114258,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 1.7842645645141602,
+    "frequency": {
+        "1": 67
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/305.ml:4:15: Unbound value \"String.existsx\"\nHint: Did you mean \"exists\"?"
+    ]
+}

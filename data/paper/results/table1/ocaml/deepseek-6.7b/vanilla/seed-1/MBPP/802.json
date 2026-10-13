@@ -1,0 +1,22 @@
+{
+    "decoded": 175,
+    "llm_time": 4.467501878738403,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0040624141693115234,
+    "constrainer_time": 0.03958725929260254,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 4.558969736099243,
+    "frequency": {
+        "1": 176
+    },
+    "is_uv": false,
+    "is_synerr": true,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/802.ml:5:5: Syntax error"
+    ]
+}

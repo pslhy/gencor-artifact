@@ -1,0 +1,31 @@
+{
+    "BigCodeBench/302": {
+        "1": [
+            "BigCodeBench/302.py:20:16: undefined name 'np'",
+            "BigCodeBench/302.py:20:50: undefined name 'np'",
+            "BigCodeBench/302.py:21:14: undefined name 'np'"
+        ]
+    },
+    "BigCodeBench/326": {
+        "1": [
+            "BigCodeBench/326.py:17:63: undefined module member 'subprocess.TimeoutExpiredError'"
+        ]
+    },
+    "BigCodeBench/501": {
+        "1": [
+            "BigCodeBench/501.py:10:21: undefined name 'json'"
+        ]
+    },
+    "BigCodeBench/760": {
+        "1": [
+            "BigCodeBench/760.py:28:54: closing parenthesis '}' does not match opening parenthesis '('",
+            "    email_array = [f\"{re.sub(r'\\s+', '', name.lower()}+{str(datetime.datetime.strptime(str(dob), '%Y-%m-%d %H:%M:%S').year)}{'@'+email_domain}\" for d, name in zip(list(time_random), list(name_array))]",
+            "                                                     ^"
+        ]
+    },
+    "BigCodeBench/1015": {
+        "1": [
+            "BigCodeBench/1015.py:21:22: undefined name 'etree'"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "decoded": 320,
+    "llm_time": 8.105422496795654,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.007819175720214844,
+    "constrainer_time": 0.07465887069702148,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 8.291689157485962,
+    "frequency": {
+        "1": 321
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "<python>:9:23: undefined module member 'rsa.generate_private_key'",
+        "<python>:12:21: undefined module member 'rsa.backends'"
+    ]
+}

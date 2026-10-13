@@ -1,0 +1,19 @@
+{
+    "decoded": 68,
+    "llm_time": 3.6263227462768555,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0016841888427734375,
+    "constrainer_time": 0.0041620731353759766,
+    "total_time": 3.649332046508789,
+    "frequency": {
+        "1": 69
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "TS2488: Type 'number' must have a '[Symbol.iterator]()' method that returns an iterator."
+    ]
+}

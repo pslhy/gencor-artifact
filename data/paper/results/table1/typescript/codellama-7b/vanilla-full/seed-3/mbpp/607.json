@@ -1,0 +1,19 @@
+{
+    "decoded": 128,
+    "llm_time": 3.2044098377227783,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0029163360595703125,
+    "constrainer_time": 0.029500961303710938,
+    "total_time": 3.269545078277588,
+    "frequency": {
+        "1": 129
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'RegExpExecArray | undefined' is not assignable to type 'RegExpExecArray | null'.\n  Type 'undefined' is not assignable to type 'RegExpExecArray | null'."
+    ]
+}

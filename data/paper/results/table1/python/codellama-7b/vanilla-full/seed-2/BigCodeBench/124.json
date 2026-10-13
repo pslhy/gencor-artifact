@@ -1,0 +1,23 @@
+{
+    "decoded": 368,
+    "llm_time": 9.181251764297485,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.008910417556762695,
+    "constrainer_time": 0.08490753173828125,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 9.402220487594604,
+    "frequency": {
+        "1": 369
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "BigCodeBench/124.py:25:58: undefined name 'start_time'",
+        "BigCodeBench/124.py:35:44: undefined name 'start_time'"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "decoded": 82,
+    "llm_time": 2.1605916023254395,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001978158950805664,
+    "constrainer_time": 0.01947474479675293,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 2.2043237686157227,
+    "frequency": {
+        "1": 83
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "MBPP/788.ml:7:19: This expression has type \"'a * 'b\"\nbut an expression was expected of type \"string * string * string\""
+    ]
+}

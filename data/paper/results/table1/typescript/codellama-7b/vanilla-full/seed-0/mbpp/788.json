@@ -1,0 +1,19 @@
+{
+    "decoded": 54,
+    "llm_time": 1.4043374061584473,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.001272439956665039,
+    "constrainer_time": 0.01297307014465332,
+    "total_time": 1.4323046207427979,
+    "frequency": {
+        "1": 55
+    },
+    "is_uv": false,
+    "is_synerr": false,
+    "is_err": true,
+    "is_timeout": false,
+    "time_limit": 180,
+    "errors": [
+        "TS2322: Type 'string[]' is not assignable to type '[string, string, string]'.\n  Target requires 3 element(s) but source may have fewer."
+    ]
+}

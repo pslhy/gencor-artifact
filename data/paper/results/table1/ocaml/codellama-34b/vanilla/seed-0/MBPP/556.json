@@ -1,0 +1,22 @@
+{
+    "decoded": 119,
+    "llm_time": 6.369285583496094,
+    "after_llm_time": 0.0,
+    "check_after_gen_time": 0.0031604766845703125,
+    "constrainer_time": 0.028548479080200195,
+    "prob_time": 0.0,
+    "prob_reuse_pick_time": 0.0,
+    "prob_mask_time": 0.0,
+    "total_time": 6.434927463531494,
+    "frequency": {
+        "1": 120
+    },
+    "is_uv": true,
+    "is_synerr": false,
+    "is_err": false,
+    "is_timeout": false,
+    "time_limit": 90,
+    "errors": [
+        "test.ml:15:13: Unbound value \"count_Odd_Pair\"\nHint: If this is a recursive definition,\nyou should add the \"rec\" keyword on line 10"
+    ]
+}
